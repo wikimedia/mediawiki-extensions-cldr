@@ -12,7 +12,7 @@ if (!defined('MEDIAWIKI')) die();
 
 $wgExtensionCredits['other'][] = array(
 	'name' => 'Language names',
-	'version' => '1.0',
+	'version' => '1.1',
 	'author' => 'Niklas Laxström',
 	'description' => 'Extension which provised localised language names'
 );
@@ -65,12 +65,27 @@ class LanguageNames {
 
 	private static function loadLanguage( $code ) {
 		if ( !isset(self::$cache[$code]) ) {
+
+			/** Load override for wrong or missing entries in cldr */
+			$override = dirname(__FILE__) . '/' . self::getOverrideFileName( $code );
+			if ( file_exists( $override ) ) {
+				$names = false;
+				require( $override );
+				if ( is_array( $names ) ) {
+					self::$cache[$code] = $names;
+				}
+			}
+
 			$filename = dirname(__FILE__) . '/' . self::getFileName( $code );
 			if ( file_exists( $filename ) ) {
 				$names = false;
 				require( $filename );
 				if ( is_array( $names ) ) {
-					self::$cache[$code] = $names;
+					if ( isset(self::$cache[$code]) ) {
+						self::$cache[$code] = self::$cache[$code] + $names; # Don't override
+					} else {
+						self::$cache[$code] = $names; # No override list
+					}
 				}
 			} else {
 				wfDebug( __METHOD__ . ": Unable to load language names for $filename\n" );
@@ -81,8 +96,12 @@ class LanguageNames {
 	}
 
 	public static function getFileName( $code ) {
-		global $IP;
 		return Language::getFileName( "LanguageNames", $code, '.php' );
 	}
+
+	public static function getOverrideFileName( $code ) {
+		return Language::getFileName( "LocalNames", $code, '.php' );
+	}
+
 
 }
