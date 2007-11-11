@@ -14,7 +14,7 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'Language names',
 	'version' => '1.2',
 	'author' => 'Niklas Laxström',
-	'description' => 'Extension which provised localised language names'
+	'description' => 'Extension which provides localised language names'
 );
 
 class LanguageNames {
