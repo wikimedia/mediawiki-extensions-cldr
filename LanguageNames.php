@@ -12,7 +12,7 @@ if (!defined('MEDIAWIKI')) die();
 
 $wgExtensionCredits['other'][] = array(
 	'name' => 'Language names',
-	'version' => '1.1',
+	'version' => '1.2',
 	'author' => 'Niklas Laxström',
 	'description' => 'Extension which provised localised language names'
 );
@@ -43,8 +43,15 @@ class LanguageNames {
 				$fb = array_merge( self::loadLanguage( $fallback ), $fb );
 			}
 
-			/* And lastly, add native names for codes that are not in cldr */
+			/* Add native names for codes that are not in cldr */
 			$names = array_merge( $native, $fb );
+
+			/* Special case for native name for $code language, which is already
+			 * provided by MediaWiki.
+			 */
+			if ( isset( $native[$code] ) ) {
+				$names[$code] = $native[$code];
+			}
 		} else {
 			throw new MWException( "Invalid value for 2:\$fallback in ".__METHOD__ );
 		}
