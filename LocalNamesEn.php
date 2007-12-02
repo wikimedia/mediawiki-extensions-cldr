@@ -17,4 +17,34 @@ $names = array(
  */
 'bpy'         => 'Bishnupriya',
 
+/* Not in CLDR 1.5. Romance language.
+ * Added 2007-12-02.
+ */
+'ext'        => 'Extremaduran',
+
+/* Not in CLDR 1.5. Variety of France.
+ * Added 2007-12-02.
+ */
+'frc'        => 'Cajun French',
+
+/* Not in CLDR 1.5. Romance language.
+ * Added 2007-12-02.
+ */
+'frp'        => 'Franco-Provençal',
+
+/* Not in CLDR 1.5. Chinese language.
+ * Added 2007-12-02.
+ */
+'hak'        => 'Hakka',
+
+/* Not in CLDR 1.5. Chinese language.
+ * Added 2007-12-02.
+ */
+'gan'        => 'Gan',
+
+/* Not in CLDR 1.5. Chinese language.
+ * Added 2007-12-02.
+ */
+'wuu'        => 'Wu',
+
 );
