@@ -11,11 +11,10 @@ if (!defined('MEDIAWIKI')) die();
  */
 
 $wgExtensionCredits['other'][] = array(
-	'name'        => 'Language names',
-	'version'     => '1.2',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:Language Names',
-	'author'      => 'Niklas Laxström',
-	'description' => 'Extension which provides localised language names',
+	'name' => 'Language names',
+	'version' => '1.2',
+	'author' => 'Niklas Laxström',
+	'description' => 'Extension which provides localised language names'
 );
 
 class LanguageNames {
@@ -110,4 +109,6 @@ class LanguageNames {
 	public static function getOverrideFileName( $code ) {
 		return Language::getFileName( "LocalNames", $code, '.php' );
 	}
+
+
 }
