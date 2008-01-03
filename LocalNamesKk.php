@@ -1,6 +1,4 @@
 <?php
 
-
 /* Kazakh default, fallback to kk-cyrl */
-require_once( 'LanguageNamesKk-cyrl.php' );
-
+require_once( 'LocalNamesKk-cyrl.php' );
