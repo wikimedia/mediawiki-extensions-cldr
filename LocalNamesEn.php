@@ -1,5 +1,11 @@
 <?php
 $names = array(
+/* Does not exist in CLDR 1.5. Name Gheg Albanian used by Ethnologue:
+ * http://www.ethnologue.com/show_language.asp?code=aln
+ * Added 2008-01-04.
+ */
+'aln'         => 'Gheg Albanian',
+
 /* Does not exist in CLDR 1.5. Name Bavarian used by Ethnologue:
  * http://www.ethnologue.com/show_language.asp?code=bar
  * Added 2007-11-10.
