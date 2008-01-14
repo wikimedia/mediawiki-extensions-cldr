@@ -48,6 +48,16 @@ $names = array(
  */
 'gan'        => 'Gan',
 
+/* Not in CLDR 1.5. Turkic  language.
+ * Added 2008-01-14.
+ */
+'gag'        => 'Gagauz',
+
+/* Not in CLDR 1.5. Tibeto-Burman family language.
+ * Added 2008-01-14.
+ */
+'njo'        => 'Ao Naga',
+
 /* Not in CLDR 1.5. Chinese language.
  * Added 2007-12-02.
  */
