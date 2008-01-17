@@ -24,6 +24,11 @@ $names = array(
 'bpy'         => 'Bishnupriya',
 
 /* Not in CLDR 1.5. Romance language.
+ * Added 2008-01-17.
+ */
+'eml'        => 'Emiliano-Romagnolo',
+
+/* Not in CLDR 1.5. Romance language.
  * Added 2007-12-02.
  */
 'ext'        => 'Extremaduran',
