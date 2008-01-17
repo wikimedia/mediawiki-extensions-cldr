@@ -68,8 +68,6 @@ $names = array(
  */
 'wuu'        => 'Wu',
 
-);
-
 /* Not in CLDR 1.5. Low Franconian language.
  * Added 2008-01-17.
  */
