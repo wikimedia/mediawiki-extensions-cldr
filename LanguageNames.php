@@ -11,11 +11,16 @@ if (!defined('MEDIAWIKI')) die();
  */
 
 $wgExtensionCredits['other'][] = array(
-	'name' => 'Language names',
+	'name' => 'LanguageNames',
 	'version' => '1.2',
 	'author' => 'Niklas Laxström',
-	'description' => 'Extension which provides localised language names'
+	'url' => 'http://unicode.org/cldr/repository_access.html',
+	'description' => 'Extension which provides localised language names',
+	'descriptionmsg' => 'cldr-desc',
 );
+
+$dir = dirname(__FILE__) . '/';
+$wgExtensionMessagesFiles['cldr'] = $dir . 'LanguageNames.i18n.php';
 
 class LanguageNames {
 
@@ -29,7 +34,7 @@ class LanguageNames {
 
 
 	public static function getNames( $code, $fallback = self::FALLBACK_NATIVE, $list = self::LIST_MW ) {
-
+		wfLoadExtensionMessages( 'cldr');
 		$xx = self::loadLanguage( $code );
 		$native = Language::getLanguageNames( $list === self::LIST_MW_SUPPORTED );
 
