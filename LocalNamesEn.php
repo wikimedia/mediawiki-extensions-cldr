@@ -80,6 +80,14 @@ $names = array(
  */
 'pnt'        => 'Pontic',
 
+/* Not in CLDR 1.5. Eastern Romance language.
+ * Added 2008-02-04.
+ */
+'ruq'        => 'Megleno-Romanian',
+'ruq-cyrl'   => 'Megleno-Romanian (Cyrillic script)',
+'ruq-grek'   => 'Megleno-Romanian (Greek script)',
+'ruq-latn'   => 'Megleno-Romanian (Latin script)',
+
 /* Not in CLDR 1.5. Atlas language.
  * Added 2008-01-18.
  */
