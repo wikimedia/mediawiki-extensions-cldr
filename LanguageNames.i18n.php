@@ -26,3 +26,17 @@ $messages['nl'] = array(
 	'cldr-desc' => 'Uitbreiding die vertaalde namen van talen biedt',
 );
 
+/** Norwegian (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['no'] = array(
+	'cldr-desc' => 'Utvidelse som gir oversatte språknavn',
+);
+
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'cldr-desc' => 'Rozšírenie, ktoré poskytuje lokalizované názvy jazykov',
+);
+
