@@ -33,6 +33,13 @@ $messages['no'] = array(
 	'cldr-desc' => 'Utvidelse som gir oversatte språknavn',
 );
 
+/** Portuguese (Português)
+ * @author Malafaya
+ */
+$messages['pt'] = array(
+	'cldr-desc' => 'Extensão que providencia nomes localizados de línguas',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
