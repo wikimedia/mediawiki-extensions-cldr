@@ -48,10 +48,20 @@ $names = array(
  */
 'hak'        => 'Hakka',
 
+/* Not in CLDR 1.5. Turkic language.
+ * Added 2008-01-14.
+ */
+'gag'        => 'Gagauz',
+
 /* Not in CLDR 1.5. Chinese language.
  * Added 2007-12-02.
  */
 'gan'        => 'Gan',
+
+/* Not in CLDR 1.5. Danish language.
+ * Added 2008-02-06.
+ */
+'jut'        => 'Jutish',
 
 /* Not in CLDR 1.5. Aralo-Caspian language.
  * Added 2008-01-18.
@@ -59,11 +69,6 @@ $names = array(
 'kk-arab'        => 'Kazakh (Arabic script)',
 'kk-cyrl'        => 'Kazakh (Cyrillic script)',
 'kk-latn'        => 'Kazakh (Latin script)',
-
-/* Not in CLDR 1.5. Turkic language.
- * Added 2008-01-14.
- */
-'gag'        => 'Gagauz',
 
 /* Not in CLDR 1.5. Artificial language.
  * Added 2008-01-18.
