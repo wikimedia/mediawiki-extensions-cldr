@@ -8,6 +8,13 @@ $messages['en'] = array (
 	'cldr-desc' => 'Extension which provides localised language names',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة',
+);
+
 $messages['fr'] = array (
 	'cldr-desc' => 'Extension qui fournit le nom des langues disponibles',
 );
