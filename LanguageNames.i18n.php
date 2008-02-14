@@ -47,6 +47,13 @@ $messages['no'] = array(
 	'cldr-desc' => 'Utvidelse som gir oversatte språknavn',
 );
 
+/** Occitan (Occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'cldr-desc' => 'Extension que provesís lo nom de las lengas disponiblas',
+);
+
 /** Portuguese (Português)
  * @author Malafaya
  */
