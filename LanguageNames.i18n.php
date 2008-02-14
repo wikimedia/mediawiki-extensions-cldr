@@ -15,6 +15,13 @@ $messages['ar'] = array(
 	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة',
 );
 
+/** German (Deutsch)
+ * @author Raimond Spekking
+*/
+$messages['de'] = array (
+	'cldr-desc' => 'Unterstützung für lokalisierte Sprachennamen',
+);
+
 $messages['fr'] = array (
 	'cldr-desc' => 'Extension qui fournit le nom des langues disponibles',
 );
