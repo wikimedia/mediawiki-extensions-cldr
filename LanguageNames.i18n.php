@@ -33,6 +33,13 @@ $messages['hsb'] = array(
 	'cldr-desc' => 'Rožšěrjenje, kotrež lokalizowane mjena rěčow k dispoziciji staja.',
 );
 
+/** Japanese (日本語)
+ * @author JtFuruhata
+ */
+$messages['ja'] = array(
+	'cldr-desc' => 'MediaWiki が対応している言語名のリスト',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
