@@ -23,27 +23,38 @@ $names = array(
  */
 'bpy'         => 'Bishnupriya',
 
+/* Does not exist in CLDR 1.5. Swedish language
+ * http://www.ethnologue.org/show_language.asp?code=dlc
+ * Added 2008-02-16.
+ */
+'dlc'         => 'Dalecarlian',
+
 /* Not in CLDR 1.5. Romance language.
+ * http://www.ethnologue.org/show_language.asp?code=eml
  * Added 2008-01-17.
  */
 'eml'        => 'Emiliano-Romagnolo',
 
 /* Not in CLDR 1.5. Romance language.
+ * http://www.ethnologue.org/show_language.asp?code=ext
  * Added 2007-12-02.
  */
 'ext'        => 'Extremaduran',
 
-/* Not in CLDR 1.5. Variety of France.
+/* Not in CLDR 1.5. Variety of French.
+ * http://www.ethnologue.org/show_language.asp?code=frc
  * Added 2007-12-02.
  */
 'frc'        => 'Cajun French',
 
 /* Not in CLDR 1.5. Romance language.
+ * http://www.ethnologue.org/show_language.asp?code=frp
  * Added 2007-12-02.
  */
 'frp'        => 'Franco-Provençal',
 
 /* Not in CLDR 1.5. Chinese language.
+ * http://www.ethnologue.org/show_language.asp?code=hak
  * Added 2007-12-02.
  */
 'hak'        => 'Hakka',
@@ -54,11 +65,13 @@ $names = array(
 'gag'        => 'Gagauz',
 
 /* Not in CLDR 1.5. Chinese language.
+ * http://www.ethnologue.org/show_language.asp?code=gan
  * Added 2007-12-02.
  */
 'gan'        => 'Gan',
 
 /* Not in CLDR 1.5. Danish language.
+ * http://www.ethnologue.org/show_language.asp?code=jut
  * Added 2008-02-06.
  */
 'jut'        => 'Jutish',
@@ -71,11 +84,13 @@ $names = array(
 'kk-latn'        => 'Kazakh (Latin script)',
 
 /* Not in CLDR 1.5. Artificial language.
+ * http://www.ethnologue.org/show_language.asp?code=lfn
  * Added 2008-01-18.
  */
 'lfn'        => 'Lingua Franca Nova',
 
 /* Not in CLDR 1.5. Tibeto-Burman family language.
+ * http://www.ethnologue.org/show_language.asp?code=njo
  * Added 2008-01-14.
  */
 'njo'        => 'Ao Naga',
@@ -86,6 +101,7 @@ $names = array(
 'pnt'        => 'Pontic',
 
 /* Not in CLDR 1.5. Eastern Romance language.
+ * http://www.ethnologue.org/show_language.asp?code=ruq
  * Added 2008-02-04.
  */
 'ruq'        => 'Megleno-Romanian',
@@ -94,22 +110,26 @@ $names = array(
 'ruq-latn'   => 'Megleno-Romanian (Latin script)',
 
 /* Not in CLDR 1.5. Atlas language.
+ * http://www.ethnologue.org/show_language.asp?code=shi
  * Added 2008-01-18.
  */
 'shi'        => 'Tachelhit',
 
 /* Not in CLDR 1.5. Chinese language.
+ * http://www.ethnologue.org/show_language.asp?code=wuu
  * Added 2007-12-02.
  */
 'wuu'        => 'Wu',
 
 /* Not in CLDR 1.5. Chinese language.
+ * http://www.ethnologue.org/show_language.asp?code=que
  * Added 2008-01-18.
  */
 'yue'        => 'Yue',
 'zh-yue'        => 'Yue', # language redirect
 
 /* Not in CLDR 1.5. Low Franconian language.
+ * http://www.ethnologue.org/show_language.asp?code=zea
  * Added 2008-01-17.
  */
 'zea'        => 'Zeeuws',
