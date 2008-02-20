@@ -82,3 +82,10 @@ $messages['sk'] = array(
 	'cldr-desc' => 'Rozšírenie, ktoré poskytuje lokalizované názvy jazykov',
 );
 
+/** Swedish (Svenska)
+ * @author M.M.S.
+ */
+$messages['sv'] = array(
+	'cldr-desc' => 'Tilläggsprogram vilket ger lokaliserade språk namn',
+);
+
