@@ -84,8 +84,9 @@ $messages['sk'] = array(
 
 /** Swedish (Svenska)
  * @author M.M.S.
+ * @author Lejonel
  */
 $messages['sv'] = array(
-	'cldr-desc' => 'Tilläggsprogram vilket ger lokaliserade språk namn',
+	'cldr-desc' => 'Tillägg som ger översättningar av språknamn',
 );
 
