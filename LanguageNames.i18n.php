@@ -22,6 +22,13 @@ $messages['bn'] = array(
 	'cldr-desc' => 'এই এক্সটেনশনটি ভাষাগুলির স্থানীয়কৃত নাম প্রদান করে',
 );
 
+/** Czech (Česky)
+ * @author Matěj Grabovský
+ */
+$messages['cs'] = array(
+	'cldr-desc' => 'Doplňek, který poskytuje lokalizované názvy jazyků',
+);
+
 /** German (Deutsch)
  * @author Raimond Spekking
 */
@@ -73,6 +80,13 @@ $messages['oc'] = array(
  */
 $messages['pt'] = array(
 	'cldr-desc' => 'Extensão que providencia nomes localizados de línguas',
+);
+
+/** Russian (Русский)
+ * @author .:Ajvol:.
+ */
+$messages['ru'] = array(
+	'cldr-desc' => 'Расширение, предоставляющее переводы названий языков',
 );
 
 /** Slovak (Slovenčina)
