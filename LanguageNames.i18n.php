@@ -54,6 +54,13 @@ $messages['ja'] = array(
 	'cldr-desc' => 'MediaWiki が対応している言語名のリスト',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'cldr-desc' => 'Erweiderung déi iwwersate Sproochenimmm zur Verfügung stellt',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
