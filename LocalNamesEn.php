@@ -134,4 +134,9 @@ $names = array(
  */
 'zea'        => 'Zeeuws',
 
+'ike-cans'   => 'Eastern Canadian (Unified Canadian Aboriginal Syllabics)',
+'crh-cyrl'   => 'Crimean Turkish (Cyrillic)',
+'crh-latn'   => 'Crimean Turkish (Latin)',
+'no'         => 'Norwegian (bokmål)‬',
+'xmf'        => 'Mingrelian',
 );
