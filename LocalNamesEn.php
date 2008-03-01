@@ -89,6 +89,18 @@ $names = array(
  */
 'lfn'        => 'Lingua Franca Nova',
 
+/* Not in CLDR 1.5. Caspian language
+ * http://www.ethnologue.org/show_language.asp?code=mzn
+ * Added 2008-03-01.
+ */
+'mzn'        => 'Mazanderani',
+
+/* Not in CLDR 1.5. Chinese language
+ * http://www.ethnologue.org/show_language.asp?code=nan
+ * Added 2008-03-01.
+ */
+'nan'        => 'Min Nan Chinese',
+
 /* Not in CLDR 1.5. Tibeto-Burman family language.
  * http://www.ethnologue.org/show_language.asp?code=njo
  * Added 2008-01-14.
@@ -134,9 +146,24 @@ $names = array(
  */
 'zea'        => 'Zeeuws',
 
-'ike-cans'   => 'Eastern Canadian (Unified Canadian Aboriginal Syllabics)',
+/* Not in CLDR. Used for MediaWiki localisation
+ */
+'be-tarask'  => 'Belarusian (Taraškievica orthography)',
+'cdo'        => 'Min Dong Chinese',
 'crh-cyrl'   => 'Crimean Turkish (Cyrillic)',
 'crh-latn'   => 'Crimean Turkish (Latin)',
+'de-formal'  => 'German (formal address)',
+'glk'        => 'Gilaki',
+'ike-cans'   => 'Eastern Canadian (Unified Canadian Aboriginal Syllabics)',
+'ike-latn'   => 'Eastern Canadian (Latin)',
+'kk-cn'      => 'Kazakh (China)',
+'kk-kz'      => 'Kazakh (Kazakhstan)',
+'kk-tr'      => 'Kazakh (Turkey)',
 'no'         => 'Norwegian (bokmål)‬',
+'roa-rup'    => 'Aromanian',
+'sr-ec'      => 'Serbian Cyrillic ekavian',
+'sr-jl'      => 'Serbian Latin iyekavian',
 'xmf'        => 'Mingrelian',
+'ydd'        => 'Eastern Yiddish',
+'zh-hk'      => 'Hong Kong Chinese',
 );
