@@ -34,7 +34,6 @@ class LanguageNames {
 
 
 	public static function getNames( $code, $fallback = self::FALLBACK_NATIVE, $list = self::LIST_MW ) {
-		wfLoadExtensionMessages( 'cldr');
 		$xx = self::loadLanguage( $code );
 		$native = Language::getLanguageNames( $list === self::LIST_MW_SUPPORTED );
 
