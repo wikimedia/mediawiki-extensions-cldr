@@ -103,6 +103,13 @@ $messages['sk'] = array(
 	'cldr-desc' => 'Rozšírenie, ktoré poskytuje lokalizované názvy jazykov',
 );
 
+/** Seeltersk (Seeltersk)
+ * @author Pyt
+ */
+$messages['stq'] = array(
+	'cldr-desc' => 'Unnerstutsenge fon lokalisierde Sproakennoomen',
+);
+
 /** Swedish (Svenska)
  * @author M.M.S.
  * @author Lejonel
