@@ -15,6 +15,13 @@ $messages['ar'] = array(
 	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة',
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'cldr-desc' => 'Предоставя локализирани имена на езиците',
+);
+
 /** Bengali (বাংলা)
  * @author Zaheen
  */
