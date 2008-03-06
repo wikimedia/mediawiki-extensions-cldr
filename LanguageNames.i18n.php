@@ -68,6 +68,13 @@ $messages['lb'] = array(
 	'cldr-desc' => 'Erweiderung déi iwwersate Sproochenimmm zur Verfügung stellt',
 );
 
+/** Marathi (मराठी)
+ * @author Mahitgar
+ */
+$messages['mr'] = array(
+	'cldr-desc' => 'स्थानिकीकरण झालेल्या भाषेचे नाव देणारा विस्तार',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
