@@ -96,6 +96,13 @@ $messages['oc'] = array(
 	'cldr-desc' => 'Extension que provesís lo nom de las lengas disponiblas',
 );
 
+/** Polish (Polski)
+ * @author Masti
+ */
+$messages['pl'] = array(
+	'cldr-desc' => 'Rozszerzenie dostarczające zlokalizowane nazwy języków',
+);
+
 /** Portuguese (Português)
  * @author Malafaya
  */
