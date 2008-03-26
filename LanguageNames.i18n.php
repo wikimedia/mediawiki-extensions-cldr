@@ -139,3 +139,11 @@ $messages['sv'] = array(
 	'cldr-desc' => 'Tillägg som ger översättningar av språknamn',
 );
 
+$messages['zh-hant'] = array (
+	'cldr-desc' => '本地化語言名稱',
+);
+
+$messages['zh-hans'] = array (
+	'cldr-desc' => '本地化语言名称',
+);
+
