@@ -127,6 +127,12 @@ $names = array(
  */
 'shi'        => 'Tachelhit',
 
+/* Not in CLDR 1.5.
+ * http://www.sil.org/iso639-3/chg_detail.asp?id=2006-106&lang=szl
+ * Added 2008-03-29.
+ */
+'szl'        => 'Silesian',
+
 /* Not in CLDR 1.5. Chinese language.
  * http://www.ethnologue.org/show_language.asp?code=wuu
  * Added 2007-12-02.
