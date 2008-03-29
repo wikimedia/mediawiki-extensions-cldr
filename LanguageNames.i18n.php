@@ -139,11 +139,23 @@ $messages['sv'] = array(
 	'cldr-desc' => 'Tillägg som ger översättningar av språknamn',
 );
 
-$messages['zh-hant'] = array (
-	'cldr-desc' => '本地化語言名稱',
+/** Cantonese
+ * @author Shinjiman
+ */
+$messages['yue'] = array (
+	'cldr-desc' => '提供本地化名嘅擴展',
 );
 
+/** Chinese (Simplified)
+ * @author Alex S.H. Lin
+ */
 $messages['zh-hans'] = array (
 	'cldr-desc' => '本地化语言名称',
 );
 
+/** Chinese (Traditional)
+ * @author Alex S.H. Lin
+ */
+$messages['zh-hant'] = array (
+	'cldr-desc' => '本地化語言名稱',
+);
