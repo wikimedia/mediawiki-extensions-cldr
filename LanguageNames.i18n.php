@@ -139,6 +139,13 @@ $messages['sv'] = array(
 	'cldr-desc' => 'Tillägg som ger översättningar av språknamn',
 );
 
+/** Ukrainian (Українська)
+ * @author Ahonc
+ */
+$messages['uk'] = array(
+	'cldr-desc' => 'Розширення, що надає переклади назв мов',
+);
+
 /** Cantonese
  * @author Shinjiman
  */
@@ -159,3 +166,4 @@ $messages['zh-hans'] = array (
 $messages['zh-hant'] = array (
 	'cldr-desc' => '本地化語言名稱',
 );
+
