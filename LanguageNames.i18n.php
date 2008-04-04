@@ -47,6 +47,13 @@ $messages['fr'] = array (
 	'cldr-desc' => 'Extension qui fournit le nom des langues disponibles',
 );
 
+/** Hindi (हिन्दी)
+ * @author Kaustubh
+ */
+$messages['hi'] = array(
+	'cldr-desc' => 'स्थानिकीकरण हुए भाषा का नाम देनेवाला एक्स्टेंशन',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
