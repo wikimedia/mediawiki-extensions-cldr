@@ -79,9 +79,9 @@ $names = array(
 /* Not in CLDR 1.5. Aralo-Caspian language.
  * Added 2008-01-18.
  */
-'kk-arab'        => 'Kazakh (Arabic script)',
-'kk-cyrl'        => 'Kazakh (Cyrillic script)',
-'kk-latn'        => 'Kazakh (Latin script)',
+'kk-arab'    => 'Kazakh (Arabic script)',
+'kk-cyrl'    => 'Kazakh (Cyrillic script)',
+'kk-latn'    => 'Kazakh (Latin script)',
 
 /* Not in CLDR 1.5. Artificial language.
  * http://www.ethnologue.org/show_language.asp?code=lfn
@@ -144,7 +144,7 @@ $names = array(
  * Added 2008-01-18.
  */
 'yue'        => 'Yue',
-'zh-yue'        => 'Yue', # language redirect
+'zh-yue'     => 'Yue', # language redirect
 
 /* Not in CLDR 1.5. Low Franconian language.
  * http://www.ethnologue.org/show_language.asp?code=zea
