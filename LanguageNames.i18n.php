@@ -43,6 +43,13 @@ $messages['de'] = array (
 	'cldr-desc' => 'Unterstützung für lokalisierte Sprachennamen',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'cldr-desc' => 'Etendilo kiu provizas asimilitajn lingvo-nomojn',
+);
+
 $messages['fr'] = array (
 	'cldr-desc' => 'Extension qui fournit le nom des langues disponibles',
 );
