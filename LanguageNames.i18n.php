@@ -153,6 +153,13 @@ $messages['sv'] = array(
 	'cldr-desc' => 'Tillägg som ger översättningar av språknamn',
 );
 
+/** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
+ * @author Ibrahim
+ */
+$messages['tg-cyrl'] = array(
+	'cldr-desc' => 'Афзунае, ки номҳои маҳалликунонидашудаи забонҳоро пешкаш мекунад',
+);
+
 /** Ukrainian (Українська)
  * @author Ahonc
  */
