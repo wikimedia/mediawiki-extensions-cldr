@@ -168,7 +168,6 @@ $names = array(
 'no'         => 'Norwegian (bokmål)‬',
 'roa-rup'    => 'Aromanian',
 'sr-ec'      => 'Serbian Cyrillic ekavian',
-'sr-jl'      => 'Serbian Latin iyekavian',
 'xmf'        => 'Mingrelian',
 'ydd'        => 'Eastern Yiddish',
 'zh-hk'      => 'Hong Kong Chinese',
