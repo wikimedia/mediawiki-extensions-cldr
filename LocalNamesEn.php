@@ -6,6 +6,12 @@ $names = array(
  */
 'aln'         => 'Gheg Albanian',
 
+/* Does not exist in CLDR 1.5. Arabic language
+ * http://www.ethnologue.com/show_language.asp?code=arz
+ * Added 2008-04-12.
+ */
+'arz'         => 'Egyptian Spoken Arabic',
+
 /* Does not exist in CLDR 1.5. Name Bavarian used by Ethnologue:
  * http://www.ethnologue.com/show_language.asp?code=bar
  * Added 2007-11-10.
