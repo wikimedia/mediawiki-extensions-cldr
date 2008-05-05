@@ -167,6 +167,13 @@ $messages['uk'] = array(
 	'cldr-desc' => 'Розширення, що надає переклади назв мов',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Vinhtantran
+ */
+$messages['vi'] = array(
+	'cldr-desc' => 'Gói mở rộng cung cấp tên ngôn ngữ đã địa phương hóa',
+);
+
 /** Cantonese
  * @author Shinjiman
  */
