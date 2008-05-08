@@ -75,6 +75,13 @@ $messages['ja'] = array(
 	'cldr-desc' => 'MediaWiki が対応している言語名のリスト',
 );
 
+/** Javanese (Basa Jawa)
+ * @author Meursault2004
+ */
+$messages['jv'] = array(
+	'cldr-desc' => 'Èkstènsi sing mènèhi jeneng basa sing dilokalisasi',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
