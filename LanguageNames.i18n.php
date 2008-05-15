@@ -174,6 +174,13 @@ $messages['uk'] = array(
 	'cldr-desc' => 'Розширення, що надає переклади назв мов',
 );
 
+/** Vèneto (Vèneto)
+ * @author Candalua
+ */
+$messages['vec'] = array(
+	'cldr-desc' => 'Estension che fornisse i nomi localizà de le varie lengue',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Vinhtantran
  */
