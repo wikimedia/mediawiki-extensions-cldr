@@ -89,6 +89,13 @@ $messages['lb'] = array(
 	'cldr-desc' => 'Erweiderung déi iwwersate Sproochenimmm zur Verfügung stellt',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Shijualex
+ */
+$messages['ml'] = array(
+	'cldr-desc' => 'പ്രാദേശികവല്‍ക്കരിക്കപ്പെട്ട നാമങ്ങള്‍ ഉപയോഗിക്കുവാന്‍ സഹായിക്കുന്ന എക്സ്റ്റെന്‍ഷന്‍',
+);
+
 /** Marathi (मराठी)
  * @author Mahitgar
  */
