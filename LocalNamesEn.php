@@ -95,6 +95,12 @@ $names = array(
  */
 'lfn'        => 'Lingua Franca Nova',
 
+/* Not in CLDR 1.5. Mari language
+ * http://www.ethnologue.org/show_language.asp?code=mhr
+ * Added 2008-05-22.
+ */
+'mhr'        => 'Eastern Mari',
+
 /* Not in CLDR 1.5. Caspian language
  * http://www.ethnologue.org/show_language.asp?code=mzn
  * Added 2008-03-01.
@@ -177,4 +183,5 @@ $names = array(
 'xmf'        => 'Mingrelian',
 'ydd'        => 'Eastern Yiddish',
 'zh-hk'      => 'Hong Kong Chinese',
+'zh-tw'      => 'Taiwan Chinese',
 );
