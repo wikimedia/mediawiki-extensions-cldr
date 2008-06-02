@@ -33,7 +33,7 @@ $messages['bn'] = array(
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
-	'cldr-desc' => 'Doplňek, který poskytuje lokalizované názvy jazyků',
+	'cldr-desc' => 'Rozšíření, který poskytuje lokalizované názvy jazyků',
 );
 
 /** German (Deutsch)
