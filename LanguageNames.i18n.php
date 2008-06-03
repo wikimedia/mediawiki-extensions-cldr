@@ -82,6 +82,13 @@ $messages['jv'] = array(
 	'cldr-desc' => 'Èkstènsi sing mènèhi jeneng basa sing dilokalisasi',
 );
 
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'cldr-desc' => 'Brengk ettlijje Name för Shprooche op ettlijje Shprooche en et Wiki',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
