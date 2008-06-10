@@ -166,6 +166,13 @@ $messages['stq'] = array(
 	'cldr-desc' => 'Unnerstutsenge fon lokalisierde Sproakennoomen',
 );
 
+/** Sundanese (Basa Sunda)
+ * @author Irwangatot
+ */
+$messages['su'] = array(
+	'cldr-desc' => 'Éksténsi anu nyadiakeun lokalisasi ngaran basa',
+);
+
 /** Swedish (Svenska)
  * @author M.M.S.
  * @author Lejonel
