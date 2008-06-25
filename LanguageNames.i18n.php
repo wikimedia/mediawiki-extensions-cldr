@@ -54,6 +54,13 @@ $messages['fr'] = array (
 	'cldr-desc' => 'Extension qui fournit le nom des langues disponibles',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'cldr-desc' => 'Extensión que proporciona os nomes localizados das linguas',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
