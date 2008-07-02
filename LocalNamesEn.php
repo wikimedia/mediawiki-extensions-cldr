@@ -24,6 +24,12 @@ $names = array(
 'bat-smg'     => 'Samogitian',
 
 /* Does not exist in CLDR 1.5. Name Bishnupriya used by Ethnologue:
+ * http://www.ethnologue.org/show_language.asp?code=bcc
+ * Added 2008-07-02.
+ */
+'bcc'         => 'Southern Balochi',
+
+/* Does not exist in CLDR 1.5. Name Bishnupriya used by Ethnologue:
  * http://www.ethnologue.org/show_language.asp?code=bpy
  * Added 2007-11-10.
  */
