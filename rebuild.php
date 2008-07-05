@@ -69,17 +69,20 @@ class CLDRParser {
 	function e($parser, $name) {
 		if ( $name === 'LANGUAGES' ) {
 			$this->languages = false;
+			$this->ok = false;
 			return;
 		}
 		if (!$this->ok) return;
 		$this->output .= "',\n";
 	}
+
 	function c($parser, $data) {
 		if (!$this->ok) return;
 		if (trim($data) === '') return;
 		$this->output .= preg_replace( "/(?<!\\\\)'/", "\'", trim($data));
 		$this->count++;
 	}
+
 	function parse($input, $output) {
 
 		$xml_parser = xml_parser_create();

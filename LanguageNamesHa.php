@@ -1,4 +1,4 @@
 <?php
 $names = array(
-'kk' => 'Қазақ',
+'ha' => 'Haoussa',
 );
