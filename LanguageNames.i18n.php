@@ -43,6 +43,13 @@ $messages['de'] = array (
 	'cldr-desc' => 'Unterstützung für lokalisierte Sprachennamen',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'cldr-desc' => 'Rozšyrjenje, kótarež pódawa lokalizěrowane rěcne mjenja.',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
