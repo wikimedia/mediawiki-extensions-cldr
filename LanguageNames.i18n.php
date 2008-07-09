@@ -38,8 +38,8 @@ $messages['cs'] = array(
 
 /** German (Deutsch)
  * @author Raimond Spekking
-*/
-$messages['de'] = array (
+ */
+$messages['de'] = array(
 	'cldr-desc' => 'Unterstützung für lokalisierte Sprachennamen',
 );
 
@@ -57,7 +57,8 @@ $messages['eo'] = array(
 	'cldr-desc' => 'Etendilo kiu provizas asimilitajn lingvo-nomojn',
 );
 
-$messages['fr'] = array (
+/** French (Français) */
+$messages['fr'] = array(
 	'cldr-desc' => 'Extension qui fournit le nom des langues disponibles',
 );
 
@@ -131,7 +132,7 @@ $messages['nl'] = array(
 	'cldr-desc' => 'Uitbreiding die vertaalde namen van talen biedt',
 );
 
-/** Norwegian (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
@@ -223,24 +224,24 @@ $messages['vi'] = array(
 	'cldr-desc' => 'Gói mở rộng cung cấp tên ngôn ngữ đã địa phương hóa',
 );
 
-/** Cantonese
+/** Yue (粵語)
  * @author Shinjiman
  */
-$messages['yue'] = array (
+$messages['yue'] = array(
 	'cldr-desc' => '提供本地化名嘅擴展',
 );
 
-/** Chinese (Simplified)
+/** Simplified Chinese (‪中文(简体)‬)
  * @author Alex S.H. Lin
  */
-$messages['zh-hans'] = array (
+$messages['zh-hans'] = array(
 	'cldr-desc' => '本地化语言名称',
 );
 
-/** Chinese (Traditional)
+/** Traditional Chinese (‪中文(繁體)‬)
  * @author Alex S.H. Lin
  */
-$messages['zh-hant'] = array (
+$messages['zh-hant'] = array(
 	'cldr-desc' => '本地化語言名稱',
 );
 
