@@ -125,6 +125,12 @@ $names = array(
  */
 'njo'        => 'Ao Naga',
 
+/* Not in CLDR 1.5.
+ * http://www.ethnologue.org/show_language.asp?code=pms
+ * Added 2008-07-09.
+ */
+'pms'        => 'Piedmontese',
+
 /* Not in CLDR 1.5. Attic language.
  * Added 2008-01-18.
  */
