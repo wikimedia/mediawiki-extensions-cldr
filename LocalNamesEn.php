@@ -125,7 +125,7 @@ $names = array(
  */
 'njo'        => 'Ao Naga',
 
-/* Not in CLDR 1.5.
+/* Not in CLDR 1.6.0.
  * http://www.ethnologue.org/show_language.asp?code=pms
  * Added 2008-07-09.
  */
