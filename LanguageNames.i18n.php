@@ -83,6 +83,13 @@ $messages['hsb'] = array(
 	'cldr-desc' => 'Rožšěrjenje, kotrež lokalizowane mjena rěčow k dispoziciji staja.',
 );
 
+/** Italian (Italiano)
+ * @author Pietrodn
+ */
+$messages['it'] = array(
+	'cldr-desc' => 'Estensione che fornisce i nomi localizzati delle lingue',
+);
+
 /** Japanese (日本語)
  * @author JtFuruhata
  */
