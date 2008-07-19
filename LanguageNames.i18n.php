@@ -8,6 +8,13 @@ $messages['en'] = array (
 	'cldr-desc' => 'Extension which provides localised language names',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'cldr-desc' => 'Uitbreiding om die vertaalde name van tale bied',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
@@ -81,6 +88,13 @@ $messages['hi'] = array(
  */
 $messages['hsb'] = array(
 	'cldr-desc' => 'Rožšěrjenje, kotrež lokalizowane mjena rěčow k dispoziciji staja.',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author Rex
+ */
+$messages['id'] = array(
+	'cldr-desc' => 'Ekstensi yang menyediakan nama-nama bahasa dalam bahasa aslinya',
 );
 
 /** Italian (Italiano)
