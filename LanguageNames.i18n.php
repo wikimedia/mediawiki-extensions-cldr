@@ -22,6 +22,13 @@ $messages['ar'] = array(
 	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة',
 );
 
+/** Southern Balochi (بلوچی مکرانی)
+ * @author Mostafadaneshvar
+ */
+$messages['bcc'] = array(
+	'cldr-desc' => 'برنامه الحاقی که نام دگه زبانانء ترجمه اش کنت',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
