@@ -188,6 +188,13 @@ $messages['pt'] = array(
 	'cldr-desc' => 'Extensão que providencia nomes localizados de línguas',
 );
 
+/** Romanian (Română)
+ * @author KlaudiuMihaila
+ */
+$messages['ro'] = array(
+	'cldr-desc' => 'Extensie care oferă nume de limbi localizate',
+);
+
 /** Russian (Русский)
  * @author Александр Сигачёв
  */
