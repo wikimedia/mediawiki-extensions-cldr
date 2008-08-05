@@ -97,6 +97,13 @@ $messages['hsb'] = array(
 	'cldr-desc' => 'Rožšěrjenje, kotrež lokalizowane mjena rěčow k dispoziciji staja.',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'cldr-desc' => 'Extension que forni nomines localisate del linguas',
+);
+
 /** Indonesian (Bahasa Indonesia)
  * @author Rex
  */
