@@ -33,7 +33,7 @@ $names = array(
  * http://www.ethnologue.org/show_language.asp?code=bpy
  * Added 2007-11-10.
  */
-'bpy'         => 'Bishnupriya',
+'bpy'         => 'Bishnupria Manipuri',
 
 /* Does not exist in CLDR 1.5. Swedish language
  * http://www.ethnologue.org/show_language.asp?code=dlc
