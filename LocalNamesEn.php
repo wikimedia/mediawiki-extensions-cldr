@@ -84,7 +84,7 @@ $names = array(
 
 /* Not in CLDR 1.6.1. Konkani language
  * http://www.ethnologue.org/show_language.asp?code=gom
- * Added 2008-02-06.
+ * Added 2008-09-02.
  */
 'gom'        => 'Goanese Konkani',
 'gom-deva'   => 'Goanese Konkani (Devanagari script)',
@@ -136,7 +136,7 @@ $names = array(
  */
 'njo'        => 'Ao Naga',
 
-/* Not in CLDR 1.6.0.
+/* Not in CLDR 1.6.1.
  * http://www.ethnologue.org/show_language.asp?code=pms
  * Added 2008-07-09.
  */
@@ -161,6 +161,12 @@ $names = array(
  * Added 2008-01-18.
  */
 'shi'        => 'Tachelhit',
+
+/* Not in CLDR 1.6.1.
+ * http://www.sil.org/iso639-3/documentation.asp?id=sli
+ * Added 2008-09-02.
+ */
+'sli'        => 'Lower Silesian',
 
 /* Not in CLDR 1.6.1.
  * http://www.sil.org/iso639-3/documentation.asp?id=szl
