@@ -82,6 +82,17 @@ $names = array(
  */
 'gan'        => 'Gan',
 
+/* Not in CLDR 1.6.1. Konkani language
+ * http://www.ethnologue.org/show_language.asp?code=gom
+ * Added 2008-02-06.
+ */
+'gom'        => 'Goanese Konkani',
+'gom-deva'   => 'Goanese Konkani (Devanagari script)',
+'gom-latn'   => 'Goanese Konkani (Latin script)',
+'gom-knda'   => 'Goanese Konkani (Kannada script)',
+'gom-mlym'   => 'Goanese Konkani (Malayalam script)',
+'gom-arab'   => 'Goanese Konkani (Arabic script)',
+
 /* Not in CLDR 1.6.1. Danish language.
  * http://www.ethnologue.org/show_language.asp?code=jut
  * Added 2008-02-06.
