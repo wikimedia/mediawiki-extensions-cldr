@@ -187,7 +187,7 @@ $names = array(
 'wuu'        => 'Wu',
 
 /* Not in CLDR 1.6.1. Chinese language.
- * http://www.ethnologue.org/show_language.asp?code=que
+ * http://www.ethnologue.org/show_language.asp?code=yue
  * Added 2008-01-18.
  */
 'yue'        => 'Yue',
@@ -218,7 +218,8 @@ $names = array(
 'xmf'          => 'Mingrelian',
 'ydd'          => 'Eastern Yiddish',
 'zh-classical' => 'Classical Chinese',
-'zh-hk'        => 'Hong Kong Chinese',
-'zh-sg'        => 'Singapore Chinese',
-'zh-tw'        => 'Taiwan Chinese',
+'zh-cn'        => 'Chinese (China)',
+'zh-hk'        => 'Chinese (Hong Kong)',
+'zh-sg'        => 'Chinese (Singapore)',
+'zh-tw'        => 'Chinese (Taiwan)',
 );
