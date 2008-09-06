@@ -22,6 +22,13 @@ $messages['ar'] = array(
 	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة',
 );
 
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
+$messages['arz'] = array(
+	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة',
+);
+
 /** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  */
