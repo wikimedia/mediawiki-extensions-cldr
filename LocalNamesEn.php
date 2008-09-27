@@ -23,7 +23,7 @@ $names = array(
  */
 'bat-smg'     => 'Samogitian',
 
-/* Does not exist in CLDR 1.6.1. Name Bishnupriya used by Ethnologue:
+/* Does not exist in CLDR 1.6.1. Balochi language
  * http://www.ethnologue.org/show_language.asp?code=bcc
  * Added 2008-07-02.
  */
@@ -34,6 +34,12 @@ $names = array(
  * Added 2007-11-10.
  */
 'bpy'         => 'Bishnupria Manipuri',
+
+/* Does not exist in CLDR 1.6.1. Luri language
+ * http://www.ethnologue.org/show_language.asp?code=bqi
+ * Added 2007-11-10.
+ */
+'bqi'         => 'Bakhtiari',
 
 /* Does not exist in CLDR 1.6.1. Swedish language
  * http://www.ethnologue.org/show_language.asp?code=dlc
