@@ -8,6 +8,13 @@ $messages['en'] = array (
 	'cldr-desc' => 'Extension which provides localised language names',
 );
 
+/** Message documentation (Message documentation)
+ * @author Purodha
+ */
+$messages['qqq'] = array(
+	'cldr-desc' => 'Short description of the Cldr extension, shown in [[Special:Version]]. Do not translate or change links.',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
