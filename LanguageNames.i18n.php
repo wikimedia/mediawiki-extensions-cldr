@@ -97,6 +97,13 @@ $messages['gl'] = array(
 	'cldr-desc' => 'Extensión que proporciona os nomes localizados das linguas',
 );
 
+/** Hebrew (עברית)
+ * @author Rotemliss
+ */
+$messages['he'] = array(
+	'cldr-desc' => 'הרחבה המספקת שמות מתורגמים לשפות',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
