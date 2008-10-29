@@ -148,7 +148,14 @@ $names = array(
  */
 'pms'        => 'Piedmontese',
 
+/* Not in CLDR 1.6.1. Lahnda language.
+ * http://www.ethnologue.org/show_language.asp?code=pnb
+ * Added 2008-10-29.
+ */
+'pnb'        => 'Western Punjabi',
+
 /* Not in CLDR 1.6.1. Attic language.
+ * http://www.ethnologue.org/show_language.asp?code=pnt
  * Added 2008-01-18.
  */
 'pnt'        => 'Pontic',
