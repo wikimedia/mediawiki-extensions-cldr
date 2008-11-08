@@ -57,6 +57,13 @@ $messages['bn'] = array(
 	'cldr-desc' => 'এই এক্সটেনশনটি ভাষাগুলির স্থানীয়কৃত নাম প্রদান করে',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'cldr-desc' => 'Ektenzija koja pruža lokalizirane nazive jezika',
+);
+
 /** Czech (Česky)
  * @author Matěj Grabovský
  */
