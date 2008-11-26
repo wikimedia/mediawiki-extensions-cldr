@@ -60,8 +60,10 @@ class LanguageNames {
 	private static function loadLanguage( $code ) {
 		if ( !isset(self::$cache[$code]) ) {
 
+			$dir = dirname(__FILE__) . '/';
+
 			/** Load override for wrong or missing entries in cldr */
-			$override = dirname(__FILE__) . '/' . self::getOverrideFileName( $code );
+			$override = $dir . self::getOverrideFileName( $code );
 			if ( file_exists( $override ) ) {
 				$names = false;
 				require( $override );
@@ -70,7 +72,7 @@ class LanguageNames {
 				}
 			}
 
-			$filename = dirname(__FILE__) . '/' . self::getFileName( $code );
+			$filename = $dir . self::getFileName( $code );
 			if ( file_exists( $filename ) ) {
 				$names = false;
 				require( $filename );
