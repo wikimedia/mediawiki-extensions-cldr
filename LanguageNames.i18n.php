@@ -147,10 +147,11 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Aotake
  * @author JtFuruhata
  */
 $messages['ja'] = array(
-	'cldr-desc' => 'MediaWiki が対応している言語名のリスト',
+	'cldr-desc' => 'ローカライズされている言語名リストを提供する',
 );
 
 /** Javanese (Basa Jawa)
