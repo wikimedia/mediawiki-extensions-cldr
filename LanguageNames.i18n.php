@@ -61,7 +61,7 @@ $messages['bn'] = array(
  * @author CERminator
  */
 $messages['bs'] = array(
-	'cldr-desc' => 'Ektenzija koja pruža lokalizirane nazive jezika',
+	'cldr-desc' => 'Ekstenzija koja pruža lokalizirane nazive jezika',
 );
 
 /** Czech (Česky)
@@ -90,6 +90,13 @@ $messages['dsb'] = array(
  */
 $messages['eo'] = array(
 	'cldr-desc' => 'Etendilo kiu provizas asimilitajn lingvo-nomojn',
+);
+
+/** Spanish (Español)
+ * @author Sanbec
+ */
+$messages['es'] = array(
+	'cldr-desc' => 'Extensión que provee nombres de idioma traducidos',
 );
 
 /** French (Français) */
@@ -229,6 +236,13 @@ $messages['pt'] = array(
  */
 $messages['ro'] = array(
 	'cldr-desc' => 'Extensie care oferă nume de limbi localizate',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'cldr-desc' => 'Estenzione ca provvede a lacalizzà le nome de le lenghe',
 );
 
 /** Russian (Русский)
