@@ -203,6 +203,13 @@ $messages['nl'] = array(
 	'cldr-desc' => 'Uitbreiding die vertaalde namen van talen biedt',
 );
 
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Harald Khan
+ */
+$messages['nn'] = array(
+	'cldr-desc' => 'Utviding som gjev omsette språknamn',
+);
+
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
