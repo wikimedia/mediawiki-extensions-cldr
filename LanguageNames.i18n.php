@@ -132,6 +132,13 @@ $messages['hsb'] = array(
 	'cldr-desc' => 'Rožšěrjenje, kotrež lokalizowane mjena rěčow k dispoziciji staja.',
 );
 
+/** Hungarian (Magyar)
+ * @author Dani
+ */
+$messages['hu'] = array(
+	'cldr-desc' => 'Kiterjesztés, ami lefordított nyelvneveket szolgáltat',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
