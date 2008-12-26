@@ -99,6 +99,13 @@ $messages['es'] = array(
 	'cldr-desc' => 'Extensión que provee nombres de idioma traducidos',
 );
 
+/** Finnish (Suomi)
+ * @author Mobe
+ */
+$messages['fi'] = array(
+	'cldr-desc' => 'Laajennus joka palauttaa kotoistetut kielten nimet.',
+);
+
 /** French (Français) */
 $messages['fr'] = array(
 	'cldr-desc' => 'Extension qui fournit le nom des langues disponibles',
