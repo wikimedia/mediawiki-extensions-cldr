@@ -100,10 +100,11 @@ $messages['es'] = array(
 );
 
 /** Finnish (Suomi)
+ * @author Crt
  * @author Mobe
  */
 $messages['fi'] = array(
-	'cldr-desc' => 'Laajennus joka palauttaa kotoistetut kielten nimet.',
+	'cldr-desc' => 'Laajennus, joka tarjoaa kotoistetut kielten nimet.',
 );
 
 /** French (Français) */
