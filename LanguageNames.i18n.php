@@ -99,6 +99,13 @@ $messages['es'] = array(
 	'cldr-desc' => 'Extensión que provee nombres de idioma traducidos',
 );
 
+/** Basque (Euskara)
+ * @author Theklan
+ */
+$messages['eu'] = array(
+	'cldr-desc' => 'Lokalizatutako hizkuntza izenak eskaintzen dituen estentsioa',
+);
+
 /** Finnish (Suomi)
  * @author Crt
  * @author Mobe
