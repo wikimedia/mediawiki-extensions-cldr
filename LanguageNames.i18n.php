@@ -317,6 +317,13 @@ $messages['tg-cyrl'] = array(
 	'cldr-desc' => 'Афзунае, ки номҳои маҳалликунонидашудаи забонҳоро пешкаш мекунад',
 );
 
+/** Turkish (Türkçe)
+ * @author Joseph
+ */
+$messages['tr'] = array(
+	'cldr-desc' => 'Yerelleştirilmiş dil isimlerini sağlayan eklenti',
+);
+
 /** Ukrainian (Українська)
  * @author Ahonc
  */
