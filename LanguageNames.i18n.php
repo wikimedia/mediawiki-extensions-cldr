@@ -345,6 +345,13 @@ $messages['vi'] = array(
 	'cldr-desc' => 'Gói mở rộng cung cấp tên ngôn ngữ đã địa phương hóa',
 );
 
+/** Volapük (Volapük)
+ * @author Smeira
+ */
+$messages['vo'] = array(
+	'cldr-desc' => 'Veitükumam, kel gevon pükanemis topik',
+);
+
 /** Yue (粵語)
  * @author Shinjiman
  */
