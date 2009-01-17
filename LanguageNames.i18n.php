@@ -204,6 +204,13 @@ $messages['lb'] = array(
 	'cldr-desc' => 'Erweiderung déi iwwersate Sproochenimmm zur Verfügung stellt',
 );
 
+/** Macedonian (Македонски)
+ * @author Brest
+ */
+$messages['mk'] = array(
+	'cldr-desc' => 'Проширување кое дава локализирани јазични имиња',
+);
+
 /** Malayalam (മലയാളം)
  * @author Shijualex
  */
@@ -216,6 +223,13 @@ $messages['ml'] = array(
  */
 $messages['mr'] = array(
 	'cldr-desc' => 'स्थानिकीकरण झालेल्या भाषेचे नाव देणारा विस्तार',
+);
+
+/** Low German (Plattdüütsch)
+ * @author Slomox
+ */
+$messages['nds'] = array(
+	'cldr-desc' => 'Verlöövt dat Bruken vun översett Naams vun Spraken',
 );
 
 /** Dutch (Nederlands)
