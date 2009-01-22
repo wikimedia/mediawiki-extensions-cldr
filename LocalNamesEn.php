@@ -118,6 +118,12 @@ $names = array(
  */
 'lfn'        => 'Lingua Franca Nova',
 
+/* Not in CLDR 1.6.1. Literary Chinese language
+ * http://www.sil.org/iso639-3/documentation.asp?id=lzh
+ * Added 2009-01-22.
+ */
+'lzh'        => 'Literary Chinese',
+
 /* Not in CLDR 1.6.1. Mari language
  * http://www.ethnologue.org/show_language.asp?code=mhr
  * Added 2008-05-22.
