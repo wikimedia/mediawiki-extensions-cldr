@@ -126,6 +126,13 @@ $messages['gl'] = array(
 	'cldr-desc' => 'Extensión que proporciona os nomes localizados das linguas',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'cldr-desc' => 'Unterstitzig fir lokalisierti Sprochenäme',
+);
+
 /** Hebrew (עברית)
  * @author Rotemliss
  */
@@ -300,6 +307,13 @@ $messages['ru'] = array(
  */
 $messages['sk'] = array(
 	'cldr-desc' => 'Rozšírenie, ktoré poskytuje lokalizované názvy jazykov',
+);
+
+/** Albanian (Shqip)
+ * @author Puntori
+ */
+$messages['sq'] = array(
+	'cldr-desc' => 'Shtesë që paraqet emrat lokal të gjuhëve',
 );
 
 /** Seeltersk (Seeltersk)
