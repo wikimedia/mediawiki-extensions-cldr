@@ -199,6 +199,13 @@ $names = array(
  */
 'tcy'        => 'Tulu',
 
+
+/* Not in CLDR 1.6.1. Estonian language.
+ * http://www.sil.org/iso639-3/documentation.asp?id=vro
+ * Added 2009-01-24.
+ */
+'vro'        => 'Võro',
+
 /* Not in CLDR 1.6.1. Chinese language.
  * http://www.ethnologue.org/show_language.asp?code=wuu
  * Added 2007-12-02.
