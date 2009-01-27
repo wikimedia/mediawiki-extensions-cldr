@@ -211,6 +211,13 @@ $messages['lb'] = array(
 	'cldr-desc' => 'Erweiderung déi iwwersate Sproochenimmm zur Verfügung stellt',
 );
 
+/** Limburgish (Limburgs)
+ * @author Pahles
+ */
+$messages['li'] = array(
+	'cldr-desc' => 'Oetbreiding die euverzatte name van tale beejt',
+);
+
 /** Macedonian (Македонски)
  * @author Brest
  */
