@@ -126,6 +126,13 @@ $messages['gl'] = array(
 	'cldr-desc' => 'Extensión que proporciona os nomes localizados das linguas',
 );
 
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Omnipaedista
+ */
+$messages['grc'] = array(
+	'cldr-desc' => 'Ἔκτασίς τις παρέχουσα ἐντοπιωμένα γλωττώνυμα',
+);
+
 /** Swiss German (Alemannisch)
  * @author Als-Holder
  */
