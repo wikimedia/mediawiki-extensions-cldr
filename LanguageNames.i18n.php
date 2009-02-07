@@ -295,6 +295,13 @@ $messages['pt'] = array(
 	'cldr-desc' => 'Extensão que providencia nomes localizados de línguas',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Eduardo.mps
+ */
+$messages['pt-br'] = array(
+	'cldr-desc' => 'Extensão que provê nomes de línguas localizados',
+);
+
 /** Romanian (Română)
  * @author KlaudiuMihaila
  */
@@ -357,6 +364,13 @@ $messages['sv'] = array(
  */
 $messages['tg-cyrl'] = array(
 	'cldr-desc' => 'Афзунае, ки номҳои маҳалликунонидашудаи забонҳоро пешкаш мекунад',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'cldr-desc' => 'Karugtong na nagbibigay ng mga pangalan ng isinapook na wika',
 );
 
 /** Turkish (Türkçe)
