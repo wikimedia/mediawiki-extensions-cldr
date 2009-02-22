@@ -330,6 +330,13 @@ $messages['ru'] = array(
 	'cldr-desc' => 'Расширение, предоставляющее переводы названий языков',
 );
 
+/** Yakut (Саха тыла)
+ * @author HalanTul
+ */
+$messages['sah'] = array(
+	'cldr-desc' => 'Тыллар ааттарын тылбааһын онорор тупсарыы',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
