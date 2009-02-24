@@ -373,6 +373,13 @@ $messages['sv'] = array(
 	'cldr-desc' => 'Tillägg som ger översättningar av språknamn',
 );
 
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'cldr-desc' => 'స్థానికీకరించిన భాషల పేర్లను అందించే పొడగింత',
+);
+
 /** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
  * @author Ibrahim
  */
