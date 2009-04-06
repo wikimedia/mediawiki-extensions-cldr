@@ -85,6 +85,13 @@ $messages['dsb'] = array(
 	'cldr-desc' => 'Rozšyrjenje, kótarež pódawa lokalizěrowane rěcne mjenja.',
 );
 
+/** Greek (Ελληνικά)
+ * @author Omnipaedista
+ */
+$messages['el'] = array(
+	'cldr-desc' => 'Επέκταση που παρέχει εντοπιωμένα ονόματα γλωσσών',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
