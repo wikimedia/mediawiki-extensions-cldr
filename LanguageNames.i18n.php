@@ -15,6 +15,13 @@ $messages['qqq'] = array(
 	'cldr-desc' => 'Short description of the Cldr extension, shown in [[Special:Version]]. Do not translate or change links.',
 );
 
+/** Lower Silesian (Schläsch)
+ * @author Jonny84
+ */
+$messages['sli'] = array(
+	'cldr-desc' => 'Unterstützung fier lokalisierte Sproachanoama',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
