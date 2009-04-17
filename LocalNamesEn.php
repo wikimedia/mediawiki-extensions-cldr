@@ -41,6 +41,14 @@ $names = array(
  */
 'bqi'         => 'Bakhtiari',
 
+/* Does not exist in CLDR 1.6.1. Sorani (Central Kurdish)
+ * http://www.ethnologue.org/show_language.asp?code=ckb
+ * Added 2008-04-17.
+ */
+'ckb'         => 'Sorani',
+'ckb-arab'    => 'Sorani (Arabic script)',
+'ckb-latn'    => 'Sorani (Latin script)',
+
 /* Does not exist in CLDR 1.6.1. Swedish language
  * http://www.ethnologue.org/show_language.asp?code=dlc
  * Added 2008-02-16.
