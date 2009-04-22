@@ -365,6 +365,13 @@ $messages['sq'] = array(
 	'cldr-desc' => 'Shtesë që paraqet emrat lokal të gjuhëve',
 );
 
+/** Serbian Cyrillic ekavian (ћирилица)
+ * @author Михајло Анђелковић
+ */
+$messages['sr-ec'] = array(
+	'cldr-desc' => 'Екстензија која омогућава локализацију назива језика',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
