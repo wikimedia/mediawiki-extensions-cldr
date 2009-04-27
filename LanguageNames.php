@@ -12,6 +12,7 @@ if (!defined('MEDIAWIKI')) die();
  */
 
 $wgExtensionCredits['other'][] = array(
+	'path' => __FILE__,
 	'name' => 'Language Names',
 	'version' => '1.5 (CLDR 1.6.0)',
 	'author' => 'Niklas Laxström',
