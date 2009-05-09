@@ -267,6 +267,13 @@ $messages['mr'] = array(
 	'cldr-desc' => 'स्थानिकीकरण झालेल्या भाषेचे नाव देणारा विस्तार',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Zamwan
+ */
+$messages['ms'] = array(
+	'cldr-desc' => 'Sambungan yang menyediakan nama-nama bahasa setempat',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
