@@ -429,6 +429,13 @@ $messages['tr'] = array(
 	'cldr-desc' => 'Yerelleştirilmiş dil isimlerini sağlayan eklenti',
 );
 
+/** Uighur (Uyghurche‎ / ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug'] = array(
+	'cldr-desc' => 'يەرلىكلەشتۈرۈلگەن تىل ئاتى كېينرەك تەمىنلىنىدۇ',
+);
+
 /** Ukrainian (Українська)
  * @author Ahonc
  */
