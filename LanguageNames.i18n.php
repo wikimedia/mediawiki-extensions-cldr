@@ -15,13 +15,6 @@ $messages['qqq'] = array(
 	'cldr-desc' => 'Short description of the Cldr extension, shown in [[Special:Version]]. Do not translate or change links.',
 );
 
-/** Lower Silesian (Schläsch)
- * @author Jonny84
- */
-$messages['sli'] = array(
-	'cldr-desc' => 'Unterstützung fier lokalisierte Sproachanoama',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -69,6 +62,13 @@ $messages['bn'] = array(
  */
 $messages['bs'] = array(
 	'cldr-desc' => 'Ekstenzija koja pruža lokalizirane nazive jezika',
+);
+
+/** Catalan (Català)
+ * @author Solde
+ */
+$messages['ca'] = array(
+	'cldr-desc' => 'Extensió que proporciona noms localitzats de les llengües',
 );
 
 /** Czech (Česky)
@@ -363,6 +363,13 @@ $messages['sah'] = array(
  */
 $messages['sk'] = array(
 	'cldr-desc' => 'Rozšírenie, ktoré poskytuje lokalizované názvy jazykov',
+);
+
+/** Lower Silesian (Schläsch)
+ * @author Jonny84
+ */
+$messages['sli'] = array(
+	'cldr-desc' => 'Unterstützung fier lokalisierte Sproachanoama',
 );
 
 /** Albanian (Shqip)
