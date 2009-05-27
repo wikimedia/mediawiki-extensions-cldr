@@ -443,6 +443,13 @@ $messages['ug'] = array(
 	'cldr-desc' => 'يەرلىكلەشتۈرۈلگەن تىل ئاتى كېينرەك تەمىنلىنىدۇ',
 );
 
+/** ئۇيغۇرچە (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'cldr-desc' => 'يەرلىكلەشتۈرۈلگەن تىل ئاتى كېيىنرەك تەمىنلىنىدۇ',
+);
+
 /** Ukrainian (Українська)
  * @author Ahonc
  */
