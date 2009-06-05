@@ -36,6 +36,13 @@ $messages['arz'] = array(
 	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة',
 );
 
+/** Bavarian (Boarisch)
+ * @author Man77
+ */
+$messages['bar'] = array(
+	'cldr-desc' => 'Untastützung fia lokalisiate Språchnnãmen',
+);
+
 /** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  */
