@@ -215,7 +215,7 @@ $messages['it'] = array(
  * @author JtFuruhata
  */
 $messages['ja'] = array(
-	'cldr-desc' => 'ローカライズされている言語名リストを提供する',
+	'cldr-desc' => 'ローカライズされた言語名を提供する拡張機能',
 );
 
 /** Javanese (Basa Jawa)
