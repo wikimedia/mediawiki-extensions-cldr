@@ -472,10 +472,11 @@ $messages['vec'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
  * @author Vinhtantran
  */
 $messages['vi'] = array(
-	'cldr-desc' => 'Gói mở rộng cung cấp tên ngôn ngữ đã địa phương hóa',
+	'cldr-desc' => 'Phần mở rộng cung cấp tên ngôn ngữ đã địa phương hóa',
 );
 
 /** Volapük (Volapük)
