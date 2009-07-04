@@ -253,6 +253,13 @@ $messages['li'] = array(
 	'cldr-desc' => 'Oetbreiding die euverzatte name van tale beejt',
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Matasg
+ */
+$messages['lt'] = array(
+	'cldr-desc' => 'Priedas leidžiantis rodyti lokalizuotus kalbų pavadinimus',
+);
+
 /** Macedonian (Македонски)
  * @author Brest
  */
