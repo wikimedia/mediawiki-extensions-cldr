@@ -225,6 +225,13 @@ $messages['jv'] = array(
 	'cldr-desc' => 'Èkstènsi sing mènèhi jeneng basa sing dilokalisasi',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author វ័ណថារិទ្ធ
+ */
+$messages['km'] = array(
+	'cldr-desc' => 'Extension ដែលផ្តល់នូវ​ឈ្មោះ​ជាភាសា​ក្នុងស្រុក​',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */
