@@ -284,6 +284,7 @@ $names = array(
 'mdf' => 'Moksha',
 'mdr' => 'Mandar',
 'men' => 'Mende',
+'mfe' => 'Morisyen',
 'mg' => 'Malagasy',
 'mga' => 'Middle Irish',
 'mh' => 'Marshallese',
