@@ -74,13 +74,13 @@ foreach ( $langs as $code => $name ) {
 	if ( file_exists( $input ) ) {
 		$en = Language::factory('en');
 		$p = new CLDRParser();
-		$p->parse( $input, "$OUTPUT/" . LanguageNames::getFileName( $code ) );
+		$p->parse( $input, "$OUTPUT/" . LanguageNames::getFileName( getRealCode ( $code ) ) );
 		while ($p->getAlias() != false) {
 			$codeCLDR = $p->getAlias();
 			$input = "$DATA/$codeCLDR.xml";
 			echo "Alias $codeCLDR found for $code\n";
 			$p->setAlias( false );
-			$p->parse( $input, "$OUTPUT/" . LanguageNames::getFileName( $code ) );
+			$p->parse( $input, "$OUTPUT/" . LanguageNames::getFileName( getRealCode( $code ) ) );
 		}
 	} else {
 		echo "File $input not found\n";
@@ -174,9 +174,25 @@ class CLDRParser {
 	function getAlias() {
 		return $this->alias;
 	}
-	function setAlias($code) {
+	function setAlias( $code ) {
 		$this->alias = $code;
 	}
+}
 
+// Get the code for the MediaWiki localisation,
+// these are same as the fallback.
+function getRealCode( $code ) {
+	$realCode = $code;
+	if ( !strcmp( $code, 'kk' ) )
+		$realCode = 'kk-cyrl';
+	else if ( !strcmp( $code, 'ku' ) )
+		$realCode = 'ku-arab';
+	else if ( !strcmp( $code, 'sr' ) )
+		$realCode = 'sr-ec';
+	else if ( !strcmp( $code, 'tg' ) )
+		$realCode = 'tg-cyrl';
+	else if ( !strcmp( $code, 'zh' ) )
+		$realCode = 'zh-hans';
+	return $realCode;
 }
 ?>
