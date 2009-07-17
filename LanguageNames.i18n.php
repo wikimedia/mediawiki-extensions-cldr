@@ -337,6 +337,13 @@ $messages['pl'] = array(
 	'cldr-desc' => 'Rozszerzenie dostarczające zlokalizowane nazwy języków',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'cldr-desc' => 'Estension che a dà ij nòm localisà dle lenghe',
+);
+
 /** Portuguese (Português)
  * @author Malafaya
  */
