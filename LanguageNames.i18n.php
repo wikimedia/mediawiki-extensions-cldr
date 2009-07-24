@@ -175,6 +175,13 @@ $messages['hi'] = array(
 	'cldr-desc' => 'स्थानिकीकरण हुए भाषा का नाम देनेवाला एक्स्टेंशन',
 );
 
+/** Hiligaynon (Ilonggo)
+ * @author Tagimata
+ */
+$messages['hil'] = array(
+	'cldr-desc' => 'Ekstensiyon nga gahatag ngalan lengwahe nga nangin lokal',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
