@@ -421,6 +421,13 @@ $messages['sr-ec'] = array(
 	'cldr-desc' => 'Екстензија која омогућава локализацију назива језика',
 );
 
+/** latinica (latinica)
+ * @author Michaello
+ */
+$messages['sr-el'] = array(
+	'cldr-desc' => 'Ekstenzija koja omogućava lokalizaciju naziva jezika',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
