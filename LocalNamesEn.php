@@ -257,6 +257,7 @@ $names = array(
 'no'           => 'Norwegian (bokmål)‬',
 'roa-rup'      => 'Aromanian',
 'sr-ec'        => 'Serbian Cyrillic ekavian',
+'sr-el'        => 'Serbian Latin ekavian',
 'xmf'          => 'Mingrelian',
 'ydd'          => 'Eastern Yiddish',
 'zh-classical' => 'Classical Chinese',
