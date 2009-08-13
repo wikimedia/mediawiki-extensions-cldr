@@ -140,6 +140,13 @@ $messages['fr'] = array(
 	'cldr-desc' => 'Extension qui fournit le nom des langues disponibles',
 );
 
+/** Western Frisian (Frysk)
+ * @author SK-luuut
+ */
+$messages['fy'] = array(
+	'cldr-desc' => "Taheaksel dy't fertaalde taalnammen oanbiedt",
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
