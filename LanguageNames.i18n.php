@@ -50,6 +50,13 @@ $messages['bcc'] = array(
 	'cldr-desc' => 'برنامه الحاقی که نام دگه زبانانء ترجمه اش کنت',
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author Jim-by
+ */
+$messages['be-tarask'] = array(
+	'cldr-desc' => 'Пашырэньне, якое прадстаўляе пераклады назваў моў',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
