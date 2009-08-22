@@ -51,10 +51,11 @@ $messages['bcc'] = array(
 );
 
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
-	'cldr-desc' => 'Пашырэньне, якое прадстаўляе пераклады назваў моў',
+	'cldr-desc' => 'Пашырэньне, якое дадае пераклады назваў моў',
 );
 
 /** Bulgarian (Български)
@@ -69,6 +70,13 @@ $messages['bg'] = array(
  */
 $messages['bn'] = array(
 	'cldr-desc' => 'এই এক্সটেনশনটি ভাষাগুলির স্থানীয়কৃত নাম প্রদান করে',
+);
+
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'cldr-desc' => "Astenn a bourchas roll lec'helaet anv ar yezhoù",
 );
 
 /** Bosnian (Bosanski)
