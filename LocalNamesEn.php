@@ -7,6 +7,12 @@ $names = array(
 'aln'         => 'Gheg Albanian',
 
 /* Does not exist in CLDR 1.7.1. Arabic language
+ * http://www.ethnologue.com/show_language.asp?code=arq
+ * Added 2009-08-27.
+ */
+'arq'         => 'Algerian Spoken Arabic',
+
+/* Does not exist in CLDR 1.7.1. Arabic language
  * http://www.ethnologue.com/show_language.asp?code=arz
  * Added 2008-04-12.
  */
