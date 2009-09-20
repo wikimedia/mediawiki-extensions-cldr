@@ -528,6 +528,13 @@ $messages['vec'] = array(
 	'cldr-desc' => 'Estension che fornisse i nomi localizà de le varie lengue',
 );
 
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'cldr-desc' => 'Liža, kudamb andab keliden nimiden kändused',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  * @author Vinhtantran
