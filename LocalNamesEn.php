@@ -125,6 +125,12 @@ $names = array(
  */
 'jut'        => 'Jutish',
 
+/* Not in CLDR 1.7.1. Zaza-Gorani language.
+ * http://www.ethnologue.org/show_language.asp?code=kiu
+ * Added 2009-10-08.
+ */
+'kiu'        => 'Kirmanjki',
+
 /* Not in CLDR 1.7.1. Aralo-Caspian language.
  * Added 2008-01-18.
  */
