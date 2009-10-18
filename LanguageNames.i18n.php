@@ -331,6 +331,13 @@ $messages['nds'] = array(
 	'cldr-desc' => 'Verlöövt dat Bruken vun översett Naams vun Spraken',
 );
 
+/** Nedersaksisch (Nedersaksisch)
+ * @author Servien
+ */
+$messages['nds-nl'] = array(
+	'cldr-desc' => 'Uutbreiding dee vertaalde namen van talen biejt',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
