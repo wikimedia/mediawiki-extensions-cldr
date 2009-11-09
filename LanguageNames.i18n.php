@@ -381,10 +381,11 @@ $messages['pms'] = array(
 );
 
 /** Portuguese (Português)
+ * @author Hamilton Abreu
  * @author Malafaya
  */
 $messages['pt'] = array(
-	'cldr-desc' => 'Extensão que providencia nomes localizados de línguas',
+	'cldr-desc' => 'Extensão que fornece nomes de língua localizados',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
