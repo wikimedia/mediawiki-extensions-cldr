@@ -195,4 +195,3 @@ function getRealCode( $code ) {
 		$realCode = 'zh-hans';
 	return $realCode;
 }
-?>
