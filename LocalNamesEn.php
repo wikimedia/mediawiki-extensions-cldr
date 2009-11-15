@@ -192,6 +192,12 @@ $names = array(
  */
 'pnt'        => 'Pontic',
 
+/* Not in CLDR 1.7.1. Gallo-Italic language.
+ * http://www.sil.org/iso639-3/documentation.asp?id=rgn
+ * Added 2009-11-15.
+ */
+'rgn'        => 'Romagnol',
+
 /* Not in CLDR 1.7.1. Eastern Romance language.
  * http://www.ethnologue.org/show_language.asp?code=ruq
  * Added 2008-02-04.
