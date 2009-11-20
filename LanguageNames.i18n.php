@@ -338,6 +338,13 @@ $messages['nds-nl'] = array(
 	'cldr-desc' => 'Uutbreiding dee vertaalde namen van talen biejt',
 );
 
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'cldr-desc' => 'एक्सटेन्सन जसले लोकालाइज गरिएको भाषा नाम प्रयोग गर्न सहयोग गर्छ',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
