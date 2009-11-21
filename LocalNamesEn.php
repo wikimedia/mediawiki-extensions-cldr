@@ -156,6 +156,12 @@ $names = array(
  */
 'mhr'        => 'Eastern Mari',
 
+/* Not in CLDR 1.7.1. Mari language
+ * http://www.ethnologue.org/show_language.asp?code=mrj
+ * Added 2009-11-22.
+ */
+'mrj'        => 'Hill Mari',
+
 /* Not in CLDR 1.7.1. Caspian language
  * http://www.ethnologue.org/show_language.asp?code=mzn
  * Added 2008-03-01.
@@ -191,6 +197,12 @@ $names = array(
  * Added 2008-01-18.
  */
 'pnt'        => 'Pontic',
+
+/* Not in CLDR 1.7.1. Western Baltic language.
+ * http://www.ethnologue.org/show_language.asp?code=prg
+ * Added 2009-11-22.
+ */
+'prg'        => 'Prussian',
 
 /* Not in CLDR 1.7.1. Gallo-Italic language.
  * http://www.sil.org/iso639-3/documentation.asp?id=rgn
