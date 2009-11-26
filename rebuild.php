@@ -25,6 +25,9 @@ if (isset( $options['outputdir'] ) ) {
 }
 
 $langs = Language::getLanguageNames( false );
+# hack to get pt-pt too
+$langs['pt-pt'] = 'Foo';
+ksort($langs);
 
 foreach ( $langs as $code => $name ) {
 	unset( $codePartStr );
@@ -82,7 +85,7 @@ foreach ( $langs as $code => $name ) {
 			$p->setAlias( false );
 			$p->parse( $input, "$OUTPUT/" . LanguageNames::getFileName( getRealCode( $code ) ) );
 		}
-	} else {
+	} elseif (isset( $options['verbose'] ) ) {
 		echo "File $input not found\n";
 	}
 }
@@ -193,5 +196,9 @@ function getRealCode( $code ) {
 		$realCode = 'tg-cyrl';
 	else if ( !strcmp( $code, 'zh' ) )
 		$realCode = 'zh-hans';
+	else if ( !strcmp( $code, 'pt' ) )
+		$realCode = 'pt-br';
+	else if ( !strcmp( $code, 'pt-pt' ) )
+		$realCode = 'pt';
 	return $realCode;
 }
