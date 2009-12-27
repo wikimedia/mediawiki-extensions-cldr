@@ -501,6 +501,13 @@ $messages['tg-cyrl'] = array(
 	'cldr-desc' => 'Афзунае, ки номҳои маҳалликунонидашудаи забонҳоро пешкаш мекунад',
 );
 
+/** Tajik (Latin) (Тоҷикӣ (Latin))
+ * @author Liangent
+ */
+$messages['tg-latn'] = array(
+	'cldr-desc' => 'Afzunae, ki nomhoi mahallikunonidaşudai zabonhoro peşkaş mekunad',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
