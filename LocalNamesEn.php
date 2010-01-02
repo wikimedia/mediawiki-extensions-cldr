@@ -138,6 +138,12 @@ $names = array(
 'kk-cyrl'    => 'Kazakh (Cyrillic script)',
 'kk-latn'    => 'Kazakh (Latin script)',
 
+/* Not in CLDR 1.7.1. Komi language.
+ * http://www.ethnologue.org/show_language.asp?code=koi
+ * Added 2010-01-02.
+ */
+'koi'        => 'Komi-Permyak',
+
 /* Not in CLDR 1.7.1. Artificial language.
  * http://www.ethnologue.org/show_language.asp?code=lfn
  * Added 2008-01-18.
