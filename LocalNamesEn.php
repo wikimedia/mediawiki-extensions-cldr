@@ -61,6 +61,12 @@ $names = array(
 'ckb-arab'    => 'Sorani (Arabic script)',
 'ckb-latn'    => 'Sorani (Latin script)',
 
+/* Does not exist in CLDR 1.7.1. Bisayan language
+ * http://www.ethnologue.org/show_language.asp?code=cps
+ * Added 2010-01-11.
+ */
+'cps'         => 'Capiznon',
+
 /* Does not exist in CLDR 1.7.1. Swedish language
  * http://www.ethnologue.org/show_language.asp?code=dlc
  * Added 2008-02-16.
