@@ -296,6 +296,13 @@ $messages['lt'] = array(
 	'cldr-desc' => 'Priedas leidžiantis rodyti lokalizuotus kalbų pavadinimus',
 );
 
+/** Malagasy (Malagasy)
+ * @author Jagwar
+ */
+$messages['mg'] = array(
+	'cldr-desc' => 'Fanitarana manome ny anaram-piteny misy',
+);
+
 /** Macedonian (Македонски)
  * @author Brest
  */
