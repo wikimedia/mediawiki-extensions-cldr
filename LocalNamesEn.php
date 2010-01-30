@@ -255,12 +255,17 @@ $names = array(
  */
 'tcy'        => 'Tulu',
 
-
 /* Not in CLDR 1.7.1. Finnic Uralic language.
  * http://www.ethnologue.org/show_language.asp?code=vep
  * Added 2009-01-24.
  */
 'vep'        => 'Veps',
+
+/* Not in CLDR 1.7.1. West Middle German language.
+ * http://www.sil.org/iso639-3/documentation.asp?id=vmf
+ * Added 2010-01-31.
+ */
+'vmf'        => 'Upper Franconian',
 
 /* Not in CLDR 1.7.1. Estonian language.
  * http://www.sil.org/iso639-3/documentation.asp?id=vro
