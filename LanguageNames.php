@@ -17,7 +17,6 @@ $wgExtensionCredits['other'][] = array(
 	'version' => '1.7.1 (CLDR 1.7.1)',
 	'author' => 'Niklas Laxström',
 	'url' => 'http://unicode.org/cldr/repository_access.html',
-	'description' => 'Extension which provides localised language names',
 	'descriptionmsg' => 'cldr-desc',
 );
 
