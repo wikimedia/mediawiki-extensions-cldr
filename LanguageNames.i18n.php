@@ -100,6 +100,13 @@ $messages['cs'] = array(
 	'cldr-desc' => 'Rozšíření, který poskytuje lokalizované názvy jazyků',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'cldr-desc' => "Estyniad sy'n darparu enwau ieithoedd yn iaith y wici",
+);
+
 /** German (Deutsch)
  * @author Raimond Spekking
  */
