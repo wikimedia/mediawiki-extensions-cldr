@@ -190,6 +190,13 @@ $messages['gsw'] = array(
 	'cldr-desc' => 'Unterstitzig fir lokalisierti Sprochenäme',
 );
 
+/** Manx (Gaelg)
+ * @author MacTire02
+ */
+$messages['gv'] = array(
+	'cldr-desc' => 'Sheeyntagh ta kiarail enmyn çhengey ynnydit',
+);
+
 /** Hebrew (עברית)
  * @author Rotemliss
  */
