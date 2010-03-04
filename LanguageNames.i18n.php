@@ -36,6 +36,13 @@ $messages['arz'] = array(
 	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة',
 );
 
+/** Bashkir (Башҡорт)
+ * @author Рустам Нурыев
+ */
+$messages['ba'] = array(
+	'cldr-desc' => 'Тел исемдәрен тәржемә итеү өсөн ҡуллайлама',
+);
+
 /** Bavarian (Boarisch)
  * @author Man77
  */
