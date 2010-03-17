@@ -32,5 +32,6 @@ $names = array(
 'sal' => 'salishan languages',
 'sgn' => 'linguages de sinais',
 'ssa' => 'idioma nilo-sariano',
+'swb' => 'língua comoriana',
 'to' => 'tonga',
 );

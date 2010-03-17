@@ -494,6 +494,7 @@ $names = array(
 'yi' => 'jiddisch',
 'yo' => 'yoruba',
 'ypk' => 'eskimåspråk',
+'yue' => 'kantonesiska',
 'za' => 'zhuang',
 'zap' => 'zapotek',
 'zen' => 'zenaga',
