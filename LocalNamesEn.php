@@ -156,6 +156,12 @@ $names = array(
  */
 'lfn'        => 'Lingua Franca Nova',
 
+/* Not in CLDR 1.8.0. Latvian language
+ * http://www.sil.org/iso639-3/documentation.asp?id=ltg
+ * Added 2010-04-03.
+ */
+'ltg'        => 'Latgalian',
+
 /* Not in CLDR 1.8.0. Literary Chinese language
  * http://www.sil.org/iso639-3/documentation.asp?id=lzh
  * Added 2009-01-22.
@@ -227,6 +233,12 @@ $names = array(
  * Added 2009-11-15.
  */
 'rgn'        => 'Romagnol',
+
+/* Not in CLDR 1.8.0. East Slavic language.
+ * http://www.ethnologue.com/show_language.asp?code=rue
+ * Added 2010-04-03.
+ */
+'rue'        => 'Rusyn',
 
 /* Not in CLDR 1.8.0. Eastern Romance language.
  * http://www.ethnologue.org/show_language.asp?code=ruq
