@@ -465,6 +465,13 @@ $messages['sk'] = array(
 	'cldr-desc' => 'Rozšírenie, ktoré poskytuje lokalizované názvy jazykov',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'cldr-desc' => 'Razširitev, ki nudi domača imena jezikov',
+);
+
 /** Lower Silesian (Schläsch)
  * @author Jonny84
  */
