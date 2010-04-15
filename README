@@ -3,7 +3,7 @@ from CLDR data.
 
 == Installation ==
 Include it in LocalSettings.php:
- include("$IP/extensions/cldr/LanguageNames.php");
+ include("$IP/extensions/cldr/cldr.php");
 
 == Updating data ==
 

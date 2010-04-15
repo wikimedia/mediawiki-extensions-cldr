@@ -21,5 +21,5 @@ $wgExtensionCredits['other'][] = array(
 );
 
 $dir = dirname(__FILE__) . '/';
-$wgExtensionMessagesFiles['cldr'] = $dir . 'LanguageNames.i18n.php';
+$wgExtensionMessagesFiles['cldr'] = $dir . 'cldr.i18n.php';
 $wgAutoloadClasses['LanguageNames'] = $dir . 'LanguageNames.body.php';
