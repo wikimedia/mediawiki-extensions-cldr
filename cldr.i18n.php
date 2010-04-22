@@ -303,6 +303,13 @@ $messages['lb'] = array(
 	'cldr-desc' => 'Erweiderung déi iwwersate Sproochenimmm zur Verfügung stellt',
 );
 
+/** Ganda (Luganda)
+ * @author Kizito
+ */
+$messages['lg'] = array(
+	'cldr-desc' => 'Kino kyongezebwako ekireetamu amannya agavvuunulidwa mu nnimi nnansi',
+);
+
 /** Limburgish (Limburgs)
  * @author Pahles
  */
