@@ -243,7 +243,7 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'cldr-desc' => 'Extension que forni nomines localisate del linguas',
+	'cldr-desc' => 'Extension que forni nomines traducite de linguas',
 );
 
 /** Indonesian (Bahasa Indonesia)
