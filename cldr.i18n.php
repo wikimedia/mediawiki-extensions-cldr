@@ -332,10 +332,11 @@ $messages['mg'] = array(
 );
 
 /** Macedonian (Македонски)
+ * @author Bjankuloski06
  * @author Brest
  */
 $messages['mk'] = array(
-	'cldr-desc' => 'Проширување кое дава локализирани јазични имиња',
+	'cldr-desc' => 'Додаток кој дава локализирани имиња на јазиците',
 );
 
 /** Malayalam (മലയാളം)
