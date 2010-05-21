@@ -253,6 +253,13 @@ $messages['id'] = array(
 	'cldr-desc' => 'Ekstensi yang menyediakan nama-nama bahasa dalam bahasa aslinya',
 );
 
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'cldr-desc' => 'Ogologo né nyé áhà asụsụ nke bi nsó',
+);
+
 /** Italian (Italiano)
  * @author Pietrodn
  */
