@@ -3,9 +3,8 @@ if (!defined('MEDIAWIKI')) die();
 /**
  * An extension which provised localised language names for other extensions.
  *
- * @addtogroup Extensions
  * @file
- *
+ * @ingroup Extensions
  * @author Niklas Laxström
  * @copyright Copyright © 2007-2010, Niklas Laxström
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
