@@ -30,10 +30,11 @@ $messages['ar'] = array(
 );
 
 /** Egyptian Spoken Arabic (مصرى)
+ * @author Dudi
  * @author Meno25
  */
 $messages['arz'] = array(
-	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة',
+	'cldr-desc' => 'Extension ببيّن الاسامى المحليه بتاعة اللغات',
 );
 
 /** Bashkir (Башҡорт)
