@@ -13,8 +13,8 @@ if (!defined('MEDIAWIKI')) die();
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Language Names',
-	'version' => '1.8.0 (CLDR 1.8.0)',
-	'author' => 'Niklas Laxström',
+	'version' => '1.8.1 (CLDR 1.8.1)',
+	'author' => array( 'Niklas Laxström', 'Siebrand Mazeland' ),
 	'url' => 'http://unicode.org/cldr/repository_access.html',
 	'descriptionmsg' => 'cldr-desc',
 );

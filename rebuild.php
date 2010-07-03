@@ -11,7 +11,7 @@ $IP = "../..";
 require_once( "$IP/maintenance/commandLine.inc" );
 
 $dir = dirname(__FILE__);
-require_once( "$dir/LanguageNames.php" );
+require_once( "$dir/cldr.php" );
 
 $DATA = "$dir/core/common/main";
 $OUTPUT = $dir;
