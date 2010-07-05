@@ -332,6 +332,13 @@ $messages['lt'] = array(
 	'cldr-desc' => 'Priedas leidžiantis rodyti lokalizuotus kalbų pavadinimus',
 );
 
+/** Latvian (Latviešu)
+ * @author Xil
+ */
+$messages['lv'] = array(
+	'cldr-desc' => 'Paplašinājums, kas piedāvā lokalizētus valodu nosaukumus',
+);
+
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
