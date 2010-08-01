@@ -58,8 +58,6 @@ $names = array(
  * Added 2008-04-17.
  */
 'ckb'         => 'Sorani',
-'ckb-arab'    => 'Sorani (Arabic script)',
-'ckb-latn'    => 'Sorani (Latin script)',
 
 /* Not in CLDR 1.8.1. Bisayan language
  * http://www.ethnologue.org/show_language.asp?code=cps
