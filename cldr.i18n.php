@@ -157,6 +157,13 @@ $messages['eu'] = array(
 	'cldr-desc' => 'Lokalizatutako hizkuntza izenak eskaintzen dituen estentsioa',
 );
 
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'cldr-desc' => 'افزونه‌ای که از نام محلی زبان‌ها حمایت می‌کند.',
+);
+
 /** Finnish (Suomi)
  * @author Crt
  * @author Mobe
