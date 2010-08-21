@@ -10,9 +10,10 @@ $messages['en'] = array (
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'cldr-desc' => 'Short description of the Cldr extension, shown in [[Special:Version]]. Do not translate or change links.',
+	'cldr-desc' => '{{desc}}',
 );
 
 /** Afrikaans (Afrikaans)
