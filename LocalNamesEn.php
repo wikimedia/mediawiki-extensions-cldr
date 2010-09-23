@@ -289,7 +289,6 @@ $names = array(
  */
 'wuu'        => 'Wu',
 
-
 /* Not in CLDR 1.8.1. Low Franconian language.
  * http://www.ethnologue.org/show_language.asp?code=zea
  * Added 2008-01-17.
