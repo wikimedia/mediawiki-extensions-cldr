@@ -173,9 +173,11 @@ $messages['fi'] = array(
 	'cldr-desc' => 'Laajennus, joka tarjoaa kotoistetut kielten nimet.',
 );
 
-/** French (Français) */
+/** French (Français)
+ * @author Verdy p
+ */
 $messages['fr'] = array(
-	'cldr-desc' => 'Extension qui fournit le nom des langues disponibles',
+	'cldr-desc' => 'Extension qui fournit les noms traduits des langues',
 );
 
 /** Western Frisian (Frysk)
