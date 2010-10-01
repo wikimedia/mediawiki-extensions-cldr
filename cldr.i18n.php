@@ -180,6 +180,13 @@ $messages['fr'] = array(
 	'cldr-desc' => 'Extension qui fournit les noms traduits des langues',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'cldr-desc' => 'Èxtension que balye los noms traduits de les lengoues.',
+);
+
 /** Western Frisian (Frysk)
  * @author SK-luuut
  */
