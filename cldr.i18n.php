@@ -117,10 +117,11 @@ $messages['cy'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author Raimond Spekking
  */
 $messages['de'] = array(
-	'cldr-desc' => 'Unterstützung für lokalisierte Sprachennamen',
+	'cldr-desc' => 'Ermöglicht die Unterstützung für internationalisierte Sprachennamen aus dem [http://cldr.unicode.org/index „Common Locale Data Repository“ (CLDR)]',
 );
 
 /** Lower Sorbian (Dolnoserbski)
