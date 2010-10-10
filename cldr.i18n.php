@@ -5,7 +5,7 @@
 $messages = array();
 
 $messages['en'] = array (
-	'cldr-desc' => 'Extension which provides localised language names',
+	'cldr-desc' => 'Extension which provides localised language names based on [http://cldr.unicode.org/index/downloads CLDR data]',
 );
 
 /** Message documentation (Message documentation)
