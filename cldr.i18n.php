@@ -64,7 +64,7 @@ $messages['bcc'] = array(
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
-	'cldr-desc' => 'Пашырэньне, якое дадае пераклады назваў моў',
+	'cldr-desc' => 'Пашырэньне, якое дадае пераклады назваў моў на аснове [http://cldr.unicode.org/index/downloads зьвестак CLDR]',
 );
 
 /** Bulgarian (Български)
@@ -92,7 +92,7 @@ $messages['br'] = array(
  * @author CERminator
  */
 $messages['bs'] = array(
-	'cldr-desc' => 'Ekstenzija koja pruža lokalizirane nazive jezika',
+	'cldr-desc' => 'Ekstenzija koja pruža lokalizirane nazive jezika zasnovane na [http://cldr.unicode.org/index/downloads podacima CLDR]',
 );
 
 /** Catalan (Català)
@@ -200,7 +200,7 @@ $messages['fy'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'cldr-desc' => 'Extensión que proporciona os nomes localizados das linguas',
+	'cldr-desc' => 'Extensión que proporciona os nomes localizados das linguas, mediante os [http://cldr.unicode.org/index/downloads datos CLDR]',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -371,7 +371,7 @@ $messages['mg'] = array(
  * @author Brest
  */
 $messages['mk'] = array(
-	'cldr-desc' => 'Додаток кој дава локализирани имиња на јазиците',
+	'cldr-desc' => 'Додаток кој дава локализирани имиња на јазиците, врз онснова на [http://cldr.unicode.org/index/downloads податоците на CLDR]',
 );
 
 /** Malayalam (മലയാളം)
@@ -456,7 +456,7 @@ $messages['pl'] = array(
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'cldr-desc' => 'Estension che a dà ij nòm localisà dle lenghe',
+	'cldr-desc' => 'Estension che a dà ij nòm localisà dle lenghe basà an sij [http://cldr.unicode.org/index/downloads dat CLDR]',
 );
 
 /** Portuguese (Português)
@@ -593,7 +593,7 @@ $messages['tg-latn'] = array(
  * @author AnakngAraw
  */
 $messages['tl'] = array(
-	'cldr-desc' => 'Karugtong na nagbibigay ng mga pangalan ng isinapook na wika',
+	'cldr-desc' => 'Dugtong na nagbibigay ng mga pangalan ng isinapook na wika sa [http://cldr.unicode.org/index/downloads dato ng CLDR]',
 );
 
 /** Turkish (Türkçe)
