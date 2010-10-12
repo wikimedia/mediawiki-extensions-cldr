@@ -186,7 +186,7 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'cldr-desc' => 'Èxtension que balye los noms traduits de les lengoues.',
+	'cldr-desc' => 'Èxtension que balye los noms traduits de les lengoues, sur la bâsa de les [http://cldr.unicode.org/index/downloads balyês CLDR].',
 );
 
 /** Western Frisian (Frysk)
@@ -214,7 +214,7 @@ $messages['grc'] = array(
  * @author Als-Holder
  */
 $messages['gsw'] = array(
-	'cldr-desc' => 'Unterstitzig fir lokalisierti Sprochenäme',
+	'cldr-desc' => 'Unterstitzig fir lokalisierti Sprochenäme us em [http://cldr.unicode.org/index „Common Locale Data Repository“ (CLDR)]',
 );
 
 /** Manx (Gaelg)
@@ -464,7 +464,7 @@ $messages['pms'] = array(
  * @author Malafaya
  */
 $messages['pt'] = array(
-	'cldr-desc' => 'Extensão que fornece nomes de língua localizados',
+	'cldr-desc' => 'Extensão que fornece nomes de língua localizados, com base em [http://cldr.unicode.org/index/downloads dados CLDR]',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
