@@ -146,10 +146,11 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Locos epraix
  * @author Sanbec
  */
 $messages['es'] = array(
-	'cldr-desc' => 'Extensión que provee nombres de idioma traducidos',
+	'cldr-desc' => 'Extensión que provee nombres de idioma traducidos basados en [http://cldr.unicode.org/index/downloads datos CLDR]',
 );
 
 /** Basque (Euskara)
@@ -433,9 +434,10 @@ $messages['nn'] = array(
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
+ * @author Nghtwlkr
  */
 $messages['no'] = array(
-	'cldr-desc' => 'Utvidelse som gir oversatte språknavn',
+	'cldr-desc' => 'Utvidelse som gir lokaliserte språknavn basert på [http://cldr.unicode.org/index/downloads CLDR-data]',
 );
 
 /** Occitan (Occitan)
