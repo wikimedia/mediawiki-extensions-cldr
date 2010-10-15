@@ -449,9 +449,10 @@ $messages['oc'] = array(
 
 /** Polish (Polski)
  * @author Masti
+ * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'cldr-desc' => 'Rozszerzenie dostarczające zlokalizowane nazwy języków',
+	'cldr-desc' => 'Rozszerzenie dodające zlokalizowane nazwy języków w oparciu o [http://cldr.unicode.org/index/downloads dane CLDR]',
 );
 
 /** Piedmontese (Piemontèis)
