@@ -139,10 +139,11 @@ $messages['el'] = array(
 );
 
 /** Esperanto (Esperanto)
+ * @author Eliovir
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'cldr-desc' => 'Etendilo kiu provizas asimilitajn lingvo-nomojn',
+	'cldr-desc' => 'Kromaĵo kiu provizas tradukitajn nomojn de lingvoj bazitajn sur [http://cldr.unicode.org/index/downloads datumoj de CLDR]',
 );
 
 /** Spanish (Español)
@@ -465,16 +466,18 @@ $messages['pms'] = array(
 /** Portuguese (Português)
  * @author Hamilton Abreu
  * @author Malafaya
+ * @author Waldir
  */
 $messages['pt'] = array(
-	'cldr-desc' => 'Extensão que fornece nomes de língua localizados, com base em [http://cldr.unicode.org/index/downloads dados CLDR]',
+	'cldr-desc' => 'Extensão que fornece nomes de língua localizados, com base em [http://cldr.unicode.org/index/downloads dados do CLDR]',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Waldir
  */
 $messages['pt-br'] = array(
-	'cldr-desc' => 'Extensão que provê nomes de línguas localizados',
+	'cldr-desc' => 'Extensão que provê nomes de línguas localizados, com base em [http://cldr.unicode.org/index/downloads dados do CLDR]',
 );
 
 /** Romanian (Română)
@@ -488,7 +491,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'cldr-desc' => 'Estenzione ca provvede a lacalizzà le nome de le lenghe',
+	'cldr-desc' => 'Estenzione ca dè le nome de lenghe localizzate conzideranne [http://cldr.unicode.org/index/le scaricaminde de date CLDR]',
 );
 
 /** Russian (Русский)
