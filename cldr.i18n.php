@@ -356,10 +356,11 @@ $messages['lt'] = array(
 );
 
 /** Latvian (Latviešu)
+ * @author Papuass
  * @author Xil
  */
 $messages['lv'] = array(
-	'cldr-desc' => 'Paplašinājums, kas piedāvā lokalizētus valodu nosaukumus',
+	'cldr-desc' => 'Paplašinājums, kurš piedāvā lokalizētus valodu nosaukumus, izmantojot [http://cldr.unicode.org/index/downloads CLDR datus]',
 );
 
 /** Malagasy (Malagasy)
