@@ -259,7 +259,7 @@ $messages['hsb'] = array(
  * @author Dani
  */
 $messages['hu'] = array(
-	'cldr-desc' => 'Kiterjesztés, ami lefordított nyelvneveket szolgáltat',
+	'cldr-desc' => 'Lokalizált nyelvneveket szolgáltat a [http://cldr.unicode.org/index/downloads CLDR adatai] alapján',
 );
 
 /** Interlingua (Interlingua)
