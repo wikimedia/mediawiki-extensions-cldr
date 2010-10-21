@@ -324,7 +324,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'cldr-desc' => 'Brengk ettlijje Name för Shprooche op ettlijje Shprooche en et Wiki',
+	'cldr-desc' => 'Brengk ettlijje Name för Shprooche op ettlijje Shprooche en et Wiki, opjebout op dem [http://cldr.unicode.org/index/downloads CLDR sing Daate].',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
