@@ -367,7 +367,7 @@ $messages['lv'] = array(
  * @author Jagwar
  */
 $messages['mg'] = array(
-	'cldr-desc' => 'Fanitarana manome ny anaram-piteny misy',
+	'cldr-desc' => "Fanitarana manome ny anaram-piteny voadika, mifototra amin'ny  [http://cldr.unicode.org/index/downloads fampahalalàna omen'ny CLDR]",
 );
 
 /** Macedonian (Македонски)
