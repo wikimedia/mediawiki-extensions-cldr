@@ -248,6 +248,12 @@ $names = array(
 'ruq-latn'   => 'Megleno-Romanian (Latin script)',
 
 /* Not in CLDR 1.9.0.
+ * http://www.sil.org/iso639-3/documentation.asp?id=sgs
+ * Added 2010-10-14.
+ */
+'sgs'        => 'Samogitian',
+
+/* Not in CLDR 1.9.0.
  * http://www.sil.org/iso639-3/documentation.asp?id=sli
  * Added 2008-09-02.
  */
