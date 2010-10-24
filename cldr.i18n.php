@@ -379,10 +379,11 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Praveenp
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'cldr-desc' => 'പ്രാദേശികവൽക്കരിക്കപ്പെട്ട നാമങ്ങൾ ഉപയോഗിക്കുവാൻ സഹായിക്കുന്ന എക്സ്റ്റെൻഷൻ',
+	'cldr-desc' => 'പ്രാദേശികവൽക്കരിക്കപ്പെട്ട നാമങ്ങൾ ഉപയോഗിക്കുവാൻ സഹായിക്കുന്ന [http://cldr.unicode.org/index/downloads സി.എൽ.ഡി.ആർ. ഡേറ്റ] അടിസ്ഥാനമാക്കിയ എക്സ്റ്റെൻഷൻ',
 );
 
 /** Marathi (मराठी)
