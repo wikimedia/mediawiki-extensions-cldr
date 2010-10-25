@@ -284,10 +284,11 @@ $messages['ig'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author Pietrodn
  */
 $messages['it'] = array(
-	'cldr-desc' => 'Estensione che fornisce i nomi localizzati delle lingue',
+	'cldr-desc' => 'Estensione che fornisce i nomi localizzati delle lingue sulla base dei [http://cldr.unicode.org/index/downloads dati CLDR]',
 );
 
 /** Japanese (日本語)
