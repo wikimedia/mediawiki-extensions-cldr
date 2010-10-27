@@ -39,10 +39,11 @@ $messages['arz'] = array(
 );
 
 /** Bashkir (Башҡорт)
+ * @author Assele
  * @author Рустам Нурыев
  */
 $messages['ba'] = array(
-	'cldr-desc' => 'Тел исемдәрен тәржемә итеү өсөн ҡуллайлама',
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR мәғлүмәте] нигеҙендә тел исемдәренең тәржемәһе менән тәьмин итеүсе киңәйтеү',
 );
 
 /** Bavarian (Boarisch)
