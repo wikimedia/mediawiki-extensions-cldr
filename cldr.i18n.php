@@ -655,7 +655,7 @@ $messages['vep'] = array(
  * @author Vinhtantran
  */
 $messages['vi'] = array(
-	'cldr-desc' => 'Phần mở rộng cung cấp tên ngôn ngữ đã địa phương hóa',
+	'cldr-desc' => 'Phần mở rộng cung cấp các tên ngôn ngữ bản ngữ dựa trên [http://cldr.unicode.org/index/downloads dữ liệu CLDR]',
 );
 
 /** Volapük (Volapük)
