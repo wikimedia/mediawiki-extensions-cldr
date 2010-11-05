@@ -253,7 +253,7 @@ $messages['hil'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'cldr-desc' => 'Rožšěrjenje, kotrež lokalizowane mjena rěčow k dispoziciji staja.',
+	'cldr-desc' => 'Rožšěrjenje, kotrež lokalizowane mjena rěčow na zakładźe [http://cldr.unicode.org/index/downloads CLDR-datow] k dispoziciji staja.',
 );
 
 /** Hungarian (Magyar)
