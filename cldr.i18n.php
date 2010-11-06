@@ -157,10 +157,11 @@ $messages['es'] = array(
 );
 
 /** Basque (Euskara)
+ * @author An13sa
  * @author Theklan
  */
 $messages['eu'] = array(
-	'cldr-desc' => 'Lokalizatutako hizkuntza izenak eskaintzen dituen estentsioa',
+	'cldr-desc' => 'Lokalizatutako hizkuntza izenak eskaintzen dituen luzapena [http://cldr.unicode.org/index/downloads CLDR datuetan] oinarrituta',
 );
 
 /** Persian (فارسی)
@@ -225,7 +226,7 @@ $messages['gsw'] = array(
  * @author MacTire02
  */
 $messages['gv'] = array(
-	'cldr-desc' => 'Sheeyntagh ta kiarail enmyn çhengey ynnydit',
+	'cldr-desc' => 'Sheeyntagh ta kiarail enmyn çhengey ynnydit, bunnit er [http://cldr.unicode.org/index/downloads fysseree CLDR]',
 );
 
 /** Hebrew (עברית)
