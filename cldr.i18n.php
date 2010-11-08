@@ -512,7 +512,7 @@ $messages['ru'] = array(
  * @author HalanTul
  */
 $messages['sah'] = array(
-	'cldr-desc' => 'Тыллар ааттарын тылбааһын онорор тупсарыы',
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR-га] олоҕуран тыллар ааттарын тылбааһын көрдөрөр тупсарыы',
 );
 
 /** Slovak (Slovenčina)
