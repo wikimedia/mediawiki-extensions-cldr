@@ -97,10 +97,11 @@ $messages['bs'] = array(
 );
 
 /** Catalan (Català)
+ * @author Martorell
  * @author Solde
  */
 $messages['ca'] = array(
-	'cldr-desc' => 'Extensió que proporciona noms localitzats de les llengües',
+	'cldr-desc' => 'Extensió que proporciona noms localitzats de les llengües, basat en [http://cldr.unicode.org/index/downloads dades CLDR]',
 );
 
 /** Czech (Česky)
@@ -130,7 +131,7 @@ $messages['de'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'cldr-desc' => 'Rozšyrjenje, kótarež pódawa lokalizěrowane rěcne mjenja.',
+	'cldr-desc' => 'Rozšyrjenje, kótarež pódawa lokalizěrowane rěcne mjenja na zakłaźe [http://cldr.unicode.org/index/downloads CLDR data]',
 );
 
 /** Greek (Ελληνικά)
