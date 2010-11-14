@@ -116,7 +116,7 @@ $messages['cs'] = array(
  * @author Lloffiwr
  */
 $messages['cy'] = array(
-	'cldr-desc' => "Estyniad sy'n darparu enwau ieithoedd yn iaith y wici",
+	'cldr-desc' => "Estyniad sy'n defnyddio [http://cldr.unicode.org/index/downloads data CLDR] i ddarparu enwau ieithoedd yn iaith y wici",
 );
 
 /** German (Deutsch)
