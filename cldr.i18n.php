@@ -491,7 +491,7 @@ $messages['pt-br'] = array(
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
-	'cldr-desc' => 'Extensie care oferă nume de limbi localizate',
+	'cldr-desc' => 'Extensie care oferă nume de limbi localizate pe baza [http://cldr.unicode.org/index/downloads datelor CLDR]',
 );
 
 /** Tarandíne (Tarandíne)
