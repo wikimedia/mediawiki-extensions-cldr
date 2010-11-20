@@ -273,10 +273,11 @@ $messages['ia'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author IvanLanin
  * @author Rex
  */
 $messages['id'] = array(
-	'cldr-desc' => 'Ekstensi yang menyediakan nama-nama bahasa dalam bahasa aslinya',
+	'cldr-desc' => 'Ekstensi yang menyediakan nama bahasa dalam bahasa lokal berdasarkan [http://cldr.unicode.org/index/downloads data CLDR]',
 );
 
 /** Igbo (Igbo)
