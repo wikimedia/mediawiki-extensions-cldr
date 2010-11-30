@@ -232,9 +232,10 @@ $messages['gv'] = array(
 
 /** Hebrew (עברית)
  * @author Rotemliss
+ * @author YaronSh
  */
 $messages['he'] = array(
-	'cldr-desc' => 'הרחבה המספקת שמות מתורגמים לשפות',
+	'cldr-desc' => 'הרחבה המספקת שמות מתורגמים לשפות בהתבסס על [http://cldr.unicode.org/index/downloads נתוני ה־CLDR]',
 );
 
 /** Hindi (हिन्दी)
