@@ -678,9 +678,10 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Alex S.H. Lin
+ * @author PhiLiP
  */
 $messages['zh-hans'] = array(
-	'cldr-desc' => '本地化语言名称',
+	'cldr-desc' => '基于[http://cldr.unicode.org/index/downloads CLDR数据]提供本地化语言名称的扩展。',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
