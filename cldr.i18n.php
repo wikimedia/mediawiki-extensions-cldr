@@ -177,7 +177,7 @@ $messages['fa'] = array(
  * @author Mobe
  */
 $messages['fi'] = array(
-	'cldr-desc' => 'Laajennus, joka tarjoaa kotoistetut kielten nimet.',
+	'cldr-desc' => 'Laajennus, joka tarjoaa kotoistetut kielten nimet pohjautuen [http://cldr.unicode.org/index/downloads CLDR-tietoihin].',
 );
 
 /** French (Français)
