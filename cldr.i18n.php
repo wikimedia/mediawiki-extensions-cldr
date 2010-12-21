@@ -175,9 +175,10 @@ $messages['fa'] = array(
 /** Finnish (Suomi)
  * @author Crt
  * @author Mobe
+ * @author Nike
  */
 $messages['fi'] = array(
-	'cldr-desc' => 'Laajennus, joka tarjoaa kotoistetut kielten nimet pohjautuen [http://cldr.unicode.org/index/downloads CLDR-tietoihin].',
+	'cldr-desc' => 'Laajennus, joka tarjoaa kotoistetut kielten nimet pohjautuen [http://cldr.unicode.org/index/downloads CLDR-tietovarastoon].',
 );
 
 /** French (Français)
