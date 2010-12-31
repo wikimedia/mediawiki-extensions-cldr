@@ -60,7 +60,7 @@ class LanguageNames {
 	private static function loadLanguage( $code ) {
 		if ( !isset(self::$cache[$code]) ) {
 
-			/** Load override for wrong or missing entries in cldr */
+			/* Load override for wrong or missing entries in cldr */
 			$override = dirname(__FILE__) . '/' . self::getOverrideFileName( $code );
 			if ( file_exists( $override ) ) {
 				$names = false;
@@ -97,5 +97,8 @@ class LanguageNames {
 		return Language::getFileName( "LocalNames", $code, '.php' );
 	}
 
-
+	public static function coreHook( &$names, $code ) {
+		$names += self::getNames( $code, self::FALLBACK_NORMAL, self::LIST_MW_AND_CLDR );
+		return true;
+	}
 }
