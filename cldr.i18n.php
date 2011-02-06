@@ -314,10 +314,11 @@ $messages['jv'] = array(
 );
 
 /** Khmer (ភាសាខ្មែរ)
+ * @author គីមស៊្រុន
  * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
-	'cldr-desc' => 'Extension ដែលផ្តល់នូវ​ឈ្មោះ​ជាភាសា​ក្នុងស្រុក​',
+	'cldr-desc' => 'Extension ដែលផ្តល់នូវ​ឈ្មោះ​ជាភាសា​ក្នុងស្រុក​តាម[http://cldr.unicode.org/index/downloads ទិន្នន័យCLDR]',
 );
 
 /** Korean (한국어)
