@@ -423,10 +423,11 @@ $messages['nds-nl'] = array(
 );
 
 /** Nepali (नेपाली)
+ * @author Bhawani Gautam Rhk
  * @author सरोज कुमार ढकाल
  */
 $messages['ne'] = array(
-	'cldr-desc' => 'एक्सटेन्सन जसले लोकालाइज गरिएको भाषा नाम प्रयोग गर्न सहयोग गर्छ',
+	'cldr-desc' => 'विस्तार जसले [http://cldr.unicode.org/index/downloads CLDR data] आधारमा स्थानीयकृत भाषा-नामहरु प्रदान गर्दछ',
 );
 
 /** Dutch (Nederlands)
