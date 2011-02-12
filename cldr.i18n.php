@@ -553,7 +553,7 @@ $messages['sq'] = array(
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
-	'cldr-desc' => 'Екстензија која омогућава локализацију назива језика',
+	'cldr-desc' => 'Екстензија која омогућава локализоване називе језика, базиране на [http://cldr.unicode.org/index/downloads CLDR подацима]',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
