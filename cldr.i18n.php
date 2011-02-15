@@ -550,10 +550,11 @@ $messages['sq'] = array(
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
-	'cldr-desc' => 'Екстензија која омогућава локализоване називе језика, базиране на [http://cldr.unicode.org/index/downloads CLDR подацима]',
+	'cldr-desc' => 'Проширење које омогућава преведене називе језика засновано је на [http://cldr.unicode.org/index/downloads CLDR подацима]',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
