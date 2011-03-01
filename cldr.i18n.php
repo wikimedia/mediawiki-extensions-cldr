@@ -38,6 +38,13 @@ $messages['arz'] = array(
 	'cldr-desc' => 'Extension ببيّن الاسامى المحليه بتاعة اللغات',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'cldr-desc' => "Estensión qu'ufre nomes d'idioma llocalizaos basaos nos [http://cldr.unicode.org/index/downloads datos de CLDR]",
+);
+
 /** Bashkir (Башҡортса)
  * @author Assele
  * @author Рустам Нурыев
