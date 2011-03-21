@@ -176,7 +176,7 @@ $messages['eu'] = array(
  * @author Ebraminio
  */
 $messages['fa'] = array(
-	'cldr-desc' => 'افزونه‌ای که از نام محلی زبان‌ها حمایت می‌کند.',
+	'cldr-desc' => 'افزونه‌ای که از نام محلی زبان‌ها بر پایهٔ [http://cldr.unicode.org/index/downloads داده‌های CLDR] حمایت می‌کند.',
 );
 
 /** Finnish (Suomi)
