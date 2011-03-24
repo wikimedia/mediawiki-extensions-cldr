@@ -1,7 +1,7 @@
 <?php
 if (!defined('MEDIAWIKI')) die();
 /**
- * An extension which provised localised language names for other extensions.
+ * An extension which provides localised language names for other extensions.
  *
  * @file
  * @ingroup Extensions

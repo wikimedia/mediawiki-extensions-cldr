@@ -12,8 +12,8 @@ class LanguageNames {
 	private static $cache = array();
 
 	const FALLBACK_NATIVE   = 0; // Missing entries fallback to native name
-	const FALLBACK_NORMAL   = 1; // Missing entries fallback trough fallback chain
-	const LIST_MW_SUPPORTED = 0; // Only names that has localisation in MediaWiki
+	const FALLBACK_NORMAL   = 1; // Missing entries fallback through the fallback chain
+	const LIST_MW_SUPPORTED = 0; // Only names that have localisation in MediaWiki
 	const LIST_MW           = 1; // All names that are in Names.php
 	const LIST_MW_AND_CLDR  = 2; // Combination of Names.php and what is in cldr
 
@@ -59,6 +59,7 @@ class LanguageNames {
 
 	private static function loadLanguage( $code ) {
 		if ( !isset(self::$cache[$code]) ) {
+			wfProfileIn( __METHOD__.'-recache' );
 
 			/* Load override for wrong or missing entries in cldr */
 			$override = dirname(__FILE__) . '/' . self::getOverrideFileName( $code );
@@ -84,6 +85,7 @@ class LanguageNames {
 			} else {
 				wfDebug( __METHOD__ . ": Unable to load language names for $filename\n" );
 			}
+			wfProfileOut( __METHOD__.'-recache' );
 		}
 
 		return isset( self::$cache[$code] ) ? self::$cache[$code] : array();
