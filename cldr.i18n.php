@@ -79,7 +79,7 @@ $messages['be-tarask'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
-	'cldr-desc' => 'Предоставя локализирани имена на езиците',
+	'cldr-desc' => 'Разширение, което предоставя локализирани имена на езиците от [http://cldr.unicode.org/index/downloads CLDR данните]',
 );
 
 /** Bengali (বাংলা)
