@@ -63,7 +63,7 @@ class LanguageNames {
 
 			/* Load override for wrong or missing entries in cldr */
 			$override = dirname(__FILE__) . '/' . self::getOverrideFileName( $code );
-			if ( file_exists( $override ) ) {
+			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$names = false;
 				require( $override );
 				if ( is_array( $names ) ) {
@@ -72,7 +72,7 @@ class LanguageNames {
 			}
 
 			$filename = dirname(__FILE__) . '/' . self::getFileName( $code );
-			if ( file_exists( $filename ) ) {
+			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$names = false;
 				require( $filename );
 				if ( is_array( $names ) ) {
