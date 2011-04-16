@@ -53,6 +53,12 @@ $names = array(
  */
 'bqi'         => 'Bakhtiari',
 
+/* Not in CLDR 1.9.0. Bihari language
+ * http://www.ethnologue.org/show_language.asp?code=brh
+ * Added 2011-04-16.
+ */
+'brh'         => 'Brahui',
+
 /* Not in CLDR 1.9.0. Sorani (Central Kurdish)
  * http://www.ethnologue.org/show_language.asp?code=ckb
  * Added 2008-04-17.
@@ -70,6 +76,12 @@ $names = array(
  * Added 2008-02-16.
  */
 'dlc'         => 'Dalecarlian',
+
+/* Not in CLDR 1.9.0. Central Dusun language
+ * http://www.ethnologue.org/show_language.asp?code=dtp
+ * Added 2011-04-16.
+ */
+'dtp'         => 'Central Dusun',
 
 /* Not in CLDR 1.9.0. Romance language.
  * http://www.ethnologue.org/show_language.asp?code=eml
@@ -123,11 +135,23 @@ $names = array(
 'gom-mlym'   => 'Goanese Konkani (Malayalam script)',
 'gom-arab'   => 'Goanese Konkani (Arabic script)',
 
+/* Not in CLDR 1.9.0. Western Atlantic Creole language
+ * http://www.ethnologue.org/show_language.asp?code=dtp
+ * Added 2011-04-16.
+ */
+'jam'         => 'Jamaican Creole English',
+
 /* Not in CLDR 1.9.0. Danish language.
  * http://www.ethnologue.org/show_language.asp?code=jut
  * Added 2008-02-06.
  */
 'jut'        => 'Jutish',
+
+/* Not in CLDR 1.9.0. Chitral language
+ * http://www.ethnologue.org/show_language.asp?code=dtp
+ * Added 2011-04-16.
+ */
+'kho'         => 'Khowar',
 
 /* Not in CLDR 1.9.0. Zaza-Gorani language.
  * http://www.ethnologue.org/show_language.asp?code=kiu
