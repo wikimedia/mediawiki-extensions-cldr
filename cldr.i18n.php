@@ -575,7 +575,7 @@ $messages['sr-el'] = array(
  * @author Pyt
  */
 $messages['stq'] = array(
-	'cldr-desc' => 'Unnerstutsenge fon lokalisierde Sproakennoomen',
+	'cldr-desc' => 'Moaket ju Unnerstutsenge muugelk fon internationalisierde Sproakennoomen uut dät  [http://cldr.unicode.org/index „Common Locale Data Repository“ (CLDR)]',
 );
 
 /** Sundanese (Basa Sunda)
