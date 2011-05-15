@@ -27,7 +27,7 @@ $messages['af'] = array(
  * @author Meno25
  */
 $messages['ar'] = array(
-	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة',
+	'cldr-desc' => 'امتداد يوفر أسماء لغات مترجمة بالاعتماد على [http://cldr.unicode.org/index/downloads بيانات CLDR]',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
