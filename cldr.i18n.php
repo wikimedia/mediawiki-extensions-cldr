@@ -112,11 +112,12 @@ $messages['ca'] = array(
 );
 
 /** Czech (Česky)
+ * @author Danny B.
  * @author Matěj Grabovský
  * @author Mormegil
  */
 $messages['cs'] = array(
-	'cldr-desc' => 'Rozšíření, které poskytuje lokalizované názvy jazyků s využitím [http://cldr.unicode.org/index/downloads dat CLDR]',
+	'cldr-desc' => 'Rozšíření poskytující lokalizované názvy jazyků s využitím [http://cldr.unicode.org/index/downloads dat CLDR]',
 );
 
 /** Welsh (Cymraeg)
