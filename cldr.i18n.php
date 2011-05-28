@@ -333,7 +333,7 @@ $messages['km'] = array(
  * @author Kwj2772
  */
 $messages['ko'] = array(
-	'cldr-desc' => '한 언어로 번역된 언어 이름을 제공하는 확장 기능',
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR 데이터]에 따라 한 언어로 번역된 언어 이름을 제공하는 확장 기능',
 );
 
 /** Colognian (Ripoarisch)
