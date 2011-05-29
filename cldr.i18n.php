@@ -410,10 +410,11 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Zamwan
  */
 $messages['ms'] = array(
-	'cldr-desc' => 'Sambungan yang menyediakan nama-nama bahasa setempat',
+	'cldr-desc' => 'ambungan yang menyediakan nama-nama bahasa setempat berasaskan [http://cldr.unicode.org/index/downloads data CLDR]',
 );
 
 /** Low German (Plattdüütsch)
