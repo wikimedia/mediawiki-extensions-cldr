@@ -41,7 +41,7 @@ foreach ( $langs as $code => $name ) {
 			} else {
 				$codePart[$i] = '';
 			}
-		}	
+		}
 		// ISO 15924 alpha-4 script code
 		if (strlen($codePart[1]) == 4 ) {
 			$codePart[1] = ucfirst( $codePart[1] );
@@ -188,17 +188,17 @@ function getRealCode( $code ) {
 	$realCode = $code;
 	if ( !strcmp( $code, 'kk' ) )
 		$realCode = 'kk-cyrl';
-	else if ( !strcmp( $code, 'ku' ) )
+	elseif ( !strcmp( $code, 'ku' ) )
 		$realCode = 'ku-arab';
-	else if ( !strcmp( $code, 'sr' ) )
+	elseif ( !strcmp( $code, 'sr' ) )
 		$realCode = 'sr-ec';
-	else if ( !strcmp( $code, 'tg' ) )
+	elseif ( !strcmp( $code, 'tg' ) )
 		$realCode = 'tg-cyrl';
-	else if ( !strcmp( $code, 'zh' ) )
+	elseif ( !strcmp( $code, 'zh' ) )
 		$realCode = 'zh-hans';
-	else if ( !strcmp( $code, 'pt' ) )
+	elseif ( !strcmp( $code, 'pt' ) )
 		$realCode = 'pt-br';
-	else if ( !strcmp( $code, 'pt-pt' ) )
+	elseif ( !strcmp( $code, 'pt-pt' ) )
 		$realCode = 'pt';
 	return $realCode;
 }
