@@ -25,7 +25,6 @@ $names = array(
 'arp' => 'arapaho dili',
 'art' => 'suni dil',
 'arw' => 'aravakça',
-'as' => 'as',
 'ast' => 'asturicə',
 'ath' => 'atapaskanca',
 'aus' => 'avstraliyca',

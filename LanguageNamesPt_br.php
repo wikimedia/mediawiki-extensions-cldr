@@ -378,7 +378,6 @@ $names = array(
 'ro' => 'romeno',
 'roa' => 'idioma românico',
 'rom' => 'romani',
-'root' => 'root',
 'ru' => 'russo',
 'rup' => 'aromeno',
 'rw' => 'kinyarwanda',

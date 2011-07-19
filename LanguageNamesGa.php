@@ -34,7 +34,6 @@ $names = array(
 'eu' => 'Bascais',
 'fa' => 'Peirsis',
 'fi' => 'Fionlainnis',
-'fil' => 'fil',
 'fj' => 'Fidsis',
 'fo' => 'Faróis',
 'fr' => 'Fraincis',
