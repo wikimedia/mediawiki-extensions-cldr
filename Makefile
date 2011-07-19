@@ -1,6 +1,6 @@
 .PHONY: help all clean
 
-CORE=http://www.unicode.org/Public/cldr/1.8.0/core.zip
+COMMON=http://www.unicode.org/Public/cldr/2.0.1/common.zip
 
 help:
 	@echo "'make all' to download CLDR data and rebuild files."
@@ -12,15 +12,17 @@ all: LanguageNames.php
 distclean:
 	rm -f core.zip
 	rm -rf core
+	rm -f common.zip
+	rm -rf common
 
 clean:
 	rm -f LanguageNames[A-Z]*.php
 
-LanguageNames.php: core/
+LanguageNames.php: common/
 	php rebuild.php
 
-core/: core.zip
-	unzip core.zip -d core
+common/: common.zip
+	unzip common.zip -d common
 
-core.zip:
-	curl -C - -O $(CORE) || wget $(CORE) || fetch $(CORE)
+common.zip:
+	curl -C - -O $(COMMON) || wget $(COMMON) || fetch $(COMMON)
