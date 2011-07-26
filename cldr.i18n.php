@@ -428,7 +428,7 @@ $messages['nds'] = array(
  * @author Servien
  */
 $messages['nds-nl'] = array(
-	'cldr-desc' => 'Uutbreiding dee vertaalde namen van talen biejt',
+	'cldr-desc' => 'Uutbreiding die vertaalden namen van talen biejt',
 );
 
 /** Nepali (नेपाली)
