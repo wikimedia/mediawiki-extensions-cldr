@@ -128,12 +128,12 @@ $names = array(
  * http://www.ethnologue.org/show_language.asp?code=gom
  * Added 2008-09-02.
  */
-'gom'        => 'Goanese Konkani',
-'gom-deva'   => 'Goanese Konkani (Devanagari script)',
-'gom-latn'   => 'Goanese Konkani (Latin script)',
-'gom-knda'   => 'Goanese Konkani (Kannada script)',
-'gom-mlym'   => 'Goanese Konkani (Malayalam script)',
-'gom-arab'   => 'Goanese Konkani (Arabic script)',
+'gom'        => 'Goan Konkani',
+'gom-deva'   => 'Goan Konkani (Devanagari script)',
+'gom-latn'   => 'Goan Konkani (Latin script)',
+'gom-knda'   => 'Goan Konkani (Kannada script)',
+'gom-mlym'   => 'Goan Konkani (Malayalam script)',
+'gom-arab'   => 'Goan Konkani (Arabic script)',
 
 /* Not in CLDR 2.0.1. Western Atlantic Creole language
  * http://www.ethnologue.org/show_language.asp?code=dtp
