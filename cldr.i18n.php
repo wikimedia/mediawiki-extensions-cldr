@@ -432,6 +432,7 @@ $messages['nds-nl'] = array(
 );
 
 /** Nepali (नेपाली)
+ * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
  * @author सरोज कुमार ढकाल
  */
@@ -523,7 +524,7 @@ $messages['ru'] = array(
 	'cldr-desc' => 'Расширение, предоставляющее переводы названий языков на основе [http://cldr.unicode.org/index/downloads данных CLDR]',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
