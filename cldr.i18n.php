@@ -403,6 +403,7 @@ $messages['ml'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author Htt
  * @author Mahitgar
  */
 $messages['mr'] = array(
