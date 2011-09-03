@@ -144,9 +144,10 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Omnipaedista
+ * @author ZaDiak
  */
 $messages['el'] = array(
-	'cldr-desc' => 'Επέκταση που παρέχει εντοπιωμένα ονόματα γλωσσών',
+	'cldr-desc' => 'Επέκταση που παρέχει εντοπιωμένα ονόματα γλωσσών βασισμένα σε [http://cldr.unicode.org/index/downloads δεδομένα CLDR]',
 );
 
 /** Esperanto (Esperanto)
@@ -523,6 +524,13 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'cldr-desc' => 'Расширение, предоставляющее переводы названий языков на основе [http://cldr.unicode.org/index/downloads данных CLDR]',
+);
+
+/** Rusyn (Русиньскый)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'cldr-desc' => 'Росшырїня забезпечуюче локалізованы назвы языків з поужытём [http://cldr.unicode.org/index/downloads дат CLDR]',
 );
 
 /** Sakha (Саха тыла)
