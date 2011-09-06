@@ -709,8 +709,9 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Alex S.H. Lin
+ * @author Anakmalaysia
  */
 $messages['zh-hant'] = array(
-	'cldr-desc' => '本地化語言名稱',
+	'cldr-desc' => '基於[http://cldr.unicode.org/index/downloads CLDR數據]提供本地化語言名稱的擴展。',
 );
 
