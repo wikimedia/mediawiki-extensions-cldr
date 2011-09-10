@@ -41,6 +41,12 @@ $names = array(
  */
 'bcc'         => 'Southern Balochi',
 
+/* Not in CLDR 2.0.1. Malay language.
+ * http://www.ethnologue.org/show_language.asp?code=bjn
+ * Added 2011-09-10.
+ */
+'bjn'         => 'Banjar',
+
 /* Not in CLDR 2.0.1. Name Bishnupriya used by Ethnologue:
  * http://www.ethnologue.org/show_language.asp?code=bpy
  * Added 2007-11-10.
@@ -148,10 +154,10 @@ $names = array(
 'jut'        => 'Jutish',
 
 /* Not in CLDR 2.0.1. Chitral language
- * http://www.ethnologue.org/show_language.asp?code=dtp
+ * http://www.ethnologue.org/show_language.asp?code=khw
  * Added 2011-04-16.
  */
-'kho'         => 'Khowar',
+'khw'         => 'Khowar',
 
 /* Not in CLDR 2.0.1. Zaza-Gorani language.
  * http://www.ethnologue.org/show_language.asp?code=kiu
@@ -344,6 +350,8 @@ $names = array(
 'kk-tr'        => 'Kazakh (Turkey)',
 'kk-cyrl'      => 'Kazakh (Cyrillic script)',
 'kk-latn'      => 'Kazakh (Latin script)',
+'ks-arab'      => 'Kashmiri (Arabic script)',
+'ks-deva'      => 'Kashmiri (Devanagari script)',
 'ku-latn'      => 'Kurdish (Latin script)',
 'no'           => 'Norwegian (bokmål)‬',
 'roa-rup'      => 'Aromanian',
@@ -353,7 +361,8 @@ $names = array(
 'tg-latn'      => 'Tajik (Latin script)',
 'tt-cyrl'      => 'Tatar (Cyrillic script)',
 'tt-latn'      => 'Tatar (Latin script)',
-'ug-latn'      => 'Uighur (Latin script)',
+'ug-arab'      => 'Uyghur (Arabic script)',
+'ug-latn'      => 'Uyghur (Latin script)',
 'xmf'          => 'Mingrelian',
 'ydd'          => 'Eastern Yiddish',
 'zh-classical' => 'Classical Chinese',
