@@ -127,6 +127,13 @@ $messages['cy'] = array(
 	'cldr-desc' => "Estyniad sy'n defnyddio [http://cldr.unicode.org/index/downloads data CLDR] i ddarparu enwau ieithoedd yn iaith y wici",
 );
 
+/** Danish (Dansk)
+ * @author Peter Alberti
+ */
+$messages['da'] = array(
+	'cldr-desc' => 'Udvidelse, som giver lokaliserede sprognavne baseret på [http://cldr.unicode.org/index/downloads CLDR-data]',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Raimond Spekking
