@@ -16,64 +16,49 @@ require_once( "$dir/cldr.php" );
 $DATA = "$dir/core/common/main";
 $OUTPUT = $dir;
 
-if (isset( $options['datadir'] ) ) {
+if ( isset( $options['datadir'] ) ) {
 	$DATA = $options['datadir'];
 }
 
-if (isset( $options['outputdir'] ) ) {
+if ( isset( $options['outputdir'] ) ) {
 	$OUTPUT = $options['outputdir'];
 }
 
-$langs = Language::getLanguageNames( false );
+// Get an array of all MediaWiki languages ( $wgLanguageNames + $wgExtraLanguageNames )
+$languages = Language::getLanguageNames( false );
 # hack to get pt-pt too
-$langs['pt-pt'] = 'Foo';
-ksort($langs);
+$languages['pt-pt'] = 'Foo';
+ksort( $languages );
 
-foreach ( $langs as $code => $name ) {
-	unset( $codePartStr );
-	$codePartStr = explode( '-', $code );
-	$countCode = count( $codePartStr );
-	if ( count( $codePartStr ) > 1) {
-		unset( $codePart );
-		for ($i = 0; $i < count( $codePartStr ); $i++) {
-			if ( isset( $codePartStr[$i] ) ) {
-				$codePart[$i] = $codePartStr[$i];
-			} else {
-				$codePart[$i] = '';
-			}
-		}
+foreach ( $languages as $code => $name ) {
+
+	// Construct the correct name for the input file
+	unset( $codeParts );
+	$codeParts = explode( '-', $code );
+	if ( count( $codeParts ) > 1 ) {
+	
 		// ISO 15924 alpha-4 script code
-		if (strlen($codePart[1]) == 4 ) {
-			$codePart[1] = ucfirst( $codePart[1] );
+		if ( strlen( $codeParts[1] ) == 4 ) {
+			$codeParts[1] = ucfirst( $codeParts[1] );
 		}
 
 		// ISO 3166-1 alpha-2 country code
-		if (strlen($codePart[1]) == 2 ) {
-			$codePart[2] = strtoupper( $codePart[1] );
-			$codePart[1] = '';
+		if ( strlen( $codeParts[1] ) == 2 ) {
+			$codeParts[2] = $codeParts[1];
+			unset( $codeParts[1] );
 		}
-		if ( isset( $codePart[2] )) {
-			if ( strlen( $codePart[2] ) == 2 ) {
-				$codePart[2] = strtoupper( $codePart[2] );
+		if ( isset( $codeParts[2] ) ) {
+			if ( strlen( $codeParts[2] ) == 2 ) {
+				$codeParts[2] = strtoupper( $codeParts[2] );
 			}
 		}
-		for ( $i = 0; $i < count($codePart); $i++ ) {
-			if ( $codePart[$i] === '' )
-				unset( $codePart[$i] );
-		}
-		$codeCLDR = implode( '-', $codePart );
+		$codeCLDR = implode( '_', $codeParts );
 	} else {
 		$codeCLDR = $code;
 	}
-
-	$codeCLDR = str_replace(
-			array( '-' ),
-			array( '_' ),
-			$codeCLDR
-	);
-
 	$input = "$DATA/$codeCLDR.xml";
 
+	// If the file exists, parse it, otherwise display an error
 	if ( file_exists( $input ) ) {
 		$en = Language::factory('en');
 		$p = new CLDRParser();
@@ -85,7 +70,7 @@ foreach ( $langs as $code => $name ) {
 			$p->setAlias( false );
 			$p->parse( $input, "$OUTPUT/" . LanguageNames::getFileName( getRealCode( $code ) ) );
 		}
-	} elseif (isset( $options['verbose'] ) ) {
+	} elseif ( isset( $options['verbose'] ) ) {
 		echo "File $input not found\n";
 	}
 }
@@ -98,7 +83,7 @@ class CLDRParser {
 	private $output = "<?php\n\$names = array(\n";
 	private $count = 0;
 
-	function s($parser, $name, $attrs) {
+	function start( $parser, $name, $attrs ) {
 		if ( $name === 'LANGUAGES' ) {
 			$this->languages = true;
 		}
@@ -108,15 +93,15 @@ class CLDRParser {
 
 		$this->ok = false;
 		if ( $this->languages && $name === 'LANGUAGE' ) {
-			if (!isset($attrs["ALT"]) && !isset($attrs["DRAFT"])) {
+			if ( !isset($attrs["ALT"] ) && !isset( $attrs["DRAFT"] ) ) {
 				$this->ok = true;
-				$type = str_replace( '_', '-', strtolower($attrs['TYPE']));
+				$type = str_replace( '_', '-', strtolower($attrs['TYPE'] ) );
 				$this->output .= "'$type' => '";
 			}
 		}
 	}
 
-	function e($parser, $name) {
+	function end( $parser, $name ) {
 		if ( $name === 'LANGUAGES' ) {
 			$this->languages = false;
 			$this->ok = false;
@@ -125,52 +110,52 @@ class CLDRParser {
 		if ( $name === 'ALIAS' ) {
 			return;
 		}
-		if (!$this->ok) return;
+		if ( !$this->ok ) return;
 		$this->output .= "',\n";
 	}
 
-	function c($parser, $data) {
-		if (!$this->ok) return;
-		if (trim($data) === '') return;
-		$this->output .= preg_replace( "/(?<!\\\\)'/", "\'", trim($data));
+	function contents( $parser, $data ) {
+		if ( !$this->ok ) return;
+		if ( trim( $data ) === '' ) return;
+		$this->output .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
 		$this->count++;
 	}
 
-	function parse($input, $output) {
+	function parse( $input, $output ) {
 
 		$xml_parser = xml_parser_create();
-		xml_set_element_handler($xml_parser, array($this,'s'), array($this,'e'));
-		xml_set_character_data_handler($xml_parser, array($this,'c'));
-		if (!($fp = fopen($input, "r"))) {
-				die("could not open XML input");
+		xml_set_element_handler( $xml_parser, array( $this,'start' ), array( $this,'end' ) );
+		xml_set_character_data_handler( $xml_parser, array($this,'contents' ) );
+		if ( !( $fileHandle = fopen( $input, "r" ) ) ) {
+			die( "could not open XML input" );
 		}
 
-		while ($data = fread($fp, filesize($input))) {
-				if (!xml_parse($xml_parser, $data, feof($fp))) {
-						die(sprintf("XML error: %s at line %d",
-												xml_error_string(xml_get_error_code($xml_parser)),
-												xml_get_current_line_number($xml_parser)));
-				}
+		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
+			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
+				die( sprintf( "XML error: %s at line %d",
+					xml_error_string(xml_get_error_code( $xml_parser ) ),
+					xml_get_current_line_number( $xml_parser ) ) );
+			}
 		}
-		xml_parser_free($xml_parser);
+		xml_parser_free( $xml_parser );
 
-		fclose($fp);
+		fclose( $fileHandle );
 
 		if ( !$this->count ) { return; }
 
-		if ($this->alias === false)
-			$this->output .= ");\n";
-		if ( $this->count == 1 )
+		if ( $this->alias === false ) $this->output .= ");\n";
+		if ( $this->count == 1 ) {
 			echo "Wrote $this->count entry to $output\n";
-		else
+		} else {
 			echo "Wrote $this->count entries to $output\n";
-
-		if (!($fp = fopen($output, "w+"))) {
-			die("could not open putput input");
+		}
+		if ( !( $fileHandle = fopen( $output, "w+" ) ) ) {
+			die( "could not open output file" );
 		}
 
-		fwrite($fp, $this->output);
-		fclose($fp);
+		// 
+		fwrite( $fileHandle, $this->output );
+		fclose( $fileHandle );
 
 	}
 
