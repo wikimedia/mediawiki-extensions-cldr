@@ -60,10 +60,10 @@ foreach ( $languages as $code => $name ) {
 
 	// If the file exists, parse it, otherwise display an error
 	if ( file_exists( $input ) ) {
-		$en = Language::factory('en');
 		$p = new CLDRParser();
 		$p->parse( $input, "$OUTPUT/" . LanguageNames::getFileName( getRealCode ( $code ) ) );
-		while ($p->getAlias() != false) {
+		// If the previously parsed file points to an alias, parse the alias
+		while ( $p->getAlias() != false ) {
 			$codeCLDR = $p->getAlias();
 			$input = "$DATA/$codeCLDR.xml";
 			echo "Alias $codeCLDR found for $code\n";
