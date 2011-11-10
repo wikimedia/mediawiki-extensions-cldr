@@ -1,5 +1,5 @@
 <?php
-$names = array(
+$languageNames = array(
 'ar' => 'අරාබි',
 'bn' => 'බෙංගලි',
 'bo' => 'ටිබෙට්',

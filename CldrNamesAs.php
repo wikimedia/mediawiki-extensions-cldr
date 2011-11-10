@@ -1,4 +1,4 @@
 <?php
-$names = array(
+$languageNames = array(
 'as' => 'অসমীয়া',
 );

@@ -1,5 +1,5 @@
 <?php
-$names = array(
+$languageNames = array(
 'de' => 'немисче',
 'en' => 'англисче',
 'es' => 'испанча',

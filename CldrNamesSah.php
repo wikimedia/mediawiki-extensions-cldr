@@ -1,4 +1,4 @@
 <?php
-$names = array(
+$languageNames = array(
 'sah' => 'саха тыла',
 );

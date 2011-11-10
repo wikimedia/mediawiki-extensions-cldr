@@ -1,5 +1,5 @@
 <?php
-$names = array(
+$languageNames = array(
 'ab' => 'lea fakaʻapakasi',
 'af' => 'lea fakaʻafilikana',
 'am' => 'leaʻameliki',

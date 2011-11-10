@@ -1,6 +1,6 @@
 <?php
 /**
- * Extract language names from cldr xml.
+ * Extract data from cldr xml.
  * @author Niklas Laxström
  */
 
@@ -63,14 +63,6 @@ foreach ( $languages as $code => $name ) {
 		$outputFileName = Language::getFileName( "CldrNames", getRealCode ( $code ), '.php' );
 		$p = new CLDRParser();
 		$p->parse( $input, "$OUTPUT/$outputFileName" );
-		// If the previously parsed file points to an alias, parse the alias
-		while ( $p->getAlias() != false ) {
-			$codeCLDR = $p->getAlias();
-			$input = "$DATA/$codeCLDR.xml";
-			echo "Alias $codeCLDR found for $code\n";
-			$p->setAlias( false );
-			$p->parse( $input, "$OUTPUT/$outputFileName" );
-		}
 	} elseif ( isset( $options['verbose'] ) ) {
 		echo "File $input not found\n";
 	}
@@ -80,91 +72,100 @@ foreach ( $languages as $code => $name ) {
 class CLDRParser {
 	private $ok = true;
 	private $languages = false;
-	private $alias = false;
-	private $output = "<?php\n\$names = array(\n";
-	private $count = 0;
+	private $output = "<?php\n";
+	private $languageCount = 0;
+	private $currencyCount = 0;
+	private $countryCount = 0;
 
-	function start( $parser, $name, $attrs ) {
+	function langStart( $parser, $name, $attrs ) {
 		if ( $name === 'LANGUAGES' ) {
 			$this->languages = true;
 		}
-		if ( $name === 'ALIAS') {
-			$this->alias = $attrs["SOURCE"];
-		}
-
 		$this->ok = false;
 		if ( $this->languages && $name === 'LANGUAGE' ) {
 			if ( !isset($attrs["ALT"] ) && !isset( $attrs["DRAFT"] ) ) {
 				$this->ok = true;
-				$type = str_replace( '_', '-', strtolower($attrs['TYPE'] ) );
+				$type = str_replace( '_', '-', strtolower( $attrs['TYPE'] ) );
 				$this->output .= "'$type' => '";
 			}
 		}
 	}
 
-	function end( $parser, $name ) {
+	function langEnd( $parser, $name ) {
 		if ( $name === 'LANGUAGES' ) {
 			$this->languages = false;
 			$this->ok = false;
-			return;
-		}
-		if ( $name === 'ALIAS' ) {
 			return;
 		}
 		if ( !$this->ok ) return;
 		$this->output .= "',\n";
 	}
 
-	function contents( $parser, $data ) {
+	function langContents( $parser, $data ) {
 		if ( !$this->ok ) return;
 		if ( trim( $data ) === '' ) return;
+		// Trim data and escape quote marks, but don't double escape.
 		$this->output .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
-		$this->count++;
+		$this->languageCount++;
+	}
+	
+	function parseLanguages( $xml_parser, $input, $output, $fileHandle ) {
+	
+		// Set up the handler functions for the XML parser
+		xml_set_element_handler( $xml_parser, array( $this, 'langStart' ), array( $this, 'langEnd' ) );
+		xml_set_character_data_handler( $xml_parser, array( $this, 'langContents' ) );
+		
+		$this->output .= "\$languageNames = array(\n"; // Open the languageNames array
+		
+		// Populate the array with the XML data
+		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
+			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
+				die( sprintf( "XML error: %s at line %d",
+					xml_error_string( xml_get_error_code( $xml_parser ) ),
+					xml_get_current_line_number( $xml_parser ) ) );
+			}
+		}
+		
+		$this->output .= ");\n"; // Close the languageNames array
+		
+		// Give a status update
+		if ( $this->languageCount == 1 ) {
+			echo "Wrote 1 entry to $output\n";
+		} else {
+			echo "Wrote $this->languageCount entries to $output\n";
+		}
+		
 	}
 
 	function parse( $input, $output ) {
 
-		$xml_parser = xml_parser_create();
-		xml_set_element_handler( $xml_parser, array( $this, 'start' ), array( $this, 'end' ) );
-		xml_set_character_data_handler( $xml_parser, array( $this, 'contents' ) );
+		// Open the input file for reading
 		if ( !( $fileHandle = fopen( $input, "r" ) ) ) {
 			die( "could not open XML input" );
 		}
+		
+		$xml_parser = xml_parser_create(); // Create a new parser
+		
+		$this->parseLanguages( $xml_parser, $input, $output, $fileHandle ); // Parse the language names
+		#$this->parseCurrencies( $xml_parser, $input, $output, $fileHandle ); // Parse the currency names
+		#$this->parseCountries( $xml_parser, $input, $output, $fileHandle ); // Parse the country names
+		
+		xml_parser_free( $xml_parser ); // Free the XML parser
 
-		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
-			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
-				die( sprintf( "XML error: %s at line %d",
-					xml_error_string(xml_get_error_code( $xml_parser ) ),
-					xml_get_current_line_number( $xml_parser ) ) );
-			}
-		}
-		xml_parser_free( $xml_parser );
-
-		fclose( $fileHandle );
-
-		if ( !$this->count ) { return; }
-
-		if ( $this->alias === false ) $this->output .= ");\n";
-		if ( $this->count == 1 ) {
-			echo "Wrote $this->count entry to $output\n";
-		} else {
-			echo "Wrote $this->count entries to $output\n";
-		}
+		fclose( $fileHandle ); // Close the input file
+		
+		// If there is nothing to write to the file, end early.
+		if ( !$this->languageCount && !$this->currencyCount && !$this->countryCount ) return;
+		
+		// Open the output file for writing
 		if ( !( $fileHandle = fopen( $output, "w+" ) ) ) {
 			die( "could not open output file" );
 		}
 
-		// 
+		// Write the output to the output file
 		fwrite( $fileHandle, $this->output );
 		fclose( $fileHandle );
 
-	}
-
-	function getAlias() {
-		return $this->alias;
-	}
-	function setAlias( $code ) {
-		$this->alias = $code;
 	}
 }
 

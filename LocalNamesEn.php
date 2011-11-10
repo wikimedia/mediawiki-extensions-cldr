@@ -1,5 +1,5 @@
 <?php
-$names = array(
+$languageNames = array(
 /* Not in CLDR 2.0.1. Name Gheg Albanian used by Ethnologue:
  * http://www.ethnologue.com/show_language.asp?code=aln
  * Added 2008-01-04.

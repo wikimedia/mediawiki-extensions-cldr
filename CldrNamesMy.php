@@ -1,5 +1,5 @@
 <?php
-$names = array(
+$languageNames = array(
 'ang' => 'အင်္ဂလိပ်စာဟောင်း',
 'ar' => 'အာရေဗီ',
 'art' => 'အယောင်ဆောင် ဘာသာစကား',

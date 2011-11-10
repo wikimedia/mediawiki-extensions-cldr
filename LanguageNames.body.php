@@ -64,22 +64,24 @@ class LanguageNames {
 			/* Load override for wrong or missing entries in cldr */
 			$override = dirname(__FILE__) . '/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
-				$names = false;
+				$languageNames = false;
 				require( $override );
-				if ( is_array( $names ) ) {
-					self::$cache[$code] = $names;
+				if ( is_array( $languageNames ) ) {
+					self::$cache[$code] = $languageNames;
 				}
 			}
 
 			$filename = dirname(__FILE__) . '/' . self::getFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
-				$names = false;
+				$languageNames = false;
 				require( $filename );
-				if ( is_array( $names ) ) {
-					if ( isset(self::$cache[$code]) ) {
-						self::$cache[$code] = self::$cache[$code] + $names; # Don't override
+				if ( is_array( $languageNames ) ) {
+					if ( isset( self::$cache[$code] ) ) {
+						// Add to existing list of localized language names
+						self::$cache[$code] = self::$cache[$code] + $languageNames;
 					} else {
-						self::$cache[$code] = $names; # No override list
+						// No list exists, so create it
+						self::$cache[$code] = $languageNames;
 					}
 				}
 			} else {
