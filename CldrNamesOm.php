@@ -1,4 +1,5 @@
 <?php
+
 $languageNames = array(
 'af' => 'Afrikoota',
 'am' => 'Afaan Sidaamaa',
@@ -87,4 +88,31 @@ $languageNames = array(
 'xh' => 'Afaan Xhosa',
 'zh' => 'Chinese',
 'zu' => 'Afaan Zuulu',
+);
+
+$currencyNames = array(
+'BRL' => 'Brazilian Real',
+'CNY' => 'Chinese Yuan Renminbi',
+'ETB' => 'Itoophiyaa Birrii',
+'EUR' => 'Euro',
+'GBP' => 'British Pound Sterling',
+'INR' => 'Indian Rupee',
+'JPY' => 'Japanese Yen',
+'RUB' => 'Russian Ruble',
+'USD' => 'US Dollar',
+);
+
+$countryNames = array(
+'BR' => 'Brazil',
+'CN' => 'China',
+'DE' => 'Germany',
+'ET' => 'Itoophiyaa',
+'FR' => 'France',
+'GB' => 'United Kingdom',
+'IN' => 'India',
+'IT' => 'Italy',
+'JP' => 'Japan',
+'KE' => 'Keeniyaa',
+'RU' => 'Russia',
+'US' => 'United States',
 );

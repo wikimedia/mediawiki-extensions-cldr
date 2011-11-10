@@ -1,4 +1,5 @@
 <?php
+
 $languageNames = array(
 'de' => 'немисче',
 'en' => 'англисче',
@@ -9,4 +10,10 @@ $languageNames = array(
 'pt' => 'португалча',
 'ru' => 'орусча',
 'zh' => 'кытайча',
+);
+
+$currencyNames = array(
+'KGS' => ');
+
+$countryNames = array(
 );

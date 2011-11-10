@@ -70,21 +70,24 @@ foreach ( $languages as $code => $name ) {
 
 
 class CLDRParser {
-	private $ok = true;
+	private $parseContents = true;
 	private $languages = false;
-	private $output = "<?php\n";
+	private $currencies = false;
+	private $currency = false;
+	private $countries = false;
 	private $languageCount = 0;
 	private $currencyCount = 0;
 	private $countryCount = 0;
+	private $output = "<?php\n";
 
 	function langStart( $parser, $name, $attrs ) {
+		$this->parseContents = false;
 		if ( $name === 'LANGUAGES' ) {
 			$this->languages = true;
 		}
-		$this->ok = false;
 		if ( $this->languages && $name === 'LANGUAGE' ) {
-			if ( !isset($attrs["ALT"] ) && !isset( $attrs["DRAFT"] ) ) {
-				$this->ok = true;
+			if ( !isset($attrs["ALT"] ) && !isset( $attrs["DRAFT"] ) ) { // Exclude names that are alt or draft
+				$this->parseContents = true;
 				$type = str_replace( '_', '-', strtolower( $attrs['TYPE'] ) );
 				$this->output .= "'$type' => '";
 			}
@@ -94,28 +97,30 @@ class CLDRParser {
 	function langEnd( $parser, $name ) {
 		if ( $name === 'LANGUAGES' ) {
 			$this->languages = false;
-			$this->ok = false;
+			$this->parseContents = false;
 			return;
 		}
-		if ( !$this->ok ) return;
+		if ( !$this->parseContents ) return;
 		$this->output .= "',\n";
 	}
 
 	function langContents( $parser, $data ) {
-		if ( !$this->ok ) return;
+		if ( !$this->parseContents ) return;
 		if ( trim( $data ) === '' ) return;
 		// Trim data and escape quote marks, but don't double escape.
 		$this->output .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
 		$this->languageCount++;
 	}
 	
-	function parseLanguages( $xml_parser, $input, $output, $fileHandle ) {
+	function parseLanguages( $input, $output, $fileHandle ) {
 	
+		$xml_parser = xml_parser_create(); // Create a new parser
+		
 		// Set up the handler functions for the XML parser
 		xml_set_element_handler( $xml_parser, array( $this, 'langStart' ), array( $this, 'langEnd' ) );
 		xml_set_character_data_handler( $xml_parser, array( $this, 'langContents' ) );
 		
-		$this->output .= "\$languageNames = array(\n"; // Open the languageNames array
+		$this->output .= "\n\$languageNames = array(\n"; // Open the languageNames array
 		
 		// Populate the array with the XML data
 		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
@@ -128,11 +133,152 @@ class CLDRParser {
 		
 		$this->output .= ");\n"; // Close the languageNames array
 		
+		xml_parser_free( $xml_parser ); // Free the XML parser
+		
 		// Give a status update
 		if ( $this->languageCount == 1 ) {
 			echo "Wrote 1 entry to $output\n";
 		} else {
 			echo "Wrote $this->languageCount entries to $output\n";
+		}
+		
+	}
+	
+	function currencyStart( $parser, $name, $attrs ) {
+		$this->parseContents = false;
+		if ( $name === 'CURRENCIES' ) {
+			$this->currencies = true;
+		}
+		if ( $this->currencies && $name === 'CURRENCY' ) {
+			$type = $attrs['TYPE'];
+			$this->output .= "'$type' => '";
+			$this->currency = true;
+		}
+		if ( $this->currency && $name == 'DISPLAYNAME' && !isset( $attrs["COUNT"] ) ) {
+			$this->parseContents = true;
+		}
+	}
+
+	function currencyEnd( $parser, $name ) {
+		if ( $name === 'CURRENCY' ) {
+			$this->currency = false;
+			$this->parseContents = false;
+			return;
+		}
+		if ( $name === 'CURRENCIES' ) {
+			$this->currencies = false;
+			$this->parseContents = false;
+			return;
+		}
+		if ( !$this->parseContents ) return; // If we didn't parse the contents, exit
+		$this->output .= "',\n";
+	}
+
+	function currencyContents( $parser, $data ) {
+		if ( !$this->parseContents ) return;
+		if ( trim( $data ) === '' ) return;
+		// Trim data and escape quote marks, but don't double escape.
+		$this->output .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
+		$this->currencyCount++;
+	}
+	
+	function parseCurrencies( $input, $output, $fileHandle ) {
+	
+		$xml_parser = xml_parser_create(); // Create a new parser
+		
+		// Set up the handler functions for the XML parser
+		xml_set_element_handler( $xml_parser, array( $this, 'currencyStart' ), array( $this, 'currencyEnd' ) );
+		xml_set_character_data_handler( $xml_parser, array( $this, 'currencyContents' ) );
+		
+		$this->output .= "\n\$currencyNames = array(\n"; // Open the currencyNames array
+		
+		// Populate the array with the XML data
+		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
+			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
+				die( sprintf( "XML error: %s at line %d",
+					xml_error_string( xml_get_error_code( $xml_parser ) ),
+					xml_get_current_line_number( $xml_parser ) ) );
+			}
+		}
+		
+		$this->output .= ");\n"; // Close the currencyNames array
+		
+		xml_parser_free( $xml_parser ); // Free the XML parser
+		
+		// Give a status update
+		if ( $this->currencyCount == 1 ) {
+			echo "Wrote 1 entry to $output\n";
+		} else {
+			echo "Wrote $this->currencyCount entries to $output\n";
+		}
+		
+	}
+	
+	function countryStart( $parser, $name, $attrs ) {
+		$this->parseContents = false;
+		if ( $name === 'TERRITORIES' ) {
+			$this->countries = true;
+		}
+		if ( $this->countries && $name === 'TERRITORY' ) {
+			if ( !isset( $attrs["DRAFT"] ) ) { // Exclude names that are draft
+				if ( !isset( $attrs["ALT"] ) || ( isset( $attrs["ALT"] ) && $attrs["ALT"] == 'short' ) ) {
+					preg_match( '/[A-Z][A-Z]/', $attrs['TYPE'], $matches );
+					if ( $matches ) {
+						$this->parseContents = true;
+						$type = $matches[0];
+						$this->output .= "'$type' => '";
+					}
+				}
+			}
+		}
+	}
+
+	function countryEnd( $parser, $name ) {
+		if ( $name === 'TERRITORIES' ) {
+			$this->countries = false;
+			$this->parseContents = false;
+			return;
+		}
+		if ( !$this->parseContents ) return;
+		$this->output .= "',\n";
+	}
+
+	function countryContents( $parser, $data ) {
+		if ( !$this->parseContents ) return;
+		if ( trim( $data ) === '' ) return;
+		// Trim data and escape quote marks, but don't double escape.
+		$this->output .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
+		$this->countryCount++;
+	}
+	
+	function parseCountries( $input, $output, $fileHandle ) {
+	
+		$xml_parser = xml_parser_create(); // Create a new parser
+		
+		// Set up the handler functions for the XML parser
+		xml_set_element_handler( $xml_parser, array( $this, 'countryStart' ), array( $this, 'countryEnd' ) );
+		xml_set_character_data_handler( $xml_parser, array( $this, 'countryContents' ) );
+		
+		$this->output .= "\n\$countryNames = array(\n"; // Open the countryNames array
+		
+		// Populate the array with the XML data
+		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
+			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
+				die( sprintf( "XML error: %s at line %d",
+					xml_error_string( xml_get_error_code( $xml_parser ) ),
+					xml_get_current_line_number( $xml_parser ) ) );
+			}
+		}
+		
+		$this->output .= ");\n"; // Close the countryNames array
+		
+		xml_parser_free( $xml_parser ); // Free the XML parser
+		
+		// Give a status update
+		if ( $this->countryCount == 1 ) {
+			echo "Wrote 1 entry to $output\n";
+		} else {
+			echo "Wrote $this->countryCount entries to $output\n";
 		}
 		
 	}
@@ -144,13 +290,11 @@ class CLDRParser {
 			die( "could not open XML input" );
 		}
 		
-		$xml_parser = xml_parser_create(); // Create a new parser
-		
-		$this->parseLanguages( $xml_parser, $input, $output, $fileHandle ); // Parse the language names
-		#$this->parseCurrencies( $xml_parser, $input, $output, $fileHandle ); // Parse the currency names
-		#$this->parseCountries( $xml_parser, $input, $output, $fileHandle ); // Parse the country names
-		
-		xml_parser_free( $xml_parser ); // Free the XML parser
+		$this->parseLanguages( $input, $output, $fileHandle ); // Parse the language names
+		rewind( $fileHandle ); // Reset the position of the file pointer
+		$this->parseCurrencies( $input, $output, $fileHandle ); // Parse the currency names
+		rewind( $fileHandle ); // Reset the position of the file pointer
+		$this->parseCountries( $input, $output, $fileHandle ); // Parse the country names
 
 		fclose( $fileHandle ); // Close the input file
 		

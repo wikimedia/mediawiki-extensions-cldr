@@ -1,4 +1,5 @@
 <?php
+
 $languageNames = array(
 'af' => 'Ikinyafurikaneri',
 'am' => 'Inyamuhariki',
@@ -106,4 +107,12 @@ $languageNames = array(
 'xh' => 'Inyehawusa',
 'yi' => 'Inyeyidishi',
 'zu' => 'Inyezulu',
+);
+
+$currencyNames = array(
+'RWF' => ');
+
+$countryNames = array(
+'RW' => 'Rwanda',
+'TO' => 'Igitonga',
 );

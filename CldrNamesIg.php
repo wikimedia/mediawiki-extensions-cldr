@@ -1,4 +1,5 @@
 <?php
+
 $languageNames = array(
 'ak' => 'Akan',
 'am' => 'Amariikị',
@@ -44,4 +45,20 @@ $languageNames = array(
 'yo' => 'Yoruba',
 'zh' => 'Mandarịịnị',
 'zu' => 'Zulu',
+);
+
+$currencyNames = array(
+'CVE' => 'Escudo Caboverdiano',
+'NGN' => 'Naịra',
+);
+
+$countryNames = array(
+'BJ' => 'Binin',
+'BM' => 'Bemuda',
+'CN' => 'Chaina',
+'HT' => 'Hati',
+'KM' => 'Comorosu',
+'LY' => 'Libyia',
+'MV' => 'Maldivesa',
+'NG' => 'Nigeria',
 );

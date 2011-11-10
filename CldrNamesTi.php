@@ -1,4 +1,5 @@
 <?php
+
 $languageNames = array(
 'af' => 'አፍሪቃንሰኛ',
 'am' => 'አምሐረኛ',
@@ -94,4 +95,19 @@ $languageNames = array(
 'xh' => 'ዞሳኛ',
 'yi' => 'ዪዲሽ',
 'zu' => 'ዙሉኛ',
+);
+
+$currencyNames = array(
+'BRL' => 'የብራዚል ሪል',
+'CNY' => 'የቻይና ዩአን ረንሚንቢ',
+'ETB' => 'የኢትዮጵያ ብር',
+'EUR' => 'አውሮ',
+'GBP' => 'የእንግሊዝ ፓውንድ ስተርሊንግ',
+'INR' => 'የሕንድ ሩፒ',
+'JPY' => 'የጃፓን የን',
+'RUB' => 'የራሻ ሩብል',
+'USD' => 'የአሜሪካን ዶላር',
+);
+
+$countryNames = array(
 );
