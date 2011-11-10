@@ -92,7 +92,7 @@ class LanguageNames {
 	}
 
 	public static function getFileName( $code ) {
-		return Language::getFileName( "LanguageNames", $code, '.php' );
+		return Language::getFileName( "CldrNames", $code, '.php' );
 	}
 
 	public static function getOverrideFileName( $code ) {

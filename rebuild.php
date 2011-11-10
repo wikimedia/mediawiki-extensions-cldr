@@ -60,15 +60,16 @@ foreach ( $languages as $code => $name ) {
 
 	// If the file exists, parse it, otherwise display an error
 	if ( file_exists( $input ) ) {
+		$outputFileName = Language::getFileName( "CldrNames", getRealCode ( $code ), '.php' );
 		$p = new CLDRParser();
-		$p->parse( $input, "$OUTPUT/" . LanguageNames::getFileName( getRealCode ( $code ) ) );
+		$p->parse( $input, "$OUTPUT/$outputFileName" );
 		// If the previously parsed file points to an alias, parse the alias
 		while ( $p->getAlias() != false ) {
 			$codeCLDR = $p->getAlias();
 			$input = "$DATA/$codeCLDR.xml";
 			echo "Alias $codeCLDR found for $code\n";
 			$p->setAlias( false );
-			$p->parse( $input, "$OUTPUT/" . LanguageNames::getFileName( getRealCode( $code ) ) );
+			$p->parse( $input, "$OUTPUT/$outputFileName" );
 		}
 	} elseif ( isset( $options['verbose'] ) ) {
 		echo "File $input not found\n";
@@ -124,8 +125,8 @@ class CLDRParser {
 	function parse( $input, $output ) {
 
 		$xml_parser = xml_parser_create();
-		xml_set_element_handler( $xml_parser, array( $this,'start' ), array( $this,'end' ) );
-		xml_set_character_data_handler( $xml_parser, array($this,'contents' ) );
+		xml_set_element_handler( $xml_parser, array( $this, 'start' ), array( $this, 'end' ) );
+		xml_set_character_data_handler( $xml_parser, array( $this, 'contents' ) );
 		if ( !( $fileHandle = fopen( $input, "r" ) ) ) {
 			die( "could not open XML input" );
 		}
