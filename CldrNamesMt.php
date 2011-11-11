@@ -728,5 +728,4 @@ $countryNames = array(
 'ZA' => 'Afrika t’Isfel',
 'ZM' => 'Żambja',
 'ZW' => 'Żimbabwe',
-'ZZ' => 'Reġjun Mhux Magħruf jew Mhux Validu',
 );

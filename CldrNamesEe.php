@@ -720,5 +720,4 @@ $countryNames = array(
 'ZA' => 'Anyiehe Afrika nutome',
 'ZM' => 'Zambia nutome',
 'ZW' => 'Zimbabwe nutome',
-'ZZ' => 'nutome manya',
 );

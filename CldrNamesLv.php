@@ -969,5 +969,4 @@ $countryNames = array(
 'ZA' => 'Dienvidāfrikas Republika',
 'ZM' => 'Zambija',
 'ZW' => 'Zimbabve',
-'ZZ' => 'nezināms vai nederīgs reģions',
 );

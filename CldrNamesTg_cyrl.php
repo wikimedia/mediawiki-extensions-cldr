@@ -7,10 +7,6 @@ $languageNames = array(
 'zh' => 'Чинӣ',
 );
 
-$currencyNames = array(
-'TJS' => 'Сомонӣ',
-);
-
 $countryNames = array(
 'AF' => 'Афғонистан',
 );

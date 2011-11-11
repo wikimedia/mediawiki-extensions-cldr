@@ -1044,5 +1044,4 @@ $countryNames = array(
 'ZA' => 'Dél-afrikai Köztársaság',
 'ZM' => 'Zambia',
 'ZW' => 'Zimbabwe',
-'ZZ' => 'Ismeretlen vagyérvénytelen körzet',
 );

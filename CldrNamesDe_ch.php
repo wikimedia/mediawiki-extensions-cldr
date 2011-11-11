@@ -4,9 +4,6 @@ $languageNames = array(
 'be' => 'Weissrussisch',
 );
 
-$currencyNames = array(
-);
-
 $countryNames = array(
 'BD' => 'Bangladesh',
 'BN' => 'Brunei',

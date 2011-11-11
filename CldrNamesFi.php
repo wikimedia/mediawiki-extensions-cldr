@@ -1073,5 +1073,4 @@ $countryNames = array(
 'ZA' => 'Etelä-Afrikka',
 'ZM' => 'Sambia',
 'ZW' => 'Zimbabwe',
-'ZZ' => 'tuntematon tai virheellinen alue',
 );

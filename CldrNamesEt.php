@@ -992,5 +992,4 @@ $countryNames = array(
 'ZA' => 'Lõuna-Aafrika Vabariik',
 'ZM' => 'Sambia',
 'ZW' => 'Zimbabwe',
-'ZZ' => 'määramata',
 );

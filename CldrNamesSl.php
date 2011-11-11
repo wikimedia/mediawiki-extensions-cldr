@@ -1021,5 +1021,4 @@ $countryNames = array(
 'ZA' => 'Južnoafriška republika',
 'ZM' => 'Zambija',
 'ZW' => 'Zimbabve',
-'ZZ' => 'Neznano ali neveljavno območje',
 );

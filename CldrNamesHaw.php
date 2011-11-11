@@ -40,9 +40,6 @@ $languageNames = array(
 'zh-hant' => 'Pākē Kuʻuna',
 );
 
-$currencyNames = array(
-);
-
 $countryNames = array(
 'AU' => 'Nūhōlani',
 'CA' => 'Kanakā',

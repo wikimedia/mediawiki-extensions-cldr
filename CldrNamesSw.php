@@ -579,5 +579,4 @@ $countryNames = array(
 'ZA' => 'Afrika Kusini',
 'ZM' => 'Zambia',
 'ZW' => 'Zimbabwe',
-'ZZ' => 'Eneo lisilojulikana',
 );

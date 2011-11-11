@@ -784,8 +784,6 @@ $currencyNames = array(
 'ZRN' => 'nouveau zaïre zaïrien',
 'ZRZ' => 'zaïre zaïrois',
 'ZWD' => 'dollar zimbabwéen',
-'ZWL' => 'dollar zimbabwéen (2009)',
-'ZWR' => 'dollar zimbabwéen (2008)',
 );
 
 $countryNames = array(
@@ -1046,5 +1044,4 @@ $countryNames = array(
 'ZA' => 'Afrique du Sud',
 'ZM' => 'Zambie',
 'ZW' => 'Zimbabwe',
-'ZZ' => 'région indéterminée',
 );

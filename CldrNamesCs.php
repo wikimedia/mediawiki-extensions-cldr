@@ -415,10 +415,8 @@ $currencyNames = array(
 'XFO' => 'francouzský zlatý frank',
 'XFU' => 'francouzský UIC frank',
 'XOF' => 'CFA/BCEAO frank',
-'XPD' => 'Paladium',
 'XPF' => 'CFP frank',
 'XPT' => 'platina',
-'XRE' => 'kód fondů RINET',
 'XTS' => 'kód zvlášť vyhrazený pro testovací účely',
 'XXX' => 'neznámá měna',
 'YDD' => 'jemenský dinár',
@@ -692,5 +690,4 @@ $countryNames = array(
 'ZA' => 'Jihoafrická republika',
 'ZM' => 'Zambie',
 'ZW' => 'Zimbabwe',
-'ZZ' => 'Neznámá nebo neplatná oblast',
 );

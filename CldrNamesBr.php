@@ -611,5 +611,4 @@ $countryNames = array(
 'ZA' => 'Suafrika',
 'ZM' => 'Zambia',
 'ZW' => 'Zimbabwe',
-'ZZ' => 'Rannved dianav',
 );

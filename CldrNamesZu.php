@@ -572,5 +572,4 @@ $countryNames = array(
 'ZA' => 'iNingizimu Afrika',
 'ZM' => 'i-Zambia',
 'ZW' => 'i-Zimbabwe',
-'ZZ' => 'Isifunda esingaziwa',
 );

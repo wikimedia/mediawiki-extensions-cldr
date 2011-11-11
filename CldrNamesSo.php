@@ -56,7 +56,6 @@ $currencyNames = array(
 'SOS' => 'Shilin soomaali',
 'TZS' => 'Shilin Tansaani',
 'USD' => 'Doollar maraykan',
-'XXX' => 'Lacag aan la qoon ama aan saxnayn',
 );
 
 $countryNames = array(
@@ -286,5 +285,4 @@ $countryNames = array(
 'ZA' => 'Koonfur Afrika',
 'ZM' => 'Saambiya',
 'ZW' => 'Simbaabwe',
-'ZZ' => 'Far aan la aqoon amase aan saxnayn',
 );

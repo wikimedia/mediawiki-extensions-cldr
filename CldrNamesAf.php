@@ -233,7 +233,6 @@ $currencyNames = array(
 'IQD' => 'Irakse dinar',
 'IRR' => 'Iranse rial',
 'ISK' => 'Yslandse kroon',
-'ITL' => 'Italiaanse lier',
 'JMD' => 'Jamaikaanse dollar',
 'JOD' => 'Jordaniese dinar',
 'JPY' => 'Japannese jen',
@@ -589,5 +588,4 @@ $countryNames = array(
 'ZA' => 'Suid-Afrika',
 'ZM' => 'Zambië',
 'ZW' => 'Zimbabwe',
-'ZZ' => 'Onbekend gebied',
 );

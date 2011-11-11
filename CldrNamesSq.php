@@ -182,5 +182,4 @@ $countryNames = array(
 'ZA' => 'Afrika e Jugut',
 'ZM' => 'Zambi',
 'ZW' => 'Zimbabve',
-'ZZ' => 'Rajon i panjohur',
 );

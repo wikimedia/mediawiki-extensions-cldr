@@ -1042,5 +1042,4 @@ $countryNames = array(
 'ZA' => 'Südafrika',
 'ZM' => 'Sambia',
 'ZW' => 'Simbabwe',
-'ZZ' => 'Unbekannte Region',
 );

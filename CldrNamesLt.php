@@ -1063,5 +1063,4 @@ $countryNames = array(
 'ZA' => 'Pietų Afrika',
 'ZM' => 'Zambija',
 'ZW' => 'Zimbabvė',
-'ZZ' => 'nežinoma sritis',
 );

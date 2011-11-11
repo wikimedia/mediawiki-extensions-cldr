@@ -380,7 +380,6 @@ $currencyNames = array(
 'XFU' => 'UIC-Franc Francach',
 'XOF' => 'CFA Franc BCEAO',
 'XPF' => 'CFP Franc',
-'XXX' => 'Airgeadra Anaithnid nó Neamhbhailí',
 'YDD' => 'Dínear Éimin',
 'YER' => 'RialÉimin',
 'YUD' => 'Dínear Crua Iúgslavach',
@@ -644,5 +643,4 @@ $countryNames = array(
 'ZA' => 'An Afraic Theas',
 'ZM' => 'An tSaimbia',
 'ZW' => 'An tSiombáib',
-'ZZ' => 'Réigiún Anaithnid nó Neamhbhailí',
 );

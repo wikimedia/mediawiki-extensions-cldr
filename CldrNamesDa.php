@@ -1037,5 +1037,4 @@ $countryNames = array(
 'ZA' => 'Sydafrika',
 'ZM' => 'Zambia',
 'ZW' => 'Zimbabwe',
-'ZZ' => 'Ukendt område',
 );

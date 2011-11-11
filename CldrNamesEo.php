@@ -151,25 +151,6 @@ $languageNames = array(
 'zxx' => 'nelingvaĵo',
 );
 
-$currencyNames = array(
-'AUD' => 'aŭstrala dolaro',
-'BRL' => 'brazila realo',
-'CNY' => 'ĉina juano',
-'EUR' => 'eŭro',
-'GBP' => 'brita sterlinga funto',
-'INR' => 'hinda rupio',
-'JPY' => 'japana eno',
-'NOK' => 'norvega krono',
-'RUB' => 'rusa rublo',
-'USD' => 'usona dolaro',
-'XAG' => 'arĝento',
-'XAU' => 'oro',
-'XBB' => 'eŭropa monunuo',
-'XFO' => 'franca ora franko',
-'XPD' => 'paladio',
-'XPT' => 'plateno',
-);
-
 $countryNames = array(
 'AD' => 'Andoro',
 'AE' => 'Unuiĝintaj Arabaj Emirlandos',

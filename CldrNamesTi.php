@@ -108,6 +108,3 @@ $currencyNames = array(
 'RUB' => 'የራሻ ሩብል',
 'USD' => 'የአሜሪካን ዶላር',
 );
-
-$countryNames = array(
-);

@@ -5,10 +5,7 @@ $languageNames = array(
 );
 
 $currencyNames = array(
-'AFN' => 'ਅਫ਼ਗਾਨੀ',
-'EUR' => 'ਯੂਰੋ',
 'INR' => 'ਰੁਪਿਯ',
-'XXX' => 'ਅਣਜਾਣ',
 );
 
 $countryNames = array(

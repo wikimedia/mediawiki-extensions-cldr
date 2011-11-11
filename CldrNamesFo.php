@@ -4,18 +4,6 @@ $languageNames = array(
 'fo' => 'føroyskt',
 );
 
-$currencyNames = array(
-'DKK' => 'donsk króna',
-'EUR' => 'euro',
-'ISK' => 'íslendsk króna',
-'NOK' => 'norsk króna',
-'SEK' => 'svensk króna',
-'XAG' => 'unse sølv',
-'XAU' => 'unse guld',
-'XPD' => 'unse palladium',
-'XPT' => 'unse platin',
-);
-
 $countryNames = array(
 'AE' => 'Sameindu Emirríkini',
 'AF' => 'Afganistan',

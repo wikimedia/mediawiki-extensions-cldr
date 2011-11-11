@@ -430,5 +430,4 @@ $countryNames = array(
 'ZA' => 'ʻAfilika tonga',
 'ZM' => 'Semipia',
 'ZW' => 'Simipapuei',
-'ZZ' => 'Potu fonua taʻeʻiloa pe hala',
 );

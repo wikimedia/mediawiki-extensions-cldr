@@ -1031,5 +1031,4 @@ $countryNames = array(
 'ZA' => 'Süüdafrika',
 'ZM' => 'Sambia',
 'ZW' => 'Simbabwe',
-'ZZ' => 'Unbekannti oder ungültigi Regioon',
 );
