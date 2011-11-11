@@ -17,7 +17,12 @@ class LanguageNames {
 	const LIST_MW           = 1; // All names that are in Names.php
 	const LIST_MW_AND_CLDR  = 2; // Combination of Names.php and what is in cldr
 
-
+	/**
+	 * Get localized language names for a particular language, using fallback languages for missing
+	 * items.
+	 *
+	 * @return an associative array of language codes and localized language names
+	 */
 	public static function getNames( $code, $fbMethod = self::FALLBACK_NATIVE, $list = self::LIST_MW ) {
 		$xx = self::loadLanguage( $code );
 		$native = Language::getLanguageNames( $list === self::LIST_MW_SUPPORTED );
@@ -57,8 +62,13 @@ class LanguageNames {
 
 	}
 
+	/**
+	 * Load language names localized for a particular language.
+	 *
+	 * @return an associative array of language codes and localized language names
+	 */
 	private static function loadLanguage( $code ) {
-		if ( !isset(self::$cache[$code]) ) {
+		if ( !isset( self::$cache[$code] ) ) {
 			wfProfileIn( __METHOD__.'-recache' );
 
 			/* Load override for wrong or missing entries in cldr */

@@ -223,7 +223,7 @@ class CLDRParser {
 			if ( !isset( $attrs["DRAFT"] ) ) { // Exclude names that are draft
 				if ( !isset( $attrs["ALT"] ) || ( isset( $attrs["ALT"] ) && $attrs["ALT"] == 'short' ) ) {
 					preg_match( '/[A-Z][A-Z]/', $attrs['TYPE'], $matches );
-					if ( $matches ) {
+					if ( $matches && $matches[0] !== 'ZZ' ) { // Exclude ZZ => Unknown Region
 						$this->parseContents = true;
 						$type = $matches[0];
 						$this->output .= "'$type' => '";
