@@ -41,6 +41,12 @@ $languageNames = array(
  */
 'bcc'         => 'Southern Balochi',
 
+/* Not in CLDR 2.0.1. Betawi language.
+ * http://www.ethnologue.com/show_language.asp?code=bew
+ * Added 2011-11-10.
+ */
+'bew'         => 'Betawi',
+
 /* Not in CLDR 2.0.1. Malay language.
  * http://www.ethnologue.org/show_language.asp?code=bjn
  * Added 2011-09-10.
