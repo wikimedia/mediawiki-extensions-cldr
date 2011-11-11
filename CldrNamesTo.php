@@ -173,9 +173,6 @@ $languageNames = array(
 'zxx' => 'ʻikai ha lea',
 );
 
-$currencyNames = array(
-'TOP' => ');
-
 $countryNames = array(
 'AC' => 'MotuʻAsenisini',
 'AD' => 'ʻEnitola',

@@ -17,7 +17,7 @@ $languageNames = array(
 );
 
 $currencyNames = array(
-'ALL' => ''BRL' => 'Real Brazilian',
+'BRL' => 'Real Brazilian',
 'CNY' => 'Renminbi(Yuan) Kinez',
 'EUR' => 'Euro',
 'GBP' => 'Paund Sterlina Britanike',

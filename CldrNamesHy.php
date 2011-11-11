@@ -4,9 +4,6 @@ $languageNames = array(
 'hy' => 'Հայերէն',
 );
 
-$currencyNames = array(
-'AMD' => ');
-
 $countryNames = array(
 'AD' => 'Անդորա',
 'AE' => 'Միացյալ Արաբական Էմիրաթներ',

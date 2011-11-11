@@ -11,9 +11,3 @@ $languageNames = array(
 'ru' => 'орусча',
 'zh' => 'кытайча',
 );
-
-$currencyNames = array(
-'KGS' => ');
-
-$countryNames = array(
-);

@@ -1,10 +1,7 @@
 <?php
 
-$languageNames = array(
-);
-
 $currencyNames = array(
-'AMD' => ''ARS' => 'Peso argjentin',
+'ARS' => 'Peso argjentin',
 'ATS' => 'Selin austriac',
 'AUD' => 'dolar australian',
 'BEF' => 'Franc de Belgjiche',
@@ -69,7 +66,4 @@ $currencyNames = array(
 'XTS' => 'codiç di verifiche de monede',
 'XXX' => 'Monede no valide o no cognossude',
 'ZAR' => 'rand sudafrican',
-);
-
-$countryNames = array(
 );

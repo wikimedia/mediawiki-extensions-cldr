@@ -205,7 +205,7 @@ $currencyNames = array(
 'DZD' => 'Algeriako dinarra',
 'EGP' => 'Egiptoko libera',
 'ERN' => 'Eritreako nakfa',
-'ESP' => ''ETB' => 'Etiopiako birra',
+'ETB' => 'Etiopiako birra',
 'EUR' => 'Euroa',
 'FJD' => 'Fijiko dolarra',
 'FKP' => 'Falkland uharteetako libera',

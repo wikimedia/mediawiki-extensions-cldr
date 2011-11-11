@@ -12,9 +12,6 @@ $languageNames = array(
 'zh' => 'хятад',
 );
 
-$currencyNames = array(
-'MNT' => ');
-
 $countryNames = array(
 'BR' => 'Бразили',
 'DE' => 'Герман',

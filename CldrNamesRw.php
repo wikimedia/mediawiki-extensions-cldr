@@ -109,9 +109,6 @@ $languageNames = array(
 'zu' => 'Inyezulu',
 );
 
-$currencyNames = array(
-'RWF' => ');
-
 $countryNames = array(
 'RW' => 'Rwanda',
 'TO' => 'Igitonga',

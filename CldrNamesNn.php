@@ -590,7 +590,7 @@ $currencyNames = array(
 'CRC' => 'costaricansk colon',
 'CSD' => 'gammal serbisk dinar',
 'CSK' => 'tsjekkoslovakisk koruna (hard)',
-'CUC' => ''CUP' => 'kubansk peso',
+'CUP' => 'kubansk peso',
 'CVE' => 'kappverdisk escudo',
 'CYP' => 'kypriotisk pund',
 'CZK' => 'tsjekkisk koruna',
@@ -744,7 +744,7 @@ $currencyNames = array(
 'TJR' => 'tadsjikisk rubel',
 'TJS' => 'tadsjikisk somoni',
 'TMM' => 'turkmensk manat',
-'TMT' => ''TND' => 'tunisisk dinar',
+'TND' => 'tunisisk dinar',
 'TOP' => 'tongansk paʻanga',
 'TPE' => 'timoresisk escudo',
 'TRL' => 'gammal tyrkiske lire',
@@ -798,7 +798,7 @@ $currencyNames = array(
 'ZRN' => 'zairisk ny zaire',
 'ZRZ' => 'zairisk zaire',
 'ZWD' => 'zimbabwisk dollar',
-'ZWL' => ');
+);
 
 $countryNames = array(
 'AC' => 'Ascension',
