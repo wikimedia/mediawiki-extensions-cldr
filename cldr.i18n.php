@@ -576,7 +576,7 @@ $messages['sq'] = array(
 	'cldr-desc' => 'Shtesë që paraqet emrat lokal të gjuhëve',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -584,7 +584,7 @@ $messages['sr-ec'] = array(
 	'cldr-desc' => 'Проширење које омогућава преведене називе језика засновано је на [http://cldr.unicode.org/index/downloads CLDR подацима]',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -621,14 +621,14 @@ $messages['te'] = array(
 	'cldr-desc' => 'స్థానికీకరించిన భాషల పేర్లను అందించే పొడగింత',
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
 	'cldr-desc' => 'Афзунае, ки номҳои маҳалликунонидашудаи забонҳоро пешкаш мекунад',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -656,7 +656,7 @@ $messages['ug'] = array(
 	'cldr-desc' => 'يەرلىكلەشتۈرۈلگەن تىل ئاتى كېينرەك تەمىنلىنىدۇ',
 );
 
-/** ئۇيغۇرچە (ئۇيغۇرچە)
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
  */
 $messages['ug-arab'] = array(
