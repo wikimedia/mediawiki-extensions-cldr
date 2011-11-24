@@ -89,7 +89,7 @@ class CLDRParser {
 			$this->languages = true;
 		}
 		if ( $this->languages && $name === 'LANGUAGE' ) {
-			if ( !isset($attrs["ALT"] ) && !isset( $attrs["DRAFT"] ) ) { // Exclude names that are alt or draft
+			if ( !isset($attrs["ALT"] ) ) { // Exclude names that are alt.
 				$this->parseContents = true;
 				$this->type = str_replace( '_', '-', strtolower( $attrs['TYPE'] ) );
 				$this->languageOutput .= "'$this->type' => '";
@@ -160,7 +160,7 @@ class CLDRParser {
 			$this->currency = true;
 		}
 		if ( $this->currency && $name == 'DISPLAYNAME' ) {
-			if ( !isset( $attrs["DRAFT"] ) && !isset( $attrs["COUNT"] ) ) { // Exclude drafts and plurals
+			if ( !isset( $attrs["COUNT"] ) ) { // Exclude plurals.
 				$this->currencyOutput .= "'$this->type' => '";
 				$this->parseContents = true;
 			}
@@ -231,15 +231,13 @@ class CLDRParser {
 			$this->countries = true;
 		}
 		if ( $this->countries && $name === 'TERRITORY' ) {
-			if ( !isset( $attrs["DRAFT"] ) ) { // Exclude names that are draft
-				// Exclude alt names unless they are short alternatives (which we prefer)
-				if ( !isset( $attrs["ALT"] ) || ( isset( $attrs["ALT"] ) && $attrs["ALT"] == 'short' ) ) {
-					preg_match( '/[A-Z][A-Z]/', $attrs['TYPE'], $matches );
-					if ( $matches && $matches[0] !== 'ZZ' ) { // Exclude ZZ => Unknown Region
-						$this->parseContents = true;
-						$this->type = $matches[0];
-						$this->countryOutput .= "'$this->type' => '";
-					}
+			// Exclude alt names unless they are short alternatives (which we prefer)
+			if ( !isset( $attrs["ALT"] ) || ( isset( $attrs["ALT"] ) && $attrs["ALT"] == 'short' ) ) {
+				preg_match( '/[A-Z][A-Z]/', $attrs['TYPE'], $matches );
+				if ( $matches && $matches[0] !== 'ZZ' ) { // Exclude ZZ => Unknown Region
+					$this->parseContents = true;
+					$this->type = $matches[0];
+					$this->countryOutput .= "'$this->type' => '";
 				}
 			}
 		}
