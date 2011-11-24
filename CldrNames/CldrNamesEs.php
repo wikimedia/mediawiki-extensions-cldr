@@ -867,6 +867,7 @@ $countryNames = array(
 'FM' => 'Micronesia',
 'FO' => 'Islas Feroe',
 'FR' => 'Francia',
+'FX' => 'Francia metropolitana',
 'GA' => 'Gabón',
 'GB' => 'Reino Unido',
 'GD' => 'Granada',

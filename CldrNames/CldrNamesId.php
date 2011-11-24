@@ -91,6 +91,7 @@ $languageNames = array(
 'co' => 'Korsika',
 'cop' => 'Koptik',
 'cpe' => 'Kreol dan Pijin Lain berbasis Inggris',
+'cpf' => 'Kreol dan Pidgins Lain berbasis Prancis',
 'cpp' => 'Kreol dan Pijin Lain berbasis Portugis',
 'cr' => 'Kree',
 'crh' => 'Tatar Krimea',

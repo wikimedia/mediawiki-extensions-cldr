@@ -380,6 +380,7 @@ $currencyNames = array(
 'XFU' => 'UIC-Franc Francach',
 'XOF' => 'CFA Franc BCEAO',
 'XPF' => 'CFP Franc',
+'XXX' => 'Airgeadra Anaithnid nó Neamhbhailí',
 'YDD' => 'Dínear Éimin',
 'YER' => 'RialÉimin',
 'YUD' => 'Dínear Crua Iúgslavach',

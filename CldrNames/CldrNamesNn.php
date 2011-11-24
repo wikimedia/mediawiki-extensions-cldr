@@ -283,6 +283,7 @@ $languageNames = array(
 'lun' => 'lunda',
 'luo' => 'luo',
 'lus' => 'lushai',
+'luy' => 'olulujia',
 'lv' => 'latvisk',
 'mad' => 'maduresisk',
 'mag' => 'magahi',

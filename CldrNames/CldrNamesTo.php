@@ -119,6 +119,7 @@ $languageNames = array(
 'ru' => 'lea fakalūsia',
 'rw' => 'lea fakaluanita',
 'sa' => 'lea sanisukuliti',
+'sah' => 'lea saka',
 'sco' => 'lea fakasikotilani',
 'sd' => 'lea siniti',
 'se' => 'lea sami fakatokelau',
