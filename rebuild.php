@@ -36,7 +36,7 @@ foreach ( $languages as $code => $name ) {
 	unset( $codeParts );
 	$codeParts = explode( '-', $code );
 	if ( count( $codeParts ) > 1 ) {
-	
+
 		// ISO 15924 alpha-4 script code
 		if ( strlen( $codeParts[1] ) == 4 ) {
 			$codeParts[1] = ucfirst( $codeParts[1] );
@@ -62,12 +62,11 @@ foreach ( $languages as $code => $name ) {
 	if ( file_exists( $input ) ) {
 		$outputFileName = Language::getFileName( "CldrNames", getRealCode ( $code ), '.php' );
 		$p = new CLDRParser();
-		$p->parse( $input, "$OUTPUT/$outputFileName" );
+		$p->parse( $input, "$OUTPUT/CldrNames/$outputFileName" );
 	} elseif ( isset( $options['verbose'] ) ) {
 		echo "File $input not found\n";
 	}
 }
-
 
 class CLDRParser {
 	private $parseContents = true;
@@ -78,7 +77,7 @@ class CLDRParser {
 	private $languageCount = 0;
 	private $currencyCount = 0;
 	private $countryCount = 0;
-	private $lanagugeOutput = '';
+	private $languageOutput = '';
 	private $currencyOutput = '';
 	private $countryOutput = '';
 	private $type = '';
@@ -115,17 +114,17 @@ class CLDRParser {
 		$this->languageOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
 		$this->languageCount++;
 	}
-	
+
 	function parseLanguages( $input, $output, $fileHandle ) {
-	
+
 		$xml_parser = xml_parser_create(); // Create a new parser
-		
+
 		// Set up the handler functions for the XML parser
 		xml_set_element_handler( $xml_parser, array( $this, 'langStart' ), array( $this, 'langEnd' ) );
 		xml_set_character_data_handler( $xml_parser, array( $this, 'langContents' ) );
-		
+
 		$this->languageOutput = "\n\$languageNames = array(\n"; // Open the languageNames array
-		
+
 		// Populate the array with the XML data
 		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
 			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
@@ -134,9 +133,9 @@ class CLDRParser {
 					xml_get_current_line_number( $xml_parser ) ) );
 			}
 		}
-		
+
 		$this->languageOutput .= ");\n"; // Close the languageNames array
-		
+
 		If ( $this->languageCount > 0 ) {
 			$this->output .= $this->languageOutput;
 			// Give a status update
@@ -146,11 +145,11 @@ class CLDRParser {
 				echo "Wrote $this->languageCount entries to $output\n";
 			}
 		}
-		
+
 		xml_parser_free( $xml_parser ); // Free the XML parser
-		
+
 	}
-	
+
 	function currencyStart( $parser, $name, $attrs ) {
 		$this->parseContents = false;
 		if ( $name === 'CURRENCIES' ) {
@@ -190,17 +189,17 @@ class CLDRParser {
 		$this->currencyOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
 		$this->currencyCount++;
 	}
-	
+
 	function parseCurrencies( $input, $output, $fileHandle ) {
-	
+
 		$xml_parser = xml_parser_create(); // Create a new parser
-		
+
 		// Set up the handler functions for the XML parser
 		xml_set_element_handler( $xml_parser, array( $this, 'currencyStart' ), array( $this, 'currencyEnd' ) );
 		xml_set_character_data_handler( $xml_parser, array( $this, 'currencyContents' ) );
-		
+
 		$this->currencyOutput = "\n\$currencyNames = array(\n"; // Open the currencyNames array
-		
+
 		// Populate the array with the XML data
 		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
 			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
@@ -209,9 +208,9 @@ class CLDRParser {
 					xml_get_current_line_number( $xml_parser ) ) );
 			}
 		}
-		
+
 		$this->currencyOutput .= ");\n"; // Close the currencyNames array
-		
+
 		If ( $this->currencyCount > 0 ) {
 			$this->output .= $this->currencyOutput;
 			// Give a status update
@@ -221,11 +220,11 @@ class CLDRParser {
 				echo "Wrote $this->currencyCount entries to $output\n";
 			}
 		}
-		
+
 		xml_parser_free( $xml_parser ); // Free the XML parser
-		
+
 	}
-	
+
 	function countryStart( $parser, $name, $attrs ) {
 		$this->parseContents = false;
 		if ( $name === 'TERRITORIES' ) {
@@ -263,17 +262,17 @@ class CLDRParser {
 		$this->countryOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
 		$this->countryCount++;
 	}
-	
+
 	function parseCountries( $input, $output, $fileHandle ) {
-	
+
 		$xml_parser = xml_parser_create(); // Create a new parser
-		
+
 		// Set up the handler functions for the XML parser
 		xml_set_element_handler( $xml_parser, array( $this, 'countryStart' ), array( $this, 'countryEnd' ) );
 		xml_set_character_data_handler( $xml_parser, array( $this, 'countryContents' ) );
-		
+
 		$this->countryOutput = "\n\$countryNames = array(\n"; // Open the countryNames array
-		
+
 		// Populate the array with the XML data
 		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
 			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
@@ -282,9 +281,9 @@ class CLDRParser {
 					xml_get_current_line_number( $xml_parser ) ) );
 			}
 		}
-		
+
 		$this->countryOutput .= ");\n"; // Close the countryNames array
-		
+
 		If ( $this->countryCount > 0 ) {
 			$this->output .= $this->countryOutput;
 			// Give a status update
@@ -294,9 +293,9 @@ class CLDRParser {
 				echo "Wrote $this->countryCount entries to $output\n";
 			}
 		}
-		
+
 		xml_parser_free( $xml_parser ); // Free the XML parser
-		
+
 	}
 
 	function parse( $input, $output ) {
@@ -305,7 +304,7 @@ class CLDRParser {
 		if ( !( $fileHandle = fopen( $input, "r" ) ) ) {
 			die( "could not open XML input" );
 		}
-		
+
 		$this->parseLanguages( $input, $output, $fileHandle ); // Parse the language names
 		rewind( $fileHandle ); // Reset the position of the file pointer
 		$this->parseCurrencies( $input, $output, $fileHandle ); // Parse the currency names
@@ -313,10 +312,10 @@ class CLDRParser {
 		$this->parseCountries( $input, $output, $fileHandle ); // Parse the country names
 
 		fclose( $fileHandle ); // Close the input file
-		
+
 		// If there is nothing to write to the file, end early.
 		if ( !$this->languageCount && !$this->currencyCount && !$this->countryCount ) return;
-		
+
 		// Open the output file for writing
 		if ( !( $fileHandle = fopen( $output, "w+" ) ) ) {
 			die( "could not open output file" );

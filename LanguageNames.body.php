@@ -21,6 +21,9 @@ class LanguageNames {
 	 * Get localized language names for a particular language, using fallback languages for missing
 	 * items.
 	 *
+	 * @param $code string
+	 * @param $fbMethod int
+	 * @param $list int
 	 * @return an associative array of language codes and localized language names
 	 */
 	public static function getNames( $code, $fbMethod = self::FALLBACK_NATIVE, $list = self::LIST_MW ) {
@@ -65,6 +68,7 @@ class LanguageNames {
 	/**
 	 * Load language names localized for a particular language.
 	 *
+	 * @param $code string
 	 * @return an associative array of language codes and localized language names
 	 */
 	private static function loadLanguage( $code ) {
@@ -72,7 +76,7 @@ class LanguageNames {
 			wfProfileIn( __METHOD__.'-recache' );
 
 			/* Load override for wrong or missing entries in cldr */
-			$override = dirname(__FILE__) . '/' . self::getOverrideFileName( $code );
+			$override = dirname(__FILE__) . '/LocalNames/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$languageNames = false;
 				require( $override );
@@ -81,7 +85,7 @@ class LanguageNames {
 				}
 			}
 
-			$filename = dirname(__FILE__) . '/' . self::getFileName( $code );
+			$filename = dirname(__FILE__) . '/CldrNames/' . self::getFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$languageNames = false;
 				require( $filename );
@@ -103,14 +107,27 @@ class LanguageNames {
 		return isset( self::$cache[$code] ) ? self::$cache[$code] : array();
 	}
 
+	/**
+	 * @param $code string
+	 * @return string
+	 */
 	public static function getFileName( $code ) {
 		return Language::getFileName( "CldrNames", $code, '.php' );
 	}
 
+	/**
+	 * @param $code string
+	 * @return string
+	 */
 	public static function getOverrideFileName( $code ) {
 		return Language::getFileName( "LocalNames", $code, '.php' );
 	}
 
+	/**
+	 * @param $names array
+	 * @param $code string
+	 * @return bool
+	 */
 	public static function coreHook( &$names, $code ) {
 		$names += self::getNames( $code, self::FALLBACK_NORMAL, self::LIST_MW_AND_CLDR );
 		return true;
