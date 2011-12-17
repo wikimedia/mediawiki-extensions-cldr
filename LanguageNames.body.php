@@ -36,7 +36,7 @@ class LanguageNames {
 			$fallbacks = Language::getFallbacksFor( $code );
 			$fb = $xx;
 			foreach ( $fallbacks as $fallback ) {
-				/* Over write the things in fallback with what we have already */
+				/* Overwrite the things in fallback with what we have already */
 				$fb = array_merge( self::loadLanguage( $fallback ), $fb );
 			}
 
