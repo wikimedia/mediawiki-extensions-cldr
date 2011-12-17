@@ -13,8 +13,8 @@ if (!defined('MEDIAWIKI')) die();
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Language Names',
-	'version' => '1.9.0 (CLDR 1.9M2)',
-	'author' => array( 'Niklas Laxström', 'Siebrand Mazeland' ),
+	'version' => '2.0.0 (CLDR 2.0)',
+	'author' => array( 'Niklas Laxström', 'Siebrand Mazeland', 'Ryan Kaldari' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:CLDR',
 	'descriptionmsg' => 'cldr-desc',
 );
@@ -22,4 +22,5 @@ $wgExtensionCredits['other'][] = array(
 $dir = dirname(__FILE__) . '/';
 $wgExtensionMessagesFiles['cldr'] = $dir . 'cldr.i18n.php';
 $wgAutoloadClasses['LanguageNames'] = $dir . 'LanguageNames.body.php';
+$wgAutoloadClasses['CountryNames'] = $dir . 'CountryNames.body.php';
 $wgHooks['LanguageGetTranslatedLanguageNames'][] = 'LanguageNames::coreHook';

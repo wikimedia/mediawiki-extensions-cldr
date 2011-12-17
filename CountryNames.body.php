@@ -28,8 +28,8 @@ class CountryNames {
 		$names = self::loadLanguage( $code );
 		
 		// Load missing country names from fallback languages
-		$fallbacks = Language::getFallbacksFor( $code );
-		foreach ( $fallbacks as $fallback ) {
+		$fallback = $code;
+		while ( $fallback = Language::getFallbackFor( $fallback ) ) {
 			// Overwrite the things in fallback with what we have already
 			$names = array_merge( self::loadLanguage( $fallback ), $names );
 		}
@@ -40,6 +40,8 @@ class CountryNames {
 			unset( $names['IR'] ); // Iran
 			unset( $names['SY'] ); // Syria
 		}
+		
+		return $names;
 	}
 	
 	/**
@@ -49,7 +51,39 @@ class CountryNames {
 	 * @return an associative array of country codes and localized country names
 	 */
 	private static function loadLanguage( $code ) {
-		// TODO: Build this.
+		if ( !isset( self::$cache[$code] ) ) {
+			wfProfileIn( __METHOD__.'-recache' );
+
+			/* Load override for wrong or missing entries in cldr */
+			$override = dirname(__FILE__) . '/LocalNames/' . self::getOverrideFileName( $code );
+			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
+				$countryNames = false;
+				require( $override );
+				if ( is_array( $countryNames ) ) {
+					self::$cache[$code] = $countryNames;
+				}
+			}
+
+			$filename = dirname(__FILE__) . '/CldrNames/' . self::getFileName( $code );
+			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
+				$countryNames = false;
+				require( $filename );
+				if ( is_array( $countryNames ) ) {
+					if ( isset( self::$cache[$code] ) ) {
+						// Add to existing list of localized country names
+						self::$cache[$code] = self::$cache[$code] + $countryNames;
+					} else {
+						// No list exists, so create it
+						self::$cache[$code] = $countryNames;
+					}
+				}
+			} else {
+				wfDebug( __METHOD__ . ": Unable to load country names for $filename\n" );
+			}
+			wfProfileOut( __METHOD__.'-recache' );
+		}
+
+		return isset( self::$cache[$code] ) ? self::$cache[$code] : array();
 	}
 	
 	/**

@@ -33,9 +33,9 @@ class LanguageNames {
 		if ( $fbMethod === self::FALLBACK_NATIVE ) {
 			$names = array_merge( $native, $xx );
 		} elseif ( $fbMethod === self::FALLBACK_NORMAL ) {
-			$fallbacks = Language::getFallbacksFor( $code );
+			$fallback = $code;
 			$fb = $xx;
-			foreach ( $fallbacks as $fallback ) {
+			while ( $fallback = Language::getFallbackFor( $fallback ) ) {
 				/* Overwrite the things in fallback with what we have already */
 				$fb = array_merge( self::loadLanguage( $fallback ), $fb );
 			}
