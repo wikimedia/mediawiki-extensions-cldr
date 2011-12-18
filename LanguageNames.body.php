@@ -33,11 +33,23 @@ class LanguageNames {
 		if ( $fbMethod === self::FALLBACK_NATIVE ) {
 			$names = array_merge( $native, $xx );
 		} elseif ( $fbMethod === self::FALLBACK_NORMAL ) {
-			$fallback = $code;
+		
+			// Load missing language names from fallback languages
 			$fb = $xx;
-			while ( $fallback = Language::getFallbackFor( $fallback ) ) {
-				/* Overwrite the things in fallback with what we have already */
-				$fb = array_merge( self::loadLanguage( $fallback ), $fb );
+			if ( is_callable( array( 'Language', 'getFallbacksFor' ) ) ) {
+				// MediaWiki 1.19
+				$fallbacks = Language::getFallbacksFor( $code );
+				foreach ( $fallbacks as $fallback ) {
+					// Overwrite the things in fallback with what we have already
+					$fb = array_merge( self::loadLanguage( $fallback ), $fb );
+				}
+			} else {
+				// MediaWiki 1.18 or earlier
+				$fallback = $code;
+				while ( $fallback = Language::getFallbackFor( $fallback ) ) {
+					// Overwrite the things in fallback with what we have already
+					$fb = array_merge( self::loadLanguage( $fallback ), $fb );
+				}
 			}
 
 			/* Add native names for codes that are not in cldr */
