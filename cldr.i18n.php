@@ -588,7 +588,7 @@ $messages['sr-ec'] = array(
  * @author Michaello
  */
 $messages['sr-el'] = array(
-	'cldr-desc' => 'Ekstenzija koja omogućava lokalizaciju naziva jezika',
+	'cldr-desc' => 'Proširenje koje omogućava prevedene nazive jezika zasnovano je na [http://cldr.unicode.org/index/downloads CLDR podacima]',
 );
 
 /** Seeltersk (Seeltersk)
