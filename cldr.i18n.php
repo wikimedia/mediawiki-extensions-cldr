@@ -426,6 +426,14 @@ $messages['ms'] = array(
 	'cldr-desc' => 'ambungan yang menyediakan nama-nama bahasa setempat berasaskan [http://cldr.unicode.org/index/downloads data CLDR]',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'cldr-desc' => 'Utvidelse som gir lokaliserte språknavn basert på [http://cldr.unicode.org/index/downloads CLDR-data]',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -462,14 +470,6 @@ $messages['nl'] = array(
  */
 $messages['nn'] = array(
 	'cldr-desc' => 'Utviding som gjev omsette språknamn',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'cldr-desc' => 'Utvidelse som gir lokaliserte språknavn basert på [http://cldr.unicode.org/index/downloads CLDR-data]',
 );
 
 /** Occitan (Occitan)
@@ -678,11 +678,11 @@ $messages['vec'] = array(
 	'cldr-desc' => 'Estension che fornisse i nomi localizà de le varie lengue',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel')
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
-	'cldr-desc' => 'Liža, kudamb andab keliden nimiden kändused',
+	'cldr-desc' => 'Liža, kudamb andab keliden nimiden kändused [http://cldr.unicode.org/index/downloads CLDR-andmusiden] pohjal.',
 );
 
 /** Vietnamese (Tiếng Việt)
