@@ -468,7 +468,7 @@ $messages['nn'] = array(
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'cldr-desc' => 'Utvidelse som gir lokaliserte språknavn basert på [http://cldr.unicode.org/index/downloads CLDR-data]',
 );
 
