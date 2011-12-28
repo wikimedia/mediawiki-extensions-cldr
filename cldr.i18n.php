@@ -480,6 +480,13 @@ $messages['oc'] = array(
 	'cldr-desc' => 'Extension que provesís lo nom de las lengas disponiblas',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Psubhashish
+ */
+$messages['or'] = array(
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR ତଥ୍ୟ] ଅନୁସାରେ ଯେଉଁ ଏକ୍ସଟେନସନ ଆଞ୍ଚଳିକ ଭାଷାର ନାମ ସବୁ ଦେଇଥାଏ',
+);
+
 /** Polish (Polski)
  * @author Masti
  * @author Sp5uhe
