@@ -23,7 +23,7 @@ class CountryNames {
 	public static function getNames( $code ) {
 		// Load country names localized for the requested language
 		$names = self::loadLanguage( $code );
-		
+
 		// Load missing country names from fallback languages
 		if ( is_callable( array( 'Language', 'getFallbacksFor' ) ) ) {
 			// MediaWiki 1.19
@@ -40,10 +40,10 @@ class CountryNames {
 				$names = array_merge( self::loadLanguage( $fallback ), $names );
 			}
 		}
-		
+
 		return $names;
 	}
-	
+
 	/**
 	 * Load country names localized for a particular language.
 	 *
@@ -52,10 +52,10 @@ class CountryNames {
 	 */
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {
-			wfProfileIn( __METHOD__.'-recache' );
+			wfProfileIn( __METHOD__ . '-recache' );
 
 			/* Load override for wrong or missing entries in cldr */
-			$override = dirname(__FILE__) . '/LocalNames/' . self::getOverrideFileName( $code );
+			$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$countryNames = false;
 				require( $override );
@@ -64,7 +64,7 @@ class CountryNames {
 				}
 			}
 
-			$filename = dirname(__FILE__) . '/CldrNames/' . self::getFileName( $code );
+			$filename = dirname( __FILE__ ) . '/CldrNames/' . self::getFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$countryNames = false;
 				require( $filename );
@@ -80,12 +80,12 @@ class CountryNames {
 			} else {
 				wfDebug( __METHOD__ . ": Unable to load country names for $filename\n" );
 			}
-			wfProfileOut( __METHOD__.'-recache' );
+			wfProfileOut( __METHOD__ . '-recache' );
 		}
 
 		return isset( self::$cache[$code] ) ? self::$cache[$code] : array();
 	}
-	
+
 	/**
 	 * @param string $code
 	 * @return string

@@ -10,7 +10,7 @@
 $IP = "../..";
 require_once( "$IP/maintenance/commandLine.inc" );
 
-$dir = dirname(__FILE__);
+$dir = dirname( __FILE__ );
 require_once( "$dir/cldr.php" );
 
 $DATA = "$dir/core/common/main";
@@ -89,7 +89,7 @@ class CLDRParser {
 			$this->languages = true;
 		}
 		if ( $this->languages && $name === 'LANGUAGE' ) {
-			if ( !isset($attrs["ALT"] ) ) { // Exclude names that are alt.
+			if ( !isset( $attrs["ALT"] ) ) { // Exclude names that are alt.
 				$this->parseContents = true;
 				$this->type = str_replace( '_', '-', strtolower( $attrs['TYPE'] ) );
 				$this->languageOutput .= "'$this->type' => '";

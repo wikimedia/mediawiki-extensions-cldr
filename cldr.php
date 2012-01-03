@@ -1,5 +1,5 @@
 <?php
-if (!defined('MEDIAWIKI')) die();
+if ( !defined( 'MEDIAWIKI' ) ) die();
 /**
  * An extension which provides localised language names for other extensions.
  *
@@ -19,7 +19,7 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'cldr-desc',
 );
 
-$dir = dirname(__FILE__) . '/';
+$dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['cldr'] = $dir . 'cldr.i18n.php';
 $wgAutoloadClasses['LanguageNames'] = $dir . 'LanguageNames.body.php';
 $wgAutoloadClasses['CountryNames'] = $dir . 'CountryNames.body.php';

@@ -33,7 +33,6 @@ class LanguageNames {
 		if ( $fbMethod === self::FALLBACK_NATIVE ) {
 			$names = array_merge( $native, $xx );
 		} elseif ( $fbMethod === self::FALLBACK_NORMAL ) {
-		
 			// Load missing language names from fallback languages
 			$fb = $xx;
 			if ( is_callable( array( 'Language', 'getFallbacksFor' ) ) ) {
@@ -60,7 +59,7 @@ class LanguageNames {
 				$names[$code] = $native[$code];
 			}
 		} else {
-			throw new MWException( "Invalid value for 2:\$fallback in ".__METHOD__ );
+			throw new MWException( "Invalid value for 2:\$fallback in " . __METHOD__ );
 		}
 
 		switch ( $list ) {
@@ -72,9 +71,8 @@ class LanguageNames {
 			case self::LIST_MW_AND_CLDR:
 				return $names;
 			default:
-				throw new MWException( "Invalid value for 3:\$list in ".__METHOD__ );
+				throw new MWException( "Invalid value for 3:\$list in " . __METHOD__ );
 		}
-
 	}
 
 	/**
@@ -85,10 +83,10 @@ class LanguageNames {
 	 */
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {
-			wfProfileIn( __METHOD__.'-recache' );
+			wfProfileIn( __METHOD__ . '-recache' );
 
 			/* Load override for wrong or missing entries in cldr */
-			$override = dirname(__FILE__) . '/LocalNames/' . self::getOverrideFileName( $code );
+			$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$languageNames = false;
 				require( $override );
@@ -97,7 +95,7 @@ class LanguageNames {
 				}
 			}
 
-			$filename = dirname(__FILE__) . '/CldrNames/' . self::getFileName( $code );
+			$filename = dirname( __FILE__ ) . '/CldrNames/' . self::getFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$languageNames = false;
 				require( $filename );
@@ -113,7 +111,7 @@ class LanguageNames {
 			} else {
 				wfDebug( __METHOD__ . ": Unable to load language names for $filename\n" );
 			}
-			wfProfileOut( __METHOD__.'-recache' );
+			wfProfileOut( __METHOD__ . '-recache' );
 		}
 
 		return isset( self::$cache[$code] ) ? self::$cache[$code] : array();
