@@ -305,6 +305,13 @@ $messages['ig'] = array(
 	'cldr-desc' => 'Ogologo né nyé áhà asụsụ nke bi nsó',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'cldr-desc' => 'Dagiti pagpa-atiddog nga agited lokal a pagsasao a nag-nagan a naibantay iti [http://cldr.unicode.org/index/downloads CLDR data]',
+);
+
 /** Italian (Italiano)
  * @author Beta16
  * @author Pietrodn
