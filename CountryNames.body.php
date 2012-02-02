@@ -8,7 +8,7 @@
  * @copyright Copyright © 2007-2011
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
-class CountryNames {
+class CountryNames extends CldrNames {
 
 	private static $cache = array();
 
@@ -17,7 +17,6 @@ class CountryNames {
 	 * items.
 	 *
 	 * @param string $code The language to return the list in
-	 * @param int $fbMethod The fallback method
 	 * @return an associative array of country codes and localized country names
 	 */
 	public static function getNames( $code ) {
@@ -45,7 +44,7 @@ class CountryNames {
 	}
 
 	/**
-	 * Load country names localized for a particular language.
+	 * Load country names localized for a particular language. Helper function for getNames.
 	 *
 	 * @param string $code The language to return the list in
 	 * @return an associative array of country codes and localized country names
@@ -86,19 +85,4 @@ class CountryNames {
 		return isset( self::$cache[$code] ) ? self::$cache[$code] : array();
 	}
 
-	/**
-	 * @param string $code
-	 * @return string
-	 */
-	public static function getFileName( $code ) {
-		return Language::getFileName( "CldrNames", $code, '.php' );
-	}
-
-	/**
-	 * @param string $code
-	 * @return string
-	 */
-	public static function getOverrideFileName( $code ) {
-		return Language::getFileName( "LocalNames", $code, '.php' );
-	}
 }

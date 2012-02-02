@@ -4,10 +4,11 @@
  * A class for querying translated language names from CLDR data.
  *
  * @author Niklas Laxström
- * @copyright Copyright © 2007-2008, Niklas Laxström
+ * @author Ryan Kaldari
+ * @copyright Copyright © 2007-2011
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
-class LanguageNames {
+class LanguageNames extends CldrNames {
 
 	private static $cache = array();
 
@@ -76,9 +77,9 @@ class LanguageNames {
 	}
 
 	/**
-	 * Load language names localized for a particular language.
+	 * Load currency names localized for a particular language. Helper function for getNames.
 	 *
-	 * @param $code string
+	 * @param $code string The language to return the list in
 	 * @return an associative array of language codes and localized language names
 	 */
 	private static function loadLanguage( $code ) {
@@ -118,22 +119,6 @@ class LanguageNames {
 	}
 
 	/**
-	 * @param $code string
-	 * @return string
-	 */
-	public static function getFileName( $code ) {
-		return Language::getFileName( "CldrNames", $code, '.php' );
-	}
-
-	/**
-	 * @param $code string
-	 * @return string
-	 */
-	public static function getOverrideFileName( $code ) {
-		return Language::getFileName( "LocalNames", $code, '.php' );
-	}
-
-	/**
 	 * @param $names array
 	 * @param $code string
 	 * @return bool
@@ -142,4 +127,5 @@ class LanguageNames {
 		$names += self::getNames( $code, self::FALLBACK_NORMAL, self::LIST_MW_AND_CLDR );
 		return true;
 	}
+
 }
