@@ -5,7 +5,7 @@
  *
  * @author Niklas Laxström
  * @author Ryan Kaldari
- * @copyright Copyright © 2007-2011
+ * @copyright Copyright © 2007-2012
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 class CurrencyNames extends CldrNames {

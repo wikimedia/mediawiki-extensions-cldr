@@ -1,7 +1,11 @@
 <?php
 /**
- * Extract data from cldr xml.
+ * Extract data from cldr XML.
+ *
  * @author Niklas Laxström
+ * @author Ryan Kaldari
+ * @copyright Copyright © 2007-2011
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
 /**
