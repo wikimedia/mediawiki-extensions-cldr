@@ -83,39 +83,47 @@ class LanguageNames extends CldrNames {
 	 * @return an associative array of language codes and localized language names
 	 */
 	private static function loadLanguage( $code ) {
-		if ( !isset( self::$cache[$code] ) ) {
-			wfProfileIn( __METHOD__ . '-recache' );
+		if ( isset( self::$cache[$code] ) ) {
+			return self::$cache[$code];
+		}
 
-			/* Load override for wrong or missing entries in cldr */
-			$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
-			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
-				$languageNames = false;
-				require( $override );
-				if ( is_array( $languageNames ) ) {
+		self::$cache[$code] = array();
+
+		if ( !Language::isValidBuiltInCode( $code ) ) {
+			return array();
+		}
+
+		wfProfileIn( __METHOD__ . '-recache' );
+
+		/* Load override for wrong or missing entries in cldr */
+		$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
+		if ( file_exists( $override ) ) {
+			$languageNames = false;
+			require( $override );
+			if ( is_array( $languageNames ) ) {
+				self::$cache[$code] = $languageNames;
+			}
+		}
+
+		$filename = dirname( __FILE__ ) . '/CldrNames/' . self::getFileName( $code );
+		if ( file_exists( $filename ) ) {
+			$languageNames = false;
+			require( $filename );
+			if ( is_array( $languageNames ) ) {
+				if ( isset( self::$cache[$code] ) ) {
+					// Add to existing list of localized language names
+					self::$cache[$code] = self::$cache[$code] + $languageNames;
+				} else {
+					// No list exists, so create it
 					self::$cache[$code] = $languageNames;
 				}
 			}
-
-			$filename = dirname( __FILE__ ) . '/CldrNames/' . self::getFileName( $code );
-			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
-				$languageNames = false;
-				require( $filename );
-				if ( is_array( $languageNames ) ) {
-					if ( isset( self::$cache[$code] ) ) {
-						// Add to existing list of localized language names
-						self::$cache[$code] = self::$cache[$code] + $languageNames;
-					} else {
-						// No list exists, so create it
-						self::$cache[$code] = $languageNames;
-					}
-				}
-			} else {
-				wfDebug( __METHOD__ . ": Unable to load language names for $filename\n" );
-			}
-			wfProfileOut( __METHOD__ . '-recache' );
+		} else {
+			wfDebug( __METHOD__ . ": Unable to load language names for $filename\n" );
 		}
+		wfProfileOut( __METHOD__ . '-recache' );
 
-		return isset( self::$cache[$code] ) ? self::$cache[$code] : array();
+		return self::$cache[$code];
 	}
 
 	/**
