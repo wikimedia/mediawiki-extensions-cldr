@@ -623,9 +623,10 @@ $messages['su'] = array(
  * @author Ainali
  * @author Lejonel
  * @author M.M.S.
+ * @author Rotsee
  */
 $messages['sv'] = array(
-	'cldr-desc' => 'Tillägg som ger lokaliserade språknamn baserade på [http://cldr.unicode.org/index/downloads CLDR data]',
+	'cldr-desc' => 'Tillägg som ger översatta språknamn baserade på [http://cldr.unicode.org/index/downloads CLDR-data]',
 );
 
 /** Telugu (తెలుగు)
