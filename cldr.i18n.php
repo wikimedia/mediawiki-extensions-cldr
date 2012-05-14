@@ -566,7 +566,7 @@ $messages['sah'] = array(
  * @author Helix84
  */
 $messages['sk'] = array(
-	'cldr-desc' => 'Rozšírenie, ktoré poskytuje lokalizované názvy jazykov',
+	'cldr-desc' => 'Rozšírenie, ktoré poskytuje lokalizované názvy jazykov na základe [http://cldr.unicode.org/index/downloads údajov CLDR]',
 );
 
 /** Slovenian (Slovenščina)
