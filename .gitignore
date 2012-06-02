@@ -2,3 +2,5 @@
 *~
 *.kate-swp
 .*.swp
+core
+core.zip
