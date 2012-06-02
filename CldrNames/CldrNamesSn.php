@@ -272,7 +272,6 @@ $countryNames = array(
 'PM' => 'Saint Pierre and Miquelon',
 'PN' => 'Pitcairn',
 'PR' => 'Puerto Rico',
-'PS' => '',
 'PT' => 'Portugal',
 'PW' => 'Palau',
 'PY' => 'Paraguay',

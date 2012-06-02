@@ -236,7 +236,6 @@ $countryNames = array(
 'MH' => 'Bisanga bya Marishalɛ',
 'MK' => 'Masedwanɛ',
 'ML' => 'Malí',
-'MM' => 'Mozambiki',
 'MN' => 'Mongolí',
 'MP' => 'Bisanga bya Marianɛ ya nɔ́rdi',
 'MQ' => 'Martiniki',
