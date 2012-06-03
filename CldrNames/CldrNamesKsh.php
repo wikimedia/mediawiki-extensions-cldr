@@ -74,6 +74,7 @@ $languageNames = array(
 'kn' => 'Kannada',
 'ko' => 'Korrejaanesch',
 'ks' => 'Kschamieresch',
+'ksh' => 'Kölsch',
 'ku' => 'Kurdesch',
 'ky' => 'Kirjiisesch',
 'la' => 'Lateijnesch',
