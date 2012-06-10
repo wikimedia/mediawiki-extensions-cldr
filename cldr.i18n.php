@@ -83,10 +83,11 @@ $messages['bg'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Nasir8891
  * @author Zaheen
  */
 $messages['bn'] = array(
-	'cldr-desc' => 'এই এক্সটেনশনটি ভাষাগুলির স্থানীয়কৃত নাম প্রদান করে',
+	'cldr-desc' => 'এই এক্সটেনশনটি [http://cldr.unicode.org/index/downloads CLDR data] ভাষাগুলির স্থানীয়কৃত নাম প্রদান করে',
 );
 
 /** Breton (Brezhoneg)
