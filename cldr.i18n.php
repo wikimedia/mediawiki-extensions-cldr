@@ -38,7 +38,7 @@ $messages['arz'] = array(
 	'cldr-desc' => 'Extension ببيّن الاسامى المحليه بتاعة اللغات',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -75,7 +75,7 @@ $messages['be-tarask'] = array(
 	'cldr-desc' => 'Пашырэньне, якое дадае пераклады назваў моў на аснове [http://cldr.unicode.org/index/downloads зьвестак CLDR]',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -90,21 +90,21 @@ $messages['bn'] = array(
 	'cldr-desc' => 'এই এক্সটেনশনটি [http://cldr.unicode.org/index/downloads CLDR data] ভাষাগুলির স্থানীয়কৃত নাম প্রদান করে',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'cldr-desc' => "Astenn a bourchas roll lec'helaet anvioù ar yezhoù diazezet war [http://cldr.unicode.org/index/downloads roadennoù CLDR]",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
 	'cldr-desc' => 'Ekstenzija koja pruža lokalizirane nazive jezika zasnovane na [http://cldr.unicode.org/index/downloads podacima CLDR]',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Martorell
  * @author Solde
  */
@@ -112,7 +112,7 @@ $messages['ca'] = array(
 	'cldr-desc' => 'Extensió que proporciona noms localitzats de les llengües, basat en [http://cldr.unicode.org/index/downloads dades CLDR]',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Matěj Grabovský
  * @author Mormegil
@@ -128,7 +128,7 @@ $messages['cy'] = array(
 	'cldr-desc' => "Estyniad sy'n defnyddio [http://cldr.unicode.org/index/downloads data CLDR] i ddarparu enwau ieithoedd yn iaith y wici",
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Peter Alberti
  */
 $messages['da'] = array(
@@ -166,7 +166,7 @@ $messages['eo'] = array(
 	'cldr-desc' => 'Kromaĵo kiu provizas tradukitajn nomojn de lingvoj bazitajn sur [http://cldr.unicode.org/index/downloads datumoj de CLDR]',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Locos epraix
  * @author Sanbec
  */
@@ -174,7 +174,7 @@ $messages['es'] = array(
 	'cldr-desc' => 'Extensión que provee nombres de idioma traducidos basados en [http://cldr.unicode.org/index/downloads datos CLDR]',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Theklan
  */
@@ -189,7 +189,7 @@ $messages['fa'] = array(
 	'cldr-desc' => 'افزونه‌ای که از نام محلی زبان‌ها بر پایهٔ [http://cldr.unicode.org/index/downloads داده‌های CLDR] حمایت می‌کند.',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Mobe
  * @author Nike
@@ -198,7 +198,7 @@ $messages['fi'] = array(
 	'cldr-desc' => 'Laajennus, joka tarjoaa kotoistetut kielten nimet pohjautuen [http://cldr.unicode.org/index/downloads CLDR-tietovarastoon].',
 );
 
-/** French (Français)
+/** French (français)
  * @author Peter17
  * @author Verdy p
  */
@@ -206,7 +206,7 @@ $messages['fr'] = array(
 	'cldr-desc' => 'Extension qui fournit les noms traduits des langues, sur la base des [http://cldr.unicode.org/index/downloads données CLDR]',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -277,14 +277,14 @@ $messages['hsb'] = array(
 	'cldr-desc' => 'Rožšěrjenje, kotrež lokalizowane mjena rěčow na zakładźe [http://cldr.unicode.org/index/downloads CLDR-datow] k dispoziciji staja.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
 	'cldr-desc' => 'Lokalizált nyelvneveket szolgáltat a [http://cldr.unicode.org/index/downloads CLDR adatai] alapján',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -313,7 +313,7 @@ $messages['ilo'] = array(
 	'cldr-desc' => 'Dagiti pagpa-atiddog nga agited lokal a pagsasao a nag-nagan a naibantay iti [http://cldr.unicode.org/index/downloads CLDR data]',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Pietrodn
  */
@@ -380,14 +380,14 @@ $messages['li'] = array(
 	'cldr-desc' => 'Oetbreiding die euverzatte name van tale beejt',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Matasg
  */
 $messages['lt'] = array(
 	'cldr-desc' => 'Priedas leidžiantis rodyti lokalizuotus kalbų pavadinimus',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Papuass
  * @author Xil
  */
@@ -402,7 +402,7 @@ $messages['mg'] = array(
 	'cldr-desc' => "Fanitarana manome ny anaram-piteny voadika, mifototra amin'ny  [http://cldr.unicode.org/index/downloads fampahalalàna omen'ny CLDR]",
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
  */
@@ -473,14 +473,14 @@ $messages['nl'] = array(
 	'cldr-desc' => 'Uitbreiding die vertaalde namen van talen biedt gebaseerd op [http://cldr.unicode.org/index/downloads CLDR-gegevens]',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  */
 $messages['nn'] = array(
 	'cldr-desc' => 'Utviding som gjev omsette språknamn',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Boulaur
  * @author Cedric31
  */
@@ -495,7 +495,7 @@ $messages['or'] = array(
 	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR ତଥ୍ୟ] ଅନୁସାରେ ଯେଉଁ ଏକ୍ସଟେନସନ ଆଞ୍ଚଳିକ ଭାଷାର ନାମ ସବୁ ଦେଇଥାଏ',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Masti
  * @author Sp5uhe
  */
@@ -510,7 +510,7 @@ $messages['pms'] = array(
 	'cldr-desc' => 'Estension che a dà ij nòm localisà dle lenghe basà an sij [http://cldr.unicode.org/index/downloads dat CLDR]',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
@@ -519,7 +519,7 @@ $messages['pt'] = array(
 	'cldr-desc' => 'Extensão que fornece nomes de língua localizados, com base em [http://cldr.unicode.org/index/downloads dados do CLDR]',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Waldir
  */
@@ -527,21 +527,21 @@ $messages['pt-br'] = array(
 	'cldr-desc' => 'Extensão que provê nomes de línguas localizados, com base em [http://cldr.unicode.org/index/downloads dados do CLDR]',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
 	'cldr-desc' => 'Extensie care oferă nume de limbi localizate pe baza [http://cldr.unicode.org/index/downloads datelor CLDR]',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'cldr-desc' => 'Estenzione ca dè le nome de lenghe localizzate conzideranne [http://cldr.unicode.org/index/le scaricaminde de date CLDR]',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  * @author Александр Сигачёв
  */
@@ -556,21 +556,21 @@ $messages['rue'] = array(
 	'cldr-desc' => 'Росшырїня забезпечуюче локалізованы назвы языків з поужытём [http://cldr.unicode.org/index/downloads дат CLDR]',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
 	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR-га] олоҕуран тыллар ааттарын тылбааһын көрдөрөр тупсарыы',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
 	'cldr-desc' => 'Rozšírenie, ktoré poskytuje lokalizované názvy jazykov na základe [http://cldr.unicode.org/index/downloads údajov CLDR]',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -584,14 +584,14 @@ $messages['sli'] = array(
 	'cldr-desc' => 'Unterstützung fier lokalisierte Sproachanoama',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Puntori
  */
 $messages['sq'] = array(
 	'cldr-desc' => 'Shtesë që paraqet emrat lokal të gjuhëve',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -599,7 +599,7 @@ $messages['sr-ec'] = array(
 	'cldr-desc' => 'Проширење које омогућава преведене називе језика засновано је на [http://cldr.unicode.org/index/downloads CLDR подацима]',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -620,7 +620,7 @@ $messages['su'] = array(
 	'cldr-desc' => 'Éksténsi anu nyadiakeun lokalisasi ngaran basa',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Ainali
  * @author Lejonel
  * @author M.M.S.
@@ -637,14 +637,14 @@ $messages['te'] = array(
 	'cldr-desc' => 'స్థానికీకరించిన భాషల పేర్లను అందించే పొడగింత',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
 	'cldr-desc' => 'Афзунае, ки номҳои маҳалликунонидашудаи забонҳоро пешкаш мекунад',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -679,7 +679,7 @@ $messages['ug-arab'] = array(
 	'cldr-desc' => 'يەرلىكلەشتۈرۈلگەن تىل ئاتى كېيىنرەك تەمىنلىنىدۇ',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Ahonc
  * @author Тест
  */
@@ -687,7 +687,7 @@ $messages['uk'] = array(
 	'cldr-desc' => 'Розширення, яке забезпечує локалізовані назви мов на основі [http://cldr.unicode.org/index/downloads даних CLDR]',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -723,7 +723,7 @@ $messages['yue'] = array(
 	'cldr-desc' => '提供本地化名嘅擴展',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Alex S.H. Lin
  * @author PhiLiP
  */
@@ -731,7 +731,7 @@ $messages['zh-hans'] = array(
 	'cldr-desc' => '基于[http://cldr.unicode.org/index/downloads CLDR数据]提供本地化语言名称的扩展。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Alex S.H. Lin
  * @author Anakmalaysia
  */
