@@ -67,7 +67,7 @@ $messages['bcc'] = array(
 	'cldr-desc' => 'برنامه الحاقی که نام دگه زبانانء ترجمه اش کنت',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -143,7 +143,7 @@ $messages['de'] = array(
 	'cldr-desc' => 'Ermöglicht die Unterstützung für internationalisierte Sprachennamen aus dem [http://cldr.unicode.org/index „Common Locale Data Repository“ (CLDR)]',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -220,7 +220,7 @@ $messages['fy'] = array(
 	'cldr-desc' => "Taheaksel dy't fertaalde taalnammen oanbiedt",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -270,7 +270,7 @@ $messages['hil'] = array(
 	'cldr-desc' => 'Ekstensiyon nga gahatag ngalan lengwahe nga nangin lokal',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -549,7 +549,7 @@ $messages['ru'] = array(
 	'cldr-desc' => 'Расширение, предоставляющее переводы названий языков на основе [http://cldr.unicode.org/index/downloads данных CLDR]',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
