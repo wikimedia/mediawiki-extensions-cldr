@@ -51,10 +51,8 @@ foreach ( $languages as $code => $name ) {
 			$codeParts[2] = $codeParts[1];
 			unset( $codeParts[1] );
 		}
-		if ( isset( $codeParts[2] ) ) {
-			if ( strlen( $codeParts[2] ) == 2 ) {
-				$codeParts[2] = strtoupper( $codeParts[2] );
-			}
+		if ( isset( $codeParts[2] ) && strlen( $codeParts[2] ) == 2 ) {
+			$codeParts[2] = strtoupper( $codeParts[2] );
 		}
 		$codeCLDR = implode( '_', $codeParts );
 	} else {
@@ -87,6 +85,11 @@ class CLDRParser {
 	private $type = '';
 	private $output = "<?php\n";
 
+	/**
+	 * @param $parser
+	 * @param $name string
+	 * @param $attrs array
+	 */
 	function langStart( $parser, $name, $attrs ) {
 		$this->parseContents = false;
 		if ( $name === 'LANGUAGES' ) {
@@ -101,26 +104,44 @@ class CLDRParser {
 		}
 	}
 
+	/**
+	 * @param $parser
+	 * @param $name string
+	 */
 	function langEnd( $parser, $name ) {
 		if ( $name === 'LANGUAGES' ) {
 			$this->languages = false;
 			$this->parseContents = false;
 			return;
 		}
-		if ( !$this->parseContents ) return;
+		if ( !$this->parseContents ) {
+			return;
+		}
 		$this->languageOutput .= "',\n";
 	}
 
+	/**
+	 * @param $parser
+	 * @param $data string
+	 */
 	function langContents( $parser, $data ) {
-		if ( !$this->parseContents ) return;
-		if ( trim( $data ) === '' ) return;
+		if ( !$this->parseContents ) {
+			return;
+		}
+		if ( trim( $data ) === '' ) {
+			return;
+		}
 		// Trim data and escape quote marks, but don't double escape.
 		$this->languageOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
 		$this->languageCount++;
 	}
 
+	/**
+	 * @param $input string
+	 * @param $output string
+	 * @param $fileHandle
+	 */
 	function parseLanguages( $input, $output, $fileHandle ) {
-
 		$xml_parser = xml_parser_create(); // Create a new parser
 
 		// Set up the handler functions for the XML parser
@@ -154,6 +175,11 @@ class CLDRParser {
 
 	}
 
+	/**
+	 * @param $parser
+	 * @param $name string
+	 * @param $attrs array
+	 */
 	function currencyStart( $parser, $name, $attrs ) {
 		$this->parseContents = false;
 		if ( $name === 'CURRENCIES' ) {
@@ -171,6 +197,10 @@ class CLDRParser {
 		}
 	}
 
+	/**
+	 * @param $parser
+	 * @param $name string
+	 */
 	function currencyEnd( $parser, $name ) {
 		if ( $name === 'CURRENCY' ) {
 			$this->currency = false;
@@ -186,16 +216,28 @@ class CLDRParser {
 		$this->currencyOutput .= "',\n";
 	}
 
+	/**
+	 * @param $parser
+	 * @param $data string
+	 */
 	function currencyContents( $parser, $data ) {
-		if ( !$this->parseContents ) return;
-		if ( trim( $data ) === '' ) return;
+		if ( !$this->parseContents ) {
+			return;
+		}
+		if ( trim( $data ) === '' ) {
+			return;
+		}
 		// Trim data and escape quote marks, but don't double escape.
 		$this->currencyOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
 		$this->currencyCount++;
 	}
 
+	/**
+	 * @param $input string
+	 * @param $output string
+	 * @param $fileHandle
+	 */
 	function parseCurrencies( $input, $output, $fileHandle ) {
-
 		$xml_parser = xml_parser_create(); // Create a new parser
 
 		// Set up the handler functions for the XML parser
@@ -215,7 +257,7 @@ class CLDRParser {
 
 		$this->currencyOutput .= ");\n"; // Close the currencyNames array
 
-		If ( $this->currencyCount > 0 ) {
+		if ( $this->currencyCount > 0 ) {
 			$this->output .= $this->currencyOutput;
 			// Give a status update
 			if ( $this->currencyCount == 1 ) {
@@ -229,6 +271,11 @@ class CLDRParser {
 
 	}
 
+	/**
+	 * @param $parser
+	 * @param $name string
+	 * @param $attrs array
+	 */
 	function countryStart( $parser, $name, $attrs ) {
 		$this->parseContents = false;
 		if ( $name === 'TERRITORIES' ) {
@@ -247,6 +294,10 @@ class CLDRParser {
 		}
 	}
 
+	/**
+	 * @param $parser
+	 * @param $name string
+	 */
 	function countryEnd( $parser, $name ) {
 		if ( $name === 'TERRITORIES' ) {
 			$this->countries = false;
@@ -257,16 +308,28 @@ class CLDRParser {
 		$this->countryOutput .= "',\n";
 	}
 
+	/**
+	 * @param $parser
+	 * @param $data array
+	 */
 	function countryContents( $parser, $data ) {
-		if ( !$this->parseContents ) return;
-		if ( trim( $data ) === '' ) return;
+		if ( !$this->parseContents ) {
+			return;
+		}
+		if ( trim( $data ) === '' ) {
+			return;
+		}
 		// Trim data and escape quote marks, but don't double escape.
 		$this->countryOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
 		$this->countryCount++;
 	}
 
+	/**
+	 * @param $input
+	 * @param $output
+	 * @param $fileHandle
+	 */
 	function parseCountries( $input, $output, $fileHandle ) {
-
 		$xml_parser = xml_parser_create(); // Create a new parser
 
 		// Set up the handler functions for the XML parser
@@ -300,8 +363,11 @@ class CLDRParser {
 
 	}
 
+	/**
+	 * @param $input
+	 * @param $output
+	 */
 	function parse( $input, $output ) {
-
 		// Open the input file for reading
 		if ( !( $fileHandle = fopen( $input, "r" ) ) ) {
 			die( "could not open XML input" );
@@ -326,12 +392,16 @@ class CLDRParser {
 		// Write the output to the output file
 		fwrite( $fileHandle, $this->output );
 		fclose( $fileHandle );
-
 	}
 }
 
-// Get the code for the MediaWiki localisation,
-// these are same as the fallback.
+/**
+ * Get the code for the MediaWiki localisation,
+ * these are same as the fallback.
+ *
+ * @param $code string
+ * @return string
+ */
 function getRealCode( $code ) {
 	$realCode = $code;
 	if ( !strcmp( $code, 'kk' ) )

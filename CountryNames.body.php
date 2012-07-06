@@ -17,7 +17,7 @@ class CountryNames extends CldrNames {
 	 * items.
 	 *
 	 * @param string $code The language to return the list in
-	 * @return an associative array of country codes and localized country names
+	 * @return array an associative array of country codes and localized country names
 	 */
 	public static function getNames( $code ) {
 		// Load country names localized for the requested language
@@ -47,7 +47,7 @@ class CountryNames extends CldrNames {
 	 * Load country names localized for a particular language. Helper function for getNames.
 	 *
 	 * @param string $code The language to return the list in
-	 * @return an associative array of country codes and localized country names
+	 * @return array an associative array of country codes and localized country names
 	 */
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {

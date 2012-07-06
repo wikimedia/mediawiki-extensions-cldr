@@ -25,7 +25,8 @@ class LanguageNames extends CldrNames {
 	 * @param $code string
 	 * @param $fbMethod int
 	 * @param $list int
-	 * @return an associative array of language codes and localized language names
+	 * @throws MWException
+	 * @return array an associative array of language codes and localized language names
 	 */
 	public static function getNames( $code, $fbMethod = self::FALLBACK_NATIVE, $list = self::LIST_MW ) {
 		$xx = self::loadLanguage( $code );
@@ -80,7 +81,7 @@ class LanguageNames extends CldrNames {
 	 * Load currency names localized for a particular language. Helper function for getNames.
 	 *
 	 * @param $code string The language to return the list in
-	 * @return an associative array of language codes and localized language names
+	 * @return array an associative array of language codes and localized language names
 	 */
 	private static function loadLanguage( $code ) {
 		if ( isset( self::$cache[$code] ) ) {

@@ -17,7 +17,7 @@ class CurrencyNames extends CldrNames {
 	 * items.
 	 *
 	 * @param string $code The language to return the list in
-	 * @return an associative array of currency codes and localized currency names
+	 * @return array an associative array of currency codes and localized currency names
 	 */
 	public static function getNames( $code ) {
 		// Load currency names localized for the requested language
@@ -47,7 +47,7 @@ class CurrencyNames extends CldrNames {
 	 * Load currency names localized for a particular language. Helper function for getNames.
 	 *
 	 * @param string $code The language to return the list in
-	 * @return an associative array of currency codes and localized currency names
+	 * @return array an associative array of currency codes and localized currency names
 	 */
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {
