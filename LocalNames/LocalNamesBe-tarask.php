@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $languageNames = array(
 'ab'   =>  'абхаская',
 'af'   =>  'афрыкаанс',
