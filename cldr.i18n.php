@@ -174,6 +174,13 @@ $messages['es'] = array(
 	'cldr-desc' => 'Extensión que provee nombres de idioma traducidos basados en [http://cldr.unicode.org/index/downloads datos CLDR]',
 );
 
+/** Estonian (eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR-andmetel] põhinevaid lokaliseeritud keelenimetusi kasutada võimaldav lisa',
+);
+
 /** Basque (euskara)
  * @author An13sa
  * @author Theklan
