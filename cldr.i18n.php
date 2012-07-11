@@ -45,7 +45,7 @@ $messages['ast'] = array(
 	'cldr-desc' => "Estensión qu'ufre nomes d'idioma llocalizaos basaos nos [http://cldr.unicode.org/index/downloads datos de CLDR]",
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  * @author Рустам Нурыев
  */
@@ -441,8 +441,7 @@ $messages['ms'] = array(
 	'cldr-desc' => 'ambungan yang menyediakan nama-nama bahasa setempat berasaskan [http://cldr.unicode.org/index/downloads data CLDR]',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -701,7 +700,7 @@ $messages['vec'] = array(
 	'cldr-desc' => 'Estension che fornisse i nomi localizà de le varie lengue',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
