@@ -296,6 +296,12 @@ $languageNames = array(
  */
 'tcy'        => 'Tulu',
 
+/* Not in CLDR 21.0.1. Turoyo language
+ * http://www.sil.org/iso639-3/documentation.asp?id=tru
+ * Added 2012-07-26.
+ */
+'tru'        => 'Turoyo',
+
 /* Not in CLDR 21.0.1. Finnic Uralic language.
  * http://www.ethnologue.org/show_language.asp?code=vep
  * Added 2009-01-24.
