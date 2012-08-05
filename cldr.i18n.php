@@ -481,9 +481,10 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Jeblad
  */
 $messages['nn'] = array(
-	'cldr-desc' => 'Utviding som gjev omsette språknamn',
+	'cldr-desc' => 'Utviding som gjev omsette språknamn basert på [http://cldr.unicode.org/index/downloads CLDR-data]',
 );
 
 /** Occitan (occitan)
