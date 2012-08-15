@@ -339,9 +339,10 @@ $messages['ja'] = array(
 
 /** Javanese (Basa Jawa)
  * @author Meursault2004
+ * @author NoiX180
  */
 $messages['jv'] = array(
-	'cldr-desc' => 'Èkstènsi sing mènèhi jeneng basa sing dilokalisasi',
+	'cldr-desc' => 'Èkstènsi sing nyumadhiyakaké jeneng basa sing dilokalaké adhasar [http://cldr.unicode.org/index/downloads data CLDR]',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -439,6 +440,13 @@ $messages['mr'] = array(
  */
 $messages['ms'] = array(
 	'cldr-desc' => 'ambungan yang menyediakan nama-nama bahasa setempat berasaskan [http://cldr.unicode.org/index/downloads data CLDR]',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'cldr-desc' => 'Estensjoni li tipprovdi l-ismijiet lokalizzati tal-lingwi abbażi tad-[http://cldr.unicode.org/index/downloads dejta CLDR]',
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
