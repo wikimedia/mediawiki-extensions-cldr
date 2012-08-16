@@ -472,7 +472,6 @@ $countryNames = array(
 'ML' => 'Mali',
 'MM' => 'Birmania',
 'MN' => 'Mongolia',
-'MO' => 'Makau',
 'MO' => 'Macau',
 'MP' => 'Iparraldeko Mariana uharteak',
 'MQ' => 'Martinika',
