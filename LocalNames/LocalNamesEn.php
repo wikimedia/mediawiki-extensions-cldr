@@ -160,13 +160,6 @@ $languageNames = array(
  */
 'kiu'        => 'Kirmanjki',
 
-/* Not in CLDR 21.0.1. Aralo-Caspian language.
- * Added 2008-01-18.
- */
-'kk-arab'    => 'Kazakh (Arabic script)',
-'kk-cyrl'    => 'Kazakh (Cyrillic script)',
-'kk-latn'    => 'Kazakh (Latin script)',
-
 /* Not in CLDR 21.0.1. Komi language.
  * http://www.ethnologue.org/show_language.asp?code=koi
  * Added 2010-01-02.
@@ -349,6 +342,7 @@ $languageNames = array(
 'kk-cn'        => 'Kazakh (China)',
 'kk-kz'        => 'Kazakh (Kazakhstan)',
 'kk-tr'        => 'Kazakh (Turkey)',
+'kk-arab'      => 'Kazakh (Arabic script)',
 'kk-cyrl'      => 'Kazakh (Cyrillic script)',
 'kk-latn'      => 'Kazakh (Latin script)',
 'ks-arab'      => 'Kashmiri (Arabic script)',
