@@ -30,7 +30,10 @@ class LanguageNames extends CldrNames {
 	 */
 	public static function getNames( $code, $fbMethod = self::FALLBACK_NATIVE, $list = self::LIST_MW ) {
 		$xx = self::loadLanguage( $code );
-		$native = Language::getLanguageNames( $list === self::LIST_MW_SUPPORTED );
+		$native = Language::fetchLanguageNames(
+			null,
+			$list === self::LIST_MW_SUPPORTED ? 'mwfile' : 'mw'
+		);
 
 		if ( $fbMethod === self::FALLBACK_NATIVE ) {
 			$names = array_merge( $native, $xx );

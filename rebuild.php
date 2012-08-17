@@ -48,7 +48,7 @@ class CLDRRebuild extends Maintenance {
 		}
 
 		// Get an array of all MediaWiki languages ( $wgLanguageNames + $wgExtraLanguageNames )
-		$languages = Language::getLanguageNames( false );
+		$languages = Language::fetchLanguageNames();
 		# hack to get pt-pt too
 		$languages['pt-pt'] = 'Foo';
 		ksort( $languages );
