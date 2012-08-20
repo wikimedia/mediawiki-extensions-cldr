@@ -117,7 +117,8 @@ class CLDRParser {
 			$this->languages = true;
 		}
 		if ( $this->languages && $name === 'LANGUAGE' ) {
-			if ( !isset( $attrs["ALT"] ) ) { // Exclude names that are alt.
+			// Exclude names that are alt. and exclude strange "root"
+			if ( !isset( $attrs['ALT'] ) && $attrs['TYPE'] !== 'root' ) {
 				$this->parseContents = true;
 				$this->type = str_replace( '_', '-', strtolower( $attrs['TYPE'] ) );
 				$this->languageOutput .= "'$this->type' => '";
