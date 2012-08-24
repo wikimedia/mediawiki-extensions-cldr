@@ -13,13 +13,13 @@ $languageNames = array(
 'arq'         => 'Algerian Spoken Arabic',
 
 /* Not in CLDR 21.0.1. Arabic language
- * http://www.ethnologue.com/show_language.asp?code=arz
+ * http://www.ethnologue.com/show_language.asp?code=ary
  * Added 2008-04-12.
  */
 'ary'         => 'Moroccan Spoken Arabic',
 
 /* Not in CLDR 21.0.1. Arabic language
- * http://www.ethnologue.com/show_language.asp?code=ary
+ * http://www.ethnologue.com/show_language.asp?code=arz
  * Added 2009-08-23.
  */
 'arz'         => 'Egyptian Spoken Arabic',
@@ -327,6 +327,7 @@ $languageNames = array(
 
 /* Not in CLDR. Used for MediaWiki localisation
  */
+'bat-smg'      => 'Samogitian',
 'be-tarask'    => 'Belarusian (Taraškievica orthography)',
 'cdo'          => 'Min Dong Chinese',
 'crh-cyrl'     => 'Crimean Turkish (Cyrillic script)',
@@ -348,7 +349,7 @@ $languageNames = array(
 'ks-arab'      => 'Kashmiri (Arabic script)',
 'ks-deva'      => 'Kashmiri (Devanagari script)',
 'ku-latn'      => 'Kurdish (Latin script)',
-'no'           => 'Norwegian (bokmål)‬',
+'no'           => 'Norwegian (bokmål)',
 'roa-rup'      => 'Aromanian',
 'sr-ec'        => 'Serbian (Cyrillic script)',
 'sr-el'        => 'Serbian (Latin script)',
@@ -363,6 +364,7 @@ $languageNames = array(
 'zh-classical' => 'Classical Chinese',
 'zh-cn'        => 'Chinese (China)',
 'zh-hk'        => 'Chinese (Hong Kong)',
+'zh-min-nan'   => 'Chinese (Min Nan)',
 'zh-sg'        => 'Chinese (Singapore)',
 'zh-tw'        => 'Chinese (Taiwan)',
 'zh-yue'       => 'Cantonese', # language redirect
