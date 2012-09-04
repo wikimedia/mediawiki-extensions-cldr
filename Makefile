@@ -14,7 +14,7 @@ distclean:
 	rm -rf core
 
 clean:
-	rm -f LanguageNames[A-Z]*.php
+	rm -f CldrNames/CldrNames[A-Z]*.php
 
 LanguageNames.php: core/
 	php rebuild.php
