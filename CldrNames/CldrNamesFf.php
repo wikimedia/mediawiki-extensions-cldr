@@ -151,7 +151,6 @@ $countryNames = array(
 'CN' => 'Siin',
 'CO' => 'Kolombiya',
 'CR' => 'Kosta Rikaa',
-'CS' => 'Serbii e Montenegoroo',
 'CU' => 'Kubaa',
 'CV' => 'Duuɗe Kap Weer',
 'CY' => 'Siipar',

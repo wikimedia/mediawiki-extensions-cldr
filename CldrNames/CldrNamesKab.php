@@ -151,7 +151,6 @@ $countryNames = array(
 'CN' => 'Lacin',
 'CO' => 'Kulumbi',
 'CR' => 'Kusta Rika',
-'CS' => 'Sirbya d Muntinigru',
 'CU' => 'Kuba',
 'CV' => 'Tigzirin n yixef azegzaw',
 'CY' => 'Cipr',

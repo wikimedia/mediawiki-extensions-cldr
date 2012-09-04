@@ -20,7 +20,7 @@ $languageNames = array(
 'yue' => 'Kantonek',
 'zh' => 'Chinek',
 'zh-hans' => 'Chinek sempel',
-'zh-hant' => 'Chinek hengovek',
+'zh-hant' => 'Chînek Tradycyonal',
 );
 
 $currencyNames = array(

@@ -153,7 +153,6 @@ $countryNames = array(
 'CN' => 'Kinë',
 'CO' => 'Kolumbi',
 'CR' => 'Kosta Rika',
-'CS' => 'Serbië en Montenegro',
 'CU' => 'Kubë',
 'CV' => 'Kap Verde',
 'CY' => 'Qipro',

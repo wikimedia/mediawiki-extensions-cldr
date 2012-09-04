@@ -150,7 +150,6 @@ $countryNames = array(
 'CN' => 'Kyaena',
 'CO' => 'Kolombia',
 'CR' => 'Kɔsta Rika',
-'CS' => 'Sɛɛbea ne Mɔntenɛgro',
 'CU' => 'Kuba',
 'CV' => 'Kepvɛdfo Islands',
 'CY' => 'Saeprɔs',

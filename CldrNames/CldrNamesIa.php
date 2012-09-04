@@ -271,6 +271,7 @@ $countryNames = array(
 'SN' => 'Senegal',
 'SO' => 'Somalia',
 'SR' => 'Suriname',
+'SS' => 'Sudan del Sud',
 'SY' => 'Syria',
 'SZ' => 'Swazilandia',
 'TC' => 'Insulas Turcos e Caicos',
