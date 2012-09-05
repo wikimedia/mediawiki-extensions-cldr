@@ -217,7 +217,6 @@ $countryNames = array(
 'CN' => 'Caina, Sin',
 'CO' => 'Kolambiya',
 'CR' => 'Kwasta Rika',
-'CS' => 'Sarbiya Da Mantanegiro',
 'CU' => 'Kyuba',
 'CV' => 'Tsibiran Kap Barde',
 'CY' => 'Sifurus',

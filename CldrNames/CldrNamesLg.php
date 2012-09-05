@@ -152,7 +152,6 @@ $countryNames = array(
 'CN' => 'Cayina',
 'CO' => 'Kolombya',
 'CR' => 'Kosita Rika',
-'CS' => 'Seribya ne Monteneguro',
 'CU' => 'Cuba',
 'CV' => 'Bizinga by\'e Kepu Veredi',
 'CY' => 'Sipuriya',
