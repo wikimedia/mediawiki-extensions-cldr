@@ -13,7 +13,7 @@ if ( !defined( 'MEDIAWIKI' ) ) die();
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Language Names',
-	'version' => '3.0.0 (CLDR 22-d04)',
+	'version' => '3.0.0 (CLDR 22-00)',
 	'author' => array( 'Niklas Laxström', 'Siebrand Mazeland', 'Ryan Kaldari' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:CLDR',
 	'descriptionmsg' => 'cldr-desc',
