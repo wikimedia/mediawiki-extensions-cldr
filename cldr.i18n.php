@@ -331,10 +331,11 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Aotake
  * @author JtFuruhata
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
-	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDRデータ]に基づいて地域化された言語名を提供する拡張機能',
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR データ]に基づいて地域化された言語名を提供する拡張機能',
 );
 
 /** Javanese (Basa Jawa)
