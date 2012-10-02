@@ -67,7 +67,7 @@ $messages['bcc'] = array(
 	'cldr-desc' => 'برنامه الحاقی که نام دگه زبانانء ترجمه اش کنت',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -450,7 +450,7 @@ $messages['mt'] = array(
 	'cldr-desc' => 'Estensjoni li tipprovdi l-ismijiet lokalizzati tal-lingwi abbażi tad-[http://cldr.unicode.org/index/downloads dejta CLDR]',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -488,7 +488,7 @@ $messages['nl'] = array(
 	'cldr-desc' => 'Uitbreiding die vertaalde namen van talen biedt gebaseerd op [http://cldr.unicode.org/index/downloads CLDR-gegevens]',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Jeblad
  */
@@ -607,7 +607,7 @@ $messages['sq'] = array(
 	'cldr-desc' => 'Shtesë që paraqet emrat lokal të gjuhëve',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -615,7 +615,7 @@ $messages['sr-ec'] = array(
 	'cldr-desc' => 'Проширење које омогућава преведене називе језика засновано је на [http://cldr.unicode.org/index/downloads CLDR подацима]',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -739,7 +739,7 @@ $messages['yue'] = array(
 	'cldr-desc' => '提供本地化名嘅擴展',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Alex S.H. Lin
  * @author PhiLiP
  */
@@ -747,7 +747,7 @@ $messages['zh-hans'] = array(
 	'cldr-desc' => '基于[http://cldr.unicode.org/index/downloads CLDR数据]提供本地化语言名称的扩展。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Alex S.H. Lin
  * @author Anakmalaysia
  */
