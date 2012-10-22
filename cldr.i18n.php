@@ -20,7 +20,7 @@ $messages['qqq'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
-	'cldr-desc' => 'Uitbreiding om die vertaalde name van tale bied',
+	'cldr-desc' => 'Uitbreiding om die vertaalde name van tale bied', # Fuzzy
 );
 
 /** Arabic (العربية)
@@ -35,7 +35,7 @@ $messages['ar'] = array(
  * @author Meno25
  */
 $messages['arz'] = array(
-	'cldr-desc' => 'Extension ببيّن الاسامى المحليه بتاعة اللغات',
+	'cldr-desc' => 'Extension ببيّن الاسامى المحليه بتاعة اللغات', # Fuzzy
 );
 
 /** Asturian (asturianu)
@@ -57,14 +57,14 @@ $messages['ba'] = array(
  * @author Man77
  */
 $messages['bar'] = array(
-	'cldr-desc' => 'Untastützung fia lokalisiate Språchnnãmen',
+	'cldr-desc' => 'Untastützung fia lokalisiate Språchnnãmen', # Fuzzy
 );
 
 /** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  */
 $messages['bcc'] = array(
-	'cldr-desc' => 'برنامه الحاقی که نام دگه زبانانء ترجمه اش کنت',
+	'cldr-desc' => 'برنامه الحاقی که نام دگه زبانانء ترجمه اش کنت', # Fuzzy
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -224,7 +224,7 @@ $messages['frp'] = array(
  * @author SK-luuut
  */
 $messages['fy'] = array(
-	'cldr-desc' => "Taheaksel dy't fertaalde taalnammen oanbiedt",
+	'cldr-desc' => "Taheaksel dy't fertaalde taalnammen oanbiedt", # Fuzzy
 );
 
 /** Galician (galego)
@@ -238,7 +238,7 @@ $messages['gl'] = array(
  * @author Omnipaedista
  */
 $messages['grc'] = array(
-	'cldr-desc' => 'Ἔκτασίς τις παρέχουσα ἐντοπιωμένα γλωττώνυμα',
+	'cldr-desc' => 'Ἔκτασίς τις παρέχουσα ἐντοπιωμένα γλωττώνυμα', # Fuzzy
 );
 
 /** Swiss German (Alemannisch)
@@ -267,14 +267,14 @@ $messages['he'] = array(
  * @author Kaustubh
  */
 $messages['hi'] = array(
-	'cldr-desc' => 'स्थानिकीकरण हुए भाषा का नाम देनेवाला एक्स्टेंशन',
+	'cldr-desc' => 'स्थानिकीकरण हुए भाषा का नाम देनेवाला एक्स्टेंशन', # Fuzzy
 );
 
 /** Hiligaynon (Ilonggo)
  * @author Tagimata
  */
 $messages['hil'] = array(
-	'cldr-desc' => 'Ekstensiyon nga gahatag ngalan lengwahe nga nangin lokal',
+	'cldr-desc' => 'Ekstensiyon nga gahatag ngalan lengwahe nga nangin lokal', # Fuzzy
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -310,7 +310,7 @@ $messages['id'] = array(
  * @author Ukabia
  */
 $messages['ig'] = array(
-	'cldr-desc' => 'Ogologo né nyé áhà asụsụ nke bi nsó',
+	'cldr-desc' => 'Ogologo né nyé áhà asụsụ nke bi nsó', # Fuzzy
 );
 
 /** Iloko (Ilokano)
@@ -379,21 +379,21 @@ $messages['lb'] = array(
  * @author Kizito
  */
 $messages['lg'] = array(
-	'cldr-desc' => 'Kino kyongezebwako ekireetamu amannya agavvuunulidwa mu nnimi nnansi',
+	'cldr-desc' => 'Kino kyongezebwako ekireetamu amannya agavvuunulidwa mu nnimi nnansi', # Fuzzy
 );
 
 /** Limburgish (Limburgs)
  * @author Pahles
  */
 $messages['li'] = array(
-	'cldr-desc' => 'Oetbreiding die euverzatte name van tale beejt',
+	'cldr-desc' => 'Oetbreiding die euverzatte name van tale beejt', # Fuzzy
 );
 
 /** Lithuanian (lietuvių)
  * @author Matasg
  */
 $messages['lt'] = array(
-	'cldr-desc' => 'Priedas leidžiantis rodyti lokalizuotus kalbų pavadinimus',
+	'cldr-desc' => 'Priedas leidžiantis rodyti lokalizuotus kalbų pavadinimus', # Fuzzy
 );
 
 /** Latvian (latviešu)
@@ -461,7 +461,7 @@ $messages['nb'] = array(
  * @author Slomox
  */
 $messages['nds'] = array(
-	'cldr-desc' => 'Verlöövt dat Bruken vun översett Naams vun Spraken',
+	'cldr-desc' => 'Verlöövt dat Bruken vun översett Naams vun Spraken', # Fuzzy
 );
 
 /** Nedersaksisch (Nedersaksisch)
@@ -597,14 +597,14 @@ $messages['sl'] = array(
  * @author Jonny84
  */
 $messages['sli'] = array(
-	'cldr-desc' => 'Unterstützung fier lokalisierte Sproachanoama',
+	'cldr-desc' => 'Unterstützung fier lokalisierte Sproachanoama', # Fuzzy
 );
 
 /** Albanian (shqip)
  * @author Puntori
  */
 $messages['sq'] = array(
-	'cldr-desc' => 'Shtesë që paraqet emrat lokal të gjuhëve',
+	'cldr-desc' => 'Shtesë që paraqet emrat lokal të gjuhëve', # Fuzzy
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
@@ -633,7 +633,7 @@ $messages['stq'] = array(
  * @author Irwangatot
  */
 $messages['su'] = array(
-	'cldr-desc' => 'Éksténsi anu nyadiakeun lokalisasi ngaran basa',
+	'cldr-desc' => 'Éksténsi anu nyadiakeun lokalisasi ngaran basa', # Fuzzy
 );
 
 /** Swedish (svenska)
@@ -650,21 +650,21 @@ $messages['sv'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'cldr-desc' => 'స్థానికీకరించిన భాషల పేర్లను అందించే పొడగింత',
+	'cldr-desc' => 'స్థానికీకరించిన భాషల పేర్లను అందించే పొడగింత', # Fuzzy
 );
 
 /** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
-	'cldr-desc' => 'Афзунае, ки номҳои маҳалликунонидашудаи забонҳоро пешкаш мекунад',
+	'cldr-desc' => 'Афзунае, ки номҳои маҳалликунонидашудаи забонҳоро пешкаш мекунад', # Fuzzy
 );
 
 /** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
-	'cldr-desc' => 'Afzunae, ki nomhoi mahallikunonidaşudai zabonhoro peşkaş mekunad',
+	'cldr-desc' => 'Afzunae, ki nomhoi mahallikunonidaşudai zabonhoro peşkaş mekunad', # Fuzzy
 );
 
 /** Tagalog (Tagalog)
@@ -678,7 +678,7 @@ $messages['tl'] = array(
  * @author Joseph
  */
 $messages['tr'] = array(
-	'cldr-desc' => 'Yerelleştirilmiş dil isimlerini sağlayan eklenti',
+	'cldr-desc' => 'Yerelleştirilmiş dil isimlerini sağlayan eklenti', # Fuzzy
 );
 
 /** Uighur (ئۇيغۇرچە / Uyghurche‎)
@@ -692,7 +692,7 @@ $messages['ug'] = array(
  * @author Sahran
  */
 $messages['ug-arab'] = array(
-	'cldr-desc' => 'يەرلىكلەشتۈرۈلگەن تىل ئاتى كېيىنرەك تەمىنلىنىدۇ',
+	'cldr-desc' => 'يەرلىكلەشتۈرۈلگەن تىل ئاتى كېيىنرەك تەمىنلىنىدۇ', # Fuzzy
 );
 
 /** Ukrainian (українська)
@@ -707,7 +707,7 @@ $messages['uk'] = array(
  * @author Candalua
  */
 $messages['vec'] = array(
-	'cldr-desc' => 'Estension che fornisse i nomi localizà de le varie lengue',
+	'cldr-desc' => 'Estension che fornisse i nomi localizà de le varie lengue', # Fuzzy
 );
 
 /** Veps (vepsän kel’)
@@ -729,14 +729,14 @@ $messages['vi'] = array(
  * @author Smeira
  */
 $messages['vo'] = array(
-	'cldr-desc' => 'Veitükumam, kel gevon pükanemis topik',
+	'cldr-desc' => 'Veitükumam, kel gevon pükanemis topik', # Fuzzy
 );
 
 /** Cantonese (粵語)
  * @author Shinjiman
  */
 $messages['yue'] = array(
-	'cldr-desc' => '提供本地化名嘅擴展',
+	'cldr-desc' => '提供本地化名嘅擴展', # Fuzzy
 );
 
 /** Simplified Chinese (中文（简体）‎)
@@ -754,4 +754,3 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'cldr-desc' => '基於[http://cldr.unicode.org/index/downloads CLDR數據]提供本地化語言名稱的擴展。',
 );
-
