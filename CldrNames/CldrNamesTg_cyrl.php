@@ -67,5 +67,6 @@ $currencyNames = array(
 
 $countryNames = array(
 'AF' => 'Афғонистан',
+'TJ' => 'Тоҷикистон',
 'TO' => 'Тонга',
 );
