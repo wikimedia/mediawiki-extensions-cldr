@@ -1,5 +1,11 @@
 <?php
 $languageNames = array(
+/* Not in CLDR 21.0.1. Name "Arabic, Tunisian Spoken" used by Ethnologue:
+ * http://www.ethnologue.com/show_language.asp?code=aeb
+ * Added 2012-11-13.
+ */
+'aeb'         => 'Tunisian Spoken Arabic',
+
 /* Not in CLDR 21.0.1. Name Gheg Albanian used by Ethnologue:
  * http://www.ethnologue.com/show_language.asp?code=aln
  * Added 2008-01-04.
