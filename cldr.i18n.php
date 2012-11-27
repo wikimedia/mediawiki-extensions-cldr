@@ -732,6 +732,13 @@ $messages['vo'] = array(
 	'cldr-desc' => 'Veitükumam, kel gevon pükanemis topik', # Fuzzy
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'cldr-desc' => 'פארברייטערונג וואס פארזארגט שפראכן נעמען באזירט אויף [http://cldr.unicode.org/index/downloads CLDR דאטן]',
+);
+
 /** Cantonese (粵語)
  * @author Shinjiman
  */
