@@ -30,6 +30,12 @@ $languageNames = array(
  */
 'arz'         => 'Egyptian Spoken Arabic',
 
+/* Not in CLDR 21.0.1. Southern Turkic
+ * http://www.ethnologue.com/show_language.asp?code=azb
+ * Added 2012-11-28.
+ */
+'azb'         => 'South Azerbaijani',
+
 /* Not in CLDR 21.0.1. Name Bavarian used by Ethnologue:
  * http://www.ethnologue.com/show_language.asp?code=bar
  * Added 2007-11-10.
