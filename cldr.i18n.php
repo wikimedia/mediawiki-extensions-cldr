@@ -45,6 +45,13 @@ $messages['ast'] = array(
 	'cldr-desc' => "Estensión qu'ufre nomes d'idioma llocalizaos basaos nos [http://cldr.unicode.org/index/downloads datos de CLDR]",
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR بیلگیلری]نه دایاناراق، یئرلیلشدیریلمیش دیل آدلارینی حاضیرلایان بیر اوزانتی',
+);
+
 /** Bashkir (башҡортса)
  * @author Assele
  * @author Рустам Нурыев
