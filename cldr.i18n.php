@@ -10,10 +10,11 @@ $messages['en'] = array (
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'cldr-desc' => '{{desc}}',
+	'cldr-desc' => '{{desc|name=cldr|url=http://www.mediawiki.org/wiki/Extension:CLDR}}',
 );
 
 /** Afrikaans (Afrikaans)
