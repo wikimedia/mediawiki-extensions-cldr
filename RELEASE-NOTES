@@ -1,0 +1,6 @@
+== cldr 2012.12 ==
+Released at 2012-12-20.
+
+* English name for Azerbaijani (arz) was added.
+* A bug that caused local names for be-tarask not to be used was fixed.
+* Translations for be-tarask were updated.
