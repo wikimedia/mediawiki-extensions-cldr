@@ -9,11 +9,12 @@ if ( !defined( 'MEDIAWIKI' ) ) die();
  * @copyright Copyright © 2007-2010, Niklas Laxström
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
+define( 'CLDR_VERSION', '3.0.0 (CLDR 22.1)' );
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Language Names',
-	'version' => '3.0.0 (CLDR 22.1)',
+	'version' => CLDR_VERSION,
 	'author' => array( 'Niklas Laxström', 'Siebrand Mazeland', 'Ryan Kaldari' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:CLDR',
 	'descriptionmsg' => 'cldr-desc',
