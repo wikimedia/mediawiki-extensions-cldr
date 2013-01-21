@@ -530,3 +530,27 @@ $countryNames = array(
 'ZM' => 'සැම්බියාව',
 'ZW' => 'සිම්බාබ්වේ',
 );
+
+$timeUnits = array(
+'day-other' => 'දින {0}ක්',
+'day-future-other' => 'දින {0}න්',
+'day-past-other' => 'දින {0} ට පෙර',
+'hour-other' => 'පැය {0}ක්',
+'hour-future-other' => 'පැය {0}ක් තුළ',
+'hour-past-other' => 'පැය {0}ට පෙර',
+'minute-other' => 'විනාඩි {0}ක්',
+'minute-future-other' => 'විනාඩි {0}ක් තුළ',
+'minute-past-other' => 'විනාඩි {0}ට පෙර',
+'month-other' => 'මාස {0}ක්',
+'month-future-other' => 'මාස {0}ක් තුළ',
+'month-past-other' => 'මාස {0}කට පෙර',
+'second-other' => 'විනාඩි {0}ක්',
+'second-future-other' => 'විනාඩි {0}ක් තුළ',
+'second-past-other' => 'විනාඩි {0}කට පෙර',
+'week-other' => 'සති {0}ක්',
+'week-future-other' => 'සති {0}ක් තුළ',
+'week-past-other' => 'සති {0}කට පෙර',
+'year-other' => 'වසර {0}ක්',
+'year-future-other' => 'වසර {0}ක් තුළ',
+'year-past-other' => 'වසර {0}ට පෙර',
+);

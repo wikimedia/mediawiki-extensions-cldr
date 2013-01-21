@@ -53,3 +53,27 @@ $languageNames = array(
 $countryNames = array(
 'CN' => 'Кытай',
 );
+
+$timeUnits = array(
+'day-other' => '{0}күн',
+'day-future-other' => '{0}күнүнэн',
+'day-past-other' => '{0}күн ынараа өттүгэр',
+'hour-other' => '{0}чаас',
+'hour-future-other' => '{0}чааһынан',
+'hour-past-other' => '{0}чаас ынараа өттүгэр',
+'minute-other' => '{0}мүнүүтэ',
+'minute-future-other' => '{0}мүнүүтэннэн',
+'minute-past-other' => '{0}мүнүүтэ ынараа өттүгэр',
+'month-other' => '{0}ый',
+'month-future-other' => '{0}ыйынан',
+'month-past-other' => '{0}ый ынараа өттүгэр',
+'second-other' => '{0}сөкүүндэ',
+'second-future-other' => '{0}сөкүүндэннэн',
+'second-past-other' => '{0}сөкүүндэ ынараа өттүгэр',
+'week-other' => '{0}нэдиэлэ',
+'week-future-other' => '{0}нэдиэлэннэн',
+'week-past-other' => '{0}нэдиэлэ ынараа өттүгэр',
+'year-other' => '{0}сыл',
+'year-future-other' => '{0}сылынан',
+'year-past-other' => '{0}сыл ынараа өттүгэр',
+);

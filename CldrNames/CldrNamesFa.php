@@ -972,3 +972,27 @@ $countryNames = array(
 'ZM' => 'زامبیا',
 'ZW' => 'زیمبابوه',
 );
+
+$timeUnits = array(
+'day-other' => '{0}روز',
+'day-future-other' => '{0}روز بعد',
+'day-past-other' => '{0}روز پیش',
+'hour-other' => '{0}ساعت',
+'hour-future-other' => '{0}ساعت بعد',
+'hour-past-other' => '{0}ساعت پیش',
+'minute-other' => '{0}دقیقه',
+'minute-future-other' => '{0}دقیقه بعد',
+'minute-past-other' => '{0}دقیقه پیش',
+'month-other' => '{0}ماه',
+'month-future-other' => '{0}ماه بعد',
+'month-past-other' => '{0}ماه پیش',
+'second-other' => '{0}ثانیه',
+'second-future-other' => '{0}ثانیه بعد',
+'second-past-other' => '{0}ثانیه پیش',
+'week-other' => '{0}هفته',
+'week-future-other' => '{0}هفته بعد',
+'week-past-other' => '{0}هفته پیش',
+'year-other' => '{0}سال',
+'year-future-other' => '{0}سال بعد',
+'year-past-other' => '{0}سال پیش',
+);

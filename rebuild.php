@@ -97,12 +97,16 @@ class CLDRParser {
 	private $currencies = false;
 	private $currency = false;
 	private $countries = false;
+	private $timeUnits = false;
+	private $timeUnit = false;
 	private $languageCount = 0;
 	private $currencyCount = 0;
 	private $countryCount = 0;
+	private $timeUnitCount = 0;
 	private $languageOutput = '';
 	private $currencyOutput = '';
 	private $countryOutput = '';
+	private $timeUnitOutput = '';
 	private $type = '';
 	private $output = "<?php\n";
 
@@ -386,6 +390,105 @@ class CLDRParser {
 	}
 
 	/**
+	 * @param $parser
+	 * @param $name string
+	 * @param $attrs array
+	 */
+	function timeUnitStart( $parser, $name, $attrs ) {
+		$this->parseContents = false;
+		if ( $name === 'UNITS' ) {
+			$this->timeUnits = true;
+		}
+		if ( $this->timeUnits && $name === 'UNIT' ) {
+			$this->type = $attrs['TYPE'];
+			$this->timeUnit = true;
+		}
+		if ( $this->timeUnit && $name == 'UNITPATTERN' ) {
+			if ( !isset( $attrs["ALT"] ) ) { // Exclude short versions.
+				if ( isset( $attrs["COUNT"] ) ) {
+					$count = $attrs["COUNT"];
+					$this->timeUnitOutput .= "'{$this->type}-{$count}' => '";
+				}
+				$this->parseContents = true;
+			}
+		}
+	}
+
+	/**
+	 * @param $parser
+	 * @param $name string
+	 */
+	function timeUnitEnd( $parser, $name ) {
+		if ( $name === 'UNIT' ) {
+			$this->timeUnit = false;
+			$this->parseContents = false;
+			return;
+		}
+		if ( $name === 'UNITS' ) {
+			$this->timeUnits = false;
+			$this->parseContents = false;
+			return;
+		}
+		if ( !$this->parseContents ) return; // If we didn't parse the contents, exit
+		$this->timeUnitOutput .= "',\n";
+	}
+
+	/**
+	 * @param $parser
+	 * @param $data string
+	 */
+	function timeUnitContents( $parser, $data ) {
+		if ( !$this->parseContents ) {
+			return;
+		}
+		if ( trim( $data ) === '' ) {
+			return;
+		}
+		// Trim data and escape quote marks, but don't double escape.
+		$this->timeUnitOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
+		$this->timeUnitCount++;
+	}
+
+	/**
+	 * @param $input
+	 * @param $output
+	 * @param $fileHandle
+	 */
+	function parseTimeUnits( $input, $output, $fileHandle ) {
+		$xml_parser = xml_parser_create(); // Create a new parser
+
+		// Set up the handler functions for the XML parser
+		xml_set_element_handler( $xml_parser, array( $this, 'timeUnitStart' ), array( $this, 'timeUnitEnd' ) );
+		xml_set_character_data_handler( $xml_parser, array( $this, 'timeUnitContents' ) );
+
+		$this->timeUnitOutput = "\n\$timeUnits = array(\n"; // Open the timeUnits array
+
+		// Populate the array with the XML data
+		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
+			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
+				die( sprintf( "XML error: %s at line %d",
+					xml_error_string( xml_get_error_code( $xml_parser ) ),
+					xml_get_current_line_number( $xml_parser ) ) );
+			}
+		}
+
+		$this->timeUnitOutput .= ");\n"; // Close the timeUnits array
+
+		If ( $this->timeUnitCount > 0 ) {
+			$this->output .= $this->timeUnitOutput;
+			// Give a status update
+			if ( $this->timeUnitCount == 1 ) {
+				echo "Wrote 1 entry to $output\n";
+			} else {
+				echo "Wrote $this->timeUnitCount entries to $output\n";
+			}
+		}
+
+		xml_parser_free( $xml_parser ); // Free the XML parser
+
+	}
+
+	/**
 	 * @param $input
 	 * @param $output
 	 */
@@ -400,11 +503,13 @@ class CLDRParser {
 		$this->parseCurrencies( $input, $output, $fileHandle ); // Parse the currency names
 		rewind( $fileHandle ); // Reset the position of the file pointer
 		$this->parseCountries( $input, $output, $fileHandle ); // Parse the country names
+		rewind( $fileHandle ); // Reset the position of the file pointer
+		$this->parseTimeUnits( $input, $output, $fileHandle ); // Parse the time units
 
 		fclose( $fileHandle ); // Close the input file
 
 		// If there is nothing to write to the file, end early.
-		if ( !$this->languageCount && !$this->currencyCount && !$this->countryCount ) return;
+		if ( !$this->languageCount && !$this->currencyCount && !$this->countryCount && !$this->timeUnitCount ) return;
 
 		// Open the output file for writing
 		if ( !( $fileHandle = fopen( $output, "w+" ) ) ) {

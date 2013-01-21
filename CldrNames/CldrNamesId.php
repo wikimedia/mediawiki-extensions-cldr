@@ -1129,3 +1129,27 @@ $countryNames = array(
 'ZM' => 'Zambia',
 'ZW' => 'Zimbabwe',
 );
+
+$timeUnits = array(
+'day-other' => '{0} hari',
+'day-future-other' => 'Dalam {0} hari',
+'day-past-other' => '{0} hari yang lalu',
+'hour-other' => '{0} jam',
+'hour-future-other' => 'Dalam {0} jam',
+'hour-past-other' => '{0} jam yang lalu',
+'minute-other' => '{0} menit',
+'minute-future-other' => 'Dalam {0} menit',
+'minute-past-other' => '{0} menit yang lalu',
+'month-other' => '{0} bulan',
+'month-future-other' => 'Dalam {0} bulan',
+'month-past-other' => '{0} bulan yang lalu',
+'second-other' => '{0} detik',
+'second-future-other' => 'Dalam {0} detik',
+'second-past-other' => '{0} detik yang lalu',
+'week-other' => '{0} minggu',
+'week-future-other' => 'Dalam {0} minggu',
+'week-past-other' => '{0} minggu yang lalu',
+'year-other' => '{0} tahun',
+'year-future-other' => 'Dalam {0} tahun',
+'year-past-other' => '{0} tahun yang lalu',
+);

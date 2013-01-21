@@ -613,3 +613,27 @@ $countryNames = array(
 'ZM' => 'Sambija',
 'ZW' => 'Simbabwe',
 );
+
+$timeUnits = array(
+'day-zero' => '{0} Dääsch',
+'day-one' => '{0} Dääsch',
+'day-other' => '{0} Dääsch',
+'hour-zero' => '{0} Schtunde',
+'hour-one' => '{0} Schtunde',
+'hour-other' => '{0} Schtunde',
+'minute-zero' => '{0} Menutte',
+'minute-one' => '{0} Menutte',
+'minute-other' => '{0} Menutte',
+'month-zero' => '{0} Mohnde',
+'month-one' => '{0} Mohnde',
+'month-other' => '{0} Mohnde',
+'second-zero' => '{0} Sekunde',
+'second-one' => '{0} Sekunde',
+'second-other' => '{0} Sekunde',
+'week-zero' => '{0} Woche',
+'week-one' => '{0} Woche',
+'week-other' => '{0} Woche',
+'year-zero' => '{0} Johre',
+'year-one' => '{0} Johre',
+'year-other' => '{0} Johre',
+);

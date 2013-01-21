@@ -300,3 +300,8 @@ $countryNames = array(
 'YT' => 'Maiote',
 'ZW' => 'Zimbabué',
 );
+
+$timeUnits = array(
+'second-one' => '{0} segundo',
+'second-other' => '{0} segundos',
+);

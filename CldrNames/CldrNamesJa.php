@@ -1129,3 +1129,27 @@ $countryNames = array(
 'ZM' => 'ザンビア',
 'ZW' => 'ジンバブエ',
 );
+
+$timeUnits = array(
+'day-other' => '{0}日',
+'day-future-other' => '{0}日後',
+'day-past-other' => '{0}日前',
+'hour-other' => '{0}時間',
+'hour-future-other' => '{0}時間後',
+'hour-past-other' => '{0}時間前',
+'minute-other' => '{0}分',
+'minute-future-other' => '{0}分後',
+'minute-past-other' => '{0}分前',
+'month-other' => '{0}か月',
+'month-future-other' => '{0}か月後',
+'month-past-other' => '{0}か月前',
+'second-other' => '{0}秒',
+'second-future-other' => '{0}秒後',
+'second-past-other' => '{0}秒前',
+'week-other' => '{0}週',
+'week-future-other' => '{0}週間後',
+'week-past-other' => '{0}週前',
+'year-other' => '{0}年',
+'year-future-other' => '{0}年後',
+'year-past-other' => '{0}年前',
+);

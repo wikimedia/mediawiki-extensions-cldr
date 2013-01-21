@@ -576,3 +576,27 @@ $countryNames = array(
 'ZM' => 'ហ្សាំប៊ី',
 'ZW' => 'ហ្ស៊ីមបាបវ៉េ',
 );
+
+$timeUnits = array(
+'day-other' => '{0}ថ្ងៃ',
+'day-future-other' => 'ក្នុង​រយៈ​ពេល {0} ថ្ងៃ',
+'day-past-other' => '{0}ថ្ងៃ​មុន',
+'hour-other' => '{0}ម៉ោង',
+'hour-future-other' => 'ក្នុង​រយៈ​ពេល {0} ម៉ោង',
+'hour-past-other' => '{0}ម៉ោង​មុន',
+'minute-other' => '{0}នាទី',
+'minute-future-other' => 'ក្នុង​រយៈពេល {0} នាទី',
+'minute-past-other' => '{0}នាទី​មុន',
+'month-other' => '{0}ខែ',
+'month-future-other' => 'ក្នុង​រយៈ​ពេល {0} ខែ',
+'month-past-other' => '{0}នាទី​មុន',
+'second-other' => '{0}វិនាទី',
+'second-future-other' => 'ក្នុង​រយៈពេល {0} វិនាទី',
+'second-past-other' => '{0}វិនាទី​មុន',
+'week-other' => '{0}សប្ដាហ៍',
+'week-future-other' => 'ក្នុង​រយៈ​ពេល {0} សប្ដាហ៍',
+'week-past-other' => '{0}សប្ដាហ៍​មុន',
+'year-other' => '{0}ឆ្នាំ',
+'year-future-other' => 'ក្នុង​រយៈ​ពេល {0} ឆ្នាំ',
+'year-past-other' => '{0}ឆ្នាំ​មុន',
+);

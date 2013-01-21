@@ -1002,3 +1002,13 @@ $countryNames = array(
 'ZM' => 'Zambiya',
 'ZW' => 'Zimbabve',
 );
+
+$timeUnits = array(
+'day-other' => '{0} gün',
+'hour-other' => '{0} saat',
+'minute-other' => '{0} dəqiqə',
+'month-other' => '{0} ay',
+'second-other' => '{0} saniyə',
+'week-other' => '{0} həftə',
+'year-other' => '{0} il',
+);

@@ -430,3 +430,20 @@ $countryNames = array(
 'ZM' => 'Sambia',
 'ZW' => 'Simbabvi',
 );
+
+$timeUnits = array(
+'day-one' => '{0} samdøgur',
+'day-other' => '{0} samdøgur',
+'hour-one' => '{0} tími',
+'hour-other' => '{0} tímar',
+'minute-one' => '{0} minuttur',
+'minute-other' => '{0} minuttir',
+'month-one' => '{0} mánadur',
+'month-other' => '{0} mánaðir',
+'second-one' => '{0} sekund',
+'second-other' => '{0} sekundir',
+'week-one' => '{0} vika',
+'week-other' => '{0} vikur',
+'year-one' => '{0}ár',
+'year-other' => '{0}ár',
+);

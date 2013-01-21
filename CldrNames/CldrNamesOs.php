@@ -101,3 +101,28 @@ $countryNames = array(
 'RU' => 'Уӕрӕсе',
 'US' => 'АИШ',
 );
+
+$timeUnits = array(
+'day-one' => '{0}бон',
+'day-other' => '{0}боны',
+'day-future-one' => '{0}боны фӕстӕ',
+'day-future-other' => '{0}боны фӕстӕ',
+'day-past-one' => '{0}бон раздӕр',
+'day-past-other' => '{0}боны размӕ',
+'hour-one' => '{0}сахат',
+'hour-other' => '{0}сахаты',
+'hour-future-one' => '{0}сахаты фӕстӕ',
+'hour-future-other' => '{0}сахаты фӕстӕ',
+'hour-past-one' => '{0}сахаты размӕ',
+'hour-past-other' => '{0}сахаты размӕ',
+'minute-one' => '{0}минут',
+'minute-other' => '{0}минуты',
+'month-one' => '{0}мӕй',
+'month-other' => '{0}мӕйы',
+'second-one' => '{0}секунд',
+'second-other' => '{0}секунды',
+'week-one' => '{0}къуыри',
+'week-other' => '{0}къуырийы',
+'year-one' => '{0}аз',
+'year-other' => '{0}азы',
+);

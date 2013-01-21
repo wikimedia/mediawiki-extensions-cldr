@@ -935,3 +935,27 @@ $countryNames = array(
 'ZM' => 'ಝಾಂಬಿಯಾ',
 'ZW' => 'ಜಿಂಬಾಬ್ವೆ',
 );
+
+$timeUnits = array(
+'day-other' => '{0}ದಿನಗಳು',
+'day-future-other' => '{0}ದಿನಗಳಲ್ಲಿ',
+'day-past-other' => '{0}ದಿನಗಳ ಹಿಂದೆ',
+'hour-other' => '{0}ಗಂಟೆಗಳು',
+'hour-future-other' => '{0}ಗಂಟೆಗಳಲ್ಲಿ',
+'hour-past-other' => '{0}ಗಂಟೆಗಳ ಹಿಂದೆ',
+'minute-other' => '{0}ನಿಮಿಷಗಳು',
+'minute-future-other' => '{0}ನಿಮಿಷಗಳಲ್ಲಿ',
+'minute-past-other' => '{0}ನಿಮಿಷಗಳ ಹಿಂದೆ',
+'month-other' => '{0}ತಿಂಗಳುಗಳು',
+'month-future-other' => '{0}ತಿಂಗಳುಗಳಲ್ಲಿ',
+'month-past-other' => '{0}ತಿಂಗಳುಗಳ ಹಿಂದೆ',
+'second-other' => '{0}ಸೆಕೆಂಡುಗಳು',
+'second-future-other' => '{0}ಸೆಕೆಂಡ್‌ಗಳಲ್ಲಿ',
+'second-past-other' => '{0}ಸೆಕೆಂಡುಗಳ ಹಿಂದೆ',
+'week-other' => '{0}ವಾರಗಳು',
+'week-future-other' => '{0}ವಾರಗಳಲ್ಲಿ',
+'week-past-other' => '{0}ವಾರಗಳ ಹಿಂದೆ',
+'year-other' => '{0}ವರ್ಷಗಳು',
+'year-future-other' => '{0}ವರ್ಷಗಳಲ್ಲಿ',
+'year-past-other' => '{0}ವರ್ಷಗಳ ಹಿಂದೆ',
+);

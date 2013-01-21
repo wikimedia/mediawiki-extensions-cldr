@@ -62,3 +62,20 @@ $countryNames = array(
 'RU' => 'Lūkia',
 'US' => 'ʻAmelika Hui Pū ʻIa',
 );
+
+$timeUnits = array(
+'day-one' => '{0} lā',
+'day-other' => '{0} lā',
+'hour-one' => '{0} hola',
+'hour-other' => '{0} hola',
+'minute-one' => '{0} minuke',
+'minute-other' => '{0} minuke',
+'month-one' => '{0} mahina',
+'month-other' => '{0} mahina',
+'second-one' => '{0} kekona',
+'second-other' => '{0} kekona',
+'week-one' => '{0} pule',
+'week-other' => '{0} pule',
+'year-one' => '{0} makahiki',
+'year-other' => '{0} makahiki',
+);

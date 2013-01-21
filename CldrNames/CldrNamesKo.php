@@ -1126,3 +1126,27 @@ $countryNames = array(
 'ZM' => '잠비아',
 'ZW' => '짐바브웨',
 );
+
+$timeUnits = array(
+'day-other' => '{0}일',
+'day-future-other' => '{0}일 후',
+'day-past-other' => '{0}일 전',
+'hour-other' => '{0}시간',
+'hour-future-other' => '{0}시간 후',
+'hour-past-other' => '{0}시간 전',
+'minute-other' => '{0}분',
+'minute-future-other' => '{0}분 후',
+'minute-past-other' => '{0}분 전',
+'month-other' => '{0}개월',
+'month-future-other' => '{0}개월 후',
+'month-past-other' => '{0}개월 전',
+'second-other' => '{0}초',
+'second-future-other' => '{0}초 후',
+'second-past-other' => '{0}초 전',
+'week-other' => '{0}주',
+'week-future-other' => '{0}주 후',
+'week-past-other' => '{0}주 전',
+'year-other' => '{0}년',
+'year-future-other' => '{0}년 후',
+'year-past-other' => '{0}년 전',
+);

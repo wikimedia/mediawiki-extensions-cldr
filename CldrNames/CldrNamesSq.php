@@ -277,3 +277,20 @@ $countryNames = array(
 'ZM' => 'Zambi',
 'ZW' => 'Zimbabve',
 );
+
+$timeUnits = array(
+'day-one' => '{0} ditë',
+'day-other' => '{0} ditë',
+'hour-one' => '{0} orë',
+'hour-other' => '{0} orë',
+'minute-one' => '{0} minutë',
+'minute-other' => '{0} minuta',
+'month-one' => '{0} muaj',
+'month-other' => '{0} muaj',
+'second-one' => '{0} sekondë',
+'second-other' => '{0} sekonda',
+'week-one' => '{0} javë',
+'week-other' => '{0} javë',
+'year-one' => '{0} vit',
+'year-other' => '{0} vjet',
+);

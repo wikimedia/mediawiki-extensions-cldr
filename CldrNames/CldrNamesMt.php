@@ -730,3 +730,10 @@ $countryNames = array(
 'ZM' => 'Żambja',
 'ZW' => 'Żimbabwe',
 );
+
+$timeUnits = array(
+'year-past-one' => '{0} sena ilu',
+'year-past-few' => '{0} snin ilu',
+'year-past-many' => '{0} snin ilu',
+'year-past-other' => '{0} snin ilu',
+);

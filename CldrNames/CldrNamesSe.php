@@ -383,3 +383,27 @@ $countryNames = array(
 'ZM' => 'Zambia',
 'ZW' => 'Zimbabwe',
 );
+
+$timeUnits = array(
+'day-one' => '{0} jándor',
+'day-two' => '{0} jándora',
+'day-other' => '{0} jándora',
+'hour-one' => '{0} diibmu',
+'hour-two' => '{0} diimmu',
+'hour-other' => '{0} diimmu',
+'minute-one' => '{0} minuhta',
+'minute-two' => '{0} minuhtta',
+'minute-other' => '{0} minuhtta',
+'month-one' => '{0} mánnu',
+'month-two' => '{0} mánotbaji',
+'month-other' => '{0} mánotbaji',
+'second-one' => '{0} sekunda',
+'second-two' => '{0} sekundda',
+'second-other' => '{0} sekundda',
+'week-one' => '{0} váhkku',
+'week-two' => '{0} váhkku',
+'week-other' => '{0} váhkku',
+'year-one' => '{0} jahki',
+'year-two' => '{0} jagi',
+'year-other' => '{0} jagi',
+);
