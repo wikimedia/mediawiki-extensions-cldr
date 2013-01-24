@@ -28,3 +28,4 @@ $wgAutoloadClasses['CountryNames'] = $dir . 'CountryNames.body.php';
 $wgAutoloadClasses['CurrencyNames'] = $dir . 'CurrencyNames.body.php';
 $wgAutoloadClasses['TimeUnits'] = $dir . 'TimeUnits.body.php';
 $wgHooks['LanguageGetTranslatedLanguageNames'][] = 'LanguageNames::coreHook';
+$wgHooks['GetHumanTimestamp'][] = 'TimeUnits::onGetHumanTimestamp';
