@@ -361,6 +361,7 @@ $languageNames = array(
 'ks-arab'      => 'Kashmiri (Arabic script)',
 'ks-deva'      => 'Kashmiri (Devanagari script)',
 'ku-latn'      => 'Kurdish (Latin script)',
+'nds-nl'       => 'Low Saxon (Netherlands)',
 'no'           => 'Norwegian (bokmål)',
 'roa-rup'      => 'Aromanian',
 'sr-ec'        => 'Serbian (Cyrillic script)',
