@@ -472,7 +472,7 @@ $messages['nds'] = array(
 	'cldr-desc' => 'Verlöövt dat Bruken vun översett Naams vun Spraken', # Fuzzy
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Nedersaksies (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
