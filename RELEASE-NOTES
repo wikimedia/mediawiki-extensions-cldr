@@ -1,0 +1,4 @@
+== cldr 2013.01 ==
+Released at 2013-01-31.
+
+CLDR extension version number can now be used in code with CLDR_VERSION constant.
