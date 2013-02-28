@@ -1,0 +1,6 @@
+== cldr 2013.02 ==
+Released at 2013-02-28.
+
+* Add English local name for the nds-nl language.
+* Localisation updates.
+* Experimental support for composer.json.
