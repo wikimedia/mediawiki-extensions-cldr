@@ -1127,3 +1127,27 @@ $countryNames = array(
 'ZM' => 'ແຊມເບຍ',
 'ZW' => 'ຊິມບັບເວ',
 );
+
+$timeUnits = array(
+'day-other' => '{0}ມື້',
+'day-future-other' => '+{0}ມື້',
+'day-past-other' => '-{0}ມື້',
+'hour-other' => '{0}ຊົ່ວໂມງ',
+'hour-future-other' => '+{0}ໃນອີກ 0 ຊົ່ວໂມງ',
+'hour-past-other' => '-{0}ຊົ່ວໂມງ',
+'minute-other' => '{0}ນາທີ',
+'minute-future-other' => '{0}ໃນອີກ 0 ນາທີ',
+'minute-past-other' => '-{0}ນາທີທີ່ຜ່ານມາ',
+'month-other' => '{0}ເດືອນ',
+'month-future-other' => '+{0}ໃນອີກ 0 ເດືອນ',
+'month-past-other' => '-{0} 0ເດືອນທີ່ຜ່ານມາ',
+'second-other' => '{0}ວິນາທີ',
+'second-future-other' => '+{0}ໃນອີກ0ວິນາທີ',
+'second-past-other' => '-{0} 0ວິນາທີທີ່ຜ່ານມາ',
+'week-other' => '{0}ອາທິດ',
+'week-future-other' => '+{0}ໃນອີກ0ອາທິດ',
+'week-past-other' => '-{0}ອາທິດທີ່ຜ່ານມາ',
+'year-other' => '{0}ປີ',
+'year-future-other' => '+{0}ໃນອີກ0ປີ',
+'year-past-other' => '-{0}ປີທີ່ແລ້ວ',
+);

@@ -1127,3 +1127,27 @@ $countryNames = array(
 'ZM' => '赞比亚',
 'ZW' => '津巴布韦',
 );
+
+$timeUnits = array(
+'day-other' => '{0}天',
+'day-future-other' => '{0}天后',
+'day-past-other' => '{0}天前',
+'hour-other' => '{0}小时',
+'hour-future-other' => '{0}小时后',
+'hour-past-other' => '{0}小时前',
+'minute-other' => '{0}分钟',
+'minute-future-other' => '{0}分钟后',
+'minute-past-other' => '{0}分钟前',
+'month-other' => '{0}个月',
+'month-future-other' => '{0}个月后',
+'month-past-other' => '{0}个月前',
+'second-other' => '{0}秒钟',
+'second-future-other' => '{0}秒钟后',
+'second-past-other' => '{0}秒钟前',
+'week-other' => '{0}周',
+'week-future-other' => '{0}周后',
+'week-past-other' => '{0}周前',
+'year-other' => '{0}年',
+'year-future-other' => '{0}年后',
+'year-past-other' => '{0}年前',
+);

@@ -487,3 +487,27 @@ $countryNames = array(
 'ZM' => 'ཛམ་བྷི་ཡ',
 'ZW' => 'ཛིམ་བྷབ་ཝེ',
 );
+
+$timeUnits = array(
+'day-other' => 'ཉིན་ཞག་ {0}',
+'day-future-other' => 'ཉིནམ་ {0} ནང་',
+'day-past-other' => 'ཉིནམ་ {0} ཧེ་མ་',
+'hour-other' => 'ཆུ་ཚོད་ {0}',
+'hour-future-other' => 'ཆུ་ཚོད་ {0} ནང་',
+'hour-past-other' => 'ཆུ་ཚོད་ {0} ཧེ་མ་',
+'minute-other' => 'སྐར་ཆ་ {0}',
+'minute-future-other' => 'སྐར་ཆ་ {0} ནང་',
+'minute-past-other' => 'སྐར་ཆ་ {0} ཧེ་མ་',
+'month-other' => 'ཟླཝ་ {0}',
+'month-future-other' => 'ཟླཝ་ {0} ནང་',
+'month-past-other' => 'ཟླཝ་ {0} ཧེ་མ་',
+'second-other' => 'སྐར་ཆ་ {0}',
+'second-future-other' => 'སྐར་ཆ་ {0} ནང་',
+'second-past-other' => 'བངུན་ཕྲག་ {0} ཧེ་མ་',
+'week-other' => 'བངུན་ཕྲག་ {0}',
+'week-future-other' => 'བངུན་ཕྲག་ {0} ནང་',
+'week-past-other' => 'བངུན་ཕྲག་ {0} ཧེ་མ་',
+'year-other' => 'ལོ་འཁོར་ {0}',
+'year-future-other' => 'ལོ་འཁོར་ {0} ནང་',
+'year-past-other' => 'ལོ་འཁོར་ {0} ཧེ་མ་',
+);

@@ -561,3 +561,20 @@ $countryNames = array(
 'ZM' => 'जाम्बिया',
 'ZW' => 'जिम्बाबे',
 );
+
+$timeUnits = array(
+'day-one' => '{0}दिन',
+'day-other' => '{0}दिन',
+'hour-one' => '{0}घण्टा',
+'hour-other' => '{0}घण्टा',
+'minute-one' => '{0}मिनेट',
+'minute-other' => '{0}मिनेट',
+'month-one' => '{0}महिना',
+'month-other' => '{0}महिना',
+'second-one' => '{0}सेकेण्ड',
+'second-other' => '{0}सेकेण्ड',
+'week-one' => '{0}हप्ता',
+'week-other' => '{0}हप्ता',
+'year-one' => '{0}बर्ष',
+'year-other' => '{0}बर्ष',
+);

@@ -1111,3 +1111,27 @@ $countryNames = array(
 'ZM' => 'Zambiya',
 'ZW' => 'Zimbabve',
 );
+
+$timeUnits = array(
+'day-other' => '{0} gün',
+'day-future-other' => '{0} gün sonra',
+'day-past-other' => '{0} gün önce',
+'hour-other' => '{0} saat',
+'hour-future-other' => '{0} saat sonra',
+'hour-past-other' => '{0} saatönce',
+'minute-other' => '{0} dakika',
+'minute-future-other' => '{0} dakika sonra',
+'minute-past-other' => '{0} dakikaönce',
+'month-other' => '{0} ay',
+'month-future-other' => '{0} ay sonra',
+'month-past-other' => '{0} ayönce',
+'second-other' => '{0} saniye',
+'second-future-other' => '{0} saniye sonra',
+'second-past-other' => '{0} saniyeönce',
+'week-other' => '{0} hafta',
+'week-future-other' => '{0} hafta sonra',
+'week-past-other' => '{0} haftaönce',
+'year-other' => '{0} yıl',
+'year-future-other' => '{0} yıl sonra',
+'year-past-other' => '{0} yıl önce',
+);

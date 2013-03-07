@@ -230,3 +230,20 @@ $countryNames = array(
 'SL' => 'ᏏᎡᎳ ᎴᎣᏂ',
 'US' => 'ᎠᎹᏰᏟ',
 );
+
+$timeUnits = array(
+'day-one' => '{0}ᏏᎦ',
+'day-other' => '{0}ᏧᏒᎯᏓ',
+'hour-one' => '{0}ᏑᏣᎶᏓ',
+'hour-other' => '{0}ᎢᏧᏣᎶᏓ',
+'minute-one' => '{0}ᎢᏯᏔᏬᏍᏔᏅ',
+'minute-other' => '{0}ᎢᏧᏔᏬᏍᏔᏅ',
+'month-one' => '{0}ᏏᏅᏓ',
+'month-other' => '{0}ᎢᏯᏅᏓ',
+'second-one' => '{0}ᎠᏎᏢ',
+'second-other' => '{0}ᏗᏎᏢ',
+'week-one' => '{0}ᏒᎾᏙᏓᏆᏍᏗ',
+'week-other' => '{0}ᎢᏳᎾᏙᏓᏆᏍᏗ',
+'year-one' => '{0}ᏑᏕᏘᏴᏓ',
+'year-other' => '{0}ᏧᏕᏘᏴᏓ',
+);

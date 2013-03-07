@@ -1002,3 +1002,20 @@ $countryNames = array(
 'ZM' => 'جامبِیا',
 'ZW' => 'زِمبابے',
 );
+
+$timeUnits = array(
+'day-one' => '{0}دۄہ',
+'day-other' => '{0}دۄہ',
+'hour-one' => '{0}گَنٹہٕ',
+'hour-other' => '{0}گٲنٛٹہٕ',
+'minute-one' => '{0}مِنَٹ',
+'minute-other' => '{0}مِنَٹ',
+'month-one' => '{0}ریٚتھ',
+'month-other' => '{0}ریٚتھ',
+'second-one' => '{0}سیٚکَنٛڈ',
+'second-other' => '{0}سیٚکَنٛڈ',
+'week-one' => '{0}ہَفتہٕ',
+'week-other' => '{0}ہَفتہٕ',
+'year-one' => '{0}ؤری',
+'year-other' => '{0}ؤری',
+);

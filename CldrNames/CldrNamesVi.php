@@ -1124,3 +1124,27 @@ $countryNames = array(
 'ZM' => 'Zambia',
 'ZW' => 'Zimbabwe',
 );
+
+$timeUnits = array(
+'day-other' => '{0} ngày',
+'day-future-other' => 'Trong {0} ngày',
+'day-past-other' => '{0} ngày trước',
+'hour-other' => '{0} giờ',
+'hour-future-other' => 'Trong {0} giờ',
+'hour-past-other' => '{0} giờ trước',
+'minute-other' => '{0} phút',
+'minute-future-other' => 'Trong {0} phút',
+'minute-past-other' => '{0} phút trước',
+'month-other' => '{0} tháng',
+'month-future-other' => 'Trong {0} tháng',
+'month-past-other' => '{0} tháng trước',
+'second-other' => '{0} giây',
+'second-future-other' => 'Trong {0} giây',
+'second-past-other' => '{0} giây trước',
+'week-other' => '{0} tuần',
+'week-future-other' => 'Trong {0} tuần',
+'week-past-other' => '{0} tuần trước',
+'year-other' => '{0} năm',
+'year-future-other' => 'Trong {0} năm',
+'year-past-other' => '{0} năm trước',
+);

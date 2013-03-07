@@ -1047,3 +1047,20 @@ $countryNames = array(
 'ZM' => 'Sambia',
 'ZW' => 'Simbabwe',
 );
+
+$timeUnits = array(
+'day-one' => '{0} di',
+'day-other' => '{0} dis',
+'hour-one' => '{0} ura',
+'hour-other' => '{0} uras',
+'minute-one' => '{0} minuta',
+'minute-other' => '{0} minutas',
+'month-one' => '{0} mais',
+'month-other' => '{0} mais',
+'second-one' => '{0} secunda',
+'second-other' => '{0} secundas',
+'week-one' => '{0} emna',
+'week-other' => '{0} emnas',
+'year-one' => '{0} onn',
+'year-other' => '{0} onns',
+);

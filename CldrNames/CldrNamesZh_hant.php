@@ -1127,3 +1127,27 @@ $countryNames = array(
 'ZM' => '尚比亞',
 'ZW' => '津巴布韋',
 );
+
+$timeUnits = array(
+'day-other' => '{0}日',
+'day-future-other' => '{0}天後',
+'day-past-other' => '{0}天前',
+'hour-other' => '{0}小時',
+'hour-future-other' => '{0}小時後',
+'hour-past-other' => '{0}小時前',
+'minute-other' => '{0}分',
+'minute-future-other' => '{0}分鐘後',
+'minute-past-other' => '{0}分鐘前',
+'month-other' => '{0}月',
+'month-future-other' => '{0}個月後',
+'month-past-other' => '{0}個月前',
+'second-other' => '{0}秒',
+'second-future-other' => '{0}秒後',
+'second-past-other' => '{0}秒前',
+'week-other' => '{0}週',
+'week-future-other' => '{0}週後',
+'week-past-other' => '{0}週前',
+'year-other' => '{0}年',
+'year-future-other' => '{0}年後',
+'year-past-other' => '{0}年前',
+);

@@ -533,3 +533,27 @@ $countryNames = array(
 'ZM' => 'Semipia',
 'ZW' => 'Simipapuei',
 );
+
+$timeUnits = array(
+'day-other' => '{0}ʻa',
+'day-future-other' => 'ʻi he ʻaho ʻe {0}',
+'day-past-other' => 'ʻosi ʻaho ʻe {0}',
+'hour-other' => '{0} h',
+'hour-future-other' => 'ʻi he houa ʻe {0}',
+'hour-past-other' => 'ʻosi houa ʻe {0}',
+'minute-other' => '{0} m',
+'minute-future-other' => 'ʻi he miniti ʻe {0}',
+'minute-past-other' => 'ʻosi miniti ʻe {0}',
+'month-other' => '{0} m',
+'month-future-other' => 'ʻi he māhina ʻe {0}',
+'month-past-other' => 'māhina ʻe {0} kuo hili',
+'second-other' => '{0} s',
+'second-future-other' => 'ʻi he sekoni ʻe {0}',
+'second-past-other' => 'ʻosi sekoni ʻe {0}',
+'week-other' => '{0} u',
+'week-future-other' => 'ʻi he uike ʻe {0}',
+'week-past-other' => 'uikeʻe {0} kuo hili',
+'year-other' => '{0} t',
+'year-future-other' => 'ʻi he taʻu ʻe {0}',
+'year-past-other' => 'taʻu ʻe {0} kuo hili',
+);

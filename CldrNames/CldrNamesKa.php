@@ -585,3 +585,13 @@ $countryNames = array(
 'ZM' => 'ზამბია',
 'ZW' => 'ზიმბაბვე',
 );
+
+$timeUnits = array(
+'day-other' => '{0}დღე',
+'hour-other' => '{0}საათი',
+'minute-other' => '{0}წუთი',
+'month-other' => '{0}თვე',
+'second-other' => '{0}წამი',
+'week-other' => '{0}კვირა',
+'year-other' => '{0}წელი',
+);

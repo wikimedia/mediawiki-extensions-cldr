@@ -1126,3 +1126,27 @@ $countryNames = array(
 'ZM' => 'แซมเบีย',
 'ZW' => 'ซิมบับเว',
 );
+
+$timeUnits = array(
+'day-other' => '{0}วัน',
+'day-future-other' => 'ในอีก {0} วัน',
+'day-past-other' => '{0}วันที่ผ่านมา',
+'hour-other' => '{0}ชั่วโมง',
+'hour-future-other' => 'ในอีก {0} ชั่วโมง',
+'hour-past-other' => '{0}ชั่วโมงที่ผ่านมา',
+'minute-other' => '{0}นาที',
+'minute-future-other' => 'ในอีก {0} นาที',
+'minute-past-other' => '{0}นาทีที่ผ่านมา',
+'month-other' => '{0}เดือน',
+'month-future-other' => 'ในอีก {0} เดือน',
+'month-past-other' => '{0}เดือนที่ผ่านมา',
+'second-other' => '{0}วินาที',
+'second-future-other' => 'ในอีก {0} วินาที',
+'second-past-other' => '{0}วินาทีที่ผ่านมา',
+'week-other' => '{0}สัปดาห์',
+'week-future-other' => 'ในอีก {0} สัปดาห์',
+'week-past-other' => '{0}สัปดาห์ที่ผ่านมา',
+'year-other' => '{0}ปี',
+'year-future-other' => 'ในอีก {0} ปี',
+'year-past-other' => '{0}ปีที่แล้ว',
+);

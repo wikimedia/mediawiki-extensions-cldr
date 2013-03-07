@@ -415,3 +415,13 @@ $countryNames = array(
 'ZM' => 'ဇမ်ဘီယာ',
 'ZW' => 'ဇင်ဘာဘွေ',
 );
+
+$timeUnits = array(
+'day-other' => '{0}ရက်',
+'hour-other' => '{0}နာရီ',
+'minute-other' => '{0}မိနစ်',
+'month-other' => '{0}လ',
+'second-other' => '{0}စက္ကန့်',
+'week-other' => '{0}ပတ်',
+'year-other' => '{0}နှစ်',
+);
