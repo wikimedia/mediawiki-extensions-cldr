@@ -92,433 +92,79 @@ class CLDRRebuild extends Maintenance {
 }
 
 class CLDRParser {
-	private $parseContents = true;
-	private $languages = false;
-	private $currencies = false;
-	private $currency = false;
-	private $countries = false;
-	private $timeUnits = false;
-	private $timeUnit = false;
-	private $languageCount = 0;
-	private $currencyCount = 0;
-	private $countryCount = 0;
-	private $timeUnitCount = 0;
-	private $languageOutput = '';
-	private $currencyOutput = '';
-	private $countryOutput = '';
-	private $timeUnitOutput = '';
-	private $type = '';
-	private $output = "<?php\n";
-
 	/**
-	 * @param $parser
-	 * @param $name string
-	 * @param $attrs array
+	 * @param string $input filename
+	 * @param string $output filename
 	 */
-	function langStart( $parser, $name, $attrs ) {
-		$this->parseContents = false;
-		if ( $name === 'LANGUAGES' ) {
-			$this->languages = true;
-		}
-		if ( $this->languages && $name === 'LANGUAGE' ) {
-			// Exclude names that are alt. and exclude strange "root"
-			if ( !isset( $attrs['ALT'] ) && $attrs['TYPE'] !== 'root' ) {
-				$this->parseContents = true;
-				$this->type = str_replace( '_', '-', strtolower( $attrs['TYPE'] ) );
-				$this->languageOutput .= "'$this->type' => '";
-			}
-		}
-	}
-
-	/**
-	 * @param $parser
-	 * @param $name string
-	 */
-	function langEnd( $parser, $name ) {
-		if ( $name === 'LANGUAGES' ) {
-			$this->languages = false;
-			$this->parseContents = false;
-			return;
-		}
-		if ( !$this->parseContents ) {
-			return;
-		}
-		$this->languageOutput .= "',\n";
-	}
-
-	/**
-	 * @param $parser
-	 * @param $data string
-	 */
-	function langContents( $parser, $data ) {
-		if ( !$this->parseContents ) {
-			return;
-		}
-		if ( trim( $data ) === '' ) {
-			return;
-		}
-		// Trim data and escape quote marks, but don't double escape.
-		$this->languageOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
-		$this->languageCount++;
-	}
-
-	/**
-	 * @param $input string
-	 * @param $output string
-	 * @param $fileHandle
-	 */
-	function parseLanguages( $input, $output, $fileHandle ) {
-		$xml_parser = xml_parser_create(); // Create a new parser
-
-		// Set up the handler functions for the XML parser
-		xml_set_element_handler( $xml_parser, array( $this, 'langStart' ), array( $this, 'langEnd' ) );
-		xml_set_character_data_handler( $xml_parser, array( $this, 'langContents' ) );
-
-		$this->languageOutput = "\n\$languageNames = array(\n"; // Open the languageNames array
-
-		// Populate the array with the XML data
-		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
-			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
-				die( sprintf( "XML error: %s at line %d",
-					xml_error_string( xml_get_error_code( $xml_parser ) ),
-					xml_get_current_line_number( $xml_parser ) ) );
-			}
-		}
-
-		$this->languageOutput .= ");\n"; // Close the languageNames array
-
-		If ( $this->languageCount > 0 ) {
-			$this->output .= $this->languageOutput;
-			// Give a status update
-			if ( $this->languageCount == 1 ) {
-				echo "Wrote 1 entry to $output\n";
-			} else {
-				echo "Wrote $this->languageCount entries to $output\n";
-			}
-		}
-
-		xml_parser_free( $xml_parser ); // Free the XML parser
-
-	}
-
-	/**
-	 * @param $parser
-	 * @param $name string
-	 * @param $attrs array
-	 */
-	function currencyStart( $parser, $name, $attrs ) {
-		$this->parseContents = false;
-		if ( $name === 'CURRENCIES' ) {
-			$this->currencies = true;
-		}
-		if ( $this->currencies && $name === 'CURRENCY' ) {
-			$this->type = $attrs['TYPE'];
-			$this->currency = true;
-		}
-		if ( $this->currency && $name == 'DISPLAYNAME' ) {
-			if ( !isset( $attrs["COUNT"] ) ) { // Exclude plurals.
-				$this->currencyOutput .= "'$this->type' => '";
-				$this->parseContents = true;
-			}
-		}
-	}
-
-	/**
-	 * @param $parser
-	 * @param $name string
-	 */
-	function currencyEnd( $parser, $name ) {
-		if ( $name === 'CURRENCY' ) {
-			$this->currency = false;
-			$this->parseContents = false;
-			return;
-		}
-		if ( $name === 'CURRENCIES' ) {
-			$this->currencies = false;
-			$this->parseContents = false;
-			return;
-		}
-		if ( !$this->parseContents ) return; // If we didn't parse the contents, exit
-		$this->currencyOutput .= "',\n";
-	}
-
-	/**
-	 * @param $parser
-	 * @param $data string
-	 */
-	function currencyContents( $parser, $data ) {
-		if ( !$this->parseContents ) {
-			return;
-		}
-		if ( trim( $data ) === '' ) {
-			return;
-		}
-		// Trim data and escape quote marks, but don't double escape.
-		$this->currencyOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
-		$this->currencyCount++;
-	}
-
-	/**
-	 * @param $input string
-	 * @param $output string
-	 * @param $fileHandle
-	 */
-	function parseCurrencies( $input, $output, $fileHandle ) {
-		$xml_parser = xml_parser_create(); // Create a new parser
-
-		// Set up the handler functions for the XML parser
-		xml_set_element_handler( $xml_parser, array( $this, 'currencyStart' ), array( $this, 'currencyEnd' ) );
-		xml_set_character_data_handler( $xml_parser, array( $this, 'currencyContents' ) );
-
-		$this->currencyOutput = "\n\$currencyNames = array(\n"; // Open the currencyNames array
-
-		// Populate the array with the XML data
-		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
-			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
-				die( sprintf( "XML error: %s at line %d",
-					xml_error_string( xml_get_error_code( $xml_parser ) ),
-					xml_get_current_line_number( $xml_parser ) ) );
-			}
-		}
-
-		$this->currencyOutput .= ");\n"; // Close the currencyNames array
-
-		if ( $this->currencyCount > 0 ) {
-			$this->output .= $this->currencyOutput;
-			// Give a status update
-			if ( $this->currencyCount == 1 ) {
-				echo "Wrote 1 entry to $output\n";
-			} else {
-				echo "Wrote $this->currencyCount entries to $output\n";
-			}
-		}
-
-		xml_parser_free( $xml_parser ); // Free the XML parser
-
-	}
-
-	/**
-	 * @param $parser
-	 * @param $name string
-	 * @param $attrs array
-	 */
-	function countryStart( $parser, $name, $attrs ) {
-		$this->parseContents = false;
-		if ( $name === 'TERRITORIES' ) {
-			$this->countries = true;
-		}
-		if ( $this->countries && $name === 'TERRITORY' ) {
-			// Exclude alt names unless they are short alternatives (which we prefer)
-			if ( !isset( $attrs["ALT"] ) || ( isset( $attrs["ALT"] ) && $attrs["ALT"] == 'short' ) ) {
-				preg_match( '/[A-Z][A-Z]/', $attrs['TYPE'], $matches );
-				if ( $matches && $matches[0] !== 'ZZ' ) { // Exclude ZZ => Unknown Region
-					$this->parseContents = true;
-					$this->type = $matches[0];
-					$this->countryOutput .= "'$this->type' => '";
-				}
-			}
-		}
-	}
-
-	/**
-	 * @param $parser
-	 * @param $name string
-	 */
-	function countryEnd( $parser, $name ) {
-		if ( $name === 'TERRITORIES' ) {
-			$this->countries = false;
-			$this->parseContents = false;
-			return;
-		}
-		if ( !$this->parseContents ) return;
-		$this->countryOutput .= "',\n";
-	}
-
-	/**
-	 * @param $parser
-	 * @param $data array
-	 */
-	function countryContents( $parser, $data ) {
-		if ( !$this->parseContents ) {
-			return;
-		}
-		if ( trim( $data ) === '' ) {
-			return;
-		}
-		// Trim data and escape quote marks, but don't double escape.
-		$this->countryOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
-		$this->countryCount++;
-	}
-
-	/**
-	 * @param $input
-	 * @param $output
-	 * @param $fileHandle
-	 */
-	function parseCountries( $input, $output, $fileHandle ) {
-		$xml_parser = xml_parser_create(); // Create a new parser
-
-		// Set up the handler functions for the XML parser
-		xml_set_element_handler( $xml_parser, array( $this, 'countryStart' ), array( $this, 'countryEnd' ) );
-		xml_set_character_data_handler( $xml_parser, array( $this, 'countryContents' ) );
-
-		$this->countryOutput = "\n\$countryNames = array(\n"; // Open the countryNames array
-
-		// Populate the array with the XML data
-		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
-			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
-				die( sprintf( "XML error: %s at line %d",
-					xml_error_string( xml_get_error_code( $xml_parser ) ),
-					xml_get_current_line_number( $xml_parser ) ) );
-			}
-		}
-
-		$this->countryOutput .= ");\n"; // Close the countryNames array
-
-		If ( $this->countryCount > 0 ) {
-			$this->output .= $this->countryOutput;
-			// Give a status update
-			if ( $this->countryCount == 1 ) {
-				echo "Wrote 1 entry to $output\n";
-			} else {
-				echo "Wrote $this->countryCount entries to $output\n";
-			}
-		}
-
-		xml_parser_free( $xml_parser ); // Free the XML parser
-
-	}
-
-	/**
-	 * @param $parser
-	 * @param $name string
-	 * @param $attrs array
-	 */
-	function timeUnitStart( $parser, $name, $attrs ) {
-		$this->parseContents = false;
-		if ( $name === 'UNITS' ) {
-			$this->timeUnits = true;
-		}
-		if ( $this->timeUnits && $name === 'UNIT' ) {
-			$this->type = $attrs['TYPE'];
-			$this->timeUnit = true;
-		}
-		if ( $this->timeUnit && $name == 'UNITPATTERN' ) {
-			if ( !isset( $attrs["ALT"] ) ) { // Exclude short versions.
-				if ( isset( $attrs["COUNT"] ) ) {
-					$count = $attrs["COUNT"];
-					$this->timeUnitOutput .= "'{$this->type}-{$count}' => '";
-				}
-				$this->parseContents = true;
-			}
-		}
-	}
-
-	/**
-	 * @param $parser
-	 * @param $name string
-	 */
-	function timeUnitEnd( $parser, $name ) {
-		if ( $name === 'UNIT' ) {
-			$this->timeUnit = false;
-			$this->parseContents = false;
-			return;
-		}
-		if ( $name === 'UNITS' ) {
-			$this->timeUnits = false;
-			$this->parseContents = false;
-			return;
-		}
-		if ( !$this->parseContents ) return; // If we didn't parse the contents, exit
-		$this->timeUnitOutput .= "',\n";
-	}
-
-	/**
-	 * @param $parser
-	 * @param $data string
-	 */
-	function timeUnitContents( $parser, $data ) {
-		if ( !$this->parseContents ) {
-			return;
-		}
-		if ( trim( $data ) === '' ) {
-			return;
-		}
-		// Trim data and escape quote marks, but don't double escape.
-		$this->timeUnitOutput .= preg_replace( "/(?<!\\\\)'/", "\'", trim( $data ) );
-		$this->timeUnitCount++;
-	}
-
-	/**
-	 * @param $input
-	 * @param $output
-	 * @param $fileHandle
-	 */
-	function parseTimeUnits( $input, $output, $fileHandle ) {
-		$xml_parser = xml_parser_create(); // Create a new parser
-
-		// Set up the handler functions for the XML parser
-		xml_set_element_handler( $xml_parser, array( $this, 'timeUnitStart' ), array( $this, 'timeUnitEnd' ) );
-		xml_set_character_data_handler( $xml_parser, array( $this, 'timeUnitContents' ) );
-
-		$this->timeUnitOutput = "\n\$timeUnits = array(\n"; // Open the timeUnits array
-
-		// Populate the array with the XML data
-		while ( $data = fread( $fileHandle, filesize( $input ) ) ) {
-			if ( !xml_parse( $xml_parser, $data, feof( $fileHandle ) ) ) {
-				die( sprintf( "XML error: %s at line %d",
-					xml_error_string( xml_get_error_code( $xml_parser ) ),
-					xml_get_current_line_number( $xml_parser ) ) );
-			}
-		}
-
-		$this->timeUnitOutput .= ");\n"; // Close the timeUnits array
-
-		If ( $this->timeUnitCount > 0 ) {
-			$this->output .= $this->timeUnitOutput;
-			// Give a status update
-			if ( $this->timeUnitCount == 1 ) {
-				echo "Wrote 1 entry to $output\n";
-			} else {
-				echo "Wrote $this->timeUnitCount entries to $output\n";
-			}
-		}
-
-		xml_parser_free( $xml_parser ); // Free the XML parser
-
-	}
-
-	/**
-	 * @param $input
-	 * @param $output
-	 */
-	function parse( $input, $output ) {
+	function parse( $inputFile, $outputFile ) {
 		// Open the input file for reading
-		if ( !( $fileHandle = fopen( $input, "r" ) ) ) {
-			die( "could not open XML input" );
+
+		$contents = file_get_contents( $inputFile );
+		$doc = new SimpleXMLElement( $contents );
+
+		$data = array();
+
+		foreach ( $doc->xpath( '//languages/language' ) as $elem ) {
+			if ( (string)$elem['alt'] !== '' ) {
+				continue;
+			}
+
+			if ( (string)$elem['type'] === 'root' ) {
+				continue;
+			}
+
+			$key = str_replace( '_', '-', strtolower( $elem['type'] ) );
+
+			$data['languageNames'][$key] = (string)$elem;
 		}
 
-		$this->parseLanguages( $input, $output, $fileHandle ); // Parse the language names
-		rewind( $fileHandle ); // Reset the position of the file pointer
-		$this->parseCurrencies( $input, $output, $fileHandle ); // Parse the currency names
-		rewind( $fileHandle ); // Reset the position of the file pointer
-		$this->parseCountries( $input, $output, $fileHandle ); // Parse the country names
-		rewind( $fileHandle ); // Reset the position of the file pointer
-		$this->parseTimeUnits( $input, $output, $fileHandle ); // Parse the time units
+		foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
+			if ( (string)$elem->displayName[0] === '' ) {
+				continue;
+			}
 
-		fclose( $fileHandle ); // Close the input file
-
-		// If there is nothing to write to the file, end early.
-		if ( !$this->languageCount && !$this->currencyCount && !$this->countryCount && !$this->timeUnitCount ) return;
-
-		// Open the output file for writing
-		if ( !( $fileHandle = fopen( $output, "w+" ) ) ) {
-			die( "could not open output file" );
+			$data['currencyNames'][(string)$elem['type']] = (string)$elem->displayName[0];
 		}
 
-		// Write the output to the output file
-		fwrite( $fileHandle, $this->output );
-		fclose( $fileHandle );
+		foreach ( $doc->xpath( '//territories/territory' ) as $elem ) {
+			if ( (string)$elem['alt'] !== '' && (string)$elem['alt'] !== 'short'  ) {
+				continue;
+			}
+
+			if ( (string)$elem['type'] === 'ZZ' || !preg_match( '/^[A-Z][A-Z]$/', $elem['type'] ) ) {
+				continue;
+			}
+
+			$data['countryNames'][(string)$elem['type']] = (string)$elem;
+		}
+
+		foreach ( $doc->xpath( '//units/unit' ) as $elem ) {
+			foreach ( $elem->unitPattern as $pattern ) {
+				if ( (string)$pattern['alt'] !== '' ) {
+					continue;
+				}
+				$data['timeUnits'][(string)$elem['type'] . '-' . (string)$pattern['count']] = (string)$pattern;
+			}
+		}
+
+		if ( !count( $data ) ) {
+			return;
+		}
+
+		$output = "<?php\n";
+		foreach ( $data as $varname => $values ) {
+			$output .= "\n\$$varname = array(\n";
+			foreach( $values as $key => $value ) {
+				$key = addcslashes( $key, "'" );
+				$value = addcslashes( $value, "'" );
+				$output .= "'$key' => '$value',\n";
+			}
+			$output .= ");\n";
+		}
+
+		#$output = UtfNormal::cleanUp( $output );
+
+		file_put_contents( $outputFile, $output );
 	}
 }
 

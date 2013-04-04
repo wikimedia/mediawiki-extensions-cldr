@@ -167,7 +167,8 @@ $currencyNames = array(
 'XAF' => 'Kuɗin Sefa na Afirka Ta Tsakiya',
 'XOF' => 'Kuɗin Sefa na Afirka Ta Yamma',
 'ZAR' => 'Kuɗin Afirka Ta Kudu',
-'ZMK' => 'Kuɗin Zambiya',
+'ZMK' => 'Kuɗin Zambiya (1968-2012)',
+'ZMW' => 'Kuɗin Zambiya',
 'ZWD' => 'Dalar zimbabuwe',
 );
 

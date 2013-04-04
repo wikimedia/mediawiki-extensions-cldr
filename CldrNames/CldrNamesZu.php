@@ -341,7 +341,8 @@ $currencyNames = array(
 'XXX' => 'Ikharensi engaziwa',
 'YER' => 'i-Yemeni Rial',
 'ZAR' => 'i-South African Rand',
-'ZMK' => 'i-Zambian Kwacha',
+'ZMK' => 'i-Zambian Kwacha (1968-2012)',
+'ZMW' => 'i-Zambian Kwacha',
 );
 
 $countryNames = array(
@@ -534,7 +535,7 @@ $countryNames = array(
 'PM' => 'i-Saint Pierre kanye ne-Miquelon',
 'PN' => 'i-Pitcairn Islands',
 'PR' => 'i-Puerto Rico',
-'PS' => 'i-Palestinian Territories',
+'PS' => 'iPhalestina',
 'PT' => 'i-Portugal',
 'PW' => 'i-Palau',
 'PY' => 'i-Paraguay',

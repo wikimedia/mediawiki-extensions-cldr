@@ -102,7 +102,8 @@ $currencyNames = array(
 'XAF' => 'Faranga ey\'omu Afirika eya wakati',
 'XOF' => 'Faranga ey\'omu Afirika ey\'ebugwanjuba',
 'ZAR' => 'Randi ey\'eSawusafirika',
-'ZMK' => 'Kwaca ey\'eZambya',
+'ZMK' => 'Kwaca ey\'eZambya (1968-2012)',
+'ZMW' => 'Kwaca ey\'eZambya',
 'ZWD' => 'Doola ey\'eZimbabwe',
 );
 

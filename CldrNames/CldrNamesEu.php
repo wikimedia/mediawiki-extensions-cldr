@@ -336,7 +336,8 @@ $currencyNames = array(
 'XXX' => 'Moneta ezezaguna',
 'YER' => 'Yemengo riala',
 'ZAR' => 'Hego Afrikako randa',
-'ZMK' => 'Zambiako kwacha',
+'ZMK' => 'Zambiako kwacha (1968-2012)',
+'ZMW' => 'Zambiako kwacha',
 );
 
 $countryNames = array(
@@ -529,7 +530,7 @@ $countryNames = array(
 'PM' => 'Saint-Pierre eta Mikelune',
 'PN' => 'Pitcairn uharteak',
 'PR' => 'Puerto Rico',
-'PS' => 'Palestinako Lurraldeak',
+'PS' => 'Palestina',
 'PT' => 'Portugal',
 'PW' => 'Palau',
 'PY' => 'Paraguai',

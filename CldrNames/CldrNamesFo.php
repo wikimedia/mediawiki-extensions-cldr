@@ -442,6 +442,6 @@ $timeUnits = array(
 'second-other' => '{0} sekundir',
 'week-one' => '{0} vika',
 'week-other' => '{0} vikur',
-'year-one' => '{0}ár',
-'year-other' => '{0}ár',
+'year-one' => '{0} ár',
+'year-other' => '{0} ár',
 );

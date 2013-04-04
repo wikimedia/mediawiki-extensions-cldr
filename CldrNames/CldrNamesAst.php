@@ -290,13 +290,14 @@ $currencyNames = array(
 'XXX' => 'divisa desconocida',
 'YER' => 'rial yemenín',
 'ZAR' => 'rand sudafricanu',
-'ZMK' => 'kwacha zambianu',
+'ZMK' => 'kwacha zambianu (1968-2012)',
+'ZMW' => 'kwacha zambianu',
 );
 
 $countryNames = array(
 'AC' => 'Islla Ascensión',
 'AD' => 'Andorra',
-'AE' => 'EmiratosÁrabes Xuníos',
+'AE' => 'Emiratos Árabes Xuníos',
 'AF' => 'Afganistán',
 'AG' => 'Antigua y Barbuda',
 'AI' => 'Anguila',
@@ -394,7 +395,7 @@ $countryNames = array(
 'GW' => 'Guinea-Bisáu',
 'GY' => 'Guyana',
 'HK' => 'Ḥong Kong',
-'HM' => 'IsllaḤeard ya Islles McDonald',
+'HM' => 'Islla Ḥeard ya Islles McDonald',
 'HN' => 'Hondures',
 'HR' => 'Croacia',
 'HT' => 'Haití',

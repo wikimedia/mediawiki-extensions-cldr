@@ -441,7 +441,8 @@ $currencyNames = array(
 'XXX' => 'Fedha Isiyojulikana',
 'YER' => 'Rial ya Yemen',
 'ZAR' => 'randi ya Afrika Kusini',
-'ZMK' => 'kwacha ya Zambia',
+'ZMK' => 'kwacha ya Zambia (1968-2012)',
+'ZMW' => 'kwacha ya Zambia',
 'ZWD' => 'dola ya Zimbabwe',
 );
 
@@ -635,7 +636,7 @@ $countryNames = array(
 'PM' => 'Santapieri na Mikeloni',
 'PN' => 'Pitkairni',
 'PR' => 'Pwetoriko',
-'PS' => 'Ukingo wa Magharibi na Ukanda wa Gaza wa Palestina',
+'PS' => 'Palestina',
 'PT' => 'Ureno',
 'PW' => 'Palau',
 'PY' => 'Paragwai',

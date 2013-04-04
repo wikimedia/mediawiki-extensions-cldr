@@ -102,7 +102,8 @@ $currencyNames = array(
 'XAF' => 'Farantsa CFA (BEAC)',
 'XOF' => 'Farantsa CFA (BCEAO)',
 'ZAR' => 'Rand afrikanina tatsimo',
-'ZMK' => 'Kwacha zambianina',
+'ZMK' => 'Kwacha zambianina (1968-2012)',
+'ZMW' => 'Kwacha zambianina',
 'ZWD' => 'Dôlara Zimbaboeanina',
 );
 

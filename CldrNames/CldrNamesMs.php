@@ -341,7 +341,8 @@ $currencyNames = array(
 'XXX' => 'Mata Wang Tidak Diketahui',
 'YER' => 'Rial Yaman',
 'ZAR' => 'Rand Afrika Selatan',
-'ZMK' => 'Kwacha Zambia',
+'ZMK' => 'Kwacha Zambia (1968-2012)',
+'ZMW' => 'Kwacha Zambia',
 );
 
 $countryNames = array(
@@ -361,7 +362,7 @@ $countryNames = array(
 'AT' => 'Austria',
 'AU' => 'Australia',
 'AW' => 'Aruba',
-'AX' => 'KepulauanÅland',
+'AX' => 'Kepulauan Åland',
 'AZ' => 'Azerbaijan',
 'BA' => 'Bosnia dan Herzegovina',
 'BB' => 'Barbados',
@@ -534,7 +535,7 @@ $countryNames = array(
 'PM' => 'Saint Pierre and Miquelon',
 'PN' => 'Kepulauan Pitcairn',
 'PR' => 'Puerto Rico',
-'PS' => 'Wilayah Palestin',
+'PS' => 'Palestin',
 'PT' => 'Feringgi',
 'PW' => 'Palau',
 'PY' => 'Paraguay',

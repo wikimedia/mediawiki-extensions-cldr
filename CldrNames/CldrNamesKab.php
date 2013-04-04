@@ -92,7 +92,7 @@ $currencyNames = array(
 'SHP' => 'Apund Asant Ilini',
 'SLL' => 'Alyun',
 'SOS' => 'Aciling Aṣumali',
-'STD' => 'AswṬum d Udubra Amenzay',
+'STD' => 'Asw Ṭum d Udubra Amenzay',
 'SZL' => 'Alilangini',
 'TND' => 'Adinar Atunsi',
 'TZS' => 'Aciling Aṭanẓani',
@@ -101,7 +101,8 @@ $currencyNames = array(
 'XAF' => 'Afrank BCEA CFA',
 'XOF' => 'Afrank BCEAO CFA',
 'ZAR' => 'Arand Afriqi n Wadda',
-'ZMK' => 'Akwaca Azambi',
+'ZMK' => 'Akwaca Azambi (1968-2012)',
+'ZMW' => 'Akwaca Azambi',
 'ZWD' => 'Adular Azimbabwi',
 );
 

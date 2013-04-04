@@ -377,7 +377,8 @@ $currencyNames = array(
 'XXX' => 'Onbekende geldeenheid',
 'YER' => 'Jemenitiese rial',
 'ZAR' => 'Suid-Afrikaanse rand',
-'ZMK' => 'Zambiese kwacha',
+'ZMK' => 'Zambiese kwacha (1968-2012)',
+'ZMW' => 'Zambiese kwacha',
 'ZWD' => 'Zimbabwiese dollar',
 );
 

@@ -225,7 +225,7 @@ $currencyNames = array(
 'XAU' => 'ရွှေ',
 'XBB' => 'ဥရောပငွေကြေးစံနစ်',
 'XDR' => 'အထူးထုတ်ယူခွင့်',
-'XOF' => 'CFAဖရန့် BCEAO',
+'XOF' => 'CFA ဖရန့် BCEAO',
 'XPT' => 'ပလက်တီနမ်',
 'XTS' => 'စမ်းသပ် ငွေကြေး ကုဒ်',
 'XXX' => 'မသိ သို့မဟုတ် မရှိသော ငွေကြေး',
@@ -417,11 +417,11 @@ $countryNames = array(
 );
 
 $timeUnits = array(
-'day-other' => '{0}ရက်',
-'hour-other' => '{0}နာရီ',
-'minute-other' => '{0}မိနစ်',
-'month-other' => '{0}လ',
-'second-other' => '{0}စက္ကန့်',
-'week-other' => '{0}ပတ်',
-'year-other' => '{0}နှစ်',
+'day-other' => '{0} ရက်',
+'hour-other' => '{0} နာရီ',
+'minute-other' => '{0} မိနစ်',
+'month-other' => '{0} လ',
+'second-other' => '{0} စက္ကန့်',
+'week-other' => '{0} ပတ်',
+'year-other' => '{0} နှစ်',
 );

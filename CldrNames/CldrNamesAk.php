@@ -66,7 +66,8 @@ $currencyNames = array(
 'ETB' => 'Itiopia Bir',
 'EUR' => 'Iro',
 'GBP' => 'Breten Pɔn',
-'GHC' => 'Ghana Sidi',
+'GHC' => 'Ghana Sidi (1979-2007)',
+'GHS' => 'Ghana Sidi',
 'GMD' => 'Gambia Dalasi',
 'GNS' => 'Gini Frank',
 'INR' => 'India Rupi',
@@ -100,7 +101,8 @@ $currencyNames = array(
 'USD' => 'Amɛrika Dɔla',
 'XAF' => 'Sefa',
 'ZAR' => 'Afrika Anaafo Rand',
-'ZMK' => 'Zambia Kwacha',
+'ZMK' => 'Zambia Kwacha (1968-2012)',
+'ZMW' => 'Zambia Kwacha',
 'ZWD' => 'Zimbabwe Dɔla',
 );
 

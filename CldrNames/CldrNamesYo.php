@@ -43,7 +43,7 @@ $languageNames = array(
 'hy' => 'Èdè Ile Armenia',
 'ia' => 'Èdè pipo',
 'id' => 'Èdè Indonasia',
-'ie' => 'IruÈdè',
+'ie' => 'Iru Èdè',
 'ig' => 'Èdè Ibo',
 'is' => 'Èdè Icelandic',
 'it' => 'Èdè Italiani',
@@ -156,7 +156,8 @@ $currencyNames = array(
 'XAF' => 'Faransi ti Orílẹ́ède BEKA',
 'XOF' => 'Faransi ti Orílẹ́ède BIKEAO',
 'ZAR' => 'Randi ti Orílẹ́ède Ariwa Afirika',
-'ZMK' => 'Kawaṣa ti Orílẹ́ède Saabia',
+'ZMK' => 'Kawaṣa ti Orílẹ́ède Saabia (1968-2012)',
+'ZMW' => 'Kawaṣa ti Orílẹ́ède Saabia',
 'ZWD' => 'Dọla ti Orílẹ́ède Siibabuwe',
 );
 

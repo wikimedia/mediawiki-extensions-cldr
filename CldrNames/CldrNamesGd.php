@@ -193,7 +193,7 @@ $currencyNames = array(
 'CAD' => 'Dolar Canadach',
 'EUR' => 'Eòro',
 'GBP' => 'Punnd Sasannach',
-'IEP' => 'PunndÈireannach',
+'IEP' => 'Punnd Èireannach',
 'USD' => 'Dolar nan SA',
 );
 
@@ -214,7 +214,7 @@ $countryNames = array(
 'AT' => 'An Ostair',
 'AU' => 'Astràilia',
 'AW' => 'Arùba',
-'AX' => 'Na h-EileananÅland',
+'AX' => 'Na h-Eileanan Åland',
 'AZ' => 'Asarbaideàn',
 'BA' => 'Bosna is Hearsagobhana',
 'BB' => 'Barbados',
@@ -266,7 +266,7 @@ $countryNames = array(
 'EA' => 'Ceuta is Melilla',
 'EC' => 'Eacuador',
 'EE' => 'An Eastoin',
-'EG' => 'AnÈiphit',
+'EG' => 'An Èiphit',
 'EH' => 'Sathara an Iar',
 'ER' => 'Eartra',
 'ES' => 'An Spàinn',

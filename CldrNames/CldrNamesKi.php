@@ -96,12 +96,13 @@ $currencyNames = array(
 'SZL' => 'Lilangeni',
 'TND' => 'Dinari ya Tunisia',
 'TZS' => 'ciringi cia Tanizania',
-'UGX' => 'ciringi ciaŨganda',
+'UGX' => 'ciringi cia Ũganda',
 'USD' => 'Ndora cia Amerika',
 'XAF' => 'Faranga CFA BEAC',
 'XOF' => 'Faranga CFA BCEAO',
 'ZAR' => 'Randi ya Afrika Kusini',
-'ZMK' => 'Kwacha ya Zambia',
+'ZMK' => 'Kwacha ya Zambia (1968-2012)',
+'ZMW' => 'Kwacha ya Zambia',
 'ZWD' => 'Dola ya Zimbabwe',
 );
 

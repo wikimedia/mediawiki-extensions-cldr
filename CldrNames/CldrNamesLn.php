@@ -102,7 +102,7 @@ $currencyNames = array(
 'GNF' => 'Falánga ya Gine',
 'GNS' => 'Falánga ya Ginɛ',
 'HTG' => 'Gurde',
-'INR' => 'Rupi yaÍndɛ',
+'INR' => 'Rupi ya Índɛ',
 'ISK' => 'Motolé ya Islandi',
 'JPY' => 'Yeni ya Zapɔ',
 'KES' => 'Shilingɛ ya Kenya',
@@ -143,7 +143,8 @@ $currencyNames = array(
 'XAF' => 'Falánga CFA BEAC',
 'XOF' => 'Falánga CFA BCEAO',
 'ZAR' => 'Randɛ ya Afríka Súdi',
-'ZMK' => 'Kwasha ya Zambi',
+'ZMK' => 'Kwasha ya Zambi (1968-2012)',
+'ZMW' => 'Kwasha ya Zambi',
 'ZWD' => 'Dolarɛ ya Zimbabwɛ',
 );
 
@@ -163,7 +164,7 @@ $countryNames = array(
 'AT' => 'Otilisi',
 'AU' => 'Ositáli',
 'AW' => 'Aruba',
-'AX' => 'BisangaƐland',
+'AX' => 'Bisanga Ɛland',
 'AZ' => 'Azɛlɛbaizá',
 'BA' => 'Bosini mpé Hezegovine',
 'BB' => 'Barɛbadɛ',
