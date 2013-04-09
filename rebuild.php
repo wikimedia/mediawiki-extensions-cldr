@@ -93,8 +93,8 @@ class CLDRRebuild extends Maintenance {
 
 class CLDRParser {
 	/**
-	 * @param string $input filename
-	 * @param string $output filename
+	 * @param string $inputFile filename
+	 * @param string $outputFile filename
 	 */
 	function parse( $inputFile, $outputFile ) {
 		// Open the input file for reading
