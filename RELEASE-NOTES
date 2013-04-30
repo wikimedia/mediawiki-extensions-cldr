@@ -1,0 +1,4 @@
+== cldr 2013.04 ==
+Released at 2013-04-30.
+
+* Update CLDR to 23 and rewrite parser
