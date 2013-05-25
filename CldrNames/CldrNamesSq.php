@@ -272,6 +272,7 @@ $countryNames = array(
 'VA' => 'Vatikan',
 'VC' => 'Saint Vincent e Grenadinet',
 'VE' => 'Venezuelë',
+'XK' => 'Kosovë',
 'YE' => 'Jemen',
 'ZA' => 'Afrika e Jugut',
 'ZM' => 'Zambi',

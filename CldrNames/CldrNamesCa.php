@@ -1126,6 +1126,7 @@ $countryNames = array(
 'VU' => 'Vanuatu',
 'WF' => 'Wallis i Futuna',
 'WS' => 'Samoa',
+'XK' => 'Kosovo',
 'YE' => 'Iemen',
 'YT' => 'Mayotte',
 'ZA' => 'República de Sud-àfrica',

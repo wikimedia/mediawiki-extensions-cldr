@@ -1106,6 +1106,7 @@ $countryNames = array(
 'VU' => 'Vanuatu',
 'WF' => 'Wallis ve Futuna Adaları',
 'WS' => 'Samoa',
+'XK' => 'Kosova',
 'YE' => 'Yemen',
 'YT' => 'Mayotte',
 'ZA' => 'Güney Afrika',
