@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Extract data from cldr XML.
  *
@@ -8,7 +9,6 @@
  * @copyright Copyright © 2007-2012
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
-
 // Standard boilerplate to define $IP
 if ( getenv( 'MW_INSTALL_PATH' ) !== false ) {
 	$IP = getenv( 'MW_INSTALL_PATH' );
@@ -19,21 +19,20 @@ if ( getenv( 'MW_INSTALL_PATH' ) !== false ) {
 require_once( "$IP/maintenance/Maintenance.php" );
 
 class CLDRRebuild extends Maintenance {
+
 	public function __construct() {
 		parent::__construct();
 		$this->addDescription( 'Extract data from CLDR XML' );
 		$this->addOption(
-			'datadir',
-			'Directory containing CLDR data. Default is core/common/main',
-			/*required*/false,
-			/*param*/true
+			'datadir', 'Directory containing CLDR data. Default is core/common/main',
+			/* required */ false,
+			/* param */ true
 		);
 		$this->addOption(
-			'outputdir',
-			'Output directory. Default is current directory',
-			/*required*/false,
-			/*param*/true
-	);
+			'outputdir', 'Output directory. Default is current directory',
+			/* required */ false,
+			/* param */ true
+		);
 	}
 
 	public function execute() {
@@ -81,17 +80,35 @@ class CLDRRebuild extends Maintenance {
 
 			// If the file exists, parse it, otherwise display an error
 			if ( file_exists( $input ) ) {
-				$outputFileName = Language::getFileName( "CldrNames", getRealCode ( $code ), '.php' );
+				$outputFileName = Language::getFileName( "CldrNames", getRealCode( $code ), '.php' );
 				$p = new CLDRParser();
 				$p->parse( $input, "$OUTPUT/CldrNames/$outputFileName" );
 			} else {
 				$this->output( "File $input not found\n" );
 			}
 		}
+
+		//Now parse out what we want form the supplemental file
+		$this->output( "Parsing Supplemental Data...\n" );
+		$input = "$DATA/../supplemental/supplementalData.xml"; //argh! If $DATA defaulted to something slightly more general in the CLDR dump, this wouldn't have to be this way.
+		if ( file_exists( $input ) ) {
+			$p = new CLDRParser();
+			$p->parse_supplemental( $input, "$OUTPUT/CldrSupplemental/Supplemental.php" );
+		} else {
+			$this->output( "File $input not found\n" );
+		}
+		$this->output( "Done pasring supplemental data.\n" );
+
+		$this->output( "Parsing Currency Symbol Data...\n" );
+		$p = new CLDRParser();
+		$p->parse_currency_symbols( $DATA, "$OUTPUT/CldrCurrency/Symbols.php" );
+		$this->output( "Done pasring currency symbols.\n" );
 	}
+
 }
 
 class CLDRParser {
+
 	/**
 	 * @param string $inputFile filename
 	 * @param string $outputFile filename
@@ -102,70 +119,256 @@ class CLDRParser {
 		$contents = file_get_contents( $inputFile );
 		$doc = new SimpleXMLElement( $contents );
 
-		$data = array();
+		$data = array( );
 
 		foreach ( $doc->xpath( '//languages/language' ) as $elem ) {
-			if ( (string)$elem['alt'] !== '' ) {
+			if ( ( string ) $elem['alt'] !== '' ) {
 				continue;
 			}
 
-			if ( (string)$elem['type'] === 'root' ) {
+			if ( ( string ) $elem['type'] === 'root' ) {
 				continue;
 			}
 
 			$key = str_replace( '_', '-', strtolower( $elem['type'] ) );
 
-			$data['languageNames'][$key] = (string)$elem;
+			$data['languageNames'][$key] = ( string ) $elem;
 		}
 
 		foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
-			if ( (string)$elem->displayName[0] === '' ) {
+			if ( ( string ) $elem->displayName[0] === '' ) {
 				continue;
 			}
 
-			$data['currencyNames'][(string)$elem['type']] = (string)$elem->displayName[0];
+			$data['currencyNames'][( string ) $elem['type']] = ( string ) $elem->displayName[0];
+			if ( ( string ) $elem->symbol[0] !== '' ) {
+				$data['currencySymbols'][( string ) $elem['type']] = ( string ) $elem->symbol[0];
+			}
 		}
 
 		foreach ( $doc->xpath( '//territories/territory' ) as $elem ) {
-			if ( (string)$elem['alt'] !== '' && (string)$elem['alt'] !== 'short'  ) {
+			if ( ( string ) $elem['alt'] !== '' && ( string ) $elem['alt'] !== 'short' ) {
 				continue;
 			}
 
-			if ( (string)$elem['type'] === 'ZZ' || !preg_match( '/^[A-Z][A-Z]$/', $elem['type'] ) ) {
+			if ( ( string ) $elem['type'] === 'ZZ' || !preg_match( '/^[A-Z][A-Z]$/', $elem['type'] ) ) {
 				continue;
 			}
 
-			$data['countryNames'][(string)$elem['type']] = (string)$elem;
+			$data['countryNames'][( string ) $elem['type']] = ( string ) $elem;
 		}
 
 		foreach ( $doc->xpath( '//units/unit' ) as $elem ) {
 			foreach ( $elem->unitPattern as $pattern ) {
-				if ( (string)$pattern['alt'] !== '' ) {
+				if ( ( string ) $pattern['alt'] !== '' ) {
 					continue;
 				}
-				$data['timeUnits'][(string)$elem['type'] . '-' . (string)$pattern['count']] = (string)$pattern;
+				$data['timeUnits'][( string ) $elem['type'] . '-' . ( string ) $pattern['count']] = ( string ) $pattern;
 			}
 		}
+
+		$this->savephp( $data, $outputFile );
+	}
+
+	/**
+	 * Parse method for the file structure found in common/supplemental/supplementalData.xml
+	 * @param type $inputFile
+	 * @param type $outputFile
+	 */
+	function parse_supplemental( $inputFile, $outputFile ) {
+		// Open the input file for reading
+
+		$contents = file_get_contents( $inputFile );
+		$doc = new SimpleXMLElement( $contents );
+
+		$data = array( );
+
+
+		//Pull currency attributes - digits, rounding, and cashRounding.
+		//This will tell us how many decmal places make sense to use with any currency,
+		//or if the currency is totally non-fractional
+		foreach ( $doc->xpath( '//currencyData/fractions/info' ) as $elem ) {
+			if ( ( string ) $elem['iso4217'] === '' ) {
+				continue;
+			}
+
+			$attributes = array( 'digits', 'rounding', 'cashRounding' );
+			foreach ( $attributes as $att ) {
+				if ( ( string ) $elem[$att] !== '' ) {
+					$data['currencyFractions'][( string ) $elem['iso4217']][$att] = ( string ) $elem[$att];
+				}
+			}
+		}
+
+
+		//Pull a map of regions to currencies in order of perference.
+		foreach ( $doc->xpath( '//currencyData/region' ) as $elem ) {
+			if ( ( string ) $elem['iso3166'] === '' ) {
+				continue;
+			}
+
+			$region = ( string ) $elem['iso3166'];
+
+			foreach ( $elem->currency as $currencynode ) {
+				if ( ( string ) $currencynode['to'] === '' && ( string ) $currencynode['tender'] !== 'false' ) {
+					$data['localeCurrencies'][$region][] = ( string ) $currencynode['iso4217'];
+				}
+			}
+		}
+
+		$this->savephp( $data, $outputFile );
+	}
+
+	/**
+	 * Parse method for the currency section in the names files.
+	 * This is separate from the regular parse function, because we need all of
+	 * the currency locale information, even if mediawiki doesn't support the language.
+	 * (For instance: en_AU uses '$' for AUD, not USD, but it's not a supported mediawiki locality)
+	 * @param type $inputDir - the directory, in which we will parse everything.
+	 * @param type $outputFile
+	 */
+	function parse_currency_symbols( $inputDir, $outputFile ) {
+
+		if ( file_exists( $inputDir ) ) {
+			$files = scandir( $inputDir );
+		}
+
+		$data = array( );
+
+		// Foreach files!
+		foreach ( $files as $inputFile ) {
+			if ( strpos( $inputFile, '.xml' ) < 1 ) {
+				continue;
+			}
+
+			$contents = file_get_contents( $inputDir . '/' . $inputFile );
+			$doc = new SimpleXMLElement( $contents );
+
+
+			foreach ( $doc->xpath( '//identity' ) as $elem ) {
+				$language = ( string ) $elem->language['type'];
+				if ( $language === '' ) {
+					continue;
+				}
+
+				$territory = ( string ) $elem->territory['type'];
+				if ( $territory === '' ) {
+					$territory = 'DEFAULT';
+				}
+			}
+
+			foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
+				if ( ( string ) $elem->symbol[0] !== '' ) {
+					$data['currencySymbols'][( string ) $elem['type']][$language][$territory] = ( string ) $elem->symbol[0];
+				}
+			}
+		}
+
+		//now massage the data somewhat. It's pretty blown up at this point.
+
+		/**
+		 * Part 1: Stop blowing up on defaults.
+		 * Defaults apparently come in many forms. Listed below in order of scope (widest to narrowest)
+		 * 1) The ISO code itself, in the absense of any other defaults
+		 * 2) The 'root' language file definition
+		 * 3) Language with no locality - locality will come in as 'DEFAULT'
+		 *
+		 * Intended behavior:
+		 * From narrowest scope to widest, collapse the defaults
+		 */
+		foreach ( $data['currencySymbols'] as $currency => $language ) {
+
+			//get the currency default symbol. This will either be defined in the 'root' language file, or taken from the ISO code.
+			$default = $currency;
+			if ( array_key_exists( 'root', $language ) ) {
+				$default = $language['root']['DEFAULT'];
+			}
+
+			foreach ( $language as $lang => $territories ) {
+				//Collapse a language (no locality) array if it's just the default. One value will do fine.
+				if ( is_array( $territories ) ) {
+					if ( count( $territories ) === 1 && array_key_exists( 'DEFAULT', $territories ) ) {
+						$data['currencySymbols'][$currency][$lang] = $territories['DEFAULT'];
+						if ( $territories['DEFAULT'] == $default && $lang != 'root' ) {
+							unset( $data['currencySymbols'][$currency][$lang] );
+						}
+					} else {
+						ksort( $data['currencySymbols'][$currency][$lang] );
+					}
+				}
+			}
+			ksort( $data['currencySymbols'][$currency] );
+		}
+		ksort( $data['currencySymbols'] );
+
+		$this->savephp( $data, $outputFile );
+	}
+
+	/**
+	 * savephp will build and return a string containing properly formatted php
+	 * output of all the vars we've just parsed out of the xml.
+	 * @param array $data The variable names and values we want defined in the php output
+	 * @param string $location File location to write
+	 */
+	function savephp( $data, $location ) {
 
 		if ( !count( $data ) ) {
 			return;
 		}
 
+		//Yes, I am aware I could have simply used var_export.
+		//...the spacing was ugly.
 		$output = "<?php\n";
 		foreach ( $data as $varname => $values ) {
 			$output .= "\n\$$varname = array(\n";
-			foreach( $values as $key => $value ) {
-				$key = addcslashes( $key, "'" );
-				$value = addcslashes( $value, "'" );
-				$output .= "'$key' => '$value',\n";
+			foreach ( $values as $key => $value ) {
+				if ( is_array( $value ) ) {
+					$output .= $this->makePrettyArrayOuts( $key, $value, 1 );
+				} else {
+					$key = addcslashes( $key, "'" );
+					$value = addcslashes( $value, "'" );
+					if ( !is_numeric( $key ) ) {
+						$key = "'$key'";
+					}
+					$output .= "\t$key => '$value',\n";
+				}
 			}
 			$output .= ");\n";
 		}
 
-		#$output = UtfNormal::cleanUp( $output );
-
-		file_put_contents( $outputFile, $output );
+		file_put_contents( $location, $output );
 	}
+
+	/**
+	 * It makes pretty array vals. Dur.
+	 * @param type $thing
+	 * @param type $level
+	 * @return string
+	 */
+	function makePrettyArrayOuts( $key, $value, $level = 1 ) {
+		$tabs = str_repeat( "\t", $level );
+
+		$key = addcslashes( $key, "'" );
+		if ( !is_numeric( $key ) ) {
+			$key = "'$key'";
+		}
+		$ret = "$tabs$key => array(\n";
+		foreach ( $value as $subkey => $subvalue ) {
+			if ( is_array( $subvalue ) ) {
+				$ret .= $this->makePrettyArrayOuts( $subkey, $subvalue, $level + 1 );
+			} else {
+				$subkey = addcslashes( $subkey, "'" );
+				$subvalue = addcslashes( $subvalue, "'" );
+				if ( !is_numeric( $subkey ) ) {
+					$subkey = "'$subkey'";
+				}
+				$ret .= "$tabs\t$subkey => '$subvalue',\n";
+			}
+		}
+		$ret .= "$tabs),\n";
+		return $ret;
+	}
+
 }
 
 /**
