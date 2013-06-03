@@ -458,7 +458,7 @@ $messages['mt'] = array(
 	'cldr-desc' => 'Estensjoni li tipprovdi l-ismijiet lokalizzati tal-lingwi abbażi tad-[http://cldr.unicode.org/index/downloads dejta CLDR]',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -472,7 +472,7 @@ $messages['nds'] = array(
 	'cldr-desc' => 'Verlöövt dat Bruken vun översett Naams vun Spraken', # Fuzzy
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -496,7 +496,7 @@ $messages['nl'] = array(
 	'cldr-desc' => 'Uitbreiding die vertaalde namen van talen biedt gebaseerd op [http://cldr.unicode.org/index/downloads CLDR-gegevens]',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Jeblad
  */
@@ -512,7 +512,7 @@ $messages['oc'] = array(
 	'cldr-desc' => 'Extension que provesís lo nom de las lengas disponiblas',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Psubhashish
  */
 $messages['or'] = array(
