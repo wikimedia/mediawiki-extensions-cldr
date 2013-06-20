@@ -3,3 +3,5 @@
 *.kate-swp
 .*.swp
 .idea
+core
+core.zip
