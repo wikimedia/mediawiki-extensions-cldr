@@ -28,7 +28,9 @@ class LanguageNames extends CldrNames {
 	 * @throws MWException
 	 * @return array an associative array of language codes and localized language names
 	 */
-	public static function getNames( $code, $fbMethod = self::FALLBACK_NATIVE, $list = self::LIST_MW ) {
+	public static function getNames( $code, $fbMethod = self::FALLBACK_NATIVE,
+		$list = self::LIST_MW
+	) {
 		$xx = self::loadLanguage( $code );
 		$native = Language::fetchLanguageNames(
 			null,
@@ -103,7 +105,7 @@ class LanguageNames extends CldrNames {
 		$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
 		if ( file_exists( $override ) ) {
 			$languageNames = false;
-			require( $override );
+			require $override;
 			if ( is_array( $languageNames ) ) {
 				self::$cache[$code] = $languageNames;
 			}
@@ -112,7 +114,7 @@ class LanguageNames extends CldrNames {
 		$filename = dirname( __FILE__ ) . '/CldrNames/' . self::getFileName( $code );
 		if ( file_exists( $filename ) ) {
 			$languageNames = false;
-			require( $filename );
+			require $filename;
 			if ( is_array( $languageNames ) ) {
 				if ( isset( self::$cache[$code] ) ) {
 					// Add to existing list of localized language names

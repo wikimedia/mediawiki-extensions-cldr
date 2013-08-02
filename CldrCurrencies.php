@@ -14,6 +14,7 @@ class CldrCurrency {
 	/**
 	 * Loads the file which contains the relevant data
 	 * @param string $data 'symbols' | 'fractions' | 'locale'
+	 * @throws MWException
 	 */
 	private static function loadData( $data ) {
 
@@ -40,8 +41,9 @@ class CldrCurrency {
 
 		//go get it
 		if ( file_exists( $filename ) ) {
-			require_once( $filename );
+			require_once $filename;
 		}
+
 		foreach ( $value as $dataname => $varname ){
 			self::$cache[$dataname] = $$varname;
 		}
@@ -84,9 +86,17 @@ class CldrCurrency {
 				if ( is_array( self::$cache['symbols'][$currency_code][$language_code] ) ) {
 
 					//did we specify a country? If not: Default.
-					if ( !is_null( $country_code ) && array_key_exists( $country_code, self::$cache['symbols'][$currency_code][$language_code] ) ) {
+					if ( !is_null( $country_code ) &&
+						array_key_exists(
+							$country_code,
+							self::$cache['symbols'][$currency_code][$language_code]
+						)
+					) {
 						return self::$cache['symbols'][$currency_code][$language_code][$country_code];
-					} elseif ( array_key_exists( 'DEFAULT', self::$cache['symbols'][$currency_code][$language_code] ) ) {
+					} elseif ( array_key_exists(
+						'DEFAULT',
+						self::$cache['symbols'][$currency_code][$language_code]
+					) ) {
 						return self::$cache['symbols'][$currency_code][$language_code]['DEFAULT'];
 					} else {
 						return $default;
@@ -135,10 +145,9 @@ class CldrCurrency {
 		self::loadData( 'fractions' );
 		$currency_code = strtoupper( $currency_code );
 		if ( array_key_exists( $currency_code, self::$cache['fractions'] ) ) {
-			return ( int ) self::$cache['fractions'][$currency_code]['digits'];
+			return (int) self::$cache['fractions'][$currency_code]['digits'];
 		} else {
-			return ( int ) self::$cache['fractions']['DEFAULT']['digits'];
+			return (int) self::$cache['fractions']['DEFAULT']['digits'];
 		}
 	}
-
 }

@@ -59,7 +59,9 @@ class TimeUnits extends CldrNames {
 			$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$timeUnits = false;
-				require( $override );
+
+				require $override;
+
 				if ( is_array( $timeUnits ) ) {
 					self::$cache[$code] = $timeUnits;
 				}
@@ -68,7 +70,7 @@ class TimeUnits extends CldrNames {
 			$filename = dirname( __FILE__ ) . '/CldrNames/' . self::getFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$timeUnits = false;
-				require( $filename );
+				require $filename;
 				if ( is_array( $timeUnits ) ) {
 					if ( isset( self::$cache[$code] ) ) {
 						// Add to existing list of localized time units

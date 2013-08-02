@@ -57,7 +57,7 @@ class CountryNames extends CldrNames {
 			$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$countryNames = false;
-				require( $override );
+				require $override;
 				if ( is_array( $countryNames ) ) {
 					self::$cache[$code] = $countryNames;
 				}
@@ -66,7 +66,7 @@ class CountryNames extends CldrNames {
 			$filename = dirname( __FILE__ ) . '/CldrNames/' . self::getFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$countryNames = false;
-				require( $filename );
+				require $filename;
 				if ( is_array( $countryNames ) ) {
 					if ( isset( self::$cache[$code] ) ) {
 						// Add to existing list of localized country names

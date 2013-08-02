@@ -57,7 +57,7 @@ class CurrencyNames extends CldrNames {
 			$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$currencyNames = false;
-				require( $override );
+				require $override;
 				if ( is_array( $currencyNames ) ) {
 					self::$cache[$code] = $currencyNames;
 				}
@@ -66,7 +66,7 @@ class CurrencyNames extends CldrNames {
 			$filename = dirname( __FILE__ ) . '/CldrNames/' . self::getFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$currencyNames = false;
-				require( $filename );
+				require $filename;
 				if ( is_array( $currencyNames ) ) {
 					if ( isset( self::$cache[$code] ) ) {
 						// Add to existing list of localized currency names

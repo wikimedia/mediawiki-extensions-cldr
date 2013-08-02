@@ -9,6 +9,7 @@
  * @copyright Copyright © 2007-2012
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
+
 // Standard boilerplate to define $IP
 if ( getenv( 'MW_INSTALL_PATH' ) !== false ) {
 	$IP = getenv( 'MW_INSTALL_PATH' );
@@ -16,7 +17,7 @@ if ( getenv( 'MW_INSTALL_PATH' ) !== false ) {
 	$dir = dirname( __FILE__ );
 	$IP = "$dir/../..";
 }
-require_once( "$IP/maintenance/Maintenance.php" );
+require_once "$IP/maintenance/Maintenance.php";
 
 class CLDRRebuild extends Maintenance {
 
@@ -36,8 +37,8 @@ class CLDRRebuild extends Maintenance {
 	}
 
 	public function execute() {
-		$dir = dirname( __FILE__ );
-		require_once( "$dir/cldr.php" );
+		$dir = __DIR__;
+		require_once "$dir/cldr.php";
 
 		$DATA = $this->getOption( 'datadir', "$dir/core/common/main" );
 		$OUTPUT = $this->getOption( 'outputdir', $dir );
@@ -90,7 +91,9 @@ class CLDRRebuild extends Maintenance {
 
 		//Now parse out what we want form the supplemental file
 		$this->output( "Parsing Supplemental Data...\n" );
-		$input = "$DATA/../supplemental/supplementalData.xml"; //argh! If $DATA defaulted to something slightly more general in the CLDR dump, this wouldn't have to be this way.
+		//argh! If $DATA defaulted to something slightly more general in the
+		// CLDR dump, this wouldn't have to be this way.
+		$input = "$DATA/../supplemental/supplementalData.xml";
 		if ( file_exists( $input ) ) {
 			$p = new CLDRParser();
 			$p->parse_supplemental( $input, "$OUTPUT/CldrSupplemental/Supplemental.php" );
@@ -122,48 +125,52 @@ class CLDRParser {
 		$data = array( );
 
 		foreach ( $doc->xpath( '//languages/language' ) as $elem ) {
-			if ( ( string ) $elem['alt'] !== '' ) {
+			if ( (string) $elem['alt'] !== '' ) {
 				continue;
 			}
 
-			if ( ( string ) $elem['type'] === 'root' ) {
+			if ( (string) $elem['type'] === 'root' ) {
 				continue;
 			}
 
 			$key = str_replace( '_', '-', strtolower( $elem['type'] ) );
 
-			$data['languageNames'][$key] = ( string ) $elem;
+			$data['languageNames'][$key] = (string) $elem;
 		}
 
 		foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
-			if ( ( string ) $elem->displayName[0] === '' ) {
+			if ( (string) $elem->displayName[0] === '' ) {
 				continue;
 			}
 
-			$data['currencyNames'][( string ) $elem['type']] = ( string ) $elem->displayName[0];
-			if ( ( string ) $elem->symbol[0] !== '' ) {
-				$data['currencySymbols'][( string ) $elem['type']] = ( string ) $elem->symbol[0];
+			$data['currencyNames'][(string) $elem['type']] = (string) $elem->displayName[0];
+			if ( (string) $elem->symbol[0] !== '' ) {
+				$data['currencySymbols'][(string) $elem['type']] = (string) $elem->symbol[0];
 			}
 		}
 
 		foreach ( $doc->xpath( '//territories/territory' ) as $elem ) {
-			if ( ( string ) $elem['alt'] !== '' && ( string ) $elem['alt'] !== 'short' ) {
+			if ( (string) $elem['alt'] !== '' && (string) $elem['alt'] !== 'short' ) {
 				continue;
 			}
 
-			if ( ( string ) $elem['type'] === 'ZZ' || !preg_match( '/^[A-Z][A-Z]$/', $elem['type'] ) ) {
+			if ( (string) $elem['type'] === 'ZZ' ||
+				!preg_match( '/^[A-Z][A-Z]$/', $elem['type'] )
+			) {
 				continue;
 			}
 
-			$data['countryNames'][( string ) $elem['type']] = ( string ) $elem;
+			$data['countryNames'][(string) $elem['type']] = (string) $elem;
 		}
 
 		foreach ( $doc->xpath( '//units/unit' ) as $elem ) {
 			foreach ( $elem->unitPattern as $pattern ) {
-				if ( ( string ) $pattern['alt'] !== '' ) {
+				if ( (string) $pattern['alt'] !== '' ) {
 					continue;
 				}
-				$data['timeUnits'][( string ) $elem['type'] . '-' . ( string ) $pattern['count']] = ( string ) $pattern;
+
+				$data['timeUnits'][(string) $elem['type'] . '-' .
+					(string) $pattern['count']] = (string) $pattern;
 			}
 		}
 
@@ -183,35 +190,33 @@ class CLDRParser {
 
 		$data = array( );
 
-
 		//Pull currency attributes - digits, rounding, and cashRounding.
 		//This will tell us how many decmal places make sense to use with any currency,
 		//or if the currency is totally non-fractional
 		foreach ( $doc->xpath( '//currencyData/fractions/info' ) as $elem ) {
-			if ( ( string ) $elem['iso4217'] === '' ) {
+			if ( (string) $elem['iso4217'] === '' ) {
 				continue;
 			}
 
 			$attributes = array( 'digits', 'rounding', 'cashRounding' );
 			foreach ( $attributes as $att ) {
-				if ( ( string ) $elem[$att] !== '' ) {
-					$data['currencyFractions'][( string ) $elem['iso4217']][$att] = ( string ) $elem[$att];
+				if ( (string) $elem[$att] !== '' ) {
+					$data['currencyFractions'][(string) $elem['iso4217']][$att] = (string) $elem[$att];
 				}
 			}
 		}
 
-
 		//Pull a map of regions to currencies in order of perference.
 		foreach ( $doc->xpath( '//currencyData/region' ) as $elem ) {
-			if ( ( string ) $elem['iso3166'] === '' ) {
+			if ( (string) $elem['iso3166'] === '' ) {
 				continue;
 			}
 
-			$region = ( string ) $elem['iso3166'];
+			$region = (string) $elem['iso3166'];
 
 			foreach ( $elem->currency as $currencynode ) {
-				if ( ( string ) $currencynode['to'] === '' && ( string ) $currencynode['tender'] !== 'false' ) {
-					$data['localeCurrencies'][$region][] = ( string ) $currencynode['iso4217'];
+				if ( (string) $currencynode['to'] === '' && (string) $currencynode['tender'] !== 'false' ) {
+					$data['localeCurrencies'][$region][] = (string) $currencynode['iso4217'];
 				}
 			}
 		}
@@ -244,22 +249,22 @@ class CLDRParser {
 			$contents = file_get_contents( $inputDir . '/' . $inputFile );
 			$doc = new SimpleXMLElement( $contents );
 
-
 			foreach ( $doc->xpath( '//identity' ) as $elem ) {
-				$language = ( string ) $elem->language['type'];
+				$language = (string) $elem->language['type'];
 				if ( $language === '' ) {
 					continue;
 				}
 
-				$territory = ( string ) $elem->territory['type'];
+				$territory = (string) $elem->territory['type'];
 				if ( $territory === '' ) {
 					$territory = 'DEFAULT';
 				}
 			}
 
 			foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
-				if ( ( string ) $elem->symbol[0] !== '' ) {
-					$data['currencySymbols'][( string ) $elem['type']][$language][$territory] = ( string ) $elem->symbol[0];
+				if ( (string) $elem->symbol[0] !== '' ) {
+					$data['currencySymbols'][(string) $elem['type']][$language][$territory] =
+						(string) $elem->symbol[0];
 				}
 			}
 		}
@@ -268,7 +273,8 @@ class CLDRParser {
 
 		/**
 		 * Part 1: Stop blowing up on defaults.
-		 * Defaults apparently come in many forms. Listed below in order of scope (widest to narrowest)
+		 * Defaults apparently come in many forms. Listed below in order of scope
+		 * (widest to narrowest)
 		 * 1) The ISO code itself, in the absense of any other defaults
 		 * 2) The 'root' language file definition
 		 * 3) Language with no locality - locality will come in as 'DEFAULT'
@@ -278,7 +284,8 @@ class CLDRParser {
 		 */
 		foreach ( $data['currencySymbols'] as $currency => $language ) {
 
-			//get the currency default symbol. This will either be defined in the 'root' language file, or taken from the ISO code.
+			//get the currency default symbol. This will either be defined in the
+			// 'root' language file, or taken from the ISO code.
 			$default = $currency;
 			if ( array_key_exists( 'root', $language ) ) {
 				$default = $language['root']['DEFAULT'];
@@ -368,7 +375,6 @@ class CLDRParser {
 		$ret .= "$tabs),\n";
 		return $ret;
 	}
-
 }
 
 /**
@@ -398,4 +404,4 @@ function getRealCode( $code ) {
 }
 
 $maintClass = 'CLDRRebuild';
-require_once( RUN_MAINTENANCE_IF_MAIN );
+require_once RUN_MAINTENANCE_IF_MAIN;
