@@ -179,8 +179,8 @@ class CLDRParser {
 
 	/**
 	 * Parse method for the file structure found in common/supplemental/supplementalData.xml
-	 * @param type $inputFile
-	 * @param type $outputFile
+	 * @param string $inputFile
+	 * @param string $outputFile
 	 */
 	function parse_supplemental( $inputFile, $outputFile ) {
 		// Open the input file for reading
@@ -229,11 +229,10 @@ class CLDRParser {
 	 * This is separate from the regular parse function, because we need all of
 	 * the currency locale information, even if mediawiki doesn't support the language.
 	 * (For instance: en_AU uses '$' for AUD, not USD, but it's not a supported mediawiki locality)
-	 * @param type $inputDir - the directory, in which we will parse everything.
-	 * @param type $outputFile
+	 * @param string $inputDir - the directory, in which we will parse everything.
+	 * @param string $outputFile
 	 */
 	function parse_currency_symbols( $inputDir, $outputFile ) {
-
 		if ( file_exists( $inputDir ) ) {
 			$files = scandir( $inputDir );
 		}
@@ -283,7 +282,6 @@ class CLDRParser {
 		 * From narrowest scope to widest, collapse the defaults
 		 */
 		foreach ( $data['currencySymbols'] as $currency => $language ) {
-
 			//get the currency default symbol. This will either be defined in the
 			// 'root' language file, or taken from the ISO code.
 			$default = $currency;
@@ -304,8 +302,10 @@ class CLDRParser {
 					}
 				}
 			}
+
 			ksort( $data['currencySymbols'][$currency] );
 		}
+
 		ksort( $data['currencySymbols'] );
 
 		$this->savephp( $data, $outputFile );
@@ -348,8 +348,9 @@ class CLDRParser {
 
 	/**
 	 * It makes pretty array vals. Dur.
-	 * @param type $thing
-	 * @param type $level
+	 * @param string $key
+	 * @param string $value
+	 * @param int $level
 	 * @return string
 	 */
 	function makePrettyArrayOuts( $key, $value, $level = 1 ) {
