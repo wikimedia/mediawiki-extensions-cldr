@@ -75,6 +75,13 @@ $messages['bcc'] = array(
 	'cldr-desc' => 'برنامه الحاقی که نام دگه زبانانء ترجمه اش کنت', # Fuzzy
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'cldr-desc' => 'Ekstensyon na minatao nin lokalisadong pangaran kan lengguwahe na nakabase sa [http://cldr.unicode.org/index/downloads datos nin CLDR]',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
