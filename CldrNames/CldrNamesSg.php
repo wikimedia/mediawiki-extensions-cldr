@@ -101,7 +101,7 @@ $currencyNames = array(
 'XAF' => 'farânga CFA (BEAC)',
 'XOF' => 'farânga CFA (BCEAO)',
 'ZAR' => 'rânde tî Mbongo-Afrîka',
-'ZMK' => 'kwâtia tî Zambïi (1968-2012)',
+'ZMK' => 'kwâtia tî Zambïi (1968–2012)',
 'ZMW' => 'kwâtia tî Zambïi',
 'ZWD' => 'dolära tî Zimbäbwe',
 );

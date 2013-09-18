@@ -117,6 +117,10 @@ $currencyNames = array(
 'AFN' => 'افغانۍ',
 );
 
+$currencySymbols = array(
+'AFN' => '؋',
+);
+
 $countryNames = array(
 'AF' => 'افغانستان',
 'AL' => 'البانیه',

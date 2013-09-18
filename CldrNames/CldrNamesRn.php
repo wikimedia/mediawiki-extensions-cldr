@@ -99,9 +99,13 @@ $currencyNames = array(
 'UGX' => 'Ishilingi ry\'Ubugande',
 'USD' => 'Idolari ry\'abanyamerika',
 'ZAR' => 'Irandi ryo muri Afurika y\'Epfo',
-'ZMK' => 'Ikwaca ryo muri Zambiya (1968-2012)',
+'ZMK' => 'Ikwaca ryo muri Zambiya (1968–2012)',
 'ZMW' => 'Ikwaca ryo muri Zambiya',
 'ZWD' => 'Idolari ryo muri Zimbabwe',
+);
+
+$currencySymbols = array(
+'BIF' => 'FBu',
 );
 
 $countryNames = array(

@@ -133,6 +133,10 @@ $currencyNames = array(
 'XXX' => 'Lacag aan la qoon ama aan saxnayn',
 );
 
+$currencySymbols = array(
+'SOS' => 'S',
+);
+
 $countryNames = array(
 'AD' => 'Andora',
 'AE' => 'Imaaraadka Carabta ee Midoobay',

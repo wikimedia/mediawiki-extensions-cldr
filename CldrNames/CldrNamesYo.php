@@ -156,9 +156,13 @@ $currencyNames = array(
 'XAF' => 'Faransi ti Orílẹ́ède BEKA',
 'XOF' => 'Faransi ti Orílẹ́ède BIKEAO',
 'ZAR' => 'Randi ti Orílẹ́ède Ariwa Afirika',
-'ZMK' => 'Kawaṣa ti Orílẹ́ède Saabia (1968-2012)',
+'ZMK' => 'Kawaṣa ti Orílẹ́ède Saabia (1968–2012)',
 'ZMW' => 'Kawaṣa ti Orílẹ́ède Saabia',
 'ZWD' => 'Dọla ti Orílẹ́ède Siibabuwe',
+);
+
+$currencySymbols = array(
+'NGN' => '₦',
 );
 
 $countryNames = array(

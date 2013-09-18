@@ -56,7 +56,6 @@ $currencyNames = array(
 'BWP' => 'Botswana Pula',
 'CAD' => 'Kanada Dɔla',
 'CDF' => 'Kongo Frank',
-'CHF' => 'Sweden Frank',
 'CNY' => 'Yuan',
 'CVE' => 'Ɛskudo',
 'DJF' => 'Gyebuti Frank',
@@ -66,7 +65,7 @@ $currencyNames = array(
 'ETB' => 'Itiopia Bir',
 'EUR' => 'Iro',
 'GBP' => 'Breten Pɔn',
-'GHC' => 'Ghana Sidi (1979-2007)',
+'GHC' => 'Ghana Sidi (1979–2007)',
 'GHS' => 'Ghana Sidi',
 'GMD' => 'Gambia Dalasi',
 'GNS' => 'Gini Frank',
@@ -101,9 +100,13 @@ $currencyNames = array(
 'USD' => 'Amɛrika Dɔla',
 'XAF' => 'Sefa',
 'ZAR' => 'Afrika Anaafo Rand',
-'ZMK' => 'Zambia Kwacha (1968-2012)',
+'ZMK' => 'Zambia Kwacha (1968–2012)',
 'ZMW' => 'Zambia Kwacha',
 'ZWD' => 'Zimbabwe Dɔla',
+);
+
+$currencySymbols = array(
+'GHS' => 'GH₵',
 );
 
 $countryNames = array(

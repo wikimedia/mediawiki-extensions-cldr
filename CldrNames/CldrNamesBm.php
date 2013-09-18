@@ -102,7 +102,7 @@ $currencyNames = array(
 'XAF' => 'sefa Fraŋ (BEAC)',
 'XOF' => 'sefa Fraŋ (BCEAO)',
 'ZAR' => 'sudafriki Randi',
-'ZMK' => 'zambi Kwaca (1968-2012)',
+'ZMK' => 'zambi Kwaca (1968–2012)',
 'ZMW' => 'zambi Kwaca',
 'ZWD' => 'zimbabuwe Dolar',
 );

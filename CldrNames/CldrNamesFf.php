@@ -101,7 +101,7 @@ $currencyNames = array(
 'XAF' => 'Mbuuɗi Seefaa BEAC',
 'XOF' => 'Mbuuɗu Seefaa BCEAO',
 'ZAR' => 'Rannda Afrik Bŋ Worgo',
-'ZMK' => 'Kuwacca Sammbi (1968-2012)',
+'ZMK' => 'Kuwacca Sammbi (1968–2012)',
 'ZMW' => 'Kuwacca Sammbi',
 'ZWD' => 'Dolaar Simbaabuwe',
 );

@@ -52,6 +52,10 @@ $currencyNames = array(
 'NGN' => 'Naịra',
 );
 
+$currencySymbols = array(
+'NGN' => '₦',
+);
+
 $countryNames = array(
 'BJ' => 'Binin',
 'BM' => 'Bemuda',

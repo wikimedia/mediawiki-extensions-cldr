@@ -100,12 +100,12 @@ class CLDRRebuild extends Maintenance {
 		} else {
 			$this->output( "File $input not found\n" );
 		}
-		$this->output( "Done pasring supplemental data.\n" );
+		$this->output( "Done parsing supplemental data.\n" );
 
 		$this->output( "Parsing Currency Symbol Data...\n" );
 		$p = new CLDRParser();
 		$p->parse_currency_symbols( $DATA, "$OUTPUT/CldrCurrency/Symbols.php" );
-		$this->output( "Done pasring currency symbols.\n" );
+		$this->output( "Done parsing currency symbols.\n" );
 	}
 
 }
@@ -122,7 +122,13 @@ class CLDRParser {
 		$contents = file_get_contents( $inputFile );
 		$doc = new SimpleXMLElement( $contents );
 
-		$data = array( );
+		$data = array(
+			'languageNames' => array(),
+			'currencyNames' => array(),
+			'currencySymbols' => array(),
+			'countryNames' => array(),
+			'timeUnits' => array(),
+		);
 
 		foreach ( $doc->xpath( '//languages/language' ) as $elem ) {
 			if ( (string) $elem['alt'] !== '' ) {
@@ -162,17 +168,34 @@ class CLDRParser {
 
 			$data['countryNames'][(string) $elem['type']] = (string) $elem;
 		}
-
-		foreach ( $doc->xpath( '//units/unit' ) as $elem ) {
-			foreach ( $elem->unitPattern as $pattern ) {
-				if ( (string) $pattern['alt'] !== '' ) {
+		foreach ( $doc->xpath( '//units/unitLength' ) as $unitLength ) {
+			if ( (string)$unitLength['type'] !== 'long' ) {
+				continue;
+			}
+			foreach ( $unitLength->unit as $elem ) {
+				$type = (string)$elem['type'];
+				$pos = strpos( $type, 'duration' );
+				if ( $pos === false ) {
 					continue;
 				}
-
-				$data['timeUnits'][(string) $elem['type'] . '-' .
-					(string) $pattern['count']] = (string) $pattern;
+				$type = substr( $type, strlen( 'duration-' ) );
+				foreach ( $elem->unitPattern as $pattern ) {
+					$data['timeUnits'][$type . '-' . (string) $pattern['count']] = (string) $pattern;
+				}
 			}
 		}
+		foreach ( $doc->xpath( '//fields/field' ) as $field ) {
+			$fieldType = (string) $field['type'];
+
+			foreach ( $field->relativeTime as $relative ) {
+				$type = (string) $relative['type'];
+				foreach( $relative->relativeTimePattern as $pattern ) {
+					$data['timeUnits'][$fieldType . '-' . $type
+						. '-' . (string) $pattern['count']] = (string) $pattern;
+				}
+			}
+		}
+		ksort( $data['timeUnits'] );
 
 		$this->savephp( $data, $outputFile );
 	}
@@ -188,7 +211,10 @@ class CLDRParser {
 		$contents = file_get_contents( $inputFile );
 		$doc = new SimpleXMLElement( $contents );
 
-		$data = array( );
+		$data = array(
+			'currencyFractions' => array(),
+			'localeCurrencies' => array(),
+		);
 
 		//Pull currency attributes - digits, rounding, and cashRounding.
 		//This will tell us how many decmal places make sense to use with any currency,
@@ -233,11 +259,14 @@ class CLDRParser {
 	 * @param string $outputFile
 	 */
 	function parse_currency_symbols( $inputDir, $outputFile ) {
-		if ( file_exists( $inputDir ) ) {
-			$files = scandir( $inputDir );
+		if ( !file_exists( $inputDir ) ) {
+			return;
 		}
+		$files = scandir( $inputDir );
 
-		$data = array( );
+		$data = array(
+			'currencySymbols' => array(),
+		);
 
 		// Foreach files!
 		foreach ( $files as $inputFile ) {
@@ -318,8 +347,15 @@ class CLDRParser {
 	 * @param string $location File location to write
 	 */
 	function savephp( $data, $location ) {
+		$hasData = false;
+		foreach( $data as $v ) {
+			if ( count( $v ) ) {
+				$hasData = true;
+				break;
+			}
+		}
 
-		if ( !count( $data ) ) {
+		if ( !$hasData ) {
 			return;
 		}
 
@@ -327,6 +363,10 @@ class CLDRParser {
 		//...the spacing was ugly.
 		$output = "<?php\n";
 		foreach ( $data as $varname => $values ) {
+			if ( !count( $values ) ) {
+				// Don't output empty arrays
+				continue;
+			}
 			$output .= "\n\$$varname = array(\n";
 			foreach ( $values as $key => $value ) {
 				if ( is_array( $value ) ) {
@@ -349,7 +389,7 @@ class CLDRParser {
 	/**
 	 * It makes pretty array vals. Dur.
 	 * @param string $key
-	 * @param string $value
+	 * @param array $value
 	 * @param int $level
 	 * @return string
 	 */

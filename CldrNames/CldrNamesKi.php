@@ -101,9 +101,13 @@ $currencyNames = array(
 'XAF' => 'Faranga CFA BEAC',
 'XOF' => 'Faranga CFA BCEAO',
 'ZAR' => 'Randi ya Afrika Kusini',
-'ZMK' => 'Kwacha ya Zambia (1968-2012)',
+'ZMK' => 'Kwacha ya Zambia (1968–2012)',
 'ZMW' => 'Kwacha ya Zambia',
 'ZWD' => 'Dola ya Zimbabwe',
+);
+
+$currencySymbols = array(
+'KES' => 'Ksh',
 );
 
 $countryNames = array(

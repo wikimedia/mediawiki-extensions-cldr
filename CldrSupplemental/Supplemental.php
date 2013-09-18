@@ -215,6 +215,11 @@ $currencyFractions = array(
 		'digits' => '0',
 		'rounding' => '0',
 	),
+	'TWD' => array(
+		'digits' => '2',
+		'rounding' => '0',
+		'cashRounding' => '0',
+	),
 	'UGX' => array(
 		'digits' => '0',
 		'rounding' => '0',
@@ -287,9 +292,6 @@ $localeCurrencies = array(
 	),
 	'AO' => array(
 		0 => 'AOA',
-	),
-	'AQ' => array(
-		0 => 'XXX',
 	),
 	'AR' => array(
 		0 => 'ARS',
@@ -411,9 +413,6 @@ $localeCurrencies = array(
 	),
 	'CO' => array(
 		0 => 'COP',
-	),
-	'CP' => array(
-		0 => 'XXX',
 	),
 	'CR' => array(
 		0 => 'CRC',
@@ -686,7 +685,7 @@ $localeCurrencies = array(
 		0 => 'EUR',
 	),
 	'LV' => array(
-		0 => 'LVL',
+		0 => 'EUR',
 	),
 	'LY' => array(
 		0 => 'LYD',
@@ -1020,6 +1019,9 @@ $localeCurrencies = array(
 	),
 	'WS' => array(
 		0 => 'WST',
+	),
+	'XK' => array(
+		0 => 'EUR',
 	),
 	'YE' => array(
 		0 => 'YER',

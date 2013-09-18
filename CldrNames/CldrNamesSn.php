@@ -102,7 +102,7 @@ $currencyNames = array(
 'XAF' => 'Furenki CFA BEAC',
 'XOF' => 'Furenki CFA BCEAO',
 'ZAR' => 'Randi',
-'ZMK' => 'Kwacha ye Zambia (1968-2012)',
+'ZMK' => 'Kwacha ye Zambia (1968–2012)',
 'ZMW' => 'Kwacha ye Zambia',
 'ZWD' => 'Dora re Zimbabwe',
 );

@@ -109,6 +109,10 @@ $currencyNames = array(
 'USD' => 'የአሜሪካን ዶላር',
 );
 
+$currencySymbols = array(
+'ETB' => 'Br',
+);
+
 $countryNames = array(
 'AD' => 'አንዶራ',
 'AE' => 'የተባበሩት አረብ ኤምሬትስ',

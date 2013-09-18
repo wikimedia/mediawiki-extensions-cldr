@@ -6,4 +6,5 @@ $languageNames = array(
 
 $countryNames = array(
 'GB' => 'Rywvaneth Unys',
+'IM' => 'Ellan Vannin',
 );

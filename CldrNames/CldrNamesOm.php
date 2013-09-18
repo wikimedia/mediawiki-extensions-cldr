@@ -102,6 +102,10 @@ $currencyNames = array(
 'USD' => 'US Dollar',
 );
 
+$currencySymbols = array(
+'ETB' => 'Br',
+);
+
 $countryNames = array(
 'BR' => 'Brazil',
 'CN' => 'China',

@@ -88,6 +88,13 @@ $currencyNames = array(
 'XXX' => 'Нӕзонгӕ валютӕ',
 );
 
+$currencySymbols = array(
+'BRL' => 'R$',
+'EUR' => '€',
+'GBP' => '£',
+'USD' => '$',
+);
+
 $countryNames = array(
 'BR' => 'Бразили',
 'CN' => 'Китай',
@@ -103,16 +110,16 @@ $countryNames = array(
 );
 
 $timeUnits = array(
-'day-one' => '{0} бон',
-'day-other' => '{0} боны',
 'day-future-one' => '{0} боны фӕстӕ',
 'day-future-other' => '{0} боны фӕстӕ',
+'day-one' => '{0} бон',
+'day-other' => '{0} боны',
 'day-past-one' => '{0} бон раздӕр',
 'day-past-other' => '{0} боны размӕ',
-'hour-one' => '{0} сахат',
-'hour-other' => '{0} сахаты',
 'hour-future-one' => '{0} сахаты фӕстӕ',
 'hour-future-other' => '{0} сахаты фӕстӕ',
+'hour-one' => '{0} сахат',
+'hour-other' => '{0} сахаты',
 'hour-past-one' => '{0} сахаты размӕ',
 'hour-past-other' => '{0} сахаты размӕ',
 'minute-one' => '{0} минут',

@@ -101,9 +101,13 @@ $currencyNames = array(
 'XAF' => 'Afrank BCEA CFA',
 'XOF' => 'Afrank BCEAO CFA',
 'ZAR' => 'Arand Afriqi n Wadda',
-'ZMK' => 'Akwaca Azambi (1968-2012)',
+'ZMK' => 'Akwaca Azambi (1968–2012)',
 'ZMW' => 'Akwaca Azambi',
 'ZWD' => 'Adular Azimbabwi',
+);
+
+$currencySymbols = array(
+'DZD' => 'DA',
 );
 
 $countryNames = array(

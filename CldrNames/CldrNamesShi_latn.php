@@ -102,7 +102,7 @@ $currencyNames = array(
 'XAF' => 'frank ṣifa',
 'XOF' => 'frank ṣifa bisaw',
 'ZAR' => 'arand n afriqya n iffus',
-'ZMK' => 'akwaca n zambya (1968-2012)',
+'ZMK' => 'akwaca n zambya (1968–2012)',
 'ZMW' => 'akwaca n zambya',
 'ZWD' => 'adular n zimbabwi',
 );

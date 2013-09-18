@@ -65,6 +65,10 @@ $currencyNames = array(
 'TJS' => 'Сомонӣ',
 );
 
+$currencySymbols = array(
+'TJS' => 'сом',
+);
+
 $countryNames = array(
 'AF' => 'Афғонистан',
 'TJ' => 'Тоҷикистон',

@@ -171,6 +171,10 @@ $currencyNames = array(
 'XPT' => 'unse platin',
 );
 
+$currencySymbols = array(
+'DKK' => 'kr',
+);
+
 $countryNames = array(
 'AC' => 'Ascensionoyggjin',
 'AD' => 'Andorra',
@@ -361,7 +365,7 @@ $countryNames = array(
 'PM' => 'Saint Pierre og Miquelon',
 'PN' => 'Pitcairn',
 'PR' => 'Puerto Rico',
-'PS' => 'Palestinskt territorium',
+'PS' => 'Palestina',
 'PT' => 'Portugal',
 'PW' => 'Palau',
 'PY' => 'Paraguei',
@@ -410,7 +414,7 @@ $countryNames = array(
 'TZ' => 'Tansania',
 'UA' => 'Ukreina',
 'UG' => 'Uganda',
-'US' => 'Sambandsríki Amerika',
+'US' => 'USA',
 'UY' => 'Uruguei',
 'UZ' => 'Usbekistan',
 'VA' => 'Vatikan',
@@ -422,9 +426,10 @@ $countryNames = array(
 'VU' => 'Vanuatu',
 'WF' => 'Wallis og Futuna',
 'WS' => 'Sámoa',
+'XK' => 'Kosovo',
 'YE' => 'Jemen',
 'YT' => 'Mayotte',
-'ZA' => 'Suðurafrika',
+'ZA' => 'Suðurafrikalýðveldið',
 'ZM' => 'Sambia',
 'ZW' => 'Simbabvi',
 );
@@ -434,6 +439,8 @@ $timeUnits = array(
 'day-other' => '{0} samdøgur',
 'hour-one' => '{0} tími',
 'hour-other' => '{0} tímar',
+'millisecond-one' => '{0} millisekund',
+'millisecond-other' => '{0} millissekundir',
 'minute-one' => '{0} minuttur',
 'minute-other' => '{0} minuttir',
 'month-one' => '{0} mánadur',
@@ -443,5 +450,5 @@ $timeUnits = array(
 'week-one' => '{0} vika',
 'week-other' => '{0} vikur',
 'year-one' => '{0} ár',
-'year-other' => '{0} ár',
+'year-other' => '{0} ára',
 );
