@@ -6,7 +6,7 @@ if ( !defined( 'MEDIAWIKI' ) ) die();
  * @file
  * @ingroup Extensions
  * @author Niklas Laxström
- * @copyright Copyright © 2007-2010, Niklas Laxström
+ * @copyright Copyright © 2007-2013, Niklas Laxström
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 define( 'CLDR_VERSION', '4.0.0 (CLDR 24)' );
@@ -15,7 +15,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Language Names',
 	'version' => CLDR_VERSION,
-	'author' => array( 'Niklas Laxström', 'Siebrand Mazeland', 'Ryan Kaldari' ),
+	'author' => array( 'Niklas Laxström', 'Siebrand Mazeland', 'Ryan Kaldari', 'Sam Reed' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:CLDR',
 	'descriptionmsg' => 'cldr-desc',
 );
