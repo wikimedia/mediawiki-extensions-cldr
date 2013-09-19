@@ -1,5 +1,5 @@
 <?php
 
 $languageNames = array(
-'vo' => 'Volapük',
+	'vo' => 'Volapük',
 );

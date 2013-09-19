@@ -1,5 +1,5 @@
 <?php
 
 $languageNames = array(
-'ve' => 'Tshivenḓa',
+	've' => 'Tshivenḓa',
 );

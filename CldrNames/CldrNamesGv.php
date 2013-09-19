@@ -1,10 +1,10 @@
 <?php
 
 $languageNames = array(
-'gv' => 'Gaelg',
+	'gv' => 'Gaelg',
 );
 
 $countryNames = array(
-'GB' => 'Rywvaneth Unys',
-'IM' => 'Ellan Vannin',
+	'GB' => 'Rywvaneth Unys',
+	'IM' => 'Ellan Vannin',
 );

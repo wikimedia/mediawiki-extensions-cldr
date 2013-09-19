@@ -1,5 +1,5 @@
 <?php
 
 $languageNames = array(
-'ss' => 'Siswati',
+	'ss' => 'Siswati',
 );
