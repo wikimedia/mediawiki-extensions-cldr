@@ -162,7 +162,7 @@ class TimeUnits extends CldrNames {
 		// Select the appropriate template for the timestamp.
 		$timeUnit = $timeUnits[$timeUnitKey];
 		// Replace the placeholder with the number.
-		$output = str_replace( '{0}', $number, $timeUnit );
+		$output = str_replace( '{0}', $lang->formatNum( $number ), $timeUnit );
 
 		return false;
 	}
