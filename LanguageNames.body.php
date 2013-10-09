@@ -12,11 +12,11 @@ class LanguageNames extends CldrNames {
 
 	private static $cache = array();
 
-	const FALLBACK_NATIVE   = 0; // Missing entries fallback to native name
-	const FALLBACK_NORMAL   = 1; // Missing entries fallback through the fallback chain
+	const FALLBACK_NATIVE = 0; // Missing entries fallback to native name
+	const FALLBACK_NORMAL = 1; // Missing entries fallback through the fallback chain
 	const LIST_MW_SUPPORTED = 0; // Only names that have localisation in MediaWiki
-	const LIST_MW           = 1; // All names that are in Names.php
-	const LIST_MW_AND_CLDR  = 2; // Combination of Names.php and what is in cldr
+	const LIST_MW = 1; // All names that are in Names.php
+	const LIST_MW_AND_CLDR = 2; // Combination of Names.php and what is in cldr
 
 	/**
 	 * Get localized language names for a particular language, using fallback languages for missing
@@ -139,7 +139,7 @@ class LanguageNames extends CldrNames {
 	 */
 	public static function coreHook( &$names, $code ) {
 		$names += self::getNames( $code, self::FALLBACK_NORMAL, self::LIST_MW_AND_CLDR );
+
 		return true;
 	}
-
 }

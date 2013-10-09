@@ -8,8 +8,7 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 class CldrCurrency {
-
-	private static $cache = array( );
+	private static $cache = array();
 
 	/**
 	 * Loads the file which contains the relevant data
@@ -44,7 +43,7 @@ class CldrCurrency {
 			require_once $filename;
 		}
 
-		foreach ( $value as $dataname => $varname ){
+		foreach ( $value as $dataname => $varname ) {
 			self::$cache[$dataname] = $$varname;
 		}
 	}
@@ -130,7 +129,7 @@ class CldrCurrency {
 		if ( array_key_exists( $country_code, self::$cache['locale'] ) ) {
 			return self::$cache['locale'][$country_code];
 		} else {
-			return array( );
+			return array();
 		}
 	}
 
@@ -145,9 +144,9 @@ class CldrCurrency {
 		self::loadData( 'fractions' );
 		$currency_code = strtoupper( $currency_code );
 		if ( array_key_exists( $currency_code, self::$cache['fractions'] ) ) {
-			return (int) self::$cache['fractions'][$currency_code]['digits'];
+			return (int)self::$cache['fractions'][$currency_code]['digits'];
 		} else {
-			return (int) self::$cache['fractions']['DEFAULT']['digits'];
+			return (int)self::$cache['fractions']['DEFAULT']['digits'];
 		}
 	}
 }

@@ -27,5 +27,4 @@ class CldrNames {
 	public static function getOverrideFileName( $code ) {
 		return Language::getFileName( "LocalNames", $code, '.php' );
 	}
-
 }

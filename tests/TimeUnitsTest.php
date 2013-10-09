@@ -9,12 +9,12 @@ class TimeUnitsTest extends MediaWikiTestCase {
 
 	/** @dataProvider providerTimeUnit */
 	function testTimeUnit(
-			$language,
-			$tsTime, // The timestamp to format
-			$currentTime, // The time to consider "now"
-			$expectedOutput, // The expected output
-			$desc // Description
-		) {
+		$language,
+		$tsTime, // The timestamp to format
+		$currentTime, // The time to consider "now"
+		$expectedOutput, // The expected output
+		$desc // Description
+	) {
 		$tsTime = new MWTimestamp( $tsTime );
 		$currentTime = new MWTimestamp( $currentTime );
 		$this->assertEquals(

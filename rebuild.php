@@ -108,7 +108,6 @@ class CLDRRebuild extends Maintenance {
 		$p->parse_currency_symbols( $DATA, "$OUTPUT/CldrCurrency/Symbols.php" );
 		$this->output( "Done parsing currency symbols.\n" );
 	}
-
 }
 
 class CLDRParser {
@@ -132,42 +131,42 @@ class CLDRParser {
 		);
 
 		foreach ( $doc->xpath( '//languages/language' ) as $elem ) {
-			if ( (string) $elem['alt'] !== '' ) {
+			if ( (string)$elem['alt'] !== '' ) {
 				continue;
 			}
 
-			if ( (string) $elem['type'] === 'root' ) {
+			if ( (string)$elem['type'] === 'root' ) {
 				continue;
 			}
 
 			$key = str_replace( '_', '-', strtolower( $elem['type'] ) );
 
-			$data['languageNames'][$key] = (string) $elem;
+			$data['languageNames'][$key] = (string)$elem;
 		}
 
 		foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
-			if ( (string) $elem->displayName[0] === '' ) {
+			if ( (string)$elem->displayName[0] === '' ) {
 				continue;
 			}
 
-			$data['currencyNames'][(string) $elem['type']] = (string) $elem->displayName[0];
-			if ( (string) $elem->symbol[0] !== '' ) {
-				$data['currencySymbols'][(string) $elem['type']] = (string) $elem->symbol[0];
+			$data['currencyNames'][(string)$elem['type']] = (string)$elem->displayName[0];
+			if ( (string)$elem->symbol[0] !== '' ) {
+				$data['currencySymbols'][(string)$elem['type']] = (string)$elem->symbol[0];
 			}
 		}
 
 		foreach ( $doc->xpath( '//territories/territory' ) as $elem ) {
-			if ( (string) $elem['alt'] !== '' && (string) $elem['alt'] !== 'short' ) {
+			if ( (string)$elem['alt'] !== '' && (string)$elem['alt'] !== 'short' ) {
 				continue;
 			}
 
-			if ( (string) $elem['type'] === 'ZZ' ||
+			if ( (string)$elem['type'] === 'ZZ' ||
 				!preg_match( '/^[A-Z][A-Z]$/', $elem['type'] )
 			) {
 				continue;
 			}
 
-			$data['countryNames'][(string) $elem['type']] = (string) $elem;
+			$data['countryNames'][(string)$elem['type']] = (string)$elem;
 		}
 		foreach ( $doc->xpath( '//units/unitLength' ) as $unitLength ) {
 			if ( (string)$unitLength['type'] !== 'long' ) {
@@ -181,18 +180,18 @@ class CLDRParser {
 				}
 				$type = substr( $type, strlen( 'duration-' ) );
 				foreach ( $elem->unitPattern as $pattern ) {
-					$data['timeUnits'][$type . '-' . (string) $pattern['count']] = (string) $pattern;
+					$data['timeUnits'][$type . '-' . (string)$pattern['count']] = (string)$pattern;
 				}
 			}
 		}
 		foreach ( $doc->xpath( '//fields/field' ) as $field ) {
-			$fieldType = (string) $field['type'];
+			$fieldType = (string)$field['type'];
 
 			foreach ( $field->relativeTime as $relative ) {
-				$type = (string) $relative['type'];
-				foreach( $relative->relativeTimePattern as $pattern ) {
+				$type = (string)$relative['type'];
+				foreach ( $relative->relativeTimePattern as $pattern ) {
 					$data['timeUnits'][$fieldType . '-' . $type
-						. '-' . (string) $pattern['count']] = (string) $pattern;
+					. '-' . (string)$pattern['count']] = (string)$pattern;
 				}
 			}
 		}
@@ -221,29 +220,29 @@ class CLDRParser {
 		//This will tell us how many decmal places make sense to use with any currency,
 		//or if the currency is totally non-fractional
 		foreach ( $doc->xpath( '//currencyData/fractions/info' ) as $elem ) {
-			if ( (string) $elem['iso4217'] === '' ) {
+			if ( (string)$elem['iso4217'] === '' ) {
 				continue;
 			}
 
 			$attributes = array( 'digits', 'rounding', 'cashRounding' );
 			foreach ( $attributes as $att ) {
-				if ( (string) $elem[$att] !== '' ) {
-					$data['currencyFractions'][(string) $elem['iso4217']][$att] = (string) $elem[$att];
+				if ( (string)$elem[$att] !== '' ) {
+					$data['currencyFractions'][(string)$elem['iso4217']][$att] = (string)$elem[$att];
 				}
 			}
 		}
 
 		//Pull a map of regions to currencies in order of perference.
 		foreach ( $doc->xpath( '//currencyData/region' ) as $elem ) {
-			if ( (string) $elem['iso3166'] === '' ) {
+			if ( (string)$elem['iso3166'] === '' ) {
 				continue;
 			}
 
-			$region = (string) $elem['iso3166'];
+			$region = (string)$elem['iso3166'];
 
 			foreach ( $elem->currency as $currencynode ) {
-				if ( (string) $currencynode['to'] === '' && (string) $currencynode['tender'] !== 'false' ) {
-					$data['localeCurrencies'][$region][] = (string) $currencynode['iso4217'];
+				if ( (string)$currencynode['to'] === '' && (string)$currencynode['tender'] !== 'false' ) {
+					$data['localeCurrencies'][$region][] = (string)$currencynode['iso4217'];
 				}
 			}
 		}
@@ -279,21 +278,21 @@ class CLDRParser {
 			$doc = new SimpleXMLElement( $contents );
 
 			foreach ( $doc->xpath( '//identity' ) as $elem ) {
-				$language = (string) $elem->language['type'];
+				$language = (string)$elem->language['type'];
 				if ( $language === '' ) {
 					continue;
 				}
 
-				$territory = (string) $elem->territory['type'];
+				$territory = (string)$elem->territory['type'];
 				if ( $territory === '' ) {
 					$territory = 'DEFAULT';
 				}
 			}
 
 			foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
-				if ( (string) $elem->symbol[0] !== '' ) {
-					$data['currencySymbols'][(string) $elem['type']][$language][$territory] =
-						(string) $elem->symbol[0];
+				if ( (string)$elem->symbol[0] !== '' ) {
+					$data['currencySymbols'][(string)$elem['type']][$language][$territory] =
+						(string)$elem->symbol[0];
 				}
 			}
 		}
@@ -349,7 +348,7 @@ class CLDRParser {
 	 */
 	function savephp( $data, $location ) {
 		$hasData = false;
-		foreach( $data as $v ) {
+		foreach ( $data as $v ) {
 			if ( count( $v ) ) {
 				$hasData = true;
 				break;
@@ -415,6 +414,7 @@ class CLDRParser {
 			}
 		}
 		$ret .= "$tabs),\n";
+
 		return $ret;
 	}
 }
@@ -442,6 +442,7 @@ function getRealCode( $code ) {
 		$realCode = 'pt-br';
 	elseif ( !strcmp( $code, 'pt-pt' ) )
 		$realCode = 'pt';
+
 	return $realCode;
 }
 

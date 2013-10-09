@@ -84,5 +84,4 @@ class CountryNames extends CldrNames {
 
 		return isset( self::$cache[$code] ) ? self::$cache[$code] : array();
 	}
-
 }

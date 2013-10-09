@@ -141,6 +141,7 @@ class TimeUnits extends CldrNames {
 		// If it occurred less than 1 second ago, output 'just now' message.
 		if ( !$unit ) {
 			$output = wfMessage( 'just-now' )->inLanguage( $lang )->text();
+
 			return false;
 		}
 
@@ -166,5 +167,4 @@ class TimeUnits extends CldrNames {
 
 		return false;
 	}
-
 }
