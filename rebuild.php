@@ -400,20 +400,26 @@ class CLDRParser {
 		if ( !is_numeric( $key ) ) {
 			$key = "'$key'";
 		}
-		$ret = "$tabs$key => array(\n";
+
+		$subKeys = '';
 		foreach ( $value as $subkey => $subvalue ) {
 			if ( is_array( $subvalue ) ) {
-				$ret .= $this->makePrettyArrayOuts( $subkey, $subvalue, $level + 1 );
+				$subKeys .= $this->makePrettyArrayOuts( $subkey, $subvalue, $level + 1 );
 			} else {
 				$subkey = addcslashes( $subkey, "'" );
 				$subvalue = addcslashes( $subvalue, "'" );
 				if ( !is_numeric( $subkey ) ) {
 					$subkey = "'$subkey'";
 				}
-				$ret .= "$tabs\t$subkey => '$subvalue',\n";
+				$subKeys .= "$tabs\t$subkey => '$subvalue',\n";
 			}
 		}
-		$ret .= "$tabs),\n";
+
+		if( $subKeys === '' ) {
+			$ret = '';
+		} else {
+			$ret = "$tabs$key => array(\n$subKeys$tabs),\n";
+		}
 
 		return $ret;
 	}

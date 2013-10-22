@@ -12,8 +12,6 @@ $currencySymbols = array(
 		'ps' => '؋',
 		'uz' => '؋',
 	),
-	'ALK' => array(
-	),
 	'ALL' => array(
 		'es' => array(
 			'MX' => 'ALL',
@@ -413,8 +411,6 @@ $currencySymbols = array(
 		),
 		'fr' => '$CL',
 		'root' => '$',
-	),
-	'CNX' => array(
 	),
 	'CNY' => array(
 		'ar' => 'ي.ص',
@@ -832,8 +828,6 @@ $currencySymbols = array(
 		'fr' => '£IL',
 		'he' => 'ל״י',
 	),
-	'ILR' => array(
-	),
 	'ILS' => array(
 		'bg' => 'ILS',
 		'dz' => 'ILS',
@@ -1237,8 +1231,6 @@ $currencySymbols = array(
 			'MU' => 'Rs',
 		),
 		'mfe' => 'Rs',
-	),
-	'MVP' => array(
 	),
 	'MVR' => array(
 		'es' => array(
