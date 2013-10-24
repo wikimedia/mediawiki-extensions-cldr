@@ -90,9 +90,9 @@ class CLDRRebuild extends Maintenance {
 			}
 		}
 
-		//Now parse out what we want form the supplemental file
+		// Now parse out what we want form the supplemental file
 		$this->output( "Parsing Supplemental Data...\n" );
-		//argh! If $DATA defaulted to something slightly more general in the
+		// argh! If $DATA defaulted to something slightly more general in the
 		// CLDR dump, this wouldn't have to be this way.
 		$input = "$DATA/../supplemental/supplementalData.xml";
 		if ( file_exists( $input ) ) {
@@ -216,9 +216,9 @@ class CLDRParser {
 			'localeCurrencies' => array(),
 		);
 
-		//Pull currency attributes - digits, rounding, and cashRounding.
-		//This will tell us how many decmal places make sense to use with any currency,
-		//or if the currency is totally non-fractional
+		// Pull currency attributes - digits, rounding, and cashRounding.
+		// This will tell us how many decmal places make sense to use with any currency,
+		// or if the currency is totally non-fractional
 		foreach ( $doc->xpath( '//currencyData/fractions/info' ) as $elem ) {
 			if ( (string)$elem['iso4217'] === '' ) {
 				continue;
@@ -232,7 +232,7 @@ class CLDRParser {
 			}
 		}
 
-		//Pull a map of regions to currencies in order of perference.
+		// Pull a map of regions to currencies in order of perference.
 		foreach ( $doc->xpath( '//currencyData/region' ) as $elem ) {
 			if ( (string)$elem['iso3166'] === '' ) {
 				continue;
@@ -297,7 +297,7 @@ class CLDRParser {
 			}
 		}
 
-		//now massage the data somewhat. It's pretty blown up at this point.
+		// now massage the data somewhat. It's pretty blown up at this point.
 
 		/**
 		 * Part 1: Stop blowing up on defaults.
@@ -311,7 +311,7 @@ class CLDRParser {
 		 * From narrowest scope to widest, collapse the defaults
 		 */
 		foreach ( $data['currencySymbols'] as $currency => $language ) {
-			//get the currency default symbol. This will either be defined in the
+			// get the currency default symbol. This will either be defined in the
 			// 'root' language file, or taken from the ISO code.
 			$default = $currency;
 			if ( array_key_exists( 'root', $language ) ) {
@@ -319,7 +319,7 @@ class CLDRParser {
 			}
 
 			foreach ( $language as $lang => $territories ) {
-				//Collapse a language (no locality) array if it's just the default. One value will do fine.
+				// Collapse a language (no locality) array if it's just the default. One value will do fine.
 				if ( is_array( $territories ) ) {
 					if ( count( $territories ) === 1 && array_key_exists( 'DEFAULT', $territories ) ) {
 						$data['currencySymbols'][$currency][$lang] = $territories['DEFAULT'];
@@ -359,8 +359,8 @@ class CLDRParser {
 			return;
 		}
 
-		//Yes, I am aware I could have simply used var_export.
-		//...the spacing was ugly.
+		// Yes, I am aware I could have simply used var_export.
+		// ...the spacing was ugly.
 		$output = "<?php\n";
 		foreach ( $data as $varname => $values ) {
 			if ( !count( $values ) ) {
@@ -415,7 +415,7 @@ class CLDRParser {
 			}
 		}
 
-		if( $subKeys === '' ) {
+		if ( $subKeys === '' ) {
 			$ret = '';
 		} else {
 			$ret = "$tabs$key => array(\n$subKeys$tabs),\n";
