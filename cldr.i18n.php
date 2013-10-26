@@ -445,9 +445,11 @@ $messages['ml'] = array(
 /** Marathi (मराठी)
  * @author Htt
  * @author Mahitgar
+ * @author V.narsikar
  */
 $messages['mr'] = array(
-	'cldr-desc' => 'स्थानिकीकरण झालेल्या भाषेचे नाव देणारा विस्तार',
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR data यावर]  
+आधारीत स्थानिकीकरण झालेल्या भाषेचे नाव देणारा विस्तारक',
 );
 
 /** Malay (Bahasa Melayu)
