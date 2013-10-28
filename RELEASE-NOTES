@@ -1,0 +1,5 @@
+== cldr 2013.10 ==
+Released at 2013-10-28.
+
+=== Noteworthy changes ===
+* Use native digits on 'onGetHumanTimestamp'.
