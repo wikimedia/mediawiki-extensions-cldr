@@ -743,10 +743,11 @@ $messages['vi'] = array(
 );
 
 /** Volapük (Volapük)
+ * @author Malafaya
  * @author Smeira
  */
 $messages['vo'] = array(
-	'cldr-desc' => 'Veitükumam, kel gevon pükanemis topik', # Fuzzy
+	'cldr-desc' => 'Veitükumam, kel gevon pükanemis topik bai [http://cldr.unicode.org/index/downloads nüns ela CLDR]',
 );
 
 /** Yiddish (ייִדיש)
