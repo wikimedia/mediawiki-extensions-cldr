@@ -127,7 +127,7 @@ $messages['ca'] = array(
 	'cldr-desc' => 'Extensió que proporciona noms localitzats de les llengües, basat en [http://cldr.unicode.org/index/downloads dades CLDR]',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  * @author Matěj Grabovský
  * @author Mormegil
