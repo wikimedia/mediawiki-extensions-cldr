@@ -709,7 +709,7 @@ $messages['ug'] = array(
  * @author Sahran
  */
 $messages['ug-arab'] = array(
-	'cldr-desc' => 'يەرلىكلەشتۈرۈلگەن تىل ئاتى كېيىنرەك تەمىنلىنىدۇ', # Fuzzy
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR سانلىق مەلۇماتى] ئاساسىدا يەرلىكلەشتۈرۈلگەن تىل ئاتى كېڭەيتىلمىسى.',
 );
 
 /** Ukrainian (українська)
