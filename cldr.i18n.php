@@ -695,7 +695,7 @@ $messages['tl'] = array(
  * @author Joseph
  */
 $messages['tr'] = array(
-	'cldr-desc' => 'Yerelleştirilmiş dil isimlerini sağlayan eklenti', # Fuzzy
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR verisi] tabanlı yerelleştirilmiş dil isimlerini sağlayan eklenti',
 );
 
 /** Uighur (ئۇيغۇرچە / Uyghurche‎)
