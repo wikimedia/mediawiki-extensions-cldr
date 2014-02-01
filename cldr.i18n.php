@@ -127,6 +127,13 @@ $messages['ca'] = array(
 	'cldr-desc' => 'Extensió que proporciona noms localitzats de les llengües, basat en [http://cldr.unicode.org/index/downloads dades CLDR]',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR хаамашца] меттанийн цӀераш гочян таро хуьлуьйту',
+);
+
 /** Czech (čeština)
  * @author Danny B.
  * @author Matěj Grabovský
