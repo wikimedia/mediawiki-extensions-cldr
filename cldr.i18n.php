@@ -287,9 +287,10 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Kaustubh
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'cldr-desc' => 'स्थानिकीकरण हुए भाषा का नाम देनेवाला एक्स्टेंशन', # Fuzzy
+	'cldr-desc' => 'एक्सटेंशन जो [http://cldr.unicode.org/index/downloads CLDR डाटा] के अनुसार भाषाओं के स्थानीय नाम प्रदान करता है',
 );
 
 /** Hiligaynon (Ilonggo)
