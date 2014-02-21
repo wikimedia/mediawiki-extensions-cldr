@@ -604,6 +604,13 @@ $messages['sah'] = array(
 	'cldr-desc' => '[http://cldr.unicode.org/index/downloads CLDR-га] олоҕуран тыллар ааттарын тылбааһын көрдөрөр тупсарыы',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'cldr-desc' => 'Extension that provides localised leid names based oan [http://cldr.unicode.org/index/downloads CLDR data]',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
