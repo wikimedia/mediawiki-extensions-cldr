@@ -25,20 +25,29 @@ class TimeUnits extends CldrNames {
 		// Load time units localized for the requested language
 		$units = self::loadLanguage( $code );
 
+		if ( $units ) {
+			return $units;
+		}
 		// Load missing time units from fallback languages
 		if ( is_callable( array( 'Language', 'getFallbacksFor' ) ) ) {
 			// MediaWiki 1.19
 			$fallbacks = Language::getFallbacksFor( $code );
 			foreach ( $fallbacks as $fallback ) {
-				// Overwrite the things in fallback with what we have already
-				$units = array_merge( self::loadLanguage( $fallback ), $units );
+				if ( $units ) {
+					break;
+				}
+				// Get time units from a fallback language
+				$units = self::loadLanguage( $fallback );
 			}
 		} else {
 			// MediaWiki 1.18 or earlier
 			$fallback = $code;
 			while ( $fallback = Language::getFallbackFor( $fallback ) ) {
-				// Overwrite the things in fallback with what we have already
-				$units = array_merge( self::loadLanguage( $fallback ), $units );
+				if ( $units ) {
+					break;
+				}
+				// Get time units from a fallback language
+				$units = self::loadLanguage( $fallback );
 			}
 		}
 
