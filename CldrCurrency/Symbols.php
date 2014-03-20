@@ -89,6 +89,7 @@ $currencySymbols = array(
 		'et' => 'AU$',
 		'fi' => 'AUD',
 		'fr' => '$AU',
+		'fy' => 'AU$',
 		'hr' => 'AUD',
 		'hu' => 'AUD',
 		'id' => 'AU$',
@@ -349,6 +350,7 @@ $currencySymbols = array(
 			'CA' => '$',
 			'DEFAULT' => '$CA',
 		),
+		'fy' => 'C$',
 		'gl' => '$CA',
 		'hr' => 'CAD',
 		'hu' => 'CAD',
@@ -449,6 +451,7 @@ $currencySymbols = array(
 		'ro' => 'CNY',
 		'root' => 'CN¥',
 		'sk' => 'CNY',
+		'ug' => '￥',
 		'uk' => 'CNY',
 		'zh' => array(
 			'DEFAULT' => 'CN¥',
@@ -632,6 +635,7 @@ $currencySymbols = array(
 			'MX' => 'FJD',
 		),
 		'fr' => '$FJ',
+		'fy' => 'FJ$',
 		'nl' => 'FJ$',
 		'root' => '$',
 	),
@@ -730,6 +734,9 @@ $currencySymbols = array(
 	'GNF' => array(
 		'es' => array(
 			'MX' => 'GNF',
+		),
+		'ff' => array(
+			'GN' => 'FG',
 		),
 		'fr' => array(
 			'GN' => 'FG',
@@ -1213,6 +1220,9 @@ $currencySymbols = array(
 		'es' => array(
 			'MX' => 'MRO',
 		),
+		'ff' => array(
+			'MR' => 'UM',
+		),
 		'fr' => array(
 			'MR' => 'UM',
 		),
@@ -1531,6 +1541,7 @@ $currencySymbols = array(
 			'MX' => 'SBD',
 		),
 		'fr' => '$SB',
+		'fy' => 'SI$',
 		'nl' => 'SI$',
 		'root' => '$',
 	),
@@ -1908,6 +1919,7 @@ $currencySymbols = array(
 		),
 		'te' => '$',
 		'tr' => '$',
+		'ug' => '$',
 		'uk' => 'USD',
 		'ur' => '$',
 		'wae' => '$',
@@ -2077,6 +2089,7 @@ $currencySymbols = array(
 		),
 		'fi' => 'XPF',
 		'fr' => 'FCFP',
+		'fy' => 'XPF',
 		'hr' => 'XPF',
 		'lt' => 'XPF',
 		'nb' => 'XPF',

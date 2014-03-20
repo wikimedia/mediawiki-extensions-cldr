@@ -6,10 +6,10 @@ if ( !defined( 'MEDIAWIKI' ) ) die();
  * @file
  * @ingroup Extensions
  * @author Niklas Laxström
- * @copyright Copyright © 2007-2013, Niklas Laxström
+ * @copyright Copyright © 2007-2014, Niklas Laxström
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
-define( 'CLDR_VERSION', '4.0.0 (CLDR 24)' );
+define( 'CLDR_VERSION', '4.1.0 (CLDR 25)' );
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,

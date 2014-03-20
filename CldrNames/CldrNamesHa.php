@@ -9,7 +9,6 @@ $languageNames = array(
 	'az' => 'Azerbaijanci',
 	'be' => 'Belarusanci',
 	'bg' => 'Bulgaranci',
-	'bh' => 'Bihari',
 	'bn' => 'Bengali',
 	'br' => 'Buretananci',
 	'bs' => 'Bosniyanci',

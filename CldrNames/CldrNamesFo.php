@@ -13,7 +13,6 @@ $languageNames = array(
 	'bem' => 'bemba',
 	'bez' => 'bena (Tanzania)',
 	'bg' => 'bulgarskt',
-	'bh' => 'bihariskt',
 	'bm' => 'bambara',
 	'bn' => 'bengaliskt',
 	'bo' => 'tibetanskt',

@@ -7,7 +7,6 @@ $languageNames = array(
 	'az' => 'Afaan Azerbaijani',
 	'be' => 'Afaan Belarusia',
 	'bg' => 'Afaan Bulgariya',
-	'bh' => 'Afaan Bihari',
 	'bn' => 'Afaan Baangladeshi',
 	'bs' => 'Afaan Bosniyaa',
 	'ca' => 'Afaan Katalaa',
