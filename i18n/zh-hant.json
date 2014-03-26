@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Alex S.H. Lin",
+            "Anakmalaysia"
+        ]
+    },
+    "cldr-desc": "基於[http://cldr.unicode.org/index/downloads CLDR數據]提供本地化語言名稱的擴展。"
+}
