@@ -14,7 +14,7 @@ define( 'CLDR_VERSION', '4.1.0 (CLDR 25)' );
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Language Names',
-	'version' => CLDR_VERSION,
+	'version' => '[https://www.mediawiki.org/wiki/MLEB MLEB 2014.03]',
 	'author' => array( 'Niklas Laxström', 'Siebrand Mazeland', 'Ryan Kaldari', 'Sam Reed' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:CLDR',
 	'descriptionmsg' => 'cldr-desc',
