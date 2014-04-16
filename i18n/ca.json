@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Martorell",
-            "Solde"
-        ]
-    },
-    "cldr-desc": "Extensió que proporciona noms localitzats de les llengües, basat en [http://cldr.unicode.org/index/downloads dades CLDR]"
+	"@metadata": {
+		"authors": [
+			"Martorell",
+			"Solde"
+		]
+	},
+	"cldr-desc": "Extensió que proporciona noms localitzats de les llengües, basat en [http://cldr.unicode.org/index/downloads dades CLDR]"
 }

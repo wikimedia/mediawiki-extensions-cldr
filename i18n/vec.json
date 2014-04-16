@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Candalua"
-        ]
-    },
-    "cldr-desc": "Estension che fornisse i nomi localizà de le varie lengue"
+	"@metadata": {
+		"authors": [
+			"Candalua"
+		]
+	},
+	"cldr-desc": "Estension che fornisse i nomi localizà de le varie lengue"
 }

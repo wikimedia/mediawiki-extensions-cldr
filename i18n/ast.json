@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Xuacu"
-        ]
-    },
-    "cldr-desc": "Estensión qu'ufre nomes d'idioma llocalizaos basaos nos [http://cldr.unicode.org/index/downloads datos de CLDR]"
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"cldr-desc": "Estensión qu'ufre nomes d'idioma llocalizaos basaos nos [http://cldr.unicode.org/index/downloads datos de CLDR]"
 }

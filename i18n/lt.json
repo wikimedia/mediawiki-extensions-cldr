@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Matasg"
-        ]
-    },
-    "cldr-desc": "Priedas leidžiantis rodyti lokalizuotus kalbų pavadinimus"
+	"@metadata": {
+		"authors": [
+			"Matasg"
+		]
+	},
+	"cldr-desc": "Priedas leidžiantis rodyti lokalizuotus kalbų pavadinimus"
 }

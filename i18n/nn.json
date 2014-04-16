@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Harald Khan",
-            "Jeblad"
-        ]
-    },
-    "cldr-desc": "Utviding som gjev omsette språknamn basert på [http://cldr.unicode.org/index/downloads CLDR-data]"
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Jeblad"
+		]
+	},
+	"cldr-desc": "Utviding som gjev omsette språknamn basert på [http://cldr.unicode.org/index/downloads CLDR-data]"
 }

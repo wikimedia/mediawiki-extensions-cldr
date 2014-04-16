@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Eliovir",
-            "Yekrats"
-        ]
-    },
-    "cldr-desc": "Kromaĵo kiu provizas tradukitajn nomojn de lingvoj bazitajn sur [http://cldr.unicode.org/index/downloads datumoj de CLDR]"
+	"@metadata": {
+		"authors": [
+			"Eliovir",
+			"Yekrats"
+		]
+	},
+	"cldr-desc": "Kromaĵo kiu provizas tradukitajn nomojn de lingvoj bazitajn sur [http://cldr.unicode.org/index/downloads datumoj de CLDR]"
 }

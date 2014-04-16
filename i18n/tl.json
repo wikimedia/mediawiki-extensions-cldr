@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "AnakngAraw"
-        ]
-    },
-    "cldr-desc": "Dugtong na nagbibigay ng mga pangalan ng isinapook na wika sa [http://cldr.unicode.org/index/downloads dato ng CLDR]"
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"cldr-desc": "Dugtong na nagbibigay ng mga pangalan ng isinapook na wika sa [http://cldr.unicode.org/index/downloads dato ng CLDR]"
 }
