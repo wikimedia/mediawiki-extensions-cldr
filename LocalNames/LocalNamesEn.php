@@ -64,7 +64,7 @@ $languageNames = array(
 	 * http://www.ethnologue.org/show_language.asp?code=bpy
 	 * Added 2007-11-10.
 	 */
-	'bpy' => 'Bishnupria Manipuri',
+	'bpy' => 'Bishnupuriya Manipuri',
 
 	/* Not in CLDR 21.0.1. Luri language
 	 * http://www.ethnologue.org/show_language.asp?code=bqi
