@@ -1,0 +1,8 @@
+== cldr 2014.05 ==
+Released at 2014-05-31.
+
+=== Noteworthy changes ===
+* The fallback logic should not merge the time units from languages in fallback
+chain. It should use time units from a fallback language only when time units
+are not defined.
+* Localisation updates.
