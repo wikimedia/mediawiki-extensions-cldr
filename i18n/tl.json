@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnakngAraw"
+			"AnakngAraw",
+			"Sky Harbor"
 		]
 	},
-	"cldr-desc": "Dugtong na nagbibigay ng mga pangalan ng isinapook na wika sa [http://cldr.unicode.org/index/downloads dato ng CLDR]"
+	"cldr-desc": "Dugtong na nagbibigay ng mga lokalisadong pangalan ng wika batay sa [http://cldr.unicode.org/index/downloads datos ng CLDR]"
 }
