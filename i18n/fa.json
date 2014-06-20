@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ebraminio"
+			"Ebraminio",
+			"ZxxZxxZ"
 		]
 	},
-	"cldr-desc": "افزونه‌ای که از نام محلی زبان‌ها بر پایهٔ [http://cldr.unicode.org/index/downloads داده‌های CLDR] حمایت می‌کند."
+	"cldr-desc": "افزونه‌ای که نام محلی زبان‌ها را بر پایهٔ [http://cldr.unicode.org/index/downloads داده‌های CLDR] ارائه می‌کند."
 }
