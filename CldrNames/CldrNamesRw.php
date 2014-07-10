@@ -8,6 +8,7 @@ $languageNames = array(
 	'az' => 'Inyazeribayijani',
 	'be' => 'Ikibelarusiya',
 	'bg' => 'Urunyabuligariya',
+	'bh' => 'Inyebihari',
 	'bn' => 'Ikibengali',
 	'br' => 'Inyebiritoni',
 	'bs' => 'Inyebosiniya',

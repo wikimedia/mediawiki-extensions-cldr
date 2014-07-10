@@ -12,6 +12,7 @@ $languageNames = array(
 	'ba' => 'baŝkira',
 	'be' => 'belorusa',
 	'bg' => 'bulgara',
+	'bh' => 'bihara',
 	'bi' => 'bislamo',
 	'bn' => 'bengala',
 	'bo' => 'tibeta',

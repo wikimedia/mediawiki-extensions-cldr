@@ -55,11 +55,6 @@ $currencyFractions = array(
 		'digits' => '0',
 		'rounding' => '0',
 	),
-	'CZK' => array(
-		'digits' => '2',
-		'rounding' => '0',
-		'cashRounding' => '0',
-	),
 	'DEFAULT' => array(
 		'digits' => '2',
 		'rounding' => '0',
@@ -230,10 +225,6 @@ $currencyFractions = array(
 		'rounding' => '0',
 	),
 	'UZS' => array(
-		'digits' => '0',
-		'rounding' => '0',
-	),
-	'UYI' => array(
 		'digits' => '0',
 		'rounding' => '0',
 	),
@@ -487,11 +478,11 @@ $localeCurrencies = array(
 	'ES' => array(
 		0 => 'EUR',
 	),
-	'ET' => array(
-		0 => 'ETB',
-	),
 	'EU' => array(
 		0 => 'EUR',
+	),
+	'ET' => array(
+		0 => 'ETB',
 	),
 	'FI' => array(
 		0 => 'EUR',

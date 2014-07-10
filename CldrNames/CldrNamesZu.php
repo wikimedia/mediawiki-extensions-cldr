@@ -13,6 +13,7 @@ $languageNames = array(
 	'be' => 'isi-Belarusian',
 	'bem' => 'Isi-Bemba',
 	'bg' => 'isi-Bulgari',
+	'bh' => 'IsiBhihari',
 	'bn' => 'isi-Bengali',
 	'bo' => 'isi-Tibetan',
 	'br' => 'Isi-Breton',

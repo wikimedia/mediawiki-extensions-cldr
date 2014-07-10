@@ -14,6 +14,7 @@ $languageNames = array(
 	'be' => 'bielorrusiera',
 	'bem' => 'Bembera',
 	'bg' => 'bulgariera',
+	'bh' => 'Bihariera',
 	'bn' => 'bengalera',
 	'bo' => 'tibetera',
 	'br' => 'Bretoiera',
