@@ -381,4 +381,7 @@ $languageNames = array(
 	'zh-sg' => 'چینی (سنگاپور)',
 	'zh-tw' => 'چینی (تایوان)',
 	'zh-yue' => 'کانتونی', # language redirect
+
+	/* additional list from Persian Wikipedia */
+	'simple' => 'انگلیسی ساده',
 );
