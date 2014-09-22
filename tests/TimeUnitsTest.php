@@ -100,7 +100,7 @@ class TimeUnitsTest extends MediaWikiTestCase {
 				'ml',
 				'20120717190900',
 				'20120717190929',
-				'29 സെക്കൻറ് മുമ്പ്',
+				'29 സെക്കൻഡ് മുമ്പ്',
 				'"Just now"',
 			),
 			array(

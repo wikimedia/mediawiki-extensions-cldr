@@ -2,6 +2,11 @@
 
 $languageNames = array(
 	'be' => 'Weissrussisch',
+	'prg' => 'Altpreussisch',
+);
+
+$currencyNames = array(
+	'BYR' => 'Weissrussischer Rubel',
 );
 
 $countryNames = array(

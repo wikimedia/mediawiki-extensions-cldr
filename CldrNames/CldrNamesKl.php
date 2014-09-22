@@ -56,7 +56,7 @@ $currencyNames = array(
 );
 
 $currencySymbols = array(
-	'DKK' => 'kr',
+	'DKK' => 'kr.',
 	'EUR' => '€',
 	'NOK' => 'Nkr',
 	'SEK' => 'Skr',

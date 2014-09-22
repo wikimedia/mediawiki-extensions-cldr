@@ -40,7 +40,7 @@ $currencyFractions = array(
 		'cashRounding' => '5',
 	),
 	'CLF' => array(
-		'digits' => '0',
+		'digits' => '4',
 		'rounding' => '0',
 	),
 	'CLP' => array(
@@ -54,6 +54,11 @@ $currencyFractions = array(
 	'CRC' => array(
 		'digits' => '0',
 		'rounding' => '0',
+	),
+	'CZK' => array(
+		'digits' => '2',
+		'rounding' => '0',
+		'cashRounding' => '0',
 	),
 	'DEFAULT' => array(
 		'digits' => '2',
@@ -76,8 +81,9 @@ $currencyFractions = array(
 		'rounding' => '0',
 	),
 	'HUF' => array(
-		'digits' => '0',
+		'digits' => '2',
 		'rounding' => '0',
+		'cashRounding' => '0',
 	),
 	'IDR' => array(
 		'digits' => '0',
@@ -225,6 +231,10 @@ $currencyFractions = array(
 		'rounding' => '0',
 	),
 	'UZS' => array(
+		'digits' => '0',
+		'rounding' => '0',
+	),
+	'UYI' => array(
 		'digits' => '0',
 		'rounding' => '0',
 	),
@@ -478,11 +488,11 @@ $localeCurrencies = array(
 	'ES' => array(
 		0 => 'EUR',
 	),
-	'EU' => array(
-		0 => 'EUR',
-	),
 	'ET' => array(
 		0 => 'ETB',
+	),
+	'EU' => array(
+		0 => 'EUR',
 	),
 	'FI' => array(
 		0 => 'EUR',
