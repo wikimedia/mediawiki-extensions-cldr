@@ -1,0 +1,8 @@
+== cldr 2014.09 ==
+Released at 2014-09-29.
+
+=== Noteworthy changes ===
+* Update to CLDR 26 (Upstream: http://cldr.unicode.org/index/downloads/cldr-26)
+
+==== Changes ====
+* Removed entries from LocalNamesEn.php when identical to CLDR. Right now, 13 local names are differing from CLDR's, as well as the other languages, are left to follow-ups.
