@@ -169,6 +169,11 @@ class TimeUnits extends CldrNames {
 			$timeUnitKey = "{$unit}-{$tense}-other";
 		}
 
+		// Not all languages have translations for everything
+		if ( !isset( $timeUnits[$timeUnitKey] ) ) {
+			return true;
+		}
+
 		// Select the appropriate template for the timestamp.
 		$timeUnit = $timeUnits[$timeUnitKey];
 		// Replace the placeholder with the number.
