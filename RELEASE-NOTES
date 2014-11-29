@@ -1,0 +1,5 @@
+== cldr 2014.11 ==
+Released at 2014-11-29.
+
+=== Noteworthy changes ===
+* Fixed some time displays if CLDR had only partial localisation of time units.
