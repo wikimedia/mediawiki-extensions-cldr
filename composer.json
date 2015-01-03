@@ -6,6 +6,9 @@
 	"license": "GPL-2.0",
 
 	"require": {
-		"composer/installers": "*"
+		"composer/installers": ">=1.0.1"
+        },
+	"autoload": {
+		"files": ["cldr.php"]
 	}
 }
