@@ -13,7 +13,7 @@ class CldrCurrency {
 	/**
 	 * Loads the file which contains the relevant data
 	 * @param string $data 'symbols' | 'fractions' | 'locale'
-	 * @throws MWException
+	 * @throws Exception
 	 */
 	private static function loadData( $data ) {
 
@@ -35,7 +35,7 @@ class CldrCurrency {
 				$value['locale'] = 'localeCurrencies';
 				break;
 			default:
-				throw new MWException( "Invalid 'data' parameter:\$data in " . __METHOD__ );
+				throw new Exception( "Invalid 'data' parameter:\$data in " . __METHOD__ );
 		}
 
 		//go get it
