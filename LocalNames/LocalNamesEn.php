@@ -30,6 +30,12 @@ $languageNames = array(
 	 */
 	'bcc' => 'Southern Balochi',
 
+	/* Not in CLDR 26.0.1. Name used by Ethnologue:
+	 * http://www.ethnologue.com/language/bgn
+	 * Added 2015-01-18.
+	 */
+	'bgn' => 'Western Balochi',
+
 	/* Not in CLDR 21.0.1. Name Bishnupriya used by Ethnologue:
 	 * http://www.ethnologue.org/show_language.asp?code=bpy
 	 * Added 2007-11-10.
