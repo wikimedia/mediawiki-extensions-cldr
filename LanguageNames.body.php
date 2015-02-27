@@ -102,7 +102,7 @@ class LanguageNames extends CldrNames {
 		wfProfileIn( __METHOD__ . '-recache' );
 
 		/* Load override for wrong or missing entries in cldr */
-		$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
+		$override = __DIR__ . '/LocalNames/' . self::getOverrideFileName( $code );
 		if ( file_exists( $override ) ) {
 			$languageNames = false;
 			require $override;
@@ -111,7 +111,7 @@ class LanguageNames extends CldrNames {
 			}
 		}
 
-		$filename = dirname( __FILE__ ) . '/CldrNames/' . self::getFileName( $code );
+		$filename = __DIR__ . '/CldrNames/' . self::getFileName( $code );
 		if ( file_exists( $filename ) ) {
 			$languageNames = false;
 			require $filename;
