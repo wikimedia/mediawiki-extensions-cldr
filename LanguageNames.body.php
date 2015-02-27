@@ -99,8 +99,6 @@ class LanguageNames extends CldrNames {
 			return array();
 		}
 
-		wfProfileIn( __METHOD__ . '-recache' );
-
 		/* Load override for wrong or missing entries in cldr */
 		$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
 		if ( file_exists( $override ) ) {
@@ -127,7 +125,6 @@ class LanguageNames extends CldrNames {
 		} else {
 			wfDebug( __METHOD__ . ": Unable to load language names for $filename\n" );
 		}
-		wfProfileOut( __METHOD__ . '-recache' );
 
 		return self::$cache[$code];
 	}

@@ -62,8 +62,6 @@ class TimeUnits extends CldrNames {
 	 */
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {
-			wfProfileIn( __METHOD__ . '-recache' );
-
 			/* Load override for wrong or missing entries in cldr */
 			$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
@@ -95,7 +93,6 @@ class TimeUnits extends CldrNames {
 			if ( !isset( self::$cache[$code] ) ) {
 				self::$cache[$code] = array();
 			}
-			wfProfileOut( __METHOD__ . '-recache' );
 		}
 
 		return self::$cache[$code];

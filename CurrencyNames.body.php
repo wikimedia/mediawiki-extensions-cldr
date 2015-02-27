@@ -51,8 +51,6 @@ class CurrencyNames extends CldrNames {
 	 */
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {
-			wfProfileIn( __METHOD__ . '-recache' );
-
 			/* Load override for wrong or missing entries in cldr */
 			$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
@@ -79,7 +77,6 @@ class CurrencyNames extends CldrNames {
 			} else {
 				wfDebug( __METHOD__ . ": Unable to load currency names for $filename\n" );
 			}
-			wfProfileOut( __METHOD__ . '-recache' );
 		}
 
 		return isset( self::$cache[$code] ) ? self::$cache[$code] : array();
