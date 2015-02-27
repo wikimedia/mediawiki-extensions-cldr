@@ -25,12 +25,12 @@ class CldrCurrency {
 		$filename = null;
 		switch ( $data ) {
 			case 'symbols' :
-				$filename = dirname( __FILE__ ) . '/CldrCurrency/Symbols.php';
+				$filename = __DIR__ . '/CldrCurrency/Symbols.php';
 				$value['symbols'] = 'currencySymbols';
 				break;
 			case 'fractions' :
 			case 'locale' :
-				$filename = dirname( __FILE__ ) . '/CldrSupplemental/Supplemental.php';
+				$filename = __DIR__ . '/CldrSupplemental/Supplemental.php';
 				$value['fractions'] = 'currencyFractions';
 				$value['locale'] = 'localeCurrencies';
 				break;

@@ -52,7 +52,7 @@ class CountryNames extends CldrNames {
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {
 			/* Load override for wrong or missing entries in cldr */
-			$override = dirname( __FILE__ ) . '/LocalNames/' . self::getOverrideFileName( $code );
+			$override = __DIR__ . '/LocalNames/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$countryNames = false;
 				require $override;
@@ -61,7 +61,7 @@ class CountryNames extends CldrNames {
 				}
 			}
 
-			$filename = dirname( __FILE__ ) . '/CldrNames/' . self::getFileName( $code );
+			$filename = __DIR__ . '/CldrNames/' . self::getFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$countryNames = false;
 				require $filename;

@@ -20,13 +20,12 @@ $GLOBALS['wgExtensionCredits']['other'][] = array(
 	'descriptionmsg' => 'cldr-desc',
 );
 
-$dir = dirname( __FILE__ ) . '/';
 $GLOBALS['wgMessagesDirs']['cldr'] = __DIR__ . '/i18n';
-$GLOBALS['wgExtensionMessagesFiles']['cldr'] = $dir . 'cldr.i18n.php';
-$GLOBALS['wgAutoloadClasses']['CldrNames'] = $dir . 'CldrNames.php';
-$GLOBALS['wgAutoloadClasses']['LanguageNames'] = $dir . 'LanguageNames.body.php';
-$GLOBALS['wgAutoloadClasses']['CountryNames'] = $dir . 'CountryNames.body.php';
-$GLOBALS['wgAutoloadClasses']['CurrencyNames'] = $dir . 'CurrencyNames.body.php';
-$GLOBALS['wgAutoloadClasses']['TimeUnits'] = $dir . 'TimeUnits.body.php';
+$GLOBALS['wgExtensionMessagesFiles']['cldr'] = __DIR__ . '/cldr.i18n.php';
+$GLOBALS['wgAutoloadClasses']['CldrNames'] = __DIR__ . '/CldrNames.php';
+$GLOBALS['wgAutoloadClasses']['LanguageNames'] = __DIR__ . '/LanguageNames.body.php';
+$GLOBALS['wgAutoloadClasses']['CountryNames'] = __DIR__ . '/CountryNames.body.php';
+$GLOBALS['wgAutoloadClasses']['CurrencyNames'] = __DIR__ . '/CurrencyNames.body.php';
+$GLOBALS['wgAutoloadClasses']['TimeUnits'] = __DIR__ . '/TimeUnits.body.php';
 $GLOBALS['wgHooks']['LanguageGetTranslatedLanguageNames'][] = 'LanguageNames::coreHook';
 $GLOBALS['wgHooks']['GetHumanTimestamp'][] = 'TimeUnits::onGetHumanTimestamp';
