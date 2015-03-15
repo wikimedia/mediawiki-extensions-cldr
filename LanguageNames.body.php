@@ -25,7 +25,7 @@ class LanguageNames extends CldrNames {
 	 * @param $code string
 	 * @param $fbMethod int
 	 * @param $list int
-	 * @throws MWException
+	 * @throws Exception
 	 * @return array an associative array of language codes and localized language names
 	 */
 	public static function getNames( $code, $fbMethod = self::FALLBACK_NATIVE,
@@ -66,7 +66,7 @@ class LanguageNames extends CldrNames {
 				$names[$code] = $native[$code];
 			}
 		} else {
-			throw new MWException( "Invalid value for 2:\$fallback in " . __METHOD__ );
+			throw new Exception( "Invalid value for 2:\$fallback in " . __METHOD__ );
 		}
 
 		switch ( $list ) {
@@ -78,7 +78,7 @@ class LanguageNames extends CldrNames {
 			case self::LIST_MW_AND_CLDR:
 				return $names;
 			default:
-				throw new MWException( "Invalid value for 3:\$list in " . __METHOD__ );
+				throw new Exception( "Invalid value for 3:\$list in " . __METHOD__ );
 		}
 	}
 
