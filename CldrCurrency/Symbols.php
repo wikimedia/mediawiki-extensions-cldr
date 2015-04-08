@@ -1,26 +1,10 @@
 <?php
 
 $currencySymbols = array(
-	'ADP' => array(
-		'en' => array(
-			'GB' => 'ADP',
-		),
-	),
 	'AED' => array(
 		'ar' => 'د.إ.‏',
-		'en' => array(
-			'GB' => 'AED',
-		),
-	),
-	'AFA' => array(
-		'en' => array(
-			'GB' => 'AFA',
-		),
 	),
 	'AFN' => array(
-		'en' => array(
-			'GB' => 'AFN',
-		),
 		'es' => array(
 			'DEFAULT' => 'AFN',
 			'MX' => 'Af',
@@ -30,20 +14,13 @@ $currencySymbols = array(
 		'uz' => '؋',
 	),
 	'ALL' => array(
-		'en' => array(
-			'GB' => 'ALL',
-		),
 		'sq' => 'Lekë',
 	),
 	'AMD' => array(
-		'en' => array(
-			'GB' => 'AMD',
-		),
 		'hy' => '֏',
 	),
 	'ANG' => array(
 		'en' => array(
-			'GB' => 'ANG',
 			'SX' => 'NAf.',
 		),
 		'es' => array(
@@ -70,9 +47,6 @@ $currencySymbols = array(
 		'da' => 'AOA',
 		'de' => 'AOA',
 		'el' => 'AOA',
-		'en' => array(
-			'GB' => 'AOA',
-		),
 		'es' => array(
 			'DEFAULT' => 'AOA',
 			'MX' => 'Kz',
@@ -158,9 +132,6 @@ $currencySymbols = array(
 		'da' => 'ARS',
 		'de' => 'ARS',
 		'el' => 'ARS',
-		'en' => array(
-			'GB' => 'ARS',
-		),
 		'es' => array(
 			'AR' => '$',
 			'DEFAULT' => 'ARS',
@@ -227,9 +198,6 @@ $currencySymbols = array(
 	),
 	'ATS' => array(
 		'de' => 'öS',
-		'en' => array(
-			'GB' => 'ATS',
-		),
 		'gsw' => 'öS',
 		'lb' => 'öS',
 	),
@@ -247,9 +215,9 @@ $currencySymbols = array(
 		'dz' => 'AU$',
 		'ee' => 'AU$',
 		'en' => array(
+			'AU' => '$',
 			'CC' => '$',
 			'CX' => '$',
-			'GB' => 'A$',
 			'KI' => '$',
 			'NF' => '$',
 			'NR' => '$',
@@ -299,9 +267,6 @@ $currencySymbols = array(
 		'zh' => 'AU$',
 	),
 	'AWG' => array(
-		'en' => array(
-			'GB' => 'AWG',
-		),
 		'es' => array(
 			'DEFAULT' => 'AWG',
 			'MX' => 'Afl.',
@@ -311,21 +276,8 @@ $currencySymbols = array(
 			'DEFAULT' => 'AWG',
 		),
 	),
-	'AZM' => array(
-		'en' => array(
-			'GB' => 'AZM',
-		),
-	),
 	'AZN' => array(
 		'az' => 'ман.',
-		'en' => array(
-			'GB' => 'AZN',
-		),
-	),
-	'BAD' => array(
-		'en' => array(
-			'GB' => 'BAD',
-		),
 	),
 	'BAM' => array(
 		'af' => 'BAM',
@@ -341,9 +293,6 @@ $currencySymbols = array(
 		'da' => 'BAM',
 		'de' => 'BAM',
 		'el' => 'BAM',
-		'en' => array(
-			'GB' => 'BAM',
-		),
 		'es' => 'BAM',
 		'et' => 'BAM',
 		'eu' => 'BAM',
@@ -404,11 +353,6 @@ $currencySymbols = array(
 		'vi' => 'BAM',
 		'zh' => 'BAM',
 	),
-	'BAN' => array(
-		'en' => array(
-			'GB' => 'BAN',
-		),
-	),
 	'BBD' => array(
 		'af' => 'BBD',
 		'am' => 'BBD',
@@ -425,7 +369,6 @@ $currencySymbols = array(
 		'el' => 'BBD',
 		'en' => array(
 			'BB' => '$',
-			'GB' => 'BBD',
 		),
 		'es' => 'BBD',
 		'et' => 'BBD',
@@ -499,9 +442,6 @@ $currencySymbols = array(
 		'da' => 'BDT',
 		'de' => 'BDT',
 		'el' => 'BDT',
-		'en' => array(
-			'GB' => 'BDT',
-		),
 		'es' => 'BDT',
 		'et' => 'BDT',
 		'eu' => 'BDT',
@@ -560,56 +500,23 @@ $currencySymbols = array(
 		'vi' => 'BDT',
 		'zh' => 'BDT',
 	),
-	'BEC' => array(
-		'en' => array(
-			'GB' => 'BEC',
-		),
-	),
 	'BEF' => array(
-		'en' => array(
-			'GB' => 'BEF',
-		),
 		'fr' => 'FB',
-	),
-	'BEL' => array(
-		'en' => array(
-			'GB' => 'BEL',
-		),
-	),
-	'BGL' => array(
-		'en' => array(
-			'GB' => 'BGL',
-		),
 	),
 	'BGM' => array(
 		'de' => 'BGK',
-		'en' => array(
-			'GB' => 'BGM',
-		),
 	),
 	'BGN' => array(
 		'bg' => 'лв.',
-		'en' => array(
-			'GB' => 'BGN',
-		),
 		'sr' => '[BGN]',
 	),
 	'BGO' => array(
 		'de' => 'BGJ',
-		'en' => array(
-			'GB' => 'BGO',
-		),
 	),
 	'BHD' => array(
 		'ar' => 'د.ب.‏',
-		'en' => array(
-			'GB' => 'BHD',
-		),
 	),
 	'BIF' => array(
-		'en' => array(
-			'GB' => 'BIF',
-		),
 		'fr' => array(
 			'BI' => 'FBu',
 			'DEFAULT' => 'BIF',
@@ -633,7 +540,6 @@ $currencySymbols = array(
 		'el' => 'BMD',
 		'en' => array(
 			'BM' => '$',
-			'GB' => 'BMD',
 		),
 		'es' => 'BMD',
 		'et' => 'BMD',
@@ -714,9 +620,6 @@ $currencySymbols = array(
 		'da' => 'BND',
 		'de' => 'BND',
 		'el' => 'BND',
-		'en' => array(
-			'GB' => 'BND',
-		),
 		'es' => 'BND',
 		'et' => 'BND',
 		'eu' => 'BND',
@@ -794,9 +697,6 @@ $currencySymbols = array(
 		'da' => 'BOB',
 		'de' => 'BOB',
 		'el' => 'BOB',
-		'en' => array(
-			'GB' => 'BOB',
-		),
 		'es' => array(
 			'BO' => 'Bs',
 			'DEFAULT' => 'BOB',
@@ -895,9 +795,6 @@ $currencySymbols = array(
 		'bg' => 'BRL',
 		'bs' => 'BRL',
 		'ca' => 'BRL',
-		'en' => array(
-			'GB' => 'R$',
-		),
 		'es' => 'BRL',
 		'fi' => 'BRL',
 		'gl' => '$R',
@@ -945,7 +842,6 @@ $currencySymbols = array(
 		'el' => 'BSD',
 		'en' => array(
 			'BS' => '$',
-			'GB' => 'BSD',
 		),
 		'es' => 'BSD',
 		'et' => 'BSD',
@@ -1010,14 +906,6 @@ $currencySymbols = array(
 	),
 	'BTN' => array(
 		'dz' => 'Nu.',
-		'en' => array(
-			'GB' => 'BTN',
-		),
-	),
-	'BUK' => array(
-		'en' => array(
-			'GB' => 'BUK',
-		),
 	),
 	'BWP' => array(
 		'af' => 'BWP',
@@ -1035,7 +923,6 @@ $currencySymbols = array(
 		'el' => 'BWP',
 		'en' => array(
 			'BW' => 'P',
-			'GB' => 'BWP',
 		),
 		'es' => 'BWP',
 		'et' => 'BWP',
@@ -1087,20 +974,12 @@ $currencySymbols = array(
 		'ta' => 'BWP',
 		'te' => 'BWP',
 		'th' => 'BWP',
-		'tn' => array(
-			'BW' => 'P',
-		),
 		'tr' => 'BWP',
 		'uk' => 'BWP',
 		'ur' => 'BWP',
 		'uz' => 'BWP',
 		'vi' => 'BWP',
 		'zh' => 'BWP',
-	),
-	'BYB' => array(
-		'en' => array(
-			'GB' => 'BYB',
-		),
 	),
 	'BYR' => array(
 		'af' => 'BYR',
@@ -1116,9 +995,6 @@ $currencySymbols = array(
 		'da' => 'BYR',
 		'de' => 'BYR',
 		'el' => 'BYR',
-		'en' => array(
-			'GB' => 'BYR',
-		),
 		'es' => array(
 			'DEFAULT' => 'BYR',
 			'MX' => 'Br',
@@ -1199,7 +1075,6 @@ $currencySymbols = array(
 		'el' => 'BZD',
 		'en' => array(
 			'BZ' => '$',
-			'GB' => 'BZD',
 		),
 		'es' => 'BZD',
 		'et' => 'BZD',
@@ -1270,7 +1145,6 @@ $currencySymbols = array(
 		'ca' => 'CAD',
 		'en' => array(
 			'CA' => '$',
-			'GB' => 'CA$',
 		),
 		'es' => array(
 			'DEFAULT' => 'CA$',
@@ -1302,34 +1176,21 @@ $currencySymbols = array(
 		'uk' => 'CAD',
 	),
 	'CDF' => array(
-		'en' => array(
-			'GB' => 'CDF',
-		),
 		'fr' => array(
 			'CD' => 'FC',
 			'DEFAULT' => 'CDF',
 		),
 		'ln' => 'FC',
 		'lu' => 'FC',
-		'swc' => 'FC',
-	),
-	'CHE' => array(
-		'en' => array(
-			'GB' => 'CHE',
+		'sw' => array(
+			'CD' => 'FC',
+			'DEFAULT' => 'CDF',
 		),
 	),
 	'CHF' => array(
 		'de' => array(
 			'CH' => 'CHF',
 			'DEFAULT' => 'CHF',
-		),
-		'en' => array(
-			'GB' => 'CHF',
-		),
-	),
-	'CHW' => array(
-		'en' => array(
-			'GB' => 'CHW',
 		),
 	),
 	'CLE' => array(
@@ -1356,9 +1217,6 @@ $currencySymbols = array(
 		'da' => 'CLP',
 		'de' => 'CLP',
 		'el' => 'CLP',
-		'en' => array(
-			'GB' => 'CLP',
-		),
 		'es' => array(
 			'CL' => '$',
 			'DEFAULT' => 'CLP',
@@ -1432,9 +1290,6 @@ $currencySymbols = array(
 		'br' => '¥',
 		'bs' => 'CNY',
 		'ca' => '¥',
-		'en' => array(
-			'GB' => 'CN¥',
-		),
 		'es' => array(
 			'DEFAULT' => 'CNY',
 			'MX' => 'CN¥',
@@ -1481,9 +1336,6 @@ $currencySymbols = array(
 		'da' => 'COP',
 		'de' => 'COP',
 		'el' => 'COP',
-		'en' => array(
-			'GB' => 'COP',
-		),
 		'es' => array(
 			'CO' => '$',
 			'DEFAULT' => 'COP',
@@ -1567,9 +1419,6 @@ $currencySymbols = array(
 		'da' => 'CRC',
 		'de' => 'CRC',
 		'el' => 'CRC',
-		'en' => array(
-			'GB' => 'CRC',
-		),
 		'es' => array(
 			'CR' => '₡',
 			'DEFAULT' => 'CRC',
@@ -1631,16 +1480,8 @@ $currencySymbols = array(
 		'zh' => 'CRC',
 		'zu' => 'CRC',
 	),
-	'CSD' => array(
-		'en' => array(
-			'GB' => 'CSD',
-		),
-	),
 	'CSK' => array(
 		'cs' => 'Kčs',
-		'en' => array(
-			'GB' => 'CSK',
-		),
 	),
 	'CUC' => array(
 		'af' => 'CUC',
@@ -1656,9 +1497,6 @@ $currencySymbols = array(
 		'da' => 'CUC',
 		'de' => 'CUC',
 		'el' => 'CUC',
-		'en' => array(
-			'GB' => 'CUC',
-		),
 		'es' => 'CUC',
 		'et' => 'CUC',
 		'eu' => 'CUC',
@@ -1731,9 +1569,6 @@ $currencySymbols = array(
 		'da' => 'CUP',
 		'de' => 'CUP',
 		'el' => 'CUP',
-		'en' => array(
-			'GB' => 'CUP',
-		),
 		'es' => array(
 			'CU' => '$',
 			'DEFAULT' => 'CUP',
@@ -1796,9 +1631,6 @@ $currencySymbols = array(
 		'zu' => 'CUP',
 	),
 	'CVE' => array(
-		'en' => array(
-			'GB' => 'CVE',
-		),
 		'kea' => '​',
 		'pt' => array(
 			'CV' => '​',
@@ -1806,9 +1638,6 @@ $currencySymbols = array(
 		),
 	),
 	'CYP' => array(
-		'en' => array(
-			'GB' => 'CYP',
-		),
 		'fr' => '£CY',
 	),
 	'CZK' => array(
@@ -1824,9 +1653,6 @@ $currencySymbols = array(
 		'da' => 'CZK',
 		'de' => 'CZK',
 		'el' => 'CZK',
-		'en' => array(
-			'GB' => 'CZK',
-		),
 		'es' => 'CZK',
 		'et' => 'CZK',
 		'eu' => 'CZK',
@@ -1885,27 +1711,13 @@ $currencySymbols = array(
 		'vi' => 'CZK',
 		'zh' => 'CZK',
 	),
-	'DDM' => array(
-		'en' => array(
-			'GB' => 'DDM',
-		),
-	),
 	'DEM' => array(
 		'de' => 'DM',
-		'en' => array(
-			'GB' => 'DEM',
-		),
 	),
 	'DJF' => array(
-		'aa' => array(
-			'DJ' => 'Fdj',
-		),
 		'ar' => array(
 			'DEFAULT' => 'DJF',
 			'DJ' => 'Fdj',
-		),
-		'en' => array(
-			'GB' => 'DJF',
 		),
 		'fr' => array(
 			'DEFAULT' => 'DJF',
@@ -1929,9 +1741,6 @@ $currencySymbols = array(
 		'da' => 'kr.',
 		'de' => 'DKK',
 		'el' => 'DKK',
-		'en' => array(
-			'GB' => 'DKK',
-		),
 		'eo' => 'DKK',
 		'es' => 'DKK',
 		'et' => 'DKK',
@@ -2009,9 +1818,6 @@ $currencySymbols = array(
 		'da' => 'DOP',
 		'de' => 'DOP',
 		'el' => 'DOP',
-		'en' => array(
-			'GB' => 'DOP',
-		),
 		'es' => array(
 			'DEFAULT' => 'DOP',
 			'DO' => '$',
@@ -2076,9 +1882,6 @@ $currencySymbols = array(
 	),
 	'DZD' => array(
 		'ar' => 'د.ج.‏',
-		'en' => array(
-			'GB' => 'DZD',
-		),
 		'fr' => array(
 			'DEFAULT' => 'DZD',
 			'DZ' => 'DA',
@@ -2096,9 +1899,6 @@ $currencySymbols = array(
 		),
 	),
 	'EEK' => array(
-		'en' => array(
-			'GB' => 'EEK',
-		),
 		'et' => 'kr',
 		'sv' => 'Ekr',
 	),
@@ -2116,9 +1916,6 @@ $currencySymbols = array(
 		'da' => 'EGP',
 		'de' => 'EGP',
 		'el' => 'EGP',
-		'en' => array(
-			'GB' => 'EGP',
-		),
 		'es' => 'EGP',
 		'et' => 'EGP',
 		'eu' => 'EGP',
@@ -2177,40 +1974,20 @@ $currencySymbols = array(
 		'zh' => 'EGP',
 	),
 	'ERN' => array(
-		'aa' => array(
-			'ER' => 'Nfk',
-		),
 		'ar' => array(
 			'DEFAULT' => 'ERN',
 			'ER' => 'Nfk',
 		),
-		'byn' => 'Nfk',
 		'en' => array(
 			'ER' => 'Nfk',
-			'GB' => 'ERN',
 		),
-		'ssy' => 'Nfk',
 		'ti' => array(
 			'ER' => 'Nfk',
-		),
-		'tig' => 'Nfk',
-	),
-	'ESA' => array(
-		'en' => array(
-			'GB' => 'ESA',
-		),
-	),
-	'ESB' => array(
-		'en' => array(
-			'GB' => 'ESB',
 		),
 	),
 	'ESP' => array(
 		'cs' => 'ESP',
 		'de' => 'ESP',
-		'en' => array(
-			'GB' => 'ESP',
-		),
 		'fi' => 'ESP',
 		'ga' => 'ESP',
 		'gd' => 'ESP',
@@ -2227,37 +2004,25 @@ $currencySymbols = array(
 		'zh' => 'ESP',
 	),
 	'ETB' => array(
-		'aa' => 'Br',
 		'am' => 'ብር',
-		'en' => array(
-			'GB' => 'ETB',
-		),
 		'om' => 'Br',
 		'so' => array(
 			'ET' => 'Br',
 		),
 		'ti' => 'Br',
-		'wal' => 'Br',
 	),
 	'EUR' => array(
-		'en' => array(
-			'GB' => '€',
-		),
 		'es' => array(
 			419 => 'EUR',
 		),
 		'hr' => 'EUR',
 		'hu' => 'EUR',
 		'is' => 'EUR',
-		'lt' => 'EUR',
 		'ro' => 'EUR',
 		'root' => '€',
 		'uk' => 'EUR',
 	),
 	'FIM' => array(
-		'en' => array(
-			'GB' => 'FIM',
-		),
 		'fi' => 'mk',
 	),
 	'FJD' => array(
@@ -2275,7 +2040,6 @@ $currencySymbols = array(
 		'el' => 'FJD',
 		'en' => array(
 			'FJ' => '$',
-			'GB' => 'FJD',
 		),
 		'es' => 'FJD',
 		'et' => 'FJD',
@@ -2353,7 +2117,6 @@ $currencySymbols = array(
 		'el' => 'FKP',
 		'en' => array(
 			'FK' => '£',
-			'GB' => 'FKP',
 		),
 		'es' => 'FKP',
 		'et' => 'FKP',
@@ -2421,9 +2184,6 @@ $currencySymbols = array(
 			'DEFAULT' => 'FRF',
 			'FR' => 'F',
 		),
-		'en' => array(
-			'GB' => 'FRF',
-		),
 		'fr' => array(
 			'DEFAULT' => 'F',
 			'LU' => 'FRF',
@@ -2439,7 +2199,6 @@ $currencySymbols = array(
 		'bs' => 'GBP',
 		'en' => array(
 			'FK' => 'GB£',
-			'GB' => '£',
 			'GI' => 'GB£',
 			'MT' => 'GB£',
 			'SH' => 'GB£',
@@ -2463,21 +2222,10 @@ $currencySymbols = array(
 		'sv' => 'GBP',
 		'uk' => 'GBP',
 	),
-	'GEK' => array(
-		'en' => array(
-			'GB' => 'GEK',
-		),
-	),
-	'GEL' => array(
-		'en' => array(
-			'GB' => 'GEL',
-		),
-	),
 	'GHS' => array(
 		'ak' => 'GH₵',
 		'ee' => 'GH₵',
 		'en' => array(
-			'GB' => 'GHS',
 			'GH' => 'GH₵',
 		),
 		'ha' => array(
@@ -2499,7 +2247,6 @@ $currencySymbols = array(
 		'de' => 'GIP',
 		'el' => 'GIP',
 		'en' => array(
-			'GB' => 'GIP',
 			'GI' => '£',
 		),
 		'es' => 'GIP',
@@ -2564,7 +2311,6 @@ $currencySymbols = array(
 	),
 	'GMD' => array(
 		'en' => array(
-			'GB' => 'GMD',
 			'GM' => 'D',
 		),
 	),
@@ -2582,9 +2328,6 @@ $currencySymbols = array(
 		'da' => 'GNF',
 		'de' => 'GNF',
 		'el' => 'GNF',
-		'en' => array(
-			'GB' => 'GNF',
-		),
 		'es' => 'GNF',
 		'et' => 'GNF',
 		'eu' => 'GNF',
@@ -2651,9 +2394,6 @@ $currencySymbols = array(
 	),
 	'GRD' => array(
 		'el' => 'Δρχ',
-		'en' => array(
-			'GB' => 'GRD',
-		),
 	),
 	'GTQ' => array(
 		'af' => 'GTQ',
@@ -2670,9 +2410,6 @@ $currencySymbols = array(
 		'da' => 'GTQ',
 		'de' => 'GTQ',
 		'el' => 'GTQ',
-		'en' => array(
-			'GB' => 'GTQ',
-		),
 		'es' => array(
 			'DEFAULT' => 'GTQ',
 			'GT' => 'Q',
@@ -2751,7 +2488,6 @@ $currencySymbols = array(
 		'de' => 'GYD',
 		'el' => 'GYD',
 		'en' => array(
-			'GB' => 'GYD',
 			'GY' => '$',
 		),
 		'es' => 'GYD',
@@ -2815,9 +2551,6 @@ $currencySymbols = array(
 		'bg' => 'HKD',
 		'br' => '$ HK',
 		'bs' => 'HKD',
-		'en' => array(
-			'GB' => 'HK$',
-		),
 		'es' => 'HKD',
 		'fa' => '$HK',
 		'fi' => 'HKD',
@@ -2855,9 +2588,6 @@ $currencySymbols = array(
 		'da' => 'HNL',
 		'de' => 'HNL',
 		'el' => 'HNL',
-		'en' => array(
-			'GB' => 'HNL',
-		),
 		'es' => array(
 			'DEFAULT' => 'HNL',
 			'HN' => 'L',
@@ -2922,11 +2652,6 @@ $currencySymbols = array(
 		'zh' => 'HNL',
 		'zu' => 'HNL',
 	),
-	'HRD' => array(
-		'en' => array(
-			'GB' => 'HRD',
-		),
-	),
 	'HRK' => array(
 		'af' => 'HRK',
 		'am' => 'HRK',
@@ -2939,9 +2664,6 @@ $currencySymbols = array(
 		'da' => 'HRK',
 		'de' => 'HRK',
 		'el' => 'HRK',
-		'en' => array(
-			'GB' => 'HRK',
-		),
 		'es' => 'HRK',
 		'et' => 'HRK',
 		'eu' => 'HRK',
@@ -3001,9 +2723,6 @@ $currencySymbols = array(
 		'zh' => 'HRK',
 	),
 	'HTG' => array(
-		'en' => array(
-			'GB' => 'HTG',
-		),
 		'fr' => array(
 			'DEFAULT' => 'HTG',
 			'HT' => 'G',
@@ -3022,9 +2741,6 @@ $currencySymbols = array(
 		'da' => 'HUF',
 		'de' => 'HUF',
 		'el' => 'HUF',
-		'en' => array(
-			'GB' => 'HUF',
-		),
 		'es' => 'HUF',
 		'et' => 'HUF',
 		'eu' => 'HUF',
@@ -3097,9 +2813,6 @@ $currencySymbols = array(
 		'da' => 'IDR',
 		'de' => 'IDR',
 		'el' => 'IDR',
-		'en' => array(
-			'GB' => 'IDR',
-		),
 		'eo' => 'IDR',
 		'es' => 'IDR',
 		'et' => 'IDR',
@@ -3161,15 +2874,9 @@ $currencySymbols = array(
 		'zu' => 'IDR',
 	),
 	'IEP' => array(
-		'en' => array(
-			'GB' => 'IEP',
-		),
 		'fr' => '£IE',
 	),
 	'ILP' => array(
-		'en' => array(
-			'GB' => 'ILP',
-		),
 		'fr' => '£IL',
 		'he' => 'ל״י',
 	),
@@ -3178,9 +2885,6 @@ $currencySymbols = array(
 		'bs' => 'ILS',
 		'cs' => 'ILS',
 		'dz' => 'ILS',
-		'en' => array(
-			'GB' => '₪',
-		),
 		'es' => 'ILS',
 		'fi' => 'ILS',
 		'fr' => array(
@@ -3204,9 +2908,6 @@ $currencySymbols = array(
 		'ar' => 'ر.ه.‏',
 		'bg' => 'INR',
 		'cs' => 'INR',
-		'en' => array(
-			'GB' => '₹',
-		),
 		'es' => 'INR',
 		'fi' => 'INR',
 		'fr' => array(
@@ -3231,15 +2932,9 @@ $currencySymbols = array(
 	),
 	'IQD' => array(
 		'ar' => 'د.ع.‏',
-		'en' => array(
-			'GB' => 'IQD',
-		),
 	),
 	'IRR' => array(
 		'ar' => 'ر.إ.',
-		'en' => array(
-			'GB' => 'IRR',
-		),
 		'fa' => 'ریال',
 	),
 	'ISK' => array(
@@ -3256,9 +2951,6 @@ $currencySymbols = array(
 		'da' => 'ISK',
 		'de' => 'ISK',
 		'el' => 'ISK',
-		'en' => array(
-			'GB' => 'ISK',
-		),
 		'es' => 'ISK',
 		'et' => 'ISK',
 		'eu' => 'ISK',
@@ -3319,9 +3011,6 @@ $currencySymbols = array(
 		'zh' => 'ISK',
 	),
 	'ITL' => array(
-		'en' => array(
-			'GB' => 'ITL',
-		),
 		'fr' => '₤IT',
 	),
 	'JMD' => array(
@@ -3339,7 +3028,6 @@ $currencySymbols = array(
 		'de' => 'JMD',
 		'el' => 'JMD',
 		'en' => array(
-			'GB' => 'JMD',
 			'JM' => '$',
 		),
 		'es' => 'JMD',
@@ -3403,9 +3091,6 @@ $currencySymbols = array(
 	),
 	'JOD' => array(
 		'ar' => 'د.أ.‏',
-		'en' => array(
-			'GB' => 'JOD',
-		),
 	),
 	'JPY' => array(
 		'ast' => '¥',
@@ -3416,8 +3101,8 @@ $currencySymbols = array(
 		'de' => '¥',
 		'dsb' => '¥',
 		'en' => array(
+			001 => 'JP¥',
 			'DEFAULT' => '¥',
-			'GB' => '¥',
 		),
 		'es' => array(
 			'DEFAULT' => 'JPY',
@@ -3465,7 +3150,6 @@ $currencySymbols = array(
 		'dav' => 'Ksh',
 		'ebu' => 'Ksh',
 		'en' => array(
-			'GB' => 'KES',
 			'KE' => 'Ksh',
 		),
 		'guz' => 'Ksh',
@@ -3489,9 +3173,6 @@ $currencySymbols = array(
 		),
 	),
 	'KGS' => array(
-		'en' => array(
-			'GB' => 'KGS',
-		),
 		'ky' => 'сом',
 		'ru' => array(
 			'DEFAULT' => 'KGS',
@@ -3512,9 +3193,6 @@ $currencySymbols = array(
 		'da' => 'KHR',
 		'de' => 'KHR',
 		'el' => 'KHR',
-		'en' => array(
-			'GB' => 'KHR',
-		),
 		'es' => 'KHR',
 		'et' => 'KHR',
 		'eu' => 'KHR',
@@ -3586,9 +3264,6 @@ $currencySymbols = array(
 		'da' => 'KMF',
 		'de' => 'KMF',
 		'el' => 'KMF',
-		'en' => array(
-			'GB' => 'KMF',
-		),
 		'es' => 'KMF',
 		'et' => 'KMF',
 		'eu' => 'KMF',
@@ -3664,9 +3339,6 @@ $currencySymbols = array(
 		'de' => 'KPW',
 		'dsb' => 'KPW',
 		'el' => 'KPW',
-		'en' => array(
-			'GB' => 'KPW',
-		),
 		'es' => 'KPW',
 		'et' => 'KPW',
 		'eu' => 'KPW',
@@ -3727,22 +3399,9 @@ $currencySymbols = array(
 		'vi' => 'KPW',
 		'zh' => 'KPW',
 	),
-	'KRH' => array(
-		'en' => array(
-			'GB' => 'KRH',
-		),
-	),
-	'KRO' => array(
-		'en' => array(
-			'GB' => 'KRO',
-		),
-	),
 	'KRW' => array(
 		'bg' => 'KRW',
 		'dz' => 'KR₩',
-		'en' => array(
-			'GB' => '₩',
-		),
 		'es' => 'KRW',
 		'fi' => 'KRW',
 		'fr' => array(
@@ -3773,9 +3432,6 @@ $currencySymbols = array(
 	),
 	'KWD' => array(
 		'ar' => 'د.ك.‏',
-		'en' => array(
-			'GB' => 'KWD',
-		),
 	),
 	'KYD' => array(
 		'af' => 'KYD',
@@ -3792,7 +3448,6 @@ $currencySymbols = array(
 		'de' => 'KYD',
 		'el' => 'KYD',
 		'en' => array(
-			'GB' => 'KYD',
 			'KY' => '$',
 		),
 		'es' => 'KYD',
@@ -3868,9 +3523,6 @@ $currencySymbols = array(
 		'da' => 'KZT',
 		'de' => 'KZT',
 		'el' => 'KZT',
-		'en' => array(
-			'GB' => 'KZT',
-		),
 		'es' => 'KZT',
 		'et' => 'KZT',
 		'eu' => 'KZT',
@@ -3943,9 +3595,6 @@ $currencySymbols = array(
 		'da' => 'LAK',
 		'de' => 'LAK',
 		'el' => 'LAK',
-		'en' => array(
-			'GB' => 'LAK',
-		),
 		'es' => 'LAK',
 		'et' => 'LAK',
 		'eu' => 'LAK',
@@ -4017,9 +3666,6 @@ $currencySymbols = array(
 		'da' => 'LBP',
 		'de' => 'LBP',
 		'el' => 'LBP',
-		'en' => array(
-			'GB' => 'LBP',
-		),
 		'es' => 'LBP',
 		'et' => 'LBP',
 		'eu' => 'LBP',
@@ -4094,9 +3740,6 @@ $currencySymbols = array(
 		'da' => 'LKR',
 		'de' => 'LKR',
 		'el' => 'LKR',
-		'en' => array(
-			'GB' => 'LKR',
-		),
 		'es' => 'LKR',
 		'et' => 'LKR',
 		'eu' => 'LKR',
@@ -4174,7 +3817,6 @@ $currencySymbols = array(
 		'de' => 'LRD',
 		'el' => 'LRD',
 		'en' => array(
-			'GB' => 'LRD',
 			'LR' => '$',
 		),
 		'es' => 'LRD',
@@ -4235,13 +3877,7 @@ $currencySymbols = array(
 		'zh' => 'LRD',
 	),
 	'LSL' => array(
-		'en' => array(
-			'GB' => 'LSL',
-		),
 		'fr' => 'lLS',
-		'st' => array(
-			'LS' => 'M',
-		),
 	),
 	'LTL' => array(
 		'af' => 'LTL',
@@ -4256,9 +3892,6 @@ $currencySymbols = array(
 		'da' => 'LTL',
 		'de' => 'LTL',
 		'el' => 'LTL',
-		'en' => array(
-			'GB' => 'LTL',
-		),
 		'es' => 'LTL',
 		'et' => 'LTL',
 		'eu' => 'LTL',
@@ -4317,31 +3950,13 @@ $currencySymbols = array(
 		'vi' => 'LTL',
 		'zh' => 'LTL',
 	),
-	'LTT' => array(
-		'en' => array(
-			'GB' => 'LTT',
-		),
-	),
-	'LUC' => array(
-		'en' => array(
-			'GB' => 'LUC',
-		),
-	),
 	'LUF' => array(
 		'de' => array(
 			'DEFAULT' => 'LUF',
 			'LU' => 'F',
 		),
-		'en' => array(
-			'GB' => 'LUF',
-		),
 		'fr' => array(
 			'LU' => 'F',
-		),
-	),
-	'LUL' => array(
-		'en' => array(
-			'GB' => 'LUL',
 		),
 	),
 	'LVL' => array(
@@ -4356,9 +3971,6 @@ $currencySymbols = array(
 		'da' => 'LVL',
 		'de' => 'LVL',
 		'el' => 'LVL',
-		'en' => array(
-			'GB' => 'LVL',
-		),
 		'es' => 'LVL',
 		'et' => 'LVL',
 		'eu' => 'LVL',
@@ -4414,40 +4026,16 @@ $currencySymbols = array(
 		'vi' => 'LVL',
 		'zh' => 'LVL',
 	),
-	'LVR' => array(
-		'en' => array(
-			'GB' => 'LVR',
-		),
-	),
 	'LYD' => array(
 		'ar' => 'د.ل.‏',
-		'en' => array(
-			'GB' => 'LYD',
-		),
 	),
 	'MAD' => array(
 		'ar' => 'د.م.‏',
-		'en' => array(
-			'GB' => 'MAD',
-		),
 	),
 	'MAF' => array(
 		'fr' => 'fMA',
 	),
-	'MCF' => array(
-		'en' => array(
-			'GB' => 'MCF',
-		),
-	),
-	'MDC' => array(
-		'en' => array(
-			'GB' => 'MDC',
-		),
-	),
 	'MDL' => array(
-		'en' => array(
-			'GB' => 'MDL',
-		),
 		'ro' => array(
 			'DEFAULT' => 'MDL',
 			'MD' => 'L',
@@ -4471,7 +4059,6 @@ $currencySymbols = array(
 		'de' => 'MGA',
 		'el' => 'MGA',
 		'en' => array(
-			'GB' => 'MGA',
 			'MG' => 'Ar',
 		),
 		'es' => 'MGA',
@@ -4538,17 +4125,9 @@ $currencySymbols = array(
 		'fr' => 'Fmg',
 	),
 	'MKD' => array(
-		'en' => array(
-			'GB' => 'MKD',
-		),
 		'mk' => 'ден',
 		'sq' => array(
 			'MK' => 'den',
-		),
-	),
-	'MKN' => array(
-		'en' => array(
-			'GB' => 'MKN',
 		),
 	),
 	'MMK' => array(
@@ -4565,9 +4144,6 @@ $currencySymbols = array(
 		'da' => 'MMK',
 		'de' => 'MMK',
 		'el' => 'MMK',
-		'en' => array(
-			'GB' => 'MMK',
-		),
 		'es' => 'MMK',
 		'et' => 'MMK',
 		'eu' => 'MMK',
@@ -4641,9 +4217,6 @@ $currencySymbols = array(
 		'da' => 'MNT',
 		'de' => 'MNT',
 		'el' => 'MNT',
-		'en' => array(
-			'GB' => 'MNT',
-		),
 		'es' => 'MNT',
 		'et' => 'MNT',
 		'eu' => 'MNT',
@@ -4703,7 +4276,6 @@ $currencySymbols = array(
 	),
 	'MOP' => array(
 		'en' => array(
-			'GB' => 'MOP',
 			'MO' => 'MOP$',
 		),
 		'pt' => array(
@@ -4717,9 +4289,6 @@ $currencySymbols = array(
 	),
 	'MRO' => array(
 		'ar' => 'أ.م.‏',
-		'en' => array(
-			'GB' => 'MRO',
-		),
 		'ff' => array(
 			'MR' => 'UM',
 		),
@@ -4728,15 +4297,7 @@ $currencySymbols = array(
 			'MR' => 'UM',
 		),
 	),
-	'MTL' => array(
-		'en' => array(
-			'GB' => 'MTL',
-		),
-	),
 	'MTP' => array(
-		'en' => array(
-			'GB' => 'MTP',
-		),
 		'fr' => '£MT',
 	),
 	'MUR' => array(
@@ -4754,7 +4315,6 @@ $currencySymbols = array(
 		'de' => 'MUR',
 		'el' => 'MUR',
 		'en' => array(
-			'GB' => 'MUR',
 			'MU' => 'Rs',
 		),
 		'es' => 'MUR',
@@ -4817,14 +4377,8 @@ $currencySymbols = array(
 		'vi' => 'MUR',
 		'zh' => 'MUR',
 	),
-	'MVR' => array(
-		'en' => array(
-			'GB' => 'MVR',
-		),
-	),
 	'MWK' => array(
 		'en' => array(
-			'GB' => 'MWK',
 			'MW' => 'MK',
 		),
 	),
@@ -4833,9 +4387,6 @@ $currencySymbols = array(
 		'bg' => 'MXN',
 		'bs' => 'MXN',
 		'ca' => 'MXN',
-		'en' => array(
-			'GB' => 'MX$',
-		),
 		'es' => array(
 			'DEFAULT' => 'MXN',
 			'MX' => '$',
@@ -4861,16 +4412,8 @@ $currencySymbols = array(
 		'uk' => 'MXN',
 	),
 	'MXP' => array(
-		'en' => array(
-			'GB' => 'MXP',
-		),
 		'es' => array(
 			'MX' => 'MXP',
-		),
-	),
-	'MXV' => array(
-		'en' => array(
-			'GB' => 'MXV',
 		),
 	),
 	'MYR' => array(
@@ -4888,7 +4431,6 @@ $currencySymbols = array(
 		'de' => 'MYR',
 		'el' => 'MYR',
 		'en' => array(
-			'GB' => 'MYR',
 			'MY' => 'RM',
 		),
 		'es' => 'MYR',
@@ -4954,9 +4496,6 @@ $currencySymbols = array(
 		'zh' => 'MYR',
 	),
 	'MZN' => array(
-		'en' => array(
-			'GB' => 'MZN',
-		),
 		'mgh' => 'MTn',
 		'pt' => array(
 			'DEFAULT' => 'MZN',
@@ -4982,7 +4521,6 @@ $currencySymbols = array(
 		'de' => 'NAD',
 		'el' => 'NAD',
 		'en' => array(
-			'GB' => 'NAD',
 			'NA' => '$',
 		),
 		'es' => 'NAD',
@@ -5059,7 +4597,6 @@ $currencySymbols = array(
 		'de' => 'NGN',
 		'el' => 'NGN',
 		'en' => array(
-			'GB' => 'NGN',
 			'NG' => '₦',
 		),
 		'es' => 'NGN',
@@ -5117,12 +4654,13 @@ $currencySymbols = array(
 		'ur' => 'NGN',
 		'uz' => 'NGN',
 		'vi' => 'NGN',
+		'yo' => array(
+			'BJ' => '₦',
+			'DEFAULT' => '₦',
+		),
 		'zh' => 'NGN',
 	),
 	'NIC' => array(
-		'en' => array(
-			'GB' => 'NIC',
-		),
 		'es' => array(
 			'MX' => 'NIC',
 		),
@@ -5141,9 +4679,6 @@ $currencySymbols = array(
 		'da' => 'NIO',
 		'de' => 'NIO',
 		'el' => 'NIO',
-		'en' => array(
-			'GB' => 'NIO',
-		),
 		'es' => array(
 			'DEFAULT' => 'NIO',
 			'NI' => 'C$',
@@ -5206,11 +4741,6 @@ $currencySymbols = array(
 		'zh' => 'NIO',
 		'zu' => 'NIO',
 	),
-	'NLG' => array(
-		'en' => array(
-			'GB' => 'NLG',
-		),
-	),
 	'NOK' => array(
 		'af' => 'NOK',
 		'am' => 'NOK',
@@ -5225,9 +4755,6 @@ $currencySymbols = array(
 		'da' => 'NOK',
 		'de' => 'NOK',
 		'el' => 'NOK',
-		'en' => array(
-			'GB' => 'NOK',
-		),
 		'eo' => 'NOK',
 		'es' => 'NOK',
 		'et' => 'NOK',
@@ -5307,9 +4834,6 @@ $currencySymbols = array(
 		'da' => 'NPR',
 		'de' => 'NPR',
 		'el' => 'NPR',
-		'en' => array(
-			'GB' => 'NPR',
-		),
 		'es' => 'NPR',
 		'et' => 'NPR',
 		'eu' => 'NPR',
@@ -5375,7 +4899,6 @@ $currencySymbols = array(
 		'bs' => 'NZD',
 		'en' => array(
 			'CK' => '$',
-			'GB' => 'NZ$',
 			'NU' => '$',
 			'NZ' => '$',
 			'PN' => '$',
@@ -5407,14 +4930,8 @@ $currencySymbols = array(
 	),
 	'OMR' => array(
 		'ar' => 'ر.ع.‏',
-		'en' => array(
-			'GB' => 'OMR',
-		),
 	),
 	'PAB' => array(
-		'en' => array(
-			'GB' => 'PAB',
-		),
 		'es' => array(
 			'DEFAULT' => 'PAB',
 			'PA' => 'B/.',
@@ -5426,9 +4943,6 @@ $currencySymbols = array(
 		),
 	),
 	'PEN' => array(
-		'en' => array(
-			'GB' => 'PEN',
-		),
 		'es' => array(
 			'DEFAULT' => 'PEN',
 			'PE' => 'S/.',
@@ -5446,7 +4960,6 @@ $currencySymbols = array(
 	),
 	'PGK' => array(
 		'en' => array(
-			'GB' => 'PGK',
 			'PG' => 'K',
 		),
 	),
@@ -5465,7 +4978,6 @@ $currencySymbols = array(
 		'de' => 'PHP',
 		'el' => 'PHP',
 		'en' => array(
-			'GB' => 'PHP',
 			'PH' => '₱',
 		),
 		'es' => array(
@@ -5543,7 +5055,6 @@ $currencySymbols = array(
 		'de' => 'PKR',
 		'el' => 'PKR',
 		'en' => array(
-			'GB' => 'PKR',
 			'PK' => 'Rs',
 		),
 		'es' => 'PKR',
@@ -5621,9 +5132,6 @@ $currencySymbols = array(
 		'da' => 'PLN',
 		'de' => 'PLN',
 		'el' => 'PLN',
-		'en' => array(
-			'GB' => 'PLN',
-		),
 		'eo' => 'PLN',
 		'es' => 'PLN',
 		'et' => 'PLN',
@@ -5684,15 +5192,7 @@ $currencySymbols = array(
 		'zh' => 'PLN',
 		'zu' => 'PLN',
 	),
-	'PLZ' => array(
-		'en' => array(
-			'GB' => 'PLZ',
-		),
-	),
 	'PTE' => array(
-		'en' => array(
-			'GB' => 'PTE',
-		),
 		'pt' => array(
 			'CV' => '​PTE',
 			'DEFAULT' => 'Esc.',
@@ -5713,9 +5213,6 @@ $currencySymbols = array(
 		'da' => 'PYG',
 		'de' => 'PYG',
 		'el' => 'PYG',
-		'en' => array(
-			'GB' => 'PYG',
-		),
 		'es' => array(
 			'DEFAULT' => 'PYG',
 			'PY' => '₲',
@@ -5778,28 +5275,12 @@ $currencySymbols = array(
 	),
 	'QAR' => array(
 		'ar' => 'ر.ق.‏',
-		'en' => array(
-			'GB' => 'QAR',
-		),
 	),
 	'RHD' => array(
 		'fr' => '$RH',
 	),
-	'ROL' => array(
-		'en' => array(
-			'GB' => 'ROL',
-		),
-	),
-	'RON' => array(
-		'en' => array(
-			'GB' => 'RON',
-		),
-	),
 	'RSD' => array(
 		'bs' => 'дин.',
-		'en' => array(
-			'GB' => 'RSD',
-		),
 	),
 	'RUB' => array(
 		'af' => 'RUB',
@@ -5816,9 +5297,6 @@ $currencySymbols = array(
 		'da' => 'RUB',
 		'de' => 'RUB',
 		'el' => 'RUB',
-		'en' => array(
-			'GB' => 'RUB',
-		),
 		'eo' => 'RUB',
 		'es' => 'RUB',
 		'et' => 'RUB',
@@ -5889,9 +5367,6 @@ $currencySymbols = array(
 		'ca' => 'RUR',
 		'cs' => 'RUR',
 		'de' => 'RUR',
-		'en' => array(
-			'GB' => 'RUR',
-		),
 		'fi' => 'RUR',
 		'ga' => 'RUR',
 		'gd' => 'RUR',
@@ -5926,7 +5401,6 @@ $currencySymbols = array(
 		'de' => 'RWF',
 		'el' => 'RWF',
 		'en' => array(
-			'GB' => 'RWF',
 			'RW' => 'RF',
 		),
 		'es' => 'RWF',
@@ -5991,9 +5465,6 @@ $currencySymbols = array(
 	),
 	'SAR' => array(
 		'ar' => 'ر.س.‏',
-		'en' => array(
-			'GB' => 'SAR',
-		),
 	),
 	'SBD' => array(
 		'af' => 'SBD',
@@ -6010,7 +5481,6 @@ $currencySymbols = array(
 		'de' => 'SBD',
 		'el' => 'SBD',
 		'en' => array(
-			'GB' => 'SBD',
 			'SB' => '$',
 		),
 		'es' => 'SBD',
@@ -6077,7 +5547,6 @@ $currencySymbols = array(
 	),
 	'SCR' => array(
 		'en' => array(
-			'GB' => 'SCR',
 			'SC' => 'SR',
 		),
 		'fr' => array(
@@ -6092,9 +5561,6 @@ $currencySymbols = array(
 		'ar' => array(
 			'DEFAULT' => 'ج.س.',
 			'LB' => 'SDG',
-		),
-		'en' => array(
-			'GB' => 'SDG',
 		),
 	),
 	'SEK' => array(
@@ -6111,9 +5577,6 @@ $currencySymbols = array(
 		'da' => 'SEK',
 		'de' => 'SEK',
 		'el' => 'SEK',
-		'en' => array(
-			'GB' => 'SEK',
-		),
 		'eo' => 'SEK',
 		'es' => 'SEK',
 		'et' => 'SEK',
@@ -6194,7 +5657,6 @@ $currencySymbols = array(
 		'de' => 'SGD',
 		'el' => 'SGD',
 		'en' => array(
-			'GB' => 'SGD',
 			'SG' => '$',
 		),
 		'es' => 'SGD',
@@ -6282,7 +5744,6 @@ $currencySymbols = array(
 		'de' => 'SHP',
 		'el' => 'SHP',
 		'en' => array(
-			'GB' => 'SHP',
 			'SH' => '£',
 		),
 		'es' => 'SHP',
@@ -6343,19 +5804,8 @@ $currencySymbols = array(
 		'vi' => 'SHP',
 		'zh' => 'SHP',
 	),
-	'SIT' => array(
-		'en' => array(
-			'GB' => 'SIT',
-		),
-	),
-	'SKK' => array(
-		'en' => array(
-			'GB' => 'SKK',
-		),
-	),
 	'SLL' => array(
 		'en' => array(
-			'GB' => 'SLL',
 			'SL' => 'Le',
 		),
 	),
@@ -6363,9 +5813,6 @@ $currencySymbols = array(
 		'ar' => array(
 			'DEFAULT' => 'SOS',
 			'SO' => 'S',
-		),
-		'en' => array(
-			'GB' => 'SOS',
 		),
 		'so' => 'S',
 	),
@@ -6383,18 +5830,12 @@ $currencySymbols = array(
 		'da' => 'SRD',
 		'de' => 'SRD',
 		'el' => 'SRD',
-		'en' => array(
-			'GB' => 'SRD',
-		),
 		'es' => 'SRD',
 		'et' => 'SRD',
 		'eu' => 'SRD',
 		'fi' => 'SRD',
 		'fil' => 'SRD',
-		'fr' => array(
-			'CA' => 'SRD',
-			'DEFAULT' => '$SR',
-		),
+		'fr' => '$SR',
 		'ga' => 'SRD',
 		'gd' => 'SRD',
 		'gl' => 'SRD',
@@ -6472,7 +5913,6 @@ $currencySymbols = array(
 		'de' => 'SSP',
 		'el' => 'SSP',
 		'en' => array(
-			'GB' => 'SSP',
 			'SS' => '£',
 		),
 		'es' => 'SSP',
@@ -6545,9 +5985,6 @@ $currencySymbols = array(
 		'da' => 'STD',
 		'de' => 'STD',
 		'el' => 'STD',
-		'en' => array(
-			'GB' => 'STD',
-		),
 		'es' => 'STD',
 		'et' => 'STD',
 		'eu' => 'STD',
@@ -6608,15 +6045,7 @@ $currencySymbols = array(
 		'vi' => 'STD',
 		'zh' => 'STD',
 	),
-	'SUR' => array(
-		'en' => array(
-			'GB' => 'SUR',
-		),
-	),
 	'SVC' => array(
-		'en' => array(
-			'GB' => 'SVC',
-		),
 		'es' => array(
 			'MX' => 'SVC',
 		),
@@ -6635,9 +6064,6 @@ $currencySymbols = array(
 		'da' => 'SYP',
 		'de' => 'SYP',
 		'el' => 'SYP',
-		'en' => array(
-			'GB' => 'SYP',
-		),
 		'es' => 'SYP',
 		'et' => 'SYP',
 		'eu' => 'SYP',
@@ -6700,18 +6126,13 @@ $currencySymbols = array(
 	),
 	'SZL' => array(
 		'en' => array(
-			'GB' => 'SZL',
 			'SZ' => 'E',
 		),
-		'ss' => 'E',
 	),
 	'THB' => array(
 		'bg' => 'THB',
 		'cs' => 'THB',
 		'dz' => 'TH฿',
-		'en' => array(
-			'GB' => '฿',
-		),
 		'es' => array(
 			'DEFAULT' => '฿',
 			419 => 'THB',
@@ -6737,33 +6158,11 @@ $currencySymbols = array(
 		'th' => 'THB',
 		'uk' => 'THB',
 	),
-	'TJR' => array(
-		'en' => array(
-			'GB' => 'TJR',
-		),
-	),
-	'TJS' => array(
-		'en' => array(
-			'GB' => 'TJS',
-		),
-		'tg' => 'сом',
-	),
-	'TMM' => array(
-		'en' => array(
-			'GB' => 'TMM',
-		),
-	),
 	'TMT' => array(
-		'en' => array(
-			'GB' => 'TMT',
-		),
 		'ru' => 'ТМТ',
 	),
 	'TND' => array(
 		'ar' => 'د.ت.‏',
-		'en' => array(
-			'GB' => 'TND',
-		),
 		'fr' => array(
 			'DEFAULT' => 'TND',
 			'TN' => 'DT',
@@ -6784,7 +6183,6 @@ $currencySymbols = array(
 		'de' => 'TOP',
 		'el' => 'TOP',
 		'en' => array(
-			'GB' => 'TOP',
 			'TO' => 'T$',
 		),
 		'es' => 'TOP',
@@ -6844,16 +6242,6 @@ $currencySymbols = array(
 		'vi' => 'TOP',
 		'zh' => 'TOP',
 	),
-	'TPE' => array(
-		'en' => array(
-			'GB' => 'TPE',
-		),
-	),
-	'TRL' => array(
-		'en' => array(
-			'GB' => 'TRL',
-		),
-	),
 	'TRY' => array(
 		'af' => 'TRY',
 		'am' => 'TRY',
@@ -6867,9 +6255,6 @@ $currencySymbols = array(
 		'da' => 'TRY',
 		'de' => 'TRY',
 		'el' => 'TRY',
-		'en' => array(
-			'GB' => 'TRY',
-		),
 		'es' => array(
 			'DEFAULT' => 'TRY',
 			'MX' => 'TL',
@@ -6945,7 +6330,6 @@ $currencySymbols = array(
 		'de' => 'TTD',
 		'el' => 'TTD',
 		'en' => array(
-			'GB' => 'TTD',
 			'TT' => '$',
 		),
 		'es' => 'TTD',
@@ -7013,9 +6397,6 @@ $currencySymbols = array(
 	'TWD' => array(
 		'bg' => 'TWD',
 		'br' => '$',
-		'en' => array(
-			'GB' => 'NT$',
-		),
 		'es' => 'TWD',
 		'fi' => 'TWD',
 		'fr' => 'TWD',
@@ -7039,7 +6420,6 @@ $currencySymbols = array(
 		'asa' => 'TSh',
 		'bez' => 'TSh',
 		'en' => array(
-			'GB' => 'TZS',
 			'TZ' => 'TSh',
 		),
 		'jmc' => 'TSh',
@@ -7068,9 +6448,6 @@ $currencySymbols = array(
 		'da' => 'UAH',
 		'de' => 'UAH',
 		'el' => 'UAH',
-		'en' => array(
-			'GB' => 'UAH',
-		),
 		'es' => 'UAH',
 		'et' => 'UAH',
 		'eu' => 'UAH',
@@ -7127,15 +6504,11 @@ $currencySymbols = array(
 		'zh' => 'UAH',
 	),
 	'UAK' => array(
-		'en' => array(
-			'GB' => 'UAK',
-		),
 		'uk' => 'крб.',
 	),
 	'UGX' => array(
 		'cgg' => 'USh',
 		'en' => array(
-			'GB' => 'UGX',
 			'UG' => 'USh',
 		),
 		'lg' => 'USh',
@@ -7161,9 +6534,7 @@ $currencySymbols = array(
 		'el' => '$',
 		'en' => array(
 			001 => 'US$',
-			'CA' => 'US$',
 			'DEFAULT' => '$',
-			'GB' => '$',
 		),
 		'es' => array(
 			'AR' => 'US$',
@@ -7206,7 +6577,7 @@ $currencySymbols = array(
 		'ky' => 'USD',
 		'lb' => '$',
 		'lkt' => '$',
-		'lt' => 'USD',
+		'lt' => 'dol.',
 		'lv' => '$',
 		'ml' => '$',
 		'mn' => '$',
@@ -7244,17 +6615,11 @@ $currencySymbols = array(
 		),
 	),
 	'USN' => array(
-		'en' => array(
-			'GB' => 'USN',
-		),
 		'es' => array(
 			'MX' => 'USN',
 		),
 	),
 	'USS' => array(
-		'en' => array(
-			'GB' => 'USS',
-		),
 		'es' => array(
 			'MX' => 'USS',
 		),
@@ -7278,9 +6643,6 @@ $currencySymbols = array(
 		'da' => 'UYU',
 		'de' => 'UYU',
 		'el' => 'UYU',
-		'en' => array(
-			'GB' => 'UYU',
-		),
 		'es' => array(
 			'DEFAULT' => 'UYU',
 			'UY' => '$',
@@ -7345,9 +6707,6 @@ $currencySymbols = array(
 		'zh' => 'UYU',
 	),
 	'UZS' => array(
-		'en' => array(
-			'GB' => 'UZS',
-		),
 		'uz' => 'сўм',
 	),
 	'VEF' => array(
@@ -7364,9 +6723,6 @@ $currencySymbols = array(
 		'da' => 'VEF',
 		'de' => 'VEF',
 		'el' => 'VEF',
-		'en' => array(
-			'GB' => 'VEF',
-		),
 		'es' => array(
 			'DEFAULT' => 'VEF',
 			'VE' => 'Bs.',
@@ -7431,9 +6787,6 @@ $currencySymbols = array(
 	'VND' => array(
 		'bg' => 'VND',
 		'cs' => 'VND',
-		'en' => array(
-			'GB' => '₫',
-		),
 		'es' => array(
 			'DEFAULT' => '₫',
 			419 => 'VND',
@@ -7458,14 +6811,8 @@ $currencySymbols = array(
 		'sv' => 'VND',
 		'uk' => 'VND',
 	),
-	'VNN' => array(
-		'en' => array(
-			'GB' => 'VNN',
-		),
-	),
 	'VUV' => array(
 		'en' => array(
-			'GB' => 'VUV',
 			'VU' => 'VT',
 		),
 		'fr' => array(
@@ -7475,19 +6822,12 @@ $currencySymbols = array(
 	),
 	'WST' => array(
 		'en' => array(
-			'GB' => 'WST',
 			'WS' => 'WS$',
 		),
-		'fr' => array(
-			'CA' => 'WST',
-			'DEFAULT' => 'WS$',
-		),
+		'fr' => 'WS$',
 	),
 	'XAF' => array(
 		'dz' => 'XAF',
-		'en' => array(
-			'GB' => 'FCFA',
-		),
 		'es' => array(
 			'DEFAULT' => 'XAF',
 			'GQ' => 'FCFA',
@@ -7500,36 +6840,8 @@ $currencySymbols = array(
 		'nb' => 'XAF',
 		'root' => 'FCFA',
 	),
-	'XAG' => array(
-		'en' => array(
-			'GB' => 'XAG',
-		),
-	),
-	'XAU' => array(
-		'en' => array(
-			'GB' => 'XAU',
-		),
-	),
-	'XBA' => array(
-		'en' => array(
-			'GB' => 'XBA',
-		),
-	),
 	'XBB' => array(
 		'cs' => 'EMU',
-		'en' => array(
-			'GB' => 'XBB',
-		),
-	),
-	'XBC' => array(
-		'en' => array(
-			'GB' => 'XBC',
-		),
-	),
-	'XBD' => array(
-		'en' => array(
-			'GB' => 'XBD',
-		),
 	),
 	'XCD' => array(
 		'bg' => 'XCD',
@@ -7539,7 +6851,6 @@ $currencySymbols = array(
 			'AG' => '$',
 			'AI' => '$',
 			'DM' => '$',
-			'GB' => 'EC$',
 			'GD' => '$',
 			'KN' => '$',
 			'LC' => '$',
@@ -7560,32 +6871,13 @@ $currencySymbols = array(
 		'uk' => 'XCD',
 	),
 	'XDR' => array(
-		'en' => array(
-			'GB' => 'XDR',
-		),
 		'fr' => 'DTS',
 	),
 	'XEU' => array(
 		'cs' => 'ECU',
-		'en' => array(
-			'GB' => 'XEU',
-		),
-	),
-	'XFO' => array(
-		'en' => array(
-			'GB' => 'XFO',
-		),
-	),
-	'XFU' => array(
-		'en' => array(
-			'GB' => 'XFU',
-		),
 	),
 	'XOF' => array(
 		'ca' => 'XOF',
-		'en' => array(
-			'GB' => 'CFA',
-		),
 		'es' => 'XOF',
 		'fr' => array(
 			'CA' => 'XOF',
@@ -7595,16 +6887,8 @@ $currencySymbols = array(
 		'root' => 'CFA',
 		'si' => 'සිෆ්එ',
 	),
-	'XPD' => array(
-		'en' => array(
-			'GB' => 'XPD',
-		),
-	),
 	'XPF' => array(
 		'bs' => 'XPF',
-		'en' => array(
-			'GB' => 'CFPF',
-		),
 		'es' => array(
 			'DEFAULT' => 'CFPF',
 			'MX' => 'XPF',
@@ -7621,73 +6905,12 @@ $currencySymbols = array(
 		'nl' => 'XPF',
 		'root' => 'CFPF',
 	),
-	'XPT' => array(
-		'en' => array(
-			'GB' => 'XPT',
-		),
-	),
-	'XRE' => array(
-		'en' => array(
-			'GB' => 'XRE',
-		),
-	),
-	'XSU' => array(
-		'en' => array(
-			'GB' => 'XSU',
-		),
-	),
-	'XTS' => array(
-		'en' => array(
-			'GB' => 'XTS',
-		),
-	),
-	'XUA' => array(
-		'en' => array(
-			'GB' => 'XUA',
-		),
-	),
 	'XXX' => array(
 		'ar' => '***',
-		'en' => array(
-			'GB' => 'XXX',
-		),
 		'ru' => 'XXXX',
-	),
-	'YDD' => array(
-		'en' => array(
-			'GB' => 'YDD',
-		),
 	),
 	'YER' => array(
 		'ar' => 'ر.ي.‏',
-		'en' => array(
-			'GB' => 'YER',
-		),
-	),
-	'YUD' => array(
-		'en' => array(
-			'GB' => 'YUD',
-		),
-	),
-	'YUM' => array(
-		'en' => array(
-			'GB' => 'YUM',
-		),
-	),
-	'YUN' => array(
-		'en' => array(
-			'GB' => 'YUN',
-		),
-	),
-	'YUR' => array(
-		'en' => array(
-			'GB' => 'YUR',
-		),
-	),
-	'ZAL' => array(
-		'en' => array(
-			'GB' => 'ZAL',
-		),
 	),
 	'ZAR' => array(
 		'am' => 'ZAR',
@@ -7703,7 +6926,6 @@ $currencySymbols = array(
 		'de' => 'ZAR',
 		'el' => 'ZAR',
 		'en' => array(
-			'GB' => 'ZAR',
 			'LS' => 'R',
 			'ZA' => 'R',
 		),
@@ -7764,11 +6986,6 @@ $currencySymbols = array(
 		'vi' => 'ZAR',
 		'zh' => 'ZAR',
 	),
-	'ZMK' => array(
-		'en' => array(
-			'GB' => 'ZMK',
-		),
-	),
 	'ZMW' => array(
 		'af' => 'ZMW',
 		'am' => 'ZMW',
@@ -7785,12 +7002,7 @@ $currencySymbols = array(
 		'de' => 'ZMW',
 		'el' => 'ZMW',
 		'en' => array(
-			'GB' => 'ZMW',
 			'ZM' => 'K',
-		),
-		'es' => array(
-			'DEFAULT' => 'ZMW',
-			419 => 'ZMK',
 		),
 		'et' => 'ZMW',
 		'eu' => 'ZMW',

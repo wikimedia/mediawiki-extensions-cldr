@@ -45,6 +45,7 @@ $languageNames = array(
 	'dav' => 'taita',
 	'de' => 'němčina',
 	'de-at' => 'awstriska němčina',
+	'de-ch' => 'šwicarska wysokoněmčina',
 	'dje' => 'zarma',
 	'dsb' => 'delnjoserbšćina',
 	'dua' => 'duala',
@@ -262,7 +263,7 @@ $languageNames = array(
 	'zh' => 'chinšćina',
 	'zh-hans' => 'chinšćina (zjednorjena)',
 	'zh-hant' => 'chinšćina (tradicionalna)',
-	'zu' => 'zulušćina"',
+	'zu' => 'zulušćina',
 	'zxx' => 'žadyn rěčny wobsah',
 );
 

@@ -224,7 +224,7 @@ class CLDRParser {
 				continue;
 			}
 
-			$attributes = array( 'digits', 'rounding', 'cashRounding' );
+			$attributes = array( 'digits', 'rounding', 'cashDigits', 'cashRounding' );
 			foreach ( $attributes as $att ) {
 				if ( (string)$elem[$att] !== '' ) {
 					$data['currencyFractions'][(string)$elem['iso4217']][$att] = (string)$elem[$att];
@@ -368,16 +368,27 @@ class CLDRParser {
 				continue;
 			}
 			$output .= "\n\$$varname = array(\n";
-			foreach ( $values as $key => $value ) {
-				if ( is_array( $value ) ) {
-					$output .= $this->makePrettyArrayOuts( $key, $value, 1 );
-				} else {
-					$key = addcslashes( $key, "'" );
-					$value = addcslashes( $value, "'" );
-					if ( !is_numeric( $key ) ) {
-						$key = "'$key'";
+			if ( $this->isAssoc( $values ) ) {
+				foreach ( $values as $key => $value ) {
+					if ( is_array( $value ) ) {
+						$output .= $this->makePrettyArrayOuts( $key, $value, 1 );
+					} else {
+						$key = addcslashes( $key, "'" );
+						$value = addcslashes( $value, "'" );
+						if ( !is_numeric( $key ) ) {
+							$key = "'$key'";
+						}
+						$output .= "\t$key => '$value',\n";
 					}
-					$output .= "\t$key => '$value',\n";
+				}
+			} else {
+				foreach ( $values as $value ) {
+					if ( is_array( $value ) ) {
+						$output .= $this->makePrettyArrayOuts( null, $value, 1 );
+					} else {
+						$value = addcslashes( $value, "'" );
+						$output .= "\t'$value',\n";
+					}
 				}
 			}
 			$output .= ");\n";
@@ -388,40 +399,62 @@ class CLDRParser {
 
 	/**
 	 * It makes pretty array vals. Dur.
-	 * @param string $key
+	 * @param string|null $key Use null to omit outputting the key
 	 * @param array $value
 	 * @param int $level
 	 * @return string
 	 */
 	function makePrettyArrayOuts( $key, $value, $level = 1 ) {
+		$subKeys = '';
+		$isAssoc = $this->isAssoc( $value );
 		$tabs = str_repeat( "\t", $level );
 
+		foreach ( $value as $subkey => $subvalue ) {
+			$subkey = $isAssoc ? $subkey : null;
+
+			if ( is_array( $subvalue ) ) {
+				$subKeys .= $this->makePrettyArrayOuts( $subkey, $subvalue, $level + 1 );
+			} else {
+				$subkey = $isAssoc ? $this->formatKey( $subkey ) : '';
+				$subvalue = addcslashes( $subvalue, "'" );
+				$subKeys .= "$tabs\t$subkey'$subvalue',\n";
+			}
+		}
+
+		if ( $subKeys === '' ) {
+			return '';
+		}
+
+		$key = $key !== null ? $this->formatKey( $key ) : '';
+		$ret = "$tabs$key" . "array(\n$subKeys$tabs),\n";
+
+		return $ret;
+	}
+
+	/**
+	 * It makes pretty array keys. Dur.
+	 * @param string $key
+	 * @return string
+	 */
+	protected function formatKey( $key ) {
 		$key = addcslashes( $key, "'" );
 		if ( !is_numeric( $key ) ) {
 			$key = "'$key'";
 		}
 
-		$subKeys = '';
-		foreach ( $value as $subkey => $subvalue ) {
-			if ( is_array( $subvalue ) ) {
-				$subKeys .= $this->makePrettyArrayOuts( $subkey, $subvalue, $level + 1 );
-			} else {
-				$subkey = addcslashes( $subkey, "'" );
-				$subvalue = addcslashes( $subvalue, "'" );
-				if ( !is_numeric( $subkey ) ) {
-					$subkey = "'$subkey'";
-				}
-				$subKeys .= "$tabs\t$subkey => '$subvalue',\n";
-			}
-		}
+		$key = "$key => ";
 
-		if ( $subKeys === '' ) {
-			$ret = '';
-		} else {
-			$ret = "$tabs$key => array(\n$subKeys$tabs),\n";
-		}
+		return $key;
+	}
 
-		return $ret;
+	/**
+	 * Checks if array is associative or sequential.
+	 *
+	 * @param array $arr
+	 * @return bool
+	 */
+	protected function isAssoc( array $arr ) {
+		return array_keys( $arr ) !== range( 0, count( $arr ) - 1 );
 	}
 }
 
