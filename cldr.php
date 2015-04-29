@@ -9,7 +9,7 @@ if ( !defined( 'MEDIAWIKI' ) ) die();
  * @copyright Copyright © 2007-2014, Niklas Laxström
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
-define( 'CLDR_VERSION', '4.1.0 (CLDR 26)' );
+define( 'CLDR_VERSION', '4.1.0 (CLDR 27.0.1)' );
 
 $GLOBALS['wgExtensionCredits']['other'][] = array(
 	'path' => __FILE__,
