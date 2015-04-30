@@ -1,0 +1,6 @@
+== cldr 2015.04 ==
+Released at 2015-04-30.
+
+=== Highlights ===
+* T96650: Update to CLDR 27.0.1
+* Fixed names of Baloci languages.
