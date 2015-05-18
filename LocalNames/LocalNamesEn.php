@@ -40,6 +40,11 @@ $languageNames = array(
 	 */
 	'lrc' => 'Northern Luri',
 
+	/* Not in CLDR 27.0.1. Southern Luri language
+	 * https://www.ethnologue.com/language/luz
+	 */
+	'luz' => 'Southern Luri',
+
 	/* Not in CLDR 27.0.1. Mari language
 	 * https://www.ethnologue.com/language/mhr
 	 * Added 2008-05-22.
