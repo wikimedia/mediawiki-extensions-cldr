@@ -35,6 +35,11 @@ $languageNames = array(
 	'gom-mlym' => 'Goan Konkani (Malayalam script)',
 	'gom-arab' => 'Goan Konkani (Arabic script)',
 
+	/* Not in CLDR 27.0.1. Maharashtrian Konkani language
+	 * https://www.ethnologue.com/language/knn
+	 */
+	'knn' => 'Maharashtrian Konkani',
+
 	/* Not in CLDR 27.0.1. Northern Luri language
 	 * https://www.ethnologue.com/language/lrc
 	 */

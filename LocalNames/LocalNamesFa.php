@@ -108,6 +108,11 @@ $languageNames = array(
 	 */
 	// 'jut' => 'Jutish',
 
+	/* Not in CLDR 27.0.1. Maharashtrian Konkani language
+	 * https://www.ethnologue.com/language/knn
+	 */
+	'knn' => 'کونکانی مراتی',
+
 	/* Not in CLDR 27.0.1. Artificial language.
 	 * https://www.ethnologue.com/language/lfn
 	 * Added 2008-01-18.
