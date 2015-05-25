@@ -92,9 +92,6 @@ $languageNames = array(
 	'gom' => 'کونکانی گن',
 	'gom-deva' => 'کونکانی گن (خط دیواناگری)',
 	'gom-latn' => 'کونکانی گن (خط لاتین)',
-	'gom-knda' => 'کونکانی گن (خط کانادا)',
-	'gom-mlym' => 'کونکانی گن (خط مالایالمی)',
-	'gom-arab' => 'کونکانی گن (خط عربی)',
 
 	/* Not in CLDR 27.0.1. Western Atlantic Creole language
 	 * https://www.ethnologue.com/language/dtp

@@ -29,11 +29,8 @@ $languageNames = array(
 	 * https://www.ethnologue.com/language/gom
 	 * Added 2008-09-02.
 	 */
-	// 'gom-deva' => 'Goan Konkani (Devanagari script)',
-	// 'gom-latn' => 'Goan Konkani (Latin script)',
-	// 'gom-knda' => 'Goan Konkani (Kannada script)',
-	// 'gom-mlym' => 'Goan Konkani (Malayalam script)',
-	// 'gom-arab' => 'Goan Konkani (Arabic script)',
+	'gom-deva' => 'ゴア・コンカニ語(デーバナーガリー文字)',
+	'gom-latn' => 'ゴア・コンカニ語(ラテン文字)',
 
 	/* Not in CLDR 27.0.1. Maharashtrian Konkani language
 	 * https://www.ethnologue.com/language/knn
