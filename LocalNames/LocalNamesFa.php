@@ -216,6 +216,14 @@ $languageNames = array(
 	 */
 	'sgs' => 'ساموگیتی',
 
+	/* Not in CLDR 27.0.1. Shawiya language
+	 * https://www.ethnologue.com/language/shy
+	 */
+	'shy' => 'شاویایی',
+	'shy-arab' => 'شاویایی (خط عربی)',
+	'shy-latn' => 'شاویایی (خط لاتین)',
+	'shy-tfng' => 'شاویایی (خط تیفیناغی)',
+
 	/* Not in CLDR 27.0.1.
 	 * http://www.sil.org/iso639-3/documentation.asp?id=sli
 	 * Added 2008-09-02.

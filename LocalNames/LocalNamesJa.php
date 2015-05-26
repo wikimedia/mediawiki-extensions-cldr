@@ -78,6 +78,14 @@ $languageNames = array(
 	// 'ruq-grek' => 'Megleno-Romanian (Greek script)',
 	// 'ruq-latn' => 'Megleno-Romanian (Latin script)',
 
+	/* Not in CLDR 27.0.1. Shawiya language
+	 * https://www.ethnologue.com/language/shy
+	 */
+	'shy' => 'シャウィーア語',
+	'shy-arab' => 'シャウィーア語(アラビア文字)',
+	'shy-latn' => 'シャウィーア語(ラテン文字)',
+	'shy-tfng' => 'シャウィーア語(ティフナグ文字)',
+
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
 	'bat-smg' => 'サモギティア語',
