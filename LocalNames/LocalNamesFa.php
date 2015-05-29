@@ -121,6 +121,11 @@ $languageNames = array(
 	 */
 	// 'lfn' => 'Lingua Franca Nova',
 
+	/* Not in CLDR 27.0.1. Laki language
+	 * https://www.ethnologue.com/language/lki
+	 */
+	'lki' => 'لکی',
+
 	/* Not in CLDR 27.0.1. Latvian language
 	 * http://www.sil.org/iso639-3/documentation.asp?id=ltg
 	 * Added 2010-04-03.

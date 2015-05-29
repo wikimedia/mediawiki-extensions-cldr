@@ -42,6 +42,11 @@ $languageNames = array(
 	 */
 	'knn' => 'マラーティーコンカニ語',
 
+	/* Not in CLDR 27.0.1. Laki language
+	 * https://www.ethnologue.com/language/lki
+	 */
+	'lki' => 'ラーク語',
+
 	/* Not in CLDR 27.0.1. Northern Luri language
 	 * https://www.ethnologue.com/language/lrc
 	 */
