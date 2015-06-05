@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Naudefj"
+			"Naudefj",
+			"Fwolff"
 		]
 	},
-	"cldr-desc": "Uitbreiding om die vertaalde name van tale bied"
+	"cldr-desc": "Uitbreiding wat vertaalde taalname voorsien gebaseer op [http://cldr.unicode.org/index/downloads CLDR-data]"
 }
