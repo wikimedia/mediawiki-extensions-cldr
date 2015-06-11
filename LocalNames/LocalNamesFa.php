@@ -125,12 +125,12 @@ $languageNames = array(
 	/* Not in CLDR 27.0.1. Northern Luri language
 	 * https://www.ethnologue.com/language/lrc
 	 */
-	'lrc' => 'لوری مینجایی',
+	'lrc' => 'لری شمالی',
 
 	/* Not in CLDR 27.0.1. Southern Luri language
 	 * https://www.ethnologue.com/language/luz
 	 */
-	'luz' => 'لوری دومنی',
+	'luz' => 'لری جنوبی',
 
 	/* Not in CLDR 27.0.1. Mari language
 	 * https://www.ethnologue.com/language/mhr
