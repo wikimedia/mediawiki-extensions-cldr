@@ -11,13 +11,18 @@ $languageNames = array(
 	 * http://www.ethnologue.com/language/bcc
 	 * Added 2008-07-02.
 	 */
-	'bcc' => 'بلوچی مکرانی',
+	'bcc' => 'بلوچی جنوبی',
 
 	/* Not in CLDR 27.0.1. Western Balochi language
 	 * http://www.ethnologue.com/language/bgn
 	 * Added 2015-01-18.
 	 */
-	'bgn' => 'بلوچی رخشانی',
+	'bgn' => 'بلوچی غربی',
+
+	/* Not in CLDR 27.0.1. Eastern Balochi language
+	 * http://www.ethnologue.com/language/bgp
+	 */
+	'bgp' => 'بلوچی شرقی',
 
 	/* Not in CLDR 27.0.1. Betawi language.
 	 * https://www.ethnologue.com/language/bew

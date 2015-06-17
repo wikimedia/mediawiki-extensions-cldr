@@ -13,6 +13,11 @@ $languageNames = array(
 	 */
 	'bgn' => 'Western Balochi',
 
+	/* Not in CLDR 27.0.1. Eastern Balochi language
+	 * http://www.ethnologue.com/language/bgp
+	 */
+	'bgp' => 'Eastern Balochi',
+
 	/* Not in CLDR 27.0.1. Swedish language
 	 * https://www.ethnologue.com/language/dlc
 	 * Added 2008-02-16.
