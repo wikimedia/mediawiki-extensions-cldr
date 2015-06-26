@@ -18,6 +18,13 @@ $languageNames = array(
 	 */
 	'bgp' => '東バローチー語',
 
+	/* Not in CLDR 27.0.1. Jinyu language
+	 * https://www.ethnologue.com/language/cjy
+	 */
+	'cjy' => '晋語',
+	'cjy-hans' => '晋語(簡体字)',
+	'cjy-hant' => '晋語(繁体字)',
+
 	/* Not in CLDR 27.0.1. Swedish language
 	 * https://www.ethnologue.com/language/dlc
 	 * Added 2008-02-16.

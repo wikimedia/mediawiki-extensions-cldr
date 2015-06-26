@@ -18,6 +18,13 @@ $languageNames = array(
 	 */
 	'bgp' => 'Eastern Balochi',
 
+	/* Not in CLDR 27.0.1. Jinyu language
+	 * https://www.ethnologue.com/language/cjy
+	 */
+	'cjy' => 'Jinyu',
+	'cjy-hans' => 'Jinyu (Simplified)',
+	'cjy-hant' => 'Jinyu (Traditional)',
+
 	/* Not in CLDR 27.0.1. Swedish language
 	 * https://www.ethnologue.com/language/dlc
 	 * Added 2008-02-16.

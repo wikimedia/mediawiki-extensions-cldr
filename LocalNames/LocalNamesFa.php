@@ -42,6 +42,13 @@ $languageNames = array(
 	 */
 	// 'bpy' => 'Bishnupriya Manipuri',
 
+	/* Not in CLDR 27.0.1. Jinyu language
+	 * https://www.ethnologue.com/language/cjy
+	 */
+	'cjy' => 'جینیو',
+	'cjy-hans' => 'جینیو (ساده‌شده)',
+	'cjy-hant' => 'جینیو (سنتی)',
+
 	/* Not in CLDR 27.0.1. Bisayan language
 	 * https://www.ethnologue.com/language/cps
 	 * Added 2010-01-11.
