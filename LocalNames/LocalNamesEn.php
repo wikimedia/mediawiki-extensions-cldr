@@ -70,6 +70,11 @@ $languageNames = array(
 	 */
 	'pnb' => 'Western Punjabi',
 
+	/* Not in CLDR 27.0.1. Dari language.
+	 * https://www.ethnologue.com/language/prs
+	 */
+	'prs' => 'Dari',
+
 	/* Not in CLDR 27.0.1. Eastern Romance language.
 	 * https://www.ethnologue.com/language/ruq
 	 * Added 2008-02-04.

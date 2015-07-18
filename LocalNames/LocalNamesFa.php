@@ -191,6 +191,11 @@ $languageNames = array(
 	 */
 	// 'pnt' => 'Pontic',
 
+	/* Not in CLDR 27.0.1. Dari language.
+	 * https://www.ethnologue.com/language/prs
+	 */
+	'prs' => 'دری',
+
 	/* Not in CLDR 27.0.1. Gallo-Italic language.
 	 * http://www.sil.org/iso639-3/documentation.asp?id=rgn
 	 * Added 2009-11-15.
