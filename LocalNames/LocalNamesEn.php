@@ -18,6 +18,22 @@ $languageNames = array(
 	 */
 	'bgp' => 'Eastern Balochi',
 
+	/* Not in CLDR 27.0.1. Western Cham language
+	* https://www.ethnologue.com/language/cja
+	*/
+	'cja' => 'Western Cham',
+	'cja-cham' => 'Western Cham (Cham script)',
+	'cja-latn' => 'Western Cham (Latin script)',
+	'cja-arab' => 'Western Cham (Arabic script)',
+
+	/* Not in CLDR 27.0.1. Eastern Cham language
+	* https://www.ethnologue.com/language/cjm
+	*/
+	'cjm' => 'Eastern Cham',
+	'cjm-cham' => 'Eastern Cham (Cham script)',
+	'cjm-latn' => 'Eastern Cham (Latin script)',
+	'cjm-arab' => 'Eastern Cham (Arabic script)',
+
 	/* Not in CLDR 27.0.1. Jinyu language
 	 * https://www.ethnologue.com/language/cjy
 	 */

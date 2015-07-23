@@ -18,6 +18,22 @@ $languageNames = array(
 	 */
 	'bgp' => '東バローチー語',
 
+	/* Not in CLDR 27.0.1. Western Cham language
+	* https://www.ethnologue.com/language/cja
+	*/
+	'cja' => '西部チャム語',
+	'cja-cham' => '西部チャム語(チャム文字)',
+	'cja-latn' => '西部チャム語(ラテン文字)',
+	'cja-arab' => '西部チャム語(アラビア文字)',
+
+	/* Not in CLDR 27.0.1. Eastern Cham language
+	* https://www.ethnologue.com/language/cjm
+	*/
+	'cjm' => '東部チャム語',
+	'cjm-cham' => '東部チャム語(チャム文字)',
+	'cjm-latn' => '東部チャム語(ラテン文字)',
+	'cjm-arab' => '東部チャム語(アラビア文字)',
+
 	/* Not in CLDR 27.0.1. Jinyu language
 	 * https://www.ethnologue.com/language/cjy
 	 */

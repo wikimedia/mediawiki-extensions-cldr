@@ -42,6 +42,22 @@ $languageNames = array(
 	 */
 	// 'bpy' => 'Bishnupriya Manipuri',
 
+	/* Not in CLDR 27.0.1. Western Cham language
+	* https://www.ethnologue.com/language/cja
+	*/
+	'cja' => 'چِم غربی',
+	'cja-cham' => 'چِم غربی (خط چِم)',
+	'cja-latn' => 'چِم غربی (خط لاتین)',
+	'cja-arab' => 'چِم غربی (خط عربی)',
+
+	/* Not in CLDR 27.0.1. Eastern Cham language
+	* https://www.ethnologue.com/language/cjm
+	*/
+	'cjm' => 'چِم شرقی',
+	'cjm-cham' => 'چِم شرقی (خط چِم)',
+	'cjm-latn' => 'چِم شرقی (خط لاتین)',
+	'cjm-arab' => 'چِم شرقی (خط عربی)',
+
 	/* Not in CLDR 27.0.1. Jinyu language
 	 * https://www.ethnologue.com/language/cjy
 	 */
