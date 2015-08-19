@@ -201,6 +201,11 @@ $languageNames = array(
 	 */
 	// 'njo' => 'Ao Naga',
 
+	/* Not in CLDR 27.0.1. Livvi-Karelian language
+	 * https://www.ethnologue.com/language/olo
+	 */
+	'olo' => 'لیوی-کارلیان',
+
 	/* Not in CLDR 27.0.1. Gallo-Italian language.
 	 * https://www.ethnologue.com/language/pms
 	 * Added 2008-07-09.

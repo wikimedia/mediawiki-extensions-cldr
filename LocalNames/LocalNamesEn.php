@@ -92,6 +92,11 @@ $languageNames = array(
 	 */
 	'mui' => 'Musi',
 
+	/* Not in CLDR 27.0.1. Livvi-Karelian language
+	 * https://www.ethnologue.com/language/olo
+	 */
+	'olo' => 'Livvi-Karelian',
+
 	/* Not in CLDR 27.0.1. Lahnda language.
 	 * https://www.ethnologue.com/language/pnb
 	 * Added 2008-10-29.
