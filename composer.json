@@ -4,11 +4,7 @@
 	"description": "CLDR extension contains local language names for different languages, countries, and currencies extracted from CLDR data",
 	"homepage": "https://www.mediawiki.org/wiki/Extension:CLDR",
 	"license": "GPL-2.0",
-
 	"require": {
 		"composer/installers": ">=1.0.1"
-        },
-	"autoload": {
-		"files": ["cldr.php"]
 	}
 }
