@@ -11,7 +11,7 @@ Download newest data from CLDR site:
  http://www.unicode.org/cldr/repository_access.html
 
 Example:
- wget http://unicode.org/Public/cldr/26/core.zip
+ wget http://unicode.org/Public/cldr/28/core.zip
  unzip core.zip -d core
  php rebuild.php
 

@@ -97,7 +97,6 @@ $languageNames = array(
 	'sq' => 'Albaaniyaan',
 	'sr' => 'Seerbiyaan',
 	'st' => 'Sesooto',
-	'su' => 'Suudaaniis',
 	'sv' => 'Swiidhis',
 	'sw' => 'Sawaaxili',
 	'ta' => 'Tamiil',

@@ -52,6 +52,7 @@ $languageNames = array(
 
 $countryNames = array(
 	'CN' => 'Кытай',
+	'RU' => 'Арассыыйа',
 );
 
 $timeUnits = array(

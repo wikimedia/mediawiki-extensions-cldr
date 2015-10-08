@@ -7,7 +7,7 @@
  * @author Ryan Kaldari
  * @author Santhosh Thottingal
  * @author Sam Reed
- * @copyright Copyright © 2007-2013
+ * @copyright Copyright © 2007-2015
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
@@ -481,6 +481,8 @@ function getRealCode( $code ) {
 		$realCode = 'pt-br';
 	elseif ( !strcmp( $code, 'pt-pt' ) )
 		$realCode = 'pt';
+	elseif ( !strcmp( $code, 'az-arab' ) )
+		$realCode = 'azb';
 
 	return $realCode;
 }

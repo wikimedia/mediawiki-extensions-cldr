@@ -21,3 +21,10 @@ $countryNames = array(
 	'PT' => 'Portugän',
 	'PW' => 'Palauäns',
 );
+
+$timeUnits = array(
+	'month-one' => 'mul {0}',
+	'month-other' => 'muls {0}',
+	'year-one' => 'yel {0}',
+	'year-other' => 'yels {0}',
+);

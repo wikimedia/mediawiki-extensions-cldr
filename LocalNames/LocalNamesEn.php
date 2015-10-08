@@ -7,12 +7,6 @@ $languageNames = array(
 	 */
 	'bcc' => 'Southern Balochi',
 
-	/* Not in CLDR 27.0.1. Name used by Ethnologue:
-	 * http://www.ethnologue.com/language/bgn
-	 * Added 2015-01-18.
-	 */
-	'bgn' => 'Western Balochi',
-
 	/* Not in CLDR 27.0.1. Eastern Balochi language
 	 * http://www.ethnologue.com/language/bgp
 	 */
@@ -69,11 +63,6 @@ $languageNames = array(
 	 * https://www.ethnologue.com/language/lki
 	 */
 	'lki' => 'Laki',
-
-	/* Not in CLDR 27.0.1. Northern Luri language
-	 * https://www.ethnologue.com/language/lrc
-	 */
-	'lrc' => 'Northern Luri',
 
 	/* Not in CLDR 27.0.1. Southern Luri language
 	 * https://www.ethnologue.com/language/luz
@@ -147,7 +136,6 @@ $languageNames = array(
 	'ks-arab' => 'Kashmiri (Arabic script)',
 	'ks-deva' => 'Kashmiri (Devanagari script)',
 	'ku-latn' => 'Kurdish (Latin script)',
-	'nds-nl' => 'Low Saxon (Netherlands)',
 	'roa-rup' => 'Aromanian',
 	'sr-ec' => 'Serbian (Cyrillic script)',
 	'sr-el' => 'Serbian (Latin script)',
