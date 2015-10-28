@@ -1,0 +1,6 @@
+== cldr 2015.10 ==
+Released at 2015-10-28.
+
+=== Highlights ===
+* Extension is no longer automatically loaded when installed via composer.
+* Updated to CLDR 28.
