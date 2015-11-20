@@ -17,7 +17,7 @@ class CldrCurrency {
 	 */
 	private static function loadData( $data ) {
 
-		//bail if we already have it
+		// bail if we already have it
 		if ( isset( self::$cache[$data] ) ) {
 			return;
 		}
@@ -38,7 +38,7 @@ class CldrCurrency {
 				throw new Exception( "Invalid 'data' parameter:\$data in " . __METHOD__ );
 		}
 
-		//go get it
+		// go get it
 		if ( file_exists( $filename ) ) {
 			require_once $filename;
 		}
@@ -70,21 +70,21 @@ class CldrCurrency {
 			if ( !is_null( $country_code ) ) {
 				$country_code = strtoupper( $country_code );
 				if ( $country_code === 'UK' ) {
-					$country_code = 'GB'; //dang iso overlap...
+					$country_code = 'GB'; // dang iso overlap...
 				}
 			}
 
-			//get the default (either the 'root' language, or the original ISO code)
+			// get the default (either the 'root' language, or the original ISO code)
 			$default = $currency_code;
 			if ( array_key_exists( 'root', self::$cache['symbols'][$currency_code] ) ) {
 				$default = self::$cache['symbols'][$currency_code]['root'];
 			}
 
-			//language code might or might not exist
+			// language code might or might not exist
 			if ( array_key_exists( $language_code, self::$cache['symbols'][$currency_code] ) ) {
 				if ( is_array( self::$cache['symbols'][$currency_code][$language_code] ) ) {
 
-					//did we specify a country? If not: Default.
+					// did we specify a country? If not: Default.
 					if ( !is_null( $country_code ) &&
 						array_key_exists(
 							$country_code,
@@ -107,7 +107,7 @@ class CldrCurrency {
 				return $default;
 			}
 		} else {
-			//we have no idea what you were going for, so you can have your old code back.
+			// we have no idea what you were going for, so you can have your old code back.
 			return $currency_code;
 		}
 	}
@@ -124,7 +124,7 @@ class CldrCurrency {
 		self::loadData( 'locale' );
 		$country_code = strtoupper( $country_code );
 		if ( $country_code === 'UK' ) {
-			$country_code = 'GB'; //iso overlap again
+			$country_code = 'GB'; // iso overlap again
 		}
 		if ( array_key_exists( $country_code, self::$cache['locale'] ) ) {
 			return self::$cache['locale'][$country_code];

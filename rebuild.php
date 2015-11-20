@@ -465,6 +465,7 @@ class CLDRParser {
  * @param $code string
  * @return string
  */
+// @codingStandardsIgnoreStart
 function getRealCode( $code ) {
 	$realCode = $code;
 	if ( !strcmp( $code, 'kk' ) )
@@ -486,6 +487,7 @@ function getRealCode( $code ) {
 
 	return $realCode;
 }
+// @codingStandardsIgnoreEnd
 
 $maintClass = 'CLDRRebuild';
 require_once RUN_MAINTENANCE_IF_MAIN;
