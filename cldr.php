@@ -7,22 +7,15 @@
  * @author Niklas Laxström
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
-define( 'CLDR_VERSION', '4.1.1 (CLDR 28)' );
-
-$wgExtensionCredits['other'][] = array(
-	'path' => __FILE__,
-	'name' => 'Language Names',
-	'version' => CLDR_VERSION,
-	'author' => array( 'Niklas Laxström', 'Siebrand Mazeland', 'Ryan Kaldari', 'Sam Reed' ),
-	'url' => 'https://www.mediawiki.org/wiki/Extension:CLDR',
-	'descriptionmsg' => 'cldr-desc',
-);
-
-$wgMessagesDirs['cldr'] = __DIR__ . '/i18n';
-$wgAutoloadClasses['CldrNames'] = __DIR__ . '/CldrNames.php';
-$wgAutoloadClasses['LanguageNames'] = __DIR__ . '/LanguageNames.body.php';
-$wgAutoloadClasses['CountryNames'] = __DIR__ . '/CountryNames.body.php';
-$wgAutoloadClasses['CurrencyNames'] = __DIR__ . '/CurrencyNames.body.php';
-$wgAutoloadClasses['TimeUnits'] = __DIR__ . '/TimeUnits.body.php';
-$wgHooks['LanguageGetTranslatedLanguageNames'][] = 'LanguageNames::coreHook';
-$wgHooks['GetHumanTimestamp'][] = 'TimeUnits::onGetHumanTimestamp';
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'cldr' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['cldr'] = __DIR__ . '/i18n';
+	/*wfWarn(
+		'Deprecated PHP entry point used for cldr extension. Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);*/
+	return;
+} else {
+	die( 'This version of the cldr extension requires MediaWiki 1.25+' );
+}

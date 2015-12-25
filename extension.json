@@ -1,0 +1,32 @@
+{
+	"name": "CLDR",
+	"version": "4.1.1",
+	"author": [
+		"Niklas Laxström",
+		"Siebrand Mazeland",
+		"Ryan Kaldari",
+		"Sam Reed"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:CLDR",
+	"descriptionmsg": "cldr-desc",
+	"Hooks": {
+		"LanguageGetTranslatedLanguageNames": [
+			"LanguageNames::coreHook"
+		],
+		"GetHumanTimestamp": [
+			"TimeUnits::onGetHumanTimestamp"
+		]
+	},
+	"MessageDirs": {
+		"CLDR": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"CldrNames": "CldrNames.php",
+		"LanguageNames": "LanguageNames.body.php",
+		"CountryNames": "CountryNames.body.php",
+		"CurrencyNames": "CurrencyNames.body.php",
+		"TimeUnits": "TimeUnits.body.php"
+	}
+}
