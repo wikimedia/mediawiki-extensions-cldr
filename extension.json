@@ -28,5 +28,6 @@
 		"CountryNames": "CountryNames.body.php",
 		"CurrencyNames": "CurrencyNames.body.php",
 		"TimeUnits": "TimeUnits.body.php"
-	}
+	},
+	"manifest_version": 1
 }
