@@ -1,0 +1,6 @@
+== cldr 2016.01 ==
+Released at 2016-01-29.
+
+=== Noteworthy changes ===
+* Hebrew names for Cebuano and Norwegian are fixed.
+* cldr converted to extension registration. Please update your LocalSettings.php!
