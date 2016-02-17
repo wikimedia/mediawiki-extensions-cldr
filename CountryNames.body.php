@@ -24,20 +24,10 @@ class CountryNames extends CldrNames {
 		$names = self::loadLanguage( $code );
 
 		// Load missing country names from fallback languages
-		if ( is_callable( array( 'Language', 'getFallbacksFor' ) ) ) {
-			// MediaWiki 1.19
-			$fallbacks = Language::getFallbacksFor( $code );
-			foreach ( $fallbacks as $fallback ) {
-				// Overwrite the things in fallback with what we have already
-				$names = array_merge( self::loadLanguage( $fallback ), $names );
-			}
-		} else {
-			// MediaWiki 1.18 or earlier
-			$fallback = $code;
-			while ( $fallback = Language::getFallbackFor( $fallback ) ) {
-				// Overwrite the things in fallback with what we have already
-				$names = array_merge( self::loadLanguage( $fallback ), $names );
-			}
+		$fallbacks = Language::getFallbacksFor( $code );
+		foreach ( $fallbacks as $fallback ) {
+			// Overwrite the things in fallback with what we have already
+			$names = array_merge( self::loadLanguage( $fallback ), $names );
 		}
 
 		return $names;

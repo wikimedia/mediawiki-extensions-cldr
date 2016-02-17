@@ -29,26 +29,13 @@ class TimeUnits extends CldrNames {
 			return $units;
 		}
 		// Load missing time units from fallback languages
-		if ( is_callable( array( 'Language', 'getFallbacksFor' ) ) ) {
-			// MediaWiki 1.19
-			$fallbacks = Language::getFallbacksFor( $code );
-			foreach ( $fallbacks as $fallback ) {
-				if ( $units ) {
-					break;
-				}
-				// Get time units from a fallback language
-				$units = self::loadLanguage( $fallback );
+		$fallbacks = Language::getFallbacksFor( $code );
+		foreach ( $fallbacks as $fallback ) {
+			if ( $units ) {
+				break;
 			}
-		} else {
-			// MediaWiki 1.18 or earlier
-			$fallback = $code;
-			while ( $fallback = Language::getFallbackFor( $fallback ) ) {
-				if ( $units ) {
-					break;
-				}
-				// Get time units from a fallback language
-				$units = self::loadLanguage( $fallback );
-			}
+			// Get time units from a fallback language
+			$units = self::loadLanguage( $fallback );
 		}
 
 		return $units;
