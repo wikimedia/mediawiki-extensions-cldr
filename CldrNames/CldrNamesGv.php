@@ -1,10 +1,10 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'gv' => 'Gaelg',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'GB' => 'Rywvaneth Unys',
 	'IM' => 'Ellan Vannin',
-);
+];

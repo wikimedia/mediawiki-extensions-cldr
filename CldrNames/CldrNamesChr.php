@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'cay' => 'ᎦᏳᎦ',
 	'cho' => 'ᎠᏣᏗ',
 	'chr' => 'ᏣᎳᎩ',
@@ -17,9 +17,9 @@ $languageNames = array(
 	'see' => 'ᏏᏂᎦ',
 	'und' => 'ᏄᏬᎵᏍᏛᎾ ᎦᏬᏂᎯᏍᏗ',
 	'zh' => 'ᏓᎶᏂᎨ',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'BRL' => 'ᏆᏏᎵᎢ ᎠᏕᎳ',
 	'CAD' => 'ᎧᎾᏓ ᎠᏕᎳ',
 	'CNY' => 'ᏓᎶᏂᎨ ᎠᏕᎳ',
@@ -30,13 +30,13 @@ $currencyNames = array(
 	'MXN' => 'ᏍᏆᏂ ᎠᏕᎳ',
 	'RUB' => 'ᏲᏂᎢ ᎠᏕᎳ',
 	'USD' => 'ᎤᏃᏍᏗ',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'USD' => '$',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'ᎠᏂᏙᎳ',
 	'AE' => 'ᏌᏊ ᎢᏳᎾᎵᏍᏔᏅ ᎡᎳᏈ ᎢᎹᎵᏘᏏ',
 	'AF' => 'ᎠᏫᎨᏂᏍᏖᏂ',
@@ -233,9 +233,9 @@ $countryNames = array(
 	'SK' => 'ᏍᎶᏩᎩᎠ',
 	'SL' => 'ᏏᎡᎳ ᎴᎣᏂ',
 	'US' => 'ᎠᎹᏰᏟ',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-one' => '{0} ᏏᎦ',
 	'day-other' => '{0} ᏧᏒᎯᏓ',
 	'hour-one' => '{0} ᏑᏣᎶᏓ',
@@ -250,4 +250,4 @@ $timeUnits = array(
 	'week-other' => '{0} ᎢᏳᎾᏙᏓᏆᏍᏗ',
 	'year-one' => '{0} ᏑᏕᏘᏴᏓ',
 	'year-other' => '{0} ᏧᏕᏘᏴᏓ',
-);
+];

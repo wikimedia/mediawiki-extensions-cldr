@@ -1,15 +1,15 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'nds-nl' => 'West Low German',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ILR' => 'Israeli Shekel (1980–1985)',
 	'ILS' => 'Israeli New Shekel',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'hour-narrow-future-one' => 'in {0} hr',
 	'hour-narrow-future-other' => 'in {0} hr',
 	'hour-narrow-past-one' => '{0} hr ago',
@@ -59,4 +59,4 @@ $timeUnits = array(
 	'year-short-future-other' => 'in {0} yr',
 	'year-short-past-one' => '{0} yr ago',
 	'year-short-past-other' => '{0} yr ago',
-);
+];

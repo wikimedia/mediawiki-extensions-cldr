@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'abkhaziagbe',
 	'ady' => 'adyghegbe',
 	'af' => 'afrikaangbe',
@@ -254,9 +254,9 @@ $languageNames = array(
 	'zh-hant' => 'blema tsainagbe',
 	'zu' => 'zulugbe',
 	'zxx' => 'gbegbɔgblɔ manɔmee',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'andorraga peseta',
 	'AED' => 'united arab emiratesga dirham',
 	'AFA' => 'afghanistanga afghani (1927–2002)',
@@ -547,9 +547,9 @@ $currencyNames = array(
 	'ZWD' => 'zimbabwega dollar (1980–2008)',
 	'ZWL' => 'zimbabwega dollar (2009)',
 	'ZWR' => 'zimbabwega dollar (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AUD' => 'AU$',
 	'BRL' => 'R$',
 	'CAD' => 'CA$',
@@ -578,9 +578,9 @@ $currencySymbols = array(
 	'VND' => '₫',
 	'XCD' => 'EC$',
 	'ZAR' => 'ZAR',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ascension ƒudomekpo nutome',
 	'AD' => 'Andorra nutome',
 	'AE' => 'United Arab Emirates nutome',
@@ -839,9 +839,9 @@ $countryNames = array(
 	'ZA' => 'Anyiehe Africa nutome',
 	'ZM' => 'Zambia nutome',
 	'ZW' => 'Zimbabwe nutome',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-one' => 'le ŋkeke {0} me',
 	'day-future-other' => 'le ŋkeke {0} wo me',
 	'day-one' => 'ŋkeke {0}',
@@ -904,4 +904,4 @@ $timeUnits = array(
 	'year-short-future-other' => 'le ƒe {0} me',
 	'year-short-past-one' => 'le ƒe {0} si va yi me',
 	'year-short-past-other' => 'le ƒe {0} si va yi me',
-);
+];

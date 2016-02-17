@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ak' => 'Takanit',
 	'am' => 'Tamahrict',
 	'ar' => 'Taɛrabt',
@@ -46,9 +46,9 @@ $languageNames = array(
 	'yo' => 'Tayurubit',
 	'zh' => 'Tacinwat, Tamundarint',
 	'zu' => 'Tazulut',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Adirham n Tgeldunin Taɛrabin Yedduklen',
 	'AOA' => 'Akwanza n Ungula',
 	'AUD' => 'Adular n Lusṭrali',
@@ -104,13 +104,13 @@ $currencyNames = array(
 	'ZMK' => 'Akwaca Azambi (1968–2012)',
 	'ZMW' => 'Akwaca Azambi',
 	'ZWD' => 'Adular Azimbabwi',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'DZD' => 'DA',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Undura',
 	'AE' => 'Tigeldunin Yedduklen Taɛrabin',
 	'AF' => 'Afɣanistan',
@@ -336,4 +336,4 @@ $countryNames = array(
 	'ZA' => 'Tafriqt Wadda',
 	'ZM' => 'Zambya',
 	'ZW' => 'Zimbabwi',
-);
+];

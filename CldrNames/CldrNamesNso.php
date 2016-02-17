@@ -1,5 +1,5 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'nso' => 'Sesotho sa Leboa',
-);
+];

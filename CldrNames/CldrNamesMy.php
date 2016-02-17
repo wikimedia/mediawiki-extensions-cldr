@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'အဘ်ခါဇီရန်',
 	'af' => 'အာဖရိကန်းစ်',
 	'agq' => 'အာဂ်ဟိန်း',
@@ -257,9 +257,9 @@ $languageNames = array(
 	'zh-hant' => 'ရှေးရိုးစဉ်လာ တရုတ်',
 	'zu' => 'ဇူလူ',
 	'zxx' => 'ဘာသာစကား နှင့် ပတ်သက် သောအရာမရှိ',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'အာရပ်ဒူဟမ်း',
 	'AFN' => 'အာဖဂန်အာဖဂါနီ',
 	'ALL' => 'အယ်လ်ဘီးနီးယားလီခ်',
@@ -440,9 +440,9 @@ $currencyNames = array(
 	'ZAR' => 'တောင်အဖရိက ရန်း',
 	'ZMW' => 'ဇင်ဘာဘွေခွါးချာ',
 	'ZWD' => 'ဇင်ဘာဘွေ ဒေါ်လာ',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AUD' => 'A$',
 	'BMD' => 'BMD',
 	'BND' => 'BND',
@@ -479,9 +479,9 @@ $currencySymbols = array(
 	'XCD' => 'EC$',
 	'XOF' => 'CFA',
 	'XPF' => 'CFPF',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'အက်စ်စင်ရှီအွန်ကျွန်း',
 	'AD' => 'အန်ဒိုရာ',
 	'AE' => 'ယူအေအီး',
@@ -740,9 +740,9 @@ $countryNames = array(
 	'ZA' => 'တောင်အာဖရိက',
 	'ZM' => 'ဇမ်ဘီယာ',
 	'ZW' => 'ဇင်ဘာဘွေ',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-other' => '{0} c',
 	'day-future-other' => '{0}ရက်အတွင်း',
 	'day-narrow-future-other' => '{0}ရက်အတွင်း',
@@ -800,4 +800,4 @@ $timeUnits = array(
 	'year-past-other' => 'လွန်ခဲ့သော{0}နှစ်',
 	'year-short-future-other' => '{0}နှစ်အတွင်း',
 	'year-short-past-other' => 'လွန်ခဲ့သော{0}နှစ်',
-);
+];

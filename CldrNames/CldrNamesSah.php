@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'Абхаастыы',
 	'af' => 'Аппырыкааныстыы',
 	'ar' => 'Араабтыы',
@@ -48,14 +48,14 @@ $languageNames = array(
 	'uz' => 'Үзбиэктии',
 	'zh' => 'Кытайдыы',
 	'zu' => 'Зуулулуу',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'CN' => 'Кытай',
 	'RU' => 'Арассыыйа',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-other' => '{0} күнүнэн',
 	'day-other' => '{0} күн',
 	'day-past-other' => '{0} күн ынараа өттүгэр',
@@ -77,4 +77,4 @@ $timeUnits = array(
 	'year-future-other' => '{0} сылынан',
 	'year-other' => '{0} сыл',
 	'year-past-other' => '{0} сыл ынараа өттүгэр',
-);
+];

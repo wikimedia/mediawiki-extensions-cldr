@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afara',
 	'ab' => 'abĥaza',
 	'af' => 'afrikansa',
@@ -175,9 +175,9 @@ $languageNames = array(
 	'zh-hant' => 'ĉina tradicia',
 	'zu' => 'zulua',
 	'zxx' => 'nelingvaĵo',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AUD' => 'Aŭstralia dolaro',
 	'BRL' => 'Brazila realo',
 	'CAD' => 'Kanada dolaro',
@@ -209,9 +209,9 @@ $currencyNames = array(
 	'XPT' => 'plateno',
 	'XXX' => 'Nekonata valuto',
 	'ZAR' => 'Sud-afrika rando',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AUD' => 'AU$',
 	'BRL' => 'R$',
 	'CAD' => 'CA$',
@@ -236,9 +236,9 @@ $currencySymbols = array(
 	'TWD' => 'NT$',
 	'USD' => 'US$',
 	'ZAR' => 'ZAR',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Andoro',
 	'AE' => 'Unuiĝintaj Arabaj Emirlandos',
 	'AF' => 'Afganujo',
@@ -465,9 +465,9 @@ $countryNames = array(
 	'ZA' => 'Sud-Afriko',
 	'ZM' => 'Zambio',
 	'ZW' => 'Zimbabvo',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-one' => 'post {0} tago',
 	'day-future-other' => 'post {0} tagoj',
 	'day-one' => '{0} tago',
@@ -516,4 +516,4 @@ $timeUnits = array(
 	'year-other' => '{0} jaroj',
 	'year-past-one' => 'antaŭ {0} jaro',
 	'year-past-other' => 'antaŭ {0} jaroj',
-);
+];

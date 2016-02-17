@@ -10,7 +10,7 @@
  */
 class TimeUnits extends CldrNames {
 
-	private static $cache = array();
+	private static $cache = [];
 
 	/**
 	 * Get localized time units for a particular language, using fallback languages for missing
@@ -78,7 +78,7 @@ class TimeUnits extends CldrNames {
 				wfDebug( __METHOD__ . ": Unable to load time units for $filename\n" );
 			}
 			if ( !isset( self::$cache[$code] ) ) {
-				self::$cache[$code] = array();
+				self::$cache[$code] = [];
 			}
 		}
 
@@ -101,14 +101,14 @@ class TimeUnits extends CldrNames {
 	public static function onGetHumanTimestamp( &$output, $timestamp, $relativeTo, $user, $lang ) {
 
 		// Map PHP's DateInterval property codes to CLDR unit names.
-		$units = array(
+		$units = [
 			's' => 'second',
 			'i' => 'minute',
 			'h' => 'hour',
 			'd' => 'day',
 			'm' => 'month',
 			'y' => 'year',
-		);
+		];
 
 		// Get the difference between the two timestamps (as a DateInterval object).
 		$timeDifference = $timestamp->diff( $relativeTo );

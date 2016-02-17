@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'الأفارية',
 	'ab' => 'الأبخازية',
 	'ace' => 'الأتشينيزية',
@@ -518,9 +518,9 @@ $languageNames = array(
 	'zun' => 'الزونية',
 	'zxx' => 'بدون محتوى لغوي',
 	'zza' => 'زازا',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'بيستا أندوري',
 	'AED' => 'درهم إماراتي',
 	'AFA' => 'أفغاني - 1927-2002',
@@ -775,9 +775,9 @@ $currencyNames = array(
 	'ZRZ' => 'زائير زائيري',
 	'ZWD' => 'دولار زمبابوي',
 	'ZWL' => 'دولار زمبابوي 2009',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'د.إ.‏',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -936,9 +936,9 @@ $currencySymbols = array(
 	'YER' => 'ر.ي.‏',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'جزيرة أسينشيون',
 	'AD' => 'أندورا',
 	'AE' => 'الإمارات العربية المتحدة',
@@ -1198,9 +1198,9 @@ $countryNames = array(
 	'ZA' => 'جنوب أفريقيا',
 	'ZM' => 'زامبيا',
 	'ZW' => 'زيمبابوي',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-few' => '{0} قرون',
 	'century-many' => '{0} قرنًا',
 	'century-one' => 'قرن ({0})',
@@ -1555,4 +1555,4 @@ $timeUnits = array(
 	'year-short-past-zero' => 'قبل {0} سنة',
 	'year-two' => 'سنتان',
 	'year-zero' => '{0} سنة',
-);
+];

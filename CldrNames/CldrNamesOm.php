@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'af' => 'Afrikoota',
 	'am' => 'Afaan Sidaamaa',
 	'ar' => 'Arabiffaa',
@@ -87,9 +87,9 @@ $languageNames = array(
 	'xh' => 'Afaan Xhosa',
 	'zh' => 'Chinese',
 	'zu' => 'Afaan Zuulu',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'BRL' => 'Brazilian Real',
 	'CNY' => 'Chinese Yuan Renminbi',
 	'ETB' => 'Itoophiyaa Birrii',
@@ -99,13 +99,13 @@ $currencyNames = array(
 	'JPY' => 'Japanese Yen',
 	'RUB' => 'Russian Ruble',
 	'USD' => 'US Dollar',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ETB' => 'Br',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'BR' => 'Brazil',
 	'CN' => 'China',
 	'DE' => 'Germany',
@@ -118,4 +118,4 @@ $countryNames = array(
 	'KE' => 'Keeniyaa',
 	'RU' => 'Russia',
 	'US' => 'United States',
-);
+];

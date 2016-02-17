@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afarčina',
 	'ab' => 'abcházčina',
 	'ace' => 'acehčina',
@@ -521,9 +521,9 @@ $languageNames = array(
 	'zun' => 'zuniština',
 	'zxx' => 'bez jazykového obsahu',
 	'zza' => 'zázá',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'andorská peseta',
 	'AED' => 'SAE dirham',
 	'AFN' => 'afganský afgání',
@@ -778,9 +778,9 @@ $currencyNames = array(
 	'ZWD' => 'Zimbabwiansky dolár (1980–2008)',
 	'ZWL' => 'Zimbabwiansky dolár (2009)',
 	'ZWR' => 'Zimbabwiansky dolár (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -943,9 +943,9 @@ $currencySymbols = array(
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
 	'ZWL' => 'ZWL',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ascensión',
 	'AD' => 'Andorra',
 	'AE' => 'Spojené arabské emiráty',
@@ -1205,9 +1205,9 @@ $countryNames = array(
 	'ZA' => 'Južná Afrika',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-few' => '{0} storočia',
 	'century-many' => '{0} storočia',
 	'century-one' => '{0} storočie',
@@ -1444,4 +1444,4 @@ $timeUnits = array(
 	'year-short-past-many' => 'pred {0} r.',
 	'year-short-past-one' => 'pred {0} r.',
 	'year-short-past-other' => 'pred {0} r.',
-);
+];

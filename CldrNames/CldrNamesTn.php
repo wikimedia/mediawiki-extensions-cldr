@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'af' => 'Seburu',
 	'am' => 'Amhariki',
 	'ar' => 'Arabic',
@@ -80,4 +80,4 @@ $languageNames = array(
 	'vi' => 'Vietnamese',
 	'xh' => 'IsiXhosa',
 	'zu' => 'IsiZulu',
-);
+];

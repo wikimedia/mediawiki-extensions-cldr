@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'אפארית',
 	'ab' => 'אבחזית',
 	'ace' => 'אכינזית',
@@ -522,9 +522,9 @@ $languageNames = array(
 	'zun' => 'זוני',
 	'zxx' => 'ללא תוכן לשוני',
 	'zza' => 'זאזא',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'פזטה אנדורית',
 	'AED' => 'דירהם של איחוד הנסיכויות הערביות',
 	'AFN' => 'אפגני אפגני',
@@ -752,9 +752,9 @@ $currencyNames = array(
 	'ZMW' => 'קוואצ׳ה זמבית',
 	'ZRN' => 'זאיר חדש',
 	'ZWD' => 'דולר זימבבואי',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -912,9 +912,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'האי אסנשן',
 	'AD' => 'אנדורה',
 	'AE' => 'איחוד האמירויות הערביות',
@@ -1174,9 +1174,9 @@ $countryNames = array(
 	'ZA' => 'דרום אפריקה',
 	'ZM' => 'זמביה',
 	'ZW' => 'זימבאבווה',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-many' => '{0} מאות',
 	'century-one' => 'מאה {0}',
 	'century-other' => '{0} מאות',
@@ -1413,4 +1413,4 @@ $timeUnits = array(
 	'year-short-past-other' => 'לפני {0} שנים',
 	'year-short-past-two' => 'לפני שנתיים',
 	'year-two' => 'שנתיים',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'abkaziu',
 	'af' => 'afrikaner',
 	'agq' => 'aghem',
@@ -168,9 +168,9 @@ $languageNames = array(
 	'zh-hant' => 'xines tradisional',
 	'zu' => 'zulu',
 	'zxx' => 'sem konteudo linguistiku',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Diren di Emiradus Arabi Unidu',
 	'AOA' => 'Kuanza',
 	'AUD' => 'Dola australianu',
@@ -241,9 +241,9 @@ $currencyNames = array(
 	'ZMK' => 'Kuaxa zambianu (1968–2012)',
 	'ZMW' => 'Kuaxa zambianu',
 	'ZWD' => 'Dola di Zimbabue',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AOA' => 'AOA',
 	'AUD' => 'AU$',
@@ -302,9 +302,9 @@ $currencySymbols = array(
 	'XOF' => 'CFA',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ilha di Asensãu',
 	'AD' => 'Andora',
 	'AE' => 'Emiradus Arabi Unidu',
@@ -564,9 +564,9 @@ $countryNames = array(
 	'ZA' => 'Afrika di Sul',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabui',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-other' => 'di li {0} dia',
 	'day-narrow-future-other' => 'di li {0} dia',
 	'day-narrow-past-other' => 'a ten {0} dia',
@@ -625,4 +625,4 @@ $timeUnits = array(
 	'year-past-other' => 'a ten {0} anu',
 	'year-short-future-other' => 'di li {0} anu',
 	'year-short-past-other' => 'a ten {0} anu',
-);
+];

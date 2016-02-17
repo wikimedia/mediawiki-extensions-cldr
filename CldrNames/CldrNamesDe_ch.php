@@ -1,15 +1,15 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'be' => 'Weissrussisch',
 	'prg' => 'Altpreussisch',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'BYR' => 'Weissrussischer Rubel',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'BD' => 'Bangladesh',
 	'BN' => 'Brunei',
 	'BW' => 'Botswana',
@@ -23,4 +23,4 @@ $countryNames = array(
 	'SB' => 'Salomon-Inseln',
 	'ST' => 'Sao Tomé und Principe',
 	'ZW' => 'Zimbabwe',
-);
+];

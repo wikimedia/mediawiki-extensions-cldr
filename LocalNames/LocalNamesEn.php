@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 
 	/* Not in CLDR 27.0.1. Balochi language
 	 * https://www.ethnologue.com/language/bcc
@@ -154,4 +154,4 @@ $languageNames = array(
 	'zh-sg' => 'Chinese (Singapore)',
 	'zh-tw' => 'Chinese (Taiwan)',
 	'zh-yue' => 'Cantonese', # language redirect
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 
 	/* Not in CLDR 27.0.1. Balochi language
 	 * https://www.ethnologue.com/language/bcc
@@ -180,4 +180,4 @@ $languageNames = array(
 	'rmy' => 'ロマ語',
 	'simple' => 'シンプル英語',
 	'tokipona' => 'トキポナ',
-);
+];

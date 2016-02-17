@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ar' => 'Arabek',
 	'cy' => 'Kembrek',
 	'da' => 'Danek',
@@ -21,13 +21,13 @@ $languageNames = array(
 	'zh' => 'Chinek',
 	'zh-hans' => 'Chinek sempel',
 	'zh-hant' => 'Chînek Tradycyonal',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'EUR' => 'Euro',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'BR' => 'Brasil',
 	'CN' => 'China',
 	'DE' => 'Almayn',
@@ -38,4 +38,4 @@ $countryNames = array(
 	'JP' => 'Japan',
 	'RU' => 'Russi',
 	'US' => 'Statys Unys',
-);
+];

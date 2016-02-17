@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'af' => 'Afrikaanays',
 	'ak' => 'Akan',
 	'am' => 'Axmaari',
@@ -118,9 +118,9 @@ $languageNames = array(
 	'yo' => 'Yoruuba',
 	'zh' => 'Jayniis',
 	'zu' => 'Zuulu',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'DJF' => 'Faran Jabbuuti',
 	'ETB' => 'Birta Itoobbiya',
 	'EUR' => 'Yuuroo',
@@ -129,13 +129,13 @@ $currencyNames = array(
 	'TZS' => 'Shilin Tansaani',
 	'USD' => 'Doollar maraykan',
 	'XXX' => 'Lacag aan la qoon ama aan saxnayn',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'SOS' => 'S',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Andora',
 	'AE' => 'Imaaraadka Carabta ee Midoobay',
 	'AF' => 'Afgaanistaan',
@@ -362,4 +362,4 @@ $countryNames = array(
 	'ZA' => 'Koonfur Afrika',
 	'ZM' => 'Saambiya',
 	'ZW' => 'Simbaabwe',
-);
+];

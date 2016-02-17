@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ak' => 'ⵜⴰⴽⴰⵏⵜ',
 	'am' => 'ⵜⴰⵎⵀⴰⵔⵉⵜ',
 	'ar' => 'ⵜⴰⵄⵔⴰⴱⵜ',
@@ -46,9 +46,9 @@ $languageNames = array(
 	'yo' => 'ⵜⴰⵢⵔⵓⴱⴰⵜ',
 	'zh' => 'ⵜⴰⵛⵉⵏⵡⵉⵜ',
 	'zu' => 'ⵜⴰⵣⵓⵍⵓⵜ',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'ⴰⴷⵔⵉⵎ ⵏ ⵍⵉⵎⴰⵔⴰⵜ',
 	'AOA' => 'ⴽⵡⴰⵏⵣⴰ ⵏ ⴰⵏⴳⵓⵍⴰ',
 	'AUD' => 'ⴰⴷⵓⵍⴰⵔ ⵏ ⵓⵙⵜⵔⴰⵍⵢⴰ',
@@ -105,9 +105,9 @@ $currencyNames = array(
 	'ZMK' => 'ⴰⴽⵡⴰⵛⴰ ⵏ ⵣⴰⵎⴱⵢⴰ (1968–2012)',
 	'ZMW' => 'ⴰⴽⵡⴰⵛⴰ ⵏ ⵣⴰⵎⴱⵢⴰ',
 	'ZWD' => 'ⴰⴷⵓⵍⴰⵔ ⵏ ⵣⵉⵎⴱⴰⴱⵡⵉ',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'ⴰⵏⴷⵓⵔⴰ',
 	'AE' => 'ⵍⵉⵎⴰⵔⴰⵜ',
 	'AF' => 'ⴰⴼⵖⴰⵏⵉⵙⵜⴰⵏ',
@@ -333,4 +333,4 @@ $countryNames = array(
 	'ZA' => 'ⴰⴼⵔⵉⵇⵢⴰ ⵏ ⵉⴼⴼⵓⵙ',
 	'ZM' => 'ⵣⴰⵎⴱⵢⴰ',
 	'ZW' => 'ⵣⵉⵎⴱⴰⴱⵡⵉ',
-);
+];

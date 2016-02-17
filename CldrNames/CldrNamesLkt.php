@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'Abkhaz Iyápi',
 	'ady' => 'Adyghe Iyápi',
 	'ae' => 'Avestan Iyápi',
@@ -150,9 +150,9 @@ $languageNames = array(
 	'zh-hant' => 'Pȟečhókaŋ Háŋska Iyápi Ȟče',
 	'zu' => 'Zulu Iyápi',
 	'zza' => 'Zaza Iyápi',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'CA' => 'Uŋčíyapi Makȟóčhe',
 	'CN' => 'Pȟečhókaŋhaŋska Makȟóčhe',
 	'DE' => 'Iyášiča Makȟóčhe',
@@ -160,9 +160,9 @@ $countryNames = array(
 	'JP' => 'Kisúŋla Makȟóčhe',
 	'MX' => 'Spayóla Makȟóčhe',
 	'US' => 'Mílahaŋska Tȟamákȟočhe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-other' => 'Letáŋhaŋ {0}-čháŋ kiŋháŋ',
 	'day-other' => '{0}-čháŋ',
 	'day-past-other' => 'Hékta {0}-čháŋ k’uŋ héhaŋ',
@@ -181,4 +181,4 @@ $timeUnits = array(
 	'year-future-other' => 'Letáŋhaŋ ómakȟa {0} kiŋháŋ',
 	'year-other' => 'ómakȟa {0}',
 	'year-past-other' => 'Hékta ómakȟa {0} kʼuŋ héhaŋ',
-);
+];

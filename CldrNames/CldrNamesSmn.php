@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ain' => 'ainukielâ',
 	'ar' => 'arabiakielâ',
 	'be' => 'vielgisruošâkielâ',
@@ -65,9 +65,9 @@ $languageNames = array(
 	'zh' => 'kiinakielâ',
 	'zh-hans' => 'oovtâkiärdánis kiinakielâ',
 	'zh-hant' => 'ärbivuáválâš kiinakielâ',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'DKK' => 'Tanska ruvnâ',
 	'EEK' => 'Eesti ruvnâ',
 	'EUR' => 'euro',
@@ -76,10 +76,10 @@ $currencyNames = array(
 	'LVR' => 'Latvia ruble',
 	'NOK' => 'Taažâ ruvnâ',
 	'SEK' => 'Ruotâ ruvnâ',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'microsecond-one' => '{0} μs',
 	'microsecond-other' => '{0} μs',
 	'microsecond-two' => '{0} μs',
-);
+];

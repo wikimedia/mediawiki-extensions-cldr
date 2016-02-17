@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => '아파르어',
 	'ab' => '압카즈어',
 	'ace' => '아체어',
@@ -523,9 +523,9 @@ $languageNames = array(
 	'zun' => '주니어',
 	'zxx' => '언어 관련 내용 없음',
 	'zza' => '자자어',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => '안도라 페세타',
 	'AED' => '아랍에미리트 디르함',
 	'AFA' => '아프가니 (1927–2002)',
@@ -813,9 +813,9 @@ $currencyNames = array(
 	'ZWD' => '짐바브웨 달러',
 	'ZWL' => '짐바브웨 달러 (2009)',
 	'ZWR' => '짐바브웨 달러 (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -972,9 +972,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => '어센션 섬',
 	'AD' => '안도라',
 	'AE' => '아랍에미리트',
@@ -1234,9 +1234,9 @@ $countryNames = array(
 	'ZA' => '남아프리카',
 	'ZM' => '잠비아',
 	'ZW' => '짐바브웨',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-other' => '{0}세기',
 	'day-future-other' => '{0}일 후',
 	'day-narrow-future-other' => '{0}일 후',
@@ -1296,4 +1296,4 @@ $timeUnits = array(
 	'year-past-other' => '{0}년 전',
 	'year-short-future-other' => '{0}년 후',
 	'year-short-past-other' => '{0}년 전',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ak' => 'akankan',
 	'am' => 'amarikikan',
 	'ar' => 'larabukan',
@@ -46,9 +46,9 @@ $languageNames = array(
 	'yo' => 'yorubakan',
 	'zh' => 'siniwakan',
 	'zu' => 'zulukan',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'arabu mara kafoli Diram',
 	'AOA' => 'angola Kwanza',
 	'AUD' => 'ositirali Dolar',
@@ -105,9 +105,9 @@ $currencyNames = array(
 	'ZMK' => 'zambi Kwaca (1968–2012)',
 	'ZMW' => 'zambi Kwaca',
 	'ZWD' => 'zimbabuwe Dolar',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Andɔr',
 	'AE' => 'Arabu mara kafoli',
 	'AF' => 'Afiganistaŋ',
@@ -333,4 +333,4 @@ $countryNames = array(
 	'ZA' => 'Worodugu Afriki',
 	'ZM' => 'Zanbi',
 	'ZW' => 'Zimbabuwe',
-);
+];

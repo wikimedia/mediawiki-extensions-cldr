@@ -1,11 +1,11 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'Qafar',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'DJ' => 'Yabuuti',
 	'ER' => 'Eretria',
 	'ET' => 'Otobbia',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'อะฟาร์',
 	'ab' => 'อับคาซ',
 	'ace' => 'อาเจะห์',
@@ -612,9 +612,9 @@ $languageNames = array(
 	'zun' => 'ซูนิ',
 	'zxx' => 'ไม่มีข้อมูลภาษา',
 	'zza' => 'ซาซา',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'เปเซตาอันดอร์รา',
 	'AED' => 'เดอร์แฮมสหรัฐอาหรับเอมิเรตส์',
 	'AFA' => 'อัฟกานีอัฟกานิสถาน (1927–2002)',
@@ -907,9 +907,9 @@ $currencyNames = array(
 	'ZWD' => 'ดอลลาร์ซิมบับเว',
 	'ZWL' => 'ดอลลาร์ซิมบับเว (2009)',
 	'ZWR' => 'ดอลลาร์ซิมบับเว (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ADP' => 'ADP',
 	'AED' => 'AED',
 	'AFA' => 'AFA',
@@ -1202,9 +1202,9 @@ $currencySymbols = array(
 	'ZWD' => 'ZWD',
 	'ZWL' => 'ZWL',
 	'ZWR' => 'ZWR',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'เกาะแอสเซนชัน',
 	'AD' => 'อันดอร์รา',
 	'AE' => 'สหรัฐอาหรับเอมิเรตส์',
@@ -1464,9 +1464,9 @@ $countryNames = array(
 	'ZA' => 'แอฟริกาใต้',
 	'ZM' => 'แซมเบีย',
 	'ZW' => 'ซิมบับเว',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-other' => '{0} ศตวรรษ',
 	'day-future-other' => 'ในอีก {0} วัน',
 	'day-narrow-future-other' => 'ใน {0} วัน',
@@ -1526,4 +1526,4 @@ $timeUnits = array(
 	'year-past-other' => '{0} ปีที่แล้ว',
 	'year-short-future-other' => 'ใน {0} ปี',
 	'year-short-past-other' => '{0} ปีที่แล้ว',
-);
+];

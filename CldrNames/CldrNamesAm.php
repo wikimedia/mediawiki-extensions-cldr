@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'አፋርኛ',
 	'ab' => 'አብሐዚኛ',
 	'ace' => 'አቻይንኛ',
@@ -358,9 +358,9 @@ $languageNames = array(
 	'zh-hant' => 'ባህላዊ ቻይንኛ',
 	'zu' => 'ዙሉኛ',
 	'zxx' => 'ቋንቋዊ ይዘት አይደለም',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'የተባበሩት የአረብ ኤምረትስ ዲርሀም',
 	'AFN' => 'የአፍጋን አፍጋኒ',
 	'ALL' => 'የአልባንያ ሌክ',
@@ -523,9 +523,9 @@ $currencyNames = array(
 	'ZMK' => 'የዛምቢያ ክዋቻ (1968–2012)',
 	'ZMW' => 'የዛምቢያ ክዋቻ',
 	'ZWD' => 'የዚምቧቡዌ ዶላር',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -682,9 +682,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'አሴንሽን ደሴት',
 	'AD' => 'አንዶራ',
 	'AE' => 'የተባበሩት አረብ ኤምሬትስ',
@@ -944,9 +944,9 @@ $countryNames = array(
 	'ZA' => 'ደቡብ አፍሪካ',
 	'ZM' => 'ዛምቢያ',
 	'ZW' => 'ዚምቧቤ',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} ምዕተ ዓመት',
 	'century-other' => '{0} ምዕተ ዓመት',
 	'day-future-one' => 'በ{0} ቀን ውስጥ',
@@ -1065,4 +1065,4 @@ $timeUnits = array(
 	'year-short-future-other' => 'በ{0} ዓመታት ውስጥ',
 	'year-short-past-one' => 'ከ{0} ዓመታት በፊት',
 	'year-short-past-other' => 'ከ{0} ዓመታት በፊት',
-);
+];

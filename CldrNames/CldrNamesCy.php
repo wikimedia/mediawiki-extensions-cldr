@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'Affareg',
 	'ab' => 'Abchaseg',
 	'ace' => 'Acehneg',
@@ -487,9 +487,9 @@ $languageNames = array(
 	'zun' => 'Zuni',
 	'zxx' => 'Dim cynnwys ieithyddol',
 	'zza' => 'Zazäeg',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Dirham Yr Emiradau Arabaidd Unedig',
 	'AFA' => 'Afghani Afghanistan (1927–2002)',
 	'AFN' => 'Afghani Afghanistan',
@@ -722,9 +722,9 @@ $currencyNames = array(
 	'ZWD' => 'Doler Zimbabwe (1980–2008)',
 	'ZWL' => 'Doler Zimbabwe (2009)',
 	'ZWR' => 'Doler Zimbabwe (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFA' => 'AFA',
 	'AFN' => 'AFN',
@@ -954,9 +954,9 @@ $currencySymbols = array(
 	'ZWD' => 'ZWD',
 	'ZWL' => 'ZWL',
 	'ZWR' => 'ZWR',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ynys Ascension',
 	'AD' => 'Andorra',
 	'AE' => 'Emiradau Arabaidd Unedig',
@@ -1216,9 +1216,9 @@ $countryNames = array(
 	'ZA' => 'De Affrica',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-few' => '{0} canrif',
 	'century-many' => '{0} canrif',
 	'century-one' => '{0} canrif',
@@ -1573,4 +1573,4 @@ $timeUnits = array(
 	'year-short-past-zero' => '{0} o flynyddoedd yn ôl',
 	'year-two' => '{0} flynedd',
 	'year-zero' => '{0} mlynedd',
-);
+];

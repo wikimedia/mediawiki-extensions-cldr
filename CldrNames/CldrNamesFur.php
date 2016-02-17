@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afar',
 	'ab' => 'abcazian',
 	'ae' => 'avestan',
@@ -185,9 +185,9 @@ $languageNames = array(
 	'zh-hans' => 'cinês semplificât',
 	'zh-hant' => 'cinês tradizionâl',
 	'zu' => 'zulu',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AMD' => 'Dram armen',
 	'ARS' => 'Peso argjentin',
 	'ATS' => 'Selin austriac',
@@ -254,9 +254,9 @@ $currencyNames = array(
 	'XTS' => 'codiç di verifiche de monede',
 	'XXX' => 'Monede no valide o no cognossude',
 	'ZAR' => 'rand sudafrican',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Andorra',
 	'AE' => 'Emirâts araps unîts',
 	'AF' => 'Afghanistan',
@@ -510,9 +510,9 @@ $countryNames = array(
 	'ZA' => 'Sud Afriche',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-one' => 'ca di {0} zornade',
 	'day-future-other' => 'ca di {0} zornadis',
 	'day-one' => '{0} zornade',
@@ -555,4 +555,4 @@ $timeUnits = array(
 	'year-other' => '{0} agns',
 	'year-past-one' => '{0} an indaûr',
 	'year-past-other' => '{0} agns indaûr',
-);
+];

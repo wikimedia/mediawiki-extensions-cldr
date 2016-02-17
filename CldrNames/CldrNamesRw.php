@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'af' => 'Ikinyafurikaneri',
 	'am' => 'Inyamuhariki',
 	'ar' => 'Icyarabu',
@@ -106,9 +106,9 @@ $languageNames = array(
 	'xh' => 'Inyehawusa',
 	'yi' => 'Inyeyidishi',
 	'zu' => 'Inyezulu',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'RW' => 'Rwanda',
 	'TO' => 'Igitonga',
-);
+];

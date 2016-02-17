@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ar' => 'arabiamiusut',
 	'az' => 'aserbajdsjaniskisut',
 	'bn' => 'bengalimiutut',
@@ -46,23 +46,23 @@ $languageNames = array(
 	'ur' => 'urdumiutut',
 	'vi' => 'vietnamimiusut',
 	'zh' => 'kineserisut',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'DKK' => 'danmarkimut koruuni',
 	'EUR' => 'euro',
 	'NOK' => 'norskit koruuni',
 	'SEK' => 'svenskit koruuni',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'DKK' => 'kr.',
 	'EUR' => '€',
 	'NOK' => 'Nkr',
 	'SEK' => 'Skr',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ascension qeqertaq',
 	'AD' => 'Andorra',
 	'AF' => 'Afghanistani',
@@ -289,9 +289,9 @@ $countryNames = array(
 	'ZA' => 'Kujalleqafrika',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-one' => 'om {0} ulloq unnuarlu',
 	'day-future-other' => 'om {0} ulloq unnuarlu',
 	'day-one' => '{0} ulloq unnuarlu',
@@ -336,4 +336,4 @@ $timeUnits = array(
 	'year-other' => '{0} ukioq',
 	'year-past-one' => 'for {0} ukioq siden',
 	'year-past-other' => 'for {0} ukioq siden',
-);
+];

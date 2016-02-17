@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'آبخازی',
 	'af' => 'آفریکانس',
 	'agq' => 'آقم',
@@ -233,9 +233,9 @@ $languageNames = array(
 	'zh-hant' => 'سنتی چینی',
 	'zu' => 'زولو',
 	'zxx' => 'این زوون بشناسی‌یه نیّه',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'متحده عربی امارات ِدرهم',
 	'AFN' => 'افغانستون ِافغانی',
 	'ALL' => 'آلبانی ِلک',
@@ -381,9 +381,9 @@ $currencyNames = array(
 	'YER' => 'یمن ِریال',
 	'ZAR' => 'جنوبی آفریقای ِراند',
 	'ZMW' => 'زامبیای ِکواچا',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -529,9 +529,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'آسنسیون جزیره',
 	'AD' => 'آندورا',
 	'AE' => 'متحده عربی امارات',
@@ -790,9 +790,9 @@ $countryNames = array(
 	'ZA' => 'جنوبی افریقا',
 	'ZM' => 'زامبیا',
 	'ZW' => 'زیمبابوه',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-other' => '{0} قرن',
 	'day-future-other' => '{0} روز دله',
 	'day-narrow-future-other' => '{0} روز دله',
@@ -852,4 +852,4 @@ $timeUnits = array(
 	'year-past-other' => '{0} سال پیش',
 	'year-short-future-other' => '{0} سال دله',
 	'year-short-past-other' => '{0} سال پیش',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$countryNames = array(
+$countryNames = [
 	'MV' => 'Malediven',
 	'SB' => 'Salomoneilanden',
-);
+];

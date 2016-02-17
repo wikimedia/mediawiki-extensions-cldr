@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afar',
 	'ab' => 'abkhazeg',
 	'ace' => 'achineg',
@@ -474,9 +474,9 @@ $languageNames = array(
 	'zu' => 'zouloueg',
 	'zun' => 'zuni',
 	'zxx' => 'diyezh',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'peseta Andorra',
 	'AED' => 'dirham EAU',
 	'AFA' => 'afghani Afghanistan (1927–2002)',
@@ -740,9 +740,9 @@ $currencyNames = array(
 	'ZWD' => 'dollar Zimbabwe (1980–2008)',
 	'ZWL' => 'dollar Zimbabwe (2009)',
 	'ZWR' => 'dollar Zimbabwe (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ADP' => 'ADP',
 	'AED' => 'AED',
 	'AFA' => 'AFA',
@@ -1005,9 +1005,9 @@ $currencySymbols = array(
 	'ZWD' => 'ZWD',
 	'ZWL' => 'ZWL',
 	'ZWR' => 'ZWR',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Enez Ascension',
 	'AD' => 'Andorra',
 	'AE' => 'Emirelezhioù Arab Unanet',
@@ -1267,9 +1267,9 @@ $countryNames = array(
 	'ZA' => 'Suafrika',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-few' => '{0} c\'hantved',
 	'century-many' => '{0} a gantvedoù',
 	'century-one' => '{0} c\'hantved',
@@ -1545,4 +1545,4 @@ $timeUnits = array(
 	'year-short-past-other' => '{0} bl. zo',
 	'year-short-past-two' => '{0} bl. zo',
 	'year-two' => '{0} vloaz',
-);
+];

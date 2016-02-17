@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'אַפֿאַר',
 	'af' => 'אַפֿריקאַנס',
 	'akk' => 'אַקאַדיש',
@@ -149,9 +149,9 @@ $languageNames = array(
 	'yi' => 'ייִדיש',
 	'zh' => 'כינעזיש',
 	'zu' => 'זולו',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'BRL' => 'בראזיל רעאל',
 	'BZD' => 'בעליז דאלאַר',
 	'CHF' => 'שווייצער פֿראַנק',
@@ -166,18 +166,18 @@ $currencyNames = array(
 	'XAG' => 'זילבער',
 	'XAU' => 'גאלד',
 	'XXX' => 'אומבאַוואוסטע וואַלוטע',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'EUR' => '€',
 	'GBP' => '£',
 	'INR' => '₹',
 	'JPY' => 'JP¥',
 	'RUB' => 'RUB',
 	'USD' => '$',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'אַנדארע',
 	'AF' => 'אַפֿגהאַניסטאַן',
 	'AG' => 'אַנטיגוע און באַרבודע',
@@ -377,9 +377,9 @@ $countryNames = array(
 	'ZA' => 'דרום־אַפֿריקע',
 	'ZM' => 'זאַמביע',
 	'ZW' => 'זימבאַבווע',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-one' => 'אין {0} טאָג אַרום',
 	'day-future-other' => 'אין {0} טעג אַרום',
 	'month-future-one' => 'איבער {0} חודש',
@@ -406,4 +406,4 @@ $timeUnits = array(
 	'year-short-future-other' => 'איבער {0} יאָר',
 	'year-short-past-one' => 'פֿאַר {0} יאָר',
 	'year-short-past-other' => 'פֿאַר {0} יאָר',
-);
+];

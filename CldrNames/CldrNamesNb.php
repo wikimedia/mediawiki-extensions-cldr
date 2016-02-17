@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afar',
 	'ab' => 'abkhasisk',
 	'ace' => 'achinesisk',
@@ -612,9 +612,9 @@ $languageNames = array(
 	'zun' => 'zuni',
 	'zxx' => 'uten språklig innhold',
 	'zza' => 'zaza',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'andorranske pesetas',
 	'AED' => 'emiratarabiske dirham',
 	'AFA' => 'afgansk afghani (1927–2002)',
@@ -912,9 +912,9 @@ $currencyNames = array(
 	'ZWD' => 'zimbabwiske dollar (1980–2008)',
 	'ZWL' => 'zimbabwisk dollar (2009)',
 	'ZWR' => 'zimbabwisk dollar (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ADP' => 'ADP',
 	'AED' => 'AED',
 	'AFA' => 'AFA',
@@ -1209,9 +1209,9 @@ $currencySymbols = array(
 	'ZRZ' => 'ZRZ',
 	'ZWD' => 'ZWD',
 	'ZWL' => 'ZWL',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ascension',
 	'AD' => 'Andorra',
 	'AE' => 'De forente arabiske emirater',
@@ -1471,9 +1471,9 @@ $countryNames = array(
 	'ZA' => 'Sør-Afrika',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} århundre',
 	'century-other' => '{0} århundrer',
 	'day-future-one' => 'om {0} døgn',
@@ -1592,4 +1592,4 @@ $timeUnits = array(
 	'year-short-future-other' => '+{0} år',
 	'year-short-past-one' => '–{0} år',
 	'year-short-past-other' => '–{0} år',
-);
+];

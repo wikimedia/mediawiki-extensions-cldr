@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ak' => 'Takant',
 	'am' => 'Tamharit',
 	'ar' => 'Taɛrabt',
@@ -46,9 +46,9 @@ $languageNames = array(
 	'yo' => 'Tayrubat',
 	'zh' => 'Tacinwit',
 	'zu' => 'Tazulut',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'adrim n limarat',
 	'AOA' => 'kwanza n angula',
 	'AUD' => 'adular n ustralya',
@@ -105,9 +105,9 @@ $currencyNames = array(
 	'ZMK' => 'akwaca n zambya (1968–2012)',
 	'ZMW' => 'akwaca n zambya',
 	'ZWD' => 'adular n zimbabwi',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'andura',
 	'AE' => 'limarat',
 	'AF' => 'afɣanistan',
@@ -333,4 +333,4 @@ $countryNames = array(
 	'ZA' => 'afriqya n iffus',
 	'ZM' => 'zambya',
 	'ZW' => 'zimbabwi',
-);
+];

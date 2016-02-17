@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'Afahresch',
 	'ab' => 'Abchahsesch',
 	'ace' => 'Aschenehsesch',
@@ -223,9 +223,9 @@ $languageNames = array(
 	'zh-hant' => 'Schineesesch en de tradizjonälle Schreff',
 	'zu' => 'Suulu',
 	'zxx' => 'kein Schprooch',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'de vereineschte arraabesche Emiraate ier Dirham',
 	'AFN' => 'Afjahni',
 	'ALL' => 'albaanesche Lek',
@@ -400,9 +400,9 @@ $currencyNames = array(
 	'ZMW' => 'sambesche Kwacha',
 	'ZWD' => 'simbabwesche Dollaa (1980–2008)',
 	'ZWL' => 'simbabwesche Dollaa (2009)',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Aßension',
 	'AD' => 'Andorra',
 	'AE' => 'Vereinschte Arrabesche Emmirate',
@@ -662,9 +662,9 @@ $countryNames = array(
 	'ZA' => 'de Republik Södaffrika',
 	'ZM' => 'Sambija',
 	'ZW' => 'Simbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-one' => '{0} Dääsch',
 	'day-other' => '{0} Dääsch',
 	'day-zero' => '{0} Dääsch',
@@ -689,4 +689,4 @@ $timeUnits = array(
 	'year-one' => '{0} Johre',
 	'year-other' => '{0} Johre',
 	'year-zero' => '{0} Johre',
-);
+];

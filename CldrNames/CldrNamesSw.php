@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'Kiabkhazi',
 	'ach' => 'Kiakoli',
 	'af' => 'Kiafrikana',
@@ -311,9 +311,9 @@ $languageNames = array(
 	'zh-hant' => 'Kichina cha Jadi',
 	'zu' => 'Kizulu',
 	'zxx' => 'Hakuna maudhui ya lugha',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Dirham ya Falme za Kiarabu',
 	'AFN' => 'Afghani ya Afghanistan',
 	'ALL' => 'Lek ya Albania',
@@ -478,9 +478,9 @@ $currencyNames = array(
 	'ZMK' => 'Kwacha ya Zambia (1968–2012)',
 	'ZMW' => 'Kwacha ya Zambia',
 	'ZWD' => 'Dola ya Zimbabwe',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -637,9 +637,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Kisiwa cha Ascension',
 	'AD' => 'Andora',
 	'AE' => 'Falme za Kiarabu',
@@ -899,9 +899,9 @@ $countryNames = array(
 	'ZA' => 'Afrika Kusini',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => 'karne ya {0}',
 	'century-other' => 'karne za {0}',
 	'day-future-one' => 'baada ya siku {0}',
@@ -1020,4 +1020,4 @@ $timeUnits = array(
 	'year-short-future-other' => 'baada ya miaka {0}',
 	'year-short-past-one' => 'mwaka {0} uliopita',
 	'year-short-past-other' => 'miaka {0} iliyopita',
-);
+];

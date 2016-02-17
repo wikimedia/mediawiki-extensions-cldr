@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'آفاری',
 	'ab' => 'آبخازی',
 	'ace' => 'آچئی',
@@ -509,9 +509,9 @@ $languageNames = array(
 	'zun' => 'زونیایی',
 	'zxx' => 'بدون محتوای زبانی',
 	'zza' => 'زازایی',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'پزتای آندورا',
 	'AED' => 'درهم امارات متحدهٔ عربی',
 	'AFA' => 'افغانی افغانستان (۱۹۲۷ تا ۲۰۰۲)',
@@ -726,9 +726,9 @@ $currencyNames = array(
 	'ZWD' => 'دلار زیمبابوه (۱۹۸۰ تا ۲۰۰۸)',
 	'ZWL' => 'دلار زیمبابوه (۲۰۰۹)',
 	'ZWR' => 'دلار زیمبابوه (۲۰۰۸)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => '؋',
 	'ALL' => 'ALL',
@@ -886,9 +886,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'جزایر آسنسیون',
 	'AD' => 'آندورا',
 	'AE' => 'امارات متحدهٔ عربی',
@@ -1148,9 +1148,9 @@ $countryNames = array(
 	'ZA' => 'افریقای جنوبی',
 	'ZM' => 'زامبیا',
 	'ZW' => 'زیمبابوه',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} سده',
 	'century-other' => '{0} سده',
 	'day-future-one' => '{0} روز بعد',
@@ -1269,4 +1269,4 @@ $timeUnits = array(
 	'year-short-future-other' => '{0} سال بعد',
 	'year-short-past-one' => '{0} سال پیش',
 	'year-short-past-other' => '{0} سال پیش',
-);
+];

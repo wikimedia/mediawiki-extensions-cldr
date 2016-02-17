@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 
 	/* Not in CLDR 27.0.1. Name Gheg Albanian used by Ethnologue:
 	 * https://www.ethnologue.com/language/aln
@@ -363,4 +363,4 @@ $languageNames = array(
 
 	/* additional list from Persian Wikipedia */
 	'simple' => 'انگلیسی ساده',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'آذأربایئجانی',
 	'af' => 'آفریکانس',
 	'agq' => 'آقئم',
@@ -232,9 +232,9 @@ $languageNames = array(
 	'zh-hant' => 'چینی سونأتی',
 	'zu' => 'زولو',
 	'zxx' => 'بی نئشوٙ',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'BRL' => 'رئال بئرئزیل',
 	'CNY' => 'یوان چین',
 	'EUR' => 'یورو',
@@ -244,9 +244,9 @@ $currencyNames = array(
 	'RUB' => 'روٙبل روٙسیه',
 	'USD' => 'USD',
 	'XXX' => 'پیل نادیار',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'BRL' => 'R$',
 	'CNY' => 'CN¥',
 	'EUR' => '€',
@@ -255,9 +255,9 @@ $currencySymbols = array(
 	'JPY' => 'JP¥',
 	'RUB' => 'RUB',
 	'USD' => 'US$',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'BR' => 'بئرئزیل',
 	'CN' => 'چین',
 	'DE' => 'آلمان',
@@ -268,4 +268,4 @@ $countryNames = array(
 	'JP' => 'جاپوٙن',
 	'RU' => 'روٙسیە',
 	'US' => 'ڤولاتیا یأکاگئرتە',
-);
+];

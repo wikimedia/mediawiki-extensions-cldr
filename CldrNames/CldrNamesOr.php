@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'ଅଫାର୍',
 	'ab' => 'ଆବ୍ଖାଜିଆନ୍',
 	'ace' => 'ଆଚାଇନୀଜ୍',
@@ -445,13 +445,13 @@ $languageNames = array(
 	'zun' => 'ଜୁନୀ',
 	'zxx' => 'କୌଣସି ଲିଙ୍ଗୁଇଷ୍ଟ ସାମଗ୍ରୀ ନାହିଁ',
 	'zza' => 'ଜାଜା',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'INR' => 'ଟଙକା',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'ଆଣ୍ଡୋରା',
 	'AE' => 'ସଂଯୁକ୍ତ ଆରବ ଏମିରେଟସ୍',
 	'AF' => 'ଆଫାଗାନିସ୍ତାନ୍',
@@ -701,4 +701,4 @@ $countryNames = array(
 	'ZA' => 'ଦକ୍ଷିଣ ଆଫ୍ରିକା',
 	'ZM' => 'ଜାମ୍ବିଆ',
 	'ZW' => 'ଜିମ୍ବାୱେ',
-);
+];

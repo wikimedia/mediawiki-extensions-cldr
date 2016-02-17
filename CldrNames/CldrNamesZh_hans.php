@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => '阿法文',
 	'ab' => '阿布哈西亚文',
 	'ace' => '亚齐文',
@@ -522,9 +522,9 @@ $languageNames = array(
 	'zun' => '祖尼文',
 	'zxx' => '无语言内容',
 	'zza' => '扎扎文',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => '安道尔比塞塔',
 	'AED' => '阿联酋迪拉姆',
 	'AFA' => '阿富汗尼 (1927–2002)',
@@ -818,9 +818,9 @@ $currencyNames = array(
 	'ZWD' => '津巴布韦元 (1980–2008)',
 	'ZWL' => '津巴布韦元 (2009)',
 	'ZWR' => '津巴布韦元 (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ADP' => 'ADP',
 	'AED' => 'AED',
 	'AFN' => 'AFN',
@@ -1094,9 +1094,9 @@ $currencySymbols = array(
 	'ZWD' => 'ZWD',
 	'ZWL' => 'ZWL',
 	'ZWR' => 'ZWR',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => '阿森松岛',
 	'AD' => '安道尔',
 	'AE' => '阿拉伯联合酋长国',
@@ -1356,9 +1356,9 @@ $countryNames = array(
 	'ZA' => '南非',
 	'ZM' => '赞比亚',
 	'ZW' => '津巴布韦',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-other' => '{0}世纪',
 	'day-future-other' => '{0}天后',
 	'day-narrow-future-other' => '{0}天后',
@@ -1418,4 +1418,4 @@ $timeUnits = array(
 	'year-past-other' => '{0}年前',
 	'year-short-future-other' => '{0}年后',
 	'year-short-past-other' => '{0}年前',
-);
+];

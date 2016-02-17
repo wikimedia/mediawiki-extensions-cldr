@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ak' => 'Igikani',
 	'am' => 'Ikimuhariki',
 	'ar' => 'Icarabu',
@@ -46,9 +46,9 @@ $languageNames = array(
 	'yo' => 'Ikiyoruba',
 	'zh' => 'Igishinwa',
 	'zu' => 'Ikizulu',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Idiramu ryo muri Leta Zunze Ubumwe z’Abarabu',
 	'AOA' => 'Ikwanza ryo muri Angola',
 	'AUD' => 'Idolari ryo muri Ositaraliya',
@@ -102,13 +102,13 @@ $currencyNames = array(
 	'ZMK' => 'Ikwaca ryo muri Zambiya (1968–2012)',
 	'ZMW' => 'Ikwaca ryo muri Zambiya',
 	'ZWD' => 'Idolari ryo muri Zimbabwe',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'BIF' => 'FBu',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Andora',
 	'AE' => 'Leta Zunze Ubumwe z’Abarabu',
 	'AF' => 'Afuganisitani',
@@ -334,4 +334,4 @@ $countryNames = array(
 	'ZA' => 'Afurika y’Epfo',
 	'ZM' => 'Zambiya',
 	'ZW' => 'Zimbabwe',
-);
+];

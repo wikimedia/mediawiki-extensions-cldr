@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afāru',
 	'ab' => 'abhāzu',
 	'ace' => 'ačinu',
@@ -522,9 +522,9 @@ $languageNames = array(
 	'zun' => 'zunju',
 	'zxx' => 'bez lingvistiska satura',
 	'zza' => 'zazaki',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Apvienoto Arābu Emirātu dirhēms',
 	'AFN' => 'Afganistānas afgāns',
 	'ALL' => 'Albānijas leks',
@@ -729,9 +729,9 @@ $currencyNames = array(
 	'ZMW' => 'Zambijas kvača',
 	'ZWD' => 'Zimbabves dolārs',
 	'ZWL' => 'Zimbabves dolārs (2009)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -889,9 +889,9 @@ $currencySymbols = array(
 	'ZAR' => 'ZAR',
 	'ZMK' => 'ZMK',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Debesbraukšanas sala',
 	'AD' => 'Andora',
 	'AE' => 'Apvienotie Arābu Emirāti',
@@ -1151,9 +1151,9 @@ $countryNames = array(
 	'ZA' => 'Dienvidāfrikas Republika',
 	'ZM' => 'Zambija',
 	'ZW' => 'Zimbabve',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} gadsimts',
 	'century-other' => '{0} gadsimti',
 	'century-zero' => '{0} gadsimti',
@@ -1331,4 +1331,4 @@ $timeUnits = array(
 	'year-short-past-other' => 'pirms {0} g.',
 	'year-short-past-zero' => 'pirms {0} g.',
 	'year-zero' => '{0} gadi',
-);
+];

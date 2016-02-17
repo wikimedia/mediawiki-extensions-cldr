@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ar' => 'ʻAlapia',
 	'cy' => 'Wale',
 	'da' => 'Kenemaka',
@@ -38,9 +38,9 @@ $languageNames = array(
 	'zh' => 'Pākē',
 	'zh-hans' => 'Pākē Hoʻomaʻalahi ʻia',
 	'zh-hant' => 'Pākē Kuʻuna',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AU' => 'Nūhōlani',
 	'CA' => 'Kanakā',
 	'CN' => 'Kina',
@@ -61,9 +61,9 @@ $countryNames = array(
 	'PH' => 'ʻĀina Pilipino',
 	'RU' => 'Lūkia',
 	'US' => 'ʻAmelika Hui Pū ʻIa',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-one' => '{0} lā',
 	'day-other' => '{0} lā',
 	'hour-one' => '{0} hola',
@@ -78,4 +78,4 @@ $timeUnits = array(
 	'week-other' => '{0} pule',
 	'year-one' => '{0} makahiki',
 	'year-other' => '{0} makahiki',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ar' => 'а҆ра́вскїй',
 	'be' => 'бѣлорꙋ́сскїй',
 	'cu' => 'церковнослове́нскїй',
@@ -33,9 +33,9 @@ $languageNames = array(
 	'zh' => 'хи́нскїй',
 	'zh-hans' => 'ᲂу҆проще́нный хи́нскїй',
 	'zh-hant' => 'традїцїо́нный хи́нскїй',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'BRL' => 'бразі́льскїй реа́лъ',
 	'BYR' => 'бѣлорꙋ́сскїй рꙋ́бль',
 	'CNY' => 'хи́нскїй ю҆а́нь',
@@ -49,9 +49,9 @@ $currencyNames = array(
 	'UAH' => 'ᲂу҆краи́нскаѧ гри́вна',
 	'USD' => 'а҆мерїка́нскїй до́лларъ',
 	'XXX' => 'невѣ́домое пла́тное сре́дство',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'BRL' => 'R$',
 	'BYR' => 'BYR',
 	'CNY' => 'CN¥',
@@ -64,9 +64,9 @@ $currencySymbols = array(
 	'RUB' => '₽',
 	'UAH' => '₴',
 	'USD' => '$',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AU' => 'А҆ѵстралі́ѧ',
 	'BR' => 'бразі́лїа',
 	'BY' => 'бѣ́лаѧ рꙋ́сь',
@@ -85,4 +85,4 @@ $countryNames = array(
 	'RU' => 'рѡссі́а',
 	'UA' => 'ᲂу҆краи́на',
 	'US' => 'а҆мерїка̑нскїѧ соедине̑нныѧ держа̑вы',
-);
+];

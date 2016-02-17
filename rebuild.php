@@ -122,13 +122,13 @@ class CLDRParser {
 		$contents = file_get_contents( $inputFile );
 		$doc = new SimpleXMLElement( $contents );
 
-		$data = array(
-			'languageNames' => array(),
-			'currencyNames' => array(),
-			'currencySymbols' => array(),
-			'countryNames' => array(),
-			'timeUnits' => array(),
-		);
+		$data = [
+			'languageNames' => [],
+			'currencyNames' => [],
+			'currencySymbols' => [],
+			'countryNames' => [],
+			'timeUnits' => [],
+		];
 
 		foreach ( $doc->xpath( '//languages/language' ) as $elem ) {
 			if ( (string)$elem['alt'] !== '' ) {
@@ -211,10 +211,10 @@ class CLDRParser {
 		$contents = file_get_contents( $inputFile );
 		$doc = new SimpleXMLElement( $contents );
 
-		$data = array(
-			'currencyFractions' => array(),
-			'localeCurrencies' => array(),
-		);
+		$data = [
+			'currencyFractions' => [],
+			'localeCurrencies' => [],
+		];
 
 		// Pull currency attributes - digits, rounding, and cashRounding.
 		// This will tell us how many decmal places make sense to use with any currency,
@@ -224,7 +224,7 @@ class CLDRParser {
 				continue;
 			}
 
-			$attributes = array( 'digits', 'rounding', 'cashDigits', 'cashRounding' );
+			$attributes = [ 'digits', 'rounding', 'cashDigits', 'cashRounding' ];
 			foreach ( $attributes as $att ) {
 				if ( (string)$elem[$att] !== '' ) {
 					$data['currencyFractions'][(string)$elem['iso4217']][$att] = (string)$elem[$att];
@@ -264,9 +264,9 @@ class CLDRParser {
 		}
 		$files = scandir( $inputDir );
 
-		$data = array(
-			'currencySymbols' => array(),
-		);
+		$data = [
+			'currencySymbols' => [],
+		];
 
 		// Foreach files!
 		foreach ( $files as $inputFile ) {
@@ -367,7 +367,7 @@ class CLDRParser {
 				// Don't output empty arrays
 				continue;
 			}
-			$output .= "\n\$$varname = array(\n";
+			$output .= "\n\$$varname = [\n";
 			if ( $this->isAssoc( $values ) ) {
 				foreach ( $values as $key => $value ) {
 					if ( is_array( $value ) ) {
@@ -391,7 +391,7 @@ class CLDRParser {
 					}
 				}
 			}
-			$output .= ");\n";
+			$output .= "];\n";
 		}
 
 		file_put_contents( $location, $output );

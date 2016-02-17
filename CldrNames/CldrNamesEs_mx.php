@@ -1,10 +1,10 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ba' => 'bashkir',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AFN' => 'afgani afgano',
 	'ALL' => 'lek albanés',
 	'AMD' => 'dram armenio',
@@ -58,15 +58,15 @@ $currencyNames = array(
 	'WST' => 'tala samoano',
 	'ZAR' => 'rand sudafricano',
 	'ZMW' => 'kwacha zambiano',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AFN' => 'Af',
 	'AOA' => 'Kz',
 	'CNY' => 'CN¥',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'BD' => 'Bangladesh',
 	'CC' => 'Islas Cocos (Keeling)',
 	'CX' => 'Isla de Navidad',
@@ -80,9 +80,9 @@ $countryNames = array(
 	'TA' => 'Tristán de Acuña',
 	'UM' => 'Islas Ultramarinas Menores de Estados Unidos',
 	'VI' => 'Islas Vírgenes de los Estados Unidos',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-narrow-future-one' => '+{0} día',
 	'day-narrow-future-other' => '+{0} días',
 	'day-narrow-past-one' => '-{0} día',
@@ -135,4 +135,4 @@ $timeUnits = array(
 	'year-narrow-past-other' => '-{0} a',
 	'year-short-future-one' => 'en {0} a',
 	'year-short-future-other' => 'en {0} a',
-);
+];

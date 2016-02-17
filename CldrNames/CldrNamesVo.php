@@ -1,15 +1,15 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'en' => 'Linglänapük',
 	'eo' => 'Sperantapük',
 	'es' => 'Spanyänapük',
 	'pt' => 'Portugänapük',
 	'ru' => 'Rusänapük',
 	'vo' => 'Volapük',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'DE' => 'Deutän',
 	'ES' => 'Spanyän',
 	'FR' => 'Fransän',
@@ -20,11 +20,11 @@ $countryNames = array(
 	'NR' => 'Naureän',
 	'PT' => 'Portugän',
 	'PW' => 'Palauäns',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'month-one' => 'mul {0}',
 	'month-other' => 'muls {0}',
 	'year-one' => 'yel {0}',
 	'year-other' => 'yels {0}',
-);
+];

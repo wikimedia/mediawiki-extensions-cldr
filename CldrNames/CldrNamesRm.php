@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afar',
 	'ab' => 'abchasian',
 	'ace' => 'aceh',
@@ -439,9 +439,9 @@ $languageNames = array(
 	'zun' => 'zuni',
 	'zxx' => 'nagins cuntegns linguistics',
 	'zza' => 'zaza',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'peseta andorrana',
 	'AED' => 'dirham dals Emirats Arabs Unids',
 	'AFA' => 'afghani (1927–2002)',
@@ -730,9 +730,9 @@ $currencyNames = array(
 	'ZRN' => 'nov zaire dal Zaire',
 	'ZRZ' => 'zaire dal Zaire',
 	'ZWD' => 'dollar dal Simbabwe',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AUD' => 'A$',
 	'CAD' => 'CA$',
 	'CHF' => 'CHF',
@@ -758,9 +758,9 @@ $currencySymbols = array(
 	'USD' => '$',
 	'XCD' => 'EC$',
 	'XEU' => 'XEU',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Andorra',
 	'AE' => 'Emirats Arabs Unids',
 	'AF' => 'Afghanistan',
@@ -1010,9 +1010,9 @@ $countryNames = array(
 	'ZA' => 'Africa dal Sid',
 	'ZM' => 'Sambia',
 	'ZW' => 'Simbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-one' => '{0} di',
 	'day-other' => '{0} dis',
 	'hour-one' => '{0} ura',
@@ -1029,4 +1029,4 @@ $timeUnits = array(
 	'week-other' => '{0} emnas',
 	'year-one' => '{0} onn',
 	'year-other' => '{0} onns',
-);
+];

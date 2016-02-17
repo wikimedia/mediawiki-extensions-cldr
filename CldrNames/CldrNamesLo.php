@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'ອະຟາ',
 	'ab' => 'ແອບຄາຊຽນ',
 	'ace' => 'ແອັກຊີເນັສ',
@@ -519,9 +519,9 @@ $languageNames = array(
 	'zun' => 'ຊູນີ',
 	'zxx' => 'ບໍ່ມີເນື້ອຫາພາສາ',
 	'zza' => 'ຊາຊາ',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'ເປເຊຕາ ອັນໂດລາ',
 	'AED' => 'ສະ​ຫະ​ລັດ​ອາ​ຣັບ​ອາ​ມິ​ເຣດ ເດີ​ແຮມ',
 	'AFA' => 'ອັບການິ ອັບການິສະຖານ (1927–2002)',
@@ -812,9 +812,9 @@ $currencyNames = array(
 	'ZWD' => 'ດອນລາ ຊິມບັບເວ (1980–2008)',
 	'ZWL' => 'ດອນລາ ຊິມບັບເວ (2009)',
 	'ZWR' => 'ດອນລາ ຊິມບັບເວ (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -971,9 +971,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'ເກາະອາເຊນຊັນ',
 	'AD' => 'ອັນດໍຣາ',
 	'AE' => 'ສະຫະລັດອາຣັບເອມິເຣດ',
@@ -1233,9 +1233,9 @@ $countryNames = array(
 	'ZA' => 'ອາຟະລິກາໃຕ້',
 	'ZM' => 'ແຊມເບຍ',
 	'ZW' => 'ຊິມບັບເວ',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-other' => '{0} ສັດຕະວັດ',
 	'day-future-other' => 'ໃນອີກ {0} ມື້',
 	'day-narrow-future-other' => 'ໃນອີກ {0} ມື້',
@@ -1295,4 +1295,4 @@ $timeUnits = array(
 	'year-past-other' => '{0} ປີກ່ອນ',
 	'year-short-future-other' => 'ໃນອີກ {0} ປີ',
 	'year-short-past-other' => '{0} ປີກ່ອນ',
-);
+];

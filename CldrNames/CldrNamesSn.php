@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ak' => 'chiAkani',
 	'am' => 'chiAmaric',
 	'ar' => 'chiArabu',
@@ -46,9 +46,9 @@ $languageNames = array(
 	'yo' => 'chiYoruba',
 	'zh' => 'chiChinese',
 	'zu' => 'chiZulu',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Diramu re United Arab Emirates',
 	'AOA' => 'Kwanza ye Angola',
 	'AUD' => 'Dora re Australia',
@@ -105,9 +105,9 @@ $currencyNames = array(
 	'ZMK' => 'Kwacha ye Zambia (1968–2012)',
 	'ZMW' => 'Kwacha ye Zambia',
 	'ZWD' => 'Dora re Zimbabwe',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Andora',
 	'AE' => 'United Arab Emirates',
 	'AF' => 'Afuganistani',
@@ -332,4 +332,4 @@ $countryNames = array(
 	'ZA' => 'South Africa',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];

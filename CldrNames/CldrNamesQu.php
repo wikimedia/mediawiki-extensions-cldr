@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'af' => 'Afrikaans Simi',
 	'am' => 'Amarico Simi',
 	'ar' => 'Arabe Simi',
@@ -129,9 +129,9 @@ $languageNames = array(
 	'yo' => 'Yoruba Simi',
 	'zh' => 'Chino Simi',
 	'zu' => 'Isizulu Simi',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Andorra',
 	'AF' => 'Afganistán',
 	'AL' => 'Albania',
@@ -322,4 +322,4 @@ $countryNames = array(
 	'ZA' => 'Sudáfrica',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabue',
-);
+];

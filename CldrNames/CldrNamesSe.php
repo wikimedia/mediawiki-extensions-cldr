@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ace' => 'acehgiella',
 	'af' => 'afrikánsagiella',
 	'an' => 'aragoniagiella',
@@ -109,24 +109,24 @@ $languageNames = array(
 	'zh' => 'kiinnágiella',
 	'zh-hans' => 'álki kiinágiella',
 	'zh-hant' => 'árbevirolaš kiinnágiella',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'EUR' => 'euro',
 	'FIM' => 'suoma márkki',
 	'NOK' => 'norgga kruvdno',
 	'SEK' => 'ruoŧŧa kruvdno',
 	'XAG' => 'uns silba',
 	'XAU' => 'uns golli',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'EUR' => '€',
 	'NOK' => 'kr',
 	'SEK' => 'Skr',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ascension',
 	'AD' => 'Andorra',
 	'AE' => 'Ovttastuvvan Arábaemiráhtat',
@@ -380,9 +380,9 @@ $countryNames = array(
 	'ZA' => 'Mátta-Afrihká',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-one' => '{0} jándor maŋŋilit',
 	'day-future-other' => '{0} jándora maŋŋilit',
 	'day-future-two' => '{0} jándor amaŋŋilit',
@@ -449,4 +449,4 @@ $timeUnits = array(
 	'year-past-other' => '{0} jahkki árat',
 	'year-past-two' => '{0} jahkki árat',
 	'year-two' => '{0} jahkki',
-);
+];

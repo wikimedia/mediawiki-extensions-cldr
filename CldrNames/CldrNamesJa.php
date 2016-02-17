@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'アファル語',
 	'ab' => 'アブハズ語',
 	'ace' => 'アチェ語',
@@ -605,9 +605,9 @@ $languageNames = array(
 	'zun' => 'ズニ語',
 	'zxx' => '言語的内容なし',
 	'zza' => 'ザザ語',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'アンドラ ペセタ',
 	'AED' => 'アラブ首長国連邦ディルハム',
 	'AFA' => 'アフガニスタン アフガニー (1927–2002)',
@@ -905,9 +905,9 @@ $currencyNames = array(
 	'ZWD' => 'ジンバブエ ドル (1980–2008)',
 	'ZWL' => 'ジンバブエ ドル (2009)',
 	'ZWR' => 'シンバブエ ドル（2008）',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ADP' => 'ADP',
 	'AED' => 'AED',
 	'AFA' => 'AFA',
@@ -1205,9 +1205,9 @@ $currencySymbols = array(
 	'ZWD' => 'ZWD',
 	'ZWL' => 'ZWL',
 	'ZWR' => 'ZWR',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'アセンション島',
 	'AD' => 'アンドラ',
 	'AE' => 'アラブ首長国連邦',
@@ -1467,9 +1467,9 @@ $countryNames = array(
 	'ZA' => '南アフリカ',
 	'ZM' => 'ザンビア',
 	'ZW' => 'ジンバブエ',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-other' => '{0} 世紀',
 	'day-future-other' => '{0} 日後',
 	'day-narrow-future-other' => '{0} 日後',
@@ -1529,4 +1529,4 @@ $timeUnits = array(
 	'year-past-other' => '{0} 年前',
 	'year-short-future-other' => '{0} 年後',
 	'year-short-past-other' => '{0} 年前',
-);
+];

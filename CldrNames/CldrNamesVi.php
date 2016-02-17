@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'Tiếng Afar',
 	'ab' => 'Tiếng Abkhazia',
 	'ace' => 'Tiếng Achinese',
@@ -544,9 +544,9 @@ $languageNames = array(
 	'zun' => 'Tiếng Zuni',
 	'zxx' => 'Không có nội dung ngôn ngữ',
 	'zza' => 'Tiếng Zaza',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'Đồng Peseta của Andora',
 	'AED' => 'Dirham UAE',
 	'AFA' => 'Đồng Afghani của Afghanistan (1927–2002)',
@@ -837,9 +837,9 @@ $currencyNames = array(
 	'ZWD' => 'Đồng Đô la Zimbabwe (1980–2008)',
 	'ZWL' => 'Đồng Đô la Zimbabwe (2009)',
 	'ZWR' => 'Đồng Đô la Zimbabwe (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ADP' => 'ADP',
 	'AED' => 'AED',
 	'AFA' => 'AFA',
@@ -1130,9 +1130,9 @@ $currencySymbols = array(
 	'ZWD' => 'ZWD',
 	'ZWL' => 'ZWL',
 	'ZWR' => 'ZWR',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Đảo Ascension',
 	'AD' => 'Andorra',
 	'AE' => 'Các Tiểu V.quốc Ả Rập T.nhất',
@@ -1392,9 +1392,9 @@ $countryNames = array(
 	'ZA' => 'Nam Phi',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-other' => '{0} thế kỷ',
 	'day-future-other' => 'sau {0} ngày nữa',
 	'day-narrow-future-other' => 'sau {0} ngày nữa',
@@ -1454,4 +1454,4 @@ $timeUnits = array(
 	'year-past-other' => '{0} năm trước',
 	'year-short-future-other' => 'sau {0} năm nữa',
 	'year-short-past-other' => '{0} năm trước',
-);
+];

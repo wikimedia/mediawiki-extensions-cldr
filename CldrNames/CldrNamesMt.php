@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'Afar',
 	'ab' => 'Abkażjan',
 	'ace' => 'Aċiniż',
@@ -417,19 +417,19 @@ $languageNames = array(
 	'zu' => 'Żulu',
 	'zun' => 'Żuni',
 	'zxx' => 'Bla kontent lingwistiku',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'EUR' => 'ewro',
 	'MTL' => 'Lira Maltija',
 	'XXX' => 'Munita Mhux Magħrufa jew Mhux Valida',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'EUR' => '€',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Andorra',
 	'AE' => 'Emirati Għarab Maqgħuda',
 	'AF' => 'Afganistan',
@@ -672,9 +672,9 @@ $countryNames = array(
 	'ZA' => 'Afrika t’Isfel',
 	'ZM' => 'Żambja',
 	'ZW' => 'Żimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'millisecond-few' => '{0} millisekondi',
 	'millisecond-many' => '{0} millisekondi',
 	'millisecond-one' => '{0} millisekonda',
@@ -683,4 +683,4 @@ $timeUnits = array(
 	'year-past-many' => '{0} snin ilu',
 	'year-past-one' => '{0} sena ilu',
 	'year-past-other' => '{0} snin ilu',
-);
+];

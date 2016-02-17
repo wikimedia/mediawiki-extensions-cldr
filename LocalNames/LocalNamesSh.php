@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'Afarski',
 	'ab' => 'Abkazijski',
 	'ace' => 'Ačineski',
@@ -507,4 +507,4 @@ $languageNames = array(
 	'zun' => 'Zuni',
 	'zxx' => 'Bez lingvističkog sadržaja',
 	'zza' => 'Zaza',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'اَفار',
 	'ab' => 'اَبخازِیان',
 	'ace' => 'اَچَےنیٖز',
@@ -436,9 +436,9 @@ $languageNames = array(
 	'zun' => 'زوٗنی',
 	'zxx' => 'کانٛہہ تہِ لِسانیاتی مواد نہٕ',
 	'zza' => 'زازا',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'اٮ۪ڑورَن پیسِٹا',
 	'AED' => 'مُتحدہ عرب اِمارات دِرہم',
 	'AFN' => 'افغان افغٲنی',
@@ -690,9 +690,9 @@ $currencyNames = array(
 	'ZRN' => 'زایرِیَن نِو زایِر',
 	'ZRZ' => 'زَیرُک ڈالَر',
 	'ZWD' => 'زِمبابِیُک ڈالَر',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'اٮ۪نڑورا',
 	'AE' => 'مُتحدہ عرَب امارات',
 	'AF' => 'اَفغانَستان',
@@ -938,9 +938,9 @@ $countryNames = array(
 	'ZA' => 'جَنوٗبی اَفریٖکا',
 	'ZM' => 'جامبِیا',
 	'ZW' => 'زِمبابے',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-one' => '{0} دۄہ',
 	'day-other' => '{0} دۄہ',
 	'hour-one' => '{0} گَنٹہٕ',
@@ -955,4 +955,4 @@ $timeUnits = array(
 	'week-other' => '{0} ہَفتہٕ',
 	'year-one' => '{0} ؤری',
 	'year-other' => '{0} ؤری',
-);
+];

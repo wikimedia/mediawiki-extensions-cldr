@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'af' => 'afrikaans',
 	'am' => 'amharico',
 	'ar' => 'arabe',
@@ -105,9 +105,9 @@ $languageNames = array(
 	'xh' => 'xhosa',
 	'yi' => 'yiddish',
 	'zu' => 'zulu',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AUD' => 'Dollares australian',
 	'CAD' => 'Dollares canadian',
 	'CHF' => 'Francos suisse',
@@ -120,9 +120,9 @@ $currencyNames = array(
 	'NOK' => 'Coronas norvegian',
 	'SEK' => 'Coronas svedese',
 	'USD' => 'Dollares statounitese',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AE' => 'Emiratos Arabe Unite',
 	'AF' => 'Afghanistan',
 	'AG' => 'Antigua e Barbuda',
@@ -302,4 +302,4 @@ $countryNames = array(
 	'ZA' => 'Africa del Sud',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];

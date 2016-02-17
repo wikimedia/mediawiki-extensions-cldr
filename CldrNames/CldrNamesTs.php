@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'cs' => 'Xi Czech',
 	'da' => 'Xi Danish',
 	'de' => 'Xi Jarimani',
@@ -26,4 +26,4 @@ $languageNames = array(
 	'ru' => 'Xi Rhaxiya',
 	'sv' => 'Xi Swiden',
 	'ts' => 'Xitsonga',
-);
+];

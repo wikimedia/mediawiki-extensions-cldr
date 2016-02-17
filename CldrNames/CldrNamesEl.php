@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'Αφάρ',
 	'ab' => 'Αμπχαζικά',
 	'ace' => 'Αχινίζ',
@@ -521,9 +521,9 @@ $languageNames = array(
 	'zun' => 'Ζούνι',
 	'zxx' => 'Χωρίς γλωσσολογικό περιεχόμενο',
 	'zza' => 'Ζάζα',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'Πεσέτα Ανδόρας',
 	'AED' => 'Ντιράμ Ηνωμένων Αραβικών Εμιράτων',
 	'AFA' => 'Αφγανί Αφγανιστάν (1927–2002)',
@@ -806,9 +806,9 @@ $currencyNames = array(
 	'ZWD' => 'Δολάριο Ζιμπάμπουε',
 	'ZWL' => 'Δολάριο Ζιμπάμπουε (2009)',
 	'ZWR' => 'Δολάριο Ζιμπάμπουε (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -967,9 +967,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Νήσος Ασενσιόν',
 	'AD' => 'Ανδόρα',
 	'AE' => 'Ηνωμένα Αραβικά Εμιράτα',
@@ -1229,9 +1229,9 @@ $countryNames = array(
 	'ZA' => 'Νότια Αφρική',
 	'ZM' => 'Ζάμπια',
 	'ZW' => 'Ζιμπάμπουε',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} αιώνας',
 	'century-other' => '{0} αιώνες',
 	'day-future-one' => 'σε {0} ημέρα',
@@ -1350,4 +1350,4 @@ $timeUnits = array(
 	'year-short-future-other' => 'σε {0} έτη',
 	'year-short-past-one' => 'πριν από {0} έτος',
 	'year-short-past-other' => 'πριν από {0} έτη',
-);
+];

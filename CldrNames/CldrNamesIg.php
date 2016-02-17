@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ak' => 'Akan',
 	'am' => 'Amariikị',
 	'ar' => 'Arabiikị',
@@ -45,18 +45,18 @@ $languageNames = array(
 	'yo' => 'Yoruba',
 	'zh' => 'Mandarịịnị',
 	'zu' => 'Zulu',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'CVE' => 'Escudo Caboverdiano',
 	'NGN' => 'Naịra',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'NGN' => '₦',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'BJ' => 'Binin',
 	'BM' => 'Bemuda',
 	'CN' => 'Chaina',
@@ -65,4 +65,4 @@ $countryNames = array(
 	'LY' => 'Libyia',
 	'MV' => 'Maldivesa',
 	'NG' => 'Nigeria',
-);
+];

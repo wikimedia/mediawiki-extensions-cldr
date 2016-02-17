@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'abkhazo',
 	'ach' => 'acoli',
 	'af' => 'afrikaans',
@@ -268,9 +268,9 @@ $languageNames = array(
 	'zh-hant' => 'chinés tradicional',
 	'zu' => 'zulú',
 	'zxx' => 'sen contido lingüístico',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'peseta andorrana',
 	'AED' => 'Dirham dos Emiratos Árabes Unidos',
 	'AFN' => 'Afgani afgano',
@@ -476,9 +476,9 @@ $currencyNames = array(
 	'ZAR' => 'Rand sudafricano',
 	'ZMK' => 'Kwacha zambiano (1968–2012)',
 	'ZMW' => 'Kwacha zambiano',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -636,9 +636,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Illa de Ascensión',
 	'AD' => 'Andorra',
 	'AE' => 'Emiratos Árabes Unidos',
@@ -898,9 +898,9 @@ $countryNames = array(
 	'ZA' => 'Sudáfrica',
 	'ZM' => 'Zambia',
 	'ZW' => 'Cimbabue',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} século',
 	'century-other' => '{0} séculos',
 	'day-future-one' => 'En {0} día',
@@ -1003,4 +1003,4 @@ $timeUnits = array(
 	'year-short-future-other' => 'En {0} anos',
 	'year-short-past-one' => 'Hai {0} anos',
 	'year-short-past-other' => 'Hai {0} anos',
-);
+];

@@ -1,9 +1,9 @@
 <?php
 
-$currencyNames = array(
+$currencyNames = [
 	'CAD' => '',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'CAD' => '$',
-);
+];

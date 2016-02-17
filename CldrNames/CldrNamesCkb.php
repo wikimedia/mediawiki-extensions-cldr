@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'af' => 'ئه‌فریكای',
 	'am' => 'ئەمهەرینجی',
 	'ar' => 'عەرەبی',
@@ -117,9 +117,9 @@ $languageNames = array(
 	'yi' => 'یوددی',
 	'zh' => 'چینی',
 	'zu' => 'زولو',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AFN' => 'ئەفغانیی ئەفغانستان',
 	'BHD' => 'دیناری بەحرەینی',
 	'BZD' => 'دۆلاری بەلیزی',
@@ -136,9 +136,9 @@ $currencyNames = array(
 	'TRY' => 'لیرەی تورکیا',
 	'TTD' => 'دۆلاری ترینیداد و تۆباگۆ',
 	'XAU' => 'زێڕ',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'ئاندۆرا',
 	'AE' => 'میرنشینە یەکگرتووە عەرەبییەکان',
 	'AF' => 'ئەفغانستان',
@@ -333,4 +333,4 @@ $countryNames = array(
 	'ZA' => 'ئەفریقای باشوور',
 	'ZM' => 'زامبیا',
 	'ZW' => 'زیمبابوی',
-);
+];

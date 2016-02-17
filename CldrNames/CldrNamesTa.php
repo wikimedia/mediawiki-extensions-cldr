@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'அஃபார்',
 	'ab' => 'அப்காஜியான்',
 	'ace' => 'ஆச்சினீஸ்',
@@ -500,9 +500,9 @@ $languageNames = array(
 	'zun' => 'ஜூனி',
 	'zxx' => 'மொழி உள்ளடக்கம் ஏதுமில்லை',
 	'zza' => 'ஜாஜா',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'ஐக்கிய அரபு எமிரேட்ஸ் திர்ஹம்',
 	'AFN' => 'ஆஃப்கான் ஆஃப்கானி',
 	'ALL' => 'அல்பேனியன் லெக்',
@@ -662,9 +662,9 @@ $currencyNames = array(
 	'ZAR' => 'தென் ஆப்ரிக்க ராண்ட்',
 	'ZMK' => 'ஸாம்பியன் குவாசா (1968–2012)',
 	'ZMW' => 'ஸாம்பியன் குவாசா',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -821,9 +821,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'அஷன்ஷியன் தீவு',
 	'AD' => 'அன்டோரா',
 	'AE' => 'ஐக்கிய அரபு எமிரேட்ஸ்',
@@ -1083,9 +1083,9 @@ $countryNames = array(
 	'ZA' => 'தென் ஆப்பிரிக்கா',
 	'ZM' => 'ஜாம்பியா',
 	'ZW' => 'ஜிம்பாப்வே',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} நூற்றாண்டு',
 	'century-other' => '{0} நூற்றாண்டுகள்',
 	'day-future-one' => '{0} நாளில்',
@@ -1204,4 +1204,4 @@ $timeUnits = array(
 	'year-short-future-other' => '{0} ஆண்டுகளில்',
 	'year-short-past-one' => '{0} ஆண்டிற்கு முன்',
 	'year-short-past-other' => '{0} ஆண்டுகளுக்கு முன்',
-);
+];

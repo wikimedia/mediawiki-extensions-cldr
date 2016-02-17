@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'abkazisht',
 	'af' => 'afrikanisht',
 	'agq' => 'agemisht',
@@ -242,9 +242,9 @@ $languageNames = array(
 	'zh-hant' => 'kinezishte tradicionale',
 	'zu' => 'zuluisht',
 	'zxx' => 'nuk ka përmbajtje gjuhësore',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Dirhami i Emirateve të Bashkuara Arabe',
 	'AFN' => 'Afgani afgan',
 	'ALL' => 'Leku shqiptar',
@@ -402,9 +402,9 @@ $currencyNames = array(
 	'YER' => 'Riali i Jemenit',
 	'ZAR' => 'Randa afrikano-jugore',
 	'ZMW' => 'Kuaça e Zambikut',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ALL' => 'Lekë',
 	'AUD' => 'A$',
 	'BRL' => 'R$',
@@ -427,9 +427,9 @@ $currencySymbols = array(
 	'XCD' => 'EC$',
 	'XOF' => 'CFA',
 	'XPF' => 'CFPF',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ishulli Asenshion',
 	'AD' => 'Andorrë',
 	'AE' => 'Emiratet e Bashkuara Arabe',
@@ -688,9 +688,9 @@ $countryNames = array(
 	'ZA' => 'Afrika e Jugut',
 	'ZM' => 'Zambi',
 	'ZW' => 'Zimbabve',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} shekull',
 	'century-other' => '{0} shekuj',
 	'day-future-one' => 'pas {0} dite',
@@ -809,4 +809,4 @@ $timeUnits = array(
 	'year-short-future-other' => 'pas {0} vjetësh',
 	'year-short-past-one' => '{0} vit më parë',
 	'year-short-past-other' => '{0} vjet më parë',
-);
+];

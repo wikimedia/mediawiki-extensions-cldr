@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'абхаз тілі',
 	'af' => 'африкаанс тілі',
 	'agq' => 'агхем тілі',
@@ -248,9 +248,9 @@ $languageNames = array(
 	'zh-hant' => 'дәстүрлі қытай тілі',
 	'zu' => 'зулу тілі',
 	'zxx' => 'тілдік мазмұны жоқ',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Біріккен Араб Әмірліктерінің дирхамы',
 	'AFN' => 'Ауғанстан афганиі',
 	'ALL' => 'Албания легі',
@@ -409,9 +409,9 @@ $currencyNames = array(
 	'YER' => 'Йемен риалы',
 	'ZAR' => 'Оңтүстік Африка рэнді',
 	'ZMW' => 'Замбия квачасы',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -566,9 +566,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Әскенжін аралы',
 	'AD' => 'Андорра',
 	'AE' => 'Біріккен Араб Әмірліктері',
@@ -827,9 +827,9 @@ $countryNames = array(
 	'ZA' => 'Оңтүстік Африка Республикасы',
 	'ZM' => 'Замбия',
 	'ZW' => 'Зимбабве',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} ғасыр',
 	'century-other' => '{0} ғасыр',
 	'day-future-one' => '{0} күннен кейін',
@@ -948,4 +948,4 @@ $timeUnits = array(
 	'year-short-future-other' => '{0} ж. кейін',
 	'year-short-past-one' => '{0} ж. бұрын',
 	'year-short-past-other' => '{0} ж. бұрын',
-);
+];

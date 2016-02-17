@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'Afáiris',
 	'ab' => 'Abcáisis',
 	'ae' => 'Aivéistis',
@@ -289,9 +289,9 @@ $languageNames = array(
 	'zu' => 'Súlúis',
 	'zun' => 'Zúinis',
 	'zxx' => 'Gan ábhar teangeolaíoch',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'Peseta Andóra',
 	'AED' => 'Dirham Aontas na nÉimíríochtaí Arabacha',
 	'AFA' => 'Afgainí (1927–2002)',
@@ -561,9 +561,9 @@ $currencyNames = array(
 	'ZRN' => 'Zaire Nua Sáíreach',
 	'ZRZ' => 'Zaire Sáíreach',
 	'ZWD' => 'Dollar Siombábach',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ADP' => 'ADP',
 	'AED' => 'AED',
 	'AFN' => 'AFN',
@@ -788,9 +788,9 @@ $currencySymbols = array(
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
 	'ZRZ' => 'ZRZ',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Oileán na Deascabhála',
 	'AD' => 'Andóra',
 	'AE' => 'Aontas na nÉimíríochtaí Arabacha',
@@ -1050,9 +1050,9 @@ $countryNames = array(
 	'ZA' => 'An Afraic Theas',
 	'ZM' => 'An tSaimbia',
 	'ZW' => 'An tSiombáib',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-few' => '{0} chéad bliain',
 	'century-many' => '{0} gcéad bliain',
 	'century-one' => '{0} chéad bliain',
@@ -1348,4 +1348,4 @@ $timeUnits = array(
 	'year-short-past-other' => '{0} bl. ó shin',
 	'year-short-past-two' => '{0} bhl. ó shin',
 	'year-two' => '{0} bhliain',
-);
+];

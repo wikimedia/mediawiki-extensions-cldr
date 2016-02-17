@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'ភាសាអាហ្វារ',
 	'ab' => 'អាប់ខាហ៊្សាន',
 	'ae' => 'ភាសាអាវែស្តង់',
@@ -236,9 +236,9 @@ $languageNames = array(
 	'zh-hant' => 'ចិន​អក្សរ​ពេញ',
 	'zu' => 'សូលូ',
 	'zxx' => 'គ្មាន​ទិន្នន័យ​ភាសា',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'ឌៀរហាំ​អារ៉ាប់រួម',
 	'AFN' => 'អាហ្វហ្គានី​អាហ្វហ្គានីស្ថាន',
 	'ALL' => 'លិក​អាល់បានី',
@@ -397,9 +397,9 @@ $currencyNames = array(
 	'ZAR' => 'រ៉ង់អាហ្វ្រិកខាងត្បូង',
 	'ZMK' => 'ក្វាចា សំប៊ី (1968–2012)',
 	'ZMW' => 'ក្វាចាហ្សំប៊ី',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -556,9 +556,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'កោះ​អាសេនសិន',
 	'AD' => 'អង់ដូរ៉ា',
 	'AE' => 'អារ៉ាប់រួម',
@@ -817,9 +817,9 @@ $countryNames = array(
 	'ZA' => 'អាហ្វ្រិកខាងត្បូង',
 	'ZM' => 'ហ្សាំប៊ី',
 	'ZW' => 'ហ្ស៊ីមបាវ៉េ',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-other' => '{0} សតវត្ស',
 	'day-future-other' => 'ក្នុង​រយៈ​ពេល {0} ថ្ងៃ',
 	'day-narrow-future-other' => 'ក្នុងពេល {0} ថ្ងៃ',
@@ -879,4 +879,4 @@ $timeUnits = array(
 	'year-past-other' => '{0} ឆ្នាំ​មុន',
 	'year-short-future-other' => 'ក្នុង​រយៈ​ពេល {0} ឆ្នាំ',
 	'year-short-past-other' => '{0} ឆ្នាំ​មុន',
-);
+];

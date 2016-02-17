@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ak' => 'Akaan',
 	'am' => 'Amarik',
 	'ar' => 'Aarabeere',
@@ -46,9 +46,9 @@ $languageNames = array(
 	'yo' => 'Yorrubaa',
 	'zh' => 'Sinuwaare',
 	'zu' => 'Suluŋkoore',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Dirham Emiraati Araab Dentuɗi',
 	'AOA' => 'Kwansaa Anngolaa',
 	'AUD' => 'Dolaar Ostaraalii',
@@ -104,9 +104,9 @@ $currencyNames = array(
 	'ZMK' => 'Kuwacca Sammbi (1968–2012)',
 	'ZMW' => 'Kuwacca Sammbi',
 	'ZWD' => 'Dolaar Simbaabuwe',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Anndoora',
 	'AE' => 'Emiraat Araab Denntuɗe',
 	'AF' => 'Afganistaan',
@@ -332,4 +332,4 @@ $countryNames = array(
 	'ZA' => 'Afrik bŋ Worgo',
 	'ZM' => 'Sammbi',
 	'ZW' => 'Simbaabuwe',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ar' => 'arapça',
 	'az' => 'azerbaýjança',
 	'de' => 'nemisçe',
@@ -23,9 +23,9 @@ $languageNames = array(
 	'uk' => 'ukrainça',
 	'uz' => 'özbekçe',
 	'zh' => 'hytaýça',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'BAE dirhemi',
 	'AFN' => 'Owgan afganisi',
 	'ALL' => 'Alban leki',
@@ -181,9 +181,9 @@ $currencyNames = array(
 	'YER' => 'Ýemen rialy',
 	'ZAR' => 'Günorta Afrika rendi',
 	'ZMW' => 'Zambiýa kwaçasy',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -338,9 +338,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AU' => 'Awstraliýa',
 	'AZ' => 'Azerbaýjan',
 	'CN' => 'Hytaý',
@@ -358,9 +358,9 @@ $countryNames = array(
 	'UA' => 'Ukraina',
 	'US' => 'A.B.Ş.',
 	'UZ' => 'Özbegistan',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} asyr',
 	'century-other' => '{0} asyr',
 	'day-future-one' => '{0} günden',
@@ -479,4 +479,4 @@ $timeUnits = array(
 	'year-short-future-other' => '{0}ý.-dan',
 	'year-short-past-one' => '{0}ý. öň',
 	'year-short-past-other' => '{0}ý. öň',
-);
+];

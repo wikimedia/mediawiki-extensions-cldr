@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'афарська',
 	'ab' => 'абхазька',
 	'ace' => 'ачехська',
@@ -525,9 +525,9 @@ $languageNames = array(
 	'zun' => 'зуньї',
 	'zxx' => 'немає мовного вмісту',
 	'zza' => 'зазакі',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'андоррська песета',
 	'AED' => 'дирхам ОАЕ',
 	'AFA' => 'афгані (1927–2002)',
@@ -803,9 +803,9 @@ $currencyNames = array(
 	'ZWD' => 'зімбабвійський долар',
 	'ZWL' => 'зімбабвійський долар (2009)',
 	'ZWR' => 'зімбабвійський долар (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -963,9 +963,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Острів Вознесіння',
 	'AD' => 'Андорра',
 	'AE' => 'Обʼєднані Арабські Емірати',
@@ -1225,9 +1225,9 @@ $countryNames = array(
 	'ZA' => 'Південно-Африканська Республіка',
 	'ZM' => 'Замбія',
 	'ZW' => 'Зімбабве',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-few' => '{0} століття',
 	'century-many' => '{0} століть',
 	'century-one' => '{0} століття',
@@ -1464,4 +1464,4 @@ $timeUnits = array(
 	'year-short-past-many' => '{0} р. тому',
 	'year-short-past-one' => '{0} р. тому',
 	'year-short-past-other' => '{0} р. тому',
-);
+];

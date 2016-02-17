@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'af' => 'Èdè Afrikani',
 	'ak' => 'Èdè Akani',
 	'am' => 'Èdè Amariki',
@@ -99,9 +99,9 @@ $languageNames = array(
 	'yo' => 'Èdè Yorùbá',
 	'zh' => 'Èdè Mandari',
 	'zu' => 'Èdè Ṣulu',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Diami ti Awon Orílẹ́ède Arabu',
 	'AOA' => 'Wansa ti Orílẹ́ède Àngólà',
 	'AUD' => 'Dọla ti Orílẹ́ède Ástràlìá',
@@ -158,13 +158,13 @@ $currencyNames = array(
 	'ZMK' => 'Kawaṣa ti Orílẹ́ède Saabia (1968–2012)',
 	'ZMW' => 'Kawaṣa ti Orílẹ́ède Saabia',
 	'ZWD' => 'Dọla ti Orílẹ́ède Siibabuwe',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'NGN' => '₦',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Orílẹ́ède Ààndórà',
 	'AE' => 'Orílẹ́ède Ẹmirate ti Awọn Arabu',
 	'AF' => 'Orílẹ́ède Àfùgànístánì',
@@ -391,4 +391,4 @@ $countryNames = array(
 	'ZA' => 'Orílẹ́ède Ariwa Afirika',
 	'ZM' => 'Orílẹ́ède ṣamibia',
 	'ZW' => 'Orílẹ́ède ṣimibabe',
-);
+];

@@ -8,7 +8,7 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 class CldrCurrency {
-	private static $cache = array();
+	private static $cache = [];
 
 	/**
 	 * Loads the file which contains the relevant data
@@ -129,7 +129,7 @@ class CldrCurrency {
 		if ( array_key_exists( $country_code, self::$cache['locale'] ) ) {
 			return self::$cache['locale'][$country_code];
 		} else {
-			return array();
+			return [];
 		}
 	}
 

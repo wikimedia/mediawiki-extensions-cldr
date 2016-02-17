@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'ཨ་ཕར་ཁ',
 	'ab' => 'ཨཱབ་ཁ་ཟི་ཡ་ཁ',
 	'af' => 'ཨཕ་རི་ཀཱནས་ཁ',
@@ -145,9 +145,9 @@ $languageNames = array(
 	'zh-hant' => 'སྔ་དུས་ཀྱི་རྒྱ་མི་ཁ',
 	'zu' => 'ཟུ་ལུ་ཁ',
 	'zxx' => 'སྐད་རིག་ནང་དོན་མེདཔ',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'ཡུ་ནཱའི་ཊེཌ་ ཨ་རབ་ ཨེ་མེ་རེཊས་ཀྱི་དངུལ་ ཌིར་ཧཱམ',
 	'AFN' => 'ཨཕ་གཱན་གྱི་དངུལ་ ཨཕ་ག་ནི',
 	'AUD' => 'ཨཱོས་ཊྲེ་ལི་ཡ་གི་དངུལ་ ཌོ་ལར',
@@ -222,9 +222,9 @@ $currencyNames = array(
 	'VND' => 'བེཊ་ནཱམ་གྱི་དངུལ་ ཌོང',
 	'XXX' => 'མ་ཤེས་པའི་དངུལ',
 	'ZAR' => 'སཱའུཐ་ ཨཕ་རི་ཀ་གི་དངུལ་ རཱནད',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AUD' => 'AU$',
 	'BRL' => 'R$',
 	'BTN' => 'Nu.',
@@ -242,9 +242,9 @@ $currencySymbols = array(
 	'THB' => 'TH฿',
 	'TWD' => 'NT$',
 	'USD' => 'US$',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'ཨེ་སེན་ཤུན་ཚོ་གླིང༌',
 	'AD' => 'ཨཱན་དོ་ར',
 	'AE' => 'ཡུ་ནཱའི་ཊེཌ་ ཨ་རབ་ ཨེ་མེ་རེཊས',
@@ -502,9 +502,9 @@ $countryNames = array(
 	'ZA' => 'སཱའུཐ་ ཨཕ་རི་ཀ',
 	'ZM' => 'ཛམ་བྷི་ཡ',
 	'ZW' => 'ཛིམ་བྷབ་ཝེ',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-other' => 'ཉིནམ་ {0} ནང་',
 	'day-other' => 'ཉིན་ཞག་ {0}',
 	'day-past-other' => 'ཉིནམ་ {0} ཧེ་མ་',
@@ -526,4 +526,4 @@ $timeUnits = array(
 	'year-future-other' => 'ལོ་འཁོར་ {0} ནང་',
 	'year-other' => 'ལོ་འཁོར་ {0}',
 	'year-past-other' => 'ལོ་འཁོར་ {0} ཧེ་མ་',
-);
+];

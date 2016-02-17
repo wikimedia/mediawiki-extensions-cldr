@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'აფარი',
 	'ab' => 'აფხაზური',
 	'ace' => 'აჩეხური',
@@ -407,9 +407,9 @@ $languageNames = array(
 	'zu' => 'ზულუ',
 	'zxx' => 'ლინგვისტური შიგთავსი არ არის',
 	'zza' => 'ზაზაკი',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'ანდორული პესეტა',
 	'AED' => 'არაბთა გაერთიანებული საამიროების დირჰამი',
 	'AFA' => 'ავღანი (1927–2002)',
@@ -651,9 +651,9 @@ $currencyNames = array(
 	'ZRN' => 'ზაირის ახალი ზაირი',
 	'ZRZ' => 'ზაირის ზაირი',
 	'ZWD' => 'ზიმბაბვეს დოლარი',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -811,9 +811,9 @@ $currencySymbols = array(
 	'ZAR' => 'ZAR',
 	'ZMK' => 'ZMK',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'ამაღლების კუნძული',
 	'AD' => 'ანდორა',
 	'AE' => 'არაბთა გაერთიანებული საამიროები',
@@ -1073,9 +1073,9 @@ $countryNames = array(
 	'ZA' => 'სამხრეთ აფრიკის რესპუბლიკა',
 	'ZM' => 'ზამბია',
 	'ZW' => 'ზიმბაბვე',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} საუკუნე',
 	'century-other' => '{0} საუკუნე',
 	'day-future-one' => '{0} დღეში',
@@ -1194,4 +1194,4 @@ $timeUnits = array(
 	'year-short-future-other' => '{0} წელში',
 	'year-short-past-one' => '{0} წლის წინ',
 	'year-short-past-other' => '{0} წლის წინ',
-);
+];

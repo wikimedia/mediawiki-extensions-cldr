@@ -1,12 +1,12 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'as' => 'অসমীয়া',
 	'ie' => 'উপস্থাপন ভাষা',
 	'km' => 'কম্বোডিয়ান',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AQ' => 'এন্টাৰ্টিকা',
 	'BR' => 'ব্ৰাজিল',
 	'BV' => 'বভেট দ্বীপ',
@@ -23,4 +23,4 @@ $countryNames = array(
 	'RU' => 'ৰুচ',
 	'TF' => 'দক্ষিণ ফ্ৰান্সৰ অঞ্চল',
 	'US' => 'যুক্তৰাষ্ট্ৰ',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'bn' => 'བྷང་ག་ལའི་སྐད།',
 	'bo' => 'བོད་སྐད་',
 	'da' => 'ཏེན་མག་གི་སྐད།',
@@ -52,20 +52,20 @@ $languageNames = array(
 	'zu' => 'ཟུ་ལུ་སྐད།',
 	'zun' => 'ཟུ་ནི་སྐད།',
 	'zza' => 'ཟ་ཟའ་སྐད།',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'CNY' => 'ཡུ་ཨན་',
 	'INR' => 'རྒྱ་གར་སྒོར་',
 	'USD' => 'ཨ་རིའི་སྒོར་',
 	'XXX' => 'མ་རྟོགས་པའི་ནུས་མེད་དངུལ་ལོར',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'CNY' => '¥',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'ཨེན་ཌོ་ར།',
 	'AE' => 'ཨ་རབ། ཨི་མི་རཊ྄། ཆིག་སྒྲིལ་རྒྱལ་ཁབ།',
 	'AF' => 'ཨཕ་ག་ནི་སྟཱན།',
@@ -249,4 +249,4 @@ $countryNames = array(
 	'ZA' => 'ལྷོ་ ཨཕྲི་ཀ།',
 	'ZM' => 'ཛམ་བི་ཡ།',
 	'ZW' => 'ཛིམ་བྷཱ་བེ།',
-);
+];

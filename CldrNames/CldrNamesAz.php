@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afarca',
 	'ab' => 'abxaz',
 	'ace' => 'akin',
@@ -491,9 +491,9 @@ $languageNames = array(
 	'zun' => 'zuni',
 	'zxx' => 'dil məzmunu yoxdur',
 	'zza' => 'zaza',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'Andora Pesetası',
 	'AED' => 'Birləşmiş Ərəb Əmirlikləri Dirhəmi',
 	'AFA' => 'Əfqanıstan Əfqanisi (1927–2002)',
@@ -758,9 +758,9 @@ $currencyNames = array(
 	'ZWD' => 'Zimbabve Dolları (1980–2008)',
 	'ZWL' => 'Zimbabve Dolları (2009)',
 	'ZWR' => 'Zimbabve Dolları (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -917,9 +917,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Yüksəliş Adası',
 	'AD' => 'Andorra',
 	'AE' => 'Birləşmiş Ərəb Əmirlikləri',
@@ -1179,9 +1179,9 @@ $countryNames = array(
 	'ZA' => 'Cənub Afrika',
 	'ZM' => 'Zambiya',
 	'ZW' => 'Zimbabve',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} əsr',
 	'century-other' => '{0} əsr',
 	'day-future-one' => '{0} gün ərzində',
@@ -1300,4 +1300,4 @@ $timeUnits = array(
 	'year-short-future-other' => '{0} il ərzində',
 	'year-short-past-one' => '{0} il öncə',
 	'year-short-past-other' => '{0} il öncə',
-);
+];

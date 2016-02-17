@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ak' => 'riakan',
 	'am' => 'riamarik',
 	'ar' => 'riarab',
@@ -46,9 +46,9 @@ $languageNames = array(
 	'yo' => 'riyúuba',
 	'zh' => 'ricinɔá',
 	'zu' => 'rizúlu',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'mɔni mǝ á bǝlɔŋ bǝ kaksa bɛ táatáaŋzǝn',
 	'AOA' => 'mɔni mǝ á angóla',
 	'AUD' => 'mɔni mǝ á ɔstralí',
@@ -104,9 +104,9 @@ $currencyNames = array(
 	'ZMK' => 'mɔni mǝ á zambí (1968–2012)',
 	'ZMW' => 'mɔni mǝ á zambí',
 	'ZWD' => 'mɔni mǝ á zimbabwɛ́',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'andɔrǝ',
 	'AE' => 'bǝlɔŋ bǝ kaksa bɛ táatáaŋzǝn',
 	'AF' => 'afganistáŋ',
@@ -332,4 +332,4 @@ $countryNames = array(
 	'ZA' => 'afrik anǝ a sud',
 	'ZM' => 'zambí',
 	'ZW' => 'zimbabwɛ́',
-);
+];

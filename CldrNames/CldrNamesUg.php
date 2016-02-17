@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'ئافارچە',
 	'ab' => 'ئابخازچە',
 	'ace' => 'ئاتجېچە',
@@ -508,9 +508,9 @@ $languageNames = array(
 	'zun' => 'زۇنىچە',
 	'zxx' => 'تىل مەزمۇنى يوق',
 	'zza' => 'زازاچە',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'ئاندورران پېسېتاسى',
 	'AED' => 'ئەرەب بىرلەشمە خەلىپىلىكى دەرھەمى',
 	'AFA' => 'ئافغان ئافغانى (1927–2002)',
@@ -808,14 +808,14 @@ $currencyNames = array(
 	'ZWD' => 'زىمبابۋې دوللىرى (1980–2008)',
 	'ZWL' => 'زىمبابۋې دوللىرى (2009)',
 	'ZWR' => 'زىمبابۋې دوللىرى (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'CNY' => '￥',
 	'USD' => '$',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'ئاسسېنسىيون ئارىلى',
 	'AD' => 'ئاندوررا',
 	'AE' => 'ئەرەب بىرلەشمە خەلىپىلىكى',
@@ -1074,9 +1074,9 @@ $countryNames = array(
 	'ZA' => 'جەنۇبىي ئافرىقا',
 	'ZM' => 'زامبىيە',
 	'ZW' => 'زىمبابۋې',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-one' => '{0} كۈندىن كېيىن',
 	'day-future-other' => '{0} كۈندىن كېيىن',
 	'day-one' => '{0} كۈن',
@@ -1121,4 +1121,4 @@ $timeUnits = array(
 	'year-other' => '{0} يىل',
 	'year-past-one' => '{0} يىل ئىلگىرى',
 	'year-past-other' => '{0} يىل ئىلگىرى',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'Afar',
 	'ab' => 'Abchaasch',
 	'ace' => 'Aceh',
@@ -506,4 +506,4 @@ $languageNames = array(
 	'zun' => 'Zuni',
 	'zxx' => 'Keen Spraakinhold',
 	'zza' => 'Zaza',
-);
+];

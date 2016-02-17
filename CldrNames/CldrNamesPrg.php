@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ar' => 'arābiskan',
 	'da' => 'dāniskan',
 	'de' => 'miksiskan',
@@ -38,9 +38,9 @@ $languageNames = array(
 	'zh' => 'kīniskan',
 	'zh-hans' => 'prastintan kīniskan',
 	'zh-hant' => 'tradiciōnalin kīniskan',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'BRL' => 'Brazīlijas reals',
 	'CNY' => 'Kīnas juāns',
 	'EUR' => 'eurō',
@@ -50,9 +50,9 @@ $currencyNames = array(
 	'RUB' => 'Russis rūbels',
 	'USD' => 'APW dālars',
 	'XXX' => 'niwaistā walūta',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'Andōra',
 	'AG' => 'Antīgwa be Barbūda',
 	'AL' => 'Albānija',
@@ -144,4 +144,4 @@ $countryNames = array(
 	'VE' => 'Venezuēla',
 	'XK' => 'Kōsawa',
 	'ZA' => 'Pussideinanafrika',
-);
+];

@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'af' => 'afrikansi',
 	'ak' => 'akan',
 	'am' => 'liamariki',
@@ -65,9 +65,9 @@ $languageNames = array(
 	'yo' => 'yoruba',
 	'zh' => 'lisinwa',
 	'zu' => 'zulu',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'AED' => 'Dirihamɛ ya Lémila alabo',
 	'AOA' => 'Kwanza ya Angóla',
 	'ARS' => 'Peso y’Argentina',
@@ -146,13 +146,13 @@ $currencyNames = array(
 	'ZMK' => 'Kwasha ya Zambi (1968–2012)',
 	'ZMW' => 'Kwasha ya Zambi',
 	'ZWD' => 'Dolarɛ ya Zimbabwɛ',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'CDF' => 'FC',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Esenga ya Mbuta o likoló',
 	'AD' => 'Andorɛ',
 	'AE' => 'Lɛmila alabo',
@@ -400,4 +400,4 @@ $countryNames = array(
 	'ZA' => 'Afríka ya Súdi',
 	'ZM' => 'Zambi',
 	'ZW' => 'Zimbabwe',
-);
+];

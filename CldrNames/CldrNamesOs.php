@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'ab' => 'абхазаг',
 	'ady' => 'адыгейаг',
 	'ae' => 'авестӕ',
@@ -71,9 +71,9 @@ $languageNames = array(
 	'zh' => 'китайаг',
 	'zh-hans' => 'ӕнцонгонд китайаг',
 	'zh-hant' => 'традицион китайаг',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'BRL' => 'Бразилиаг реал',
 	'EUR' => 'Евро',
 	'GBP' => 'Бритайнаг Фунт',
@@ -81,16 +81,16 @@ $currencyNames = array(
 	'RUB' => 'Сом',
 	'USD' => 'АИШ-ы Доллар',
 	'XXX' => 'Нӕзонгӕ валютӕ',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'BRL' => 'R$',
 	'EUR' => '€',
 	'GBP' => '£',
 	'USD' => '$',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'BR' => 'Бразили',
 	'CN' => 'Китай',
 	'DE' => 'Герман',
@@ -102,9 +102,9 @@ $countryNames = array(
 	'JP' => 'Япон',
 	'RU' => 'Уӕрӕсе',
 	'US' => 'АИШ',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-future-one' => '{0} боны фӕстӕ',
 	'day-future-other' => '{0} боны фӕстӕ',
 	'day-one' => '{0} бон',
@@ -127,4 +127,4 @@ $timeUnits = array(
 	'week-other' => '{0} къуырийы',
 	'year-one' => '{0} аз',
 	'year-other' => '{0} азы',
-);
+];

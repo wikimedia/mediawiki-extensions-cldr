@@ -10,7 +10,7 @@
  */
 class CountryNames extends CldrNames {
 
-	private static $cache = array();
+	private static $cache = [];
 
 	/**
 	 * Get localized country names for a particular language, using fallback languages for missing
@@ -69,6 +69,6 @@ class CountryNames extends CldrNames {
 			}
 		}
 
-		return isset( self::$cache[$code] ) ? self::$cache[$code] : array();
+		return isset( self::$cache[$code] ) ? self::$cache[$code] : [];
 	}
 }

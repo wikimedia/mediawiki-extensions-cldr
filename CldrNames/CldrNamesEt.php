@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afari',
 	'ab' => 'abhaasi',
 	'ace' => 'atšehi',
@@ -604,9 +604,9 @@ $languageNames = array(
 	'zun' => 'sunji',
 	'zxx' => 'mittekeeleline',
 	'zza' => 'zaza',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'Andorra peseeta',
 	'AED' => 'Araabia Ühendemiraatide dirhem',
 	'AFA' => 'Afganistani afgaani (1927–2002)',
@@ -876,9 +876,9 @@ $currencyNames = array(
 	'ZWD' => 'Zimbabwe dollar (1980–2008)',
 	'ZWL' => 'Zimbabwe dollar (2009)',
 	'ZWR' => 'Zimbabwe dollar (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -1036,9 +1036,9 @@ $currencySymbols = array(
 	'YER' => 'YER',
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ascensioni saar',
 	'AD' => 'Andorra',
 	'AE' => 'Araabia Ühendemiraadid',
@@ -1298,9 +1298,9 @@ $countryNames = array(
 	'ZA' => 'Lõuna-Aafrika Vabariik',
 	'ZM' => 'Sambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} sajand',
 	'century-other' => '{0} sajandit',
 	'day-future-one' => '{0} päeva pärast',
@@ -1419,4 +1419,4 @@ $timeUnits = array(
 	'year-short-future-other' => '{0} aasta pärast',
 	'year-short-past-one' => '{0} aasta eest',
 	'year-short-past-other' => '{0} aasta eest',
-);
+];

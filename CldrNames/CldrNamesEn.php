@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'Afar',
 	'ab' => 'Abkhazian',
 	'ace' => 'Achinese',
@@ -613,9 +613,9 @@ $languageNames = array(
 	'zun' => 'Zuni',
 	'zxx' => 'No linguistic content',
 	'zza' => 'Zaza',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'Andorran Peseta',
 	'AED' => 'United Arab Emirates Dirham',
 	'AFA' => 'Afghan Afghani (1927–2002)',
@@ -913,14 +913,14 @@ $currencyNames = array(
 	'ZWD' => 'Zimbabwean Dollar (1980–2008)',
 	'ZWL' => 'Zimbabwean Dollar (2009)',
 	'ZWR' => 'Zimbabwean Dollar (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'JPY' => '¥',
 	'USD' => '$',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ascension Island',
 	'AD' => 'Andorra',
 	'AE' => 'United Arab Emirates',
@@ -1180,9 +1180,9 @@ $countryNames = array(
 	'ZA' => 'South Africa',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} century',
 	'century-other' => '{0} centuries',
 	'day-future-one' => 'in {0} day',
@@ -1269,4 +1269,4 @@ $timeUnits = array(
 	'year-short-future-other' => 'in {0} yr.',
 	'year-short-past-one' => '{0} yr. ago',
 	'year-short-past-other' => '{0} yr. ago',
-);
+];

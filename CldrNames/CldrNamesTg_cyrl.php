@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'be' => 'Белорусӣ',
 	'bg' => 'Булғорӣ',
 	'bh' => 'Биҳарӣ',
@@ -59,18 +59,18 @@ $languageNames = array(
 	'yi' => 'Яҳудии Аврупои шарқӣ',
 	'zh' => 'Чинӣ',
 	'zu' => 'Зулу',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'TJS' => 'Сомонӣ',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'TJS' => 'сом',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AF' => 'Афғонистан',
 	'TJ' => 'Тоҷикистон',
 	'TO' => 'Тонга',
-);
+];

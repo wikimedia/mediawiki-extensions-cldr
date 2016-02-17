@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'af' => 'አፍሪቃንሰኛ',
 	'am' => 'አምሐረኛ',
 	'ar' => 'ዓረበኛ',
@@ -94,9 +94,9 @@ $languageNames = array(
 	'xh' => 'ዞሳኛ',
 	'yi' => 'ዪዲሽ',
 	'zu' => 'ዙሉኛ',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'BRL' => 'የብራዚል ሪል',
 	'CNY' => 'የቻይና ዩአን ረንሚንቢ',
 	'ETB' => 'የኢትዮጵያ ብር',
@@ -106,13 +106,13 @@ $currencyNames = array(
 	'JPY' => 'የጃፓን የን',
 	'RUB' => 'የራሻ ሩብል',
 	'USD' => 'የአሜሪካን ዶላር',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ETB' => 'Br',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AD' => 'አንዶራ',
 	'AE' => 'የተባበሩት አረብ ኤምሬትስ',
 	'AF' => 'አፍጋኒስታን',
@@ -351,4 +351,4 @@ $countryNames = array(
 	'ZA' => 'ደቡብ አፍሪካ',
 	'ZM' => 'ዛምቢያ',
 	'ZW' => 'ዚምቧቤ',
-);
+];

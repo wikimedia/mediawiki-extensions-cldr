@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'de' => 'ꄓꇩꉙ',
 	'en' => 'ꑱꇩꉙ',
 	'es' => 'ꑭꀠꑸꉙ',
@@ -15,13 +15,13 @@ $languageNames = array(
 	'zh' => 'ꍏꇩꉙ',
 	'zh-hans' => 'ꈝꐯꍏꇩꉙ',
 	'zh-hant' => 'ꀎꋏꍏꇩꉙ',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'XXX' => 'ꅉꀋꐚꌠꌋꆀꎆꃀꀋꈁꀐꌠ',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'BR' => 'ꀠꑭ',
 	'CN' => 'ꍏꇩ',
 	'DE' => 'ꄓꇩ',
@@ -32,4 +32,4 @@ $countryNames = array(
 	'JP' => 'ꏝꀪ',
 	'RU' => 'ꊉꇆꌦ',
 	'US' => 'ꂰꇩ',
-);
+];

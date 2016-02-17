@@ -10,7 +10,7 @@
  */
 class LanguageNames extends CldrNames {
 
-	private static $cache = array();
+	private static $cache = [];
 
 	const FALLBACK_NATIVE = 0; // Missing entries fallback to native name
 	const FALLBACK_NORMAL = 1; // Missing entries fallback through the fallback chain
@@ -84,10 +84,10 @@ class LanguageNames extends CldrNames {
 			return self::$cache[$code];
 		}
 
-		self::$cache[$code] = array();
+		self::$cache[$code] = [];
 
 		if ( !Language::isValidBuiltInCode( $code ) ) {
-			return array();
+			return [];
 		}
 
 		/* Load override for wrong or missing entries in cldr */

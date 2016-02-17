@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afar',
 	'ab' => 'abház',
 	'ace' => 'achinéz',
@@ -521,9 +521,9 @@ $languageNames = array(
 	'zun' => 'zuni',
 	'zxx' => 'nincs nyelvészeti tartalom',
 	'zza' => 'zaza',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'Andorrai peseta',
 	'AED' => 'EAE-dirham',
 	'AFA' => 'afgán afghani (1927–2002)',
@@ -799,9 +799,9 @@ $currencyNames = array(
 	'ZWD' => 'Zimbabwei dollár (1980–2008)',
 	'ZWL' => 'Zimbabwei dollár (2009)',
 	'ZWR' => 'Zimbabwei dollár (2008)',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => 'AFN',
 	'ALL' => 'ALL',
@@ -959,9 +959,9 @@ $currencySymbols = array(
 	'ZAR' => 'ZAR',
 	'ZMK' => 'ZMK',
 	'ZMW' => 'ZMW',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ascension-sziget',
 	'AD' => 'Andorra',
 	'AE' => 'Egyesült Arab Emírségek',
@@ -1221,9 +1221,9 @@ $countryNames = array(
 	'ZA' => 'Dél-afrikai Köztársaság',
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-one' => '{0} évszázad',
 	'century-other' => '{0} évszázad',
 	'day-future-one' => '{0} nap múlva',
@@ -1342,4 +1342,4 @@ $timeUnits = array(
 	'year-short-future-other' => '{0} év múlva',
 	'year-short-past-one' => '{0} évvel ezelőtt',
 	'year-short-past-other' => '{0} évvel ezelőtt',
-);
+];

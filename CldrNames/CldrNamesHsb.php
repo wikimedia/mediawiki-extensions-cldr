@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'afaršćina',
 	'ab' => 'abchazišćina',
 	'af' => 'afrikaanšćina',
@@ -265,9 +265,9 @@ $languageNames = array(
 	'zh-hant' => 'chinšćina (tradicionalna)',
 	'zu' => 'zulušćina',
 	'zxx' => 'žadyn rěčny wobsah',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'ADP' => 'andorraska peseta',
 	'AED' => 'ZAE dirham',
 	'AFN' => 'afghaniski afghani',
@@ -451,9 +451,9 @@ $currencyNames = array(
 	'YER' => 'jemenski rial',
 	'ZAR' => 'južnoafriski rand',
 	'ZMW' => 'sambiski kwacha',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'ALL' => 'ALL',
 	'AUD' => 'AUD',
 	'BGN' => 'BGN',
@@ -477,9 +477,9 @@ $currencySymbols = array(
 	'XCD' => 'EC$',
 	'XOF' => 'CFA',
 	'XPF' => 'CFPF',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Ascension',
 	'AD' => 'Andorra',
 	'AE' => 'Zjednoćene arabske emiraty',
@@ -738,9 +738,9 @@ $countryNames = array(
 	'ZA' => 'Južna Afrika (Republika)',
 	'ZM' => 'Sambija',
 	'ZW' => 'Simbabwe',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'day-few' => '{0} dny',
 	'day-future-few' => 'za {0} dny',
 	'day-future-one' => 'za {0} dźeń',
@@ -973,4 +973,4 @@ $timeUnits = array(
 	'year-short-past-other' => 'před {0} l.',
 	'year-short-past-two' => 'před {0} l.',
 	'year-two' => '{0} lěće',
-);
+];

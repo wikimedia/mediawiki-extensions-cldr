@@ -1,6 +1,6 @@
 <?php
 
-$languageNames = array(
+$languageNames = [
 	'aa' => 'lea fakaʻafāla',
 	'ab' => 'lea fakaʻapakasia',
 	'ace' => 'lea fakaʻatisē',
@@ -612,21 +612,21 @@ $languageNames = array(
 	'zun' => 'lea fakasuni',
 	'zxx' => 'ʻikai ha lea',
 	'zza' => 'lea fakasāsā',
-);
+];
 
-$currencyNames = array(
+$currencyNames = [
 	'BRL' => 'BRL',
 	'TOP' => 'Paʻanga fakatonga',
 	'WST' => 'Tala fakahaʻamoa',
 	'XXX' => 'Pa’anga Ta’e’ilo',
-);
+];
 
-$currencySymbols = array(
+$currencySymbols = [
 	'TOP' => 'T$',
 	'WST' => 'WST',
-);
+];
 
-$countryNames = array(
+$countryNames = [
 	'AC' => 'Motu ʻAsenisini',
 	'AD' => 'ʻAnitola',
 	'AE' => 'ʻAlepea Fakatahataha',
@@ -886,9 +886,9 @@ $countryNames = array(
 	'ZA' => 'ʻAfilika tonga',
 	'ZM' => 'Semipia',
 	'ZW' => 'Simipapuei',
-);
+];
 
-$timeUnits = array(
+$timeUnits = [
 	'century-other' => 'teautaʻu ʻe {0}',
 	'day-future-other' => 'ʻi he ʻaho ʻe {0}',
 	'day-narrow-future-other' => 'ʻi he ʻaho ʻe {0}',
@@ -948,4 +948,4 @@ $timeUnits = array(
 	'year-past-other' => 'taʻu ʻe {0} kuoʻosi',
 	'year-short-future-other' => 'ʻi he taʻu ʻe {0}',
 	'year-short-past-other' => 'taʻu ʻe {0} kuoʻosi',
-);
+];
