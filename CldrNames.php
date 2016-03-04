@@ -16,7 +16,7 @@ class CldrNames {
 	 * @return string
 	 */
 	public static function getFileName( $code ) {
-		return Language::getFileName( "CldrNames", $code, '.php' );
+		return Language::getFileName( 'CldrNames', $code, '.php' );
 	}
 
 	/**
@@ -25,6 +25,6 @@ class CldrNames {
 	 * @return string
 	 */
 	public static function getOverrideFileName( $code ) {
-		return Language::getFileName( "LocalNames", $code, '.php' );
+		return Language::getFileName( 'LocalNames', $code, '.php' );
 	}
 }

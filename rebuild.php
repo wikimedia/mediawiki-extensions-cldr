@@ -62,16 +62,16 @@ class CLDRRebuild extends Maintenance {
 			if ( count( $codeParts ) > 1 ) {
 
 				// ISO 15924 alpha-4 script code
-				if ( strlen( $codeParts[1] ) == 4 ) {
+				if ( strlen( $codeParts[1] ) === 4 ) {
 					$codeParts[1] = ucfirst( $codeParts[1] );
 				}
 
 				// ISO 3166-1 alpha-2 country code
-				if ( strlen( $codeParts[1] ) == 2 ) {
+				if ( strlen( $codeParts[1] ) === 2 ) {
 					$codeParts[2] = $codeParts[1];
 					unset( $codeParts[1] );
 				}
-				if ( isset( $codeParts[2] ) && strlen( $codeParts[2] ) == 2 ) {
+				if ( isset( $codeParts[2] ) && strlen( $codeParts[2] ) === 2 ) {
 					$codeParts[2] = strtoupper( $codeParts[2] );
 				}
 				$codeCLDR = implode( '_', $codeParts );
@@ -82,7 +82,7 @@ class CLDRRebuild extends Maintenance {
 
 			// If the file exists, parse it, otherwise display an error
 			if ( file_exists( $input ) ) {
-				$outputFileName = Language::getFileName( "CldrNames", getRealCode( $code ), '.php' );
+				$outputFileName = Language::getFileName( 'CldrNames', getRealCode( $code ), '.php' );
 				$p = new CLDRParser();
 				$p->parse( $input, "$OUTPUT/CldrNames/$outputFileName" );
 			} else {
@@ -322,7 +322,7 @@ class CLDRParser {
 				if ( is_array( $territories ) ) {
 					if ( count( $territories ) === 1 && array_key_exists( 'DEFAULT', $territories ) ) {
 						$data['currencySymbols'][$currency][$lang] = $territories['DEFAULT'];
-						if ( $territories['DEFAULT'] == $default && $lang != 'root' ) {
+						if ( $territories['DEFAULT'] === $default && $lang !== 'root' ) {
 							unset( $data['currencySymbols'][$currency][$lang] );
 						}
 					} else {

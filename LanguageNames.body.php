@@ -62,6 +62,7 @@ class LanguageNames extends CldrNames {
 
 		switch ( $list ) {
 			case self::LIST_MW:
+			/** @noinspection PhpMissingBreakStatementInspection */
 			case self::LIST_MW_SUPPORTED:
 				/* Remove entries that are not in fb */
 				$names = array_intersect_key( $names, $native );
