@@ -8,7 +8,7 @@
 class TimeUnitsTest extends MediaWikiTestCase {
 
 	/** @dataProvider providerTimeUnit */
-	function testTimeUnit(
+	public function testTimeUnit(
 		$language,
 		$tsTime, // The timestamp to format
 		$currentTime, // The time to consider "now"
