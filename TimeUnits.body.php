@@ -125,7 +125,7 @@ class TimeUnits extends CldrNames {
 		$unit = null;
 		foreach ( $units as $code => $testUnit ) {
 			$testNumber = $timeDifference->format( '%' . $code );
-			if ( intval( $testNumber ) > 0 ) {
+			if ( (int)$testNumber > 0 ) {
 				$unit = $testUnit;
 				$number = $testNumber;
 			}
