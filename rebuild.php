@@ -111,12 +111,11 @@ class CLDRRebuild extends Maintenance {
 }
 
 class CLDRParser {
-
 	/**
 	 * @param string $inputFile filename
 	 * @param string $outputFile filename
 	 */
-	function parse( $inputFile, $outputFile ) {
+	public function parse( $inputFile, $outputFile ) {
 		// Open the input file for reading
 
 		$contents = file_get_contents( $inputFile );
@@ -205,7 +204,7 @@ class CLDRParser {
 	 * @param string $inputFile
 	 * @param string $outputFile
 	 */
-	function parse_supplemental( $inputFile, $outputFile ) {
+	public function parse_supplemental( $inputFile, $outputFile ) {
 		// Open the input file for reading
 
 		$contents = file_get_contents( $inputFile );
@@ -258,7 +257,7 @@ class CLDRParser {
 	 * @param string $inputDir - the directory, in which we will parse everything.
 	 * @param string $outputFile
 	 */
-	function parse_currency_symbols( $inputDir, $outputFile ) {
+	public function parse_currency_symbols( $inputDir, $outputFile ) {
 		if ( !file_exists( $inputDir ) ) {
 			return;
 		}
@@ -346,7 +345,7 @@ class CLDRParser {
 	 * @param array $data The variable names and values we want defined in the php output
 	 * @param string $location File location to write
 	 */
-	function savephp( $data, $location ) {
+	protected function savephp( $data, $location ) {
 		$hasData = false;
 		foreach ( $data as $v ) {
 			if ( count( $v ) ) {
@@ -404,7 +403,7 @@ class CLDRParser {
 	 * @param int $level
 	 * @return string
 	 */
-	function makePrettyArrayOuts( $key, $value, $level = 1 ) {
+	protected function makePrettyArrayOuts( $key, $value, $level = 1 ) {
 		$subKeys = '';
 		$isAssoc = $this->isAssoc( $value );
 		$tabs = str_repeat( "\t", $level );
