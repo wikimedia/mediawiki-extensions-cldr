@@ -67,7 +67,7 @@ class CldrCurrency {
 		if ( array_key_exists( strtoupper( $currency_code ), self::$cache['symbols'] ) ) {
 			$currency_code = strtoupper( $currency_code );
 			$language_code = strtolower( $language_code );
-			if ( !is_null( $country_code ) ) {
+			if ( $country_code !== null ) {
 				$country_code = strtoupper( $country_code );
 				if ( $country_code === 'UK' ) {
 					$country_code = 'GB'; // dang iso overlap...
@@ -85,7 +85,7 @@ class CldrCurrency {
 				if ( is_array( self::$cache['symbols'][$currency_code][$language_code] ) ) {
 
 					// did we specify a country? If not: Default.
-					if ( !is_null( $country_code ) &&
+					if ( $country_code !== null &&
 						array_key_exists(
 							$country_code,
 							self::$cache['symbols'][$currency_code][$language_code]
