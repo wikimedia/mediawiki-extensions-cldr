@@ -217,6 +217,7 @@ $countryNames = [
 ];
 
 $timeUnits = [
+	'century-one' => '{0} século',
 	'century-other' => '{0} séculos',
 	'day-future-one' => 'dentro de {0} dia',
 	'day-future-other' => 'dentro de {0} dias',

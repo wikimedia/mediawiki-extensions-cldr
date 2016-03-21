@@ -87,6 +87,7 @@ $currencySymbols = [
 	'BRL' => 'R$',
 	'EUR' => '€',
 	'GBP' => '£',
+	'GEL' => '₾',
 	'USD' => '$',
 ];
 

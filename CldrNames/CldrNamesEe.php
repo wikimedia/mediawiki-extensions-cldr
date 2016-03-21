@@ -589,7 +589,6 @@ $countryNames = [
 	'AI' => 'Anguilla nutome',
 	'AL' => 'Albania nutome',
 	'AM' => 'Armenia nutome',
-	'AN' => 'Nedalands Antilis nutome',
 	'AO' => 'Angola nutome',
 	'AQ' => 'Antartica nutome',
 	'AR' => 'Argentina nutome',

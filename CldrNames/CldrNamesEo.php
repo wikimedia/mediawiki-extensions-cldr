@@ -240,13 +240,12 @@ $currencySymbols = [
 
 $countryNames = [
 	'AD' => 'Andoro',
-	'AE' => 'Unuiĝintaj Arabaj Emirlandos',
+	'AE' => 'Unuiĝintaj Arabaj Emirlandoj',
 	'AF' => 'Afganujo',
 	'AG' => 'Antigvo-Barbudo',
 	'AI' => 'Angvilo',
 	'AL' => 'Albanujo',
 	'AM' => 'Armenujo',
-	'AN' => 'Nederlandaj Antiloj',
 	'AO' => 'Angolo',
 	'AQ' => 'Antarkto',
 	'AR' => 'Argentino',

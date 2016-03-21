@@ -172,7 +172,6 @@ $countryNames = [
 	'AI' => 'Orílẹ́ède Ààngúlílà',
 	'AL' => 'Orílẹ́ède Àlùbàníánì',
 	'AM' => 'Orílẹ́ède Améníà',
-	'AN' => 'Orílẹ́ède Nedalandi ti Antelisi',
 	'AO' => 'Orílẹ́ède Ààngólà',
 	'AR' => 'Orílẹ́ède Agentínà',
 	'AS' => 'Sámóánì ti Orílẹ́ède Àméríkà',

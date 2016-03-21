@@ -116,7 +116,6 @@ $countryNames = [
 	'AI' => 'Angwila',
 	'AL' => 'Alubaniya',
 	'AM' => 'Arumeniya',
-	'AN' => 'Antiye y’Abaholandi',
 	'AO' => 'Angola',
 	'AR' => 'Arijantine',
 	'AS' => 'Samowa nyamerika',
