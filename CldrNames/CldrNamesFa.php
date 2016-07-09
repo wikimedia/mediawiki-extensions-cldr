@@ -1,4 +1,5 @@
 <?php
+
 $languageNames = [
 	'aa' => 'آفاری',
 	'ab' => 'آبخازی',
@@ -614,6 +615,7 @@ $languageNames = [
 	'zxx' => 'بدون محتوای زبانی',
 	'zza' => 'زازایی',
 ];
+
 $currencyNames = [
 	'ADP' => 'پزتای آندورا',
 	'AED' => 'درهم امارات متحدهٔ عربی',
@@ -830,6 +832,7 @@ $currencyNames = [
 	'ZWL' => 'دلار زیمبابوه (۲۰۰۹)',
 	'ZWR' => 'دلار زیمبابوه (۲۰۰۸)',
 ];
+
 $currencySymbols = [
 	'AED' => 'AED',
 	'AFN' => '؋',
@@ -989,6 +992,7 @@ $currencySymbols = [
 	'ZAR' => 'ZAR',
 	'ZMW' => 'ZMW',
 ];
+
 $countryNames = [
 	'AC' => 'جزایر آسنسیون',
 	'AD' => 'آندورا',
@@ -1249,6 +1253,7 @@ $countryNames = [
 	'ZM' => 'زامبیا',
 	'ZW' => 'زیمبابوه',
 ];
+
 $timeUnits = [
 	'century-one' => '{0} سده',
 	'century-other' => '{0} سده',
