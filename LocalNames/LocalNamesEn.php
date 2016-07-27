@@ -154,4 +154,10 @@ $languageNames = [
 	'zh-sg' => 'Chinese (Singapore)',
 	'zh-tw' => 'Chinese (Taiwan)',
 	'zh-yue' => 'Cantonese', # language redirect
+
+	/* http://unicode.org/cldr/trac/ticket/9664
+	 * Added 2016-07-27.
+	 */
+	'mul' => 'Multiple languages',
+	'und' => 'Unknown language',
 ];
