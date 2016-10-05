@@ -1,5 +1,0 @@
-<?php
-
-$languageNames = [
-	'ss' => 'Siswati',
-];

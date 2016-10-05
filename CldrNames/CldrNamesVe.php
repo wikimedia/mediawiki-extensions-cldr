@@ -1,5 +1,0 @@
-<?php
-
-$languageNames = [
-	've' => 'Tshivenḓa',
-];

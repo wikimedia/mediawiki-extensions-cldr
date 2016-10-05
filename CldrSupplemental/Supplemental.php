@@ -29,6 +29,10 @@ $currencyFractions = [
 		'digits' => '0',
 		'rounding' => '0',
 	],
+	'BYN' => [
+		'digits' => '2',
+		'rounding' => '0',
+	],
 	'CAD' => [
 		'digits' => '2',
 		'rounding' => '0',
@@ -52,8 +56,10 @@ $currencyFractions = [
 		'rounding' => '0',
 	],
 	'CRC' => [
-		'digits' => '0',
+		'digits' => '2',
 		'rounding' => '0',
+		'cashDigits' => '0',
+		'cashRounding' => '0',
 	],
 	'CZK' => [
 		'digits' => '2',
@@ -383,7 +389,7 @@ $localeCurrencies = [
 		'BWP',
 	],
 	'BY' => [
-		'BYR',
+		'BYN',
 	],
 	'BZ' => [
 		'BZD',
