@@ -1204,7 +1204,10 @@ $currencySymbols = [
 		'en' => [
 			'BZ' => '$',
 		],
-		'es' => 'BZD',
+		'es' => [
+			'BZ' => '$',
+			'DEFAULT' => 'BZD',
+		],
 		'et' => 'BZD',
 		'eu' => 'BZD',
 		'fa' => 'BZD',
