@@ -155,4 +155,3 @@ class TimeUnitsTest extends MediaWikiTestCase {
 		];
 	}
 }
-

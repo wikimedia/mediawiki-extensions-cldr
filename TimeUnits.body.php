@@ -99,7 +99,6 @@ class TimeUnits extends CldrNames {
 	 *     processing. True means the timestamp was not overridden.
 	 */
 	public static function onGetHumanTimestamp( &$output, $timestamp, $relativeTo, $user, $lang ) {
-
 		// Map PHP's DateInterval property codes to CLDR unit names.
 		$units = [
 			's' => 'second',
