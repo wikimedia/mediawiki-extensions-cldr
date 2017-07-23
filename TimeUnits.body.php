@@ -139,7 +139,7 @@ class TimeUnits extends CldrNames {
 
 		// Get the CLDR time unit strings for the user's language.
 		// If no strings are returned, abandon the timestamp override.
-		$timeUnits = TimeUnits::getUnits( $lang->getCode() );
+		$timeUnits = self::getUnits( $lang->getCode() );
 		if ( !$timeUnits ) {
 			return true;
 		}
