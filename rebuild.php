@@ -459,7 +459,7 @@ class CLDRParser {
  * Get the code for the MediaWiki localisation,
  * these are same as the fallback.
  *
- * @param $code string
+ * @param string $code
  * @return string
  */
 // @codingStandardsIgnoreStart

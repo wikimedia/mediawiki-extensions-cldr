@@ -22,9 +22,9 @@ class LanguageNames extends CldrNames {
 	 * Get localized language names for a particular language, using fallback languages for missing
 	 * items.
 	 *
-	 * @param $code string
-	 * @param $fbMethod int
-	 * @param $list int
+	 * @param string $code
+	 * @param int $fbMethod
+	 * @param int $list
 	 * @throws Exception
 	 * @return array an associative array of language codes and localized language names
 	 */
@@ -77,7 +77,7 @@ class LanguageNames extends CldrNames {
 	/**
 	 * Load currency names localized for a particular language. Helper function for getNames.
 	 *
-	 * @param $code string The language to return the list in
+	 * @param string $code The language to return the list in
 	 * @return array an associative array of language codes and localized language names
 	 */
 	private static function loadLanguage( $code ) {
@@ -122,8 +122,8 @@ class LanguageNames extends CldrNames {
 	}
 
 	/**
-	 * @param $names array
-	 * @param $code string
+	 * @param array &$names
+	 * @param string $code
 	 * @return bool
 	 */
 	public static function coreHook( &$names, $code ) {
