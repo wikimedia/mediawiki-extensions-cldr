@@ -75,6 +75,11 @@ $currencyFractions = [
 		'digits' => '0',
 		'rounding' => '0',
 	],
+	'DKK' => [
+		'digits' => '2',
+		'rounding' => '0',
+		'cashRounding' => '50',
+	],
 	'ESP' => [
 		'digits' => '0',
 		'rounding' => '0',
@@ -177,6 +182,12 @@ $currencyFractions = [
 		'digits' => '0',
 		'rounding' => '0',
 	],
+	'NOK' => [
+		'digits' => '2',
+		'rounding' => '0',
+		'cashDigits' => '0',
+		'cashRounding' => '0',
+	],
 	'OMR' => [
 		'digits' => '3',
 		'rounding' => '0',
@@ -196,6 +207,12 @@ $currencyFractions = [
 	'RWF' => [
 		'digits' => '0',
 		'rounding' => '0',
+	],
+	'SEK' => [
+		'digits' => '2',
+		'rounding' => '0',
+		'cashDigits' => '0',
+		'cashRounding' => '0',
 	],
 	'SLL' => [
 		'digits' => '0',
@@ -926,7 +943,7 @@ $localeCurrencies = [
 		'SSP',
 	],
 	'ST' => [
-		'STD',
+		'STN',
 	],
 	'SV' => [
 		'USD',

@@ -19,6 +19,7 @@ $languageNames = [
 $currencyNames = [
 	'BYN' => 'Weissrussischer Rubel',
 	'BYR' => 'Weissrussischer Rubel (2000–2016)',
+	'PEN' => 'Peruanischer Neuer Sol',
 ];
 
 $countryNames = [
@@ -29,5 +30,6 @@ $countryNames = [
 	'GB' => 'Grossbritannien',
 	'QO' => 'Äusseres Ozeanien',
 	'SB' => 'Salomon-Inseln',
+	'TL' => 'Osttimor',
 	'ZW' => 'Zimbabwe',
 ];
