@@ -462,29 +462,28 @@ class CLDRParser {
  * @param string $code
  * @return string
  */
-// @codingStandardsIgnoreStart
 function getRealCode( $code ) {
 	$realCode = $code;
-	if ( !strcmp( $code, 'kk' ) )
+	if ( !strcmp( $code, 'kk' ) ) {
 		$realCode = 'kk-cyrl';
-	elseif ( !strcmp( $code, 'ku' ) )
+	} elseif ( !strcmp( $code, 'ku' ) ) {
 		$realCode = 'ku-arab';
-	elseif ( !strcmp( $code, 'sr' ) )
+	} elseif ( !strcmp( $code, 'sr' ) ) {
 		$realCode = 'sr-ec';
-	elseif ( !strcmp( $code, 'tg' ) )
+	} elseif ( !strcmp( $code, 'tg' ) ) {
 		$realCode = 'tg-cyrl';
-	elseif ( !strcmp( $code, 'zh' ) )
+	} elseif ( !strcmp( $code, 'zh' ) ) {
 		$realCode = 'zh-hans';
-	elseif ( !strcmp( $code, 'pt' ) )
+	} elseif ( !strcmp( $code, 'pt' ) ) {
 		$realCode = 'pt-br';
-	elseif ( !strcmp( $code, 'pt-pt' ) )
+	} elseif ( !strcmp( $code, 'pt-pt' ) ) {
 		$realCode = 'pt';
-	elseif ( !strcmp( $code, 'az-arab' ) )
+	} elseif ( !strcmp( $code, 'az-arab' ) ) {
 		$realCode = 'azb';
+	}
 
 	return $realCode;
 }
-// @codingStandardsIgnoreEnd
 
 $maintClass = 'CLDRRebuild';
 require_once RUN_MAINTENANCE_IF_MAIN;
