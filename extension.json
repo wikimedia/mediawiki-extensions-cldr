@@ -24,11 +24,11 @@
 		]
 	},
 	"AutoloadClasses": {
-		"CldrNames": "CldrNames.php",
-		"LanguageNames": "LanguageNames.body.php",
-		"CountryNames": "CountryNames.body.php",
-		"CurrencyNames": "CurrencyNames.body.php",
-		"TimeUnits": "TimeUnits.body.php"
+		"CldrNames": "includes/CldrNames.php",
+		"LanguageNames": "includes/LanguageNames.php",
+		"CountryNames": "includes/CountryNames.php",
+		"CurrencyNames": "includes/CurrencyNames.php",
+		"TimeUnits": "includes/TimeUnits.php"
 	},
 	"manifest_version": 1
 }
