@@ -92,7 +92,7 @@ class LanguageNames extends CldrNames {
 		}
 
 		/* Load override for wrong or missing entries in cldr */
-		$override = __DIR__ . '/LocalNames/' . self::getOverrideFileName( $code );
+		$override = __DIR__ . '/../LocalNames/' . self::getOverrideFileName( $code );
 		if ( file_exists( $override ) ) {
 			$languageNames = false;
 			require $override;
@@ -101,7 +101,7 @@ class LanguageNames extends CldrNames {
 			}
 		}
 
-		$filename = __DIR__ . '/CldrNames/' . self::getFileName( $code );
+		$filename = __DIR__ . '/../CldrNames/' . self::getFileName( $code );
 		if ( file_exists( $filename ) ) {
 			$languageNames = false;
 			require $filename;
