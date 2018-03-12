@@ -300,7 +300,7 @@ class CLDRParser {
 		 * Part 1: Stop blowing up on defaults.
 		 * Defaults apparently come in many forms. Listed below in order of scope
 		 * (widest to narrowest)
-		 * 1) The ISO code itself, in the absense of any other defaults
+		 * 1) The ISO code itself, in the absence of any other defaults
 		 * 2) The 'root' language file definition
 		 * 3) Language with no locality - locality will come in as 'DEFAULT'
 		 *
