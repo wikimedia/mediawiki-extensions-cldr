@@ -214,8 +214,8 @@ $languageNames = [
 
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
-	// 'sr-ec' => 'Serbian (Cyrillic script)',
-	// 'sr-el' => 'Serbian (Latin script)',
+	// 'sr-cyrl' => 'Serbian (Cyrillic script)',
+	// 'sr-latn' => 'Serbian (Latin script)',
 
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */

@@ -130,7 +130,7 @@ class CLDRRebuild extends Maintenance {
 		} elseif ( $code === 'ku' ) {
 			$realCode = 'ku-latn';
 		} elseif ( $code === 'sr' ) {
-			$realCode = 'sr-ec';
+			$realCode = 'sr-cyrl';
 		} elseif ( $code === 'tg' ) {
 			$realCode = 'tg-cyrl';
 		} elseif ( $code === 'zh' ) {

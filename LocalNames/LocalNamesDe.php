@@ -304,8 +304,8 @@ $languageNames = [
 	'sju' => 'Umesamisch',
 	'skr' => 'Saraiki',
 	'skr-arab' => 'Saraiki (arabische Schrift)',
-	'sr-ec' => 'Serbisch (kyrillische Schrift)',
-	'sr-el' => 'Serbisch (lateinische Schrift)',
+	'sr-cyrl' => 'Serbisch (kyrillische Schrift)',
+	'sr-latn' => 'Serbisch (lateinische Schrift)',
 	# Added to core with T311034
 	'sro' => 'Campidanesisch',
 	# 'srq' => 'Sirionó', // German translation unassured

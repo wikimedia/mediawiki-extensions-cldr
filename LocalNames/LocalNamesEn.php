@@ -351,8 +351,8 @@ $languageNames = [
 	'sju' => 'Ume Sami',
 	'skr' => 'Saraiki',
 	'skr-arab' => 'Saraiki (Arabic script)',
-	'sr-ec' => 'Serbian (Cyrillic script)',
-	'sr-el' => 'Serbian (Latin script)',
+	'sr-cyrl' => 'Serbian (Cyrillic script)',
+	'sr-latn' => 'Serbian (Latin script)',
 	# Added to core with T311034
 	'sro' => 'Campidanese Sardinian',
 	# used by Wikidata, added in InitialiseSettings.php
