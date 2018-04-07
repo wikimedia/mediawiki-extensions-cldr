@@ -22,6 +22,7 @@ class CldrCurrency {
 		}
 
 		$filename = null;
+		$value = [];
 		switch ( $data ) {
 			case 'symbols' :
 				$filename = __DIR__ . '/CldrCurrency/Symbols.php';

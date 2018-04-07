@@ -56,7 +56,6 @@ class CLDRRebuild extends Maintenance {
 
 		foreach ( $languages as $code => $name ) {
 			// Construct the correct name for the input file
-			unset( $codeParts );
 			$codeParts = explode( '-', $code );
 			if ( count( $codeParts ) > 1 ) {
 				// ISO 15924 alpha-4 script code
