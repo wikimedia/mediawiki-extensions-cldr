@@ -20,6 +20,7 @@ $currencyNames = [
 	'BYN' => 'Weissrussischer Rubel',
 	'BYR' => 'Weissrussischer Rubel (2000–2016)',
 	'PEN' => 'Peruanischer Neuer Sol',
+	'STN' => 'São-toméischer Dobra (2018)',
 ];
 
 $countryNames = [

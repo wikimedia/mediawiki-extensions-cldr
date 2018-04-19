@@ -766,7 +766,7 @@ $localeCurrencies = [
 		'EUR',
 	],
 	'MR' => [
-		'MRO',
+		'MRU',
 	],
 	'MS' => [
 		'XCD',
