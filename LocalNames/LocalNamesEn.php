@@ -143,6 +143,7 @@ $languageNames = [
 	'de-formal' => 'German (formal address)',
 	'dty' => 'Doteli',
 	'ett' => 'Etruscian',
+	'eya' => 'Eyak',
 	'fkv' => 'Kvensk',
 	'fos' => 'Siraya',
 	'fuf' => 'Pular',
