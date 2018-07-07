@@ -264,6 +264,12 @@ $currencyFractions = [
 		'digits' => '0',
 		'rounding' => '0',
 	],
+	'VEF' => [
+		'digits' => '2',
+		'rounding' => '0',
+		'cashDigits' => '0',
+		'cashRounding' => '0',
+	],
 	'VND' => [
 		'digits' => '0',
 		'rounding' => '0',
