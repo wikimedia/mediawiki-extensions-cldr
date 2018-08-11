@@ -51,6 +51,7 @@ $languageNames = [
 	# 'gom-latn' => 'Goan Konkani (lateinische Schrift)', // German translation unassured
 	'hif-latn' => 'Fidschi-Hindii (lateinische Schrift)', // German translation unassured
 	'hif' => 'Fidschi-Hindi',
+	'hyw' => 'Westarmenisch',
 	# 'ike-cans' => 'Eastern Canadian (Aboriginal syllabics)', // German translation unassured
 	# 'ike-latn' => 'Eastern Canadian (lateinische Schrift)', // German translation unassured
 	'kbd-cyrl' => 'Kabardinisch (kyrillische Schrift)',
