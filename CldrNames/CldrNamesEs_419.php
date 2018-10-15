@@ -45,6 +45,8 @@ $currencyNames = [
 	'MYR' => 'ringgit malayo',
 	'THB' => 'baht tailandes',
 	'UZS' => 'som uzbeko',
+	'VEF' => 'bolívar venezolano',
+	'VES' => 'VES',
 	'XAF' => 'franco CFA BEAC',
 	'XOF' => 'franco CFA BCEAO',
 	'XXX' => '(unidad de moneda desconocida)',
@@ -53,11 +55,13 @@ $currencyNames = [
 
 $currencySymbols = [
 	'THB' => 'THB',
+	'VEF' => 'BsF',
 ];
 
 $countryNames = [
 	'AC' => 'Isla Ascensión',
 	'BA' => 'Bosnia-Herzegovina',
+	'CG' => 'República del Congo',
 	'CI' => 'Costa de Marfil',
 	'EZ' => 'Eurozona',
 	'GB' => 'R. U.',

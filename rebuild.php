@@ -466,7 +466,7 @@ function getRealCode( $code ) {
 	if ( !strcmp( $code, 'kk' ) ) {
 		$realCode = 'kk-cyrl';
 	} elseif ( !strcmp( $code, 'ku' ) ) {
-		$realCode = 'ku-arab';
+		$realCode = 'ku-latn';
 	} elseif ( !strcmp( $code, 'sr' ) ) {
 		$realCode = 'sr-ec';
 	} elseif ( !strcmp( $code, 'tg' ) ) {
