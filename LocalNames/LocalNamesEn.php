@@ -57,6 +57,7 @@ $languageNames = [
 	'kbd-cyrl' => 'Kabardian (Cyrillic script)',
 	'kbp' => 'Kabiye',
 	'kjh' => 'Khakas',
+	'kjp' => 'Eastern Pwo',
 	'kk-cn' => 'Kazakh (China)',
 	'kk-kz' => 'Kazakh (Kazakhstan)',
 	'kk-tr' => 'Kazakh (Turkey)',
