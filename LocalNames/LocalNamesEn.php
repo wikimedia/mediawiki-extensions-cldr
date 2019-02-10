@@ -46,6 +46,7 @@ $languageNames = [
 	'fuf' => 'Pular',
 	'gan-hans' => 'Gan (Simplified)',
 	'gan-hant' => 'Gan (Traditional)',
+	'gcr' => 'Guianan Creole',
 	'gmy' => 'Mycenaean Greek',
 	'gom-deva' => 'Goan Konkani (Devanagari script)',
 	'gom-latn' => 'Goan Konkani (Latin script)',
