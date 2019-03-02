@@ -137,5 +137,5 @@ function getRealCode( $code ) {
 	return $realCode;
 }
 
-$maintClass = 'CLDRRebuild';
+$maintClass = CLDRRebuild::class;
 require_once RUN_MAINTENANCE_IF_MAIN;
