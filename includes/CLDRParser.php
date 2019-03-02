@@ -325,9 +325,7 @@ class CLDRParser {
 		}
 
 		$key = $key !== null ? $this->formatKey( $key ) : '';
-		$ret = "$tabs$key" . "[\n$subKeys$tabs],\n";
-
-		return $ret;
+		return "$tabs$key" . "[\n$subKeys$tabs],\n";
 	}
 
 	/**
@@ -341,9 +339,7 @@ class CLDRParser {
 			$key = "'$key'";
 		}
 
-		$key = "$key => ";
-
-		return $key;
+		return "$key => ";
 	}
 
 	/**
