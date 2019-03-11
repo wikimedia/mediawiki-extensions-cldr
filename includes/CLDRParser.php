@@ -131,7 +131,7 @@ class CLDRParser {
 			}
 		}
 
-		// Pull a map of regions to currencies in order of perference.
+		// Pull a map of regions to currencies in order of preference.
 		foreach ( $doc->xpath( '//currencyData/region' ) as $elem ) {
 			if ( (string)$elem['iso3166'] === '' ) {
 				continue;
