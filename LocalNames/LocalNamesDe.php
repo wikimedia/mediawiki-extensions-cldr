@@ -2,7 +2,7 @@
 
 $languageNames = [
 
-	/** Not in CLDR33.
+	/** Not in CLDR34.
 		But Wikipedias in these languages exist and/or used by Wikidata for monolingual text */
 	'abe' => 'Westliches Abenaki',
 	'abs' => 'Ambonesisches Malaysisch',
@@ -118,14 +118,18 @@ $languageNames = [
 	'shy-latn' => 'Shawiya (lateinische Schrift)',
 	'shy-tfng' => 'Shawiya (Tifinagh-Schrift)',
 	'shy' => 'Shawiya',
+	'sia' => 'Akkalasamisch', # used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
 	'simple' => 'einfaches Englisch',
 	'sjd' => 'Kildinsamisch',
 	'sje' => 'Pitesamisch',
+	'sjk' => 'Kemisamisch', # used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
+	'sjt' => 'Tersamisch', # used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
 	'sju' => 'Umesamisch',
 	'skr' => 'Saraiki',
 	'skr-arab' => 'Saraiki (arabische Schrift)',
 	'sr-ec' => 'Serbisch (kyrillische Schrift)',
 	'sr-el' => 'Serbisch (lateinische Schrift)',
+	# 'srq' => 'Sirionó', // German translation unassured
 	'ssf' => 'Thao',
 	'tg-cyrl' => 'Tadschikisch (kyrillische Schrift)',
 	'tg-latn' => 'Tadschikisch (lateinische Schrift)',

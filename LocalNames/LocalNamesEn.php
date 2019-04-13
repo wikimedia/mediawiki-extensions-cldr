@@ -1,7 +1,7 @@
 <?php
 
 $languageNames = [
-	# Not in CLDR 33.1. Used for MediaWiki localisation
+	# Not in CLDR 34. Used for MediaWiki localisation
 	'abe' => 'Western Abenaki',
 	'abs' => 'Ambonese Malay',
 	'ady-cyrl' => 'Adyghe (Cyrillic script)',
@@ -86,6 +86,7 @@ $languageNames = [
 	'nod' => 'Northern Thai',
 	'nrm' => 'Norman',
 	'nxm' => 'Numidian',
+	'nys' => 'Nyungar', # used by Wikidata, added in InitialiseSettings.php
 	'olo' => 'Livvi-Karelian',
 	'ood' => "O'odham",
 	'otk' => 'Old Turkish',
@@ -102,6 +103,7 @@ $languageNames = [
 	'ruq-grek' => 'Megleno-Romanian (Greek script)',
 	'ruq-latn' => 'Megleno-Romanian (Latin script)',
 	'rwr' => 'Marwari (India)',
+	'sia' => 'Akkala Sámi', # used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
 	'shi-latn' => 'Tachelhit (Latin script)',
 	'shi-tfng' => 'Tachelhit (Tifinagh script)',
 	'shy' => 'Shawiya',
@@ -110,11 +112,14 @@ $languageNames = [
 	'shy-tfng' => 'Shawiya (Tifinagh script)',
 	'sjd' => 'Kildin Sami',
 	'sje' => 'Pite Sami',
+	'sjk' => 'Kemi Sámi', # used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
+	'sjt' => 'Ter Sámi', # used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
 	'sju' => 'Ume Sami',
 	'skr' => 'Saraiki',
 	'skr-arab' => 'Saraiki (Arabic script)',
 	'sr-ec' => 'Serbian (Cyrillic script)',
 	'sr-el' => 'Serbian (Latin script)',
+	'srq' => 'Sirionó', # used by Wikidata, added in InitialiseSettings.php
 	'ssf' => 'Thao',
 	'tg-cyrl' => 'Tajik (Cyrillic script)',
 	'tg-latn' => 'Tajik (Latin script)',
