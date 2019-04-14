@@ -5,6 +5,7 @@ $languageNames = [
 ];
 
 $currencyNames = [
+	'MGA' => 'Malagasy ariary',
 	'SHP' => 'St Helena Pound',
 ];
 
@@ -19,4 +20,9 @@ $countryNames = [
 	'US' => 'US',
 	'VC' => 'St Vincent & Grenadines',
 	'VI' => 'US Virgin Islands',
+];
+
+$timeUnits = [
+	'day-short-future-other' => 'in {0} days',
+	'day-short-past-other' => '{0} days ago',
 ];

@@ -7,8 +7,8 @@ $languageNames = [
 	'arp' => 'arapajó',
 	'ars' => 'árabe de Néyed',
 	'bla' => 'siksiká',
+	'ccp' => 'chakma',
 	'eu' => 'vasco',
-	'fon' => 'fon',
 	'goh' => 'alemán de la alta edad antigua',
 	'grc' => 'griego clásico',
 	'gu' => 'gujarati',
@@ -41,7 +41,6 @@ $currencyNames = [
 	'AMD' => 'dram armenio',
 	'BGN' => 'lev búlgaro',
 	'ERN' => 'nafka',
-	'LVL' => 'lats letón',
 	'MYR' => 'ringgit malayo',
 	'THB' => 'baht tailandes',
 	'UZS' => 'som uzbeko',
@@ -54,7 +53,12 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
+	'AMD' => 'AMD',
+	'BGN' => 'BGN',
+	'ERN' => 'ERN',
+	'MYR' => 'MYR',
 	'THB' => 'THB',
+	'UZS' => 'UZS',
 	'VEF' => 'BsF',
 ];
 
@@ -68,6 +72,7 @@ $countryNames = [
 	'GG' => 'Guernesey',
 	'IC' => 'Islas Canarias',
 	'QO' => 'Islas Ultramarinas',
+	'SZ' => 'Suazilandia',
 	'TA' => 'Tristán da Cunha',
 	'TL' => 'Timor Oriental',
 	'UM' => 'Islas Ultramarinas de EE.UU.',
@@ -96,7 +101,6 @@ $timeUnits = [
 	'sat-future-one' => 'en {0} sábado',
 	'sat-future-other' => 'en {0} sábados',
 	'sat-narrow-future-one' => 'en {0} SA',
-	'sat-narrow-future-other' => 'dentro de {0} SA',
 	'sat-narrow-past-one' => 'hace {0} sábados',
 	'sat-narrow-past-other' => 'hace {0} sábados',
 	'sun-future-one' => 'en {0} domingo',
@@ -121,4 +125,5 @@ $timeUnits = [
 	'wed-short-future-other' => 'en {0} mié.',
 	'wed-short-past-one' => 'hace {0} miércoles',
 	'wed-short-past-other' => 'hace {0} miércoles',
+	'week-narrow-past-one' => 'hace {0} sem.',
 ];

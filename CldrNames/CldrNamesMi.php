@@ -107,6 +107,7 @@ $countryNames = [
 	'IN' => 'Inia',
 	'IT' => 'Itāria',
 	'JP' => 'Hapani',
+	'MK' => 'Makerōnia ki te Raki',
 	'NZ' => 'Aotearoa',
 	'RU' => 'Rūhia',
 	'US' => 'Hononga o Amerika',

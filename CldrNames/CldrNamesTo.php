@@ -627,7 +627,6 @@ $currencyNames = [
 $currencySymbols = [
 	'AUD' => 'AUD$',
 	'TOP' => 'T$',
-	'WST' => 'WST',
 ];
 
 $countryNames = [

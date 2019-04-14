@@ -116,5 +116,6 @@ $currencySymbols = [
 ];
 
 $countryNames = [
+	'MK' => 'uMntla Macedonia',
 	'ZA' => 'eMzantsi Afrika',
 ];
