@@ -35,11 +35,12 @@ class CLDRRebuild extends Maintenance {
 			/* required */ false,
 			/* param */ true
 		);
+
+		$this->requireExtension( 'CLDR' );
 	}
 
 	public function execute() {
 		$dir = __DIR__;
-		require_once "$dir/cldr.php";
 
 		$DATA = $this->getOption( 'datadir', "$dir/core/common/main" );
 		$OUTPUT = $this->getOption( 'outputdir', $dir );
