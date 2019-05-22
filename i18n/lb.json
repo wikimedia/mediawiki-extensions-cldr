@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Les Meloures"
 		]
 	},
-	"cldr-desc": "Erweiderung déi iwwersate Sproochennimm op der Basis vun [http://cldr.unicode.org/index/downloads CLDR data] zur Verfügung stellt"
+	"cldr-desc": "Erweiderung déi iwwersat Sproochennimm op der Basis vun [http://cldr.unicode.org/index/downloads CLDR data] zur Verfügung stellt"
 }
