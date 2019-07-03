@@ -3,7 +3,8 @@
 		"authors": [
 			"Hamilton Abreu",
 			"Malafaya",
-			"Waldir"
+			"Waldir",
+			"Waldyrious"
 		]
 	},
 	"cldr-desc": "Extensão que fornece nomes de língua localizados, com base em [http://cldr.unicode.org/index/downloads dados do CLDR]"
