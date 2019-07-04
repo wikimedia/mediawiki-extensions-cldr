@@ -9,13 +9,13 @@ $languageNames = [
 	'bcc' => '南バローチー語',
 
 	/* Not in CLDR 27.0.1. Name used by Ethnologue:
-	 * http://www.ethnologue.com/language/bgn
+	 * https://www.ethnologue.com/language/bgn
 	 * Added 2015-01-18.
 	 */
 	'bgn' => '西バローチー語',
 
 	/* Not in CLDR 27.0.1. Eastern Balochi language
-	 * http://www.ethnologue.com/language/bgp
+	 * https://www.ethnologue.com/language/bgp
 	 */
 	'bgp' => '東バローチー語',
 

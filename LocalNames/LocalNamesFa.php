@@ -9,19 +9,19 @@ $languageNames = [
 	// 'aln' => 'Gheg Albanian',
 
 	/* Not in CLDR 27.0.1. Southern Balochi language
-	 * http://www.ethnologue.com/language/bcc
+	 * https://www.ethnologue.com/language/bcc
 	 * Added 2008-07-02.
 	 */
 	'bcc' => 'بلوچی جنوبی',
 
 	/* Not in CLDR 27.0.1. Western Balochi language
-	 * http://www.ethnologue.com/language/bgn
+	 * https://www.ethnologue.com/language/bgn
 	 * Added 2015-01-18.
 	 */
 	'bgn' => 'بلوچی غربی',
 
 	/* Not in CLDR 27.0.1. Eastern Balochi language
-	 * http://www.ethnologue.com/language/bgp
+	 * https://www.ethnologue.com/language/bgp
 	 */
 	'bgp' => 'بلوچی شرقی',
 
@@ -151,7 +151,7 @@ $languageNames = [
 	'lki' => 'لکی',
 
 	/* Not in CLDR 27.0.1. Latvian language
-	 * http://www.sil.org/iso639-3/documentation.asp?id=ltg
+	 * https://iso639-3.sil.org/code/ltg
 	 * Added 2010-04-03.
 	 */
 	'ltg' => 'لاتگالی',
@@ -231,7 +231,7 @@ $languageNames = [
 	'prs' => 'دری',
 
 	/* Not in CLDR 27.0.1. Gallo-Italic language.
-	 * http://www.sil.org/iso639-3/documentation.asp?id=rgn
+	 * https://iso639-3.sil.org/code/rgn
 	 * Added 2009-11-15.
 	 */
 	'rgn' => 'رومانیولو',
@@ -252,7 +252,7 @@ $languageNames = [
 	'ruq-latn' => 'مگلنو رومانی (خط لاتین)',
 
 	/* Not in CLDR 27.0.1.
-	 * http://www.sil.org/iso639-3/documentation.asp?id=sgs
+	 * https://iso639-3.sil.org/code/sgs
 	 * Added 2010-10-14.
 	 */
 	'sgs' => 'ساموگیتی',
@@ -266,25 +266,25 @@ $languageNames = [
 	'shy-tfng' => 'شاویایی (خط تیفیناغی)',
 
 	/* Not in CLDR 27.0.1.
-	 * http://www.sil.org/iso639-3/documentation.asp?id=sli
+	 * https://iso639-3.sil.org/code/sli
 	 * Added 2008-09-02.
 	 */
 	'sli' => 'سیلزیایی پایین',
 
 	/* Not in CLDR 27.0.1.
-	 * http://www.sil.org/iso639-3/documentation.asp?id=szl
+	 * https://iso639-3.sil.org/code/szl
 	 * Added 2008-03-29.
 	 */
 	'szl' => 'سیلزیایی',
 
 	/* Not in CLDR 27.0.1. Tulu language
-	 * http://www.sil.org/iso639-3/documentation.asp?id=tcy
+	 * https://iso639-3.sil.org/code/tcy
 	 * Added 2008-08-23.
 	 */
 	'tcy' => 'تولو',
 
 	/* Not in CLDR 27.0.1. Turoyo language
-	 * http://www.sil.org/iso639-3/documentation.asp?id=tru
+	 * https://iso639-3.sil.org/code/tru
 	 * Added 2012-07-26.
 	 */
 	// 'tru' => 'Turoyo',
@@ -296,13 +296,13 @@ $languageNames = [
 	'vep' => 'وپس',
 
 	/* Not in CLDR 27.0.1. West Middle German language.
-	 * http://www.sil.org/iso639-3/documentation.asp?id=vmf
+	 * https://iso639-3.sil.org/code/vmf
 	 * Added 2010-01-31.
 	 */
 	// 'vmf' => 'Upper Franconian',
 
 	/* Not in CLDR 27.0.1. Estonian language.
-	 * http://www.sil.org/iso639-3/documentation.asp?id=vro
+	 * https://iso639-3.sil.org/code/vro
 	 * Added 2009-01-24.
 	 */
 	// 'vro' => 'Võro',

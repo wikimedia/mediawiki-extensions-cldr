@@ -160,7 +160,7 @@ $languageNames = [
 	'zh-yue' => 'Cantonese', # language redirect
 
 	/* Upper case in CLDR, but should be lower case
-	 * http://unicode.org/cldr/trac/ticket/9664
+	 * https://unicode-org.atlassian.net/browse/CLDR-9664
 	 */
 	'mul' => 'multiple languages',
 	'und' => 'unknown language',
