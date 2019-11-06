@@ -96,6 +96,7 @@ class LanguageNames extends CldrNames {
 		if ( file_exists( $override ) ) {
 			$languageNames = false;
 			require $override;
+			// @phan-suppress-next-line PhanImpossibleCondition
 			if ( is_array( $languageNames ) ) {
 				self::$cache[$code] = $languageNames;
 			}
@@ -105,6 +106,7 @@ class LanguageNames extends CldrNames {
 		if ( file_exists( $filename ) ) {
 			$languageNames = false;
 			require $filename;
+			// @phan-suppress-next-line PhanImpossibleCondition
 			if ( is_array( $languageNames ) ) {
 				if ( isset( self::$cache[$code] ) ) {
 					// Add to existing list of localized language names

@@ -46,6 +46,7 @@ class CountryNames extends CldrNames {
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$countryNames = false;
 				require $override;
+				// @phan-suppress-next-line PhanImpossibleCondition
 				if ( is_array( $countryNames ) ) {
 					self::$cache[$code] = $countryNames;
 				}
@@ -55,6 +56,7 @@ class CountryNames extends CldrNames {
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$countryNames = false;
 				require $filename;
+				// @phan-suppress-next-line PhanImpossibleCondition
 				if ( is_array( $countryNames ) ) {
 					if ( isset( self::$cache[$code] ) ) {
 						// Add to existing list of localized country names

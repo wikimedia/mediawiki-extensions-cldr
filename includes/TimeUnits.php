@@ -56,6 +56,7 @@ class TimeUnits extends CldrNames {
 
 				require $override;
 
+				// @phan-suppress-next-line PhanImpossibleCondition
 				if ( is_array( $timeUnits ) ) {
 					self::$cache[$code] = $timeUnits;
 				}
@@ -65,6 +66,7 @@ class TimeUnits extends CldrNames {
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$timeUnits = false;
 				require $filename;
+				// @phan-suppress-next-line PhanImpossibleCondition
 				if ( is_array( $timeUnits ) ) {
 					if ( isset( self::$cache[$code] ) ) {
 						// Add to existing list of localized time units

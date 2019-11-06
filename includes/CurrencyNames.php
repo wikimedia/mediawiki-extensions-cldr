@@ -46,6 +46,7 @@ class CurrencyNames extends CldrNames {
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$currencyNames = false;
 				require $override;
+				// @phan-suppress-next-line PhanImpossibleCondition
 				if ( is_array( $currencyNames ) ) {
 					self::$cache[$code] = $currencyNames;
 				}
@@ -55,6 +56,7 @@ class CurrencyNames extends CldrNames {
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$currencyNames = false;
 				require $filename;
+				// @phan-suppress-next-line PhanImpossibleCondition
 				if ( is_array( $currencyNames ) ) {
 					if ( isset( self::$cache[$code] ) ) {
 						// Add to existing list of localized currency names
