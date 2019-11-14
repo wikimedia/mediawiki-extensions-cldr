@@ -3,26 +3,29 @@
 $languageNames = [
 	'ace' => 'Aceh-Sprache',
 	'ach' => 'Acholi-Sprache',
+	'ar-001' => 'Modernes Hocharabisch',
 	'ars' => 'Nadschd-Arabisch',
 	'bas' => 'Basaa-Sprache',
 	'be' => 'Weissrussisch',
 	'bik' => 'Bikol-Sprache',
 	'bin' => 'Bini-Sprache',
 	'chb' => 'Chibcha-Sprache',
+	'de-ch' => 'Schweizer Hochdeutsch',
 	'din' => 'Dinka-Sprache',
 	'fan' => 'Pangwe-Sprache',
 	'gba' => 'Gbaya-Sprache',
 	'kmb' => 'Kimbundu-Sprache',
 	'mus' => 'Muskogee-Sprache',
+	'nl-be' => 'Flämisch',
 	'prg' => 'Altpreussisch',
+	'zh-hans' => 'Chinesisch (vereinfacht)',
+	'zh-hant' => 'Chinesisch (traditionell)',
 ];
 
 $currencyNames = [
 	'BYN' => 'Weissrussischer Rubel',
 	'BYR' => 'Weissrussischer Rubel (2000–2016)',
 	'STN' => 'São-toméischer Dobra (2018)',
-	'VEF' => 'Venezolanischer Bolívar',
-	'VES' => 'VES',
 ];
 
 $countryNames = [

@@ -234,7 +234,6 @@ $countryNames = [
 	'MD' => 'Moldawii',
 	'MG' => 'Madagaskaar',
 	'MH' => 'Duuɗe Marsaal',
-	'MK' => 'Meceduwaan',
 	'ML' => 'Maali',
 	'MM' => 'Miyamaar',
 	'MN' => 'Monngolii',

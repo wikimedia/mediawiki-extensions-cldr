@@ -235,7 +235,6 @@ $countryNames = [
 	'MD' => 'muldufya',
 	'MG' => 'madaɣacqar',
 	'MH' => 'tigzirin n marcal',
-	'MK' => 'masidunya',
 	'ML' => 'mali',
 	'MM' => 'myanmar',
 	'MN' => 'mnɣulya',

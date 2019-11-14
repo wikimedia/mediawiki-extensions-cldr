@@ -680,7 +680,6 @@ $countryNames = [
 	'MF' => 'de Zint-Määtes-Ensel',
 	'MG' => 'Maddajaska',
 	'MH' => 'de Machschall-Enselle',
-	'MK' => 'Mazedoonije',
 	'ML' => 'Maali',
 	'MM' => 'Birma',
 	'MN' => 'Mongjolei',

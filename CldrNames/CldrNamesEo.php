@@ -367,7 +367,6 @@ $countryNames = [
 	'MD' => 'Moldavujo',
 	'MG' => 'Madagaskaro',
 	'MH' => 'Marŝaloj',
-	'MK' => 'Makedonujo',
 	'ML' => 'Malio',
 	'MM' => 'Mjanmao',
 	'MN' => 'Mongolujo',

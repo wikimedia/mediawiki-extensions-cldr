@@ -109,7 +109,7 @@ $languageNames = [
 ];
 
 $countryNames = [
-	'MK' => 'Masedoniya y\'Amajyaruguru',
+	'MK' => 'Masedoniya y’Amajyaruguru',
 	'RW' => 'U Rwanda',
 	'TO' => 'Tonga',
 ];

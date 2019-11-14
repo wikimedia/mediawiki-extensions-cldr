@@ -907,7 +907,6 @@ $countryNames = [
 	'MF' => 'Saint Martin',
 	'MG' => 'Madagascar',
 	'MH' => 'Inslas da Marshall',
-	'MK' => 'Macedonia',
 	'ML' => 'Mali',
 	'MM' => 'Myanmar',
 	'MN' => 'Mongolia',

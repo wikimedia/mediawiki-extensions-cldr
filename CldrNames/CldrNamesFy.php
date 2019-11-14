@@ -1000,7 +1000,6 @@ $countryNames = [
 	'MF' => 'Saint-Martin',
 	'MG' => 'Madeiaskar',
 	'MH' => 'Marshalleilannen',
-	'MK' => 'Macedonië',
 	'ML' => 'Mali',
 	'MM' => 'Myanmar (Birma)',
 	'MN' => 'Mongolië',

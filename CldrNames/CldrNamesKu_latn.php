@@ -219,6 +219,7 @@ $languageNames = [
 	'udm' => 'udmurtî',
 	'ug' => 'oygurî',
 	'uk' => 'ukraynî',
+	'und' => 'zimanê nenas',
 	'ur' => 'urdûyî',
 	'uz' => 'ozbekî',
 	'vi' => 'viyetnamî',
@@ -230,16 +231,15 @@ $languageNames = [
 	'yi' => 'yidîşî',
 	'yo' => 'yorubayî',
 	'yue' => 'kantonî',
+	'zh' => 'çînî',
+	'zh-hans' => 'çîniya sadekirî',
+	'zh-hant' => 'çîniya kevneşopî',
 	'zu' => 'zuluyî',
 	'zza' => 'zazakî',
 ];
 
 $currencyNames = [
 	'EUR' => 'ewro',
-];
-
-$currencySymbols = [
-	'EUR' => '€',
 ];
 
 $countryNames = [
@@ -490,6 +490,18 @@ $timeUnits = [
 	'second-other' => '{0} saniye',
 	'week-one' => '{0} hefte',
 	'week-other' => '{0} hefte',
+	'year-future-one' => 'di salekê de',
+	'year-future-other' => 'di {0} salan de',
+	'year-narrow-future-one' => 'piştî salekê',
+	'year-narrow-future-other' => 'piştî {0} salan',
+	'year-narrow-past-one' => 'berî salekê',
+	'year-narrow-past-other' => 'berî {0} salan',
 	'year-one' => '{0} sal',
 	'year-other' => '{0} sal',
+	'year-past-one' => 'berî {0} salê',
+	'year-past-other' => 'berî {0} salan',
+	'year-short-future-one' => 'piştî salekê',
+	'year-short-future-other' => 'piştî {0} salan',
+	'year-short-past-one' => 'berî salekê',
+	'year-short-past-other' => 'berî {0} salan',
 ];

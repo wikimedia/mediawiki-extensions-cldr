@@ -378,6 +378,7 @@ $languageNames = [
 	'nb' => 'Norwegesch Bokmål',
 	'nd' => 'Nord-Ndebele-Sprooch',
 	'nds' => 'Nidderdäitsch',
+	'nds-nl' => 'nds_NL',
 	'ne' => 'Nepalesesch',
 	'new' => 'Newari',
 	'ng' => 'Ndonga',
