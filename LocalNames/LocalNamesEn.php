@@ -150,6 +150,7 @@ $languageNames = [
 	'uun' => 'Pazeh',
 	'uz-cyrl' => 'Uzbek (Cyrillic script)',
 	'uz-latn' => 'Uzbek (Latin script)',
+	'wls' => 'Wallisian', # used by Wikidata, T239411
 	'xpu' => 'Punic',
 	'xsy' => 'Saisiyat',
 	'ydd' => 'Eastern Yiddish',

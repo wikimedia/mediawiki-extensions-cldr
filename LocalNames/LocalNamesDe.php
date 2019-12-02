@@ -160,6 +160,7 @@ $languageNames = [
 	'uun' => 'Pazeh',
 	'uz-cyrl' => 'Usbekisch (kyrillische Schrift)',
 	'uz-latn' => 'Usbekisch (lateinische Schrift)',
+	'wls' => 'Wallisianisch', # used by Wikidata, T239411
 	'xpu' => 'Punisch',
 	'xsy' => 'Saisiyat', # https://d-nb.info/gnd/1075555310
 	'ydd' => 'Ost-Jiddisch',
