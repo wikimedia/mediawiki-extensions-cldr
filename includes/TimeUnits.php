@@ -124,16 +124,17 @@ class TimeUnits extends CldrNames {
 		// Figure out which unit (days, months, etc.) it makes sense to display
 		// the timestamp in, and get the number of that unit to use.
 		$unit = null;
+		$number = null;
 		foreach ( $units as $code => $testUnit ) {
 			$testNumber = $timeDifference->format( '%' . $code );
 			if ( (int)$testNumber > 0 ) {
 				$unit = $testUnit;
-				$number = $testNumber;
+				$number = (int)$testNumber;
 			}
 		}
 
 		// If it occurred less than 1 second ago, output 'just now' message.
-		if ( !$unit ) {
+		if ( !$unit || !$number ) {
 			$output = wfMessage( 'just-now' )->inLanguage( $lang )->text();
 
 			return false;
