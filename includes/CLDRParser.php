@@ -94,6 +94,8 @@ class CLDRParser {
 				}
 			}
 		}
+
+		// @phan-suppress-next-line PhanTypePossiblyInvalidDimOffset Set on declare of the array
 		ksort( $data['timeUnits'] );
 
 		$this->savephp( $data, $outputFile );
