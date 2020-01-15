@@ -3,7 +3,8 @@
 $languageNames = [
 
 	/** Not in CLDR34.
-		But Wikipedias in these languages exist and/or used by Wikidata for monolingual text */
+	 * But Wikipedias in these languages exist and/or used by Wikidata for monolingual text
+	 */
 	'abe' => 'Westliches Abenaki',
 	'abs' => 'Ambonesisches Malaysisch',
 	'abq' => 'Abasinisch', # used by Wikidata, T155367
