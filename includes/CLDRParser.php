@@ -95,7 +95,6 @@ class CLDRParser {
 			}
 		}
 
-		// @phan-suppress-next-line PhanTypePossiblyInvalidDimOffset Set on declare of the array
 		ksort( $data['timeUnits'] );
 
 		$this->savephp( $data, $outputFile );
@@ -177,6 +176,9 @@ class CLDRParser {
 
 			$contents = file_get_contents( $inputDir . '/' . $inputFile );
 			$doc = new SimpleXMLElement( $contents );
+
+			$language = null;
+			$territory = null;
 
 			foreach ( $doc->xpath( '//identity' ) as $elem ) {
 				$language = (string)$elem->language['type'];
