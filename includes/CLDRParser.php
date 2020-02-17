@@ -177,20 +177,15 @@ class CLDRParser {
 			$contents = file_get_contents( $inputDir . '/' . $inputFile );
 			$doc = new SimpleXMLElement( $contents );
 
-			$language = null;
-			$territory = null;
+			// Tags in the <identity> section are guaranteed to appear once
+			$languages = $doc->xpath( '//identity/language/@type' );
+			$language = $languages
+				? (string)$languages[0]
+				: pathinfo( $inputFile, PATHINFO_FILENAME );
 
-			foreach ( $doc->xpath( '//identity' ) as $elem ) {
-				$language = (string)$elem->language['type'];
-				if ( $language === '' ) {
-					continue;
-				}
-
-				$territory = (string)$elem->territory['type'];
-				if ( $territory === '' ) {
-					$territory = 'DEFAULT';
-				}
-			}
+			// The <territory> element is optional
+			$territories = $doc->xpath( '//identity/territory/@type' );
+			$territory = $territories ? (string)$territories[0] : 'DEFAULT';
 
 			foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
 				if ( (string)$elem->symbol[0] !== '' ) {
