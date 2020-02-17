@@ -108,13 +108,7 @@ class LanguageNames extends CldrNames {
 			require $filename;
 			// @phan-suppress-next-line PhanImpossibleCondition
 			if ( is_array( $languageNames ) ) {
-				if ( isset( self::$cache[$code] ) ) {
-					// Add to existing list of localized language names
-					self::$cache[$code] = self::$cache[$code] + $languageNames;
-				} else {
-					// No list exists, so create it
-					self::$cache[$code] = $languageNames;
-				}
+				self::$cache[$code] = self::$cache[$code] + $languageNames;
 			}
 		} else {
 			wfDebug( __METHOD__ . ": Unable to load language names for $filename\n" );

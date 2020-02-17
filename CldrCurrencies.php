@@ -21,7 +21,6 @@ class CldrCurrency {
 			return;
 		}
 
-		$filename = null;
 		$value = [];
 		switch ( $data ) {
 			case 'symbols' :

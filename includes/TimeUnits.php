@@ -49,6 +49,8 @@ class TimeUnits extends CldrNames {
 	 */
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {
+			self::$cache[$code] = [];
+
 			/* Load override for wrong or missing entries in cldr */
 			$override = __DIR__ . '/../LocalNames/' . self::getOverrideFileName( $code );
 			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
@@ -68,19 +70,10 @@ class TimeUnits extends CldrNames {
 				require $filename;
 				// @phan-suppress-next-line PhanImpossibleCondition
 				if ( is_array( $timeUnits ) ) {
-					if ( isset( self::$cache[$code] ) ) {
-						// Add to existing list of localized time units
-						self::$cache[$code] = self::$cache[$code] + $timeUnits;
-					} else {
-						// No list exists, so create it
-						self::$cache[$code] = $timeUnits;
-					}
+					self::$cache[$code] = self::$cache[$code] + $timeUnits;
 				}
 			} else {
 				wfDebug( __METHOD__ . ": Unable to load time units for $filename\n" );
-			}
-			if ( !isset( self::$cache[$code] ) ) {
-				self::$cache[$code] = [];
 			}
 		}
 
@@ -124,19 +117,18 @@ class TimeUnits extends CldrNames {
 		// Figure out which unit (days, months, etc.) it makes sense to display
 		// the timestamp in, and get the number of that unit to use.
 		$unit = null;
-		$number = null;
+		$number = 0;
 		foreach ( $units as $code => $testUnit ) {
-			$testNumber = $timeDifference->format( '%' . $code );
-			if ( (int)$testNumber > 0 ) {
+			$testNumber = (int)$timeDifference->format( '%' . $code );
+			if ( $testNumber > 0 ) {
 				$unit = $testUnit;
-				$number = (int)$testNumber;
+				$number = $testNumber;
 			}
 		}
 
 		// If it occurred less than 1 second ago, output 'just now' message.
 		if ( !$unit || !$number ) {
 			$output = wfMessage( 'just-now' )->inLanguage( $lang )->text();
-
 			return false;
 		}
 
