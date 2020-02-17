@@ -75,10 +75,7 @@ class CldrCurrency {
 			}
 
 			// get the default (either the 'root' language, or the original ISO code)
-			$default = $currency_code;
-			if ( array_key_exists( 'root', self::$cache['symbols'][$currency_code] ) ) {
-				$default = self::$cache['symbols'][$currency_code]['root'];
-			}
+			$default = self::$cache['symbols'][$currency_code]['root'] ?? $currency_code;
 
 			// language code might or might not exist
 			if ( array_key_exists( $language_code, self::$cache['symbols'][$currency_code] ) ) {
@@ -125,11 +122,7 @@ class CldrCurrency {
 		if ( $country_code === 'UK' ) {
 			$country_code = 'GB'; // iso overlap again
 		}
-		if ( array_key_exists( $country_code, self::$cache['locale'] ) ) {
-			return self::$cache['locale'][$country_code];
-		} else {
-			return [];
-		}
+		return self::$cache['locale'][$country_code] ?? [];
 	}
 
 	/**

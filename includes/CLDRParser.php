@@ -216,10 +216,7 @@ class CLDRParser {
 		foreach ( $data['currencySymbols'] as $currency => $language ) {
 			// get the currency default symbol. This will either be defined in the
 			// 'root' language file, or taken from the ISO code.
-			$default = $currency;
-			if ( array_key_exists( 'root', $language ) ) {
-				$default = $language['root']['DEFAULT'];
-			}
+			$default = $language['root']['DEFAULT'] ?? $currency;
 
 			foreach ( $language as $lang => $territories ) {
 				// Collapse a language (no locality) array if it's just the default. One value will do fine.
