@@ -14,12 +14,8 @@
 	"descriptionmsg": "cldr-desc",
 	"license-name" : "GPL-2.0-or-later",
 	"Hooks": {
-		"LanguageGetTranslatedLanguageNames": [
-			"LanguageNames::coreHook"
-		],
-		"GetHumanTimestamp": [
-			"TimeUnits::onGetHumanTimestamp"
-		]
+		"LanguageGetTranslatedLanguageNames": "LanguageNames::coreHook",
+		"GetHumanTimestamp": "TimeUnits::onGetHumanTimestamp"
 	},
 	"MessagesDirs": {
 		"CLDR": [
