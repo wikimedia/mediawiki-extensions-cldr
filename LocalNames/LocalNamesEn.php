@@ -100,6 +100,7 @@ $languageNames = [
 	'nrf-gg' => 'Guernésiais', # used by Wikidata T165648
 	'nrf-je' => 'Jèrriais', # used by Wikidata T165648
 	'nrm' => 'Norman',
+	'nsk' => 'Naskapi', # used by Wikidata T250246
 	'nxm' => 'Numidian',
 	'nys' => 'Nyungar', # used by Wikidata, added in InitialiseSettings.php
 	'olo' => 'Livvi-Karelian',
