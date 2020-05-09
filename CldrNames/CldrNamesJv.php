@@ -1,7 +1,7 @@
 <?php
 
 $languageNames = [
-	'af' => 'af',
+	'af' => 'Afrika',
 	'agq' => 'Aghem',
 	'ak' => 'Akan',
 	'am' => 'Amharik',
@@ -11,9 +11,8 @@ $languageNames = [
 	'asa' => 'Asu',
 	'ast' => 'Asturia',
 	'az' => 'Azerbaijan',
-	'ban' => 'ban',
 	'bas' => 'Basaa',
-	'be' => 'be',
+	'be' => 'Belarus',
 	'bem' => 'Bemba',
 	'bez' => 'Bena',
 	'bg' => 'Bulgaria',
@@ -22,7 +21,7 @@ $languageNames = [
 	'bo' => 'Tibet',
 	'br' => 'Breton',
 	'brx' => 'Bodo',
-	'bs' => 'bs',
+	'bs' => 'Bosnia lan Hercegovina',
 	'ca' => 'Katala',
 	'ccp' => 'Chakma',
 	'ce' => 'Chechen',

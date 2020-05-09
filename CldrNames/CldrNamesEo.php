@@ -157,7 +157,6 @@ $languageNames = [
 	'tr' => 'turka',
 	'ts' => 'conga',
 	'tt' => 'tatara',
-	'tw' => 'tw',
 	'ug' => 'ujgura',
 	'uk' => 'ukraina',
 	'und' => 'nekonata lingvo',

@@ -620,7 +620,6 @@ $languageNames = [
 
 $currencyNames = [
 	'AUD' => 'Tola fakaʻaositelēlia',
-	'BRL' => 'BRL',
 	'FJD' => 'Tola fakafisi',
 	'NZD' => 'Tola fakanuʻusila',
 	'PGK' => 'Kina fakapapuaniukini',

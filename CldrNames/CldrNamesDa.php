@@ -139,6 +139,7 @@ $languageNames = [
 	'eu' => 'baskisk',
 	'ewo' => 'ewondo',
 	'fa' => 'persisk',
+	'fa-af' => 'dari',
 	'fan' => 'fang',
 	'fat' => 'fanti',
 	'ff' => 'fulah',

@@ -98,6 +98,7 @@ $languageNames = [
 	'eu' => 'baskisht',
 	'ewo' => 'euondoisht',
 	'fa' => 'persisht',
+	'fa-af' => 'darisht',
 	'ff' => 'fulaisht',
 	'fi' => 'finlandisht',
 	'fil' => 'filipinisht',

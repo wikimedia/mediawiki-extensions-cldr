@@ -101,6 +101,7 @@ $languageNames = [
 	'eu' => 'éuscaro',
 	'ewo' => 'ewondo',
 	'fa' => 'persa',
+	'fa-af' => 'dari',
 	'ff' => 'fula',
 	'fi' => 'finés',
 	'fil' => 'filipino',

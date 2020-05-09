@@ -6,6 +6,9 @@
 		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment" />
 		<exclude name="PSR12.Properties.ConstantVisibility.NotFound" />
 	</rule>
+	<rule ref="Generic.Files.LineLength.TooLong">
+		<exclude-pattern>*/CldrNames/CldrNames*\.php</exclude-pattern>
+	</rule>
 	<rule ref="MediaWiki.NamingConventions.PrefixedGlobalFunctions">
 		<properties>
 			<property name="ignoreList" type="array" value="getRealCode" />

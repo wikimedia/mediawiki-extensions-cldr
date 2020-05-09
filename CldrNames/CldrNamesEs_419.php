@@ -18,6 +18,7 @@ $languageNames = [
 	'es-es' => 'español de España',
 	'es-mx' => 'español de México',
 	'eu' => 'vasco',
+	'fa-af' => 'darí',
 	'fr-ca' => 'francés canadiense',
 	'fr-ch' => 'francés suizo',
 	'goh' => 'alemán de la alta edad antigua',

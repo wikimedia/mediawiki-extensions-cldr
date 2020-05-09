@@ -128,6 +128,7 @@ $languageNames = [
 	'eu' => 'baskovščina',
 	'ewo' => 'evondovščina',
 	'fa' => 'perzijščina',
+	'fa-af' => 'darijščina',
 	'fan' => 'fangijščina',
 	'fat' => 'fantijščina',
 	'ff' => 'fulščina',

@@ -95,6 +95,7 @@ $languageNames = [
 	'eu' => 'Baskies',
 	'ewo' => 'Ewondo',
 	'fa' => 'Persies',
+	'fa-af' => 'Dari',
 	'ff' => 'Fulah',
 	'fi' => 'Fins',
 	'fil' => 'Filippyns',

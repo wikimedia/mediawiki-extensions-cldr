@@ -242,7 +242,6 @@ $currencyNames = [
 	'INR' => 'روٙپیه هئن',
 	'JPY' => 'یئن جاپوٙن',
 	'RUB' => 'روٙبل روٙسیه',
-	'USD' => 'USD',
 	'XXX' => 'پیل نادیار',
 ];
 
@@ -254,7 +253,6 @@ $currencySymbols = [
 	'INR' => '₹',
 	'JPY' => 'JP¥',
 	'RUB' => 'RUB',
-	'USD' => 'US$',
 ];
 
 $countryNames = [

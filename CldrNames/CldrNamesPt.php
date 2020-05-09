@@ -35,6 +35,7 @@ $languageNames = [
 	'es-es' => 'espanhol europeu',
 	'es-mx' => 'espanhol mexicano',
 	'et' => 'estónio',
+	'fa-af' => 'dari',
 	'fon' => 'fon',
 	'fr-ca' => 'francês canadiano',
 	'fr-ch' => 'francês suíço',

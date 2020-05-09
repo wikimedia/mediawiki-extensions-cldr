@@ -98,6 +98,7 @@ $languageNames = [
 	'eu' => 'euskara',
 	'ewo' => 'ewondera',
 	'fa' => 'persiera',
+	'fa-af' => 'daria',
 	'ff' => 'fula',
 	'fi' => 'finlandiera',
 	'fil' => 'filipinera',

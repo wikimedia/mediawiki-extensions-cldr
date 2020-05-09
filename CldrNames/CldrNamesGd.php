@@ -158,6 +158,7 @@ $languageNames = [
 	'ewo' => 'Ewondo',
 	'ext' => 'Cànan na h-Extremadura',
 	'fa' => 'Peirsis',
+	'fa-af' => 'Dari',
 	'fan' => 'Fang',
 	'fat' => 'Fanti',
 	'ff' => 'Fulah',

@@ -162,6 +162,7 @@ $languageNames = [
 	'ewo' => 'Ewondo',
 	'ext' => 'Ekstremadura Dili',
 	'fa' => 'Farsça',
+	'fa-af' => 'Darice',
 	'fan' => 'Fang',
 	'fat' => 'Fanti',
 	'ff' => 'Fula dili',

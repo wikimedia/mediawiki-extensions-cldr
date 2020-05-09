@@ -161,6 +161,7 @@ $languageNames = [
 	'ewo' => 'éwondo',
 	'ext' => 'estrémègne',
 	'fa' => 'persan',
+	'fa-af' => 'dari',
 	'fan' => 'fang',
 	'fat' => 'fanti',
 	'ff' => 'peul',

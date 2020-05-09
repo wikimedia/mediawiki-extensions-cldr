@@ -1007,7 +1007,6 @@ $countryNames = [
 	'ER' => 'Eritrea',
 	'ES' => 'Spania',
 	'ET' => 'Etiopia',
-	'EU' => 'EU',
 	'EZ' => 'eurosona',
 	'FI' => 'Finland',
 	'FJ' => 'Fiji',

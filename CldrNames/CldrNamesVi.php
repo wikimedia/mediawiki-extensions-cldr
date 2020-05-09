@@ -154,6 +154,7 @@ $languageNames = [
 	'ewo' => 'Tiếng Ewondo',
 	'ext' => 'Tiếng Extremadura',
 	'fa' => 'Tiếng Ba Tư',
+	'fa-af' => 'Tiếng Dari',
 	'fan' => 'Tiếng Fang',
 	'fat' => 'Tiếng Fanti',
 	'ff' => 'Tiếng Fulah',

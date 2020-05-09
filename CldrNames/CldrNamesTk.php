@@ -92,6 +92,7 @@ $languageNames = [
 	'eu' => 'bask dili',
 	'ewo' => 'ewondo dili',
 	'fa' => 'pars dili',
+	'fa-af' => 'dari dili',
 	'ff' => 'fula dili',
 	'fi' => 'fin dili',
 	'fil' => 'filippin dili',
