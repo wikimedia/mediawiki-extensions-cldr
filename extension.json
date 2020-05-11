@@ -30,5 +30,5 @@
 		"CurrencyNames": "includes/CurrencyNames.php",
 		"TimeUnits": "includes/TimeUnits.php"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
