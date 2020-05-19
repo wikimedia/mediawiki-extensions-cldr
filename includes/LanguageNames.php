@@ -12,11 +12,11 @@ class LanguageNames extends CldrNames {
 
 	private static $cache = [];
 
-	const FALLBACK_NATIVE = 0; // Missing entries fallback to native name
-	const FALLBACK_NORMAL = 1; // Missing entries fallback through the fallback chain
-	const LIST_MW_SUPPORTED = 0; // Only names that have localisation in MediaWiki
-	const LIST_MW = 1; // All names that are in Names.php
-	const LIST_MW_AND_CLDR = 2; // Combination of Names.php and what is in cldr
+	public const FALLBACK_NATIVE = 0; // Missing entries fallback to native name
+	public const FALLBACK_NORMAL = 1; // Missing entries fallback through the fallback chain
+	public const LIST_MW_SUPPORTED = 0; // Only names that have localisation in MediaWiki
+	public const LIST_MW = 1; // All names that are in Names.php
+	public const LIST_MW_AND_CLDR = 2; // Combination of Names.php and what is in cldr
 
 	/**
 	 * Get localized language names for a particular language, using fallback languages for missing
