@@ -32,7 +32,7 @@ Example:
 
 For fallback:
 * '''FALLBACK_NATIVE''': Go straight to MediaWiki's name entries
-* '''FALLBACK_NORMAL''': Go trough the fallback chain
+* '''FALLBACK_NORMAL''': Go through the fallback chain
 
 For which languages to return:
 * '''LIST_MW_SUPPORTED''': Only languages that has localisation in MediaWiki
