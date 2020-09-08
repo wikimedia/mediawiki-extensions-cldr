@@ -85,6 +85,7 @@ $languageNames = [
 	'ku-latn' => 'Kurdish (Latin script)',
 	'lbe' => 'Lak',
 	'lcm' => 'Tungag', # used by Wikidata, T234761
+	'lij-mc' => 'Monégasque', # used by Wikidata, T254968
 	'lki' => 'Laki',
 	'lld' => 'Ladin',
 	'luz' => 'Southern Luri',
