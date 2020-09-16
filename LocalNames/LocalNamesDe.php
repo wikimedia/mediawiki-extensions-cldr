@@ -95,6 +95,7 @@ $languageNames = [
 	'lbe' => 'Lakisch',
 	'lcm' => 'Tungag', # used by Wikidata, T234761
 	'lki' => 'Leki',
+	'lij-mc' => 'Monegassisch', # used by Wikidata, T254968
 	'lld' => 'Ladinisch',
 	'luz' => 'Südliches Lori',
 	'map-bms' => 'Banyumasan',
