@@ -2,7 +2,9 @@
 
 $languageNames = [
 
-	/* Not in CLDR 29 */
+	/* Not in CLDR */
 	'atj' => 'atikamekw',
+	'gcr' => 'créole guyanais',
+	'hyw' => 'arménien occidental',
 
 ];
