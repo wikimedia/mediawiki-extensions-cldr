@@ -42,6 +42,7 @@ $languageNames = [
 	'crb' => 'Island Carib', # used by Wikidata, T220284
 	'crh-cyrl' => 'Crimean Tatar (Cyrillic script)',
 	'crh-latn' => 'Crimean Tatar (Latin script)',
+	'crl' => 'East Cree', # used by Wikidata, T264532
 	'dag' => 'Dagbani', # used by Wikidata, T240098
 	'de-formal' => 'German (formal address)',
 	'dlc' => 'Dalecarlian',
