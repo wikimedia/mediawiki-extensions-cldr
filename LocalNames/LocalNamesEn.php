@@ -57,6 +57,7 @@ $languageNames = [
 	'gan-hans' => 'Gan (Simplified)',
 	'gan-hant' => 'Gan (Traditional)',
 	'gcr' => 'Guianan Creole',
+	'gml' => 'Middle Low German', # used by Wikidata T217131
 	'gmy' => 'Mycenaean Greek',
 	'gom-deva' => 'Goan Konkani (Devanagari script)',
 	'gom-latn' => 'Goan Konkani (Latin script)',
