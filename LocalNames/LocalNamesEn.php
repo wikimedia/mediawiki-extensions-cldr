@@ -106,6 +106,7 @@ $languageNames = [
 	'nod' => 'Northern Thai',
 	'nrf-gg' => 'Guernésiais', # used by Wikidata T165648
 	'nrf-je' => 'Jèrriais', # used by Wikidata T165648
+	'non-runr' => 'Old Norse (Runic script)', # used by Wikidata T265782
 	'nrm' => 'Norman',
 	'nsk' => 'Naskapi', # used by Wikidata T250246
 	'nxm' => 'Numidian',
