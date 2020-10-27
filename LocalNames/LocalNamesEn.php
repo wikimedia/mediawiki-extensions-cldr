@@ -23,6 +23,7 @@ $languageNames = [
 	'bnn' => 'Bunun',
 	'bdr' => 'West Coast Bajau', # used by Wikidata, T234330
 	'bxr' => 'Russia Buriat',
+	'cal' => 'Carolinian', # used by Wikidata, T266423
 	'cbk-zam' => 'Chavacano',
 	'cdo' => 'Min Dong Chinese',
 	'cja' => 'Western Cham',
