@@ -359,7 +359,8 @@ $languageNames = [
 	'zh-min-nan' => 'چینی (مین نان)',
 	'zh-sg' => 'چینی (سنگاپور)',
 	'zh-tw' => 'چینی (تایوان)',
-	'zh-yue' => 'کانتونی', # language redirect
+	# language redirect
+	'zh-yue' => 'کانتونی',
 
 	/* additional list from Persian Wikipedia */
 	'simple' => 'انگلیسی ساده',

@@ -163,7 +163,8 @@ $languageNames = [
 	'zh-min-nan' => '閩南語',
 	'zh-sg' => '中国語（シンガポール）',
 	'zh-tw' => '中国語（台湾）',
-	'zh-yue' => '広東語', # language redirect
+	# language redirect
+	'zh-yue' => '広東語',
 
 	/* additional list from Japanese Wikipedia */
 	'als' => 'アレマン語',
