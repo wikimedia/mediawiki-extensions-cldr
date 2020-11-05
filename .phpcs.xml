@@ -9,11 +9,6 @@
 	<rule ref="Generic.Files.LineLength.TooLong">
 		<exclude-pattern>*/CldrNames/CldrNames*\.php</exclude-pattern>
 	</rule>
-	<rule ref="MediaWiki.NamingConventions.PrefixedGlobalFunctions">
-		<properties>
-			<property name="ignoreList" type="array" value="getRealCode" />
-		</properties>
-	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php" />
 	<arg name="encoding" value="UTF-8" />

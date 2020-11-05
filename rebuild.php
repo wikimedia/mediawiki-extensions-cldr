@@ -86,7 +86,7 @@ class CLDRRebuild extends Maintenance {
 			if ( file_exists( $input ) ) {
 				$outputFileName = $langNameUtils->getFileName(
 					'CldrNames',
-					getRealCode( $code ),
+					$this->getRealCode( $code ),
 					'.php'
 				);
 				$p = new CLDRParser();
@@ -114,36 +114,36 @@ class CLDRRebuild extends Maintenance {
 		$p->parse_currency_symbols( $DATA, "$OUTPUT/CldrCurrency/Symbols.php" );
 		$this->output( "Done parsing currency symbols.\n" );
 	}
-}
 
-/**
- * Get the code for the MediaWiki localisation,
- * these are same as the fallback.
- *
- * @param string $code
- * @return string
- */
-function getRealCode( $code ) {
-	$realCode = $code;
-	if ( !strcmp( $code, 'kk' ) ) {
-		$realCode = 'kk-cyrl';
-	} elseif ( !strcmp( $code, 'ku' ) ) {
-		$realCode = 'ku-latn';
-	} elseif ( !strcmp( $code, 'sr' ) ) {
-		$realCode = 'sr-ec';
-	} elseif ( !strcmp( $code, 'tg' ) ) {
-		$realCode = 'tg-cyrl';
-	} elseif ( !strcmp( $code, 'zh' ) ) {
-		$realCode = 'zh-hans';
-	} elseif ( !strcmp( $code, 'pt' ) ) {
-		$realCode = 'pt-br';
-	} elseif ( !strcmp( $code, 'pt-pt' ) ) {
-		$realCode = 'pt';
-	} elseif ( !strcmp( $code, 'az-arab' ) ) {
-		$realCode = 'azb';
+	/**
+	 * Get the code for the MediaWiki localisation,
+	 * these are same as the fallback.
+	 *
+	 * @param string $code
+	 * @return string
+	 */
+	private function getRealCode( $code ) {
+		$realCode = $code;
+		if ( !strcmp( $code, 'kk' ) ) {
+			$realCode = 'kk-cyrl';
+		} elseif ( !strcmp( $code, 'ku' ) ) {
+			$realCode = 'ku-latn';
+		} elseif ( !strcmp( $code, 'sr' ) ) {
+			$realCode = 'sr-ec';
+		} elseif ( !strcmp( $code, 'tg' ) ) {
+			$realCode = 'tg-cyrl';
+		} elseif ( !strcmp( $code, 'zh' ) ) {
+			$realCode = 'zh-hans';
+		} elseif ( !strcmp( $code, 'pt' ) ) {
+			$realCode = 'pt-br';
+		} elseif ( !strcmp( $code, 'pt-pt' ) ) {
+			$realCode = 'pt';
+		} elseif ( !strcmp( $code, 'az-arab' ) ) {
+			$realCode = 'azb';
+		}
+
+		return $realCode;
 	}
-
-	return $realCode;
 }
 
 $maintClass = CLDRRebuild::class;
