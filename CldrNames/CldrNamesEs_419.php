@@ -54,8 +54,11 @@ $languageNames = [
 ];
 
 $currencyNames = [
+	'ANG' => 'florín de las Antillas Neerlandesas',
 	'BGN' => 'lev búlgaro',
+	'BMD' => 'dólar de Bermudas',
 	'MWK' => 'kwacha malauí',
+	'NIO' => 'córdoba nicaragüense',
 	'THB' => 'baht tailandes',
 	'UZS' => 'som uzbeko',
 	'XXX' => '(unidad de moneda desconocida)',
@@ -67,12 +70,12 @@ $currencySymbols = [
 
 $countryNames = [
 	'AC' => 'Isla Ascensión',
+	'AX' => 'Islas Åland',
 	'BA' => 'Bosnia-Herzegovina',
 	'CG' => 'República del Congo',
 	'CI' => 'Costa de Marfil',
 	'EZ' => 'Eurozona',
 	'GB' => 'R. U.',
-	'GG' => 'Guernesey',
 	'IC' => 'Islas Canarias',
 	'QO' => 'Islas Ultramarinas',
 	'TA' => 'Tristán da Cunha',

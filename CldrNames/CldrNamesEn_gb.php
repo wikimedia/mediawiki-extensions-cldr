@@ -24,6 +24,16 @@ $languageNames = [
 	'zh-hant' => 'Traditional Chinese',
 ];
 
+$countryNames = [
+	'BL' => 'St Barthélemy',
+	'KN' => 'St Kitts & Nevis',
+	'LC' => 'St Lucia',
+	'MF' => 'St Martin',
+	'PM' => 'St Pierre & Miquelon',
+	'SH' => 'St Helena',
+	'VC' => 'St Vincent & the Grenadines',
+];
+
 $timeUnits = [
 	'day-narrow-future-one' => 'in {0} day',
 	'day-narrow-future-other' => 'in {0} days',

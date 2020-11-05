@@ -723,6 +723,7 @@ $countryNames = [
 	'UA' => 'Ukraina',
 	'UG' => 'Uganda',
 	'UM' => 'Ameriska Oceaniska',
+	'UN' => 'Zjednoćene narody',
 	'US' => 'USA',
 	'UY' => 'Uruguay',
 	'UZ' => 'Uzbekistan',

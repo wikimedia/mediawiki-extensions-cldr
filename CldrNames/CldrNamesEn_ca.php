@@ -27,10 +27,6 @@ $languageNames = [
 	'zh-hant' => 'Traditional Chinese',
 ];
 
-$currencyNames = [
-	'ILS' => 'Israeli new sheqel',
-];
-
 $timeUnits = [
 	'fri-narrow-future-one' => 'in {0} Fr',
 	'fri-narrow-future-other' => 'in {0} Fr’s',
@@ -56,6 +52,10 @@ $timeUnits = [
 	'minute-short-future-other' => 'in {0} mins.',
 	'minute-short-past-one' => '{0} min. ago',
 	'minute-short-past-other' => '{0} mins. ago',
+	'mon-narrow-future-one' => 'in {0} M',
+	'mon-narrow-future-other' => 'in {0} Mo’s',
+	'mon-narrow-past-one' => '{0} M ago',
+	'mon-narrow-past-other' => '{0} Mo’s ago',
 	'mon-short-future-one' => 'in {0} Mon.',
 	'mon-short-future-other' => 'in {0} Mon’s.',
 	'mon-short-past-one' => '{0} Mon. ago',
