@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * A class for querying translated time units from CLDR data.
  *
@@ -51,9 +53,11 @@ class TimeUnits extends CldrNames {
 		if ( !isset( self::$cache[$code] ) ) {
 			self::$cache[$code] = [];
 
+			$langNameUtil = MediaWikiServices::getInstance()->getLanguageNameUtils();
+
 			/* Load override for wrong or missing entries in cldr */
 			$override = __DIR__ . '/../LocalNames/' . self::getOverrideFileName( $code );
-			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
+			if ( $langNameUtil->isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$timeUnits = false;
 
 				require $override;
@@ -65,7 +69,7 @@ class TimeUnits extends CldrNames {
 			}
 
 			$filename = __DIR__ . '/../CldrNames/' . self::getFileName( $code );
-			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
+			if ( $langNameUtil->isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$timeUnits = false;
 				require $filename;
 				// @phan-suppress-next-line PhanImpossibleCondition

@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * A class for querying translated language names from CLDR data.
  *
@@ -32,9 +34,11 @@ class LanguageNames extends CldrNames {
 		$list = self::LIST_MW
 	) {
 		$xx = self::loadLanguage( $code );
-		$native = Language::fetchLanguageNames(
-			null,
-			$list === self::LIST_MW_SUPPORTED ? 'mwfile' : 'mw'
+
+		$native = MediaWikiServices::getInstance()->getLanguageNameUtils()
+			->getLanguageNames(
+				null,
+				$list === self::LIST_MW_SUPPORTED ? 'mwfile' : 'mw'
 		);
 
 		if ( $fbMethod === self::FALLBACK_NATIVE ) {
@@ -87,7 +91,9 @@ class LanguageNames extends CldrNames {
 
 		self::$cache[$code] = [];
 
-		if ( !Language::isValidBuiltInCode( $code ) ) {
+		if ( !MediaWikiServices::getInstance()->getLanguageNameUtils()
+			->isValidBuiltInCode( $code )
+		) {
 			return [];
 		}
 

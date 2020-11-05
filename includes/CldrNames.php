@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * A base class for querying translated names from CLDR data.
  *
@@ -16,7 +18,8 @@ class CldrNames {
 	 * @return string
 	 */
 	public static function getFileName( $code ) {
-		return Language::getFileName( 'CldrNames', $code, '.php' );
+		return MediaWikiServices::getInstance()->getLanguageNameUtils()
+			->getFileName( 'CldrNames', $code, '.php' );
 	}
 
 	/**
@@ -25,6 +28,7 @@ class CldrNames {
 	 * @return string
 	 */
 	public static function getOverrideFileName( $code ) {
-		return Language::getFileName( 'LocalNames', $code, '.php' );
+		return MediaWikiServices::getInstance()->getLanguageNameUtils()
+			->getFileName( 'LocalNames', $code, '.php' );
 	}
 }

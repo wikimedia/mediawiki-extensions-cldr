@@ -11,6 +11,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\MediaWikiServices;
+
 // Standard boilerplate to define $IP
 if ( getenv( 'MW_INSTALL_PATH' ) !== false ) {
 	$IP = getenv( 'MW_INSTALL_PATH' );
@@ -49,8 +51,10 @@ class CLDRRebuild extends Maintenance {
 			$this->error( "CLDR data not found at $DATA\n", 1 );
 		}
 
+		$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
+
 		// Get an array of all MediaWiki languages ( $wgLanguageNames + $wgExtraLanguageNames )
-		$languages = Language::fetchLanguageNames();
+		$languages = $langNameUtils->getLanguageNames();
 		# hack to get pt-pt too
 		$languages['pt-pt'] = 'Foo';
 		ksort( $languages );
@@ -80,7 +84,11 @@ class CLDRRebuild extends Maintenance {
 
 			// If the file exists, parse it, otherwise display an error
 			if ( file_exists( $input ) ) {
-				$outputFileName = Language::getFileName( 'CldrNames', getRealCode( $code ), '.php' );
+				$outputFileName = $langNameUtils->getFileName(
+					'CldrNames',
+					getRealCode( $code ),
+					'.php'
+				);
 				$p = new CLDRParser();
 				$p->parse( $input, "$OUTPUT/CldrNames/$outputFileName" );
 			} else {

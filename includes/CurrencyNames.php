@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * A class for querying translated currency names from CLDR data.
  *
@@ -24,7 +26,7 @@ class CurrencyNames extends CldrNames {
 		$names = self::loadLanguage( $code );
 
 		// Load missing currency names from fallback languages
-		$fallbacks = Language::getFallbacksFor( $code );
+		$fallbacks = MediaWikiServices::getInstance()->getLanguageFallback()->getAll( $code );
 		foreach ( $fallbacks as $fallback ) {
 			// Overwrite the things in fallback with what we have already
 			$names = array_merge( self::loadLanguage( $fallback ), $names );
@@ -41,9 +43,12 @@ class CurrencyNames extends CldrNames {
 	 */
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {
+
+			$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
+
 			/* Load override for wrong or missing entries in cldr */
 			$override = __DIR__ . '/../LocalNames/' . self::getOverrideFileName( $code );
-			if ( Language::isValidBuiltInCode( $code ) && file_exists( $override ) ) {
+			if ( $langNameUtils->isValidBuiltInCode( $code ) && file_exists( $override ) ) {
 				$currencyNames = false;
 				require $override;
 				// @phan-suppress-next-line PhanImpossibleCondition
@@ -53,7 +58,7 @@ class CurrencyNames extends CldrNames {
 			}
 
 			$filename = __DIR__ . '/../CldrNames/' . self::getFileName( $code );
-			if ( Language::isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
+			if ( $langNameUtils->isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
 				$currencyNames = false;
 				require $filename;
 				// @phan-suppress-next-line PhanImpossibleCondition
