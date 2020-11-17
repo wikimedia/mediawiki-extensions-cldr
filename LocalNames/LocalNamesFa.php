@@ -14,12 +14,6 @@ $languageNames = [
 	 */
 	'bcc' => 'بلوچی جنوبی',
 
-	/* Not in CLDR 27.0.1. Western Balochi language
-	 * https://www.ethnologue.com/language/bgn
-	 * Added 2015-01-18.
-	 */
-	'bgn' => 'بلوچی غربی',
-
 	/* Not in CLDR 27.0.1. Eastern Balochi language
 	 * https://www.ethnologue.com/language/bgp
 	 */
@@ -156,11 +150,6 @@ $languageNames = [
 	 */
 	'ltg' => 'لاتگالی',
 
-	/* Not in CLDR 27.0.1. Northern Luri language
-	 * https://www.ethnologue.com/language/lrc
-	 */
-	'lrc' => 'لری شمالی',
-
 	/* Not in CLDR 27.0.1. Southern Luri language
 	 * https://www.ethnologue.com/language/luz
 	 */
@@ -183,12 +172,6 @@ $languageNames = [
 	 * Added 2010-02-11.
 	 */
 	// 'mui' => 'Musi',
-
-	/* Not in CLDR 27.0.1. Caspian language
-	 * https://www.ethnologue.com/language/mzn
-	 * Added 2008-03-01.
-	 */
-	'mzn' => 'مازندرانی',
 
 	/* Not in CLDR 27.0.1. Chinese language
 	 * https://www.ethnologue.com/language/nan
@@ -264,18 +247,6 @@ $languageNames = [
 	'shy-arab' => 'شاویایی (خط عربی)',
 	'shy-latn' => 'شاویایی (خط لاتین)',
 	'shy-tfng' => 'شاویایی (خط تیفیناغی)',
-
-	/* Not in CLDR 27.0.1.
-	 * https://iso639-3.sil.org/code/sli
-	 * Added 2008-09-02.
-	 */
-	'sli' => 'سیلزیایی پایین',
-
-	/* Not in CLDR 27.0.1.
-	 * https://iso639-3.sil.org/code/szl
-	 * Added 2008-03-29.
-	 */
-	'szl' => 'سیلزیایی',
 
 	/* Not in CLDR 27.0.1. Tulu language
 	 * https://iso639-3.sil.org/code/tcy

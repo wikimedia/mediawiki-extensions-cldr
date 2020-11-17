@@ -8,12 +8,6 @@ $languageNames = [
 	 */
 	'bcc' => '南バローチー語',
 
-	/* Not in CLDR 27.0.1. Name used by Ethnologue:
-	 * https://www.ethnologue.com/language/bgn
-	 * Added 2015-01-18.
-	 */
-	'bgn' => '西バローチー語',
-
 	/* Not in CLDR 27.0.1. Eastern Balochi language
 	 * https://www.ethnologue.com/language/bgp
 	 */
@@ -71,11 +65,6 @@ $languageNames = [
 	 */
 	'lki' => 'ラーク語',
 
-	/* Not in CLDR 27.0.1. Northern Luri language
-	 * https://www.ethnologue.com/language/lrc
-	 */
-	'lrc' => '北ロル語',
-
 	/* Not in CLDR 27.0.1. Southern Luri language
 	 * https://www.ethnologue.com/language/luz
 	 */
@@ -131,8 +120,6 @@ $languageNames = [
 	// 'de-formal' => 'German (formal address)',
 	// 'gan-hans' => 'Simplified Gan script',
 	// 'gan-hant' => 'Traditional Gan script',
-	'glk' => 'ギラキ語',
-	'got' => 'ゴート語',
 	// 'hif-latn' => 'Fiji Hindi (Latin script)',
 	// 'ike-cans' => 'Eastern Canadian (Aboriginal syllabics)',
 	// 'ike-latn' => 'Eastern Canadian (Latin script)',
