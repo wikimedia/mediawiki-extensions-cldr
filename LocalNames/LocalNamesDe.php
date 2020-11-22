@@ -31,6 +31,8 @@ $languageNames = [
 	'bh' => 'Bhojpuri',
 	'bnn' => 'Bunun',
 	'bxr' => 'Russisches Burjatisch',
+	# used by Wikidata T266423
+	'cal' => 'Karolinisch',
 	'cbk-zam' => 'Chavacano',
 	'cdo' => 'Min Dong',
 	'cja-arab' => 'Westliches Cham (arabische Schrift)',
@@ -140,6 +142,8 @@ $languageNames = [
 	'mui' => 'Musi',
 	'nah' => 'Nahuatl',
 	'nod' => 'Lanna',
+	# used by Wikidata T265782
+	'non-runr' => 'Altnordisch (Runen-Schrift)',
 	# used by Wikidata T165648
 	'nrf-gg' => 'Guernésiais',
 	# used by Wikidata T165648
