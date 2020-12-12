@@ -65,7 +65,7 @@ class CurrencyNames extends CldrNames {
 				if ( is_array( $currencyNames ) ) {
 					if ( isset( self::$cache[$code] ) ) {
 						// Add to existing list of localized currency names
-						self::$cache[$code] = self::$cache[$code] + $currencyNames;
+						self::$cache[$code] += $currencyNames;
 					} else {
 						// No list exists, so create it
 						self::$cache[$code] = $currencyNames;

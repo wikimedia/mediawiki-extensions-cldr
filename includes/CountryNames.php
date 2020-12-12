@@ -65,7 +65,7 @@ class CountryNames extends CldrNames {
 				if ( is_array( $countryNames ) ) {
 					if ( isset( self::$cache[$code] ) ) {
 						// Add to existing list of localized country names
-						self::$cache[$code] = self::$cache[$code] + $countryNames;
+						self::$cache[$code] += $countryNames;
 					} else {
 						// No list exists, so create it
 						self::$cache[$code] = $countryNames;

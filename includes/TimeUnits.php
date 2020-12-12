@@ -74,7 +74,7 @@ class TimeUnits extends CldrNames {
 				require $filename;
 				// @phan-suppress-next-line PhanImpossibleCondition
 				if ( is_array( $timeUnits ) ) {
-					self::$cache[$code] = self::$cache[$code] + $timeUnits;
+					self::$cache[$code] += $timeUnits;
 				}
 			} else {
 				wfDebug( __METHOD__ . ": Unable to load time units for $filename\n" );
