@@ -184,6 +184,8 @@ $languageNames = [
 	'olo' => 'Livvi-Karelian',
 	'ood' => "O'odham",
 	'otk' => 'Old Turkish',
+	# used by Wikidata T275682
+	'pap-aw' => 'Papiamento (Aruba)',
 	# used by Wikidata T155425
 	'phn-latn' => 'Phoenician (Latin script)',
 	# used by Wikidata T155425
