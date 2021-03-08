@@ -156,6 +156,8 @@ $languageNames = [
 	# used by Wikidata, T270059
 	'ms-arab' => 'Malay (Jawi script)',
 	'mui' => 'Musi',
+	# used by Wikidata, T180771
+	'nan-hani' => 'Min Nan (Hanji)',
 	# used by Wikidata, T263946
 	'nge' => 'Ngémba',
 	# used by Wikidata, T263946
