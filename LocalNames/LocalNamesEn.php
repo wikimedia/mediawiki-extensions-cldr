@@ -233,6 +233,8 @@ $languageNames = [
 	'ruq-grek' => 'Megleno-Romanian (Greek script)',
 	'ruq-latn' => 'Megleno-Romanian (Latin script)',
 	'rwr' => 'Marwari (India)',
+	# used by Wikidata T271215
+	'ryu' => 'Okinawan',
 	# used by Wikidata T230881
 	'sa-sidd' => 'Sanskrit (Siddham script)',
 	# used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
