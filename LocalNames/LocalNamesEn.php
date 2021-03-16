@@ -86,6 +86,8 @@ $languageNames = [
 	'cdo' => 'Mindong',
 	# used by Wikidata, T180771
 	'cdo-hani' => 'Mindong (Han script)',
+	'cdo-hant' => 'Mindong (Traditional Han script)',
+	'cdo-latn' => 'Mindong (Latin script)',
 	'cja' => 'Western Cham',
 	'cja-arab' => 'Western Cham (Arabic script)',
 	'cja-cham' => 'Western Cham (Cham script)',
