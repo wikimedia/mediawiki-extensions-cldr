@@ -36,6 +36,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'bqz' => 'Mka\'a',
 	'bxr' => 'Russia Buriat',
+	# used by Wikidata, T278854
+	'cak' => 'Kaqchikel',
 	# used by Wikidata, T266423
 	'cal' => 'Carolinian',
 	'cbk-zam' => 'Chavacano',
@@ -55,6 +57,8 @@ $languageNames = [
 	'ckt' => 'Chukchi',
 	# used by Wikidata, T222020
 	'clc' => 'Chilcotin',
+	# used by Wikidata, T278853
+	'cnh' => 'Hakha-Chin',
 	'cnr' => 'Montenegrin',
 	# used by Wikidata, T220284
 	'crb' => 'Island Carib',
