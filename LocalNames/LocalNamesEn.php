@@ -188,6 +188,8 @@ $languageNames = [
 	# used by Wikidata, T195816
 	'ojp-hira' => 'Old Japanese (Hiragana script)',
 	'olo' => 'Livvi-Karelian',
+	# used by Wikidata T265296
+	'oma' => 'Omaha-Ponca',
 	'ood' => "O'odham",
 	'otk' => 'Old Turkish',
 	# used by Wikidata T275682
