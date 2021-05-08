@@ -29,10 +29,16 @@ $languageNames = [
 	'be-x-old' => 'Weißrussisch (Taraschkewiza)',
 	'bgp' => 'Östliches Belutschi',
 	'bh' => 'Bhojpuri',
+	# used by Wikidata, T263946
+	'bkh' => 'Bakoko',
 	'bnn' => 'Bunun',
+	# used by Wikidata, T263946
+	'bqz' => 'Bakaka',
 	'bxr' => 'Russisches Burjatisch',
 	# used by Wikidata T266423
 	'cal' => 'Karolinisch',
+	# used by Wikidata, T278854
+	'cak' => 'Cakchiquel',
 	'cbk-zam' => 'Chavacano',
 	'cdo' => 'Min Dong',
 	'cja-arab' => 'Westliches Cham (arabische Schrift)',
@@ -50,6 +56,8 @@ $languageNames = [
 	'ckt' => 'Tschuktschisch',
 	# used by Wikidata, T222020
 	'clc' => 'Tschilcotin',
+	# used by Wikidata, T278853
+	'cnh' => 'Hakha Chin',
 	'cnr' => 'Montenegrinisch',
 	'crb' => 'Insel-Karibisch',
 	'crh-cyrl' => 'Krimtatarisch (kyrillische Schrift)',
@@ -89,6 +97,8 @@ $languageNames = [
 	'gmy' => 'Mykenisches Griechisch',
 	'gom-deva' => 'Goa-Konkani (Devanagari)',
 	'gom-latn' => 'Goa-Konkani (lateinische Schrift)',
+	# used by Wikidata, T263946
+	'gya' => 'Nordwest-Gbaya',
 	'haz' => 'Hazaragi',
 	'hbo' => 'Biblisches Hebräisch',
 	'hif-latn' => 'Fidschi-Hindi (lateinische Schrift)',
@@ -130,6 +140,8 @@ $languageNames = [
 	# used by Wikidata, T254968
 	'lij-mc' => 'Monegassisch',
 	'lld' => 'Ladinisch',
+	# used by Wikidata, T263946
+	'lns' => 'Lamnso',
 	'luz' => 'Südliches Lori',
 	'map-bms' => 'Banyumasan',
 	# used by Wikidata, T235468
@@ -139,8 +151,11 @@ $languageNames = [
 	'mis' => 'nicht unterstützte Sprache',
 	'mo' => 'Moldawisch',
 	'moe' => 'Innu',
+	'ms-arab' => 'Malaiisch (Jawi-Schrift)',
 	'mui' => 'Musi',
 	'nah' => 'Nahuatl',
+	# used by Wikidata, T263946
+	'nnz' => 'Nda\'nda\'',
 	'nod' => 'Lanna',
 	# used by Wikidata T265782
 	'non-runr' => 'Altnordisch (Runen-Schrift)',
@@ -162,6 +177,8 @@ $languageNames = [
 	'otk' => 'Alttürkisch',
 	# used by Wikidata T155425
 	'phn-latn' => 'Phönizisch (lateinische Schrift)',
+	# used by Wikidata T275682
+	'pap-aw' => 'Papiamentu (Aruba)',
 	# used by Wikidata T155425
 	'phn-phnx' => 'Phönizisch (phönizische Schrift)',
 	# used by Wikidata T230881
@@ -206,6 +223,8 @@ $languageNames = [
 	'ruq-latn' => 'Meglenorumänisch (lateinische Schrift)',
 	'ruq' => 'Meglenorumänisch',
 	'rwr' => 'Marwari (Indien)',
+	# used by Wikidata T271215
+	'ryu' => 'Okinawa',
 	# used by Wikidata T230881
 	'sa-sidd' => 'Sanskrit (Siddham-Schrift)',
 	# needs upstream fix
@@ -248,6 +267,8 @@ $languageNames = [
 	'uun' => 'Pazeh',
 	'uz-cyrl' => 'Usbekisch (kyrillische Schrift)',
 	'uz-latn' => 'Usbekisch (lateinische Schrift)',
+	# used by Wikidata, T263946
+	'vut' => 'Wute',
 	# used by Wikidata, T239411
 	'wls' => 'Wallisianisch',
 	'xpu' => 'Punisch',
