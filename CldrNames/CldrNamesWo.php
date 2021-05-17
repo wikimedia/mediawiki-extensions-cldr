@@ -187,7 +187,7 @@ $currencySymbols = [
 	'JPY' => 'JP¥',
 	'RUB' => 'RUB',
 	'USD' => '$',
-	'XOF' => 'CFA',
+	'XOF' => 'F CFA',
 ];
 
 $countryNames = [
