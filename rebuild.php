@@ -48,7 +48,7 @@ class CLDRRebuild extends Maintenance {
 		$OUTPUT = $this->getOption( 'outputdir', $dir );
 
 		if ( !file_exists( $DATA ) ) {
-			$this->error( "CLDR data not found at $DATA\n", 1 );
+			$this->fatalError( "CLDR data not found at $DATA\n" );
 		}
 
 		$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
