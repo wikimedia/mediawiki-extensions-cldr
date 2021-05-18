@@ -829,7 +829,7 @@ $currencySymbols = [
 	'XAF' => 'FCFA',
 	'XCD' => 'EC$',
 	'XEU' => 'XEU',
-	'XOF' => 'F CFA',
+	'XOF' => 'CFA',
 ];
 
 $countryNames = [

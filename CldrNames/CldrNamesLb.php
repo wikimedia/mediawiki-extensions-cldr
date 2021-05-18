@@ -932,7 +932,7 @@ $currencySymbols = [
 	'VND' => '₫',
 	'XAF' => 'FCFA',
 	'XCD' => 'EC$',
-	'XOF' => 'F CFA',
+	'XOF' => 'CFA',
 	'XPF' => 'CFPF',
 ];
 
