@@ -167,6 +167,8 @@ $languageNames = [
 	'nsk' => 'Naskapi',
 	'nxm' => 'Numidisch',
 	# 'nys' => 'Nyunga', // German translation unassured
+	# Added to Core, T283053
+	'ojb' => 'Nordwestliches Ojibwe',
 	# used by Wikidata, T195816
 	'ojp' => 'Altjapanisch',
 	# used by Wikidata, T195816

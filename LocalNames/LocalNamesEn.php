@@ -181,6 +181,8 @@ $languageNames = [
 	'nxm' => 'Numidian',
 	# used by Wikidata, added in InitialiseSettings.php
 	'nys' => 'Nyungar',
+	# Added to Core, T283053
+	'ojb' => 'Northwestern Ojibwe',
 	# used by Wikidata, T195816
 	'ojp' => 'Old Japanese',
 	# used by Wikidata, T195816
