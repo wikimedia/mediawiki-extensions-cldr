@@ -153,7 +153,7 @@ $languageNames = [
 	'mfa' => 'Kelantan-Pattani Malay',
 	'mhr' => 'Eastern Mari',
 	'mid' => 'Mandaic',
-	'mis' => 'Unsupported language',
+	'mis' => 'unsupported language',
 	'mo' => 'Moldovan',
 	'moe' => 'Innu',
 	'mnw' => 'Mon',
@@ -284,6 +284,8 @@ $languageNames = [
 	'ug-arab' => 'Uyghur (Arabic script)',
 	'ug-latn' => 'Uyghur (Latin script)',
 	'umu' => 'Munsee',
+	# used by Wikidata, T265468
+	'und' => 'undetermined language',
 	'uun' => 'Pazeh',
 	'uz-cyrl' => 'Uzbek (Cyrillic script)',
 	'uz-latn' => 'Uzbek (Latin script)',
