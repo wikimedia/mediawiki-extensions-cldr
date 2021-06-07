@@ -193,6 +193,8 @@ $languageNames = [
 	# used by Wikidata T265296
 	'oma' => 'Omaha-Ponca',
 	'ood' => "O'odham",
+	# used by Wikidata T265297
+	'osa-latn' => 'Osage (Latin script)',
 	'otk' => 'Old Turkish',
 	# used by Wikidata T275682
 	'pap-aw' => 'Papiamento (Aruba)',
@@ -291,6 +293,8 @@ $languageNames = [
 	'wes' => 'Pidgin',
 	# used by Wikidata, T239411
 	'wls' => 'Wallisian',
+	# used by Wikidata, T283364
+	'wya' => 'Wyandot',
 	'xpu' => 'Punic',
 	'xsy' => 'Saisiyat',
 	# used by Wikidata, T263946
