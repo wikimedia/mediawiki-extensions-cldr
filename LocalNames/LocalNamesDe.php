@@ -97,6 +97,8 @@ $languageNames = [
 	'gmy' => 'Mykenisches Griechisch',
 	'gom-deva' => 'Goa-Konkani (Devanagari)',
 	'gom-latn' => 'Goa-Konkani (lateinische Schrift)',
+	# used by Wikidata, T262922
+	'gsw-fr' => 'Elsässisch',
 	# used by Wikidata, T263946
 	'gya' => 'Nordwest-Gbaya',
 	'haz' => 'Hazaragi',

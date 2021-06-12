@@ -95,6 +95,8 @@ $languageNames = [
 	'gmy' => 'Mycenaean Greek',
 	'gom-deva' => 'Goan Konkani (Devanagari script)',
 	'gom-latn' => 'Goan Konkani (Latin script)',
+	# used by Wikidata, T262922
+	'gsw-fr' => 'Alsatian',
 	# used by Wikidata, T263946
 	'gya' => 'Gbaya',
 	'haz' => 'Hazaragi',
@@ -304,6 +306,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'yat' => 'Yambeta',
 	'ydd' => 'Eastern Yiddish',
+	# used by Wikidata, T252198
+	'ykg' => 'Tundra Yukaghir',
 	'zh-classical' => 'Classical Chinese',
 	'zh-cn' => 'Chinese (China)',
 	'zh-hk' => 'Chinese (Hong Kong)',
