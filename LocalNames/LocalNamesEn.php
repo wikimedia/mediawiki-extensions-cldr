@@ -62,6 +62,7 @@ $languageNames = [
 	'cnr' => 'Montenegrin',
 	# used by Wikidata, T220284
 	'crb' => 'Island Carib',
+	'crh' => 'Crimean Tatar',
 	'crh-cyrl' => 'Crimean Tatar (Cyrillic script)',
 	'crh-latn' => 'Crimean Tatar (Latin script)',
 	# used by Wikidata, T264532
