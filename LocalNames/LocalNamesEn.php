@@ -79,6 +79,8 @@ $languageNames = [
 	# used by Wikidata, T198674
 	'el-cy' => 'Cypriot Greek',
 	'eml' => 'Emiliano-Romagnolo',
+	# Missing en translation T256649
+	'es-formal' => 'Spanish (formal address)',
 	# used by Wikidata, T263946
 	'eto' => 'Eton',
 	'ett' => 'Etruscian',
@@ -110,6 +112,8 @@ $languageNames = [
 	# used by Wikidata, T155368
 	'hbo' => 'Biblical Hebrew',
 	'hif-latn' => 'Fiji Hindi (Latin script)',
+	# Missing en translation T256649
+	'hu-formal' => 'Hungarian (formal address)',
 	'hyw' => 'Western Armenian',
 	'ike-cans' => 'Eastern Canadian (Aboriginal syllabics)',
 	'ike-latn' => 'Eastern Canadian (Latin script)',
@@ -175,6 +179,8 @@ $languageNames = [
 	'nan-hani' => 'Min Nan (Hanji)',
 	# used by Wikidata, T263946
 	'nge' => 'Ngémba',
+	# Missing en translation T256649
+	'nl-informal' => 'Dutch (informal address)',
 	# used by Wikidata, T263946
 	'nla' => 'Ngombala',
 	# used by Wikidata, T263946
@@ -282,6 +288,8 @@ $languageNames = [
 	# used by Wikidata, added in InitialiseSettings.php
 	'srq' => 'Sirionó',
 	'ssf' => 'Thao',
+	# Missing en translation T256649
+	'sty' => 'Siberian Tatar',
 	'tg-cyrl' => 'Tajik (Cyrillic script)',
 	'tg-latn' => 'Tajik (Latin script)',
 	'tlb' => 'Tobelo',
