@@ -104,6 +104,8 @@ $languageNames = [
 	'gom-latn' => 'Goan Konkani (Latin script)',
 	# used by Wikidata, T262922
 	'gsw-fr' => 'Alsatian',
+	# Added to core, T286460
+	'guw' => 'Gun',
 	# used by Wikidata, T263946
 	'gya' => 'Gbaya',
 	# used by Wikidata, T180771

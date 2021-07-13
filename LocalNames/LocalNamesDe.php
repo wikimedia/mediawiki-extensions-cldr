@@ -101,6 +101,8 @@ $languageNames = [
 	'gom-latn' => 'Goa-Konkani (lateinische Schrift)',
 	# used by Wikidata, T262922
 	'gsw-fr' => 'Elsässisch',
+	# Added to core, T286460. Source: http://d-nb.info/gnd/1205170707
+	'guw' => 'Gun',
 	# used by Wikidata, T263946
 	'gya' => 'Nordwest-Gbaya',
 	'haz' => 'Hazaragi',
