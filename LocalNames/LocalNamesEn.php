@@ -288,7 +288,6 @@ $languageNames = [
 	'ug-latn' => 'Uyghur (Latin script)',
 	'umu' => 'Munsee',
 	# used by Wikidata, T265468
-	'und' => 'undetermined language',
 	'uun' => 'Pazeh',
 	'uz-cyrl' => 'Uzbek (Cyrillic script)',
 	'uz-latn' => 'Uzbek (Latin script)',
@@ -324,6 +323,6 @@ $languageNames = [
 	 * https://unicode-org.atlassian.net/browse/CLDR-9664
 	 */
 	'mul' => 'multiple languages',
-	'und' => 'unknown language',
+	'und' => 'undetermined language',
 	'zxx' => 'no linguistic content',
 ];
