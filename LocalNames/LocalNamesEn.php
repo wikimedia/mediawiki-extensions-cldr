@@ -42,6 +42,8 @@ $languageNames = [
 	'cal' => 'Carolinian',
 	'cbk-zam' => 'Chavacano',
 	'cdo' => 'Min Dong Chinese',
+	# used by Wikidata, T180771
+	'cdo-hani' => 'Min Dong Chinese (Hanji)',
 	'cja' => 'Western Cham',
 	'cja-cham' => 'Western Cham (Cham script)',
 	'cja-latn' => 'Western Cham (Latin script)',
@@ -100,6 +102,10 @@ $languageNames = [
 	'gsw-fr' => 'Alsatian',
 	# used by Wikidata, T263946
 	'gya' => 'Gbaya',
+	# used by Wikidata, T180771
+	'hak-hans' => 'Hakka (Simplified)',
+	# used by Wikidata, T180771
+	'hak-hant' => 'Hakka (Traditional)',
 	'haz' => 'Hazaragi',
 	# used by Wikidata, T155368
 	'hbo' => 'Biblical Hebrew',
@@ -157,6 +163,8 @@ $languageNames = [
 	'mhr' => 'Eastern Mari',
 	'mid' => 'Mandaic',
 	'mis' => 'unsupported language',
+	# used by Wikidata T155419
+	'mix' => 'Mixtec',
 	'mo' => 'Moldovan',
 	'moe' => 'Innu',
 	'mnw' => 'Mon',
