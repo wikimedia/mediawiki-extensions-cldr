@@ -80,6 +80,8 @@ $languageNames = [
 	'en-gb' => 'Britisches Englisch',
 	'en-uk' => 'Britisches Englisch',
 	'en-us' => 'Amerikanisches Englisch',
+	# part of CldrNamesEn.php, missing in CLDR 39
+	'es-419' => 'Lateinamerikanisches Spanisch',
 	# part of CldrNamesEn.php, missing in CLDR 38
 	'es-es' => 'Europäisches Spanisch',
 	# part of CldrNamesEn.php, missing in CLDR 38
