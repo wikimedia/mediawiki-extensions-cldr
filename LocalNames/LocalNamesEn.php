@@ -20,6 +20,8 @@ $languageNames = [
 	'bat-smg' => 'Samogitian',
 	'bbc-latn' => 'Batak Toba (Latin script)',
 	'bcc' => 'Southern Balochi',
+	# Added to Core, not part of CLDR, T287345
+	'bci' => 'Baoulé',
 	'bcl' => 'Central Bikol',
 	# used by Wikidata, T234330
 	'bdr' => 'West Coast Bajau',
