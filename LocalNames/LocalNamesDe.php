@@ -21,6 +21,7 @@ $languageNames = [
 	'bat-smg' => 'Schemaitisch',
 	'bbc-latn' => 'Batak Toba (lateinische Schrift)',
 	'bcc' => 'Südliches Belutschi',
+	'bci' => 'Baule',
 	'bcl' => 'Zentralbikolano',
 	# used by Wikidata, T234330
 	'bdr' => 'Westküsten-Bajau',
@@ -41,6 +42,7 @@ $languageNames = [
 	'cak' => 'Cakchiquel',
 	'cbk-zam' => 'Chavacano',
 	'cdo' => 'Min Dong',
+	'cdo-hani' => 'Min Dong (Hanji)',
 	'cja-arab' => 'Westliches Cham (arabische Schrift)',
 	'cja-cham' => 'Westliches Cham (Cham-Schrift)',
 	'cja-latn' => 'Westliches Cham (lateinische Schrift)',
@@ -84,6 +86,7 @@ $languageNames = [
 	'es-419' => 'Lateinamerikanisches Spanisch',
 	# part of CldrNamesEn.php, missing in CLDR 38
 	'es-es' => 'Europäisches Spanisch',
+	'es-formal' => 'Spanisch (formale Anrede)',
 	# part of CldrNamesEn.php, missing in CLDR 38
 	'es-mx' => 'Mexikanisches Spanisch',
 	'ett' => 'Etruskisch',
@@ -105,10 +108,15 @@ $languageNames = [
 	'guw' => 'Gun',
 	# used by Wikidata, T263946
 	'gya' => 'Nordwest-Gbaya',
+	# http://d-nb.info/gnd/1205170707
+	'guw' => 'Gun',
+	'hak-hans' => 'Hakka (vereinfacht)',
+	'hak-hant' => 'Hakka (traditionell)',
 	'haz' => 'Hazaragi',
 	'hbo' => 'Biblisches Hebräisch',
 	'hif-latn' => 'Fidschi-Hindi (lateinische Schrift)',
 	'hif' => 'Fidschi-Hindi',
+	'hu-formal' => 'Ungarisch (formale Anrede)',
 	'hyw' => 'Westarmenisch',
 	'ike-cans' => 'Inuktitut (kanadische Silbenschrift)',
 	'ike-latn' => 'Inuktitut (lateinische Schrift)',
@@ -155,11 +163,13 @@ $languageNames = [
 	'mhr' => 'Ostmari',
 	'mid' => 'Mandäisch',
 	'mis' => 'nicht unterstützte Sprache',
+	'mix' => 'Mixtepec Mixtekisch',
 	'mo' => 'Moldawisch',
 	'moe' => 'Innu',
 	'ms-arab' => 'Malaiisch (Jawi-Schrift)',
 	'mui' => 'Musi',
 	'nah' => 'Nahuatl',
+	'nl-informal' => 'Niederländusch (informelle Anrede)',
 	# used by Wikidata, T263946
 	'nnz' => 'Nda\'nda\'',
 	'nod' => 'Lanna',
@@ -182,6 +192,7 @@ $languageNames = [
 	# used by Wikidata, T195816
 	'ojp-hira' => 'Altjapanisch (Hiragana-Schrift)',
 	'olo' => 'Olonetzisch',
+	'osa-latn' => 'Osage (lateinische Schrift)',
 	'otk' => 'Alttürkisch',
 	# used by Wikidata T155425
 	'phn-latn' => 'Phönizisch (lateinische Schrift)',
@@ -261,6 +272,7 @@ $languageNames = [
 	'sr-el' => 'Serbisch (lateinische Schrift)',
 	# 'srq' => 'Sirionó', // German translation unassured
 	'ssf' => 'Thao',
+	'sty' => 'Sibirisches Tatarisch',
 	'tg-cyrl' => 'Tadschikisch (kyrillische Schrift)',
 	'tg-latn' => 'Tadschikisch (lateinische Schrift)',
 	# 'tlb' => 'Tobelo', // German translation unassured
@@ -279,10 +291,12 @@ $languageNames = [
 	'vut' => 'Wute',
 	# used by Wikidata, T239411
 	'wls' => 'Wallisianisch',
+	'wya' => 'Wyandot',
 	'xpu' => 'Punisch',
 	# https://d-nb.info/gnd/1075555310
 	'xsy' => 'Saisiyat',
 	'ydd' => 'Ostjiddisch',
+	'ykg' => 'Tundrajukagirisch',
 	'zh-classical' => 'klassisches Chinesisch',
 	'zh-cn' => 'Chinesisch (China)',
 	'zh-hk' => 'Chinesisch (Hongkong)',
