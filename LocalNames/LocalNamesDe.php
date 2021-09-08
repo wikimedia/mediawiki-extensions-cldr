@@ -108,8 +108,6 @@ $languageNames = [
 	'guw' => 'Gun',
 	# used by Wikidata, T263946
 	'gya' => 'Nordwest-Gbaya',
-	# http://d-nb.info/gnd/1205170707
-	'guw' => 'Gun',
 	'hak-hans' => 'Hakka (vereinfacht)',
 	'hak-hant' => 'Hakka (traditionell)',
 	'haz' => 'Hazaragi',
