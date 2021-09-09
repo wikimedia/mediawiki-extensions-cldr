@@ -1,5 +1,6 @@
 <?php
 
+/** @phpcs-require-sorted-array */
 $languageNames = [
 	'ab' => 'абхаская',
 	'af' => 'афрыкаанс',
@@ -131,6 +132,7 @@ $languageNames = [
 	'zh' => 'кітайская',
 ];
 
+/** @phpcs-require-sorted-array */
 $currencyNames = [
 	'ALL' => 'альбанскі лек',
 	'AMD' => 'армянскі драм',
@@ -245,6 +247,7 @@ $currencyNames = [
 	'YER' => 'еменскі рыял',
 ];
 
+/** @phpcs-require-sorted-array */
 $countryNames = [
 	'AC' => 'Востраў Ушэсьця',
 	'AD' => 'Андора',

@@ -1,5 +1,6 @@
 <?php
 
+/** @phpcs-require-sorted-array */
 $languageNames = [
 	# Not in CLDR 34. Used for MediaWiki localisation
 	'abe' => 'Western Abenaki',

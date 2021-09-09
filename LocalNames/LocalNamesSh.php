@@ -1,5 +1,6 @@
 <?php
 
+/** @phpcs-require-sorted-array */
 $languageNames = [
 	'aa' => 'Afarski',
 	'ab' => 'Abkazijski',

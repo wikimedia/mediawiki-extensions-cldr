@@ -1,5 +1,6 @@
 <?php
 
+/** @phpcs-require-sorted-array */
 $languageNames = [
 
 	/* additional list from Japanese Wikipedia */

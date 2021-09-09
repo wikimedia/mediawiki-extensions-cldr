@@ -1,5 +1,6 @@
 <?php
 
+/** @phpcs-require-sorted-array */
 $languageNames = [
 
 	/* Not in CLDR30. But Wikipedias in these languages exist */
