@@ -6,11 +6,11 @@ $languageNames = [
 	 * But Wikipedias in these languages exist and/or used by Wikidata for monolingual text
 	 */
 	'abe' => 'Westliches Abenaki',
-	'abs' => 'Ambonesisches Malaysisch',
 	# used by Wikidata, T155367
 	'abq' => 'Abasinisch',
 	# used by Wikidata, T155424
 	'abq-latn' => 'Abasinisch',
+	'abs' => 'Ambonesisches Malaysisch',
 	'ady-cyrl' => 'Adygeisch (kyrillisch Schrift)',
 	'aeb-arab' => 'Tunesisches Arabisch (arabische Schrift)',
 	'aeb-latn' => 'Tunesisches Arabisch (lateinische Schrift)',
@@ -36,24 +36,24 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'bqz' => 'Bakaka',
 	'bxr' => 'Russisches Burjatisch',
-	# used by Wikidata T266423
-	'cal' => 'Karolinisch',
 	# used by Wikidata, T278854
 	'cak' => 'Cakchiquel',
+	# used by Wikidata T266423
+	'cal' => 'Karolinisch',
 	'cbk-zam' => 'Chavacano',
 	'cdo' => 'Min Dong',
 	'cdo-hani' => 'Min Dong (Hanji)',
+	'cja' => 'Westliches Cham',
 	'cja-arab' => 'Westliches Cham (arabische Schrift)',
 	'cja-cham' => 'Westliches Cham (Cham-Schrift)',
 	'cja-latn' => 'Westliches Cham (lateinische Schrift)',
-	'cja' => 'Westliches Cham',
+	'cjm' => 'Östliches Cham',
 	'cjm-arab' => 'Östliches Cham (arabische Schrift)',
 	'cjm-cham' => 'Östliches Cham (Cham-Schrift)',
 	'cjm-latn' => 'Östliches Cham (lateinische Schrift)',
-	'cjm' => 'Östliches Cham',
+	'cjy' => 'Jin',
 	'cjy-hans' => 'Jin (vereinfacht)',
 	'cjy-hant' => 'Jin (traditionell)',
-	'cjy' => 'Jin',
 	# used by Wikidata, T240097
 	'ckt' => 'Tschuktschisch',
 	# used by Wikidata, T222020
@@ -62,9 +62,9 @@ $languageNames = [
 	'cnh' => 'Hakha Chin',
 	'cnr' => 'Montenegrinisch',
 	'crb' => 'Insel-Karibisch',
+	'crh' => 'Krimtatarisch',
 	'crh-cyrl' => 'Krimtatarisch (kyrillische Schrift)',
 	'crh-latn' => 'Krimtatarisch (lateinische Schrift)',
-	'crh' => 'Krimtatarisch',
 	# used by Wikidata, T264532
 	'crl' => 'Ost-Cree',
 	# used by Wikidata, T240098
@@ -73,9 +73,9 @@ $languageNames = [
 	# 'dlc' => 'Dalecarlian', // German translation unassured
 	// https://d-nb.info/gnd/7543852-5
 	'dty' => 'Doteli',
-	'eml' => 'Emilianisch',
 	# used by Wikidata, T198674
 	'el-cy' => 'Zypriotisches Griechisch',
+	'eml' => 'Emilianisch',
 	# part of CldrNamesEn.php, missing in CLDR 38
 	'en-au' => 'Australisches Englisch',
 	'en-ca' => 'Kanadisches Englisch',
@@ -112,8 +112,8 @@ $languageNames = [
 	'hak-hant' => 'Hakka (traditionell)',
 	'haz' => 'Hazaragi',
 	'hbo' => 'Biblisches Hebräisch',
-	'hif-latn' => 'Fidschi-Hindi (lateinische Schrift)',
 	'hif' => 'Fidschi-Hindi',
+	'hif-latn' => 'Fidschi-Hindi (lateinische Schrift)',
 	'hu-formal' => 'Ungarisch (formale Anrede)',
 	'hyw' => 'Westarmenisch',
 	'ike-cans' => 'Inuktitut (kanadische Silbenschrift)',
@@ -148,9 +148,9 @@ $languageNames = [
 	'lbe' => 'Lakisch',
 	# used by Wikidata, T234761
 	'lcm' => 'Tungag',
-	'lki' => 'Leki',
 	# used by Wikidata, T254968
 	'lij-mc' => 'Monegassisch',
+	'lki' => 'Leki',
 	'lld' => 'Ladinisch',
 	# used by Wikidata, T263946
 	'lns' => 'Lamnso',
@@ -192,10 +192,10 @@ $languageNames = [
 	'olo' => 'Olonetzisch',
 	'osa-latn' => 'Osage (lateinische Schrift)',
 	'otk' => 'Alttürkisch',
-	# used by Wikidata T155425
-	'phn-latn' => 'Phönizisch (lateinische Schrift)',
 	# used by Wikidata T275682
 	'pap-aw' => 'Papiamentu (Aruba)',
+	# used by Wikidata T155425
+	'phn-latn' => 'Phönizisch (lateinische Schrift)',
 	# used by Wikidata T155425
 	'phn-phnx' => 'Phönizisch (phönizische Schrift)',
 	# used by Wikidata T230881
@@ -235,10 +235,10 @@ $languageNames = [
 	'rmy' => 'Vlax-Romani',
 	'roa-rup' => 'Aromunisch',
 	'roa-tara' => 'Tarandíne',
+	'ruq' => 'Meglenorumänisch',
 	'ruq-cyrl' => 'Meglenorumänisch (kyrillische Schrift)',
 	'ruq-grek' => 'Meglenorumänisch (griechische Schrift)',
 	'ruq-latn' => 'Meglenorumänisch (lateinische Schrift)',
-	'ruq' => 'Meglenorumänisch',
 	'rwr' => 'Marwari (Indien)',
 	# used by Wikidata T271215
 	'ryu' => 'Okinawa',
@@ -248,10 +248,10 @@ $languageNames = [
 	'sh' => 'Serbokroatisch',
 	'shi-latn' => 'Taschelhit (lateinische Schrift)',
 	'shi-tfng' => 'Taschelhit (Tifinagh-Schrift)',
+	'shy' => 'Shawiya',
 	'shy-arab' => 'Shawiya (arabische Schrift)',
 	'shy-latn' => 'Shawiya (lateinische Schrift)',
 	'shy-tfng' => 'Shawiya (Tifinagh-Schrift)',
-	'shy' => 'Shawiya',
 	# used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
 	'sia' => 'Akkalasamisch',
 	'simple' => 'einfaches Englisch',
