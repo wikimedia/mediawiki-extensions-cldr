@@ -11,6 +11,11 @@
  * @license GPL-2.0-or-later
  */
 class CLDRParser {
+
+	public const LOCALITY_DEFAULT = '!DEFAULT';
+	public const LANGUAGE_DEFAULT = '!root';
+	public const CURRENCY_DEFAULT = '!DEFAULT';
+
 	/**
 	 * @param string $inputFile filename
 	 * @param string $outputFile filename
@@ -120,14 +125,18 @@ class CLDRParser {
 		// This will tell us how many decmal places make sense to use with any currency,
 		// or if the currency is totally non-fractional
 		foreach ( $doc->xpath( '//currencyData/fractions/info' ) as $elem ) {
-			if ( (string)$elem['iso4217'] === '' ) {
+			$iso4217 = (string)$elem['iso4217'];
+			if ( $iso4217 === '' ) {
 				continue;
+			}
+			if ( $iso4217 === 'DEFAULT' ) {
+				$iso4217 = self::CURRENCY_DEFAULT;
 			}
 
 			$attributes = [ 'digits', 'rounding', 'cashDigits', 'cashRounding' ];
 			foreach ( $attributes as $att ) {
 				if ( (string)$elem[$att] !== '' ) {
-					$data['currencyFractions'][(string)$elem['iso4217']][$att] = (string)$elem[$att];
+					$data['currencyFractions'][$iso4217][$att] = (string)$elem[$att];
 				}
 			}
 		}
@@ -197,7 +206,11 @@ class CLDRParser {
 
 			// The <territory> element is optional
 			$territories = $doc->xpath( '//identity/territory/@type' );
-			$territory = $territories ? (string)$territories[0] : 'DEFAULT';
+			$territory = $territories ? (string)$territories[0] : self::LOCALITY_DEFAULT;
+
+			if ( $language === 'root' ) {
+				$language = self::LANGUAGE_DEFAULT;
+			}
 
 			foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
 				if ( (string)$elem->symbol[0] !== '' ) {
@@ -223,20 +236,23 @@ class CLDRParser {
 		foreach ( $data['currencySymbols'] as $currency => $language ) {
 			// get the currency default symbol. This will either be defined in the
 			// 'root' language file, or taken from the ISO code.
-			$default = $language['root']['DEFAULT'] ?? $currency;
+			$default = $language[self::LANGUAGE_DEFAULT][self::LOCALITY_DEFAULT] ?? $currency;
 
 			foreach ( $language as $lang => $territories ) {
 				if ( is_array( $territories ) ) {
 					// Collapse a language (no locality) array if it's just the default. One value will do fine.
-					if ( count( $territories ) === 1 && array_key_exists( 'DEFAULT', $territories ) ) {
-						$data['currencySymbols'][$currency][$lang] = $territories['DEFAULT'];
-						if ( $territories['DEFAULT'] === $default && $lang !== 'root' ) {
+					if ( count( $territories ) === 1 && array_key_exists( self::LOCALITY_DEFAULT, $territories ) ) {
+						$data['currencySymbols'][$currency][$lang] = $territories[self::LOCALITY_DEFAULT];
+						if ( $territories[self::LOCALITY_DEFAULT] === $default
+							&& $lang !== self::LANGUAGE_DEFAULT
+						) {
 							unset( $data['currencySymbols'][$currency][$lang] );
 						}
 					} else {
 						// Collapse a language (with locality) array if it's default is just the default
-						if ( !array_key_exists( 'DEFAULT', $territories )
-							|| ( $territories['DEFAULT'] === $default && $lang !== 'root' )
+						if ( !array_key_exists( self::LOCALITY_DEFAULT, $territories )
+							|| ( $territories[self::LOCALITY_DEFAULT] === $default
+								&& $lang !== self::LANGUAGE_DEFAULT )
 						) {
 							foreach ( $territories as $territory => $symbol ) {
 								if ( $symbol === $default ) {

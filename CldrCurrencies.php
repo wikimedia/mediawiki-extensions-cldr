@@ -75,7 +75,7 @@ class CldrCurrency {
 			}
 
 			// get the default (either the 'root' language, or the original ISO code)
-			$default = self::$cache['symbols'][$currency_code]['root'] ?? $currency_code;
+			$default = self::$cache['symbols'][$currency_code][CLDRParser::LANGUAGE_DEFAULT] ?? $currency_code;
 
 			// language code might or might not exist
 			if ( array_key_exists( $language_code, self::$cache['symbols'][$currency_code] ) ) {
@@ -92,7 +92,7 @@ class CldrCurrency {
 						'DEFAULT',
 						self::$cache['symbols'][$currency_code][$language_code]
 					) ) {
-						return self::$cache['symbols'][$currency_code][$language_code]['DEFAULT'];
+						return self::$cache['symbols'][$currency_code][$language_code][CLDRParser::LOCALITY_DEFAULT];
 					} else {
 						return $default;
 					}
@@ -139,7 +139,7 @@ class CldrCurrency {
 		if ( array_key_exists( $currency_code, self::$cache['fractions'] ) ) {
 			return (int)self::$cache['fractions'][$currency_code]['digits'];
 		} else {
-			return (int)self::$cache['fractions']['DEFAULT']['digits'];
+			return (int)self::$cache['fractions'][CLDRParser::CURRENCY_DEFAULT]['digits'];
 		}
 	}
 }

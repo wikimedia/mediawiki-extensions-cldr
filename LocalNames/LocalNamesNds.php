@@ -65,7 +65,6 @@ $languageNames = [
 	'phi' => 'Philippinen-Austroneesche Spraken',
 	'pra' => 'Prakrit',
 	'roa' => 'Romaansche Spraken',
-	'root' => 'Wortel',
 	'sai' => 'Indianerspraken in Süüdamerika',
 	'sal' => 'Salish',
 	'sem' => 'Semietsche Spraken',

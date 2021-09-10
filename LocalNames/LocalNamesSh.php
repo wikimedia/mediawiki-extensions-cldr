@@ -380,7 +380,6 @@ $languageNames = [
 	'ro' => 'Rumunski',
 	'roa' => 'Romanski jezik',
 	'rom' => 'Romani',
-	'root' => 'Run',
 	'ru' => 'Ruski',
 	'rup' => 'Aromanijski',
 	'rw' => 'Kinjarvanda',
