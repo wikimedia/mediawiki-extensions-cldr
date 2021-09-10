@@ -222,14 +222,24 @@ class CLDRParser {
 			$default = $language['root']['DEFAULT'] ?? $currency;
 
 			foreach ( $language as $lang => $territories ) {
-				// Collapse a language (no locality) array if it's just the default. One value will do fine.
 				if ( is_array( $territories ) ) {
+					// Collapse a language (no locality) array if it's just the default. One value will do fine.
 					if ( count( $territories ) === 1 && array_key_exists( 'DEFAULT', $territories ) ) {
 						$data['currencySymbols'][$currency][$lang] = $territories['DEFAULT'];
 						if ( $territories['DEFAULT'] === $default && $lang !== 'root' ) {
 							unset( $data['currencySymbols'][$currency][$lang] );
 						}
 					} else {
+						// Collapse a language (with locality) array if it's default is just the default
+						if ( !array_key_exists( 'DEFAULT', $territories )
+							|| ( $territories['DEFAULT'] === $default && $lang !== 'root' )
+						) {
+							foreach ( $territories as $territory => $symbol ) {
+								if ( $symbol === $default ) {
+									unset( $data['currencySymbols'][$currency][$lang][$territory] );
+								}
+							}
+						}
 						ksort( $data['currencySymbols'][$currency][$lang] );
 					}
 				}
