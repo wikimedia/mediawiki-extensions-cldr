@@ -183,6 +183,14 @@ class CLDRParser {
 				? (string)$languages[0]
 				: pathinfo( $inputFile, PATHINFO_FILENAME );
 
+			// The <script> element is optional
+			$scripts = $doc->xpath( '//identity/script/@type' );
+			$script = $scripts ? (string)$scripts[0] : '';
+			// expand the language
+			if ( $script !== '' ) {
+				$language .= '-' . strtolower( $script );
+			}
+
 			// The <territory> element is optional
 			$territories = $doc->xpath( '//identity/territory/@type' );
 			$territory = $territories ? (string)$territories[0] : 'DEFAULT';
