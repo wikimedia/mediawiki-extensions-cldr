@@ -132,6 +132,8 @@ class CLDRParser {
 			}
 		}
 
+		ksort( $data['currencyFractions'] );
+
 		// Pull a map of regions to currencies in order of preference.
 		foreach ( $doc->xpath( '//currencyData/region' ) as $elem ) {
 			if ( (string)$elem['iso3166'] === '' ) {
@@ -146,6 +148,8 @@ class CLDRParser {
 				}
 			}
 		}
+
+		ksort( $data['localeCurrencies'] );
 
 		$this->savephp( $data, $outputFile );
 	}

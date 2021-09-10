@@ -28,12 +28,12 @@ $currencyFractions = [
 		'digits' => '0',
 		'rounding' => '0',
 	],
-	'BYR' => [
-		'digits' => '0',
-		'rounding' => '0',
-	],
 	'BYN' => [
 		'digits' => '2',
+		'rounding' => '0',
+	],
+	'BYR' => [
+		'digits' => '0',
 		'rounding' => '0',
 	],
 	'CAD' => [
@@ -257,13 +257,13 @@ $currencyFractions = [
 		'digits' => '0',
 		'rounding' => '0',
 	],
-	'TZS' => [
+	'TWD' => [
 		'digits' => '2',
 		'rounding' => '0',
 		'cashDigits' => '0',
 		'cashRounding' => '0',
 	],
-	'TWD' => [
+	'TZS' => [
 		'digits' => '2',
 		'rounding' => '0',
 		'cashDigits' => '0',
@@ -273,12 +273,6 @@ $currencyFractions = [
 		'digits' => '0',
 		'rounding' => '0',
 	],
-	'UZS' => [
-		'digits' => '2',
-		'rounding' => '0',
-		'cashDigits' => '0',
-		'cashRounding' => '0',
-	],
 	'UYI' => [
 		'digits' => '0',
 		'rounding' => '0',
@@ -286,6 +280,12 @@ $currencyFractions = [
 	'UYW' => [
 		'digits' => '4',
 		'rounding' => '0',
+	],
+	'UZS' => [
+		'digits' => '2',
+		'rounding' => '0',
+		'cashDigits' => '0',
+		'cashRounding' => '0',
 	],
 	'VEF' => [
 		'digits' => '2',
