@@ -323,7 +323,7 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'vut' => 'Vute',
 	# used by Wikidata, T263946
-	'wes' => 'Pidgin',
+	'wes' => 'Pidgin (Cameroon)',
 	# used by Wikidata, T239411
 	'wls' => 'Wallisian',
 	# used by Wikidata, T283364
