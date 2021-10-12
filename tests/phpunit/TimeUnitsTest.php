@@ -7,7 +7,7 @@
  *
  * @covers TimeUnits
  */
-class TimeUnitsTest extends MediaWikiTestCase {
+class TimeUnitsTest extends MediaWikiIntegrationTestCase {
 
 	/**
 	 * @dataProvider providerTimeUnit
