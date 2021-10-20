@@ -153,6 +153,7 @@ $languageNames = [
 	'koy' => 'Koyukon',
 	'ks-arab' => 'Kashmiri (Arabic script)',
 	'ks-deva' => 'Kashmiri (Devanagari script)',
+	'ksw' => 'S\'gaw Karen',
 	'ku-arab' => 'Kurdish (Arabic script)',
 	'ku-latn' => 'Kurdish (Latin script)',
 	'lbe' => 'Lak',

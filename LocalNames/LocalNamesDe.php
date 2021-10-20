@@ -146,6 +146,8 @@ $languageNames = [
 	'koy' => 'Koyukon',
 	'ks-arab' => 'Kashmiri (arabische Schrift)',
 	'ks-deva' => 'Kashmiri (Devanagari)',
+	# Source:  http://d-nb.info/gnd/1197829903
+	'ksw' => 'S\'gaw Karen',
 	'ku-arab' => 'Kurdisch (arabische Schrift)',
 	'ku-latn' => 'Kurdisch (lateinische Schrift)',
 	'lbe' => 'Lakisch',
