@@ -165,6 +165,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'lns' => 'Lamnso\'',
 	'luz' => 'Southern Luri',
+	# used by Wikidata,  T293884
+	'mcn' => 'Massa',
 	# used by Wikidata, T263946
 	'mcp' => 'Maka',
 	# used by Wikidata, T235468
@@ -302,6 +304,10 @@ $languageNames = [
 	'tg-cyrl' => 'Tajik (Cyrillic script)',
 	'tg-latn' => 'Tajik (Latin script)',
 	'tlb' => 'Tobelo',
+	# used by Wikidata T286239
+	'tlh-latn' => 'Klingon (Latin script)',
+	# used by Wikidata T286239
+	'tlh-piqd' => 'Klingon (Klingon script)',
 	# used by Wikidata T220284
 	'tnq' => 'Taíno',
 	'tt-cyrl' => 'Tatar (Cyrillic script)',
