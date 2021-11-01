@@ -33,6 +33,7 @@ $languageNames = [
 	'bh' => 'Bhojpuri',
 	# used by Wikidata, T263946
 	'bkh' => 'Bakoko',
+	# 'blk' => 'Pa\'O',', // German translation unassured
 	'bnn' => 'Bunun',
 	# used by Wikidata, T263946
 	'bqz' => 'Bakaka',

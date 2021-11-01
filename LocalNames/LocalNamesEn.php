@@ -35,6 +35,7 @@ $languageNames = [
 	'bkc' => 'Baka',
 	# used by Wikidata, T263946
 	'bkh' => 'Bakako',
+	'blk' => 'Pa\'O',
 	'bnn' => 'Bunun',
 	# used by Wikidata, T263946
 	'bqz' => 'Mka\'a',
