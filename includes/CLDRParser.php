@@ -168,7 +168,7 @@ class CLDRParser {
 	 * This is separate from the regular parse function, because we need all of
 	 * the currency locale information, even if mediawiki doesn't support the language.
 	 * (For instance: en_AU uses '$' for AUD, not USD, but it's not a supported mediawiki locality)
-	 * @param string $inputDir - the directory, in which we will parse everything.
+	 * @param string $inputDir the directory, in which we will parse everything.
 	 * @param string $outputFile
 	 */
 	public function parse_currency_symbols( $inputDir, $outputFile ) {
