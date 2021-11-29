@@ -327,6 +327,7 @@ $languageNames = [
 	'uun' => 'Pazeh',
 	'uz-cyrl' => 'Uzbek (Cyrillic script)',
 	'uz-latn' => 'Uzbek (Latin script)',
+	'vmw' => 'Makhuwa',
 	# used by Wikidata, T263946
 	'vut' => 'Vute',
 	# used by Wikidata, T263946
