@@ -99,6 +99,7 @@ $languageNames = [
 	'gan-hans' => 'Gan (Simplified)',
 	'gan-hant' => 'Gan (Traditional)',
 	'gcr' => 'Guianan Creole',
+	'gld' => 'Nanai',
 	# used by Wikidata T217131
 	'gml' => 'Middle Low German',
 	'gmy' => 'Mycenaean Greek',
@@ -195,6 +196,7 @@ $languageNames = [
 	'nl-informal' => 'Dutch (informal address)',
 	# used by Wikidata, T263946
 	'nla' => 'Ngombala',
+	'nmz' => 'Nawdm',
 	# used by Wikidata, T263946
 	'nnz' => 'Nda\'Nda\'',
 	'nod' => 'Northern Thai',

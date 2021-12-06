@@ -99,6 +99,7 @@ $languageNames = [
 	'gan-hans' => 'Gan (Vereinfachte Schrift)',
 	'gan-hant' => 'Gan (Traditionelle Schrift)',
 	'gcr' => 'Französisch-Guayana Kreolisch',
+	'gld' => 'Nanaisch',
 	# used by Wikidata T217131
 	'gml' => 'Mittelniederdeutsch',
 	'gmy' => 'Mykenisches Griechisch',
@@ -170,6 +171,7 @@ $languageNames = [
 	'mui' => 'Musi',
 	'nah' => 'Nahuatl',
 	'nl-informal' => 'Niederländusch (informelle Anrede)',
+	'nmz' => 'Nawdm',
 	# used by Wikidata, T263946
 	'nnz' => 'Nda\'nda\'',
 	'nod' => 'Lanna',
