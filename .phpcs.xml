@@ -2,8 +2,10 @@
 <ruleset>
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
 		<exclude name="MediaWiki.Commenting.PropertyDocumentation.MissingDocumentationPrivate" />
-		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch" />
 		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
+	</rule>
+	<rule ref="MediaWiki.Files.ClassMatchesFilename.NotMatch">
+		<exclude-pattern>*/rebuild\.php</exclude-pattern>
 	</rule>
 	<rule ref="Generic.Files.LineLength.TooLong">
 		<exclude-pattern>*/CldrNames/CldrNames*\.php</exclude-pattern>
