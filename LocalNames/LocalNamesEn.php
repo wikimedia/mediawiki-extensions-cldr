@@ -270,6 +270,7 @@ $languageNames = [
 	'rmy' => 'Vlax Romani',
 	'roa-rup' => 'Aromanian',
 	'roa-tara' => 'Tarantino',
+	'rsk' => 'Pannonian Rusyn',
 	'ruq' => 'Megleno-Romanian',
 	'ruq-cyrl' => 'Megleno-Romanian (Cyrillic script)',
 	'ruq-grek' => 'Megleno-Romanian (Greek script)',

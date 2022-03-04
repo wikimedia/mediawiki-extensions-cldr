@@ -241,6 +241,7 @@ $languageNames = [
 	'rmy' => 'Vlax-Romani',
 	'roa-rup' => 'Aromunisch',
 	'roa-tara' => 'Tarandíne',
+	'rsk' => 'Pannonisch-Russinisch',
 	'ruq' => 'Meglenorumänisch',
 	'ruq-cyrl' => 'Meglenorumänisch (kyrillische Schrift)',
 	'ruq-grek' => 'Meglenorumänisch (griechische Schrift)',
