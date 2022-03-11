@@ -223,7 +223,7 @@ $languageNames = [
 	// 'tg-latn' => 'Tajik (Latin script)',
 
 	/* additional list from Japanese Wikipedia */
-	'tokipona' => 'トキポナ',
+	'tok' => 'トキポナ',
 
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
