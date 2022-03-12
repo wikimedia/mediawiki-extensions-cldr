@@ -119,6 +119,8 @@ $languageNames = [
 	# used by Wikidata, T155368
 	'hbo' => 'Biblical Hebrew',
 	'hif-latn' => 'Fiji Hindi (Latin script)',
+	# used by Wikispecies, T303379
+	'hts' => 'Hadza',
 	# Missing en translation T256649
 	'hu-formal' => 'Hungarian (formal address)',
 	'hyw' => 'Western Armenian',

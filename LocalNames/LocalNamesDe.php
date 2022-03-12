@@ -117,6 +117,8 @@ $languageNames = [
 	'hbo' => 'Biblisches Hebräisch',
 	'hif' => 'Fidschi-Hindi',
 	'hif-latn' => 'Fidschi-Hindi (lateinische Schrift)',
+	# used by Wikispecies, T303379
+	'hts' => 'Hadza',
 	'hu-formal' => 'Ungarisch (formale Anrede)',
 	'hyw' => 'Westarmenisch',
 	'ike-cans' => 'Inuktitut (kanadische Silbenschrift)',
