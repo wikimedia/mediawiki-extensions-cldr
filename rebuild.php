@@ -11,6 +11,7 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\Extension\CLDR\CLDRParser;
 use MediaWiki\MediaWikiServices;
 
 // Standard boilerplate to define $IP

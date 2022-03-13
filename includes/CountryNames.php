@@ -1,5 +1,7 @@
 <?php
 
+namespace MediaWiki\Extension\CLDR;
+
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -79,3 +81,5 @@ class CountryNames extends CldrNames {
 		return self::$cache[$code] ?? [];
 	}
 }
+
+class_alias( CountryNames::class, 'CountryNames' );

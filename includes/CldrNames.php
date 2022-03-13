@@ -1,5 +1,7 @@
 <?php
 
+namespace MediaWiki\Extension\CLDR;
+
 use MediaWiki\MediaWikiServices;
 
 /**

@@ -14,8 +14,8 @@
 	"descriptionmsg": "cldr-desc",
 	"license-name": "GPL-2.0-or-later",
 	"Hooks": {
-		"LanguageGetTranslatedLanguageNames": "LanguageNames::coreHook",
-		"GetHumanTimestamp": "TimeUnits::onGetHumanTimestamp"
+		"LanguageGetTranslatedLanguageNames": "MediaWiki\\Extension\\CLDR\\LanguageNames::coreHook",
+		"GetHumanTimestamp": "MediaWiki\\Extension\\CLDR\\TimeUnits::onGetHumanTimestamp"
 	},
 	"MessagesDirs": {
 		"CLDR": [
@@ -23,12 +23,13 @@
 		]
 	},
 	"AutoloadClasses": {
-		"CLDRParser": "includes/CLDRParser.php",
-		"CldrNames": "includes/CldrNames.php",
-		"LanguageNames": "includes/LanguageNames.php",
 		"CountryNames": "includes/CountryNames.php",
-		"CurrencyNames": "includes/CurrencyNames.php",
-		"TimeUnits": "includes/TimeUnits.php"
+		"LanguageNames": "includes/LanguageNames.php",
+		"MediaWiki\\Extension\\CLDR\\CountryNames": "includes/CountryNames.php",
+		"MediaWiki\\Extension\\CLDR\\LanguageNames": "includes/LanguageNames.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\CLDR\\": "includes/"
 	},
 	"manifest_version": 2
 }

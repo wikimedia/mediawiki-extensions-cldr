@@ -1,6 +1,11 @@
 <?php
 
+namespace MediaWiki\Extension\CLDR;
+
+use Language;
 use MediaWiki\MediaWikiServices;
+use MWTimestamp;
+use User;
 
 /**
  * A class for querying translated time units from CLDR data.

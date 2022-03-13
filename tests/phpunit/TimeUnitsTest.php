@@ -5,7 +5,7 @@
  * @copyright Copyright © 2007-2013
  * @license GPL-2.0-or-later
  *
- * @covers TimeUnits
+ * @covers \MediaWiki\Extension\CLDR\TimeUnits
  */
 class TimeUnitsTest extends MediaWikiIntegrationTestCase {
 

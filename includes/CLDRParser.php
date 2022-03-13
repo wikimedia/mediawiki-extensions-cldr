@@ -1,5 +1,9 @@
 <?php
 
+namespace MediaWiki\Extension\CLDR;
+
+use SimpleXMLElement;
+
 /**
  * Extract data from cldr XML.
  *

@@ -1,5 +1,9 @@
 <?php
 
+namespace MediaWiki\Extension\CLDR;
+
+use Exception;
+use Language;
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -54,7 +58,7 @@ class LanguageNames extends CldrNames {
 			->getLanguageNames(
 				null,
 				$list === self::LIST_MW_SUPPORTED ? 'mwfile' : 'mw'
-		);
+			);
 
 		if ( $fbMethod === self::FALLBACK_NATIVE ) {
 			$names = array_merge( $native, $xx );
@@ -149,3 +153,5 @@ class LanguageNames extends CldrNames {
 		return true;
 	}
 }
+
+class_alias( LanguageNames::class, 'LanguageNames' );
