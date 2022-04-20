@@ -303,7 +303,6 @@ $languageNames = [
 	'xpu' => 'Punisch',
 	# https://d-nb.info/gnd/1075555310
 	'xsy' => 'Saisiyat',
-	'ydd' => 'Ostjiddisch',
 	'ykg' => 'Tundrajukagirisch',
 	'zh-classical' => 'klassisches Chinesisch',
 	'zh-cn' => 'Chinesisch (China)',

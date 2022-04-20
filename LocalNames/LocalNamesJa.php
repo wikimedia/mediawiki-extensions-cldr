@@ -237,10 +237,6 @@ $languageNames = [
 
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
-	// 'ydd' => 'Eastern Yiddish',
-
-	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
-	 */
 	'zh-classical' => '漢文',
 	'zh-cn' => '中国語（中国）',
 	'zh-hk' => '中国語（香港）',

@@ -370,10 +370,6 @@ $languageNames = [
 	 */
 	// 'xmf' => 'Mingrelian',
 
-	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
-	 */
-	'ydd' => 'ییدیشی شرقی',
-
 	/* Not in CLDR 27.0.1. Low Franconian language.
 	 * https://www.ethnologue.com/language/zea
 	 * Added 2008-01-17.

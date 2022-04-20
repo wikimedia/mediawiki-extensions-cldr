@@ -348,7 +348,6 @@ $languageNames = [
 	'yas' => 'Nugunu',
 	# used by Wikidata, T263946
 	'yat' => 'Yambeta',
-	'ydd' => 'Eastern Yiddish',
 	# used by Wikidata, T252198
 	'ykg' => 'Tundra Yukaghir',
 	'zh-classical' => 'Classical Chinese',
