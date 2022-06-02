@@ -280,6 +280,8 @@ $languageNames = [
 	# 'srq' => 'Sirionó', // German translation unassured
 	'ssf' => 'Thao',
 	'sty' => 'Sibirisches Tatarisch',
+	# Added to core with T309763
+	'tdd' => 'Tai Nüa',
 	'tg-cyrl' => 'Tadschikisch (kyrillische Schrift)',
 	'tg-latn' => 'Tadschikisch (lateinische Schrift)',
 	# 'tlb' => 'Tobelo', // German translation unassured

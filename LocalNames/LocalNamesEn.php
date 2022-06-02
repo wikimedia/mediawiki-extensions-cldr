@@ -308,6 +308,8 @@ $languageNames = [
 	'ssf' => 'Thao',
 	# Missing en translation T256649
 	'sty' => 'Siberian Tatar',
+	# Added to core with T309763
+	'tdd' => 'Tai Nuea',
 	'tg-cyrl' => 'Tajik (Cyrillic script)',
 	'tg-latn' => 'Tajik (Latin script)',
 	'tlb' => 'Tobelo',
