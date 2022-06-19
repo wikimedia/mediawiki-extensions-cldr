@@ -18,11 +18,12 @@ class TimeUnitsTest extends MediaWikiIntegrationTestCase {
 	 * @param string $desc Description
 	 */
 	public function testTimeUnit( $language, $tsTime, $currentTime, $expectedOutput, $desc ) {
+		$lang = Language::factory( $language );
 		$tsTime = new MWTimestamp( $tsTime );
 		$currentTime = new MWTimestamp( $currentTime );
 		$this->assertEquals(
 			$expectedOutput,
-			$tsTime->getHumanTimestamp( $currentTime, null, Language::factory( $language ) ),
+			$lang->getHumanTimestamp( $tsTime, $currentTime ),
 			$desc
 		);
 	}
