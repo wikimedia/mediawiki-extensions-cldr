@@ -303,6 +303,8 @@ $languageNames = [
 	'skr-arab' => 'Saraiki (Arabic script)',
 	'sr-ec' => 'Serbian (Cyrillic script)',
 	'sr-el' => 'Serbian (Latin script)',
+	# Added to core with T311034
+	'sro' => 'Campidanese Sardinian',
 	# used by Wikidata, added in InitialiseSettings.php
 	'srq' => 'Sirionó',
 	'ssf' => 'Thao',
