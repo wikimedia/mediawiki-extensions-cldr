@@ -105,6 +105,8 @@ $languageNames = [
 	'gmy' => 'Mycenaean Greek',
 	'gom-deva' => 'Goan Konkani (Devanagari script)',
 	'gom-latn' => 'Goan Konkani (Latin script)',
+	# Added to core, T311975.
+	'gpe' => 'Ghanaian Pidgin',
 	# used by Wikidata, T262922
 	'gsw-fr' => 'Alsatian',
 	# Added to core, T286460

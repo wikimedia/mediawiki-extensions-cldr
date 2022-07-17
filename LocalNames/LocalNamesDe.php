@@ -105,6 +105,8 @@ $languageNames = [
 	'gmy' => 'Mykenisches Griechisch',
 	'gom-deva' => 'Goa-Konkani (Devanagari)',
 	'gom-latn' => 'Goa-Konkani (lateinische Schrift)',
+	# Added to core, T311975.
+	'gpe' => 'Ghanaisches Pidgin-Englisch',
 	# used by Wikidata, T262922
 	'gsw-fr' => 'Elsässisch',
 	# Added to core, T286460. Source: http://d-nb.info/gnd/1205170707
