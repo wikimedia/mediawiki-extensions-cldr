@@ -3,8 +3,9 @@
 		"authors": [
 			"Robin van der Vliet",
 			"Robin0van0der0vliet",
-			"SK-luuut"
+			"SK-luuut",
+			"PiefPafPier"
 		]
 	},
-	"cldr-desc": "Taheaksel dy't fertaalde taalnammen oanbiedt basearre op [http://cldr.unicode.org/index/downloads CLDR-gegevens ]"
+	"cldr-desc": "Utwreiding dy't oersette taalnammen biedt basearre op [http://cldr.unicode.org/index/downloads CLDR-data]"
 }
