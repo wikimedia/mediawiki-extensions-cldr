@@ -15,7 +15,7 @@ use User;
  * @copyright Copyright © 2007-2013
  * @license GPL-2.0-or-later
  */
-class TimeUnits extends CldrNames {
+class TimeUnits {
 
 	private static $cache = [];
 
@@ -58,11 +58,16 @@ class TimeUnits extends CldrNames {
 		if ( !isset( self::$cache[$code] ) ) {
 			self::$cache[$code] = [];
 
-			$langNameUtil = MediaWikiServices::getInstance()->getLanguageNameUtils();
+			$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
+
+			if ( !$langNameUtils->isValidBuiltInCode( $code ) ) {
+				return [];
+			}
 
 			/* Load override for wrong or missing entries in cldr */
-			$override = __DIR__ . '/../LocalNames/' . self::getOverrideFileName( $code );
-			if ( $langNameUtil->isValidBuiltInCode( $code ) && file_exists( $override ) ) {
+			$override = __DIR__ . '/../LocalNames/' .
+				$langNameUtils->getFileName( 'LocalNames', $code, '.php' );
+			if ( file_exists( $override ) ) {
 				$timeUnits = false;
 
 				require $override;
@@ -73,8 +78,9 @@ class TimeUnits extends CldrNames {
 				}
 			}
 
-			$filename = __DIR__ . '/../CldrNames/' . self::getFileName( $code );
-			if ( $langNameUtil->isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
+			$filename = __DIR__ . '/../CldrNames/' .
+				$langNameUtils->getFileName( 'CldrNames', $code, '.php' );
+			if ( file_exists( $filename ) ) {
 				$timeUnits = false;
 				require $filename;
 				// @phan-suppress-next-line PhanImpossibleCondition

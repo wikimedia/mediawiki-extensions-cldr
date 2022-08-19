@@ -14,7 +14,7 @@ use MediaWiki\MediaWikiServices;
  * @copyright Copyright © 2007-2011
  * @license GPL-2.0-or-later
  */
-class LanguageNames extends CldrNames {
+class LanguageNames {
 
 	private static $cache = [];
 
@@ -110,14 +110,15 @@ class LanguageNames extends CldrNames {
 
 		self::$cache[$code] = [];
 
-		if ( !MediaWikiServices::getInstance()->getLanguageNameUtils()
-			->isValidBuiltInCode( $code )
-		) {
+		$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
+
+		if ( !$langNameUtils->isValidBuiltInCode( $code ) ) {
 			return [];
 		}
 
 		/* Load override for wrong or missing entries in cldr */
-		$override = __DIR__ . '/../LocalNames/' . self::getOverrideFileName( $code );
+		$override = __DIR__ . '/../LocalNames/' .
+			$langNameUtils->getFileName( 'LocalNames', $code, '.php' );
 		if ( file_exists( $override ) ) {
 			$languageNames = false;
 			require $override;
@@ -127,7 +128,8 @@ class LanguageNames extends CldrNames {
 			}
 		}
 
-		$filename = __DIR__ . '/../CldrNames/' . self::getFileName( $code );
+		$filename = __DIR__ . '/../CldrNames/' .
+			$langNameUtils->getFileName( 'CldrNames', $code, '.php' );
 		if ( file_exists( $filename ) ) {
 			$languageNames = false;
 			require $filename;

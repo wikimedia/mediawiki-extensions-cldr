@@ -12,7 +12,7 @@ use MediaWiki\MediaWikiServices;
  * @copyright Copyright © 2007-2012
  * @license GPL-2.0-or-later
  */
-class CurrencyNames extends CldrNames {
+class CurrencyNames {
 
 	private static $cache = [];
 
@@ -48,9 +48,14 @@ class CurrencyNames extends CldrNames {
 
 			$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 
+			if ( !$langNameUtils->isValidBuiltInCode( $code ) ) {
+				return [];
+			}
+
 			/* Load override for wrong or missing entries in cldr */
-			$override = __DIR__ . '/../LocalNames/' . self::getOverrideFileName( $code );
-			if ( $langNameUtils->isValidBuiltInCode( $code ) && file_exists( $override ) ) {
+			$override = __DIR__ . '/../LocalNames/' .
+				$langNameUtils->getFileName( 'LocalNames', $code, '.php' );
+			if ( file_exists( $override ) ) {
 				$currencyNames = false;
 				require $override;
 				// @phan-suppress-next-line PhanImpossibleCondition
@@ -59,8 +64,9 @@ class CurrencyNames extends CldrNames {
 				}
 			}
 
-			$filename = __DIR__ . '/../CldrNames/' . self::getFileName( $code );
-			if ( $langNameUtils->isValidBuiltInCode( $code ) && file_exists( $filename ) ) {
+			$filename = __DIR__ . '/../CldrNames/' .
+				$langNameUtils->getFileName( 'CldrNames', $code, '.php' );
+			if ( file_exists( $filename ) ) {
 				$currencyNames = false;
 				require $filename;
 				// @phan-suppress-next-line PhanImpossibleCondition
