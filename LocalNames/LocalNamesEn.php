@@ -258,6 +258,8 @@ $languageNames = [
 	'qya' => 'Quenya',
 	# used by Wikidata, T267479
 	'rah' => 'Rabha',
+	# T320912
+	'rki' => 'Arakanese',
 	'rm-puter' => 'Putèr',
 	'rm-rumgr' => 'Rumantsch Grischun',
 	'rm-surmiran' => 'Surmiran',

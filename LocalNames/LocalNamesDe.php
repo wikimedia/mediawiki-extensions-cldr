@@ -229,6 +229,8 @@ $languageNames = [
 	# 'pyu' => 'Puyuma', // German translation unassured
 	# used by Wikidata, T185194
 	'qya' => 'Quenya',
+	# T320912
+	'rki' => 'Arakanesisch',
 	'rm-puter' => 'Oberengadinisch',
 	'rm-rumgr' => 'Rumantsch Grischun',
 	'rm-surmiran' => 'Surmeirisch',
