@@ -14,6 +14,8 @@ $languageNames = [
 	'aeb-latn' => 'Tunisian Arabic (Latin script)',
 	# used by Wikidata, T190981
 	'alc' => 'Kawésqar',
+	# used by Wikidata, T295738
+	'alq' => 'Algonquin',
 	'ami' => 'Amis',
 	'azb' => 'South Azerbaijani',
 	# used by Wikidata, T263946
@@ -63,6 +65,8 @@ $languageNames = [
 	'ckt' => 'Chukchi',
 	# used by Wikidata, T222020
 	'clc' => 'Chilcotin',
+	# used by Wikidata, T215032
+	'cmg' => 'Classical Mongolian',
 	# used by Wikidata, T278853
 	'cnh' => 'Hakha-Chin',
 	'cnr' => 'Montenegrin',
@@ -83,6 +87,8 @@ $languageNames = [
 	# used by Wikidata, T198674
 	'el-cy' => 'Cypriot Greek',
 	'eml' => 'Emiliano-Romagnolo',
+	# used by Wikidata, T212313
+	'en-in' => 'Indian English',
 	# Missing en translation T256649
 	'es-formal' => 'Spanish (formal address)',
 	# used by Wikidata, T263946
@@ -217,6 +223,8 @@ $languageNames = [
 	'nxm' => 'Numidian',
 	# used by Wikidata, added in InitialiseSettings.php
 	'nys' => 'Nyungar',
+	# used by Wikidata, T319125
+	'obt' => 'Old Breton',
 	# Added to Core, T283053
 	'ojb' => 'Northwestern Ojibwe',
 	# used by Wikidata, T195816
@@ -284,6 +292,8 @@ $languageNames = [
 	'ryu' => 'Okinawan',
 	# used by Wikidata T230881
 	'sa-sidd' => 'Sanskrit (Siddham script)',
+	# used by Wikidata, T312904
+	'ser' => 'Serrano',
 	'shi-latn' => 'Tachelhit (Latin script)',
 	'shi-tfng' => 'Tachelhit (Tifinagh script)',
 	'shy' => 'Shawiya',
@@ -310,6 +320,8 @@ $languageNames = [
 	# used by Wikidata, added in InitialiseSettings.php
 	'srq' => 'Sirionó',
 	'ssf' => 'Thao',
+	# used by Wikidata, T294922
+	'sth' => 'Shelta',
 	# Missing en translation T256649
 	'sty' => 'Siberian Tatar',
 	# Added to core with T313199
@@ -350,12 +362,16 @@ $languageNames = [
 	'wls' => 'Wallisian',
 	# used by Wikidata, T283364
 	'wya' => 'Wyandot',
+	# used by Wikidata, T319125
+	'xbm' => 'Middle Breton',
 	'xpu' => 'Punic',
 	'xsy' => 'Saisiyat',
 	# used by Wikidata, T263946
 	'yas' => 'Nugunu',
 	# used by Wikidata, T263946
 	'yat' => 'Yambeta',
+	# used by Wikidata, T296504
+	'yec' => 'Yeniche',
 	# used by Wikidata, T252198
 	'ykg' => 'Tundra Yukaghir',
 	'zh-classical' => 'Classical Chinese',

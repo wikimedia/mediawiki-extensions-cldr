@@ -17,6 +17,8 @@ $languageNames = [
 	'aeb-latn' => 'Tunesisches Arabisch (lateinische Schrift)',
 	# used by Wikidata, T190981
 	'alc' => 'Kawesqar',
+	# used by Wikidata, T295738
+	'alq' => 'Algonquian',
 	'ami' => 'Amisisch',
 	'azb' => 'Südaserbaidschanisch',
 	'bat-smg' => 'Schemaitisch',
@@ -60,6 +62,8 @@ $languageNames = [
 	'ckt' => 'Tschuktschisch',
 	# used by Wikidata, T222020
 	'clc' => 'Tschilcotin',
+	# used by Wikidata, T215032
+	'cmg' => 'Klassisches Mongolisch',
 	# used by Wikidata, T278853
 	'cnh' => 'Hakha Chin',
 	'cnr' => 'Montenegrinisch',
@@ -82,6 +86,8 @@ $languageNames = [
 	'en-au' => 'Australisches Englisch',
 	'en-ca' => 'Kanadisches Englisch',
 	'en-gb' => 'Britisches Englisch',
+	# used by Wikidata, T212313
+	'en-in' => 'Indisches Englisch',
 	'en-uk' => 'Britisches Englisch',
 	'en-us' => 'Amerikanisches Englisch',
 	# part of CldrNamesEn.php, missing in CLDR 39
@@ -191,6 +197,8 @@ $languageNames = [
 	'nsk' => 'Naskapi',
 	'nxm' => 'Numidisch',
 	# 'nys' => 'Nyunga', // German translation unassured
+	# used by Wikidata, T319125
+	'obt' => 'Altbretonisch',
 	# Added to Core, T283053
 	'ojb' => 'Nordwestliches Ojibwe',
 	# used by Wikidata, T195816
@@ -255,6 +263,8 @@ $languageNames = [
 	'ryu' => 'Okinawa',
 	# used by Wikidata T230881
 	'sa-sidd' => 'Sanskrit (Siddham-Schrift)',
+	# used by Wikidata, T312904
+	'ser' => 'Serrano',
 	# needs upstream fix
 	'sh' => 'Serbokroatisch',
 	'shi-latn' => 'Taschelhit (lateinische Schrift)',
@@ -283,6 +293,8 @@ $languageNames = [
 	'sro' => 'Campidanesisch',
 	# 'srq' => 'Sirionó', // German translation unassured
 	'ssf' => 'Thao',
+	# used by Wikidata, T294922
+	'sth' => 'Shelta',
 	'sty' => 'Sibirisches Tatarisch',
 	# Added to core with T313199
 	'syl' => 'Sylheti',
@@ -308,9 +320,13 @@ $languageNames = [
 	# used by Wikidata, T239411
 	'wls' => 'Wallisianisch',
 	'wya' => 'Wyandot',
+	# used by Wikidata, T319125
+	'xbm' => 'Mittelbretonisch',
 	'xpu' => 'Punisch',
 	# https://d-nb.info/gnd/1075555310
 	'xsy' => 'Saisiyat',
+	# used by Wikidata, T296504
+	'yec' => 'Jenisch',
 	'ykg' => 'Tundrajukagirisch',
 	'zh-classical' => 'klassisches Chinesisch',
 	'zh-cn' => 'Chinesisch (China)',
