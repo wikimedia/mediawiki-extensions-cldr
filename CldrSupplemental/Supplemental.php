@@ -229,6 +229,10 @@ $currencyFractions = [
 		'cashDigits' => '0',
 		'cashRounding' => '0',
 	],
+	'SLE' => [
+		'digits' => '2',
+		'rounding' => '0',
+	],
 	'SLL' => [
 		'digits' => '0',
 		'rounding' => '0',
@@ -631,7 +635,7 @@ $localeCurrencies = [
 		'HNL',
 	],
 	'HR' => [
-		'HRK',
+		'EUR',
 	],
 	'HT' => [
 		'HTG',
@@ -954,7 +958,7 @@ $localeCurrencies = [
 		'EUR',
 	],
 	'SL' => [
-		'SLL',
+		'SLE',
 	],
 	'SM' => [
 		'EUR',

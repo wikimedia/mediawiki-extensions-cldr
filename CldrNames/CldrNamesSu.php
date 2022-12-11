@@ -60,6 +60,7 @@ $countryNames = [
 	'DE' => 'Jérman',
 	'FR' => 'Prancis',
 	'GB' => 'Britania Raya',
+	'ID' => 'Indonesia',
 	'IN' => 'India',
 	'IT' => 'Italia',
 	'JP' => 'Jepang',

@@ -188,7 +188,7 @@ $currencySymbols = [
 	'JPY' => 'JP¥',
 	'RUB' => 'RUB',
 	'USD' => '$',
-	'XOF' => 'CFA',
+	'XOF' => 'F CFA',
 ];
 
 $countryNames = [
@@ -230,7 +230,9 @@ $countryNames = [
 	'BZ' => 'Belis',
 	'CA' => 'Kanadaa',
 	'CC' => 'Duni Koko (Kilin)',
+	'CD' => 'Kongo (R K D)',
 	'CF' => 'Repiblik Sàntar Afrik',
+	'CG' => 'Réewum Kongo',
 	'CH' => 'Siwis',
 	'CI' => 'Kodiwaar',
 	'CK' => 'Duni Kuuk',
