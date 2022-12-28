@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * Tests for TimeUnits
  * @author Santhosh Thottingal
@@ -18,7 +21,7 @@ class TimeUnitsTest extends MediaWikiIntegrationTestCase {
 	 * @param string $desc Description
 	 */
 	public function testTimeUnit( $language, $tsTime, $currentTime, $expectedOutput, $desc ) {
-		$lang = Language::factory( $language );
+		$lang = MediaWikiServices::getInstance()->getLanguageFactory()->getLanguage( $language );
 		$tsTime = new MWTimestamp( $tsTime );
 		$currentTime = new MWTimestamp( $currentTime );
 		$this->assertEquals(
