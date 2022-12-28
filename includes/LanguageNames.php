@@ -3,7 +3,6 @@
 namespace MediaWiki\Extension\CLDR;
 
 use Exception;
-use Language;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
 
@@ -67,7 +66,7 @@ class LanguageNames {
 			// Load missing language names from fallback languages
 			$fb = $xx;
 
-			$fallbacks = Language::getFallbacksFor( $code );
+			$fallbacks = MediaWikiServices::getInstance()->getLanguageFallback()->getAll( $code );
 			foreach ( $fallbacks as $fallback ) {
 				// Overwrite the things in fallback with what we have already
 				$fb = array_merge( self::loadLanguage( $fallback ), $fb );

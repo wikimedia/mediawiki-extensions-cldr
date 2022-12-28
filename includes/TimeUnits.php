@@ -36,7 +36,7 @@ class TimeUnits {
 			return $units;
 		}
 		// Load missing time units from fallback languages
-		$fallbacks = Language::getFallbacksFor( $code );
+		$fallbacks = MediaWikiServices::getInstance()->getLanguageFallback()->getAll( $code );
 		foreach ( $fallbacks as $fallback ) {
 			if ( $units ) {
 				break;
