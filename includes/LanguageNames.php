@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\CLDR;
 
 use Exception;
 use Language;
+use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -56,8 +57,8 @@ class LanguageNames {
 
 		$native = MediaWikiServices::getInstance()->getLanguageNameUtils()
 			->getLanguageNames(
-				null,
-				$list === self::LIST_MW_SUPPORTED ? 'mwfile' : 'mw'
+				LanguageNameUtils::AUTONYMS,
+				$list === self::LIST_MW_SUPPORTED ? LanguageNameUtils::SUPPORTED : LanguageNameUtils::DEFINED
 			);
 
 		if ( $fbMethod === self::FALLBACK_NATIVE ) {
