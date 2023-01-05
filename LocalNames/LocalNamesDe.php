@@ -111,6 +111,8 @@ $languageNames = [
 	'gmy' => 'Mykenisches Griechisch',
 	'gom-deva' => 'Goa-Konkani (Devanagari)',
 	'gom-latn' => 'Goa-Konkani (lateinische Schrift)',
+	# Error in CLDR, reported via https://unicode-org.atlassian.net/browse/CLDR-16289
+	'gor' => 'Gorontalo',
 	# Added to core, T311975.
 	'gpe' => 'Ghanaisches Pidgin-Englisch',
 	# used by Wikidata, T262922
