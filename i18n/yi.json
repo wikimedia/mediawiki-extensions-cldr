@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"פוילישער"
+			"פוילישער",
+			"וויקיפּעדלער"
 		]
 	},
-	"cldr-desc": "פארברייטערונג וואס פארזארגט שפראכן נעמען באזירט אויף [http://cldr.unicode.org/index/downloads CLDR דאטן]"
+	"cldr-desc": "פארברייטערונג וואס פארזארגט לאקאליזירטע שפראך נעמען באזירט אויף [http://cldr.unicode.org/index/downloads CLDR דאטן]"
 }
