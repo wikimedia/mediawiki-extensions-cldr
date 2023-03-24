@@ -65,8 +65,6 @@ $languageNames = [
 	'cjy-hant' => 'Jinyu (Traditional)',
 	# used by Wikidata, T240097
 	'ckt' => 'Chukchi',
-	# used by Wikidata, T222020
-	'clc' => 'Chilcotin',
 	# used by Wikidata, T215032
 	'cmg' => 'Classical Mongolian',
 	# used by Wikidata, T278853
@@ -74,11 +72,8 @@ $languageNames = [
 	'cnr' => 'Montenegrin',
 	# used by Wikidata, T220284
 	'crb' => 'Island Carib',
-	'crh' => 'Crimean Tatar',
 	'crh-cyrl' => 'Crimean Tatar (Cyrillic script)',
 	'crh-latn' => 'Crimean Tatar (Latin script)',
-	# used by Wikidata, T264532
-	'crl' => 'East Cree',
 	# used by Wikidata, T240098
 	'dag' => 'Dagbani',
 	'de-formal' => 'German (formal address)',
@@ -197,7 +192,6 @@ $languageNames = [
 	'mix' => 'Mixtec',
 	'mnw' => 'Mon',
 	'mo' => 'Moldovan',
-	'moe' => 'Innu',
 	# used by Wikidata, T270059
 	'ms-arab' => 'Malay (Jawi script)',
 	'mui' => 'Musi',
@@ -231,8 +225,6 @@ $languageNames = [
 	'nys' => 'Nyungar',
 	# used by Wikidata, T319125
 	'obt' => 'Old Breton',
-	# Added to Core, T283053
-	'ojb' => 'Northwestern Ojibwe',
 	# used by Wikidata, T195816
 	'ojp' => 'Old Japanese',
 	# used by Wikidata, T195816
