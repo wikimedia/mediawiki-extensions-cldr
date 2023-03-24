@@ -73,8 +73,8 @@ $languageNames = [
 	'crh' => 'Krimtatarisch',
 	'crh-cyrl' => 'Krimtatarisch (kyrillische Schrift)',
 	'crh-latn' => 'Krimtatarisch (lateinische Schrift)',
-	# used by Wikidata, T264532
-	'crl' => 'Ost-Cree',
+	# Report upstream https://unicode-org.atlassian.net/jira/software/c/projects/CLDR/issues/CLDR-16507
+	'crl' => 'Nordost-Cree',
 	# used by Wikidata, T240098
 	'dag' => 'Dagbani',
 	'de-formal' => 'Deutsch (Sie-Form)',
