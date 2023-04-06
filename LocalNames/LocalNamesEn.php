@@ -12,6 +12,8 @@ $languageNames = [
 	'ady-cyrl' => 'Adyghe (Cyrillic script)',
 	'aeb-arab' => 'Tunisian Arabic (Arabic script)',
 	'aeb-latn' => 'Tunisian Arabic (Latin script)',
+	# used by Wikidata, T321644
+	'aec' => 'Saʽidi Arabic',
 	# used by Wikidata, T190981
 	'alc' => 'Kawésqar',
 	# used by Wikidata, T295738
@@ -101,6 +103,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'fmp' => 'Fe\'Fe\'',
 	'fos' => 'Siraya',
+	# used by Wikidata, T314935
+	'fud' => 'Futunan',
 	'fuf' => 'Pular',
 	'gan-hans' => 'Gan (Simplified)',
 	'gan-hant' => 'Gan (Traditional)',
@@ -369,6 +373,8 @@ $languageNames = [
 	# used by Wikidata, T319125
 	'xbm' => 'Middle Breton',
 	'xpu' => 'Punic',
+	# used by Wikidata, T317354
+	'xsu' => 'Sanumá',
 	'xsy' => 'Saisiyat',
 	# used by Wikidata, T263946
 	'yas' => 'Nugunu',

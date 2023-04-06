@@ -15,6 +15,8 @@ $languageNames = [
 	'ady-cyrl' => 'Adygeisch (kyrillisch Schrift)',
 	'aeb-arab' => 'Tunesisches Arabisch (arabische Schrift)',
 	'aeb-latn' => 'Tunesisches Arabisch (lateinische Schrift)',
+	# used by Wikidata, T321644
+	'aec' => 'Saʽidi-Arabisch',
 	# used by Wikidata, T190981
 	'alc' => 'Kawesqar',
 	# used by Wikidata, T295738
@@ -101,6 +103,8 @@ $languageNames = [
 	'fkv' => 'Kvenisch',
 	'fr-ca' => 'Kanadisches Französisch',
 	'fr-ch' => 'Schweizer Französisch',
+	# used by Wikidata, T314935
+	'fud' => 'Futunisch',
 	# 'fuf' => 'Pular', // German translation unassured
 	'gan-hans' => 'Gan (Vereinfachte Schrift)',
 	'gan-hant' => 'Gan (Traditionelle Schrift)',
@@ -329,6 +333,8 @@ $languageNames = [
 	# used by Wikidata, T319125
 	'xbm' => 'Mittelbretonisch',
 	'xpu' => 'Punisch',
+	# used by Wikidata, T317354
+	'xsu' => 'Sanumá',
 	# https://d-nb.info/gnd/1075555310
 	'xsy' => 'Saisiyat',
 	# used by Wikidata, T296504
