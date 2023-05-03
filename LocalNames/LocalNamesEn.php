@@ -46,6 +46,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'bqz' => 'Mka\'a',
 	'bxr' => 'Russia Buriat',
+	# used by Wikidata, T323440
+	'bzs' => 'Brazilian Sign Language',
 	# used by Wikidata, T278854
 	'cak' => 'Kaqchikel',
 	# used by Wikidata, T266423
@@ -343,6 +345,8 @@ $languageNames = [
 	'tt-latn' => 'Tatar (Latin script)',
 	# used by Wikidata, T263946
 	'tvu' => 'Tunen',
+	# used by Wikidata, T331094
+	'txg' => 'Tangut',
 	'tzl' => 'Talossan',
 	'ug-arab' => 'Uyghur (Arabic script)',
 	'ug-latn' => 'Uyghur (Latin script)',
