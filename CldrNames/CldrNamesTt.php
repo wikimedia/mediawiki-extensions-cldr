@@ -471,6 +471,7 @@ $timeUnits = [
 	'quarter-short-future-other' => '{0} кв.',
 	'quarter-short-past-other' => '{0} кв. элек',
 	'sat-future-other' => '{0} шимбә узгач',
+	'sat-narrow-future-other' => '{0} шим. узгач',
 	'sat-narrow-past-other' => '{0} шим. элек',
 	'sat-past-other' => '{0} шимбә элек',
 	'sat-short-future-other' => '{0} шим. узгач',

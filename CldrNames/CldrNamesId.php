@@ -297,6 +297,7 @@ $languageNames = [
 	'lij' => 'Liguria',
 	'lil' => 'Lillooet',
 	'lkt' => 'Lakota',
+	'lmo' => 'Lombard',
 	'ln' => 'Lingala',
 	'lo' => 'Lao',
 	'lol' => 'Mongo',

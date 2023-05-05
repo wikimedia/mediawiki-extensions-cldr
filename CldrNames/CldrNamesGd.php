@@ -226,6 +226,7 @@ $languageNames = [
 	'hax' => 'Haida Dheasach',
 	'he' => 'Eabhra',
 	'hi' => 'Hindis',
+	'hi-latn' => 'Hindis (Laideann)',
 	'hif' => 'Hindis Fhìditheach',
 	'hil' => 'Hiligaynon',
 	'hit' => 'Cànan Het',

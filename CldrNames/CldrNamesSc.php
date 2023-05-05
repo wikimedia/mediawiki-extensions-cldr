@@ -747,6 +747,8 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
+	'BYN' => 'BYN',
+	'RUR' => 'RUR',
 	'XDR' => 'DIP',
 ];
 

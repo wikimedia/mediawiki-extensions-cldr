@@ -283,6 +283,7 @@ $languageNames = [
 	'li' => 'limburguês',
 	'lil' => 'lillooet',
 	'lkt' => 'lacota',
+	'lmo' => 'lombardo',
 	'ln' => 'lingala',
 	'lo' => 'laosiano',
 	'lol' => 'mongo',

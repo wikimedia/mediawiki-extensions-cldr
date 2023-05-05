@@ -189,6 +189,7 @@ $languageNames = [
 	'hax' => 'dienvidhaidu',
 	'he' => 'ivrits',
 	'hi' => 'hindi',
+	'hi-latn' => 'hindi (latīņu)',
 	'hil' => 'hiligainonu',
 	'hit' => 'hetu',
 	'hmn' => 'hmongu',

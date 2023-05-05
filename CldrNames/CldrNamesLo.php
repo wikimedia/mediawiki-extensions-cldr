@@ -1338,6 +1338,7 @@ $timeUnits = [
 	'nanosecond-other' => '{0} ນາ​ໂນ​ວິ​ນາ​ທີ',
 	'quarter-future-other' => 'ໃນອີກ {0} ໄຕຣມາດ',
 	'quarter-narrow-future-other' => 'ໃນ {0} ຕມ.',
+	'quarter-narrow-past-other' => '{0} ຕມ. ກ່ອນ',
 	'quarter-other' => '{0} ໄຕມາດ',
 	'quarter-past-other' => '{0} ໄຕຣມາດກ່ອນ',
 	'quarter-short-future-other' => 'ໃນ {0} ຕມ.',

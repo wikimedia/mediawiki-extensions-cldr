@@ -805,6 +805,7 @@ $currencyNames = [
 
 $currencySymbols = [
 	'AUD' => 'A$',
+	'BYN' => 'BYN',
 	'CAD' => 'CA$',
 	'CHF' => 'CHF',
 	'DKK' => 'DKK',

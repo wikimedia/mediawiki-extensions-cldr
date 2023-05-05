@@ -1,6 +1,6 @@
 .PHONY: help all clean test
 
-CORE=https://www.unicode.org/Public/cldr/42/core.zip
+CORE=https://www.unicode.org/Public/cldr/43/core.zip
 
 help:
 	@echo "'make all' to download CLDR data and rebuild files."

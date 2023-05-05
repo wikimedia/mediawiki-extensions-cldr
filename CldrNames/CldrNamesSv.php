@@ -1089,6 +1089,7 @@ $currencySymbols = [
 	'RON' => 'RON',
 	'RSD' => 'RSD',
 	'RUB' => 'RUB',
+	'RUR' => 'RUR',
 	'RWF' => 'RWF',
 	'SAR' => 'SAR',
 	'SBD' => 'SBD',

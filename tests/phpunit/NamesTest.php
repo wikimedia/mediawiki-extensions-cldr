@@ -81,6 +81,7 @@ class NamesTest extends MediaWikiIntegrationTestCase {
 					'CN' => 'China',
 					'CO' => 'Colombia',
 					'CP' => 'Clipperton Island',
+					'CQ' => 'Sark',
 					'CR' => 'Costa Rica',
 					'CU' => 'Cuba',
 					'CV' => 'Cape Verde',
@@ -263,7 +264,7 @@ class NamesTest extends MediaWikiIntegrationTestCase {
 					'TM' => 'Turkmenistan',
 					'TN' => 'Tunisia',
 					'TO' => 'Tonga',
-					'TR' => 'Turkey',
+					'TR' => 'Türkiye',
 					'TT' => 'Trinidad & Tobago',
 					'TV' => 'Tuvalu',
 					'TW' => 'Taiwan',
@@ -291,7 +292,7 @@ class NamesTest extends MediaWikiIntegrationTestCase {
 					'YT' => 'Mayotte',
 					'ZA' => 'South Africa',
 					'ZM' => 'Zambia',
-					'ZW' => 'Zimbabwe'
+					'ZW' => 'Zimbabwe',
 				],
 			'English langauge country name data as array' ],
 			[ 'api.php', [], 'Bad language code which silently fails to empty array' ]

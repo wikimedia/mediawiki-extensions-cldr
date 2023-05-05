@@ -198,6 +198,7 @@ $languageNames = [
 	'hax' => 'Haida Deheuol',
 	'he' => 'Hebraeg',
 	'hi' => 'Hindi',
+	'hi-latn' => 'Hindi (Lladin)',
 	'hil' => 'Hiligaynon',
 	'hit' => 'Hetheg',
 	'hmn' => 'Hmongeg',

@@ -202,6 +202,7 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
+	'BYN' => 'BYN',
 	'PHP' => '₱',
 	'USD' => 'US $',
 ];

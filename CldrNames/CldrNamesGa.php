@@ -812,6 +812,7 @@ $currencySymbols = [
 	'BUK' => 'BUK',
 	'BWP' => 'P',
 	'BYB' => 'BYB',
+	'BYN' => 'BYN',
 	'BYR' => 'BYR',
 	'BZD' => '$',
 	'CAD' => '$',

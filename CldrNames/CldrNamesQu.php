@@ -1037,6 +1037,7 @@ $timeUnits = [
 	'quarter-future-other' => '+{0} Q',
 	'quarter-narrow-future-other' => '+{0} Q',
 	'quarter-narrow-past-other' => '-{0} Q',
+	'quarter-other' => '{0} q',
 	'quarter-past-other' => '-{0} Q',
 	'quarter-short-future-other' => '+{0} Q',
 	'quarter-short-past-other' => '-{0} Q',
