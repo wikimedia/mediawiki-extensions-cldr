@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lloffiwr"
+			"Lloffiwr",
+			"Afalau"
 		]
 	},
-	"cldr-desc": "Estyniad sy'n defnyddio [http://cldr.unicode.org/index/downloads data CLDR] i ddarparu enwau ieithoedd yn iaith y wici"
+	"cldr-desc": "Ychwanegyn sy'n defnyddio [http://cldr.unicode.org/index/downloads data CLDR] i ddarparu enwau ieithoedd yn iaith y wici"
 }
