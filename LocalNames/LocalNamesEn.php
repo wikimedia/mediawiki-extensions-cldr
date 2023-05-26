@@ -21,9 +21,12 @@ $languageNames = [
 	# used by Wikidata, T295738
 	'alq' => 'Algonquin',
 	'ami' => 'Amis',
+	'apc' => 'Levantine Arabic',
+	'az-cyrl' => 'Azerbaijani (Cyrillic script)',
 	'azb' => 'South Azerbaijani',
 	# used by Wikidata, T263946
 	'bag' => 'Tuki',
+	'ban-bali' => 'Balinese (Balinese script)',
 	'bat-smg' => 'Samogitian',
 	'bbc-latn' => 'Batak Toba (Latin script)',
 	'bcc' => 'Southern Balochi',
@@ -35,6 +38,7 @@ $languageNames = [
 	'be-tarask' => 'Belarusian (Taraškievica orthography)',
 	# internal code of be-tarask.wikipedia.org
 	'be-x-old' => 'Belarusian (Taraškievica orthography)',
+	'bfi' => 'British Sign Language',
 	'bgp' => 'Eastern Balochi',
 	'bh' => 'Bhojpuri',
 	# used by Wikidata, T263946
@@ -53,6 +57,7 @@ $languageNames = [
 	# used by Wikidata, T266423
 	'cal' => 'Carolinian',
 	'cbk-zam' => 'Chavacano',
+	'ccp-beng' => 'Chakma (Bengali script)',
 	'cdo' => 'Min Dong Chinese',
 	# used by Wikidata, T180771
 	'cdo-hani' => 'Min Dong Chinese (Hanji)',
@@ -78,8 +83,10 @@ $languageNames = [
 	'crb' => 'Island Carib',
 	'crh-cyrl' => 'Crimean Tatar (Cyrillic script)',
 	'crh-latn' => 'Crimean Tatar (Latin script)',
+	'ctg' => 'Chittagonian',
 	# used by Wikidata, T240098
 	'dag' => 'Dagbani',
+	'de-1901' => 'German (traditional orthography)',
 	'de-formal' => 'German (formal address)',
 	'dlc' => 'Dalecarlian',
 	# used by Wikidata, T267915
@@ -90,6 +97,8 @@ $languageNames = [
 	'eml' => 'Emiliano-Romagnolo',
 	# used by Wikidata, T212313
 	'en-in' => 'Indian English',
+	'eo-hsistemo' => 'Esperanto (h-system orthography)',
+	'eo-xsistemo' => 'Esperanto (x-system orthography)',
 	# Missing en translation T256649
 	'es-formal' => 'Spanish (formal address)',
 	# used by Wikidata, T263946
@@ -116,12 +125,14 @@ $languageNames = [
 	'gom-latn' => 'Goan Konkani (Latin script)',
 	# Added to core, T311975.
 	'gpe' => 'Ghanaian Pidgin',
+	'gsg' => 'German Sign Language',
 	# used by Wikidata, T262922
 	'gsw-fr' => 'Alsatian',
 	# Added to core, T286460
 	'guw' => 'Gun',
 	# used by Wikidata, T263946
 	'gya' => 'Gbaya',
+	'ha-arab' => 'Hausa (Arabic script)',
 	# used by Wikidata, T180771
 	'hak-hans' => 'Hakka (Simplified)',
 	# used by Wikidata, T180771
@@ -132,6 +143,7 @@ $languageNames = [
 	'hif-latn' => 'Fiji Hindi (Latin script)',
 	# Added to core, T332113
 	'hno' => 'Northern Hindko',
+	'hoc' => 'Ho',
 	# used by Wikispecies, T303379
 	'hts' => 'Hadza',
 	# Missing en translation T256649
@@ -171,6 +183,7 @@ $languageNames = [
 	'ksw' => 'S\'gaw Karen',
 	'ku-arab' => 'Kurdish (Arabic script)',
 	'ku-latn' => 'Kurdish (Latin script)',
+	'lad-hebr' => 'Ladino (Hebrew script)',
 	'lbe' => 'Lak',
 	# used by Wikidata, T234761
 	'lcm' => 'Tungag',
@@ -203,6 +216,7 @@ $languageNames = [
 	 * https://unicode-org.atlassian.net/browse/CLDR-9664
 	 */
 	'mul' => 'multiple languages',
+	'mvf' => 'Peripheral Mongolian',
 	# used by Wikidata, T180771
 	'nan-hani' => 'Min Nan (Hanji)',
 	# used by Wikidata, T263946
@@ -212,6 +226,7 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'nla' => 'Ngombala',
 	'nmz' => 'Nawdm',
+	'nn-hognorsk' => 'Norwegian Høgnorsk',
 	# used by Wikidata, T263946
 	'nnz' => 'Nda\'Nda\'',
 	'nod' => 'Northern Thai',
@@ -251,17 +266,22 @@ $languageNames = [
 	# used by Wikidata T230881
 	'pi-sidd' => 'Pali (Siddham script)',
 	'pjt' => 'Pitjantjatjara',
+	'pks' => 'Pakistan Sign Language',
 	'pnb' => 'Western Punjabi',
 	'ppu' => 'Papora-Hoanya',
 	'prs' => 'Dari',
+	'pt-ao1990' => 'Portuguese (1990 Orthographic Agreement)',
+	'pt-colb1945' => 'Portuguese (1945 Orthographic Agreement)',
 	'pwn' => 'Paiwan',
 	'pyu' => 'Puyuma',
 	# used by Wikidata, T185194
 	'qya' => 'Quenya',
 	# used by Wikidata, T267479
 	'rah' => 'Rabha',
+	'rhg-rohg' => 'Rohingya (Hanifi Rohingya script)',
 	# T320912
 	'rki' => 'Arakanese',
+	'rkt' => 'Rangpuri',
 	'rm-puter' => 'Putèr',
 	'rm-rumgr' => 'Rumantsch Grischun',
 	'rm-surmiran' => 'Surmiran',
@@ -296,8 +316,16 @@ $languageNames = [
 	'ryu' => 'Okinawan',
 	# used by Wikidata T230881
 	'sa-sidd' => 'Sanskrit (Siddham script)',
+	'sat-beng' => 'Santali (Bengali script)',
+	'sat-latn' => 'Santali (Latin script)',
+	'sat-orya' => 'Santali (Oriya script)',
+	'se-fi' => 'Northern Sami (Finland)',
+	'se-no' => 'Northern Sami (Norway)',
+	'se-se' => 'Northern Sami (Sweden)',
 	# used by Wikidata, T312904
 	'ser' => 'Serrano',
+	'sh-cyrl' => 'Serbo-Croatian (Cyrillic script)',
+	'sh-latn' => 'Serbo-Croatian (Latin script)',
 	'shi-latn' => 'Tachelhit (Latin script)',
 	'shi-tfng' => 'Tachelhit (Tifinagh script)',
 	'shy' => 'Shawiya',
@@ -328,8 +356,11 @@ $languageNames = [
 	'sth' => 'Shelta',
 	# Missing en translation T256649
 	'sty' => 'Siberian Tatar',
+	'sux-latn' => 'Sumerian (Latin script)',
+	'sux-xsux' => 'Sumerian (Cuneiform script)',
 	# Added to core with T313199
 	'syl' => 'Sylheti',
+	'syl-beng' => 'Sylheti (Bengali script)',
 	# Added to core with T309763
 	'tdd' => 'Tai Nuea',
 	'tg-cyrl' => 'Tajik (Cyrillic script)',
@@ -339,6 +370,7 @@ $languageNames = [
 	'tlh-latn' => 'Klingon (Latin script)',
 	# used by Wikidata T286239
 	'tlh-piqd' => 'Klingon (Klingon script)',
+	'tly-cyrl' => 'Talysh (Cyrillic script)',
 	# used by Wikidata T220284
 	'tnq' => 'Taíno',
 	'tt-cyrl' => 'Tatar (Cyrillic script)',
@@ -366,6 +398,8 @@ $languageNames = [
 	'wes' => 'Pidgin (Cameroon)',
 	# used by Wikidata, T239411
 	'wls' => 'Wallisian',
+	'wuu-hans' => 'Wu Chinese (Simplified)',
+	'wuu-hant' => 'Wu Chinese (Traditional)',
 	# used by Wikidata, T283364
 	'wya' => 'Wyandot',
 	# used by Wikidata, T319125
@@ -382,6 +416,8 @@ $languageNames = [
 	'yec' => 'Yeniche',
 	# used by Wikidata, T252198
 	'ykg' => 'Tundra Yukaghir',
+	'yue-hans' => 'Cantonese (Simplified)',
+	'yue-hant' => 'Cantonese (Traditional)',
 	'zh-classical' => 'Classical Chinese',
 	'zh-cn' => 'Chinese (China)',
 	'zh-hk' => 'Chinese (Hong Kong)',
