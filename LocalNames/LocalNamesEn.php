@@ -131,6 +131,7 @@ $languageNames = [
 	# Added to core, T311975.
 	'gpe' => 'Ghanaian Pidgin',
 	'gsg' => 'German Sign Language',
+	'gsw' => 'Alemannic',
 	# used by Wikidata, T262922
 	'gsw-fr' => 'Alsatian',
 	# Added to core, T286460
