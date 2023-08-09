@@ -71,6 +71,11 @@ $languageNames = [
 	# used by Wikidata, T278853
 	'cnh' => 'Hakha Chin',
 	'cnr' => 'Montenegrinisch',
+	# Added to core, T343865
+	'cpx' => 'Pu-Xian',
+	'cpx-hans' => 'Pu-Xian (vereinfachte Schrift)',
+	'cpx-hant' => 'Pu-Xian (traditionelle Schrift)',
+	'cpx-latn' => 'Pu-Xian (lateinische Schrift)',
 	'crb' => 'Insel-Karibisch',
 	'crh' => 'Krimtatarisch',
 	'crh-cyrl' => 'Krimtatarisch (kyrillische Schrift)',
