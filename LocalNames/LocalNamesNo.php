@@ -37,6 +37,7 @@ $languageNames = [
 	'bci' => 'baoulé',
 	'bcl' => 'sentralbikol',
 	'bdr' => 'bajaw',
+	'be' => 'belarusisk',
 	'be-tarask' => 'belarusisk (klassisk ortografi)',
 	'be-x-old' => 'belarusisk (klassisk ortografi)',
 	'bfa' => 'bari',
