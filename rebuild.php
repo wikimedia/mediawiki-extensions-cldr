@@ -125,21 +125,21 @@ class CLDRRebuild extends Maintenance {
 	 */
 	private function getRealCode( $code ) {
 		$realCode = $code;
-		if ( !strcmp( $code, 'kk' ) ) {
+		if ( $code === 'kk' ) {
 			$realCode = 'kk-cyrl';
-		} elseif ( !strcmp( $code, 'ku' ) ) {
+		} elseif ( $code === 'ku' ) {
 			$realCode = 'ku-latn';
-		} elseif ( !strcmp( $code, 'sr' ) ) {
+		} elseif ( $code === 'sr' ) {
 			$realCode = 'sr-ec';
-		} elseif ( !strcmp( $code, 'tg' ) ) {
+		} elseif ( $code === 'tg' ) {
 			$realCode = 'tg-cyrl';
-		} elseif ( !strcmp( $code, 'zh' ) ) {
+		} elseif ( $code === 'zh' ) {
 			$realCode = 'zh-hans';
-		} elseif ( !strcmp( $code, 'pt' ) ) {
+		} elseif ( $code === 'pt' ) {
 			$realCode = 'pt-br';
-		} elseif ( !strcmp( $code, 'pt-pt' ) ) {
+		} elseif ( $code === 'pt-pt' ) {
 			$realCode = 'pt';
-		} elseif ( !strcmp( $code, 'az-arab' ) ) {
+		} elseif ( $code === 'az-arab' ) {
 			$realCode = 'azb';
 		}
 
