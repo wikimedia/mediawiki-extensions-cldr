@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Assele",
-			"Рустам Нурыев"
+			"Рустам Нурыев",
+			"З. ӘЙЛЕ"
 		]
 	},
-	"cldr-desc": "[http://cldr.unicode.org/index/downloads CLDR мәғлүмәте] нигеҙендә тел исемдәренең тәржемәһе менән тәьмин итеүсе киңәйтеү"
+	"cldr-desc": "[http://cldr.unicode.org/index/downloads CLDR мәғлүмәттәре] нигеҙендә тел атамаларының тәржемәһе менән тәьмин иткән киңәйтеү"
 }
