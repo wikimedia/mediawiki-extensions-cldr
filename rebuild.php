@@ -56,6 +56,8 @@ class CLDRRebuild extends Maintenance {
 
 		// Get an array of all MediaWiki languages ( $wgLanguageNames + $wgExtraLanguageNames )
 		$languages = $langNameUtils->getLanguageNames();
+		# hack to get Konkani, until CLDR renames it from 'kok' to 'gom-deva' (T347625)
+		$languages['kok'] = 'Foo';
 		# hack to get pt-pt too
 		$languages['pt-pt'] = 'Foo';
 		ksort( $languages );
@@ -127,20 +129,23 @@ class CLDRRebuild extends Maintenance {
 		$realCode = $code;
 		if ( $code === 'kk' ) {
 			$realCode = 'kk-cyrl';
+		} elseif ( $code === 'az-arab' ) {
+			$realCode = 'azb';
+		} elseif ( $code === 'kok' ) {
+			// T347625
+			$realCode = 'gom-deva';
 		} elseif ( $code === 'ku' ) {
 			$realCode = 'ku-latn';
+		} elseif ( $code === 'pt' ) {
+			$realCode = 'pt-br';
+		} elseif ( $code === 'pt-pt' ) {
+			$realCode = 'pt';
 		} elseif ( $code === 'sr' ) {
 			$realCode = 'sr-cyrl';
 		} elseif ( $code === 'tg' ) {
 			$realCode = 'tg-cyrl';
 		} elseif ( $code === 'zh' ) {
 			$realCode = 'zh-hans';
-		} elseif ( $code === 'pt' ) {
-			$realCode = 'pt-br';
-		} elseif ( $code === 'pt-pt' ) {
-			$realCode = 'pt';
-		} elseif ( $code === 'az-arab' ) {
-			$realCode = 'azb';
 		}
 
 		return $realCode;
