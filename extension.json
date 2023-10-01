@@ -14,8 +14,13 @@
 	"descriptionmsg": "cldr-desc",
 	"license-name": "GPL-2.0-or-later",
 	"Hooks": {
-		"LanguageGetTranslatedLanguageNames": "MediaWiki\\Extension\\CLDR\\LanguageNames::coreHook",
-		"GetHumanTimestamp": "MediaWiki\\Extension\\CLDR\\TimeUnits::onGetHumanTimestamp"
+		"LanguageGetTranslatedLanguageNames": "main",
+		"GetHumanTimestamp": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\CLDR\\Hooks"
+		}
 	},
 	"MessagesDirs": {
 		"CLDR": [

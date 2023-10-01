@@ -143,17 +143,6 @@ class LanguageNames {
 
 		return self::$cache[$code];
 	}
-
-	/**
-	 * @param array &$names
-	 * @param string $code
-	 * @return bool
-	 */
-	public static function coreHook( &$names, $code ) {
-		$names += self::getNames( $code, self::FALLBACK_NORMAL, self::LIST_MW_AND_CLDR );
-
-		return true;
-	}
 }
 
 class_alias( LanguageNames::class, 'LanguageNames' );
