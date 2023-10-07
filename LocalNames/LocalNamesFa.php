@@ -313,6 +313,8 @@ $languageNames = [
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
 	'sr-cyrl' => 'صربی (خط سرلیک)',
+	'sr-ec' => 'صربی (خط سرلیک)',
+	'sr-el' => 'صربی (خط لاتین)',
 	'sr-latn' => 'صربی (خط لاتین)',
 
 	/* Not in CLDR 27.0.1. Tulu language

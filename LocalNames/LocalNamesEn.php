@@ -359,6 +359,9 @@ $languageNames = [
 	'skr' => 'Saraiki',
 	'skr-arab' => 'Saraiki (Arabic script)',
 	'sr-cyrl' => 'Serbian (Cyrillic script)',
+	# T348366
+	'sr-ec' => 'Serbian (Cyrillic script)',
+	'sr-el' => 'Serbian (Latin script)',
 	'sr-latn' => 'Serbian (Latin script)',
 	# Added to core with T311034
 	'sro' => 'Campidanese Sardinian',
