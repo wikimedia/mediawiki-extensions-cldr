@@ -80,6 +80,8 @@ $languageNames = [
 	'crh' => 'Krimtatarisch',
 	'crh-cyrl' => 'Krimtatarisch (kyrillische Schrift)',
 	'crh-latn' => 'Krimtatarisch (lateinische Schrift)',
+	# Added to core, T336919
+	'crh-ro' => 'Krimtatarisch (Rumänisch)',
 	# Report upstream https://unicode-org.atlassian.net/jira/software/c/projects/CLDR/issues/CLDR-16507
 	'crl' => 'Nordost-Cree',
 	# used by Wikidata, T240098
@@ -154,6 +156,8 @@ $languageNames = [
 	'ja-hrkt' => 'Japanisch (Kana-Schrift)',
 	# used by Wikidata, T195816
 	'ja-kana' => 'Japanisch (Katakana-Schrift)',
+	# added to core T345807
+	'kai' => 'Karekare',
 	'kbd-cyrl' => 'Kabardinisch (kyrillische Schrift)',
 	'kbp' => 'Kabiyé',
 	'kjh' => 'Chakassisch',
@@ -192,6 +196,9 @@ $languageNames = [
 	'mid' => 'Mandäisch',
 	'mis' => 'nicht unterstützte Sprache',
 	'mix' => 'Mixtepec Mixtekisch',
+	# added to core T284043
+	'mnc-latn' => 'Mandschurisch (lateinische Schrift)',
+	'mnc-mong' => 'Mandschurisch (mongolische Schrift)',
 	'mo' => 'Moldawisch',
 	'moe' => 'Innu',
 	'ms-arab' => 'Malaiisch (Jawi-Schrift)',

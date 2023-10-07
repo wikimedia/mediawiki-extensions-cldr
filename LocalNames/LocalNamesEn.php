@@ -88,6 +88,8 @@ $languageNames = [
 	'crb' => 'Island Carib',
 	'crh-cyrl' => 'Crimean Tatar (Cyrillic script)',
 	'crh-latn' => 'Crimean Tatar (Latin script)',
+	# Added to core, T336919
+	'crh-ro' => 'Crimean Tatar (Romania)',
 	'ctg' => 'Chittagonian',
 	# used by Wikidata, T240098
 	'dag' => 'Dagbani',
@@ -167,6 +169,8 @@ $languageNames = [
 	'ja-hrkt' => 'Japanese (Kana script)',
 	# used by Wikidata, T195816
 	'ja-kana' => 'Japanese (Katakana script)',
+	# added to core T345807
+	'kai' => 'Karekare',
 	'kbd-cyrl' => 'Kabardian (Cyrillic script)',
 	'kbp' => 'Kabiye',
 	# used by Wikidata, T263946
@@ -213,6 +217,9 @@ $languageNames = [
 	'mis' => 'unsupported language',
 	# used by Wikidata T155419
 	'mix' => 'Mixtec',
+	# added to core T284043
+	'mnc-latn' => 'Manchu (Latin script)',
+	'mnc-mong' => 'Manchu (Mongolian script)',
 	'mnw' => 'Mon',
 	'mo' => 'Moldovan',
 	# used by Wikidata, T270059
