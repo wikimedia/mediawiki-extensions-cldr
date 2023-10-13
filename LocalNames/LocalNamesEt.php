@@ -2,7 +2,6 @@
 
 /** @phpcs-require-sorted-array */
 $languageNames = [
-	/* Not in CLDR 34. Used for MediaWiki localisation */
 	'abs' => 'Amboni malai',
 	'ady-cyrl' => 'adõgee (kürilliline kiri)',
 	'aeb-arab' => 'Tuneesia araabia (araabia kiri)',
