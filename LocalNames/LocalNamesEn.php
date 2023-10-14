@@ -68,9 +68,9 @@ $languageNames = [
 	'cal' => 'Carolinian',
 	'cbk-zam' => 'Chavacano',
 	'ccp-beng' => 'Chakma (Bengali script)',
-	'cdo' => 'Min Dong Chinese',
+	'cdo' => 'Mindong',
 	# used by Wikidata, T180771
-	'cdo-hani' => 'Min Dong Chinese (Hanji)',
+	'cdo-hani' => 'Mindong (Han script)',
 	'cja' => 'Western Cham',
 	'cja-arab' => 'Western Cham (Arabic script)',
 	'cja-cham' => 'Western Cham (Cham script)',
@@ -79,9 +79,9 @@ $languageNames = [
 	'cjm-arab' => 'Eastern Cham (Arabic script)',
 	'cjm-cham' => 'Eastern Cham (Cham script)',
 	'cjm-latn' => 'Eastern Cham (Latin script)',
-	'cjy' => 'Jinyu',
-	'cjy-hans' => 'Jinyu (Simplified)',
-	'cjy-hant' => 'Jinyu (Traditional)',
+	'cjy' => 'Jin',
+	'cjy-hans' => 'Jin (Simplified Han script)',
+	'cjy-hant' => 'Jin (Traditional Han script)',
 	# used by Wikidata, T240097
 	'ckt' => 'Chukchi',
 	# used by Wikidata, T215032
@@ -135,8 +135,9 @@ $languageNames = [
 	# used by Wikidata, T314935
 	'fud' => 'Futunan',
 	'fuf' => 'Pular',
-	'gan-hans' => 'Gan (Simplified)',
-	'gan-hant' => 'Gan (Traditional)',
+	'gan' => 'Gan',
+	'gan-hans' => 'Gan (Simplified Han script)',
+	'gan-hant' => 'Gan (Traditional Han script)',
 	'gbk' => 'Gaddi',
 	# Added to core, T353307.
 	'gcf' => 'Guadeloupean Creole',
@@ -161,9 +162,9 @@ $languageNames = [
 	'ha-arab' => 'Hausa (Arabic script)',
 	'hac' => 'Gurani',
 	# used by Wikidata, T180771
-	'hak-hans' => 'Hakka (Simplified)',
+	'hak-hans' => 'Hakka (Simplified Han script)',
 	# used by Wikidata, T180771
-	'hak-hant' => 'Hakka (Traditional)',
+	'hak-hant' => 'Hakka (Traditional Han script)',
 	'hav' => 'Havu',
 	'haz' => 'Hazaragi',
 	# used by Wikidata, T155368
@@ -257,8 +258,9 @@ $languageNames = [
 	'mul' => 'multiple languages',
 	'mvf' => 'Peripheral Mongolian',
 	'mvi' => 'Miyako',
+	'nan' => 'Minnan',
 	# used by Wikidata, T180771
-	'nan-hani' => 'Min Nan (Hanji)',
+	'nan-hani' => 'Minnan (Han script)',
 	# used by Wikidata, T263946
 	'nge' => 'Ngémba',
 	# Missing en translation T256649
@@ -462,8 +464,9 @@ $languageNames = [
 	# used by Wikidata, T239411
 	'wls' => 'Wallisian',
 	'wsv' => 'Wotapuri-Katarqalai',
-	'wuu-hans' => 'Wu Chinese (Simplified)',
-	'wuu-hant' => 'Wu Chinese (Traditional)',
+	'wuu' => 'Wu',
+	'wuu-hans' => 'Wu (Simplified Han script)',
+	'wuu-hant' => 'Wu (Traditional Han script)',
 	# used by Wikidata, T283364
 	'wya' => 'Wyandot',
 	# used by Wikidata, T319125
@@ -482,13 +485,13 @@ $languageNames = [
 	'ykg' => 'Tundra Yukaghir',
 	'yoi' => 'Yonaguni',
 	'yox' => 'Yoron',
-	'yue-hans' => 'Cantonese (Simplified)',
-	'yue-hant' => 'Cantonese (Traditional)',
+	'yue-hans' => 'Cantonese (Simplified Han script)',
+	'yue-hant' => 'Cantonese (Traditional Han script)',
 	'zai' => 'Isthmus Zapotec',
-	'zh-classical' => 'Classical Chinese',
+	'zh-classical' => 'Literary Chinese',
 	'zh-cn' => 'Chinese (China)',
 	'zh-hk' => 'Chinese (Hong Kong)',
-	'zh-min-nan' => 'Chinese (Min Nan)',
+	'zh-min-nan' => 'Minnan',
 	'zh-mo' => 'Chinese (Macau)',
 	'zh-my' => 'Chinese (Malaysia)',
 	'zh-sg' => 'Chinese (Singapore)',
