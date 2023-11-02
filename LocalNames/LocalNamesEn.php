@@ -347,15 +347,15 @@ $languageNames = [
 	'shy-latn' => 'Shawiya (Latin script)',
 	'shy-tfng' => 'Shawiya (Tifinagh script)',
 	# used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
-	'sia' => 'Akkala Sámi',
+	'sia' => 'Akkala Sami',
 	'sjd' => 'Kildin Sami',
 	'sje' => 'Pite Sami',
 	# used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
-	'sjk' => 'Kemi Sámi',
+	'sjk' => 'Kemi Sami',
 	# used by Wikidata, T185194
 	'sjn' => 'Sindarin',
 	# used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
-	'sjt' => 'Ter Sámi',
+	'sjt' => 'Ter Sami',
 	'sju' => 'Ume Sami',
 	'skr' => 'Saraiki',
 	'skr-arab' => 'Saraiki (Arabic script)',
