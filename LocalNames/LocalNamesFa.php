@@ -88,12 +88,6 @@ $languageNames = [
 	 */
 	// 'de-formal' => 'German (formal address)',
 
-	/* Not in CLDR 27.0.1. Swedish language
-	 * https://www.ethnologue.com/language/dlc
-	 * Added 2008-02-16.
-	 */
-	// 'dlc' => 'Dalecarlian',
-
 	/* Not in CLDR 27.0.1. Central Dusun language
 	 * https://www.ethnologue.com/language/dtp
 	 * Added 2011-04-16.

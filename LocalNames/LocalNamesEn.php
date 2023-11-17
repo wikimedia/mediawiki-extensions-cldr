@@ -95,7 +95,6 @@ $languageNames = [
 	'dag' => 'Dagbani',
 	'de-1901' => 'German (traditional orthography)',
 	'de-formal' => 'German (formal address)',
-	'dlc' => 'Dalecarlian',
 	# used by Wikidata, T267915
 	'dru' => 'Rukai',
 	'dty' => 'Doteli',

@@ -87,7 +87,6 @@ $languageNames = [
 	# used by Wikidata, T240098
 	'dag' => 'Dagbani',
 	'de-formal' => 'Deutsch (Sie-Form)',
-	# 'dlc' => 'Dalecarlian', // German translation unassured
 	// https://d-nb.info/gnd/7543852-5
 	'dty' => 'Doteli',
 	# used by Wikidata, T198674
