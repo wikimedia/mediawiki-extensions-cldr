@@ -159,6 +159,8 @@ $languageNames = [
 	'kai' => 'Karekare',
 	'kbd-cyrl' => 'Kabardinisch (kyrillische Schrift)',
 	'kbp' => 'Kabiyé',
+	# added to core T351874
+	'kge' => 'Komering',
 	'kjh' => 'Chakassisch',
 	'kjp' => 'Östliches Pwo',
 	'kk-arab' => 'Kasachisch (arabische Schrift)',

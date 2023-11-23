@@ -174,6 +174,8 @@ $languageNames = [
 	'kbp' => 'Kabiye',
 	# used by Wikidata, T263946
 	'ker' => 'Kera',
+	# added to core T351874
+	'kge' => 'Komering',
 	'kjh' => 'Khakas',
 	'kjp' => 'Eastern Pwo',
 	'kk-arab' => 'Kazakh (Arabic script)',
