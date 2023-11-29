@@ -168,15 +168,6 @@ $currencyNames = [
 	'XXX' => 'אומבאַוואוסטע וואַלוטע',
 ];
 
-$currencySymbols = [
-	'EUR' => '€',
-	'GBP' => '£',
-	'INR' => '₹',
-	'JPY' => 'JP¥',
-	'RUB' => 'RUB',
-	'USD' => '$',
-];
-
 $countryNames = [
 	'AD' => 'אַנדארע',
 	'AF' => 'אַפֿגהאַניסטאַן',
@@ -384,26 +375,14 @@ $timeUnits = [
 	'day-future-other' => 'אין {0} טעג אַרום',
 	'month-future-one' => 'איבער {0} חודש',
 	'month-future-other' => 'איבער {0} חדשים',
-	'month-narrow-future-one' => 'איבער {0} חודש',
-	'month-narrow-future-other' => 'איבער {0} חדשים',
-	'month-narrow-past-one' => 'פֿאַר {0} חודש',
-	'month-narrow-past-other' => 'פֿאַר {0} חדשים',
 	'month-past-one' => 'פֿאַר {0} חודש',
 	'month-past-other' => 'פֿאַר {0} חדשים',
-	'month-short-future-one' => 'איבער {0} חודש',
-	'month-short-future-other' => 'איבער {0} חדשים',
-	'month-short-past-one' => 'פֿאַר {0} חודש',
-	'month-short-past-other' => 'פֿאַר {0} חדשים',
 	'year-future-one' => 'איבער {0} יאָר',
 	'year-future-other' => 'איבער {0} יאָר',
 	'year-narrow-future-one' => 'איבער {0} יאָר',
 	'year-narrow-future-other' => 'איבער {0} יאָר',
-	'year-narrow-past-one' => 'פֿאַר {0} יאָר',
-	'year-narrow-past-other' => 'פֿאַר {0} יאָר',
 	'year-past-one' => 'פֿאַר {0} יאָר',
 	'year-past-other' => 'פֿאַר {0} יאָר',
 	'year-short-future-one' => 'איבער א יאָר',
 	'year-short-future-other' => 'איבער {0} יאָר',
-	'year-short-past-one' => 'פֿאַר {0} יאָר',
-	'year-short-past-other' => 'פֿאַר {0} יאָר',
 ];

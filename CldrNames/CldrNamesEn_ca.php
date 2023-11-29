@@ -5,12 +5,8 @@ $languageNames = [
 	'ar-001' => 'Arabic (Modern Standard)',
 	'bn' => 'Bengali',
 	'mfe' => 'Mauritian Creole',
-	'mul' => 'multiple languages',
 	'nds-nl' => 'West Low German',
 	'ro-md' => 'Moldovan',
-	'und' => 'unknown language',
-	'zh-hans' => 'simplified Chinese',
-	'zh-hant' => 'traditional Chinese',
 ];
 
 $currencyNames = [
@@ -51,8 +47,6 @@ $countryNames = [
 	'VC' => 'Saint Vincent and the Grenadines',
 	'VI' => 'US Virgin Islands',
 	'WF' => 'Wallis and Futuna',
-	'XA' => 'pseudo-accents',
-	'XB' => 'pseudo-bidi',
 ];
 
 $timeUnits = [

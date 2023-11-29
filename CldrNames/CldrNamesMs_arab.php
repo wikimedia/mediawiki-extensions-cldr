@@ -35,7 +35,6 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
-	'GBP' => '£',
 	'MYR' => 'RM',
 ];
 
@@ -59,22 +58,17 @@ $countryNames = [
 
 $timeUnits = [
 	'day-future-other' => 'دالم {0} هاري',
-	'day-other' => '{0} هاري',
 	'day-past-other' => '{0} هاري لالو',
 	'hour-future-other' => 'دالم {0} جم',
-	'hour-other' => '{0} جم',
 	'hour-past-other' => '{0} جم لالو',
 	'minute-future-other' => 'دالم {0} مينيت',
 	'minute-other' => '{0} مينيت',
 	'minute-past-other' => '{0} مينيت لالو',
 	'month-future-other' => 'دالم {0} بولن',
-	'month-other' => '{0} بولن',
 	'month-past-other' => '{0} بولن لالو',
 	'second-future-other' => 'دالم {0} ساعت',
-	'second-other' => '{0} ساعت',
 	'second-past-other' => '{0} ساعت لالو',
 	'week-future-other' => 'دالم {0} ميڠݢو',
-	'week-other' => '{0} ميڠݢو',
 	'week-past-other' => '{0} ميڠݢو لالو',
 	'year-future-other' => 'دالم {0} تاهون',
 	'year-other' => '{0} تاهون',

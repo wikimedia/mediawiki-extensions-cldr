@@ -86,9 +86,6 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
-	'BRL' => 'R$',
-	'EUR' => '€',
-	'GBP' => '£',
 	'GEL' => '₾',
 	'USD' => '$',
 ];
@@ -110,8 +107,6 @@ $countryNames = [
 $timeUnits = [
 	'day-future-one' => '{0} боны фӕстӕ',
 	'day-future-other' => '{0} боны фӕстӕ',
-	'day-one' => '{0} бон',
-	'day-other' => '{0} боны',
 	'day-past-one' => '{0} бон раздӕр',
 	'day-past-other' => '{0} боны размӕ',
 	'hour-future-one' => '{0} сахаты фӕстӕ',

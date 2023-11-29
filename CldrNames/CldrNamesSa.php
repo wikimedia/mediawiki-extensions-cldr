@@ -60,15 +60,6 @@ $currencyNames = [
 	'XXX' => 'अज्ञात मुद्रा',
 ];
 
-$currencySymbols = [
-	'BRL' => 'R$',
-	'CNY' => '¥',
-	'GBP' => '£',
-	'INR' => '₹',
-	'JPY' => '¥',
-	'USD' => 'US$',
-];
-
 $countryNames = [
 	'BR' => 'ब्राजील',
 	'CN' => 'चीन:',

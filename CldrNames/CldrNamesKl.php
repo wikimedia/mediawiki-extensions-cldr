@@ -58,7 +58,6 @@ $currencyNames = [
 
 $currencySymbols = [
 	'DKK' => 'kr.',
-	'EUR' => '€',
 	'NOK' => 'Nkr',
 	'SEK' => 'Skr',
 ];
@@ -336,8 +335,6 @@ $timeUnits = [
 	'week-past-other' => 'for {0} sapaatip-akunnera siden',
 	'year-future-one' => 'om {0} ukioq',
 	'year-future-other' => 'om {0} ukioq',
-	'year-one' => '{0} ukioq',
-	'year-other' => '{0} ukioq',
 	'year-past-one' => 'for {0} ukioq siden',
 	'year-past-other' => 'for {0} ukioq siden',
 ];

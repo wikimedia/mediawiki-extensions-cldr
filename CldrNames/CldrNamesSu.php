@@ -43,14 +43,8 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
-	'BRL' => 'R$',
-	'CNY' => 'CN¥',
-	'EUR' => '€',
-	'GBP' => '£',
 	'IDR' => 'Rp',
-	'INR' => '₹',
 	'JPY' => '¥',
-	'RUB' => 'RUB',
 	'USD' => '$',
 ];
 

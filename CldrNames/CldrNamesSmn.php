@@ -662,9 +662,3 @@ $countryNames = [
 	'ZM' => 'Sambia',
 	'ZW' => 'Zimbabwe',
 ];
-
-$timeUnits = [
-	'microsecond-one' => '{0} μs',
-	'microsecond-other' => '{0} μs',
-	'microsecond-two' => '{0} μs',
-];

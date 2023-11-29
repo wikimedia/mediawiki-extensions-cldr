@@ -354,17 +354,7 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
-	'BRL' => 'R$',
-	'CAD' => 'CA$',
-	'CNY' => 'CN¥',
-	'EUR' => '€',
-	'GBP' => '£',
-	'INR' => '₹',
-	'JPY' => 'JP¥',
-	'MXN' => 'MX$',
-	'USD' => 'US$',
 	'UZS' => 'сўм',
-	'XCD' => 'EC$',
 ];
 
 $countryNames = [
@@ -631,14 +621,10 @@ $countryNames = [
 $timeUnits = [
 	'day-future-one' => '{0} кундан сўнг',
 	'day-future-other' => '{0} кундан сўнг',
-	'day-one' => '{0} кун',
-	'day-other' => '{0} кун',
 	'day-past-one' => '{0} кун олдин',
 	'day-past-other' => '{0} кун олдин',
 	'hour-future-one' => '{0} соатдан сўнг',
 	'hour-future-other' => '{0} соатдан сўнг',
-	'hour-one' => '{0} соат',
-	'hour-other' => '{0} соат',
 	'hour-past-one' => '{0} соат олдин',
 	'hour-past-other' => '{0} соат олдин',
 	'millisecond-one' => '{0} миллисония',
@@ -651,14 +637,10 @@ $timeUnits = [
 	'minute-past-other' => '{0} дақиқа олдин',
 	'month-future-one' => '{0} ойдан сўнг',
 	'month-future-other' => '{0} ойдан сўнг',
-	'month-one' => '{0} ой',
-	'month-other' => '{0} ой',
 	'month-past-one' => '{0} ой аввал',
 	'month-past-other' => '{0} ой аввал',
 	'second-future-one' => '{0} сониядан сўнг',
 	'second-future-other' => '{0} сониядан сўнг',
-	'second-one' => '{0} сония',
-	'second-other' => '{0} сония',
 	'second-past-one' => '{0} сония олдин',
 	'second-past-other' => '{0} сония олдин',
 	'week-future-one' => '{0} ҳафтадан сўнг',

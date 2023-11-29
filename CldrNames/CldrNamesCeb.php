@@ -3,7 +3,7 @@
 
 $languageNames = [
 	'ar' => 'Arabic',
-	'ar-001' => 'Modernong Tamdanang Arabic',
+	'ar-001' => 'Modernong Standard nga Arabic',
 	'bn' => 'Bangla',
 	'ceb' => 'Cebuano',
 	'de' => 'German',
@@ -15,9 +15,7 @@ $languageNames = [
 	'en-gb' => 'Britanikong English',
 	'en-us' => 'English sa America',
 	'es' => 'Espanyol',
-	'es-419' => 'Espanyol sa Latin Amerika',
-	'es-es' => 'Espanyol sa Europe',
-	'es-mx' => 'Espanyol sa Mexico',
+	'es-es' => 'Espanyol (Europa)',
 	'fr' => 'Pranses',
 	'fr-ca' => 'Pranses sa Canada',
 	'fr-ch' => 'Pranses sa Switzerland',
@@ -35,10 +33,10 @@ $languageNames = [
 	'ru' => 'Russian',
 	'th' => 'Thai',
 	'tr' => 'Turkish',
-	'und' => 'Wala Mailhing Lengguwahe',
+	'und' => 'Wala Mailhing Pinulongan',
 	'zh' => 'Inintsik',
-	'zh-hans' => 'Simplified Chinese',
-	'zh-hant' => 'Traditional nga Chinese',
+	'zh-hans' => 'Pinasimpleng Chinese',
+	'zh-hant' => 'Tradisyonal nga Chinese',
 ];
 
 $currencyNames = [
@@ -166,7 +164,8 @@ $currencyNames = [
 	'SEK' => 'Swedish Krona',
 	'SGD' => 'Singapore Dollar',
 	'SHP' => 'St. Helena Pound',
-	'SLL' => 'Sierra Leonean Leone',
+	'SLE' => 'Sierra Leonean Leone',
+	'SLL' => 'Sierra Leonean Leone (1964—2022)',
 	'SOS' => 'Somali Shilling',
 	'SRD' => 'Surinamese Dollar',
 	'SSP' => 'South Sudanese Pound',
@@ -202,8 +201,6 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
-	'BYN' => 'BYN',
-	'PHP' => '₱',
 	'USD' => 'US $',
 ];
 
@@ -320,7 +317,7 @@ $countryNames = [
 	'IL' => 'Israel',
 	'IM' => 'Isle of Man',
 	'IN' => 'India',
-	'IO' => 'British Indian Ocean Territory',
+	'IO' => 'Teritoryo sa British Indian Ocean',
 	'IQ' => 'Iraq',
 	'IR' => 'Iran',
 	'IS' => 'Iceland',

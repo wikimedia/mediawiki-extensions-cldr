@@ -228,22 +228,10 @@ $currencyNames = [
 
 $currencySymbols = [
 	'AUD' => 'AU$',
-	'BRL' => 'R$',
 	'BTN' => 'Nu.',
-	'CAD' => 'CA$',
-	'CNY' => 'CN¥',
-	'EUR' => '€',
-	'GBP' => '£',
-	'HKD' => 'HK$',
 	'ILS' => 'ILS',
-	'INR' => '₹',
-	'JPY' => 'JP¥',
 	'KRW' => 'KR₩',
-	'MXN' => 'MX$',
-	'NZD' => 'NZ$',
 	'THB' => 'TH฿',
-	'TWD' => 'NT$',
-	'USD' => 'US$',
 ];
 
 $countryNames = [

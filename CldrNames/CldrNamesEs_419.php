@@ -62,17 +62,16 @@ $countryNames = [
 	'CI' => 'Costa de Marfil',
 	'EZ' => 'Eurozona',
 	'GB' => 'R. U.',
+	'GS' => 'Islas Georgia del Sur y Sándwich del Sur',
 	'IC' => 'Islas Canarias',
 	'QO' => 'Islas Ultramarinas',
-	'TA' => 'Tristán da Cunha',
+	'RO' => 'Rumania',
+	'SA' => 'Arabia Saudita',
+	'TL' => 'Timor Oriental',
 	'UM' => 'Islas Ultramarinas de EE.UU.',
 ];
 
 $timeUnits = [
-	'day-narrow-future-one' => 'dentro de {0} día',
-	'day-narrow-future-other' => 'dentro de {0} días',
-	'day-narrow-past-one' => 'hace {0} día',
-	'day-narrow-past-other' => 'hace {0} días',
 	'day-short-future-one' => 'dentro de {0} día',
 	'day-short-future-other' => 'dentro de {0} días',
 	'day-short-past-one' => 'hace {0} día',
@@ -85,6 +84,4 @@ $timeUnits = [
 	'sat-narrow-past-other' => 'hace {0} sábados',
 	'sun-future-one' => 'en {0} domingo',
 	'sun-future-other' => 'en {0} domingos',
-	'tue-future-one' => 'dentro de {0} martes',
-	'tue-future-other' => 'en {0} martes',
 ];

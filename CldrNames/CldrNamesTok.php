@@ -8,7 +8,6 @@ $languageNames = [
 	'en' => 'toki Inli',
 	'en-ca' => 'toki Inli pi ma Kanata',
 	'en-gb' => 'toki Inli pi ma Piten',
-	'en-us' => 'toki Inli pi ma Mewika',
 	'es' => 'toki Epanja',
 	'es-419' => 'toki Epanja pi ma Amelika',
 	'fr' => 'toki Kanse',
@@ -23,9 +22,10 @@ $languageNames = [
 	'pt' => 'toki Potuke',
 	'ru' => 'toki Lusi',
 	'th' => 'toki Tawi',
-	'tok' => 'Toki Pona',
+	'tok' => 'toki pona',
 	'tr' => 'toki Tuki',
 	'und' => 'toki ante',
+	'uz' => 'toki Opeki',
 	'zh' => 'toki Sonko',
 ];
 
@@ -166,6 +166,7 @@ $countryNames = [
 	'UG' => 'ma Ukanta',
 	'UN' => 'kulupu pi ma ale',
 	'US' => 'ma Mewika',
+	'UZ' => 'ma Opekisan',
 	'VA' => 'ma Wasikano',
 	'VE' => 'ma Penesuwela',
 	'VN' => 'ma Wije',

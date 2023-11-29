@@ -170,7 +170,8 @@ $currencyNames = [
 	'SDG' => 'Sudan Pound',
 	'SEK' => 'Sweden Krona',
 	'SHP' => 'St. Helena Pound',
-	'SLL' => 'Sierra Leone Leone',
+	'SLE' => 'Sierra Leone Leone',
+	'SLL' => 'Sierra Leone Leone (1964—2022)',
 	'SOS' => 'Somali Sheleŋ',
 	'SRD' => 'Surinam Dɔla',
 	'SSP' => 'Sudan Anai Pound',
@@ -191,7 +192,6 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
-	'BYN' => 'BYN',
 	'CAD' => 'KA$',
 	'CDF' => 'KDF',
 	'CHF' => 'SZF',
@@ -200,10 +200,8 @@ $currencySymbols = [
 	'CUC' => 'KUK',
 	'CUP' => 'KUP',
 	'CZK' => 'TSK',
-	'GNF' => 'GNF',
 	'GTQ' => 'GTK',
 	'KMF' => 'KF',
-	'LRD' => 'LRD',
 	'MXN' => 'MZ$',
 	'NIO' => 'K$',
 	'SCR' => 'SSR',
@@ -211,7 +209,6 @@ $currencySymbols = [
 	'USD' => '$',
 	'XCD' => 'KB$',
 	'XOF' => 'SFA',
-	'ZMW' => 'ZMW',
 ];
 
 $countryNames = [
@@ -348,13 +345,11 @@ $countryNames = [
 
 $timeUnits = [
 	'century-other' => 'afii ohai {0}',
-	'day-other' => 'gbii {0}',
 	'decade-other' => 'afi nyɔŋmai {0}',
 	'hour-other' => 'ŋmɛlɛtswai {0}',
 	'microsecond-other' => 'sɛkɛnsi {0} mlijaa 1000',
 	'millisecond-other' => 'sɛkɛnsi {0} mlijaa 100',
 	'minute-other' => 'minitii {0}',
-	'month-other' => 'nyɔji {0}',
 	'nanosecond-other' => 'sɛkɛnsi frim {0}',
 	'second-other' => 'sɛkɛnsii {0}',
 	'week-other' => 'otsii {0}',

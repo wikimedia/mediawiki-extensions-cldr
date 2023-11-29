@@ -122,7 +122,6 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
-	'EUR' => '€',
 	'NOK' => 'kr',
 	'SEK' => 'Skr',
 ];

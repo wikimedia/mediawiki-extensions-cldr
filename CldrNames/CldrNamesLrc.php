@@ -246,16 +246,6 @@ $currencyNames = [
 	'XXX' => 'پیل نادیار',
 ];
 
-$currencySymbols = [
-	'BRL' => 'R$',
-	'CNY' => 'CN¥',
-	'EUR' => '€',
-	'GBP' => '£',
-	'INR' => '₹',
-	'JPY' => 'JP¥',
-	'RUB' => 'RUB',
-];
-
 $countryNames = [
 	'BR' => 'بئرئزیل',
 	'CN' => 'چین',

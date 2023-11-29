@@ -485,7 +485,6 @@ $localeCurrencies = [
 	],
 	'CU' => [
 		'CUP',
-		'CUC',
 	],
 	'CV' => [
 		'CVE',

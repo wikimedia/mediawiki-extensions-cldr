@@ -725,7 +725,8 @@ $currencyNames = [
 	'SHP' => 'glivra da Sontg’Elena',
 	'SIT' => 'tolar sloven',
 	'SKK' => 'cruna slovaca',
-	'SLL' => 'leone da la Sierra Leone',
+	'SLE' => 'leone da la Sierra Leone',
+	'SLL' => 'leone da la Sierra Leone (1964—2022)',
 	'SOS' => 'schilling somalian',
 	'SRD' => 'dollar surinam',
 	'SRG' => 'flurin surinam',
@@ -804,34 +805,7 @@ $currencyNames = [
 ];
 
 $currencySymbols = [
-	'AUD' => 'A$',
-	'BYN' => 'BYN',
-	'CAD' => 'CA$',
-	'CHF' => 'CHF',
-	'DKK' => 'DKK',
-	'EEK' => 'EEK',
-	'EUR' => '€',
-	'FIM' => 'FIM',
-	'GBP' => '£',
-	'HNL' => 'HNL',
-	'IEP' => 'IEP',
-	'ISJ' => 'ISJ',
-	'ISK' => 'ISK',
-	'JMD' => 'JMD',
-	'KYD' => 'KYD',
-	'MXN' => 'MX$',
-	'NOK' => 'NOK',
-	'PLN' => 'PLN',
-	'RUB' => 'RUB',
-	'RUR' => 'RUR',
-	'SAR' => 'SAR',
-	'SEK' => 'SEK',
-	'TRY' => 'TRY',
 	'USD' => '$',
-	'XAF' => 'FCFA',
-	'XCD' => 'EC$',
-	'XEU' => 'XEU',
-	'XOF' => 'F CFA',
 ];
 
 $countryNames = [
@@ -1100,22 +1074,12 @@ $countryNames = [
 ];
 
 $timeUnits = [
-	'day-one' => '{0} di',
-	'day-other' => '{0} dis',
-	'hour-one' => '{0} ura',
-	'hour-other' => '{0} uras',
 	'millisecond-one' => '{0} millisecunda',
 	'millisecond-other' => '{0} millisecundas',
 	'minute-one' => '{0} minuta',
 	'minute-other' => '{0} minutas',
-	'month-one' => '{0} mais',
-	'month-other' => '{0} mais',
 	'second-one' => '{0} secunda',
 	'second-other' => '{0} secundas',
 	'sun-short-future-one' => '+{0} dumengia',
 	'sun-short-future-other' => 'en {0} du',
-	'week-one' => '{0} emna',
-	'week-other' => '{0} emnas',
-	'year-one' => '{0} onn',
-	'year-other' => '{0} onns',
 ];

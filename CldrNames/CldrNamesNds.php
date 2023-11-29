@@ -477,29 +477,9 @@ $currencyNames = [
 
 $currencySymbols = [
 	'AUD' => 'AU$',
-	'BRL' => 'R$',
-	'CAD' => 'CA$',
-	'CHF' => 'CHF',
-	'CNY' => 'CN¥',
-	'DKK' => 'DKK',
-	'EUR' => '€',
-	'GBP' => '£',
-	'HKD' => 'HK$',
-	'IDR' => 'IDR',
-	'INR' => '₹',
-	'JPY' => 'JP¥',
-	'KRW' => '₩',
-	'MXN' => 'MX$',
-	'NOK' => 'NOK',
-	'PLN' => 'PLN',
-	'RUB' => 'RUB',
-	'SAR' => 'SAR',
-	'SEK' => 'SEK',
 	'THB' => '฿',
-	'TRY' => 'TRY',
 	'TWD' => 'NT$',
 	'USD' => '$',
-	'ZAR' => 'ZAR',
 ];
 
 $countryNames = [

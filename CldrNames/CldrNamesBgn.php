@@ -409,14 +409,7 @@ $currencyNames = [
 
 $currencySymbols = [
 	'AFN' => '؋',
-	'BDT' => 'BDT',
-	'BTN' => 'BTN',
-	'INR' => '₹',
 	'IRR' => 'ریال',
-	'LKR' => 'LKR',
-	'MVR' => 'MVR',
-	'NPR' => 'NPR',
-	'PKR' => 'PKR',
 ];
 
 $countryNames = [
@@ -525,16 +518,5 @@ $countryNames = [
 ];
 
 $timeUnits = [
-	'century-other' => '{0} سده‌گ',
 	'day-future-other' => '+{0} روچ',
-	'day-other' => '{0} روچ',
-	'hour-other' => '{0} ساعت',
-	'microsecond-other' => '{0} مایکروثانیه',
-	'millisecond-other' => '{0} میلی‌ثانیه',
-	'minute-other' => '{0} دقیقه',
-	'month-other' => '{0} ماه',
-	'nanosecond-other' => '{0} نانوثانیه',
-	'second-other' => '{0} ثانیه',
-	'week-other' => '{0} هفته‌گ',
-	'year-other' => '{0} سال',
 ];

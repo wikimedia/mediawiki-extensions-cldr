@@ -653,7 +653,8 @@ $currencyNames = [
 	'SHP' => 'St.-Helena-Pfund',
 	'SIT' => 'Tolar',
 	'SKK' => 'Slowakischi Chroone',
-	'SLL' => 'Leone',
+	'SLE' => 'Leone',
+	'SLL' => 'Leone (1964—2022)',
 	'SOS' => 'Somalia-Schilling',
 	'SRD' => 'Surinamische Dollar',
 	'SRG' => 'Surinamische Gulde',
@@ -726,7 +727,6 @@ $currencyNames = [
 
 $currencySymbols = [
 	'ATS' => 'öS',
-	'CHF' => 'CHF',
 	'JPY' => '¥',
 	'USD' => '$',
 ];
