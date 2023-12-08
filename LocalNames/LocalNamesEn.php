@@ -2,6 +2,8 @@
 
 /** @phpcs-require-sorted-array */
 $languageNames = [
+	# Added to core, not part of CLDR, T353058
+	'aae' => 'Arbëresh',
 	# Not in CLDR 34. Used for MediaWiki localisation
 	'abe' => 'Western Abenaki',
 	# used by Wikidata, T155367
@@ -136,6 +138,8 @@ $languageNames = [
 	'gan-hans' => 'Gan (Simplified)',
 	'gan-hant' => 'Gan (Traditional)',
 	'gbk' => 'Gaddi',
+	# Added to core, T353307.
+	'gcf' => 'Guadeloupean Creole',
 	'gcr' => 'Guianan Creole',
 	'gju' => 'Gujari',
 	'gld' => 'Nanai',
@@ -356,6 +360,8 @@ $languageNames = [
 	'ruq-cyrl' => 'Megleno-Romanian (Cyrillic script)',
 	'ruq-grek' => 'Megleno-Romanian (Greek script)',
 	'ruq-latn' => 'Megleno-Romanian (Latin script)',
+	# Added to core, not part of CLDR, T352954
+	'rut' => 'Rutul',
 	'rwr' => 'Marwari (India)',
 	'rys' => 'Yaeyama',
 	# used by Wikidata T271215

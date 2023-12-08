@@ -6,6 +6,8 @@ $languageNames = [
 	/** Not in CLDR34.
 	 * But Wikipedias in these languages exist and/or used by Wikidata for monolingual text
 	 */
+	# Added to core, not part of CLDR, T353058
+	'aae' => 'Arbëresh',
 	'abe' => 'Westliches Abenaki',
 	# used by Wikidata, T155367
 	'abq' => 'Abasinisch',
@@ -116,6 +118,8 @@ $languageNames = [
 	# 'fuf' => 'Pular', // German translation unassured
 	'gan-hans' => 'Gan (Vereinfachte Schrift)',
 	'gan-hant' => 'Gan (Traditionelle Schrift)',
+	# Added to core, T353307.
+	'gcf' => 'Guadeloupe-Kreolisch',
 	'gcr' => 'Französisch-Guayana Kreolisch',
 	'gld' => 'Nanaisch',
 	# used by Wikidata T217131
@@ -283,6 +287,8 @@ $languageNames = [
 	'ruq-cyrl' => 'Meglenorumänisch (kyrillische Schrift)',
 	'ruq-grek' => 'Meglenorumänisch (griechische Schrift)',
 	'ruq-latn' => 'Meglenorumänisch (lateinische Schrift)',
+	# Added to core, not part of CLDR, T352954
+	'rut' => 'Rutulisch',
 	'rwr' => 'Marwari (Indien)',
 	# used by Wikidata T271215
 	'ryu' => 'Okinawa',
