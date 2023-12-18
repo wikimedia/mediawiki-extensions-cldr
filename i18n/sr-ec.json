@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Rancher",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Milicevic01"
 		]
 	},
-	"cldr-desc": "Проширење које омогућава преведене називе језика засновано је на [http://cldr.unicode.org/index/downloads CLDR подацима]"
+	"cldr-desc": "Проширење које омогућава локализоване називе језика из [http://cldr.unicode.org/index/downloads CLDR базе]"
 }
