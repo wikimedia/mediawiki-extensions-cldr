@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"cldr-desc": "Проширење које омогућава локализоване називе језика из [http://cldr.unicode.org/index/downloads CLDR базе]"
+}
