@@ -89,7 +89,7 @@ $languageNames = [
 	'crh-cyrl' => 'Crimean Tatar (Cyrillic script)',
 	'crh-latn' => 'Crimean Tatar (Latin script)',
 	# Added to core, T336919
-	'crh-ro' => 'Crimean Tatar (Romania)',
+	'crh-ro' => 'Dobrujan Tatar',
 	'ctg' => 'Chittagonian',
 	# used by Wikidata, T240098
 	'dag' => 'Dagbani',

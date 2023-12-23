@@ -81,7 +81,7 @@ $languageNames = [
 	'crh-cyrl' => 'Krimtatarisch (kyrillische Schrift)',
 	'crh-latn' => 'Krimtatarisch (lateinische Schrift)',
 	# Added to core, T336919
-	'crh-ro' => 'Krimtatarisch (Rumänisch)',
+	'crh-ro' => 'Dobrudschatatarisch',
 	# Report upstream https://unicode-org.atlassian.net/jira/software/c/projects/CLDR/issues/CLDR-16507
 	'crl' => 'Nordost-Cree',
 	# used by Wikidata, T240098
