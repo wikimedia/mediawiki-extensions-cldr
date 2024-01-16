@@ -280,6 +280,7 @@ $languageNames = [
 	# used by Wikidata T250246
 	'nsk' => 'Naskapi',
 	'nxm' => 'Numidian',
+	'nyo' => 'Nyoro',
 	# used by Wikidata, added in InitialiseSettings.php
 	'nys' => 'Nyungar',
 	# used by Wikidata, T319125
@@ -433,6 +434,7 @@ $languageNames = [
 	'tnq' => 'Taíno',
 	'tt-cyrl' => 'Tatar (Cyrillic script)',
 	'tt-latn' => 'Tatar (Latin script)',
+	'ttj' => 'Tooro',
 	'tui' => 'Tupuri',
 	# used by Wikidata, T263946
 	'tvu' => 'Tunen',

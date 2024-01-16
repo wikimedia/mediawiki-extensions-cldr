@@ -223,6 +223,7 @@ $languageNames = [
 	'nrm' => 'Normannisch',
 	'nsk' => 'Naskapi',
 	'nxm' => 'Numidisch',
+	'nyo' => 'Nyoro',
 	# 'nys' => 'Nyunga', // German translation unassured
 	# used by Wikidata, T319125
 	'obt' => 'Altbretonisch',
@@ -341,6 +342,7 @@ $languageNames = [
 	'tnq' => 'Taíno',
 	'tt-cyrl' => 'Tatarisch (kyrillische Schrift)',
 	'tt-latn' => 'Tatarisch (lateinische Schrift)',
+	'ttj' => 'Tooro',
 	'tzl' => 'Talossanisch',
 	'ug-arab' => 'Uigurisch (arabische Schrift)',
 	'ug-latn' => 'Uigurisch (lateinische Schrift)',
