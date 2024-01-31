@@ -1,40 +1,40 @@
 {
-	"name": "CLDR",
-	"version": "4.14.0",
-	"author": [
-		"Niklas Laxström",
-		"Siebrand Mazeland",
-		"Ryan Kaldari",
-		"Sam Reed"
-	],
-	"requires": {
-		"MediaWiki": ">= 1.35.0"
-	},
-	"url": "https://www.mediawiki.org/wiki/Extension:CLDR",
-	"descriptionmsg": "cldr-desc",
-	"license-name": "GPL-2.0-or-later",
-	"Hooks": {
-		"LanguageGetTranslatedLanguageNames": "main",
-		"GetHumanTimestamp": "main"
-	},
-	"HookHandlers": {
-		"main": {
-			"class": "MediaWiki\\Extension\\CLDR\\Hooks"
-		}
-	},
-	"MessagesDirs": {
-		"CLDR": [
-			"i18n"
-		]
-	},
-	"AutoloadClasses": {
-		"CountryNames": "includes/CountryNames.php",
-		"LanguageNames": "includes/LanguageNames.php",
-		"MediaWiki\\Extension\\CLDR\\CountryNames": "includes/CountryNames.php",
-		"MediaWiki\\Extension\\CLDR\\LanguageNames": "includes/LanguageNames.php"
-	},
-	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\CLDR\\": "includes/"
-	},
-	"manifest_version": 2
+    "name": "CLDR",
+    "version": "4.14.0 [https://www.mediawiki.org/wiki/MLEB MLEB 2024.01]",
+    "author": [
+        "Niklas Laxström",
+        "Siebrand Mazeland",
+        "Ryan Kaldari",
+        "Sam Reed"
+    ],
+    "requires": {
+        "MediaWiki": ">= 1.35.0"
+    },
+    "url": "https://www.mediawiki.org/wiki/Extension:CLDR",
+    "descriptionmsg": "cldr-desc",
+    "license-name": "GPL-2.0-or-later",
+    "Hooks": {
+        "LanguageGetTranslatedLanguageNames": "main",
+        "GetHumanTimestamp": "main"
+    },
+    "HookHandlers": {
+        "main": {
+            "class": "MediaWiki\\Extension\\CLDR\\Hooks"
+        }
+    },
+    "MessagesDirs": {
+        "CLDR": [
+            "i18n"
+        ]
+    },
+    "AutoloadClasses": {
+        "CountryNames": "includes/CountryNames.php",
+        "LanguageNames": "includes/LanguageNames.php",
+        "MediaWiki\\Extension\\CLDR\\CountryNames": "includes/CountryNames.php",
+        "MediaWiki\\Extension\\CLDR\\LanguageNames": "includes/LanguageNames.php"
+    },
+    "AutoloadNamespaces": {
+        "MediaWiki\\Extension\\CLDR\\": "includes/"
+    },
+    "manifest_version": 2
 }
