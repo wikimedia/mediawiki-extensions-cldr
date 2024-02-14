@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\CLDR;
 
-use Exception;
+use InvalidArgumentException;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
 
@@ -46,7 +46,6 @@ class LanguageNames {
 	 * @param string $code
 	 * @param int $fbMethod
 	 * @param int $list
-	 * @throws Exception
 	 * @return array an associative array of language codes and localized language names
 	 */
 	public static function getNames( $code, $fbMethod = self::FALLBACK_NATIVE,
@@ -80,7 +79,7 @@ class LanguageNames {
 				$names[$code] = $native[$code];
 			}
 		} else {
-			throw new Exception( "Invalid value for 2:\$fallback in " . __METHOD__ );
+			throw new InvalidArgumentException( "Invalid value for 2:\$fallback in " . __METHOD__ );
 		}
 
 		switch ( $list ) {
@@ -93,7 +92,7 @@ class LanguageNames {
 			case self::LIST_MW_AND_CLDR:
 				return $names;
 			default:
-				throw new Exception( "Invalid value for 3:\$list in " . __METHOD__ );
+				throw new InvalidArgumentException( "Invalid value for 3:\$list in " . __METHOD__ );
 		}
 	}
 
