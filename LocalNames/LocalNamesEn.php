@@ -91,10 +91,10 @@ $languageNames = [
 	'cnr' => 'Montenegrin',
 	'cnx' => 'Middle Cornish',
 	# Added to core, T343865
-	'cpx' => 'Pu-Xian Min',
-	'cpx-hans' => 'Pu-Xian Min (Simplified Han script)',
-	'cpx-hant' => 'Pu-Xian Min (Traditional Han script)',
-	'cpx-latn' => 'Pu-Xian Min (Latin script)',
+	'cpx' => 'Pu–Xian Min',
+	'cpx-hans' => 'Pu–Xian Min (Simplified Han script)',
+	'cpx-hant' => 'Pu–Xian Min (Traditional Han script)',
+	'cpx-latn' => 'Pu–Xian Min (Latin script)',
 	# used by Wikidata, T220284
 	'crb' => 'Island Carib',
 	'crh-cyrl' => 'Crimean Tatar (Cyrillic script)',
