@@ -295,6 +295,13 @@ $languageNames = [
 	'nan' => 'Minnan',
 	# used by Wikidata, T180771
 	'nan-hani' => 'Minnan (Han script)',
+	'nan-hant' => 'Minnan (Traditional Han script)',
+	# Pe̍h-ōe-jī orthography / Hokkien Vernacular Romanization System
+	# used by Wikidata, T359744
+	'nan-latn-pehoeji' => 'Minnan (Pe̍h-ōe-jī)',
+	# Tâi-lô orthography / Taiwanese Hokkien Romanization System
+	# used by Wikidata, T359744
+	'nan-latn-tailo' => 'Minnan (Tâi-lô)',
 	# used by Wikidata, T263946
 	'nge' => 'Ngémba',
 	# Missing en translation T256649
