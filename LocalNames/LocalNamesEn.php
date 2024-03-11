@@ -18,6 +18,8 @@ $languageNames = [
 	'aeb-latn' => 'Tunisian Arabic (Latin script)',
 	# used by Wikidata, T321644
 	'aec' => 'Saʽidi Arabic',
+	'akk-latn' => 'Akkadian (Latin script)',
+	'akk-xsux' => 'Akkadian (Cuneiform script)',
 	# used by Wikidata, T190981
 	'alc' => 'Kawésqar',
 	# used by Wikidata, T295738
@@ -25,10 +27,13 @@ $languageNames = [
 	'ami' => 'Amis',
 	'ane' => 'Xârâcùù',
 	'apc' => 'Levantine Arabic',
+	'ary-arab' => 'Moroccan Arabic (Arabic script)',
+	'ary-latn' => 'Moroccan Arabic (Latin script)',
 	'az-cyrl' => 'Azerbaijani (Cyrillic script)',
 	'azb' => 'South Azerbaijani',
 	# used by Wikidata, T263946
 	'bag' => 'Tuki',
+	'bal-latn' => 'Baluchi (Latin script)',
 	'ban-bali' => 'Balinese (Balinese script)',
 	'bat-smg' => 'Samogitian',
 	'bbc-latn' => 'Batak Toba (Latin script)',
@@ -43,12 +48,21 @@ $languageNames = [
 	'be-x-old' => 'Belarusian (Taraškievica orthography)',
 	'bfi' => 'British Sign Language',
 	'bft' => 'Balti',
+	'bft-tibt' => 'Balti (Tibetan script)',
 	'bfz' => 'Mahasu Pahari',
+	'bfz-deva' => 'Mahasu Pahari (Devanagari script)',
+	'bfz-takr' => 'Mahasu Pahari (Takri script)',
+	'bgc-arab' => 'Haryanvi (Arabic script)',
+	'bgc-deva' => 'Haryanvi (Devanagari script)',
 	'bgp' => 'Eastern Balochi',
 	'bgq' => 'Bagri',
+	'bgq-arab' => 'Bagri (Arabic script)',
+	'bgq-deva' => 'Bagri (Devanagari script)',
 	'bh' => 'Bhojpuri',
 	'bha' => 'Bharia',
 	'bhd' => 'Bhadrawahi',
+	'bhd-deva' => 'Bhadrawahi (Devanagari script)',
+	'bhd-takr' => 'Bhadrawahi (Takri script)',
 	# used by Wikidata, T263946
 	'bkc' => 'Baka',
 	# used by Wikidata, T263946
@@ -57,6 +71,7 @@ $languageNames = [
 	'bnn' => 'Bunun',
 	# used by Wikidata, T263946
 	'bqz' => 'Mka\'a',
+	'brh-latn' => 'Brahui (Latin script)',
 	'bse' => 'Wushi',
 	'bsk' => 'Burushaski',
 	'bxr' => 'Russia Buriat',
@@ -82,6 +97,8 @@ $languageNames = [
 	'cjy' => 'Jin',
 	'cjy-hans' => 'Jin (Simplified Han script)',
 	'cjy-hant' => 'Jin (Traditional Han script)',
+	'ckb-arab' => 'Central Kurdish (Arabic script)',
+	'ckb-latn' => 'Central Kurdish (Latin script)',
 	# used by Wikidata, T240097
 	'ckt' => 'Chukchi',
 	# used by Wikidata, T215032
@@ -106,6 +123,9 @@ $languageNames = [
 	'dag' => 'Dagbani',
 	'de-1901' => 'German (traditional orthography)',
 	'de-formal' => 'German (formal address)',
+	'doi-arab' => 'Dogri (Arabic script)',
+	'doi-deva' => 'Dogri (Devanagari script)',
+	'doi-dogr' => 'Dogri (Dogra script)',
 	# used by Wikidata, T267915
 	'dru' => 'Rukai',
 	'dty' => 'Doteli',
@@ -139,10 +159,14 @@ $languageNames = [
 	'gan-hans' => 'Gan (Simplified Han script)',
 	'gan-hant' => 'Gan (Traditional Han script)',
 	'gbk' => 'Gaddi',
+	'gbk-deva' => 'Gaddi (Devanagari script)',
+	'gbk-takr' => 'Gaddi (Takri script)',
 	# Added to core, T353307.
 	'gcf' => 'Guadeloupean Creole',
 	'gcr' => 'Guianan Creole',
 	'gju' => 'Gujari',
+	'gju-arab' => 'Gujari (Arabic script)',
+	'gju-deva' => 'Gujari (Devanagari script)',
 	'gld' => 'Nanai',
 	# used by Wikidata T217131
 	'gml' => 'Middle Low German',
@@ -169,7 +193,10 @@ $languageNames = [
 	'haz' => 'Hazaragi',
 	# used by Wikidata, T155368
 	'hbo' => 'Biblical Hebrew',
+	'hi-kthi' => 'Hindi (Kaithi script)',
 	'hif-latn' => 'Fiji Hindi (Latin script)',
+	'hit-latn' => 'Hittite (Latin script)',
+	'hit-xsux' => 'Hittite (Cuneiform script)',
 	# Added to core, T332113
 	'hno' => 'Northern Hindko',
 	'hoc' => 'Ho',
@@ -209,8 +236,13 @@ $languageNames = [
 	# used by Wikidata, T198366
 	'kld' => 'Gamilaraay',
 	'kls' => 'Kalasha',
+	'kls-arab' => 'Kalasha (Arabic script)',
+	'kls-latn' => 'Kalasha (Latin script)',
 	'kmr' => 'Northern Kurdish',
+	'kmr-arab' => 'Northern Kurdish (Arabic script)',
+	'kmr-latn' => 'Northern Kurdish (Latin script)',
 	'knn' => 'Maharashtrian Konkani',
+	'ko-hani' => 'Korean (Hanja script)',
 	'ko-kp' => 'Korean (North Korea)',
 	'koy' => 'Koyukon',
 	'ks-arab' => 'Kashmiri (Arabic script)',
@@ -244,6 +276,7 @@ $languageNames = [
 	'mis' => 'unsupported language',
 	# used by Wikidata T155419
 	'mix' => 'Mixtec',
+	'mn-mong' => 'Mongolian (Mongolian script)',
 	# added to core T284043
 	'mnc-latn' => 'Manchu (Latin script)',
 	'mnc-mong' => 'Manchu (Mongolian script)',
@@ -258,6 +291,7 @@ $languageNames = [
 	'mul' => 'multiple languages',
 	'mvf' => 'Peripheral Mongolian',
 	'mvi' => 'Miyako',
+	'mvi-hira' => 'Miyako (Hiragana script)',
 	'nan' => 'Minnan',
 	# used by Wikidata, T180771
 	'nan-hani' => 'Minnan (Han script)',
@@ -305,10 +339,16 @@ $languageNames = [
 	'osx' => 'Old Saxon',
 	'otk' => 'Old Turkish',
 	'owl' => 'Old Welsh',
+	'pal-phli' => 'Pahlavi (Inscriptional Pahlavi script)',
+	'pal-phlp' => 'Pahlavi (Psalter Pahlavi script)',
+	'pal-phlv' => 'Pahlavi (Book Pahlavi script)',
 	# used by Wikidata T275682
 	'pao' => 'Northern Paiute',
 	'pap-aw' => 'Papiamento (Aruba)',
 	'pgd' => 'Gāndhārī',
+	'pgd-arab' => 'Gāndhārī (Arabic script)',
+	'pgd-deva' => 'Gāndhārī (Devanagari script)',
+	'pgd-khar' => 'Gāndhārī (Kharoshthi script)',
 	# used by Wikidata T155425
 	'phn-latn' => 'Phoenician (Latin script)',
 	# used by Wikidata T155425
@@ -321,6 +361,10 @@ $languageNames = [
 	'ppu' => 'Papora-Hoanya',
 	'prs' => 'Dari',
 	'psu' => 'Sauraseni Prākrit',
+	'psu-arab' => 'Sauraseni Prākrit (Arabic script)',
+	'psu-brah' => 'Sauraseni Prākrit (Brahmi script)',
+	'psu-deva' => 'Sauraseni Prākrit (Devanagari script)',
+	'psu-guru' => 'Sauraseni Prākrit (Gurmukhi script)',
 	'pt-ao1990' => 'Portuguese (1990 Orthographic Agreement)',
 	'pt-colb1945' => 'Portuguese (1945 Orthographic Agreement)',
 	'pwn' => 'Paiwan',
@@ -329,6 +373,7 @@ $languageNames = [
 	'qya' => 'Quenya',
 	# used by Wikidata, T267479
 	'rah' => 'Rabha',
+	'rhg-arab' => 'Rohingya (Arabic script)',
 	'rhg-rohg' => 'Rohingya (Hanifi Rohingya script)',
 	# T320912
 	'rki' => 'Arakanese',
@@ -367,14 +412,19 @@ $languageNames = [
 	'rut' => 'Rutul',
 	'rwr' => 'Marwari (India)',
 	'rys' => 'Yaeyama',
+	'rys-hira' => 'Yaeyama (Hiragana script)',
 	# used by Wikidata T271215
 	'ryu' => 'Okinawan',
+	'ryu-hira' => 'Okinawan (Hiragana script)',
 	# used by Wikidata T230881
 	'sa-sidd' => 'Sanskrit (Siddham script)',
 	'sat-beng' => 'Santali (Bengali script)',
 	'sat-latn' => 'Santali (Latin script)',
 	'sat-orya' => 'Santali (Oriya script)',
 	'scl' => 'Shina',
+	'sd-deva' => 'Sindhi (Devanagari script)',
+	'sdh-arab' => 'Southern Kurdish (Arabic script)',
+	'sdh-latn' => 'Southern Kurdish (Latin script)',
 	'se-fi' => 'Northern Sami (Finland)',
 	'se-no' => 'Northern Sami (Norway)',
 	'se-se' => 'Northern Sami (Sweden)',
@@ -451,10 +501,13 @@ $languageNames = [
 	 */
 	'und' => 'undetermined language',
 	'unr' => 'Mundari',
+	'unr-deva' => 'Mundari (Devanagari script)',
+	'unr-nagm' => 'Mundari (Nag Mundari script)',
 	# used by Wikidata, T265468
 	'uun' => 'Pazeh',
 	'uz-cyrl' => 'Uzbek (Cyrillic script)',
 	'uz-latn' => 'Uzbek (Latin script)',
+	'vi-hani' => 'Vietnamese (Han script)',
 	'vmw' => 'Makhuwa',
 	# used by Wikidata, T263946
 	'vut' => 'Vute',
@@ -471,6 +524,8 @@ $languageNames = [
 	'wya' => 'Wyandot',
 	# used by Wikidata, T319125
 	'xbm' => 'Middle Breton',
+	'xnr-deva' => 'Kangri (Devanagari script)',
+	'xnr-takr' => 'Kangri (Takri script)',
 	'xpu' => 'Punic',
 	# used by Wikidata, T317354
 	'xsu' => 'Sanumá',
@@ -484,7 +539,9 @@ $languageNames = [
 	# used by Wikidata, T252198
 	'ykg' => 'Tundra Yukaghir',
 	'yoi' => 'Yonaguni',
+	'yoi-hira' => 'Yonaguni (Hiragana script)',
 	'yox' => 'Yoron',
+	'yox-hira' => 'Yoron (Hiragana script)',
 	'yue-hans' => 'Cantonese (Simplified Han script)',
 	'yue-hant' => 'Cantonese (Traditional Han script)',
 	'zai' => 'Isthmus Zapotec',
