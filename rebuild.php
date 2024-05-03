@@ -79,6 +79,10 @@ class CLDRRebuild extends Maintenance {
 				if ( isset( $codeParts[2] ) && strlen( $codeParts[2] ) === 2 ) {
 					$codeParts[2] = strtoupper( $codeParts[2] );
 				}
+				if ( isset( $codeParts[1] ) && $codeParts[1] === 'tarask' ) {
+					// hack to get be-tarask
+					$codeParts[1] = 'TARASK';
+				}
 				$codeCLDR = implode( '_', $codeParts );
 			} else {
 				$codeCLDR = $code;
