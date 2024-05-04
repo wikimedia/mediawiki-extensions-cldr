@@ -60,6 +60,8 @@ class CLDRRebuild extends Maintenance {
 		$languages['kok'] = 'Foo';
 		# hack to get pt-pt too
 		$languages['pt-pt'] = 'Foo';
+		// hack to get the correct script for mni (T313883)
+		$languages['mni-mtei'] = 'Foo';
 		ksort( $languages );
 
 		foreach ( $languages as $code => $name ) {
@@ -140,6 +142,10 @@ class CLDRRebuild extends Maintenance {
 			$realCode = 'gom-deva';
 		} elseif ( $code === 'ku' ) {
 			$realCode = 'ku-latn';
+		} elseif ( $code === 'mni-mtei' ) {
+			$realCode = 'mni';
+		} elseif ( $code === 'mni' ) {
+			$realCode = 'mni-beng';
 		} elseif ( $code === 'pt' ) {
 			$realCode = 'pt-br';
 		} elseif ( $code === 'pt-pt' ) {
