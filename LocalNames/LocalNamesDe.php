@@ -362,6 +362,8 @@ $languageNames = [
 	'wya' => 'Wyandot',
 	# used by Wikidata, T319125
 	'xbm' => 'Mittelbretonisch',
+	# used by Wikidata, T368815
+	'xno' => 'Anglonormannisch',
 	'xpu' => 'Punisch',
 	# used by Wikidata, T317354
 	'xsu' => 'Sanumá',

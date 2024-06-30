@@ -535,6 +535,8 @@ $languageNames = [
 	'wya' => 'Wyandot',
 	# used by Wikidata, T319125
 	'xbm' => 'Middle Breton',
+	# used by Wikidata, T368815
+	'xno' => 'Anglo-Norman',
 	'xnr-deva' => 'Kangri (Devanagari script)',
 	'xnr-takr' => 'Kangri (Takri script)',
 	'xpu' => 'Punic',
