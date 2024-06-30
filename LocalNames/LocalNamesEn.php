@@ -188,6 +188,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'gya' => 'Gbaya',
 	'ha-arab' => 'Hausa (Arabic script)',
+	# used by Wikidata, T359547
+	'ha-ne' => 'Hausa (Niger)',
 	'hac' => 'Gurani',
 	# used by Wikidata, T180771
 	'hak-hans' => 'Hakka (Simplified Han script)',

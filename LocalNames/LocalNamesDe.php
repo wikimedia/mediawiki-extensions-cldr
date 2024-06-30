@@ -141,6 +141,8 @@ $languageNames = [
 	'guw' => 'Gun',
 	# used by Wikidata, T263946
 	'gya' => 'Nordwest-Gbaya',
+	# used by Wikidata, T359547
+	'ha-ne' => 'Hausa (Niger)',
 	'hak-hans' => 'Hakka (vereinfacht)',
 	'hak-hant' => 'Hakka (traditionell)',
 	'haz' => 'Hazaragi',
