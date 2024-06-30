@@ -135,6 +135,10 @@ $languageNames = [
 	'eml' => 'Emiliano-Romagnolo',
 	# used by Wikidata, T212313
 	'en-in' => 'Indian English',
+	# used by Wikidata, T368683
+	'en-jm' => 'Jamaican English',
+	# used by Wikidata, T368683
+	'en-nz' => 'New Zealand English',
 	'eo-hsistemo' => 'Esperanto (h-system orthography)',
 	'eo-xsistemo' => 'Esperanto (x-system orthography)',
 	# Missing en translation T256649

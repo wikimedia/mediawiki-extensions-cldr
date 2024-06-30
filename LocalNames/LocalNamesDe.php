@@ -100,6 +100,10 @@ $languageNames = [
 	'en-gb' => 'Britisches Englisch',
 	# used by Wikidata, T212313
 	'en-in' => 'Indisches Englisch',
+	# used by Wikidata, T368683
+	'en-jm' => 'Jamaikanisches Englisch',
+	# used by Wikidata, T368683
+	'en-nz' => 'Neuseeländisches Englisch',
 	'en-uk' => 'Britisches Englisch',
 	'en-us' => 'Amerikanisches Englisch',
 	# part of CldrNamesEn.php, missing in CLDR 39
