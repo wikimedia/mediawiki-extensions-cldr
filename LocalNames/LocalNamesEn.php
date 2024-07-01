@@ -229,6 +229,8 @@ $languageNames = [
 	'kbp' => 'Kabiye',
 	# used by Wikidata, T263946
 	'ker' => 'Kera',
+	# used by Wikidata, T368823
+	'kfr' => 'Kutchi',
 	# added to core T351874
 	'kge' => 'Komering',
 	'kjh' => 'Khakas',
