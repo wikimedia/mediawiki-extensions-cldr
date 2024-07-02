@@ -360,6 +360,8 @@ $languageNames = [
 	# used by Wikidata T275682
 	'pao' => 'Northern Paiute',
 	'pap-aw' => 'Papiamento (Aruba)',
+	# used by Wikidata, T368824
+	'paq' => 'Parya',
 	'pgd' => 'Gāndhārī',
 	'pgd-arab' => 'Gāndhārī (Arabic script)',
 	'pgd-deva' => 'Gāndhārī (Devanagari script)',
