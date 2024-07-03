@@ -386,6 +386,8 @@ $languageNames = [
 	'pt-colb1945' => 'Portuguese (1945 Orthographic Agreement)',
 	'pwn' => 'Paiwan',
 	'pyu' => 'Puyuma',
+	# used by Wikidata, T368825
+	'qxq' => 'Qashqai',
 	# used by Wikidata, T185194
 	'qya' => 'Quenya',
 	# used by Wikidata, T267479

@@ -261,6 +261,8 @@ $languageNames = [
 	'pt-pt' => 'Europäisches Portugiesisch',
 	# 'pwn' => 'Paiwan', // German translation unassured
 	# 'pyu' => 'Puyuma', // German translation unassured
+	# used by Wikidata, T368825
+	'qxq' => 'Kaschgaisch',
 	# used by Wikidata, T185194
 	'qya' => 'Quenya',
 	# T320912
