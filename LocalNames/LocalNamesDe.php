@@ -52,7 +52,7 @@ $languageNames = [
 	'cal' => 'Karolinisch',
 	'cbk-zam' => 'Chavacano',
 	'cdo' => 'Min Dong',
-	'cdo-hani' => 'Min Dong (Hanji)',
+	'cdo-hani' => 'Min Dong (Han Schrift)',
 	'cja' => 'Westliches Cham',
 	'cja-arab' => 'Westliches Cham (arabische Schrift)',
 	'cja-cham' => 'Westliches Cham (Cham-Schrift)',
@@ -62,8 +62,8 @@ $languageNames = [
 	'cjm-cham' => 'Östliches Cham (Cham-Schrift)',
 	'cjm-latn' => 'Östliches Cham (lateinische Schrift)',
 	'cjy' => 'Jin',
-	'cjy-hans' => 'Jin (vereinfacht)',
-	'cjy-hant' => 'Jin (traditionell)',
+	'cjy-hans' => 'Jin (vereinfachte Schrift)',
+	'cjy-hant' => 'Jin (traditionelle Schrift)',
 	# used by Wikidata, T240097
 	'ckt' => 'Tschuktschisch',
 	# used by Wikidata, T222020
@@ -120,8 +120,8 @@ $languageNames = [
 	# used by Wikidata, T314935
 	'fud' => 'Futunisch',
 	# 'fuf' => 'Pular', // German translation unassured
-	'gan-hans' => 'Gan (Vereinfachte Schrift)',
-	'gan-hant' => 'Gan (Traditionelle Schrift)',
+	'gan-hans' => 'Gan (vereinfachte Schrift)',
+	'gan-hant' => 'Gan (traditionelle Schrift)',
 	# Added to core, T353307.
 	'gcf' => 'Guadeloupe-Kreolisch',
 	'gcr' => 'Französisch-Guayana Kreolisch',
@@ -143,14 +143,17 @@ $languageNames = [
 	'gya' => 'Nordwest-Gbaya',
 	# used by Wikidata, T359547
 	'ha-ne' => 'Hausa (Niger)',
-	'hak-hans' => 'Hakka (vereinfacht)',
-	'hak-hant' => 'Hakka (traditionell)',
+	'hak-hans' => 'Hakka (vereinfachte Schrift)',
+	'hak-hant' => 'Hakka (traditionelle Schrift)',
 	'haz' => 'Hazaragi',
 	'hbo' => 'Biblisches Hebräisch',
 	'hif' => 'Fidschi-Hindi',
 	'hif-latn' => 'Fidschi-Hindi (lateinische Schrift)',
 	# Added to core, T332113
 	'hno' => 'Nördliches Hindko',
+	# used by Wikidata, T368820
+	'hsn-hans' => 'Xiang (vereinfachte Schrift)',
+	'hsn-hant' => 'Xiang (traditionelle Schrift)',
 	# used by Wikispecies, T303379
 	'hts' => 'Hadza',
 	'hu-formal' => 'Ungarisch (formale Anrede)',
@@ -381,7 +384,7 @@ $languageNames = [
 	'zh-classical' => 'klassisches Chinesisch',
 	'zh-cn' => 'Chinesisch (China)',
 	'zh-hk' => 'Chinesisch (Hongkong)',
-	'zh-min-nan' => 'Chinesisch (Min Nan)',
+	'zh-min-nan' => 'Min Nan',
 	'zh-mo' => 'Chinesisch (Macau)',
 	'zh-my' => 'Chinesisch (Malaysia)',
 	'zh-sg' => 'Chinesisch (Singapur)',

@@ -206,6 +206,10 @@ $languageNames = [
 	# Added to core, T332113
 	'hno' => 'Northern Hindko',
 	'hoc' => 'Ho',
+	'hsn' => 'Xiang',
+	# used by Wikidata, T368820
+	'hsn-hans' => 'Xiang (Simplified Han script)',
+	'hsn-hant' => 'Xiang (Traditional Han script)',
 	# used by Wikispecies, T303379
 	'hts' => 'Hadza',
 	# Missing en translation T256649
