@@ -187,6 +187,8 @@ $languageNames = [
 	# used by Wikidata, T368826
 	'kmz' => 'Chorasan-türkisch',
 	# 'knn' => 'Maharashtrian Konkani', // German translation unassured
+	# used by Wikidata, T368817
+	'ko-kore' => 'Koreanisch (gemischte Schrift)',
 	'ko-kp' => 'Koreanisch (Nordkorea)',
 	'koy' => 'Koyukon',
 	'ks-arab' => 'Kashmiri (arabische Schrift)',
