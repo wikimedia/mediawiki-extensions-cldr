@@ -310,6 +310,12 @@ $languageNames = [
 	'ryu' => 'Okinawa',
 	# used by Wikidata T230881
 	'sa-sidd' => 'Sanskrit (Siddham-Schrift)',
+	# used by Wikidata, T368822
+	'sd-gujr' => 'Sindhi (Gujarati-Schrift)',
+	# used by Wikidata, T368822
+	'sd-khoj' => 'Sindhi (Khojki-Schrift)',
+	# used by Wikidata, T368822
+	'sd-sind' => 'Sindhi (Khudabadi-Schrift)',
 	# used by Wikidata, T312904
 	'ser' => 'Serrano',
 	# needs upstream fix

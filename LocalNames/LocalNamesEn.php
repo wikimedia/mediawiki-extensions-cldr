@@ -450,6 +450,12 @@ $languageNames = [
 	'sat-orya' => 'Santali (Oriya script)',
 	'scl' => 'Shina',
 	'sd-deva' => 'Sindhi (Devanagari script)',
+	# used by Wikidata, T368822
+	'sd-gujr' => 'Sindhi (Gujarati script)',
+	# used by Wikidata, T368822
+	'sd-khoj' => 'Sindhi (Khojki script)',
+	# used by Wikidata, T368822
+	'sd-sind' => 'Sindhi (Khudawadi script)',
 	'sdh-arab' => 'Southern Kurdish (Arabic script)',
 	'sdh-latn' => 'Southern Kurdish (Latin script)',
 	'se-fi' => 'Northern Sami (Finland)',
