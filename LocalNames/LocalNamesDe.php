@@ -263,6 +263,10 @@ $languageNames = [
 	'pnb' => 'Westliches Panjabi',
 	# 'ppu' => 'Papora-Hoanya', // German translation unassured
 	'prs' => 'Dari',
+	# used by Wikidata T357205
+	'ps-af' => 'Paschtu (Afghanistan)',
+	# used by Wikidata T357205
+	'ps-pk' => 'Paschtu (Pakistan)',
 	'pt-br' => 'Brasilianisches Portugiesisch',
 	# part of CldrNamesEn.php, missing in CLDR 38
 	'pt-pt' => 'Europäisches Portugiesisch',

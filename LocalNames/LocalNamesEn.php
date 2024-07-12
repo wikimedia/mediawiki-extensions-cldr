@@ -385,6 +385,10 @@ $languageNames = [
 	'pnb' => 'Western Punjabi',
 	'ppu' => 'Papora-Hoanya',
 	'prs' => 'Dari',
+	# used by Wikidata T357205
+	'ps-af' => 'Pashto (Afghanistan)',
+	# used by Wikidata T357205
+	'ps-pk' => 'Pashto (Pakistan)',
 	'psu' => 'Sauraseni Prākrit',
 	'psu-arab' => 'Sauraseni Prākrit (Arabic script)',
 	'psu-brah' => 'Sauraseni Prākrit (Brahmi script)',
