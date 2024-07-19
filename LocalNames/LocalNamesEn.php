@@ -221,6 +221,8 @@ $languageNames = [
 	'ike-latn' => 'Eastern Canadian (Latin script)',
 	# used by Wikidata, T263946
 	'isu' => 'Isu',
+	# Added to core, T367688
+	'isv-latn' => 'Interslavic (Latin script)',
 	# used by Wikidata, T195816
 	'ja-hani' => 'Japanese (Kanji script)',
 	# used by Wikidata, T195816

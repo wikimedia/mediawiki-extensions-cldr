@@ -26,6 +26,8 @@ $languageNames = [
 	# used by Wikidata, T295738
 	'alq' => 'Algonquian',
 	'ami' => 'Amisisch',
+	# Added to core, T290657
+	'apc' => 'Levantinisches Arabisch',
 	'azb' => 'Südaserbaidschanisch',
 	'bat-smg' => 'Schemaitisch',
 	'bbc-latn' => 'Batak Toba (lateinische Schrift)',
@@ -52,7 +54,9 @@ $languageNames = [
 	'cal' => 'Karolinisch',
 	'cbk-zam' => 'Chavacano',
 	'cdo' => 'Min Dong',
-	'cdo-hani' => 'Min Dong (Han Schrift)',
+	'cdo-hani' => 'Min Dong (Han-Schrift)',
+	'cdo-hant' => 'Min Dong (traditionelle Han-Schrift)',
+	'cdo-latn' => 'Min Dong (lateinische Schrift)',
 	'cja' => 'Westliches Cham',
 	'cja-arab' => 'Westliches Cham (arabische Schrift)',
 	'cja-cham' => 'Westliches Cham (Cham-Schrift)',
@@ -62,8 +66,8 @@ $languageNames = [
 	'cjm-cham' => 'Östliches Cham (Cham-Schrift)',
 	'cjm-latn' => 'Östliches Cham (lateinische Schrift)',
 	'cjy' => 'Jin',
-	'cjy-hans' => 'Jin (vereinfachte Schrift)',
-	'cjy-hant' => 'Jin (traditionelle Schrift)',
+	'cjy-hans' => 'Jin (vereinfachte Han-Schrift)',
+	'cjy-hant' => 'Jin (traditionelle Han-Schrift)',
 	# used by Wikidata, T240097
 	'ckt' => 'Tschuktschisch',
 	# used by Wikidata, T222020
@@ -75,8 +79,8 @@ $languageNames = [
 	'cnr' => 'Montenegrinisch',
 	# Added to core, T343865
 	'cpx' => 'Pu-Xian',
-	'cpx-hans' => 'Pu-Xian (vereinfachte Schrift)',
-	'cpx-hant' => 'Pu-Xian (traditionelle Schrift)',
+	'cpx-hans' => 'Pu-Xian (vereinfachte Han-Schrift)',
+	'cpx-hant' => 'Pu-Xian (traditionelle Han-Schrift)',
 	'cpx-latn' => 'Pu-Xian (lateinische Schrift)',
 	'crb' => 'Insel-Karibisch',
 	'crh' => 'Krimtatarisch',
@@ -88,7 +92,7 @@ $languageNames = [
 	'crl' => 'Nordost-Cree',
 	# used by Wikidata, T240098
 	'dag' => 'Dagbani',
-	'de-formal' => 'Deutsch (Sie-Form)',
+	'de-formal' => 'Deutsch (Sie-Anrede)',
 	// https://d-nb.info/gnd/7543852-5
 	'dty' => 'Doteli',
 	# used by Wikidata, T198674
@@ -120,8 +124,8 @@ $languageNames = [
 	# used by Wikidata, T314935
 	'fud' => 'Futunisch',
 	# 'fuf' => 'Pular', // German translation unassured
-	'gan-hans' => 'Gan (vereinfachte Schrift)',
-	'gan-hant' => 'Gan (traditionelle Schrift)',
+	'gan-hans' => 'Gan (vereinfachte Han-Schrift)',
+	'gan-hant' => 'Gan (traditionelle Han-Schrift)',
 	# Added to core, T353307.
 	'gcf' => 'Guadeloupe-Kreolisch',
 	'gcr' => 'Französisch-Guayana Kreolisch',
@@ -143,8 +147,8 @@ $languageNames = [
 	'gya' => 'Nordwest-Gbaya',
 	# used by Wikidata, T359547
 	'ha-ne' => 'Hausa (Niger)',
-	'hak-hans' => 'Hakka (vereinfachte Schrift)',
-	'hak-hant' => 'Hakka (traditionelle Schrift)',
+	'hak-hans' => 'Hakka (vereinfachte Han-Schrift)',
+	'hak-hant' => 'Hakka (traditionelle Han-Schrift)',
 	'haz' => 'Hazaragi',
 	'hbo' => 'Biblisches Hebräisch',
 	'hif' => 'Fidschi-Hindi',
@@ -152,14 +156,16 @@ $languageNames = [
 	# Added to core, T332113
 	'hno' => 'Nördliches Hindko',
 	# used by Wikidata, T368820
-	'hsn-hans' => 'Xiang (vereinfachte Schrift)',
-	'hsn-hant' => 'Xiang (traditionelle Schrift)',
+	'hsn-hans' => 'Xiang (vereinfachte Han-Schrift)',
+	'hsn-hant' => 'Xiang (traditionelle Han-Schrift)',
 	# used by Wikispecies, T303379
 	'hts' => 'Hadza',
 	'hu-formal' => 'Ungarisch (formale Anrede)',
 	'hyw' => 'Westarmenisch',
 	'ike-cans' => 'Inuktitut (kanadische Silbenschrift)',
 	'ike-latn' => 'Inuktitut (lateinische Schrift)',
+	# Added to core, T367688
+	'isv-latn' => 'Interslawisch (lateinische Schrift)',
 	# used by Wikidata, T195816
 	'ja-hani' => 'Japanisch (Kanji-Schrift)',
 	# used by Wikidata, T195816
@@ -222,7 +228,14 @@ $languageNames = [
 	'ms-arab' => 'Malaiisch (Jawi-Schrift)',
 	'mui' => 'Musi',
 	'nah' => 'Nahuatl',
-	'nl-informal' => 'Niederländusch (informelle Anrede)',
+	'nan-hant' => 'Min Nan (traditionelle Han-Schrift)',
+	# Pe̍h-ōe-jī orthography / Hokkien Vernacular Romanization System
+	# used by Wikidata, T359744
+	'nan-latn-pehoeji' => 'Min Nan (Pe̍h-ōe-jī)',
+	# Tâi-lô orthography / Taiwanese Hokkien Romanization System
+	# used by Wikidata, T359744
+	'nan-latn-tailo' => 'Min Nan (Tâi-lô)',
+	'nl-informal' => 'Niederländisch (informelle Anrede)',
 	'nmz' => 'Nawdm',
 	# used by Wikidata, T263946
 	'nnz' => 'Nda\'nda\'',
@@ -236,7 +249,6 @@ $languageNames = [
 	'nrm' => 'Normannisch',
 	'nsk' => 'Naskapi',
 	'nxm' => 'Numidisch',
-	'nyo' => 'Nyoro',
 	# 'nys' => 'Nyunga', // German translation unassured
 	# used by Wikidata, T319125
 	'obt' => 'Altbretonisch',
