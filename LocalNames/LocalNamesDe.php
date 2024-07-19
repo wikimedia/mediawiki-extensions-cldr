@@ -253,6 +253,8 @@ $languageNames = [
 	'otk' => 'Alttürkisch',
 	# used by Wikidata T275682
 	'pap-aw' => 'Papiamentu (Aruba)',
+	# used by Wikidata T369293
+	'phl' => 'Phalura',
 	# used by Wikidata T155425
 	'phn-latn' => 'Phönizisch (lateinische Schrift)',
 	# used by Wikidata T155425

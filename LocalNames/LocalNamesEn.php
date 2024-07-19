@@ -376,6 +376,8 @@ $languageNames = [
 	'pgd-arab' => 'Gāndhārī (Arabic script)',
 	'pgd-deva' => 'Gāndhārī (Devanagari script)',
 	'pgd-khar' => 'Gāndhārī (Kharoshthi script)',
+	# used by Wikidata T369293
+	'phl' => 'Palula',
 	# used by Wikidata T155425
 	'phn-latn' => 'Phoenician (Latin script)',
 	# used by Wikidata T155425
