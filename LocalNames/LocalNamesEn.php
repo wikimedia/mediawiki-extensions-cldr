@@ -18,6 +18,7 @@ $languageNames = [
 	'aeb-latn' => 'Tunisian Arabic (Latin script)',
 	# used by Wikidata, T321644
 	'aec' => 'Saʽidi Arabic',
+	'aii' => 'Assyrian Neo-Aramaic',
 	'akk-latn' => 'Akkadian (Latin script)',
 	'akk-xsux' => 'Akkadian (Cuneiform script)',
 	# used by Wikidata, T190981
