@@ -11,6 +11,7 @@ $languageNames = [
 	# used by Wikidata, T155424
 	'abq-latn' => 'Abaza',
 	'abs' => 'Ambonese Malay',
+	'acf' => 'Saint Lucian Creole',
 	# Added to Core, not part of CLDR, T333425
 	'acm' => 'Iraqi Arabic',
 	'ady-cyrl' => 'Adyghe (Cyrillic script)',
