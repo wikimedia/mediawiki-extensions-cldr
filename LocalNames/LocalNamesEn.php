@@ -10,6 +10,7 @@ $languageNames = [
 	'abq' => 'Abaza',
 	# used by Wikidata, T155424
 	'abq-latn' => 'Abaza',
+	'abr' => 'Abron',
 	'abs' => 'Ambonese Malay',
 	'acf' => 'Saint Lucian Creole',
 	# Added to Core, not part of CLDR, T333425
