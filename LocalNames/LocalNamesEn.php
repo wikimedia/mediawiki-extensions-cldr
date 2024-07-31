@@ -306,6 +306,7 @@ $languageNames = [
 	'mo' => 'Moldovan',
 	# used by Wikidata, T270059
 	'ms-arab' => 'Malay (Jawi script)',
+	'msi' => 'Sabah Malay',
 	'mui' => 'Musi',
 	/* Upper case in CLDR, but should be lower case
 	 * https://unicode-org.atlassian.net/browse/CLDR-9664
