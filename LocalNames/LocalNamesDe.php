@@ -319,7 +319,6 @@ $languageNames = [
 	'rsk' => 'Pannonisch-Russinisch',
 	'ruq' => 'Meglenorumänisch',
 	'ruq-cyrl' => 'Meglenorumänisch (kyrillische Schrift)',
-	'ruq-grek' => 'Meglenorumänisch (griechische Schrift)',
 	'ruq-latn' => 'Meglenorumänisch (lateinische Schrift)',
 	# Added to core, not part of CLDR, T352954
 	'rut' => 'Rutulisch',

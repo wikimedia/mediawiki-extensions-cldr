@@ -225,7 +225,6 @@ $languageNames = [
 	'rsk' => 'pannonisk rusinsk',
 	'ruq' => 'meglenorumensk',
 	'ruq-cyrl' => 'meglenorumensk (kyrillisk alfabet)',
-	'ruq-grek' => 'meglenorumensk (gresk alfabet)',
 	'ruq-latn' => 'meglenorumensk (latinsk alfabet)',
 	'rut' => 'rutul',
 	'rwr' => 'marwari',

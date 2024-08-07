@@ -447,7 +447,6 @@ $languageNames = [
 	'ruo' => 'Istro Romanian',
 	'ruq' => 'Megleno-Romanian',
 	'ruq-cyrl' => 'Megleno-Romanian (Cyrillic script)',
-	'ruq-grek' => 'Megleno-Romanian (Greek script)',
 	'ruq-latn' => 'Megleno-Romanian (Latin script)',
 	# Added to core, not part of CLDR, T352954
 	'rut' => 'Rutul',
