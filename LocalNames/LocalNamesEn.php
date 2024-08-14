@@ -522,6 +522,7 @@ $languageNames = [
 	'tdd' => 'Tai Nuea',
 	'tg-cyrl' => 'Tajik (Cyrillic script)',
 	'tg-latn' => 'Tajik (Latin script)',
+	'tji' => 'Northern Tujia',
 	'tlb' => 'Tobelo',
 	# used by Wikidata T286239
 	'tlh-latn' => 'Klingon (Latin script)',
