@@ -14,6 +14,7 @@ use MediaWiki\MediaWikiServices;
  */
 class CountryNames {
 
+	/** @var array */
 	private static $cache = [];
 
 	/**

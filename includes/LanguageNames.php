@@ -16,6 +16,7 @@ use MediaWiki\MediaWikiServices;
  */
 class LanguageNames {
 
+	/** @var array */
 	private static $cache = [];
 
 	/**

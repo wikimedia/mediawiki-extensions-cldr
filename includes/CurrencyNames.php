@@ -14,6 +14,7 @@ use MediaWiki\MediaWikiServices;
  */
 class CurrencyNames {
 
+	/** @var array */
 	private static $cache = [];
 
 	/**

@@ -14,6 +14,7 @@ use MediaWiki\MediaWikiServices;
  */
 class TimeUnits {
 
+	/** @var array */
 	private static $cache = [];
 
 	/**
