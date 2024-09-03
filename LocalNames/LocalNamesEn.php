@@ -604,6 +604,8 @@ $languageNames = [
 	'zh-tw' => 'Chinese (Taiwan)',
 	# language redirect
 	'zh-yue' => 'Cantonese',
+	# Requested for translatewiki and Wikidata: T373931
+	'zmi' => 'Negeri Sembilan Malay',
 	'zpu' => 'Yalálag Zapotec',
 	/* Upper case in CLDR, but should be lower case
 	 * https://unicode-org.atlassian.net/browse/CLDR-9664
