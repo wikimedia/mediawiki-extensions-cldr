@@ -20,11 +20,20 @@ $languageNames = [
 	'aeb-latn' => 'Tunisian Arabic (Latin script)',
 	# used by Wikidata, T321644
 	'aec' => 'Saʽidi Arabic',
+	# Used by translatewiki
+	'ahr' => 'Ahirani',
 	'aii' => 'Assyrian Neo-Aramaic',
+	# Used by translatewiki
+	# The English name in ISO 639 is "Aja", but this would be
+	# ambiguous with "aja", so use "Ajagbe", which is also
+	# used in English-language literature
+	'ajg' => 'Ajagbe',
 	'akk-latn' => 'Akkadian (Latin script)',
 	'akk-xsux' => 'Akkadian (Cuneiform script)',
 	# used by Wikidata, T190981
 	'alc' => 'Kawésqar',
+	# Used by translatewiki
+	'ale-cyrl' => 'Aleut (Cyrillic script)',
 	# used by Wikidata, T295738
 	'alq' => 'Algonquin',
 	'ami' => 'Amis',
@@ -32,6 +41,8 @@ $languageNames = [
 	'apc' => 'Levantine Arabic',
 	'ary-arab' => 'Moroccan Arabic (Arabic script)',
 	'ary-latn' => 'Moroccan Arabic (Latin script)',
+	# Used by translatewiki
+	'atv' => 'Northern Altai',
 	'az-cyrl' => 'Azerbaijani (Cyrillic script)',
 	'azb' => 'South Azerbaijani',
 	# used by Wikidata, T263946
@@ -49,6 +60,8 @@ $languageNames = [
 	'be-tarask' => 'Belarusian (Taraškievica orthography)',
 	# internal code of be-tarask.wikipedia.org
 	'be-x-old' => 'Belarusian (Taraškievica orthography)',
+	# Used by translatewiki
+	'bfa' => 'Bari',
 	'bfi' => 'British Sign Language',
 	'bft' => 'Balti',
 	'bft-tibt' => 'Balti (Tibetan script)',
@@ -70,14 +83,29 @@ $languageNames = [
 	'bkc' => 'Baka',
 	# used by Wikidata, T263946
 	'bkh' => 'Bakako',
+	# Used by translatewiki
+	# The English name in ISO 639 is "Bella Coola", but "Nuxalk"
+	# is used by the native speakers when writing in English,
+	# and is also used in English-language literature about it
+	'blc' => 'Nuxalk',
 	'blk' => 'Pa\'O',
 	'bnn' => 'Bunun',
+	# Used by translatewiki
+	'bol' => 'Bole',
+	# Used by translatewiki
+	'bom' => 'Berom',
 	# used by Wikidata, T263946
 	'bqz' => 'Mka\'a',
 	'brh-latn' => 'Brahui (Latin script)',
 	'bse' => 'Wushi',
 	'bsk' => 'Burushaski',
+	# Used by translatewiki
+	'bug-bugi' => 'Buginese (Buginese script)',
+	# Used by translatewiki
+	'bwr' => 'Bura-Pabir',
 	'bxr' => 'Russia Buriat',
+	# used by Wikidata, T323440
+	'bzj' => 'Belize Kriol',
 	# used by Wikidata, T323440
 	'bzs' => 'Brazilian Sign Language',
 	# used by Wikidata, T278854
@@ -110,7 +138,10 @@ $languageNames = [
 	'cmg' => 'Classical Mongolian',
 	# used by Wikidata, T278853
 	'cnh' => 'Hakha-Chin',
+	# Used by translatewiki
 	'cnr' => 'Montenegrin',
+	'cnr-cyrl' => 'Montenegrin (Cyrillic script)',
+	'cnr-latn' => 'Montenegrin (Latin script)',
 	'cnx' => 'Middle Cornish',
 	# Added to core, T343865
 	'cpx' => 'Puxian',
@@ -126,6 +157,8 @@ $languageNames = [
 	'ctg' => 'Chittagonian',
 	# used by Wikidata, T240098
 	'dag' => 'Dagbani',
+	# Used by translatewiki
+	'ddn' => 'Dendi',
 	'de-1901' => 'German (traditional orthography)',
 	'de-formal' => 'German (formal address)',
 	'doi-arab' => 'Dogri (Arabic script)',
@@ -135,8 +168,12 @@ $languageNames = [
 	'dru' => 'Rukai',
 	'dty' => 'Doteli',
 	'duf' => 'Dumbea',
+	# Used by translatewiki
+	'ekp' => 'Ekpeye',
 	# used by Wikidata, T198674
 	'el-cy' => 'Cypriot Greek',
+	# Used by translatewiki
+	'elm' => 'Eleme',
 	'eml' => 'Emiliano-Romagnolo',
 	# used by Wikidata, T212313
 	'en-in' => 'Indian English',
@@ -170,6 +207,8 @@ $languageNames = [
 	'gbk' => 'Gaddi',
 	'gbk-deva' => 'Gaddi (Devanagari script)',
 	'gbk-takr' => 'Gaddi (Takri script)',
+	# Used by translatewiki
+	'gbm' => 'Garhwali',
 	# Added to core, T353307.
 	'gcf' => 'Guadeloupean Creole',
 	'gcr' => 'Guianan Creole',
@@ -205,9 +244,15 @@ $languageNames = [
 	# used by Wikidata, T155368
 	'hbo' => 'Biblical Hebrew',
 	'hi-kthi' => 'Hindi (Kaithi script)',
+	# Used by translatewiki
+	'hif-deva' => 'Fiji Hindi (Devanagari script)',
 	'hif-latn' => 'Fiji Hindi (Latin script)',
 	'hit-latn' => 'Hittite (Latin script)',
 	'hit-xsux' => 'Hittite (Cuneiform script)',
+	# Used by translatewiki
+	'hke' => 'Hunde',
+	# Used by translatewiki
+	'hne' => 'Chhattisgarhi',
 	# Added to core, T332113
 	'hno' => 'Northern Hindko',
 	'hoc' => 'Ho',
@@ -220,10 +265,18 @@ $languageNames = [
 	# Missing en translation T256649
 	'hu-formal' => 'Hungarian (formal address)',
 	'hyw' => 'Western Armenian',
+	# Used by translatewiki
+	'igb' => 'Ebira',
+	# Used by translatewiki
+	'igl' => 'Igala',
 	'ike-cans' => 'Eastern Canadian (Aboriginal syllabics)',
 	'ike-latn' => 'Eastern Canadian (Latin script)',
+	# Used by translatewiki
+	'ish' => 'Esan',
 	# used by Wikidata, T263946
 	'isu' => 'Isu',
+	# Used by translatewiki
+	'isv-cyrl' => 'Interslavic (Cyrillic script)',
 	# Added to core, T367688
 	'isv-latn' => 'Interslavic (Latin script)',
 	# used by Wikidata, T195816
@@ -234,7 +287,15 @@ $languageNames = [
 	'ja-hrkt' => 'Japanese (Kana script)',
 	# used by Wikidata, T195816
 	'ja-kana' => 'Japanese (Katakana script)',
+	# Used by translatewiki
+	'jac' => 'Popti\'',
+	# Used by translatewiki
+	'jdt' => 'Judeo-Tat',
+	# Used by translatewiki
+	'jje' => 'Jeju',
 	# added to core T345807
+	# Used by translatewiki
+	'jv-java' => 'Javanese (Javanese script)',
 	'kai' => 'Karekare',
 	'kbd-cyrl' => 'Kabardian (Cyrillic script)',
 	'kbp' => 'Kabiye',
