@@ -303,6 +303,8 @@ $languageNames = [
 	# added to core T284043
 	'mnc-latn' => 'Manchu (Latin script)',
 	'mnc-mong' => 'Manchu (Mongolian script)',
+	# Requested for translatewiki: T375944
+	'mns' => 'Mansi',
 	'mnw' => 'Mon',
 	'mo' => 'Moldovan',
 	# used by Wikidata, T270059
