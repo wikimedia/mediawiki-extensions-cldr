@@ -343,6 +343,8 @@ $languageNames = [
 	# Used by translatewiki
 	'kus' => 'Kusaal',
 	'lad-hebr' => 'Ladino (Hebrew script)',
+	# Requested for translatewiki: T376054
+	'laj' => 'Lango',
 	'lbe' => 'Lak',
 	# used by Wikidata, T234761
 	'lcm' => 'Tungag',
