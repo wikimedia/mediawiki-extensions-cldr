@@ -299,12 +299,18 @@ $languageNames = [
 	'kai' => 'Karekare',
 	'kbd-cyrl' => 'Kabardian (Cyrillic script)',
 	'kbp' => 'Kabiye',
+	# Used by translatewiki
+	'kck' => 'Kalanga',
 	# used by Wikidata, T263946
 	'ker' => 'Kera',
 	# used by Wikidata, T368823
 	'kfr' => 'Kutchi',
 	# added to core T351874
 	'kge' => 'Komering',
+	# Used by translatewiki
+	'kge-arab' => 'Komering (Arabic script)',
+	# Used by translatewiki
+	'kip' => 'Sheshi Kham',
 	'kjh' => 'Khakas',
 	'kjp' => 'Eastern Pwo',
 	'kk-arab' => 'Kazakh (Arabic script)',
@@ -334,6 +340,8 @@ $languageNames = [
 	'ksw' => 'S\'gaw Karen',
 	'ku-arab' => 'Kurdish (Arabic script)',
 	'ku-latn' => 'Kurdish (Latin script)',
+	# Used by translatewiki
+	'kus' => 'Kusaal',
 	'lad-hebr' => 'Ladino (Hebrew script)',
 	'lbe' => 'Lak',
 	# used by Wikidata, T234761
@@ -348,10 +356,16 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'lns' => 'Lamnso\'',
 	'luz' => 'Southern Luri',
+	# Used by translatewiki
+	'mak' => 'Makasar (Buginese script)',
+	# Used by translatewiki
+	'map-bms' => 'Banyumasan',
 	# used by Wikidata,  T293884
 	'mcn' => 'Massa',
 	# used by Wikidata, T263946
 	'mcp' => 'Maka',
+	# Used by translatewiki
+	'mey' => 'Hassaniyya',
 	# used by Wikidata, T235468
 	'mfa' => 'Kelantan-Pattani Malay',
 	'mhk' => 'Mungaka',
@@ -368,6 +382,8 @@ $languageNames = [
 	'mns' => 'Mansi',
 	'mnw' => 'Mon',
 	'mo' => 'Moldovan',
+	# Used by translatewiki
+	'mrv' => 'Mangareva',
 	# used by Wikidata, T270059
 	'ms-arab' => 'Malay (Jawi script)',
 	'msi' => 'Sabah Malay',
@@ -379,9 +395,15 @@ $languageNames = [
 	'mvf' => 'Peripheral Mongolian',
 	'mvi' => 'Miyako',
 	'mvi-hira' => 'Miyako (Hiragana script)',
+	# Used by translatewiki
+	'mww' => 'Hmong Daw',
+	'mww-latn' => 'Hmong Daw (Latin script)',
+	# Used by core MediaWiki. Macro language.
+	'nah' => 'Nahuatl',
 	'nan' => 'Minnan',
 	# used by Wikidata, T180771
 	'nan-hani' => 'Minnan (Han script)',
+	'nan-hans' => 'Minnan (Simplified Han script)',
 	'nan-hant' => 'Minnan (Traditional Han script)',
 	# Pe̍h-ōe-jī orthography / Hokkien Vernacular Romanization System
 	# used by Wikidata, T359744
@@ -391,6 +413,8 @@ $languageNames = [
 	'nan-latn-tailo' => 'Minnan (Tâi-lô)',
 	# used by Wikidata, T263946
 	'nge' => 'Ngémba',
+	# Used by translatewiki
+	'nit' => 'Southeastern Kolami',
 	# Missing en translation T256649
 	'nl-informal' => 'Dutch (informal address)',
 	# used by Wikidata, T263946
@@ -400,6 +424,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'nnz' => 'Nda\'Nda\'',
 	'nod' => 'Northern Thai',
+	# Used by translatewiki
+	'nod-thai' => 'Northern Thai (Thai script)',
 	# used by Wikidata T265782
 	'non-runr' => 'Old Norse (Runic script)',
 	# used by Wikidata T165648
@@ -430,8 +456,12 @@ $languageNames = [
 	'ood' => "O'odham",
 	# used by Wikidata T265297
 	'osa-latn' => 'Osage (Latin script)',
+	# Used by translatewiki
+	'osi' => 'Osing',
 	'osx' => 'Old Saxon',
 	'otk' => 'Old Turkish',
+	# Used by translatewiki
+	'ovd' => 'Elfdalian',
 	'owl' => 'Old Welsh',
 	'pal-phli' => 'Pahlavi (Inscriptional Pahlavi script)',
 	'pal-phlp' => 'Pahlavi (Psalter Pahlavi script)',
@@ -441,6 +471,8 @@ $languageNames = [
 	'pap-aw' => 'Papiamento (Aruba)',
 	# used by Wikidata, T368824
 	'paq' => 'Parya',
+	# Used by translatewiki
+	'pbb' => 'Páez',
 	'pgd' => 'Gāndhārī',
 	'pgd-arab' => 'Gāndhārī (Arabic script)',
 	'pgd-deva' => 'Gāndhārī (Devanagari script)',
@@ -451,11 +483,15 @@ $languageNames = [
 	'phn-latn' => 'Phoenician (Latin script)',
 	# used by Wikidata T155425
 	'phn-phnx' => 'Phoenician (Phoenician script)',
+	# Used by translatewiki
+	'phr' => 'Pahari-Potwari',
 	# used by Wikidata T230881
 	'pi-sidd' => 'Pali (Siddham script)',
 	'pjt' => 'Pitjantjatjara',
 	'pks' => 'Pakistan Sign Language',
 	'pnb' => 'Western Punjabi',
+	# Used by translatewiki
+	'pov' => 'Upper Guinea Crioulo',
 	'ppu' => 'Papora-Hoanya',
 	'prs' => 'Dari',
 	# used by Wikidata T357205
@@ -471,12 +507,20 @@ $languageNames = [
 	'pt-colb1945' => 'Portuguese (1945 Orthographic Agreement)',
 	'pwn' => 'Paiwan',
 	'pyu' => 'Puyuma',
+	# Used by translatewiki
+	'qwh' => 'Huaylas Ancash Quechua',
 	# used by Wikidata, T368825
 	'qxq' => 'Qashqai',
 	# used by Wikidata, T185194
 	'qya' => 'Quenya',
+	# Used by translatewiki
+	'rag' => 'Logooli',
 	# used by Wikidata, T267479
 	'rah' => 'Rabha',
+	# Used by translatewiki
+	'rcf' => 'Réunion Creole French',
+	# Used by translatewiki
+	'rej' => 'Rejang',
 	'rhg-arab' => 'Rohingya (Arabic script)',
 	'rhg-rohg' => 'Rohingya (Hanifi Rohingya script)',
 	# T320912
@@ -561,6 +605,8 @@ $languageNames = [
 	'sju' => 'Ume Sami',
 	'skr' => 'Saraiki',
 	'skr-arab' => 'Saraiki (Arabic script)',
+	# Used by translatewiki
+	'slr' => 'Salar',
 	'sr-cyrl' => 'Serbian (Cyrillic script)',
 	# T348366
 	'sr-ec' => 'Serbian (Cyrillic script)',
@@ -594,6 +640,11 @@ $languageNames = [
 	'tly-cyrl' => 'Talysh (Cyrillic script)',
 	# used by Wikidata T220284
 	'tnq' => 'Taíno',
+	# Used by translatewiki.
+	# The name in ISO 639 is "Tonga (Zambia)",
+	# but it's spoken not only in Zambia,
+	# So it's better to use a linguistic name
+	'toi' => 'Tonga (Botatwe)',
 	'tt-cyrl' => 'Tatar (Cyrillic script)',
 	'tt-latn' => 'Tatar (Latin script)',
 	'ttj' => 'Tooro',
@@ -626,6 +677,10 @@ $languageNames = [
 	'wlm' => 'Middle Welsh',
 	# used by Wikidata, T239411
 	'wls' => 'Wallisian',
+	# Used by translatewiki
+	'wlx' => 'Wali',
+	# Used by translatewiki
+	'wsg' => 'Adilabad Gondi',
 	'wsv' => 'Wotapuri-Katarqalai',
 	'wuu' => 'Wu',
 	'wuu-hans' => 'Wu (Simplified Han script)',
@@ -654,9 +709,13 @@ $languageNames = [
 	'yoi-hira' => 'Yonaguni (Hiragana script)',
 	'yox' => 'Yoron',
 	'yox-hira' => 'Yoron (Hiragana script)',
+	# Used by translatewiki
+	'yrk' => 'Nenets',
 	'yue-hans' => 'Cantonese (Simplified Han script)',
 	'yue-hant' => 'Cantonese (Traditional Han script)',
 	'zai' => 'Isthmus Zapotec',
+	# Used by translatewiki
+	'zgh-latn' => 'Standard Moroccan Tamazight (Latin script)',
 	'zh-classical' => 'Literary Chinese',
 	'zh-cn' => 'Chinese (China)',
 	'zh-hk' => 'Chinese (Hong Kong)',
