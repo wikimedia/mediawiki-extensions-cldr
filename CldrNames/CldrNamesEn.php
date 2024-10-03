@@ -4,7 +4,7 @@
 $languageNames = [
 	'aa' => 'Afar',
 	'ab' => 'Abkhazian',
-	'ace' => 'Achinese',
+	'ace' => 'Acehnese',
 	'ach' => 'Acoli',
 	'ada' => 'Adangme',
 	'ady' => 'Adyghe',
@@ -946,6 +946,7 @@ $currencyNames = [
 	'XBC' => 'European Unit of Account (XBC)',
 	'XBD' => 'European Unit of Account (XBD)',
 	'XCD' => 'East Caribbean Dollar',
+	'XCG' => 'Caribbean guilder',
 	'XDR' => 'Special Drawing Rights',
 	'XEU' => 'European Currency Unit',
 	'XFO' => 'French Gold Franc',

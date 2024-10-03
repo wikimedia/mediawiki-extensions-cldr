@@ -917,6 +917,7 @@ $currencyNames = [
 	'XBC' => 'Europese rekeneenheid (XBC)',
 	'XBD' => 'Europese rekeneenheid (XBD)',
 	'XCD' => 'Oost-Caribische dollar',
+	'XCG' => 'Caribische gulden',
 	'XDR' => 'Special Drawing Rights',
 	'XEU' => 'European Currency Unit',
 	'XFO' => 'Franse gouden franc',
@@ -958,6 +959,7 @@ $currencySymbols = [
 	'SBD' => 'SI$',
 	'THB' => '฿',
 	'TWD' => 'NT$',
+	'XCG' => 'Cg',
 	'XPF' => 'XPF',
 	'XXX' => 'XXX',
 ];

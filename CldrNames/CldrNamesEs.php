@@ -831,6 +831,7 @@ $currencyNames = [
 	'XBC' => 'unidad de cuenta europea (XBC)',
 	'XBD' => 'unidad de cuenta europea (XBD)',
 	'XCD' => 'dólar del Caribe Oriental',
+	'XCG' => 'florín caribeño',
 	'XDR' => 'derechos especiales de giro',
 	'XEU' => 'unidad de moneda europea',
 	'XFO' => 'franco oro francés',

@@ -2465,11 +2465,11 @@ $currencySymbols = [
 		],
 		'en-dsrt' => '$',
 		'es' => [
+			419 => 'USD',
 			'EC' => '$',
 			'PR' => '$',
 			'SV' => '$',
 			'US' => '$',
-			419 => 'USD',
 		],
 		'et' => '$',
 		'fa' => '$',
@@ -2604,8 +2604,8 @@ $currencySymbols = [
 		'!root' => 'Bs',
 		'ca' => 'Bs F',
 		'es' => [
-			'VE' => 'Bs.',
 			419 => 'BsF',
+			'VE' => 'Bs.',
 		],
 		'fi' => 'VEF',
 	],
@@ -2733,6 +2733,10 @@ $currencySymbols = [
 		'sq' => 'XCD',
 		'uk' => 'XCD',
 		'vec' => 'XCD',
+	],
+	'XCG' => [
+		'!root' => 'Cg.',
+		'nl' => 'Cg',
 	],
 	'XDR' => [
 		'fr' => 'DTS',

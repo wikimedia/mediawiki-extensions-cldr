@@ -490,7 +490,7 @@ $localeCurrencies = [
 		'CVE',
 	],
 	'CW' => [
-		'ANG',
+		'XCG',
 	],
 	'CX' => [
 		'AUD',
@@ -981,7 +981,7 @@ $localeCurrencies = [
 		'USD',
 	],
 	'SX' => [
-		'ANG',
+		'XCG',
 	],
 	'SY' => [
 		'SYP',
