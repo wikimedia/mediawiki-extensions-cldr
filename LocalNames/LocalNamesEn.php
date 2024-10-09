@@ -28,6 +28,8 @@ $languageNames = [
 	# ambiguous with "aja", so use "Ajagbe", which is also
 	# used in English-language literature
 	'ajg' => 'Ajagbe',
+	# Used in UniversalLanguageSelector for a keyboard
+	'akb' => 'Batak Angkola',
 	'akk-latn' => 'Akkadian (Latin script)',
 	'akk-xsux' => 'Akkadian (Cuneiform script)',
 	# used by Wikidata, T190981
@@ -99,6 +101,14 @@ $languageNames = [
 	'brh-latn' => 'Brahui (Latin script)',
 	'bse' => 'Wushi',
 	'bsk' => 'Burushaski',
+	# Used in UniversalLanguageSelector for a keyboard
+	'btd' => 'Batak Dairi',
+	# Used in UniversalLanguageSelector for a keyboard
+	'bts' => 'Batak Simalungun',
+	# Used in UniversalLanguageSelector for a keyboard
+	'btx' => 'Batak Karo',
+	# Used in UniversalLanguageSelector for a keyboard
+	'btz' => 'Batak Alas-Kluet',
 	# Used by translatewiki
 	'bug-bugi' => 'Buginese (Buginese script)',
 	# Used by translatewiki
