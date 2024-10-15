@@ -339,6 +339,8 @@ $languageNames = [
 	'kmr-latn' => 'Northern Kurdish (Latin script)',
 	# used by Wikidata, T368826
 	'kmz' => 'Khorasani Turkic',
+	# used by core MediaWiki, T356144
+	'knc' => 'Central Kanuri',
 	'knn' => 'Maharashtrian Konkani',
 	'ko-hani' => 'Korean (Hanja script)',
 	# used by Wikidata, T368817
