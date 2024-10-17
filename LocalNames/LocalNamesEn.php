@@ -142,6 +142,8 @@ $languageNames = [
 	'cjy-hant' => 'Jin (Traditional Han script)',
 	'ckb-arab' => 'Central Kurdish (Arabic script)',
 	'ckb-latn' => 'Central Kurdish (Latin script)',
+	# Used by translatewiki, T377380
+	'cko' => 'Anufo',
 	# used by Wikidata, T240097
 	'ckt' => 'Chukchi',
 	# used by Wikidata, T215032
