@@ -29,11 +29,3 @@ $indexCharacters = [
 	'Y',
 	'Z',
 ];
-
-$languageNames = [
-	'ss' => 'siSwati',
-];
-
-$countryNames = [
-	'SZ' => 'eSwatini',
-];

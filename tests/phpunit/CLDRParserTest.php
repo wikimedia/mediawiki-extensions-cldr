@@ -36,6 +36,7 @@ class CLDRParserTest extends MediaWikiIntegrationTestCase {
 				'decade-one' => '{0} dekade',
 				'decade-other' => '{0} dekades',
 			],
+			'indexCharacters' => [ 'A', 'B', 'C', 'D', 'E', 'F', 'GH' ]
 		];
 		$p = new CLDRParser();
 		$this->assertEquals(

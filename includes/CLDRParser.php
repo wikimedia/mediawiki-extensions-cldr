@@ -31,12 +31,38 @@ class CLDRParser {
 		$doc = new SimpleXMLElement( $contents );
 
 		$data = [
+			'indexCharacters' => [],
 			'languageNames' => [],
 			'currencyNames' => [],
 			'currencySymbols' => [],
 			'countryNames' => [],
 			'timeUnits' => [],
 		];
+
+		// Take a Unicode Set for an alphabet and extract simple example characters.
+		// For example, "[aàâ b {ch}]" is extracted as `["a", "b", "ch"]`.
+		// TODO: Unicode Set allows for more complex syntax, but we support only
+		// the subset currently used here. Should rely on a library instead.
+		$indexCharacters = $doc->xpath( '//characters/exemplarCharacters[@type="index"]' );
+		if ( $indexCharacters && count( $indexCharacters ) === 1 ) {
+			[ $characters ] = $indexCharacters;
+			$splitSequence = preg_split( '/\s/',
+				trim( (string)$characters, '[]' ) );
+			$data['indexCharacters'] = array_map(
+				static fn ( $letter ) => preg_replace_callback_array( [
+					// Convert unicode literals to characters.
+					'/^\\\\u([\da-f]{4})/i' => fn ( $m ) => mb_chr( hexdec( $m[1] ) ),
+
+					// Take only the first character from a set like "aàâ".
+					// When the character is made up of multiple symbols, it
+					// will be enclosed in curly braces like "{ch}", and in this
+					// case we want the entire group.  It's possible that the
+					// two cases are combined like "{ch}ç".
+					'/^(?:([^{])|\{([^}]+)\}).*$/u' => fn ( $m ) => $m[2] ?? $m[1],
+				], $letter ),
+				$splitSequence
+			);
+		}
 
 		foreach ( $doc->xpath( '//languages/language' ) as $elem ) {
 			if ( (string)$elem['alt'] !== '' ) {
