@@ -76,8 +76,8 @@ class TimeUnits {
 				}
 			}
 
-			$filename = __DIR__ . '/../CldrNames/' .
-				$langNameUtils->getFileName( 'CldrNames', $code, '.php' );
+			$filename = __DIR__ . '/../CldrMain/' .
+				$langNameUtils->getFileName( 'CldrMain', $code, '.php' );
 			if ( file_exists( $filename ) ) {
 				$timeUnits = false;
 				require $filename;

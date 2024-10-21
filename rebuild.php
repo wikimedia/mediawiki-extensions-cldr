@@ -98,13 +98,13 @@ class CLDRRebuild extends Maintenance {
 			// If the file exists, parse it, otherwise display an error
 			if ( file_exists( $input ) ) {
 				$outputFileName = $langNameUtils->getFileName(
-					'CldrNames',
+					'CldrMain',
 					$this->getRealCode( $code ),
 					'.php'
 				);
 				$writer->savephp(
-					$p->parse( $input ),
-					"$OUTPUT/CldrNames/$outputFileName"
+					$p->parseMain( $input ),
+					"$OUTPUT/CldrMain/$outputFileName"
 				);
 			} else {
 				$this->output( "File $input not found\n" );

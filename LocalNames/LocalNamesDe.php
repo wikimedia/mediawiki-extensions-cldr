@@ -98,7 +98,7 @@ $languageNames = [
 	# used by Wikidata, T198674
 	'el-cy' => 'Zypriotisches Griechisch',
 	'eml' => 'Emilianisch',
-	# part of CldrNamesEn.php, missing in CLDR 38
+	# part of CldrMainEn.php, missing in CLDR 38
 	'en-au' => 'Australisches Englisch',
 	'en-ca' => 'Kanadisches Englisch',
 	'en-gb' => 'Britisches Englisch',
@@ -110,12 +110,12 @@ $languageNames = [
 	'en-nz' => 'Neuseeländisches Englisch',
 	'en-uk' => 'Britisches Englisch',
 	'en-us' => 'Amerikanisches Englisch',
-	# part of CldrNamesEn.php, missing in CLDR 39
+	# part of CldrMainEn.php, missing in CLDR 39
 	'es-419' => 'Lateinamerikanisches Spanisch',
-	# part of CldrNamesEn.php, missing in CLDR 38
+	# part of CldrMainEn.php, missing in CLDR 38
 	'es-es' => 'Europäisches Spanisch',
 	'es-formal' => 'Spanisch (formale Anrede)',
-	# part of CldrNamesEn.php, missing in CLDR 38
+	# part of CldrMainEn.php, missing in CLDR 38
 	'es-mx' => 'Mexikanisches Spanisch',
 	'ett' => 'Etruskisch',
 	'fkv' => 'Kvenisch',
@@ -282,7 +282,7 @@ $languageNames = [
 	# used by Wikidata T357205
 	'ps-pk' => 'Paschtu (Pakistan)',
 	'pt-br' => 'Brasilianisches Portugiesisch',
-	# part of CldrNamesEn.php, missing in CLDR 38
+	# part of CldrMainEn.php, missing in CLDR 38
 	'pt-pt' => 'Europäisches Portugiesisch',
 	# 'pwn' => 'Paiwan', // German translation unassured
 	# 'pyu' => 'Puyuma', // German translation unassured

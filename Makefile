@@ -15,7 +15,7 @@ distclean:
 	rm -rf core
 
 clean:
-	rm -f CldrNames/CldrNames[A-Z]*.php
+	rm -f CldrCurrency/CldrCurrency[A-Z]*.php CldrMain/CldrMain[A-Z]*.php CldrSupplemental/CldrSupplemental[A-Z]*.php
 
 test:
 	php ${MW_INSTALL_PATH}/tests/phpunit/phpunit.php tests

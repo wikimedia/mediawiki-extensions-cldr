@@ -40,7 +40,7 @@ class CLDRParserTest extends MediaWikiIntegrationTestCase {
 		$p = new CLDRParser();
 		$this->assertEquals(
 			$expectedResult,
-			$p->parse( __DIR__ . '/../data/main.xml' )
+			$p->parseMain( __DIR__ . '/../data/main.xml' )
 		);
 	}
 

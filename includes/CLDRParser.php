@@ -22,11 +22,11 @@ class CLDRParser {
 	public const CURRENCY_DEFAULT = '!DEFAULT';
 
 	/**
+	 * Read the main/<locale>.xml file from CLDR core and convert to PHP
+	 *
 	 * @param string $inputFile filename
 	 */
-	public function parse( $inputFile ): array {
-		// Open the input file for reading
-
+	public function parseMain( $inputFile ): array {
 		$contents = file_get_contents( $inputFile );
 		$doc = new SimpleXMLElement( $contents );
 

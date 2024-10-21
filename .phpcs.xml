@@ -5,7 +5,7 @@
 		<exclude-pattern>*/rebuild\.php</exclude-pattern>
 	</rule>
 	<rule ref="Generic.Files.LineLength.TooLong">
-		<exclude-pattern>*/CldrNames/CldrNames*\.php</exclude-pattern>
+		<exclude-pattern>*/CldrMain/CldrMain*\.php</exclude-pattern>
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php" />
