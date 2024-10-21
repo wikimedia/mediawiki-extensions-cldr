@@ -20,23 +20,25 @@ class LanguageNames {
 	private static $cache = [];
 
 	/**
-	 * Missing entries fallback to native name
+	 * Missing entries fall back to the language's name for itself
 	 */
 	public const FALLBACK_NATIVE = 0;
 	/**
-	 * Missing entries fallback through the fallback chain
+	 * Missing entries are sought in the MediaWiki fallback chain
 	 */
 	public const FALLBACK_NORMAL = 1;
 	/**
-	 * Only names that have localisation in MediaWiki
+	 * Only include languages supported by core MediaWiki localisation.
+	 * Corresponds to LanguageNameUtils::SUPPORTED.
 	 */
 	public const LIST_MW_SUPPORTED = 0;
 	/**
-	 * All names that are in Names.php
+	 * Only include languages in LIST_MW_SUPPORTED, plus anything defined in wgExtraLanguageNames.
+	 * Corresponds to LanguageNameUtils::DEFINED.
 	 */
 	public const LIST_MW = 1;
 	/**
-	 * Combination of Names.php and what is in cldr
+	 * All languages in the CLDR data, including languages unknown to MediaWiki.
 	 */
 	public const LIST_MW_AND_CLDR = 2;
 
