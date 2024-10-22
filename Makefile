@@ -1,6 +1,6 @@
-.PHONY: help all clean test
+.PHONY: help all clean test rebuild
 
-CORE=https://www.unicode.org/Public/cldr/45/core.zip
+CLDR_CORE_URL=https://www.unicode.org/Public/cldr/45/core.zip
 
 help:
 	@echo "'make all' to download CLDR data and rebuild files."
@@ -8,7 +8,7 @@ help:
 	@echo "'make clean' to delete the generated LanguageNames*.php files."
 	@echo "'make distclean' to delete the CLDR data."
 
-all: LanguageNames.php
+all: rebuild
 
 distclean:
 	rm -f core.zip
@@ -20,11 +20,11 @@ clean:
 test:
 	php ${MW_INSTALL_PATH}/tests/phpunit/phpunit.php tests
 
-LanguageNames.php: core/
+rebuild: core/
 	php rebuild.php
 
 core/: core.zip
 	unzip core.zip -d core
 
 core.zip:
-	curl -C - -O $(CORE) || wget $(CORE) || fetch $(CORE)
+	curl -C - -O $(CLDR_CORE_URL) || wget $(CLDR_CORE_URL) || fetch $(CLDR_CORE_URL)
