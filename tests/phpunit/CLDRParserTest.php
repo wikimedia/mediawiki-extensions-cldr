@@ -71,7 +71,7 @@ class CLDRParserTest extends MediaWikiIntegrationTestCase {
 		$p = new CLDRParser();
 		$this->assertEquals(
 			$expectedResult,
-			$p->parse_supplemental( __DIR__ . '/../data/supplemental.xml' )
+			$p->parseSupplemental( __DIR__ . '/../data/supplemental.xml' )
 		);
 	}
 
@@ -92,7 +92,7 @@ class CLDRParserTest extends MediaWikiIntegrationTestCase {
 		$p = new CLDRParser();
 		$this->assertEquals(
 			$expectedResult,
-			$p->parse_currency_symbols( __DIR__ . '/../data/currencyFixtures/' )
+			$p->parseCurrencySymbols( __DIR__ . '/../data/currencyFixtures/' )
 		);
 	}
 }

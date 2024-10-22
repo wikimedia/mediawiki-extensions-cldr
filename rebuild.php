@@ -118,7 +118,7 @@ class CLDRRebuild extends Maintenance {
 		$input = "$DATA/../supplemental/supplementalData.xml";
 		if ( file_exists( $input ) ) {
 			$writer->savephp(
-				$p->parse_supplemental( $input ),
+				$p->parseSupplemental( $input ),
 				"$OUTPUT/CldrSupplemental/Supplemental.php"
 			);
 		} else {
@@ -128,7 +128,7 @@ class CLDRRebuild extends Maintenance {
 
 		$this->output( "Parsing Currency Symbol Data...\n" );
 		$writer->savephp(
-			$p->parse_currency_symbols( $DATA ),
+			$p->parseCurrencySymbols( $DATA ),
 			"$OUTPUT/CldrCurrency/Symbols.php"
 		);
 		$this->output( "Done parsing currency symbols.\n" );

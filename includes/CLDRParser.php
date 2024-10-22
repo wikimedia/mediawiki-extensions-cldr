@@ -112,7 +112,7 @@ class CLDRParser {
 	 * Parse method for the file structure found in common/supplemental/supplementalData.xml
 	 * @param string $inputFile
 	 */
-	public function parse_supplemental( $inputFile ): array {
+	public function parseSupplemental( $inputFile ): array {
 		// Open the input file for reading
 
 		$contents = file_get_contents( $inputFile );
@@ -171,7 +171,7 @@ class CLDRParser {
 	 * (For instance: en_AU uses '$' for AUD, not USD, but it's not a supported mediawiki locality)
 	 * @param string $inputDir the directory, in which we will parse everything.
 	 */
-	public function parse_currency_symbols( $inputDir ): array {
+	public function parseCurrencySymbols( $inputDir ): array {
 		if ( !file_exists( $inputDir ) ) {
 			throw new RuntimeException( 'Input directory not found.' );
 		}
