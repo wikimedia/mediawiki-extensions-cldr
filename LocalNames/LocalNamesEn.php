@@ -382,6 +382,8 @@ $languageNames = [
 	'mcn' => 'Massa',
 	# used by Wikidata, T263946
 	'mcp' => 'Maka',
+	# Requested for translatewiki: T377851
+	'mdh' => 'Maguindanaon',
 	# Used by translatewiki
 	'mey' => 'Hassaniyya',
 	# used by Wikidata, T235468
