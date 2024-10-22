@@ -376,6 +376,8 @@ $languageNames = [
 	'mak' => 'Makasar (Buginese script)',
 	# Used by translatewiki
 	'map-bms' => 'Banyumasan',
+	# Requested for translatewiki: T377797
+	'maw' => 'Mampruli',
 	# used by Wikidata,  T293884
 	'mcn' => 'Massa',
 	# used by Wikidata, T263946
