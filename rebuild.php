@@ -68,6 +68,8 @@ class CLDRRebuild extends Maintenance {
 		$languages['mni-mtei'] = 'Foo';
 		ksort( $languages );
 
+		$availableCodes = [];
+
 		foreach ( $languages as $code => $name ) {
 			// Construct the correct name for the input file
 			$codeParts = explode( '-', $code );
@@ -97,19 +99,26 @@ class CLDRRebuild extends Maintenance {
 
 			// If the file exists, parse it, otherwise display an error
 			if ( file_exists( $input ) ) {
+				$mwCode = $this->getRealCode( $code );
 				$outputFileName = $langNameUtils->getFileName(
 					'CldrMain',
-					$this->getRealCode( $code ),
+					$mwCode,
 					'.php'
 				);
 				$writer->savephp(
 					$p->parseMain( $input ),
 					"$OUTPUT/CldrMain/$outputFileName"
 				);
+				$availableCodes[] = $mwCode;
 			} else {
 				$this->output( "File $input not found\n" );
 			}
 		}
+
+		$writer->savephp(
+			[ 'availableCodes' => array_values( array_unique( $availableCodes ) ) ],
+			"$OUTPUT/CldrAvailableCodes.php"
+		);
 
 		// Now parse out what we want form the supplemental file
 		$this->output( "Parsing Supplemental Data...\n" );
