@@ -31,6 +31,7 @@ $indexCharacters = [
 ];
 
 $languageNames = [
+	'en' => 'Seisimane',
 	'nso' => 'Sesotho sa Leboa',
 ];
 

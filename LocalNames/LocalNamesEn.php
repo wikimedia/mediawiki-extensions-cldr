@@ -238,6 +238,7 @@ $languageNames = [
 	# used by Wikidata T217131
 	'gml' => 'Middle Low German',
 	'gmy' => 'Mycenaean Greek',
+	'gom' => 'Goan Konkani',
 	'gom-deva' => 'Goan Konkani (Devanagari script)',
 	'gom-latn' => 'Goan Konkani (Latin script)',
 	# Added to core, T311975.

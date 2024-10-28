@@ -221,7 +221,6 @@ $languageNames = [
 	'gmh' => 'altualemán mediu',
 	'gn' => 'guaraní',
 	'goh' => 'altualemán antiguu',
-	'gom' => 'goan konkani',
 	'gon' => 'gondi',
 	'gor' => 'gorontalo',
 	'got' => 'góticu',

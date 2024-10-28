@@ -113,5 +113,6 @@ $languageNames = [
 ];
 
 $countryNames = [
+	'BW' => 'Botswana',
 	'ZA' => 'Aforika Borwa',
 ];

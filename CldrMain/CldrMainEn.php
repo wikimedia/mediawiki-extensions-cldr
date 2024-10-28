@@ -242,7 +242,6 @@ $languageNames = [
 	'gmh' => 'Middle High German',
 	'gn' => 'Guarani',
 	'goh' => 'Old High German',
-	'gom' => 'Goan Konkani',
 	'gon' => 'Gondi',
 	'gor' => 'Gorontalo',
 	'got' => 'Gothic',
@@ -1002,7 +1001,8 @@ $currencyNames = [
 	'ZRN' => 'Zairean New Zaire (1993–1998)',
 	'ZRZ' => 'Zairean Zaire (1971–1993)',
 	'ZWD' => 'Zimbabwean Dollar (1980–2008)',
-	'ZWL' => 'Zimbabwean Dollar (2009)',
+	'ZWG' => 'Zimbabwean Gold',
+	'ZWL' => 'Zimbabwean Dollar (2009–2024)',
 	'ZWR' => 'Zimbabwean Dollar (2008)',
 ];
 
@@ -1368,6 +1368,8 @@ $timeUnits = [
 	'month-short-past-other' => '{0} mo. ago',
 	'nanosecond-one' => '{0} nanosecond',
 	'nanosecond-other' => '{0} nanoseconds',
+	'night-one' => '{0} night',
+	'night-other' => '{0} nights',
 	'quarter-future-one' => 'in {0} quarter',
 	'quarter-future-other' => 'in {0} quarters',
 	'quarter-narrow-future-one' => 'in {0}q',

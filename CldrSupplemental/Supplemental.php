@@ -1101,6 +1101,7 @@ $localeCurrencies = [
 		'ZMW',
 	],
 	'ZW' => [
+		'ZWG',
 		'USD',
 	],
 ];

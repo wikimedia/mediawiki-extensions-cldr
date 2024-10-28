@@ -291,6 +291,7 @@ $languageNames = [
 	'nmg' => 'Takwazyut',
 	'nn' => 'Tanuṛvijt ninuṛsk',
 	'nnh' => 'Tangimbunt',
+	'no' => 'Tanuṛvijit',
 	'nog' => 'Tanugayt',
 	'nqo' => 'Tankut',
 	'nr' => 'Tandibilit n unzul',

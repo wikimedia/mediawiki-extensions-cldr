@@ -124,3 +124,8 @@ $languageNames = [
 	'yi' => 'Yiddish',
 	'zu' => 'se Zulu',
 ];
+
+$countryNames = [
+	'LS' => 'Lesotho',
+	'ZA' => 'Afrika Borwa',
+];
