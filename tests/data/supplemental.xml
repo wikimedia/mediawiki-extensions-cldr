@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<!-- Adapted from supplemental/supplementalData.xml -->
+<supplementalData>
+    <version number="$Revision$"/>
+    <currencyData>
+        <fractions>
+            <info iso4217="DEFAULT" digits="2" rounding="0"/>
+            <info iso4217="DKK" digits="2" rounding="0" cashRounding="50"/>
+            <info iso4217="GYD" digits="2" rounding="0" cashDigits="0" cashRounding="0"/>
+        </fractions>
+        <region iso3166="AC">
+            <currency iso4217="SHP" from="1976-01-01"/>
+        </region>
+        <region iso3166="AD">
+            <currency iso4217="EUR" from="1999-01-01"/>
+            <currency iso4217="ESP" from="1873-01-01" to="2002-02-28"/>
+            <currency iso4217="FRF" from="1960-01-01" to="2002-02-17"/>
+            <currency iso4217="ADP" from="1936-01-01" to="2001-12-31"/>
+        </region>
+    </currencyData>
+</supplementalData>

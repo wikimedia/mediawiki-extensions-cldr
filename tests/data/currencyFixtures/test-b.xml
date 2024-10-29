@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<!-- Adapted from common/main/af.xml -->
+<ldml>
+	<identity>
+		<version number="$Revision$"/>
+		<language type="test-bb"/>
+		<territory type="CA"/>
+	</identity>
+	<numbers>
+		<currencyFormats numberSystem="latn">
+			<currencies>
+				<currency type="AUD">
+					<symbol>$ AU</symbol>
+				</currency>
+			</currencies>
+		</currencyFormats>
+	</numbers>
+</ldml>

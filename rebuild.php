@@ -12,6 +12,7 @@
  */
 
 use MediaWiki\Extension\CLDR\CLDRParser;
+use MediaWiki\Extension\CLDR\PhpFileWriter;
 use MediaWiki\MediaWikiServices;
 
 // Standard boilerplate to define $IP
@@ -53,6 +54,9 @@ class CLDRRebuild extends Maintenance {
 		}
 
 		$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
+
+		$p = new CLDRParser();
+		$writer = new PhpFileWriter();
 
 		// Get an array of all MediaWiki languages ( $wgLanguageNames + $wgExtraLanguageNames )
 		$languages = $langNameUtils->getLanguageNames();
@@ -98,8 +102,10 @@ class CLDRRebuild extends Maintenance {
 					$this->getRealCode( $code ),
 					'.php'
 				);
-				$p = new CLDRParser();
-				$p->parse( $input, "$OUTPUT/CldrNames/$outputFileName" );
+				$writer->savephp(
+					$p->parse( $input ),
+					"$OUTPUT/CldrNames/$outputFileName"
+				);
 			} else {
 				$this->output( "File $input not found\n" );
 			}
@@ -111,16 +117,20 @@ class CLDRRebuild extends Maintenance {
 		// CLDR dump, this wouldn't have to be this way.
 		$input = "$DATA/../supplemental/supplementalData.xml";
 		if ( file_exists( $input ) ) {
-			$p = new CLDRParser();
-			$p->parse_supplemental( $input, "$OUTPUT/CldrSupplemental/Supplemental.php" );
+			$writer->savephp(
+				$p->parse_supplemental( $input ),
+				"$OUTPUT/CldrSupplemental/Supplemental.php"
+			);
 		} else {
 			$this->output( "File $input not found\n" );
 		}
 		$this->output( "Done parsing supplemental data.\n" );
 
 		$this->output( "Parsing Currency Symbol Data...\n" );
-		$p = new CLDRParser();
-		$p->parse_currency_symbols( $DATA, "$OUTPUT/CldrCurrency/Symbols.php" );
+		$writer->savephp(
+			$p->parse_currency_symbols( $DATA ),
+			"$OUTPUT/CldrCurrency/Symbols.php"
+		);
 		$this->output( "Done parsing currency symbols.\n" );
 	}
 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<!-- Adapted from common/main/af.xml -->
+<ldml>
+	<identity>
+		<version number="$Revision$"/>
+		<language type="testing"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="aa">Afar</language>
+			<language type="ab">Abkasies</language>
+			<language type="ace">Atsjenees</language>
+		</languages>
+		<territories>
+			<territory type="AC">Ascensioneiland</territory>
+			<territory type="AD">Andorra</territory>
+			<territory type="AE">Verenigde Arabiese Emirate</territory>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters type="index">[A B C D]</exemplarCharacters>
+	</characters>
+	<numbers>
+		<currencyFormats numberSystem="latn">
+			<currencies>
+				<currency type="AED">
+					<displayName>Verenigde Arabiese Emirate-dirham</displayName>
+					<displayName count="one">VAE-dirham</displayName>
+					<displayName count="other">VAE-dirham</displayName>
+				</currency>
+				<currency type="AFN">
+					<displayName>Afgaanse afgani</displayName>
+				</currency>
+				<currency type="ALL">
+					<displayName>Albanese lek</displayName>
+				</currency>
+				<currency type="RUB">
+					<displayName>Russiese roebel</displayName>
+					<symbol alt="variant">₽</symbol>
+				</currency>
+			</currencies>
+		</currencyFormats>
+	</numbers>
+	<units>
+		<unitLength type="long">
+			<unit type="duration-century">
+				<displayName>eeu</displayName>
+				<unitPattern count="one">{0} eeu</unitPattern>
+				<unitPattern count="other">{0} eeue</unitPattern>
+			</unit>
+			<unit type="duration-decade">
+				<displayName>dekades</displayName>
+				<unitPattern count="one">{0} dekade</unitPattern>
+				<unitPattern count="other">{0} dekades</unitPattern>
+			</unit>
+		</unitLength>
+	</units>
+</ldml>
