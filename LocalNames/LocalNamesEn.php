@@ -213,6 +213,8 @@ $languageNames = [
 	# used by Wikidata, T314935
 	'fud' => 'Futunan',
 	'fuf' => 'Pular',
+	# Used by translatewiki, T378711
+	'fvr' => 'Fur',
 	'gan' => 'Gan',
 	'gan-hans' => 'Gan (Simplified Han script)',
 	'gan-hant' => 'Gan (Traditional Han script)',
