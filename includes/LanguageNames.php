@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\CLDR;
 
 use InvalidArgumentException;
 use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -56,7 +57,14 @@ class LanguageNames {
 	) {
 		$xx = self::loadLanguage( $code );
 
-		$native = MediaWikiServices::getInstance()->getLanguageNameUtils()
+		$services = MediaWikiServices::getInstance();
+		$config = $services->getMainConfig();
+		if ( !$config->get( MainConfigNames::UsePigLatinVariant ) ) {
+			// Suppress Pig Latin unless explicitly enabled.
+			unset( $xx['en-x-piglatin'] );
+		}
+
+		$native = $services->getLanguageNameUtils()
 			->getLanguageNames(
 				LanguageNameUtils::AUTONYMS,
 				$list === self::LIST_MW_SUPPORTED ? LanguageNameUtils::SUPPORTED : LanguageNameUtils::DEFINED
@@ -68,7 +76,7 @@ class LanguageNames {
 			// Load missing language names from fallback languages
 			$fb = $xx;
 
-			$fallbacks = MediaWikiServices::getInstance()->getLanguageFallback()->getAll( $code );
+			$fallbacks = $services->getLanguageFallback()->getAll( $code );
 			foreach ( $fallbacks as $fallback ) {
 				// Overwrite the things in fallback with what we have already
 				$fb = array_merge( self::loadLanguage( $fallback ), $fb );

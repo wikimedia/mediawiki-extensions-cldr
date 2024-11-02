@@ -38,6 +38,8 @@ $languageNames = [
 	'ale-cyrl' => 'Aleut (Cyrillic script)',
 	# used by Wikidata, T295738
 	'alq' => 'Algonquin',
+	# non-standard for gsw, included in core for compatibility
+	'als' => 'Alemannic',
 	'ami' => 'Amis',
 	'ane' => 'Xârâcùù',
 	'apc' => 'Levantine Arabic',
@@ -105,6 +107,10 @@ $languageNames = [
 	'bsk' => 'Burushaski',
 	# Used in UniversalLanguageSelector for a keyboard
 	'btd' => 'Batak Dairi',
+	# Added to core, T195940
+	'btm' => 'Batak Mandailing',
+	# Added to core, I7ecdd557f5
+	'bto' => 'Rinconada Bikol',
 	# Used in UniversalLanguageSelector for a keyboard
 	'bts' => 'Batak Simalungun',
 	# Used in UniversalLanguageSelector for a keyboard
@@ -176,6 +182,10 @@ $languageNames = [
 	'ddn' => 'Dendi',
 	'de-1901' => 'German (traditional orthography)',
 	'de-formal' => 'German (formal address)',
+	# Added to core, T330266
+	'dga' => 'Southern Dagaare',
+	# Added to core, a12c49a598; aka Southern Zaza
+	'diq' => 'Dimli',
 	'doi-arab' => 'Dogri (Arabic script)',
 	'doi-deva' => 'Dogri (Devanagari script)',
 	'doi-dogr' => 'Dogri (Dogra script)',
@@ -198,6 +208,8 @@ $languageNames = [
 	'en-jm' => 'Jamaican English',
 	# used by Wikidata, T368683
 	'en-nz' => 'New Zealand English',
+	# Added to core, I0c9c9fec92
+	'en-x-piglatin' => 'Pig Latin',
 	'eo-hsistemo' => 'Esperanto (h-system orthography)',
 	'eo-xsistemo' => 'Esperanto (x-system orthography)',
 	# Missing en translation T256649
@@ -209,6 +221,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'etu' => 'Ejagham',
 	'eya' => 'Eyak',
+	# Added to core, 4c553c46f4; deprecated code, 'vro' in ISO 639-3 since 2009-01-16, included for compatibility
+	'fiu-vro' => 'Võro',
 	'fkv' => 'Kvensk',
 	# used by Wikidata, T263946
 	'fmp' => 'Fe\'Fe\'',
@@ -259,6 +273,8 @@ $languageNames = [
 	'hak-hans' => 'Hakka (Simplified Han script)',
 	# used by Wikidata, T180771
 	'hak-hant' => 'Hakka (Traditional Han script)',
+	# Added to core, If464fafeaa
+	'hak-latn' => 'Hakka (Latin script)',
 	'hav' => 'Havu',
 	'haz' => 'Hazaragi',
 	# used by Wikidata, T155368
@@ -276,6 +292,8 @@ $languageNames = [
 	# Added to core, T332113
 	'hno' => 'Northern Hindko',
 	'hoc' => 'Ho',
+	# Adde to core, cd62565296
+	'hrx' => 'Hunsrik',
 	'hsn' => 'Xiang',
 	# used by Wikidata, T368820
 	'hsn-hans' => 'Xiang (Simplified Han script)',
@@ -418,6 +436,8 @@ $languageNames = [
 	'mns' => 'Mansi',
 	'mnw' => 'Mon',
 	'mo' => 'Moldovan',
+	# Added to core, T259330
+	'mrh' => 'Mara',
 	# Used by translatewiki
 	'mrv' => 'Mangareva',
 	# used by Wikidata, T270059
@@ -472,6 +492,8 @@ $languageNames = [
 	'nrm' => 'Norman',
 	# used by Wikidata T250246
 	'nsk' => 'Naskapi',
+	# Added to core, T370123
+	'nup' => 'Nupe',
 	'nxm' => 'Numidian',
 	'nyo' => 'Nyoro',
 	# used by Wikidata, added in InitialiseSettings.php
@@ -524,6 +546,8 @@ $languageNames = [
 	'phr' => 'Pahari-Potwari',
 	# used by Wikidata T230881
 	'pi-sidd' => 'Pali (Siddham script)',
+	# Added to core, 968bf39691
+	'pih' => 'Pitcairn-Norfolk',
 	'pjt' => 'Pitjantjatjara',
 	'pks' => 'Pakistan Sign Language',
 	'pnb' => 'Western Punjabi',
@@ -631,6 +655,8 @@ $languageNames = [
 	'shy-tfng' => 'Shawiya (Tifinagh script)',
 	# used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
 	'sia' => 'Akkala Sami',
+	# non-standard for en-simple, part of core
+	'simple' => 'Simple English',
 	'sjd' => 'Kildin Sami',
 	'sje' => 'Pite Sami',
 	# used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
@@ -666,6 +692,10 @@ $languageNames = [
 	# Added to core with T313199
 	'syl' => 'Sylheti',
 	'syl-beng' => 'Sylheti (Bengali script)',
+	# Added to core, T174601
+	'szy' => 'Sakizaya',
+	# Added to core, T173383
+	'tay' => 'Atayal',
 	# Added to core with T309763
 	'tdd' => 'Tai Nuea',
 	'tg-cyrl' => 'Tajik (Cyrillic script)',
