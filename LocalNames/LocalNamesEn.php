@@ -622,6 +622,8 @@ $languageNames = [
 	'sjk' => 'Kemi Sami',
 	# used by Wikidata, T185194
 	'sjn' => 'Sindarin',
+	# used by jquery.ime and Incubator
+	'sjo' => 'Xibe',
 	# used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
 	'sjt' => 'Ter Sami',
 	'sju' => 'Ume Sami',
