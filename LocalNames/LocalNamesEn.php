@@ -717,6 +717,8 @@ $languageNames = [
 	'xno' => 'Anglo-Norman',
 	'xnr-deva' => 'Kangri (Devanagari script)',
 	'xnr-takr' => 'Kangri (Takri script)',
+	# Used by translatewiki, T380246
+	'xon' => 'Konkomba',
 	'xpu' => 'Punic',
 	# used by Wikidata, T317354
 	'xsu' => 'Sanumá',
