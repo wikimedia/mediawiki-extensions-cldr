@@ -9,6 +9,8 @@ $languageNames = [
 	 */
 	// 'aln' => 'Gheg Albanian',
 
+	'az-cyrl' => 'ﺁﺫﺮﺑﺎﯿﺟﺎﻨﯾ ﺐﻫ ﺦﻃ ﺲﯾﺮﯿﻠﯿﮐ',
+
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
 	'bat-smg' => 'ساموگیتی',
@@ -29,6 +31,8 @@ $languageNames = [
 	 */
 	'be-tarask' => 'بلاروسی (دستورخط کلاسیک)',
 
+	'bfi' => 'ﺰﺑﺎﻧ ﺎﺷﺍﺮﻫٔ ﺏﺮﯿﺗﺎﻨﯾﺎﯿﯾ',
+
 	/* Not in CLDR 27.0.1. Eastern Balochi language
 	 * https://www.ethnologue.com/language/bgp
 	 */
@@ -39,6 +43,10 @@ $languageNames = [
 	 * Added 2011-09-10.
 	 */
 	'bjn' => 'بانجاری',
+
+	'bzs' => 'ﺰﺑﺎﻧ ﺎﺷﺍﺮﻫٔ ﺏﺭﺰﯿﻠﯾ',
+	'cak' => 'ﮎﺎﻘﭽﯿﮑﻟ',
+	'ccp-beng' => 'ﭺﺎﮑﻣﺍ ﺐﻫ ﺦﻃ ﺐﻨﮔﺎﻠﯾ',
 
 	/* Not in CLDR 27.0.1. Name Bishnupriya used by Ethnologue:
 	 * https://www.ethnologue.com/language/bpy
@@ -73,6 +81,8 @@ $languageNames = [
 	'cjy-hans' => 'جینیو (ساده‌شده)',
 	'cjy-hant' => 'جینیو (سنتی)',
 
+	'cnh' => 'ﻩﺎﺧﺍ-ﭻﯿﻧ',
+
 	/* Not in CLDR 27.0.1. Bisayan language
 	 * https://www.ethnologue.com/language/cps
 	 * Added 2010-01-11.
@@ -83,6 +93,10 @@ $languageNames = [
 	 */
 	'crh-cyrl' => 'ترکی کریمه (خط سرلیک)',
 	'crh-latn' => 'ترکی کریمه (خط لاتین)',
+
+	'ctg' => 'ﭻﯿﺗﺎﮔﻮﻨﯾ',
+
+	'de-1901' => 'ﺂﻠﻣﺎﻨﯾ (ﻖﺒﻟ ﺍﺯ ﺎﺻﻼﺣﺎﺗ ۱۹۹۶)',
 
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
@@ -99,6 +113,9 @@ $languageNames = [
 	 * Added 2008-01-17.
 	 */
 	'eml' => 'امیلیانو-روما',
+
+	'eo-hsistemo' => 'ﺎﺴﭘﺭﺎﻨﺗﻭ (ﺲﯿﺴﺘﻣ h)',
+	'eo-xsistemo' => 'ﺎﺴﭘﺭﺎﻨﺗﻭ (ﺲﯿﺴﺘﻣ x)',
 
 	/* Not in CLDR 27.0.1. Romance language.
 	 * https://www.ethnologue.com/language/ext
@@ -128,6 +145,9 @@ $languageNames = [
 	'gom-deva' => 'کونکانی گن (خط دیواناگری)',
 	'gom-latn' => 'کونکانی گن (خط لاتین)',
 
+	'gsg' => 'ﺰﺑﺎﻧ ﺎﺷﺍﺮﻫٔ ﺂﻠﻣﺎﻨﯾ',
+	'ha-arab' => 'ﻩﺍﻮﺳﺍ ﺐﻫ ﺦﻃ ﻉﺮﺒﯾ',
+
 	/* Not in CLDR 27.0.1. Chinese language.
 	 * https://www.ethnologue.com/language/hak
 	 * Added 2007-12-02.
@@ -138,10 +158,16 @@ $languageNames = [
 	 */
 	'hif-latn' => 'هندی فیجی (خط لاتینی)',
 
+	'hoc' => 'ﻩﻭ',
+
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
 	'ike-cans' => 'کانادایی شرقی (هجاهای بومی)',
 	'ike-latn' => 'کانادایی شرقی (خط لاتینی)',
+
+	'ja-hira' => 'ﮊﺎﭙﻨﯾ ﺐﻫ ﺦﻃ ﻪﯾﺭﺎﮔﺎﻧﺍ',
+	'ja-hrkt' => 'ﮊﺎﭙﻨﯾ ﺐﻫ ﺦﻃ ﻪﯾﺭﺎﮔﺎﻧﺍ ﻭ ﮎﺎﺗﺎﮐﺎﻧﺍ',
+	'ja-kana' => 'ﮊﺎﭙﻨﯾ ﺐﻫ ﺦﻃ ﮎﺎﺗﺎﮐﺎﻧﺍ',
 
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
@@ -165,6 +191,9 @@ $languageNames = [
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
 	'ku-latn' => 'کردی (خط لاتین)',
+
+	'lad-hebr' => 'ﯽﻫﻭﺪﯾ-ﺎﺴﭘﺎﻨﯾﺎﯿﯾ ﺐﻫ ﺦﻃ ﻊﺑﺮﯾ',
+	'lij-mc' => 'ﻡﻮﻨﮔﺎﺴﮐ',
 
 	/* Not in CLDR 27.0.1. Artificial language.
 	 * https://www.ethnologue.com/language/lfn
@@ -206,6 +235,8 @@ $languageNames = [
 	 */
 	'mhr' => 'ماری',
 
+	'mis' => 'ﺱﺎﯾﺭ',
+
 	/* Not in CLDR 27.0.1. Mari language
 	 * https://www.ethnologue.com/language/mrj
 	 * Added 2009-11-22.
@@ -217,6 +248,8 @@ $languageNames = [
 	 * Added 2010-02-11.
 	 */
 	// 'mui' => 'Musi',
+
+	'mvf' => 'ﻢﻏﻮﻠﯾ ﭗﯾﺭﺎﻣﻮﻨﯾ',
 
 	/* Not in CLDR 27.0.1. Chinese language
 	 * https://www.ethnologue.com/language/nan
@@ -233,6 +266,9 @@ $languageNames = [
 	 * Added 2008-01-14.
 	 */
 	// 'njo' => 'Ao Naga',
+
+	'nn-hognorsk' => 'ﻩﻮﮕﻧﻭﺮﺴﮐ',
+	'non-runr' => 'ﻥﻭﺮﺳ ﻕﺪﯿﻣ ﺐﻫ ﺦﻃ ﺭﻮﻨﯿﮐ',
 
 	/* Not in CLDR 27.0.1. Livvi-Karelian language
 	 * https://www.ethnologue.com/language/olo
@@ -267,6 +303,8 @@ $languageNames = [
 	 * Added 2009-11-15.
 	 */
 	'rgn' => 'رومانیولو',
+
+	'rhg-rohg' => 'ﺭﻮﻬﯿﻨﮕﯾﺍ ﺐﻫ ﺦﻃ ﺢﻨﯿﻔﯾ',
 
 	/* Not in CLDR 27.0.1. Used for MediaWiki localisation
 	 */
@@ -309,6 +347,8 @@ $languageNames = [
 	'sr-ec' => 'صربی (خط سرلیک)',
 	'sr-el' => 'صربی (خط لاتین)',
 	'sr-latn' => 'صربی (خط لاتین)',
+
+	'syl-beng' => 'ﺲﯿﻠﺘﯾ ﺐﻫ ﺦﻃ ﺐﻨﮔﺎﻠﯾ',
 
 	/* Not in CLDR 27.0.1. Tulu language
 	 * https://iso639-3.sil.org/code/tcy
