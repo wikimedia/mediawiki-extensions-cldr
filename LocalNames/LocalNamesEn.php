@@ -129,6 +129,7 @@ $languageNames = [
 	'cdo-hani' => 'Mindong (Han script)',
 	'cdo-hant' => 'Mindong (Traditional Han script)',
 	'cdo-latn' => 'Mindong (Latin script)',
+	'cdz-beng' => 'Koda (Bengali script)',
 	'cja' => 'Western Cham',
 	'cja-arab' => 'Western Cham (Arabic script)',
 	'cja-cham' => 'Western Cham (Cham script)',
@@ -354,10 +355,13 @@ $languageNames = [
 	'ks-arab' => 'Kashmiri (Arabic script)',
 	'ks-deva' => 'Kashmiri (Devanagari script)',
 	'ksw' => 'S\'gaw Karen',
+	'ksy-beng' => 'Kharia Thar (Bengali script)',
 	'ku-arab' => 'Kurdish (Arabic script)',
 	'ku-latn' => 'Kurdish (Latin script)',
 	# Used by translatewiki
 	'kus' => 'Kusaal',
+	'kyw-beng' => 'Kurmali (Bengali script)',
+	'kyw-deva' => 'Kurmali (Devanagari script)',
 	'lad-hebr' => 'Ladino (Hebrew script)',
 	# Requested for translatewiki: T376054
 	'laj' => 'Lango',
@@ -396,6 +400,7 @@ $languageNames = [
 	'mis' => 'unsupported language',
 	# used by Wikidata T155419
 	'mix' => 'Mixtec',
+	'mjx-beng' => 'Mahali (Bengali script)',
 	'mn-mong' => 'Mongolian (Mongolian script)',
 	# added to core T284043
 	'mnc-latn' => 'Manchu (Latin script)',
@@ -450,6 +455,7 @@ $languageNames = [
 	'nod-thai' => 'Northern Thai (Thai script)',
 	# used by Wikidata T265782
 	'non-runr' => 'Old Norse (Runic script)',
+	'nr' => 'South Ndebele',
 	# used by Wikidata T165648
 	'nrf-gg' => 'Guernésiais',
 	# used by Wikidata T165648
@@ -677,6 +683,7 @@ $languageNames = [
 	'tvu' => 'Tunen',
 	# used by Wikidata, T331094
 	'txg' => 'Tangut',
+	'txo-beng' => 'Toto (Bengali script)',
 	'tzl' => 'Talossan',
 	'ug-arab' => 'Uyghur (Arabic script)',
 	'ug-latn' => 'Uyghur (Latin script)',
