@@ -4,4 +4,5 @@
 $languageNames = [
 	'bfi' => 'toki luka Juke',
 	'gsg' => 'toki luka Tosi',
+	'mis' => 'toki ante',
 ];
