@@ -43,7 +43,7 @@ class PhpFileWriter {
 				continue;
 			}
 			$output .= "\n\$$varname = [\n";
-			if ( $this->isAssoc( $values ) ) {
+			if ( !array_is_list( $values ) ) {
 				foreach ( $values as $key => $value ) {
 					if ( is_array( $value ) ) {
 						$output .= $this->makePrettyArrayOuts( $key, $value, 1 );
@@ -82,7 +82,7 @@ class PhpFileWriter {
 	 */
 	protected function makePrettyArrayOuts( $key, $value, $level = 1 ) {
 		$subKeys = '';
-		$isAssoc = $this->isAssoc( $value );
+		$isAssoc = !array_is_list( $value );
 		$tabs = str_repeat( "\t", $level );
 
 		foreach ( $value as $subkey => $subvalue ) {
@@ -119,13 +119,4 @@ class PhpFileWriter {
 		return "$key => ";
 	}
 
-	/**
-	 * Checks if array is associative or sequential.
-	 *
-	 * @param array $arr
-	 * @return bool
-	 */
-	protected function isAssoc( array $arr ) {
-		return array_keys( $arr ) !== range( 0, count( $arr ) - 1 );
-	}
 }

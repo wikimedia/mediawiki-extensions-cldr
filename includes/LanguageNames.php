@@ -86,8 +86,8 @@ class LanguageNames {
 			$names = array_merge( $native, $fb );
 
 			/* As a last resort, try the native name in Names.php */
-			if ( !isset( $names[$code] ) && isset( $native[$code] ) ) {
-				$names[$code] = $native[$code];
+			if ( isset( $native[$code] ) ) {
+				$names[$code] ??= $native[$code];
 			}
 		} else {
 			throw new InvalidArgumentException( "Invalid value for 2:\$fallback in " . __METHOD__ );
@@ -128,7 +128,7 @@ class LanguageNames {
 
 		/* Load override for wrong or missing entries in cldr */
 		$override = __DIR__ . '/../LocalNames/' .
-			$langNameUtils->getFileName( 'LocalNames', $code, '.php' );
+			$langNameUtils->getFileName( 'LocalNames', $code );
 		if ( file_exists( $override ) ) {
 			$languageNames = false;
 			require $override;
@@ -139,7 +139,7 @@ class LanguageNames {
 		}
 
 		$filename = __DIR__ . '/../CldrMain/' .
-			$langNameUtils->getFileName( 'CldrMain', $code, '.php' );
+			$langNameUtils->getFileName( 'CldrMain', $code );
 		if ( file_exists( $filename ) ) {
 			$languageNames = false;
 			require $filename;

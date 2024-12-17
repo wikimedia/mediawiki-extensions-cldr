@@ -64,7 +64,7 @@ class TimeUnits {
 
 			/* Load override for wrong or missing entries in cldr */
 			$override = __DIR__ . '/../LocalNames/' .
-				$langNameUtils->getFileName( 'LocalNames', $code, '.php' );
+				$langNameUtils->getFileName( 'LocalNames', $code );
 			if ( file_exists( $override ) ) {
 				$timeUnits = false;
 
@@ -77,7 +77,7 @@ class TimeUnits {
 			}
 
 			$filename = __DIR__ . '/../CldrMain/' .
-				$langNameUtils->getFileName( 'CldrMain', $code, '.php' );
+				$langNameUtils->getFileName( 'CldrMain', $code );
 			if ( file_exists( $filename ) ) {
 				$timeUnits = false;
 				require $filename;

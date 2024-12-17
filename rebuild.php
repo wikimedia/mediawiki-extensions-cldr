@@ -103,11 +103,7 @@ class CLDRRebuild extends Maintenance {
 				if ( !$mwCode ) {
 					continue;
 				}
-				$outputFileName = $langNameUtils->getFileName(
-					'CldrMain',
-					$mwCode,
-					'.php'
-				);
+				$outputFileName = $langNameUtils->getFileName( 'CldrMain', $mwCode );
 
 				$res = $writer->savephp(
 					$p->parseMain( $input ),

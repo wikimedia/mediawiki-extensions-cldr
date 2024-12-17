@@ -46,7 +46,6 @@ class CountryNames {
 	 */
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {
-
 			$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 
 			if ( !$langNameUtils->isValidBuiltInCode( $code ) ) {
@@ -55,7 +54,7 @@ class CountryNames {
 
 			/* Load override for wrong or missing entries in cldr */
 			$override = __DIR__ . '/../LocalNames/' .
-				$langNameUtils->getFileName( 'LocalNames', $code, '.php' );
+				$langNameUtils->getFileName( 'LocalNames', $code );
 			if ( file_exists( $override ) ) {
 				$countryNames = false;
 				require $override;
@@ -66,7 +65,7 @@ class CountryNames {
 			}
 
 			$filename = __DIR__ . '/../CldrMain/' .
-				$langNameUtils->getFileName( 'CldrMain', $code, '.php' );
+				$langNameUtils->getFileName( 'CldrMain', $code );
 			if ( file_exists( $filename ) ) {
 				$countryNames = false;
 				require $filename;

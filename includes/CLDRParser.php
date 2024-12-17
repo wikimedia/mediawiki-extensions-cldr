@@ -108,8 +108,7 @@ class CLDRParser {
 			}
 			foreach ( $unitLength->unit as $elem ) {
 				$type = (string)$elem['type'];
-				$pos = strpos( $type, 'duration' );
-				if ( $pos === false ) {
+				if ( !str_starts_with( $type, 'duration-' ) ) {
 					continue;
 				}
 				$type = substr( $type, strlen( 'duration-' ) );
@@ -209,7 +208,7 @@ class CLDRParser {
 
 		// Foreach files!
 		foreach ( $files as $inputFile ) {
-			if ( strpos( $inputFile, '.xml' ) < 1 ) {
+			if ( !str_ends_with( $inputFile, '.xml' ) ) {
 				continue;
 			}
 

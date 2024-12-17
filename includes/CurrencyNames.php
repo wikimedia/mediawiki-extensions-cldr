@@ -46,7 +46,6 @@ class CurrencyNames {
 	 */
 	private static function loadLanguage( $code ) {
 		if ( !isset( self::$cache[$code] ) ) {
-
 			$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 
 			if ( !$langNameUtils->isValidBuiltInCode( $code ) ) {
@@ -55,7 +54,7 @@ class CurrencyNames {
 
 			/* Load override for wrong or missing entries in cldr */
 			$override = __DIR__ . '/../LocalNames/' .
-				$langNameUtils->getFileName( 'LocalNames', $code, '.php' );
+				$langNameUtils->getFileName( 'LocalNames', $code );
 			if ( file_exists( $override ) ) {
 				$currencyNames = false;
 				require $override;
@@ -66,19 +65,15 @@ class CurrencyNames {
 			}
 
 			$filename = __DIR__ . '/../CldrMain/' .
-				$langNameUtils->getFileName( 'CldrMain', $code, '.php' );
+				$langNameUtils->getFileName( 'CldrMain', $code );
 			if ( file_exists( $filename ) ) {
 				$currencyNames = false;
 				require $filename;
 				// @phan-suppress-next-line PhanImpossibleCondition
 				if ( is_array( $currencyNames ) ) {
-					if ( isset( self::$cache[$code] ) ) {
-						// Add to existing list of localized currency names
-						self::$cache[$code] += $currencyNames;
-					} else {
-						// No list exists, so create it
-						self::$cache[$code] = $currencyNames;
-					}
+					self::$cache[$code] ??= [];
+					// Add to existing list of localized currency names
+					self::$cache[$code] += $currencyNames;
 				}
 			} else {
 				wfDebug( __METHOD__ . ": Unable to load currency names for $filename\n" );
