@@ -100,6 +100,9 @@ class CLDRRebuild extends Maintenance {
 			// If the file exists, parse it, otherwise display an error
 			if ( file_exists( $input ) ) {
 				$mwCode = $this->getRealCode( $code );
+				if ( !$mwCode ) {
+					continue;
+				}
 				$outputFileName = $langNameUtils->getFileName(
 					'CldrMain',
 					$mwCode,
@@ -153,38 +156,41 @@ class CLDRRebuild extends Maintenance {
 
 	/**
 	 * Get the language code for the MediaWiki localisation, these are the same as the fallback.
-	 *
-	 * @param string $code
-	 * @return string
 	 */
-	private function getRealCode( $code ) {
-		$realCode = $code;
-		if ( $code === 'kk' ) {
-			$realCode = 'kk-cyrl';
-		} elseif ( $code === 'az-arab' ) {
-			$realCode = 'azb';
-		} elseif ( $code === 'kok' ) {
-			// T347625
-			$realCode = 'gom-deva';
-		} elseif ( $code === 'ku' ) {
-			$realCode = 'ku-latn';
-		} elseif ( $code === 'mni-mtei' ) {
-			$realCode = 'mni';
-		} elseif ( $code === 'mni' ) {
-			$realCode = 'mni-beng';
-		} elseif ( $code === 'pt' ) {
-			$realCode = 'pt-br';
-		} elseif ( $code === 'pt-pt' ) {
-			$realCode = 'pt';
-		} elseif ( $code === 'sr' ) {
-			$realCode = 'sr-cyrl';
-		} elseif ( $code === 'tg' ) {
-			$realCode = 'tg-cyrl';
-		} elseif ( $code === 'zh' ) {
-			$realCode = 'zh-hans';
+	private function getRealCode( string $code ): ?string {
+		switch ( $code ) {
+			case 'az-arab':
+				return 'azb';
+			case 'kk':
+				return 'kk-cyrl';
+			case 'kok':
+				// T347625
+				return 'gom-deva';
+			case 'ku':
+				return 'ku-latn';
+			case 'mni':
+				return 'mni-beng';
+			case 'mni-mtei':
+				return 'mni';
+			case 'pt':
+				return 'pt-br';
+			case 'pt-br':
+				// Skip empty pt_BR.xml in favor of pt.xml (see above)
+				return null;
+			case 'pt-pt':
+				return 'pt';
+			case 'sr':
+				return 'sr-cyrl';
+			case 'tg':
+				return 'tg-cyrl';
+			case 'zh':
+				return 'zh-hans';
+			case 'zh-hans':
+				// Skip empty zh_Hans.xml in favor of zh.xml (see above)
+				return null;
+			default:
+				return $code;
 		}
-
-		return $realCode;
 	}
 }
 
