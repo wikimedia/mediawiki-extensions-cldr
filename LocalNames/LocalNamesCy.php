@@ -14,5 +14,6 @@ $languageNames = [
 	'mis' => 'arall',
 	'nrf-je' => 'Jèrriais',
 	'pt-ao1990' => 'Portiwgaleg (Cytundeb Orthograffig Portiwgaleg 1990)',
+	'rah' => 'Rabha',
 	'sat-latn' => 'Santali mewn sgript Lladin',
 ];

@@ -43,6 +43,7 @@ $languageNames = [
 	'pks' => 'langue des signes pakistanaise',
 	'pt-ao1990' => 'portugais (accord orthographique de 1990)',
 	'pt-colb1945' => 'portugais (accord orthographique de 1945)',
+	'rah' => 'rabha',
 	'rhg-rohg' => 'rohingya (écriture hanifi rohingya)',
 	'rkt' => 'rangpouri',
 	'rm-puter' => 'putèr',
