@@ -2,5 +2,5 @@
 
 /** @phpcs-require-sorted-array */
 $languageNames = [
-	'rah' => '拉布哈人',
+	'rah' => '拉布哈语',
 ];
