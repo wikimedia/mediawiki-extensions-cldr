@@ -373,6 +373,8 @@ $languageNames = [
 	'lem' => 'Nomaande',
 	# used by Wikidata, T254968
 	'lij-mc' => 'Monégasque',
+	# Requested for translatewiki: T383038
+	'ljp' => 'Lampung Api',
 	'lki' => 'Laki',
 	'lld' => 'Ladin',
 	# used by Wikidata, T263946
