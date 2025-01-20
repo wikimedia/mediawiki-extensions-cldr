@@ -67,6 +67,8 @@ $languageNames = [
 	'bfi' => 'British Sign Language',
 	'bft' => 'Balti',
 	'bft-tibt' => 'Balti (Tibetan script)',
+	# used by Commonswiki, T383785
+	'bfw' => 'Bonda',
 	'bfz' => 'Mahasu Pahari',
 	'bfz-deva' => 'Mahasu Pahari (Devanagari script)',
 	'bfz-takr' => 'Mahasu Pahari (Takri script)',
@@ -179,6 +181,8 @@ $languageNames = [
 	'doi-dogr' => 'Dogri (Dogra script)',
 	# used by Wikidata, T267915
 	'dru' => 'Rukai',
+	# used by Commonswiki, T383785
+	'dso' => 'Desiya',
 	'dty' => 'Doteli',
 	'duf' => 'Dumbea',
 	# Used by translatewiki
@@ -324,6 +328,8 @@ $languageNames = [
 	'kge' => 'Komering',
 	# Used by translatewiki
 	'kge-arab' => 'Komering (Arabic script)',
+	# used by Commonswiki, T383785
+	'kgg' => 'Kusunda',
 	# Used by translatewiki
 	'kip' => 'Sheshi Kham',
 	'kjh' => 'Khakas',
@@ -663,6 +669,8 @@ $languageNames = [
 	'tdd' => 'Tai Nuea',
 	'tg-cyrl' => 'Tajik (Cyrillic script)',
 	'tg-latn' => 'Tajik (Latin script)',
+	# used by Commonswiki, T383785
+	'thq' => 'Kochila Tharu',
 	'tji' => 'Northern Tujia',
 	'tlb' => 'Tobelo',
 	# used by Wikidata T286239
