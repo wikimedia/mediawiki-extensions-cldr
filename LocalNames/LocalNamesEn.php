@@ -601,6 +601,8 @@ $languageNames = [
 	'rmg' => 'Traveller Norwegian',
 	# T223524
 	'rml' => 'Baltic Romani',
+	# Used by translatewiki, T377380
+	'rml-cyrl' => 'Baltic Romani (Cyrillic script)',
 	# T223524
 	'rmn' => 'Balkan Romani',
 	# T223524
