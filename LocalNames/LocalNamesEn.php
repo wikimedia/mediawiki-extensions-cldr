@@ -702,6 +702,8 @@ $languageNames = [
 	'tg-latn' => 'Tajik (Latin script)',
 	# used by Commonswiki, T383785
 	'thq' => 'Kochila Tharu',
+	# Used by translatewiki, T381839
+	'thr' => 'Rana Tharu',
 	'tji' => 'Northern Tujia',
 	'tlb' => 'Tobelo',
 	# used by Wikidata T286239
