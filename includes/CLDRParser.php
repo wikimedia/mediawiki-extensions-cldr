@@ -51,14 +51,14 @@ class CLDRParser {
 			$data['indexCharacters'] = array_map(
 				static fn ( $letter ) => preg_replace_callback_array( [
 					// Convert unicode literals to characters.
-					'/^\\\\u([\da-f]{4})/i' => fn ( $m ) => mb_chr( hexdec( $m[1] ) ),
+					'/^\\\\u([\da-f]{4})/i' => static fn ( $m ) => mb_chr( hexdec( $m[1] ) ),
 
 					// Take only the first character from a set like "aàâ".
 					// When the character is made up of multiple symbols, it
 					// will be enclosed in curly braces like "{ch}", and in this
 					// case we want the entire group.  It's possible that the
 					// two cases are combined like "{ch}ç".
-					'/^(?:([^{])|\{([^}]+)\}).*$/u' => fn ( $m ) => $m[2] ?? $m[1],
+					'/^(?:([^{])|\{([^}]+)\}).*$/u' => static fn ( $m ) => $m[2] ?? $m[1],
 				], $letter ),
 				$splitSequence
 			);
