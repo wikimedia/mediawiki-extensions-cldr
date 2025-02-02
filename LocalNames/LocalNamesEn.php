@@ -622,6 +622,8 @@ $languageNames = [
 	'roa-rup' => 'Aromanian',
 	'roa-tara' => 'Tarantino',
 	'rsk' => 'Pannonian Rusyn',
+	# T223524
+	'ru-petr1708' => 'Russian (Petrine orthography)',
 	'ruo' => 'Istro Romanian',
 	'ruq' => 'Megleno-Romanian',
 	'ruq-cyrl' => 'Megleno-Romanian (Cyrillic script)',
