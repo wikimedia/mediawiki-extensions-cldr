@@ -28,6 +28,8 @@ $languageNames = [
 	'ami' => 'Amisisch',
 	# Added to core, T290657
 	'apc' => 'Levantinisches Arabisch',
+	# requested by T382757
+	'apc-latn' => 'Levantine Arabic (lateinische Schrift)',
 	'az-cyrl' => 'Aserbaidschanisch (kyrillische Schrift)',
 	'azb' => 'Südaserbaidschanisch',
 	'bat-smg' => 'Schemaitisch',

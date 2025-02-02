@@ -43,6 +43,8 @@ $languageNames = [
 	'ami' => 'Amis',
 	'ane' => 'Xârâcùù',
 	'apc' => 'Levantine Arabic',
+	# requested by T382757
+	'apc-latn' => 'Levantine Arabic (Latin script)',
 	'ary-arab' => 'Moroccan Arabic (Arabic script)',
 	'ary-latn' => 'Moroccan Arabic (Latin script)',
 	# Used by translatewiki
