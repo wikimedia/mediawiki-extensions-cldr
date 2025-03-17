@@ -440,6 +440,8 @@ $languageNames = [
 	'mo' => 'Moldovan',
 	# Added to core, T259330
 	'mrh' => 'Mara',
+	# Requested for translatewiki: T388157
+	'mrt' => 'Marghi Central',
 	# Used by translatewiki
 	'mrv' => 'Mangareva',
 	# used by Wikidata, T270059
