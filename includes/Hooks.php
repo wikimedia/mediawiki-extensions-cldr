@@ -5,8 +5,10 @@ namespace MediaWiki\Extension\CLDR;
 use Language;
 use MediaWiki\Hook\GetHumanTimestampHook;
 use MediaWiki\Languages\Hook\LanguageGetTranslatedLanguageNamesHook;
+use MediaWiki\MediaWikiServices;
 use MWTimestamp;
 use User;
+use Wikimedia\Leximorph\Provider as LeximorphProvider;
 
 /**
  * Hooks for integration into MediaWiki language system
@@ -17,7 +19,6 @@ class Hooks implements
 	LanguageGetTranslatedLanguageNamesHook,
 	GetHumanTimestampHook
 {
-
 	/**
 	 * @param array &$names
 	 * @param string $code
@@ -87,7 +88,15 @@ class Hooks implements
 
 		// Figure out which grammatical number to use.
 		// If the template doesn't exist, fall back to 'other' as the default.
-		$grammaticalNumber = $lang->getPluralRuleType( $number );
+		$grammaticalNumber = $this->getLeximorphPluralRuleType( $lang, $number )
+			?? $lang->getPluralRuleType( $number );
+		if (
+			$grammaticalNumber === 'other' &&
+			$number === 1 &&
+			isset( $timeUnits["{$unit}-{$tense}-one"] )
+		) {
+			$grammaticalNumber = 'one';
+		}
 		$timeUnitKey = "{$unit}-{$tense}-{$grammaticalNumber}";
 		if ( !isset( $timeUnits[$timeUnitKey] ) ) {
 			$timeUnitKey = "{$unit}-{$tense}-other";
@@ -104,5 +113,32 @@ class Hooks implements
 		$output = str_replace( '{0}', $lang->formatNum( $number ), $timeUnit );
 
 		return false;
+	}
+
+	/**
+	 * Check if Leximorph is enabled via feature flag and get the plural rule type.
+	 */
+	private function getLeximorphPluralRuleType( Language $lang, int $number ): ?string {
+		$services = MediaWikiServices::getInstance();
+		if ( !$services->hasService( 'LeximorphFactory' ) ) {
+			return null;
+		}
+
+		$getProvider = [ $services->getService( 'LeximorphFactory' ), 'getProvider' ];
+		if ( !is_callable( $getProvider ) ) {
+			return null;
+		}
+
+		$provider = $getProvider( $lang );
+		if ( !$provider instanceof LeximorphProvider ) {
+			return null;
+		}
+
+		$pluralProvider = $provider->getPluralProvider();
+		if ( $pluralProvider->getCompiledPluralRules() === [] ) {
+			return null;
+		}
+
+		return $pluralProvider->getPluralRuleType( (float)$number );
 	}
 }
