@@ -79,6 +79,7 @@ $availableCodes = [
 	'hi',
 	'hr',
 	'hsb',
+	'ht',
 	'hu',
 	'hy',
 	'ia',
