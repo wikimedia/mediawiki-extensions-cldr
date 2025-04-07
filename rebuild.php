@@ -60,16 +60,17 @@ class CLDRRebuild extends Maintenance {
 
 		// Get an array of all MediaWiki languages ( $wgLanguageNames + $wgExtraLanguageNames )
 		$languages = $langNameUtils->getLanguageNames();
-		# hack to get Konkani, until CLDR renames it from 'kok' to 'gom-deva' (T347625)
+		// hack to get Konkani, until CLDR renames it from 'kok' to 'gom-deva' (T347625)
 		$languages['kok'] = 'Foo';
-		# hack to get pt-pt too
+		// T378214
+		$languages['kok_Latn'] = 'Foo';
+		// hack to get pt-pt too
 		$languages['pt-pt'] = 'Foo';
 		// hack to get the correct script for mni (T313883)
 		$languages['mni-mtei'] = 'Foo';
 		ksort( $languages );
 
 		$availableCodes = [];
-
 		foreach ( $languages as $code => $name ) {
 			// Construct the correct name for the input file
 			$codeParts = explode( '-', $code );
@@ -162,6 +163,9 @@ class CLDRRebuild extends Maintenance {
 			case 'kok':
 				// T347625
 				return 'gom-deva';
+			case 'kok_Latn':
+				// T378214
+				return 'gom-latn';
 			case 'ku':
 				return 'ku-latn';
 			case 'mni':

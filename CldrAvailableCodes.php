@@ -108,6 +108,7 @@ $availableCodes = [
 	'ko',
 	'ko-kp',
 	'gom-deva',
+	'gom-latn',
 	'ks',
 	'ks-deva',
 	'ksh',
