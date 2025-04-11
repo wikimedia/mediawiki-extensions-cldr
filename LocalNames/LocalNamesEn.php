@@ -294,6 +294,8 @@ $languageNames = [
 	# Added to core, T332113
 	'hno' => 'Northern Hindko',
 	'hoc' => 'Ho',
+	# Requested for translatewiki: T391731
+	'hoc-latn' => 'Ho (Latin script)',
 	# Adde to core, cd62565296
 	'hrx' => 'Hunsrik',
 	'hsn' => 'Xiang',
