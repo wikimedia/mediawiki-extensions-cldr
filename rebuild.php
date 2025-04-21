@@ -31,13 +31,13 @@ class CLDRRebuild extends Maintenance {
 		$this->addDescription( 'Extract data from CLDR XML' );
 		$this->addOption(
 			'datadir', 'Directory containing CLDR data. Default is core/common/main',
-			/* required */ false,
-			/* param */ true
+			false,
+			true
 		);
 		$this->addOption(
 			'outputdir', 'Output directory. Default is current directory',
-			/* required */ false,
-			/* param */ true
+			false,
+			true
 		);
 
 		$this->requireExtension( 'CLDR' );
@@ -128,7 +128,7 @@ class CLDRRebuild extends Maintenance {
 			"$OUTPUT/CldrAvailableCodes.php"
 		);
 
-		// Now parse out what we want form the supplemental file
+		// Now parse out what we want from the supplemental file
 		$this->output( "Parsing Supplemental Data...\n" );
 		// argh! If $DATA defaulted to something slightly more general in the
 		// CLDR dump, this wouldn't have to be this way.
@@ -152,8 +152,7 @@ class CLDRRebuild extends Maintenance {
 	}
 
 	/**
-	 * Get the code for the MediaWiki localisation,
-	 * these are same as the fallback.
+	 * Get the language code for the MediaWiki localisation, these are the same as the fallback.
 	 *
 	 * @param string $code
 	 * @return string
