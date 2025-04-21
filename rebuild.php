@@ -105,10 +105,18 @@ class CLDRRebuild extends Maintenance {
 					$mwCode,
 					'.php'
 				);
-				$writer->savephp(
+
+				$res = $writer->savephp(
 					$p->parseMain( $input ),
 					"$OUTPUT/CldrMain/$outputFileName"
 				);
+
+				// If savephp didn't save a PHP file, we don't want to register it as an available code
+				if ( !$res ) {
+					$this->output( "File $input contained no useful data\n" );
+					continue;
+				}
+
 				$availableCodes[] = $mwCode;
 			} else {
 				$this->output( "File $input not found\n" );

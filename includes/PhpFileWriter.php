@@ -15,10 +15,11 @@ namespace MediaWiki\Extension\CLDR;
 class PhpFileWriter {
 
 	/**
-	 * savephp will build and return a string containing properly formatted php
-	 * output of all the vars we've just parsed out of the xml.
+	 * Will build and return a string containing properly formatted php
+	 * output of all the vars we've just parsed out of the XML file.
 	 * @param array $data The variable names and values we want defined in the php output
 	 * @param string $location File location to write
+	 * @return bool
 	 */
 	public function savephp( $data, $location ) {
 		$hasData = false;
@@ -30,7 +31,7 @@ class PhpFileWriter {
 		}
 
 		if ( !$hasData ) {
-			return;
+			return false;
 		}
 
 		// Yes, I am aware I could have simply used var_export.
@@ -69,10 +70,11 @@ class PhpFileWriter {
 		}
 
 		file_put_contents( $location, $output );
+		return true;
 	}
 
 	/**
-	 * It makes pretty array vals. Dur.
+	 * It makes pretty array values.
 	 * @param string|null $key Use null to omit outputting the key
 	 * @param array $value
 	 * @param int $level
@@ -104,7 +106,7 @@ class PhpFileWriter {
 	}
 
 	/**
-	 * It makes pretty array keys. Dur.
+	 * It makes pretty array keys.
 	 * @param string $key
 	 * @return string
 	 */
