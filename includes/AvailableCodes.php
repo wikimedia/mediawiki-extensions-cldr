@@ -13,7 +13,7 @@ class AvailableCodes {
 	private static ?array $cache;
 
 	/**
-	 * Get the list of available files in CldrNames*.php, built by rebuild.php.
+	 * Get the list of available files in CldrMain/CldrMain*.php, built by rebuild.php.
 	 *
 	 * @return string[] An array of locale codes in MediaWiki form.  These can be passed to
 	 * {@see LanguageNameUtils::getFileName} as in rebuild.php if calling code needs the data file
