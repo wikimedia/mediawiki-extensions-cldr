@@ -726,6 +726,8 @@ $languageNames = [
 	# but it's spoken not only in Zambia,
 	# So it's better to use a linguistic name
 	'toi' => 'Tonga (Botatwe)',
+	# T380964
+	'tsu' => 'Tsou ',
 	'tt-cyrl' => 'Tatar (Cyrillic script)',
 	'tt-latn' => 'Tatar (Latin script)',
 	'ttj' => 'Tooro',
