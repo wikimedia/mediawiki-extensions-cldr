@@ -126,7 +126,6 @@ $languageNames = [
 	'lbe' => 'laki',
 	'lcm' => 'tungagi',
 	'lij-mc' => 'Monaco murre',
-	'lld' => 'ladiini',
 	'lns' => 'lamnso',
 	'luz' => 'lõunaluri',
 	'map-bms' => 'Banyumasi murre',

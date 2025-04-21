@@ -280,7 +280,6 @@ $languageNames = [
 	'umu' => 'munsee',
 	'uz-cyrl' => 'usbekisk (kyrillisk alfabet)',
 	'uz-latn' => 'usbekisk (latinsk alfabet)',
-	'vmw' => 'makhuwa',
 	'wls' => 'wallisisk',
 	'xmm' => 'Manado-malayisk',
 	'xsy' => 'saisiyat',

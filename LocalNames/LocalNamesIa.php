@@ -2,7 +2,6 @@
 
 /** @phpcs-require-sorted-array */
 $languageNames = [
-	'apc' => 'arabe levantin',
 	'az-cyrl' => 'azerbaidzhano (alphabeto cyrillic)',
 	'bfi' => 'lingua de signos britannic',
 	'bzs' => 'lingua de signos brasilian',
