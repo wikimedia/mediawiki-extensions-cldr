@@ -10,6 +10,8 @@ $languageNames = [
 	'be-x-old' => 'ベラルーシ語（タラシケヴィツァ）',
 	'bfi' => 'イギリス手話',
 	'bgp' => '東バローチー語',
+	# Upstream task https://unicode-org.atlassian.net/browse/CLDR-18542
+	'blo' => 'アニ語',
 	'bxr' => 'ブリヤート語',
 	'bzs' => 'ブラジル手話',
 	'cak' => 'カクチケル語',
