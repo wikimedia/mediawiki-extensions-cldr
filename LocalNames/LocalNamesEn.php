@@ -157,6 +157,8 @@ $languageNames = [
 	'cko' => 'Anufo',
 	# used by Wikidata, T240097
 	'ckt' => 'Chukchi',
+	# T381061
+	'ckv' => 'Kavalan',
 	# used by Wikidata, T215032
 	'cmg' => 'Classical Mongolian',
 	# used by Wikidata, T278853
@@ -696,12 +698,16 @@ $languageNames = [
 	'sty' => 'Siberian Tatar',
 	'sux-latn' => 'Sumerian (Latin script)',
 	'sux-xsux' => 'Sumerian (Cuneiform script)',
+	# T381060
+	'sxr' => 'Saaroa',
 	'sxu' => 'Upper Saxon',
 	# Added to core with T313199
 	'syl' => 'Sylheti',
 	'syl-beng' => 'Sylheti (Bengali script)',
 	# Added to core, T174601
 	'szy' => 'Sakizaya',
+	# T381137
+	'tao' => 'Yami',
 	# Added to core, T173383
 	'tay' => 'Atayal',
 	# Added to core with T309763
@@ -773,6 +779,8 @@ $languageNames = [
 	'wya' => 'Wyandot',
 	# used by Wikidata, T319125
 	'xbm' => 'Middle Breton',
+	# T380975
+	'xnb' => 'Kanakanavu',
 	# used by Wikidata, T368815
 	'xno' => 'Anglo-Norman',
 	'xnr-deva' => 'Kangri (Devanagari script)',
