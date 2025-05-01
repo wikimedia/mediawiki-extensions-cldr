@@ -341,7 +341,7 @@ class NamesTest extends MediaWikiIntegrationTestCase {
 		$this->assertEquals( $expectedName, $actualResult[$languageToName] ?? null );
 	}
 
-	public function provideLanguageNames() {
+	public static function provideLanguageNames() {
 		return [
 			'Name exists but is overridden by LocalNames' => [
 				'be-tarask', 'be-tarask', 'беларуская (тарашкевіца)',

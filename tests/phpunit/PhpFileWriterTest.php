@@ -24,7 +24,7 @@ class PhpFileWriterTest extends MediaWikiIntegrationTestCase {
 		);
 	}
 
-	public function provideSavePhp() {
+	public static function provideSavePhp() {
 		return [
 			'no data' => [ [], '' ],
 			'basic' => [
