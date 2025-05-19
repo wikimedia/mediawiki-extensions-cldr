@@ -712,6 +712,8 @@ $languageNames = [
 	'tao' => 'Yami',
 	# Added to core, T173383
 	'tay' => 'Atayal',
+	# Used by Wikidata, T389835
+	'tbl' => 'Tboli',
 	# Added to core with T309763
 	'tdd' => 'Tai Nuea',
 	'tg-cyrl' => 'Tajik (Cyrillic script)',
