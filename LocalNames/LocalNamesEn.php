@@ -682,6 +682,8 @@ $languageNames = [
 	'skr-arab' => 'Saraiki (Arabic script)',
 	# Used by translatewiki
 	'slr' => 'Salar',
+	# Used by Wikispecies, T392971
+	'spv' => 'Sambalpuri',
 	'sr-cyrl' => 'Serbian (Cyrillic script)',
 	# T348366
 	'sr-ec' => 'Serbian (Cyrillic script)',
