@@ -781,6 +781,8 @@ $languageNames = [
 	'wuu-hant' => 'Wu (Traditional Han script)',
 	# used by Wikidata, T283364
 	'wya' => 'Wyandot',
+	# used by Wikidata, T387819
+	'wyi' => 'Woiwurrung',
 	# used by Wikidata, T319125
 	'xbm' => 'Middle Breton',
 	# T380975
