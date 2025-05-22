@@ -420,6 +420,8 @@ $languageNames = [
 	'ttj' => 'Tooro',
 	'txg' => 'Tangutisch',
 	'txo-beng' => 'Toto (bengalische Schrift)',
+	# used by Wikidata, T374354
+	'txo-toto' => 'Toto (Toto-Schrift)',
 	'tzl' => 'Talossanisch',
 	'ug-arab' => 'Uigurisch (arabische Schrift)',
 	'ug-latn' => 'Uigurisch (lateinische Schrift)',

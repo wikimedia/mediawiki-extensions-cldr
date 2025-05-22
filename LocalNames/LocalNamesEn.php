@@ -749,6 +749,8 @@ $languageNames = [
 	# used by Wikidata, T331094
 	'txg' => 'Tangut',
 	'txo-beng' => 'Toto (Bengali script)',
+	# used by Wikidata, T374354
+	'txo-toto' => 'Toto (Toto script)',
 	'tzl' => 'Talossan',
 	'ug-arab' => 'Uyghur (Arabic script)',
 	'ug-latn' => 'Uyghur (Latin script)',
