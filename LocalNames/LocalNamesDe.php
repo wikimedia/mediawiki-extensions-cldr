@@ -21,6 +21,8 @@ $languageNames = [
 	'aeb-latn' => 'Tunesisches Arabisch (lateinische Schrift)',
 	# used by Wikidata, T321644
 	'aec' => 'Saʽidi-Arabisch',
+	# used by Wikidata, T382005
+	'aee' => 'Nordöstliches Pashai',
 	# used by Wikidata, T190981
 	'alc' => 'Kawesqar',
 	# used by Wikidata, T295738
@@ -141,6 +143,8 @@ $languageNames = [
 	'gcf' => 'Guadeloupe-Kreolisch',
 	'gcr' => 'Französisch-Guayana Kreolisch',
 	'gld' => 'Nanaisch',
+	# used by Wikidata, T382005
+	'glh' => 'Nordwestliches Pashai',
 	# used by Wikidata T217131
 	'gml' => 'Mittelniederdeutsch',
 	'gmy' => 'Mykenisches Griechisch',
@@ -305,6 +309,10 @@ $languageNames = [
 	'ps-af' => 'Paschtu (Afghanistan)',
 	# used by Wikidata T357205
 	'ps-pk' => 'Paschtu (Pakistan)',
+	# used by Wikidata, T382005
+	'psh' => 'Südwestliches Pashai',
+	# used by Wikidata, T382005
+	'psi' => 'Südöstliches Pashai',
 	'pt-ao1990' => 'Portugiesisch (Orthographisches Abkommen von 1990)',
 	'pt-br' => 'Brasilianisches Portugiesisch',
 	'pt-colb1945' => 'Portugiesisch (Orthographisches Abkommen von 1945)',

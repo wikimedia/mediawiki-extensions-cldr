@@ -20,6 +20,8 @@ $languageNames = [
 	'aeb-latn' => 'Tunisian Arabic (Latin script)',
 	# used by Wikidata, T321644
 	'aec' => 'Saʽidi Arabic',
+	# used by Wikidata, T382005
+	'aee' => 'Northeast Pashai',
 	# Used by translatewiki
 	'ahr' => 'Ahirani',
 	'aii' => 'Assyrian Neo-Aramaic',
@@ -253,6 +255,8 @@ $languageNames = [
 	'gju-arab' => 'Gujari (Arabic script)',
 	'gju-deva' => 'Gujari (Devanagari script)',
 	'gld' => 'Nanai',
+	# used by Wikidata, T382005
+	'glh' => 'Northwest Pashai',
 	# used by Wikidata T217131
 	'gml' => 'Middle Low German',
 	'gmy' => 'Mycenaean Greek',
@@ -567,6 +571,10 @@ $languageNames = [
 	'ps-af' => 'Pashto (Afghanistan)',
 	# used by Wikidata T357205
 	'ps-pk' => 'Pashto (Pakistan)',
+	# used by Wikidata, T382005
+	'psh' => 'Southwest Pashai',
+	# used by Wikidata, T382005
+	'psi' => 'Southeast Pashai',
 	'psu' => 'Sauraseni Prākrit',
 	'psu-arab' => 'Sauraseni Prākrit (Arabic script)',
 	'psu-brah' => 'Sauraseni Prākrit (Brahmi script)',
