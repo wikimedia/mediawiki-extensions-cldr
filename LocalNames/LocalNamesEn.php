@@ -15,6 +15,8 @@ $languageNames = [
 	'acf' => 'Saint Lucian Creole',
 	# Added to Core, not part of CLDR, T333425
 	'acm' => 'Iraqi Arabic',
+	# used by Wikidata, T382145
+	'adg' => 'Andegerebinha',
 	'ady-cyrl' => 'Adyghe (Cyrillic script)',
 	'aeb-arab' => 'Tunisian Arabic (Arabic script)',
 	'aeb-latn' => 'Tunisian Arabic (Latin script)',
@@ -22,6 +24,8 @@ $languageNames = [
 	'aec' => 'Saʽidi Arabic',
 	# used by Wikidata, T382005
 	'aee' => 'Northeast Pashai',
+	# used by Wikidata, T382145
+	'aer' => 'Eastern Arrernte',
 	# Used by translatewiki
 	'ahr' => 'Ahirani',
 	'aii' => 'Assyrian Neo-Aramaic',
@@ -42,15 +46,25 @@ $languageNames = [
 	'alq' => 'Algonquin',
 	# non-standard for gsw, included in core for compatibility
 	'als' => 'Alemannic',
+	# used by Wikidata, T382145
+	'aly' => 'Alyawarr',
 	'ami' => 'Amis',
+	# used by Wikidata, T382145
+	'amx' => 'Anmatyerre',
 	'ane' => 'Xârâcùù',
 	'apc' => 'Levantine Arabic',
 	# requested by T382757
 	'apc-latn' => 'Levantine Arabic (Latin script)',
+	# used by Wikidata, T382145
+	'are' => 'Western Arrarnta',
 	'ary-arab' => 'Moroccan Arabic (Arabic script)',
 	'ary-latn' => 'Moroccan Arabic (Latin script)',
 	# Used by translatewiki
 	'atv' => 'Northern Altai',
+	# used by Wikidata, T382145
+	'axe' => 'Ayerrerenge',
+	# used by Wikidata, T382145
+	'axl' => 'Lower Southern Aranda',
 	'az-cyrl' => 'Azerbaijani (Cyrillic script)',
 	'azb' => 'South Azerbaijani',
 	# used by Wikidata, T263946
@@ -243,6 +257,8 @@ $languageNames = [
 	'gan' => 'Gan',
 	'gan-hans' => 'Gan (Simplified Han script)',
 	'gan-hant' => 'Gan (Traditional Han script)',
+	# used by Wikidata, T382145
+	'gbb' => 'Kaytetye',
 	'gbk' => 'Gaddi',
 	'gbk-deva' => 'Gaddi (Devanagari script)',
 	'gbk-takr' => 'Gaddi (Takri script)',
