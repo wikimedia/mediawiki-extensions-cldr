@@ -455,6 +455,8 @@ $languageNames = [
 	# used by Wikidata, T296504
 	'yec' => 'Jenisch',
 	'ykg' => 'Tundrajukagirisch',
+	# Added to Core, T395223
+	'yua' => 'Yukatekisches Maya',
 	'zh-classical' => 'klassisches Chinesisch',
 	'zh-cn' => 'Chinesisch (China)',
 	'zh-hk' => 'Chinesisch (Hongkong)',

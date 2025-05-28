@@ -839,6 +839,8 @@ $languageNames = [
 	'yox-hira' => 'Yoron (Hiragana script)',
 	# Used by translatewiki
 	'yrk' => 'Nenets',
+	# Added to Core, T395223
+	'yua' => 'Yucatec Maya',
 	'yue-hans' => 'Cantonese (Simplified Han script)',
 	'yue-hant' => 'Cantonese (Traditional Han script)',
 	'zai' => 'Isthmus Zapotec',
