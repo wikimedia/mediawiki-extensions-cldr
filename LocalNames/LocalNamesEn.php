@@ -602,6 +602,8 @@ $languageNames = [
 	'pyu' => 'Puyuma',
 	# Used by translatewiki
 	'qwh' => 'Huaylas Ancash Quechua',
+	# used by Wikidata, T396014
+	'qxp' => 'Puno Quechua',
 	# used by Wikidata, T368825
 	'qxq' => 'Qashqai',
 	# used by Wikidata, T185194
