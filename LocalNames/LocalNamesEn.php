@@ -206,6 +206,7 @@ $languageNames = [
 	'dga' => 'Southern Dagaare',
 	# Added to core, a12c49a598; aka Southern Zaza
 	'diq' => 'Dimli',
+	'dlg' => 'Dolgan',
 	'doi-arab' => 'Dogri (Arabic script)',
 	'doi-deva' => 'Dogri (Devanagari script)',
 	'doi-dogr' => 'Dogri (Dogra script)',
