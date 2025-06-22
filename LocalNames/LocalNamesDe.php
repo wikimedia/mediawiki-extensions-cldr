@@ -104,6 +104,8 @@ $languageNames = [
 	'dag' => 'Dagbani',
 	'de-1901' => 'Deutsch (traditionelle Rechtschreibung)',
 	'de-formal' => 'Deutsch (Sie-Anrede)',
+	# Added to core, T397435
+	'dlg' => 'Dolganisch',
 	// https://d-nb.info/gnd/7543852-5
 	'dty' => 'Doteli',
 	# used by Wikidata, T198674
