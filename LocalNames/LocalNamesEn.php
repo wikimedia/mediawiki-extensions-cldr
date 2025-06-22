@@ -398,6 +398,8 @@ $languageNames = [
 	'kmz' => 'Khorasani Turkic',
 	# used by core MediaWiki, T356144
 	'knc' => 'Central Kanuri',
+	# Used by Wikispecies, T397455
+	'kne' => 'Kankanaey',
 	'knn' => 'Maharashtrian Konkani',
 	'ko-hani' => 'Korean (Hanja script)',
 	# used by Wikidata, T368817
