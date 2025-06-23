@@ -615,6 +615,7 @@ $languageNames = [
 	'rag' => 'Logooli',
 	# used by Wikidata, T267479
 	'rah' => 'Rabha',
+	'raj' => 'Rajasthani',
 	# Used by translatewiki
 	'rcf' => 'Réunion Creole French',
 	# Used by translatewiki
