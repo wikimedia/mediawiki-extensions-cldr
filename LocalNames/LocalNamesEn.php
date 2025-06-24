@@ -66,6 +66,8 @@ $languageNames = [
 	'axe' => 'Ayerrerenge',
 	# used by Wikidata, T382145
 	'axl' => 'Lower Southern Aranda',
+	# Used by translatewiki, T397355
+	'ayh' => 'Hadhrami Arabic',
 	'az-cyrl' => 'Azerbaijani (Cyrillic script)',
 	'azb' => 'South Azerbaijani',
 	# used by Wikidata, T263946
