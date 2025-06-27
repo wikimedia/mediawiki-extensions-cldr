@@ -431,6 +431,8 @@ $languageNames = [
 	'ljp' => 'Lampung Api',
 	'lki' => 'Laki',
 	'lld' => 'Ladin',
+	# used by Wikispecies, T397920
+	'lmn' => 'Lambadi',
 	# used by Wikidata, T263946
 	'lns' => 'Lamnso\'',
 	'luz' => 'Southern Luri',
