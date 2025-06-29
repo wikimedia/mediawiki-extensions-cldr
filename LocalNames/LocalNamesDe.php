@@ -14,6 +14,8 @@ $languageNames = [
 	# used by Wikidata, T155424
 	'abq-latn' => 'Abasinisch',
 	'abs' => 'Ambonesisches Malaysisch',
+	# Added to Core, T371051
+	'acf' => 'Saint Lucia Antillen-Kreolisch',
 	# Added to Core, not part of CLDR, T333425
 	'acm' => 'Irakisch-Arabisch',
 	'ady-cyrl' => 'Adygeisch (kyrillisch Schrift)',
@@ -31,7 +33,7 @@ $languageNames = [
 	# Added to core, T290657
 	'apc' => 'Levantinisches Arabisch',
 	# requested by T382757
-	'apc-latn' => 'Levantine Arabic (lateinische Schrift)',
+	'apc-latn' => 'Levantinisches Arabisch (lateinische Schrift)',
 	'az-cyrl' => 'Aserbaidschanisch (kyrillische Schrift)',
 	'azb' => 'Südaserbaidschanisch',
 	'bat-smg' => 'Schemaitisch',
@@ -79,6 +81,8 @@ $languageNames = [
 	'cjy-hant' => 'Jin (traditionelle Han-Schrift)',
 	# used by Wikidata, T240097
 	'ckt' => 'Tschuktschisch',
+	# T381061
+	'ckv' => 'Kavalanisch',
 	# used by Wikidata, T222020
 	'clc' => 'Tschilcotin',
 	# used by Wikidata, T215032
@@ -185,6 +189,8 @@ $languageNames = [
 	'hyw' => 'Westarmenisch',
 	'ike-cans' => 'Inuktitut (kanadische Silbenschrift)',
 	'ike-latn' => 'Inuktitut (lateinische Schrift)',
+	# Added to core, T375360
+	'isv-cyrl' => 'Interslawisch (kyrillische Schrift)',
 	# Added to core, T367688
 	'isv-latn' => 'Interslawisch (lateinische Schrift)',
 	# used by Wikidata, T195816
@@ -213,6 +219,8 @@ $languageNames = [
 	'kld' => 'Kamilaroi',
 	# used by Wikidata, T368826
 	'kmz' => 'Chorasan-türkisch',
+	# used by core MediaWiki, T356144
+	'knc' => 'Zentral-Kanuri',
 	# 'knn' => 'Maharashtrian Konkani', // German translation unassured
 	# used by Wikidata, T368817
 	'ko-kore' => 'Koreanisch (gemischte Schrift)',
@@ -249,6 +257,8 @@ $languageNames = [
 	# added to core T284043
 	'mnc-latn' => 'Mandschurisch (lateinische Schrift)',
 	'mnc-mong' => 'Mandschurisch (mongolische Schrift)',
+	# Requested for translatewiki: T375944
+	'mns' => 'Mansisch',
 	'mo' => 'Moldawisch',
 	'moe' => 'Innu',
 	'ms-arab' => 'Malaiisch (Jawi-Schrift)',
@@ -356,6 +366,8 @@ $languageNames = [
 	'roa-rup' => 'Aromunisch',
 	'roa-tara' => 'Tarandíne',
 	'rsk' => 'Pannonisch-Russinisch',
+	# T384105
+	'ru-petr1708' => 'Russisch (Orthographie vor 1918)',
 	'ruq' => 'Meglenorumänisch',
 	'ruq-cyrl' => 'Meglenorumänisch (kyrillische Schrift)',
 	'ruq-latn' => 'Meglenorumänisch (lateinische Schrift)',
