@@ -28,6 +28,7 @@ $languageNames = [
 	'aer' => 'Eastern Arrernte',
 	# Used by translatewiki
 	'ahr' => 'Ahirani',
+	'aig' => 'Antiguan and Barbudan Creole English',
 	'aii' => 'Assyrian Neo-Aramaic',
 	# Used by translatewiki
 	# The English name in ISO 639 is "Aja", but this would be
