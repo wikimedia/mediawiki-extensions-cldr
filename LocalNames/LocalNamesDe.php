@@ -25,6 +25,8 @@ $languageNames = [
 	'aec' => 'Saʽidi-Arabisch',
 	# used by Wikidata, T382005
 	'aee' => 'Nordöstliches Pashai',
+	# Added to Core, T398790
+	'aig' => 'Antigua und Barbuda Antillen-Kreolisch',
 	# used by Wikidata, T190981
 	'alc' => 'Kawesqar',
 	# used by Wikidata, T295738
@@ -173,6 +175,7 @@ $languageNames = [
 	'ha-ne' => 'Hausa (Niger)',
 	'hak-hans' => 'Hakka (vereinfachte Han-Schrift)',
 	'hak-hant' => 'Hakka (traditionelle Han-Schrift)',
+	'hak-latn' => 'Hakka (lateinische Schrift)',
 	'haz' => 'Hazaragi',
 	'hbo' => 'Biblisches Hebräisch',
 	'hif' => 'Fidschi-Hindi',
@@ -180,6 +183,8 @@ $languageNames = [
 	# Added to core, T332113
 	'hno' => 'Nördliches Hindko',
 	'hoc' => 'Ho',
+	# Added to core, T393086
+	'hoc-latn' => 'Ho (lateinische Schrift)',
 	# used by Wikidata, T368820
 	'hsn-hans' => 'Xiang (vereinfachte Han-Schrift)',
 	'hsn-hant' => 'Xiang (traditionelle Han-Schrift)',
@@ -355,6 +360,8 @@ $languageNames = [
 	'rmg' => 'Skandinavisches Romani',
 	# T223524
 	'rml' => 'Baltisches Romani',
+	# Used by translatewiki, T381838
+	'rml-cyrl' => 'Baltisches Romani (kyrillische Schrift)',
 	# T223524
 	'rmn' => 'Balkan-Romani',
 	# T223524
@@ -456,6 +463,8 @@ $languageNames = [
 	'vut' => 'Wute',
 	# used by Wikidata, T239411
 	'wls' => 'Wallisianisch',
+	# Added to Core, T384234
+	'wlx' => 'Wali',
 	'wya' => 'Wyandot',
 	# used by Wikidata, T319125
 	'xbm' => 'Mittelbretonisch',
