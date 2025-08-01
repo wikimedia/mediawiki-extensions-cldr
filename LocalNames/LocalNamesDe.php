@@ -31,6 +31,8 @@ $languageNames = [
 	'alc' => 'Kawesqar',
 	# used by Wikidata, T295738
 	'alq' => 'Algonquian',
+	# non-standard for gsw, included in core for compatibility
+	'als' => 'Alemannisch',
 	'ami' => 'Amisisch',
 	# Added to core, T290657
 	'apc' => 'Levantinisches Arabisch',
@@ -110,6 +112,8 @@ $languageNames = [
 	'dag' => 'Dagbani',
 	'de-1901' => 'Deutsch (traditionelle Rechtschreibung)',
 	'de-formal' => 'Deutsch (Sie-Anrede)',
+	# Added to core, T330266
+	'dga' => 'Süd-Dagaare',
 	# Added to core, T397435
 	'dlg' => 'Dolganisch',
 	// https://d-nb.info/gnd/7543852-5
@@ -185,6 +189,8 @@ $languageNames = [
 	'hoc' => 'Ho',
 	# Added to core, T393086
 	'hoc-latn' => 'Ho (lateinische Schrift)',
+	# Adde to core, cd62565296
+	'hrx' => 'Riograndenser Hunsrückisch',
 	# used by Wikidata, T368820
 	'hsn-hans' => 'Xiang (vereinfachte Han-Schrift)',
 	'hsn-hant' => 'Xiang (traditionelle Han-Schrift)',
@@ -406,7 +412,7 @@ $languageNames = [
 	'shy-tfng' => 'Shawiya (Tifinagh-Schrift)',
 	# used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
 	'sia' => 'Akkalasamisch',
-	'simple' => 'einfaches Englisch',
+	'simple' => 'Einfaches Englisch',
 	'sjd' => 'Kildinsamisch',
 	'sje' => 'Pitesamisch',
 	# used by Wikidata Change-Id: Iba40776d7f96445ae7dc2631438a6c07ac79ce9d
@@ -480,7 +486,7 @@ $languageNames = [
 	'ykg' => 'Tundrajukagirisch',
 	# Added to Core, T395223
 	'yua' => 'Yukatekisches Maya',
-	'zh-classical' => 'klassisches Chinesisch',
+	'zh-classical' => 'Klassisches Chinesisch',
 	'zh-cn' => 'Chinesisch (China)',
 	'zh-hk' => 'Chinesisch (Hongkong)',
 	'zh-min-nan' => 'Min Nan',
