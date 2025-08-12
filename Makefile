@@ -18,7 +18,7 @@ clean:
 	rm -f CldrCurrency/CldrCurrency[A-Z]*.php CldrMain/CldrMain[A-Z]*.php CldrSupplemental/CldrSupplemental[A-Z]*.php
 
 test:
-	php ${MW_INSTALL_PATH}/tests/phpunit/phpunit.php tests
+	${MW_INSTALL_PATH}/vendor/bin/phpunit tests
 
 rebuild: core/
 	php rebuild.php
