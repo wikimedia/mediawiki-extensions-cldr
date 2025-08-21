@@ -789,6 +789,8 @@ $languageNames = [
 	'tzl' => 'Talossan',
 	'ug-arab' => 'Uyghur (Arabic script)',
 	'ug-latn' => 'Uyghur (Latin script)',
+	# used by Wikidata, T402530
+	'uln' => 'Unserdeutsch',
 	'umu' => 'Munsee',
 	/* Upper case in CLDR, but should be lower case
 	 * https://unicode-org.atlassian.net/browse/CLDR-9664
