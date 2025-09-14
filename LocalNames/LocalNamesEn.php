@@ -109,7 +109,7 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'bkc' => 'Baka',
 	# used by Wikidata, T263946
-	'bkh' => 'Bakako',
+	'bkh' => 'Bakoko',
 	# Used by translatewiki
 	# The English name in ISO 639 is "Bella Coola", but "Nuxalk"
 	# is used by the native speakers when writing in English,
@@ -241,7 +241,7 @@ $languageNames = [
 	'ess' => 'Central Siberian Yupik',
 	# used by Wikidata, T263946
 	'eto' => 'Eton',
-	'ett' => 'Etruscian',
+	'ett' => 'Etruscan',
 	# used by Wikidata, T263946
 	'etu' => 'Ejagham',
 	'eya' => 'Eyak',
