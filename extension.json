@@ -1,5 +1,5 @@
 {
-	"name": "CLDR",
+	"name": "cldr",
 	"version": "4.17.0",
 	"author": [
 		"Niklas Laxström",
