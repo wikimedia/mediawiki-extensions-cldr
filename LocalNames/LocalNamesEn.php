@@ -520,7 +520,6 @@ $languageNames = [
 	'nod-thai' => 'Northern Thai (Thai script)',
 	# used by Wikidata T265782
 	'non-runr' => 'Old Norse (Runic script)',
-	'nr' => 'South Ndebele',
 	# used by Wikidata T165648
 	'nrf-gg' => 'Guernésiais',
 	# used by Wikidata T165648
@@ -531,7 +530,6 @@ $languageNames = [
 	# Added to core, T370123
 	'nup' => 'Nupe',
 	'nxm' => 'Numidian',
-	'nyo' => 'Nyoro',
 	# used by Wikidata, added in InitialiseSettings.php
 	'nys' => 'Nyungar',
 	# used by Wikidata, T319125
@@ -620,7 +618,6 @@ $languageNames = [
 	'rag' => 'Logooli',
 	# used by Wikidata, T267479
 	'rah' => 'Rabha',
-	'raj' => 'Rajasthani',
 	# Used by translatewiki
 	'rcf' => 'Réunion Creole French',
 	# Used by translatewiki
