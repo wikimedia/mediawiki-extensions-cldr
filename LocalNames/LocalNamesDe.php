@@ -233,6 +233,8 @@ $languageNames = [
 	# used by core MediaWiki, T356144
 	'knc' => 'Zentral-Kanuri',
 	# 'knn' => 'Maharashtrian Konkani', // German translation unassured
+	# Requested with T404707
+	'ko-cn' => 'Koreanisch (China)',
 	# used by Wikidata, T368817
 	'ko-kore' => 'Koreanisch (gemischte Schrift)',
 	'ko-kp' => 'Koreanisch (Nordkorea)',

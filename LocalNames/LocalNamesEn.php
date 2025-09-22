@@ -404,6 +404,8 @@ $languageNames = [
 	# Used by Wikispecies, T397455
 	'kne' => 'Kankanaey',
 	'knn' => 'Maharashtrian Konkani',
+	# Requested with T404707
+	'ko-cn' => 'Korean (China)',
 	'ko-hani' => 'Korean (Hanja script)',
 	# used by Wikidata, T368817
 	'ko-kore' => 'Korean (mixed script)',
