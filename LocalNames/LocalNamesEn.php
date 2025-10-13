@@ -734,6 +734,8 @@ $languageNames = [
 	'sty' => 'Siberian Tatar',
 	'sux-latn' => 'Sumerian (Latin script)',
 	'sux-xsux' => 'Sumerian (Cuneiform script)',
+	# used by Wikidata, T407106
+	'sva' => 'Svan',
 	# T381060
 	'sxr' => 'Saaroa',
 	'sxu' => 'Upper Saxon',

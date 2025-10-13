@@ -438,6 +438,8 @@ $languageNames = [
 	'sty' => 'Sibirisches Tatarisch',
 	'sux-latn' => 'Sumerisch (lateinische Schrift)',
 	'sux-xsux' => 'Sumerisch (sumerische Schrift)',
+	# used by Wikidata, T407106
+	'sva' => 'Swanisch',
 	# Added to core with T313199
 	'syl' => 'Sylheti',
 	'syl-beng' => 'Sylheti (bengalische Schrift)',
