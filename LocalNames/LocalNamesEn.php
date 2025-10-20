@@ -140,6 +140,8 @@ $languageNames = [
 	'btz' => 'Batak Alas-Kluet',
 	# Used by translatewiki
 	'bug-bugi' => 'Buginese (Buginese script)',
+	# used by Wikidata, T407771
+	'bvb' => 'Bube',
 	# Used by translatewiki
 	'bwr' => 'Bura-Pabir',
 	'bxr' => 'Russia Buriat',
