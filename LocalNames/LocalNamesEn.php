@@ -444,7 +444,7 @@ $languageNames = [
 	'lns' => 'Lamnso\'',
 	'luz' => 'Southern Luri',
 	# Used by translatewiki
-	'mak' => 'Makasar (Buginese script)',
+	'mak-bugi' => 'Makasar (Buginese script)',
 	# Used by translatewiki
 	'map-bms' => 'Banyumasan',
 	# Requested for translatewiki: T377797
