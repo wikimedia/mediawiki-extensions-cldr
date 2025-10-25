@@ -286,7 +286,6 @@ $languageNames = [
 	'yoi' => 'yonaguni',
 	'yrk' => 'nenetsisk',
 	'yua' => 'yukatansk maya',
-	'zh-cdo' => 'mindong',
 	'zh-classical' => 'klassisk kinesisk',
 	'zh-cn' => 'kinesisk (Kina)',
 	'zh-hk' => 'kinesisk (Hongkong)',
