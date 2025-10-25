@@ -266,7 +266,6 @@ $languageNames = [
 	'tg-latn' => 'tadsjikisk (latinsk alfabet)',
 	'tly-cyrl' => 'talysj (kyrillisk alfabet)',
 	'tmr' => 'jødebabylonsk arameisk',
-	'tokipona' => 'toki pona',
 	'trp' => 'kokborok',
 	'tsg' => 'tausug',
 	'tt-cyrl' => 'tatarisk (kyrillisk alfabet)',
