@@ -40,7 +40,7 @@ class CLDRRebuild extends Maintenance {
 			true
 		);
 
-		$this->requireExtension( 'CLDR' );
+		$this->requireExtension( 'cldr' );
 	}
 
 	public function execute() {
