@@ -932,6 +932,7 @@ $currencyNames = [
 	'XBC' => 'unità di acconto europea (XBC)',
 	'XBD' => 'unità di acconto europea (XBD)',
 	'XCD' => 'dollaro dei Caraibi orientali',
+	'XCG' => 'fiorino caraibico',
 	'XDR' => 'diritti speciali di incasso',
 	'XFO' => 'franco oro francese',
 	'XFU' => 'franco UIC francese',
@@ -954,6 +955,7 @@ $currencyNames = [
 	'ZRN' => 'nuovo zaire dello Zaire',
 	'ZRZ' => 'zaire dello Zaire',
 	'ZWD' => 'dollaro dello Zimbabwe',
+	'ZWG' => 'Zimbabwe Gold',
 	'ZWL' => 'dollaro zimbabwiano (2009)',
 ];
 
@@ -971,6 +973,7 @@ $currencySymbols = [
 	'TWD' => 'TWD',
 	'USD' => 'USD',
 	'VND' => 'VND',
+	'XCG' => 'Cf',
 ];
 
 $countryNames = [
@@ -1025,6 +1028,7 @@ $countryNames = [
 	'CN' => 'Cina',
 	'CO' => 'Colombia',
 	'CP' => 'Isola di Clipperton',
+	'CQ' => 'Sark',
 	'CR' => 'Costa Rica',
 	'CU' => 'Cuba',
 	'CV' => 'Capo Verde',
@@ -1297,8 +1301,6 @@ $timeUnits = [
 	'month-past-other' => '{0} mesi fa',
 	'nanosecond-one' => '{0} nanosecondo',
 	'nanosecond-other' => '{0} nanosecondi',
-	'night-one' => '{0} notte',
-	'night-other' => '{0} notti',
 	'quarter-future-one' => 'tra {0} trimestre',
 	'quarter-future-other' => 'tra {0} trimestri',
 	'quarter-one' => '{0} trimestre',

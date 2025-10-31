@@ -46,7 +46,6 @@ $languageNames = [
 	'grc' => 'grego clássico',
 	'gsw' => 'alemão suíço',
 	'ha' => 'haúça',
-	'hi' => 'hindi',
 	'hy' => 'arménio',
 	'ikt' => 'inuktitut canadiano ocidental',
 	'kbd' => 'cabardiano',
@@ -281,6 +280,7 @@ $currencyNames = [
 	'WST' => 'tala samoano',
 	'XAF' => 'franco CFA (BEAC)',
 	'XCD' => 'dólar das Caraíbas Orientais',
+	'XCG' => 'florim caribenho',
 	'XDR' => 'direito especial de saque',
 	'XEU' => 'Unidade da Moeda Europeia',
 	'XOF' => 'franco CFA (BCEAO)',
@@ -294,6 +294,7 @@ $currencyNames = [
 	'ZMK' => 'Kwacha zambiano (1968–2012)',
 	'ZMW' => 'kwacha zambiano',
 	'ZWD' => 'Dólar do Zimbabwe',
+	'ZWG' => 'ouro zimbabuense',
 ];
 
 $currencySymbols = [

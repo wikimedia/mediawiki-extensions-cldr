@@ -885,6 +885,7 @@ $currencyNames = [
 	'XBC' => 'európska jednotka účtu 9 (XBC)',
 	'XBD' => 'európska jednotka účtu 17 (XBC)',
 	'XCD' => 'východokaribský dolár',
+	'XCG' => 'karibský gulden',
 	'XDR' => 'SDR',
 	'XEU' => 'európska menová jednotka',
 	'XFO' => 'francúzsky zlatý frank',
@@ -911,6 +912,7 @@ $currencyNames = [
 	'ZRN' => 'zairský nový zaire (1993 – 1998)',
 	'ZRZ' => 'zairský zaire (1971 – 1993)',
 	'ZWD' => 'zimbabwiansky dolár (1980 – 2008)',
+	'ZWG' => 'zimbabwiansky zlatý',
 	'ZWL' => 'zimbabwiansky dolár (2009)',
 	'ZWR' => 'zimbabwiansky dolár (2008)',
 ];
@@ -934,6 +936,7 @@ $currencySymbols = [
 	'TWD' => 'TWD',
 	'USD' => 'USD',
 	'VND' => 'VND',
+	'XCG' => 'Cg',
 	'XXX' => 'XXX',
 ];
 
@@ -989,6 +992,7 @@ $countryNames = [
 	'CN' => 'Čína',
 	'CO' => 'Kolumbia',
 	'CP' => 'Clipperton',
+	'CQ' => 'Sark',
 	'CR' => 'Kostarika',
 	'CU' => 'Kuba',
 	'CV' => 'Kapverdy',

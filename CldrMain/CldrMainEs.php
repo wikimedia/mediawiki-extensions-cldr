@@ -890,6 +890,7 @@ $currencyNames = [
 	'ZRN' => 'nuevo zaire zaireño',
 	'ZRZ' => 'zaire zaireño',
 	'ZWD' => 'dólar de Zimbabue',
+	'ZWG' => 'oro zimbabuense',
 	'ZWL' => 'dólar zimbabuense',
 ];
 
@@ -970,6 +971,7 @@ $countryNames = [
 	'CN' => 'China',
 	'CO' => 'Colombia',
 	'CP' => 'Isla Clipperton',
+	'CQ' => 'Sark',
 	'CR' => 'Costa Rica',
 	'CU' => 'Cuba',
 	'CV' => 'Cabo Verde',
@@ -1258,8 +1260,6 @@ $timeUnits = [
 	'month-short-past-other' => 'hace {0} m',
 	'nanosecond-one' => '{0} nanosegundo',
 	'nanosecond-other' => '{0} nanosegundos',
-	'night-one' => '{0} noche',
-	'night-other' => '{0} noches',
 	'quarter-future-one' => 'dentro de {0} trimestre',
 	'quarter-future-other' => 'dentro de {0} trimestres',
 	'quarter-one' => '{0} trimestre',

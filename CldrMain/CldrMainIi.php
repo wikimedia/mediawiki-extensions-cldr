@@ -55,7 +55,6 @@ $indexCharacters = [
 
 $languageNames = [
 	'ar' => 'ꀊꇁꀨꉙ',
-	'ar-001' => 'ꀊꇁꀨꉙ（ꋧꃅ）',
 	'de' => 'ꄓꇩꉙ',
 	'en' => 'ꑱꇩꉙ',
 	'es' => 'ꑭꀠꑸꉙ',

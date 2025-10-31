@@ -621,12 +621,14 @@ $currencyNames = [
 	'WST' => 'tala samoan',
 	'XAF' => 'franco CFA de l’Àfrega sentrale',
 	'XCD' => 'dòlaro caraìbego',
+	'XCG' => 'fiorin caraìbego',
 	'XOF' => 'franco CFA de l’Àfrega osidentale',
 	'XPF' => 'franco CFP',
 	'XXX' => 'moneda desconosùa',
 	'YER' => 'rial yemenida',
 	'ZAR' => 'rand sudafregan',
 	'ZMW' => 'kwacha zanbian',
+	'ZWG' => 'oro de Zimbabwe',
 ];
 
 $currencySymbols = [
@@ -650,6 +652,7 @@ $currencySymbols = [
 	'VND' => 'VND',
 	'XAF' => 'XAF',
 	'XCD' => 'XCD',
+	'XCG' => 'Cf',
 	'XOF' => 'XOF',
 	'XPF' => 'XPF',
 ];

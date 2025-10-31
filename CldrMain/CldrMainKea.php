@@ -163,7 +163,6 @@ $languageNames = [
 	'lo' => 'lausianu',
 	'lt' => 'lituanu',
 	'lu' => 'luba-katanga',
-	'luo' => 'luo',
 	'luy' => 'luyia',
 	'lv' => 'letãu',
 	'mg' => 'malgaxi',

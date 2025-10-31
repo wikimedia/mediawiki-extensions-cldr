@@ -606,6 +606,7 @@ $currencyNames = [
 	'XAG' => 'unse sølv',
 	'XAU' => 'unse guld',
 	'XCD' => 'Eystur Karibia dollari',
+	'XCG' => 'Karibia gyllin',
 	'XOF' => 'Vesturafrika CFA frankur',
 	'XPD' => 'unse palladium',
 	'XPF' => 'CFP frankur',
@@ -614,6 +615,7 @@ $currencyNames = [
 	'YER' => 'Jemen rial',
 	'ZAR' => 'Suðurafrika rand',
 	'ZMW' => 'Sambia kwacha',
+	'ZWG' => 'Simbabvi gull',
 ];
 
 $currencySymbols = [

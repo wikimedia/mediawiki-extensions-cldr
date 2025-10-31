@@ -59,10 +59,8 @@ $currencyFractions = [
 		'rounding' => '0',
 	],
 	'COP' => [
-		'digits' => '2',
+		'digits' => '0',
 		'rounding' => '0',
-		'cashDigits' => '0',
-		'cashRounding' => '0',
 	],
 	'CRC' => [
 		'digits' => '2',
@@ -100,16 +98,13 @@ $currencyFractions = [
 		'cashRounding' => '0',
 	],
 	'HUF' => [
-		'digits' => '2',
+		'digits' => '0',
 		'rounding' => '0',
-		'cashDigits' => '0',
-		'cashRounding' => '0',
+		'cashRounding' => '5',
 	],
 	'IDR' => [
-		'digits' => '2',
+		'digits' => '0',
 		'rounding' => '0',
-		'cashDigits' => '0',
-		'cashRounding' => '0',
 	],
 	'IQD' => [
 		'digits' => '0',
@@ -206,10 +201,8 @@ $currencyFractions = [
 		'rounding' => '0',
 	],
 	'PKR' => [
-		'digits' => '2',
+		'digits' => '0',
 		'rounding' => '0',
-		'cashDigits' => '0',
-		'cashRounding' => '0',
 	],
 	'PYG' => [
 		'digits' => '0',
@@ -305,8 +298,16 @@ $currencyFractions = [
 		'digits' => '0',
 		'rounding' => '0',
 	],
+	'XAD' => [
+		'digits' => '2',
+		'rounding' => '0',
+	],
 	'XAF' => [
 		'digits' => '0',
+		'rounding' => '0',
+	],
+	'XAU' => [
+		'digits' => '2',
 		'rounding' => '0',
 	],
 	'XOF' => [
@@ -396,7 +397,7 @@ $localeCurrencies = [
 		'XOF',
 	],
 	'BG' => [
-		'BGN',
+		'EUR',
 	],
 	'BH' => [
 		'BHD',

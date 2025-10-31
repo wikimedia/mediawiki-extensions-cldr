@@ -978,6 +978,7 @@ $timeUnits = [
 	'day-other' => 'ʻaho ʻe {0}',
 	'day-past-other' => 'ʻaho ʻe {0} kuoʻosi',
 	'decade-other' => 'honofuluʻitaʻu ʻe {0}',
+	'fortnight-other' => 'fakahiliuike ʻe {0}',
 	'fri-future-other' => 'Ngaahi Falaite ʻe {0} ʻi he kahaʻu',
 	'fri-past-other' => 'Ngaahi Falaite ʻe {0} ʻi he kuohili',
 	'fri-short-future-other' => 'Falaite ʻe {0} ʻi he kahaʻu',

@@ -822,6 +822,7 @@ $currencyNames = [
 	'XAG' => 'unse silfur',
 	'XAU' => 'unse gull',
 	'XCD' => 'austurkarabískur dalur',
+	'XCG' => 'Karíbahafsgyllini',
 	'XDR' => 'Sérstök dráttarréttindi',
 	'XFO' => 'Franskur gullfranki',
 	'XFU' => 'Franskur franki, UIC',
@@ -838,6 +839,7 @@ $currencyNames = [
 	'ZMK' => 'Zambian Kwacha (1968–2012)',
 	'ZMW' => 'sambísk kvaka',
 	'ZWD' => 'Simbabveskur dalur',
+	'ZWG' => 'simbabveskt gold',
 ];
 
 $currencySymbols = [
@@ -858,6 +860,7 @@ $currencySymbols = [
 	'TWD' => 'TWD',
 	'USD' => 'USD',
 	'VND' => 'VND',
+	'XCG' => 'XCG',
 ];
 
 $countryNames = [
@@ -912,6 +915,7 @@ $countryNames = [
 	'CN' => 'Kína',
 	'CO' => 'Kólumbía',
 	'CP' => 'Clipperton-eyja',
+	'CQ' => 'Sark',
 	'CR' => 'Kostaríka',
 	'CU' => 'Kúba',
 	'CV' => 'Grænhöfðaeyjar',

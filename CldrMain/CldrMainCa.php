@@ -920,6 +920,7 @@ $currencyNames = [
 	'XBC' => 'unitat de compte europea (XBC)',
 	'XBD' => 'unitat de compte europea (XBD)',
 	'XCD' => 'dòlar del Carib Oriental',
+	'XCG' => 'florí de les Antilles',
 	'XDR' => 'drets especials de gir',
 	'XEU' => 'unitat de moneda europea',
 	'XFO' => 'franc or francès',
@@ -944,6 +945,7 @@ $currencyNames = [
 	'ZRN' => 'nou zaire zairès',
 	'ZRZ' => 'zaire zairès',
 	'ZWD' => 'dòlar zimbabuès (1980–2008)',
+	'ZWG' => 'or de Zimbàbue',
 	'ZWL' => 'dòlar zimbabuès (2009)',
 	'ZWR' => 'dòlar zimbabuès (2008)',
 ];
@@ -962,6 +964,7 @@ $currencySymbols = [
 	'USD' => 'USD',
 	'VEF' => 'Bs F',
 	'XCD' => 'XCD',
+	'XCG' => 'XCG',
 	'XXX' => 'XXX',
 ];
 
@@ -1288,8 +1291,6 @@ $timeUnits = [
 	'month-past-other' => 'fa {0} mesos',
 	'nanosecond-one' => '{0} nanosegon',
 	'nanosecond-other' => '{0} nanosegons',
-	'night-one' => '{0} nit',
-	'night-other' => '{0} nits',
 	'quarter-future-one' => 'd’aquí a {0} trimestre',
 	'quarter-future-other' => 'd’aquí a {0} trimestres',
 	'quarter-one' => '{0} trimestre',

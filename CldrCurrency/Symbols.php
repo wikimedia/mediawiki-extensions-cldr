@@ -45,6 +45,7 @@ $currencySymbols = [
 			'SX' => 'NAf.',
 		],
 		'nqo' => 'ߊ߲ߕߝ',
+		'pap' => 'XCG',
 	],
 	'AOA' => [
 		'!root' => 'Kz',
@@ -662,7 +663,6 @@ $currencySymbols = [
 		'ug' => '￥',
 		'uk' => 'CNY',
 		'vec' => 'CNY',
-		'yue-hans' => '￥',
 		'za' => '¥',
 		'zh' => '¥',
 	],
@@ -1036,7 +1036,10 @@ $currencySymbols = [
 		'ab' => 'ლ',
 		'bal-latn' => 'JRJL',
 		'brx' => 'जि.इ.एल',
-		'en' => 'GEL',
+		'en' => [
+			'!DEFAULT' => 'GEL',
+			'GE' => '₾',
+		],
 		'fi' => 'GEL',
 		'fr' => [
 			'CA' => 'GEL',
@@ -1064,6 +1067,7 @@ $currencySymbols = [
 			'!DEFAULT' => 'GHS',
 			'GH' => 'GH₵',
 		],
+		'eo' => '₵',
 		'lv' => 'GHS',
 		'nqo' => 'ߜ߭ߛߘ',
 		'qu' => 'GHC',
@@ -1486,6 +1490,7 @@ $currencySymbols = [
 		'wae' => '¥',
 		'xh' => '¥',
 		'yue' => '¥',
+		'yue-hans' => '¥',
 		'zh-hant' => '¥',
 	],
 	'KES' => [
@@ -2371,6 +2376,7 @@ $currencySymbols = [
 		'sq' => 'RUB',
 	],
 	'RUR' => [
+		'ba' => 'р.',
 		'br' => 'р.',
 		'cs' => 'р.',
 		'de' => 'р.',
@@ -2414,8 +2420,10 @@ $currencySymbols = [
 		'sq' => 'RWF',
 	],
 	'SAR' => [
+		'!root' => '⃁',
 		'ar' => 'ر.س.‏',
 		'brx' => 'एस.ए.आर',
+		'en' => 'SAR',
 		'nqo' => 'ߛߊߙ',
 	],
 	'SBD' => [
@@ -2697,6 +2705,7 @@ $currencySymbols = [
 		'brx' => 'ति.आर.वाई',
 		'bs-cyrl' => 'Тл',
 		'en' => 'TRY',
+		'eo' => 'TRY',
 		'fi' => 'TRY',
 		'fr' => [
 			'!DEFAULT' => 'LT',
@@ -2835,6 +2844,7 @@ $currencySymbols = [
 		'ab' => '$',
 		'af' => 'USD',
 		'ast' => '$',
+		'ba' => '$',
 		'bal' => '$',
 		'bal-latn' => '$',
 		'be' => '$',
@@ -2920,6 +2930,7 @@ $currencySymbols = [
 		'mr' => '$',
 		'ms' => 'USD',
 		'mus' => '$',
+		'mww' => '𞅎',
 		'mzn' => '$',
 		'nds' => '$',
 		'nl' => [
@@ -3155,7 +3166,25 @@ $currencySymbols = [
 	],
 	'XCG' => [
 		'!root' => 'Cg.',
+		'ca' => 'XCG',
+		'en' => [
+			'CA' => 'Cg',
+		],
+		'eo' => 'XCG',
+		'frr' => 'XCG',
+		'gl' => 'ƒ',
+		'is' => 'XCG',
+		'it' => 'Cf',
+		'ja' => 'Cg',
 		'nl' => 'Cg',
+		'pl' => 'XCG',
+		'ru' => 'Cg',
+		'sk' => 'Cg',
+		'sq' => 'ANG',
+		'sv' => 'XCG',
+		'tk' => 'Kg.',
+		'vec' => 'Cf',
+		'xh' => 'ICg.',
 	],
 	'XDR' => [
 		'fr' => 'DTS',
@@ -3168,6 +3197,7 @@ $currencySymbols = [
 	'XOF' => [
 		'!root' => 'F CFA',
 		'ak' => 'AAS',
+		'ba' => 'F CFA',
 		'bal-latn' => 'RACF',
 		'be' => 'CFA',
 		'en' => [
@@ -3302,6 +3332,10 @@ $currencySymbols = [
 	],
 	'ZWD' => [
 		'nqo' => 'ߖ߭ߥߘ',
+	],
+	'ZWG' => [
+		'nl' => 'ZiG',
+		'xh' => 'IZWG',
 	],
 	'ZWL' => [
 		'nqo' => 'ߖ߭ߥߟ',
