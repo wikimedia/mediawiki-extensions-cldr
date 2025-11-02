@@ -69,6 +69,10 @@ class CLDRParser {
 				continue;
 			}
 
+			if ( (string)$elem['menu'] !== '' ) {
+				continue;
+			}
+
 			if ( (string)$elem['type'] === 'root' ) {
 				continue;
 			}
