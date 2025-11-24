@@ -692,6 +692,7 @@ $languageNames = [
 	'se-se' => 'Northern Sami (Sweden)',
 	# used by Wikidata, T312904
 	'ser' => 'Serrano',
+	'sgh' => 'Shughni',
 	'sh-cyrl' => 'Serbo-Croatian (Cyrillic script)',
 	'sh-latn' => 'Serbo-Croatian (Latin script)',
 	'shd' => 'Kundal Shahi',
