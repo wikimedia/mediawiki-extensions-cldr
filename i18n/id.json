@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"IvanLanin",
-			"Rex"
+			"Rex",
+			"Penyuwangi"
 		]
 	},
-	"cldr-desc": "Ekstensi yang menyediakan nama bahasa dalam bahasa lokal berdasarkan [http://cldr.unicode.org/index/downloads data CLDR]"
+	"cldr-desc": "Pengaya yang menyediakan nama-nama bahasa terlokalisasi berdasarkan [http://cldr.unicode.org/index/downloads data CLDR]"
 }
