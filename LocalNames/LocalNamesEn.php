@@ -582,6 +582,8 @@ $languageNames = [
 	'mns' => 'Mansi',
 	'mnw' => 'Mon',
 	'mo' => 'Moldovan',
+	# used by Wikidata, T412638
+	'mr-modi' => 'Marathi (Modi script)',
 	# Added to core, T259330
 	'mrh' => 'Mara',
 	# Requested for translatewiki: T388157

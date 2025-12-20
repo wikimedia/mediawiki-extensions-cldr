@@ -274,6 +274,8 @@ $languageNames = [
 	'mns' => 'Mansisch',
 	'mo' => 'Moldawisch',
 	'moe' => 'Innu',
+	# used by Wikidata, T412638
+	'mr-modi' => 'Marathi (Moḍī-Schrift)',
 	'ms-arab' => 'Malaiisch (Jawi-Schrift)',
 	'mui' => 'Musi',
 	'mvf' => 'Peripheres Mongolisch',
