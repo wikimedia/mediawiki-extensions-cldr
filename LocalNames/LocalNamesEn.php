@@ -28,6 +28,8 @@ $languageNames = [
 	# used by Wikidata, T382145
 	'aer' => 'Eastern Arrernte',
 	'afa' => 'Afroasiatic languages',
+	# used by Wikidata, T413044
+	'aha' => 'Ahanta',
 	# Used by translatewiki
 	'ahr' => 'Ahirani',
 	'aig' => 'Antiguan and Barbudan Creole English',
