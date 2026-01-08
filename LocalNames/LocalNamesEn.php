@@ -415,6 +415,12 @@ $languageNames = [
 	'iro' => 'Iroquoian languages',
 	# Used by translatewiki
 	'ish' => 'Esan',
+	# used by Wikidata, T402840
+	'isk-arab' => 'Ishkashimi (Arabic script)',
+	# used by Wikidata, T402840
+	'isk-cyrl' => 'Ishkashimi (Cyrillic script)',
+	# used by Wikidata, T402840
+	'isk-latn' => 'Ishkashimi (Latin script)',
 	'ist' => 'Istriot',
 	# used by Wikidata, T263946
 	'isu' => 'Isu',
@@ -568,6 +574,8 @@ $languageNames = [
 	'mnc-latn' => 'Manchu (Latin script)',
 	'mnc-mong' => 'Manchu (Mongolian script)',
 	'mni-beng' => 'Manipuri (Bengali script)',
+	# used by Wikidata, T402840
+	'mnj' => 'Munji',
 	'mno' => 'Manobo languages',
 	'mnq' => 'Minriq',
 	# Requested for translatewiki: T375944
@@ -711,6 +719,8 @@ $languageNames = [
 	'ppl' => 'Nawat',
 	'ppu' => 'Papora-Hoanya',
 	'pra' => 'Prakrit',
+	# used by Wikidata, T402840
+	'prc' => 'Parachi',
 	'prs' => 'Dari',
 	# used by Wikidata T357205
 	'ps-af' => 'Pashto (Afghanistan)',
@@ -818,7 +828,17 @@ $languageNames = [
 	# used by Wikidata, T312904
 	'ser' => 'Serrano',
 	'sgh' => 'Shughni',
+	# used by Wikidata, T402840
+	'sgh-arab' => 'Shughni (Arabic script)',
+	# used by Wikidata, T402840
+	'sgh-cyrl' => 'Shughni (Cyrillic script)',
+	# used by Wikidata, T402840
+	'sgh-latn' => 'Shughni (Latin script)',
 	'sgn' => 'sign languages',
+	# used by Wikidata, T402840
+	'sgy-arab' => 'Sanglechi (Arabic script)',
+	# used by Wikidata, T402840
+	'sgy-latn' => 'Sanglechi (Latin script)',
 	'sh-cyrl' => 'Serbo-Croatian (Cyrillic script)',
 	'sh-latn' => 'Serbo-Croatian (Latin script)',
 	'shd' => 'Kundal Shahi',
@@ -860,6 +880,12 @@ $languageNames = [
 	'sr-ec' => 'Serbian (Cyrillic script)',
 	'sr-el' => 'Serbian (Latin script)',
 	'sr-latn' => 'Serbian (Latin script)',
+	# used by Wikidata, T402840
+	'srh-arab' => 'Sarikoli (Arabic script)',
+	# used by Wikidata, T402840
+	'srh-cyrl' => 'Sarikoli (Cyrillic script)',
+	# used by Wikidata, T402840
+	'srh-latn' => 'Sarikoli (Latin script)',
 	'srk' => 'Serudung',
 	# Added to core with T311034
 	'sro' => 'Campidanese Sardinian',
@@ -963,6 +989,18 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'vut' => 'Vute',
 	'wak' => 'Wakashan languages',
+	# used by Wikidata, T402840
+	'wbl-arab' => 'Wakhi (Arabic script)',
+	# used by Wikidata, T402840
+	'wbl-arab-af' => 'Wakhi (Arabic script, Afghanistan)',
+	# used by Wikidata, T402840
+	'wbl-arab-cn' => 'Wakhi (Arabic script, China)',
+	# used by Wikidata, T402840
+	'wbl-arab-pk' => 'Wakhi (Arabic script, Pakistan)',
+	# used by Wikidata, T402840
+	'wbl-cyrl' => 'Wakhi (Cyrillic script)',
+	# used by Wikidata, T402840
+	'wbl-latn' => 'Wakhi (Latin script)',
 	'wen' => 'Sorbian languages',
 	# used by Wikidata, T263946
 	'wes' => 'Pidgin (Cameroon)',
@@ -996,11 +1034,21 @@ $languageNames = [
 	# used by Wikidata, T317354
 	'xsu' => 'Sanumá',
 	'xsy' => 'Saisiyat',
+	# used by Wikidata, T402840
+	'yah-cyrl' => 'Yazghulami (Cyrillic script)',
+	# used by Wikidata, T402840
+	'yah-latn' => 'Yazghulami (Latin script)',
+	# used by Wikidata, T402840
+	'yai-cyrl' => 'Yaghnobi (Cyrillic script)',
+	# used by Wikidata, T402840
+	'yai-latn' => 'Yaghnobi (Latin script)',
 	# used by Wikidata, T263946
 	'yas' => 'Nugunu',
 	# used by Wikidata, T263946
 	'yat' => 'Yambeta',
 	'ydd' => 'Eastern Yiddish',
+	# used by Wikidata, T402840
+	'ydg' => 'Yidgha',
 	# used by Wikidata, T296504
 	'yec' => 'Yeniche',
 	# used by Wikidata, T252198
