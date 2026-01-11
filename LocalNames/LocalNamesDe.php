@@ -212,6 +212,8 @@ $languageNames = [
 	'ja-hrkt' => 'Japanisch (Kana-Schrift)',
 	# used by Wikidata, T195816
 	'ja-kana' => 'Japanisch (Katakana-Schrift)',
+	# Added to core, T409393
+	'jv-java' => 'Javanisch (Javanische Schrift)',
 	# added to core T345807
 	'kai' => 'Karekare',
 	'kbd-cyrl' => 'Kabardinisch (kyrillische Schrift)',
@@ -259,6 +261,7 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'lns' => 'Lamnso',
 	'luz' => 'Südliches Lori',
+	'mak-bugi' => 'Makassarisch (Buginesische Schrift)',
 	'map-bms' => 'Banyumasan',
 	# used by Wikidata, T235468
 	'mfa' => 'Pattani-Malaiisch',

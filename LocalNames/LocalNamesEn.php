@@ -144,7 +144,7 @@ $languageNames = [
 	'bnn' => 'Bunun',
 	'bnt' => 'Bantu languages',
 	'bny' => 'Bintulu',
-	# Used by translatewiki
+	# Added to core, T408150
 	'bol' => 'Bole',
 	# Used by translatewiki
 	'bom' => 'Berom',
@@ -447,10 +447,10 @@ $languageNames = [
 	'jdt-cyrl' => 'Judeo-Tat (Cyrillic script)',
 	# Used by translatewiki
 	'jje' => 'Jeju',
-	# added to core T345807
-	# Used by translatewiki
+	# Add to core, T409393
 	'jv-java' => 'Javanese (Javanese script)',
 	'kag' => 'Kajaman',
+	# added to core T345807
 	'kai' => 'Karekare',
 	'kar' => 'Karenic languages',
 	'kbd-cyrl' => 'Kabardian (Cyrillic script)',
