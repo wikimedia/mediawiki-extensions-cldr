@@ -442,6 +442,7 @@ $languageNames = [
 	# Used by translatewiki
 	'jac' => 'Popti\'',
 	'jak' => 'Jakun',
+	'jax' => 'Jambi Malay',
 	# Used by translatewiki
 	'jdt' => 'Judeo-Tat',
 	'jdt-cyrl' => 'Judeo-Tat (Cyrillic script)',
