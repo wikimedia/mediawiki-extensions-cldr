@@ -1,6 +1,6 @@
 .PHONY: help all clean rebuild
 
-CLDR_CORE_URL=https://www.unicode.org/Public/cldr/48/core.zip
+CLDR_CORE_URL=https://www.unicode.org/Public/cldr/48.1/core.zip
 
 help:
 	@echo "'make all' to download CLDR data and rebuild files."

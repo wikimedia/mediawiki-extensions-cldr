@@ -209,8 +209,10 @@ $currencyFractions = [
 		'rounding' => '0',
 	],
 	'RSD' => [
-		'digits' => '0',
+		'digits' => '2',
 		'rounding' => '0',
+		'cashDigits' => '0',
+		'cashRounding' => '0',
 	],
 	'RWF' => [
 		'digits' => '0',
