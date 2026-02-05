@@ -27,6 +27,8 @@ $languageNames = [
 	'ja-hira' => 'japonais (écriture hiragana)',
 	'ja-hrkt' => 'japonais (écriture kana)',
 	'ja-kana' => 'japonais (écriture katakana)',
+		# T408340
+	'ko-kp' => 'coréen (Corée du Nord)',
 	'ksy-beng' => 'kharia thar (écriture bengalaise)',
 	'kyw-beng' => 'kurmali (écriture bengalaise)',
 	'kyw-deva' => 'kurmali (écriture devanagari)',
