@@ -144,6 +144,8 @@ $languageNames = [
 	'es-mx' => 'Mexikanisches Spanisch',
 	'ett' => 'Etruskisch',
 	'fkv' => 'Kvenisch',
+	# used by Wikidata, T417280
+	'fr-be' => 'Belgisches Französisch',
 	'fr-ca' => 'Kanadisches Französisch',
 	'fr-ch' => 'Schweizer Französisch',
 	# used by Wikidata, T314935

@@ -315,6 +315,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'fmp' => 'Fe\'Fe\'',
 	'fos' => 'Siraya',
+	# used by Wikidata, T417280
+	'fr-be' => 'Belgian French',
 	'frk' => 'Frankish',
 	'fsl' => 'French Sign Language',
 	# used by Wikidata, T314935

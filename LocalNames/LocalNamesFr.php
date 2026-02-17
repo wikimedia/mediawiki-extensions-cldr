@@ -15,6 +15,7 @@ $languageNames = [
 	'de-1901' => 'allemand (orthographe traditionnelle)',
 	'eo-hsistemo' => 'espéranto (orthographe du système H)',
 	'eo-xsistemo' => 'espéranto (orthographe du système X)',
+	'fr-be' => 'français belge',
 	'gcr' => 'créole guyanais',
 		# used by Wikidata, T262922
 	'gsg' => 'langue des signes allemande',
