@@ -256,6 +256,9 @@ $languageNames = [
 	'lbe' => 'Lakisch',
 	# used by Wikidata, T234761
 	'lcm' => 'Tungag',
+	# used by Wikidata, T417287
+	'li-be' => 'Belgisches Limburgisch',
+	'li-nl' => 'Niederländisches Limburgisch',
 	# used by Wikidata, T254968
 	'lij-mc' => 'Monegassisch',
 	'lki' => 'Leki',

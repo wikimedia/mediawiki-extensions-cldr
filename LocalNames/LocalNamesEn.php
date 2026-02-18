@@ -533,6 +533,9 @@ $languageNames = [
 	'ldn' => 'Láadan',
 	# used by Wikidata, T263946
 	'lem' => 'Nomaande',
+	# used by Wikidata, T417287
+	'li-be' => 'Belgian Limburgish',
+	'li-nl' => 'Dutch Limburgish',
 	# used by Wikidata, T254968
 	'lij-mc' => 'Monégasque',
 	# Requested for translatewiki: T383038
