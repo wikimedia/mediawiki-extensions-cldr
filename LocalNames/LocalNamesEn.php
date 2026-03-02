@@ -745,6 +745,7 @@ $languageNames = [
 	'pt-ao1990' => 'Portuguese (1990 Orthographic Agreement)',
 	'pt-colb1945' => 'Portuguese (1945 Orthographic Agreement)',
 	'pwn' => 'Paiwan',
+	'pwo' => 'Western Pwo',
 	'pyu' => 'Puyuma',
 	# Used by translatewiki
 	'qwh' => 'Huaylas Ancash Quechua',
