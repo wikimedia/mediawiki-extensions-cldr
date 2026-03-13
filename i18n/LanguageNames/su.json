@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"cldr-language-name-de": "Jérman",
+	"cldr-language-name-de-at": "Jérman Austria",
+	"cldr-language-name-de-ch": "Jérman Swiss Luhur",
+	"cldr-language-name-en": "Inggris",
+	"cldr-language-name-en-au": "Inggris Australia",
+	"cldr-language-name-en-ca": "Inggris Kanada",
+	"cldr-language-name-en-us": "Inggris Amerika",
+	"cldr-language-name-es": "Spanyol",
+	"cldr-language-name-es-419": "Spanyol Amérika Latin",
+	"cldr-language-name-es-es": "Spanyol Éropa",
+	"cldr-language-name-es-mx": "Spanyol Méksiko",
+	"cldr-language-name-fr": "Prancis",
+	"cldr-language-name-fr-ca": "Prancis Kanada",
+	"cldr-language-name-fr-ch": "Prancis Swiss",
+	"cldr-language-name-it": "Italia",
+	"cldr-language-name-ja": "Jepang",
+	"cldr-language-name-pt": "Portugis",
+	"cldr-language-name-pt-br": "Portugis Brasil",
+	"cldr-language-name-pt-pt": "Portugis Éropa",
+	"cldr-language-name-ru": "Rusia",
+	"cldr-language-name-su": "Basa Sunda",
+	"cldr-language-name-und": "Basa teu dikenal",
+	"cldr-language-name-zh": "Tiongkok",
+	"cldr-language-name-zh-hans": "Tiongkok Sederhana",
+	"cldr-language-name-zh-hant": "Tiongkok Tradisional"
+}

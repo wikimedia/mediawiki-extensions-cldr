@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"cldr-language-name-de": "немецше",
+	"cldr-language-name-de-at": "немецше (Австрия)",
+	"cldr-language-name-de-ch": "немецше (Швейцария)",
+	"cldr-language-name-en": "Англичанша",
+	"cldr-language-name-fr": "французша",
+	"cldr-language-name-fr-ca": "французша (Канада)",
+	"cldr-language-name-fr-ch": "французша (Швейцария)",
+	"cldr-language-name-hi-latn": "ҳиндше (латын)",
+	"cldr-language-name-it": "итальянша",
+	"cldr-language-name-ja": "японша",
+	"cldr-language-name-kaa": "қарақалпақша",
+	"cldr-language-name-ko": "корейсше",
+	"cldr-language-name-tr": "түрк тили",
+	"cldr-language-name-und": "белгисиз тил",
+	"cldr-language-name-zh": "қытайша",
+	"cldr-language-name-zh-hans": "қытайша (аңсатластырылған)"
+}

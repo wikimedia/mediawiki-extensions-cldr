@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"cldr-language-name-ar": "arabir",
+	"cldr-language-name-ar-001": "arabir (mundu)",
+	"cldr-language-name-de": "alemán",
+	"cldr-language-name-en": "ingles",
+	"cldr-language-name-es": "spañó",
+	"cldr-language-name-es-419": "spañó di latino amérika",
+	"cldr-language-name-fr": "franses",
+	"cldr-language-name-he": "hebreo",
+	"cldr-language-name-hi": "hindi",
+	"cldr-language-name-hmn": "hmong",
+	"cldr-language-name-ht": "kreol di Haiti",
+	"cldr-language-name-hz": "herero",
+	"cldr-language-name-id": "indones",
+	"cldr-language-name-it": "italiano",
+	"cldr-language-name-ja": "hapones",
+	"cldr-language-name-ko": "koreano",
+	"cldr-language-name-la": "latin",
+	"cldr-language-name-nl": "hulandes",
+	"cldr-language-name-pap": "Papiamentu",
+	"cldr-language-name-pl": "polaco",
+	"cldr-language-name-pt": "portugues",
+	"cldr-language-name-ru": "ruso",
+	"cldr-language-name-th": "tailandes",
+	"cldr-language-name-tr": "turko",
+	"cldr-language-name-und": "idioma deskonosí",
+	"cldr-language-name-zh": "chines"
+}

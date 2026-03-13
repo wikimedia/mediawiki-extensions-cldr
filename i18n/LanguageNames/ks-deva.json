@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"cldr-language-name-de": "जर्मन",
+	"cldr-language-name-de-at": "आस्ट्रियन जर्मन",
+	"cldr-language-name-de-ch": "स्विस हाई जर्मन",
+	"cldr-language-name-en": "अंगरिज़ी",
+	"cldr-language-name-en-au": "आसट्रेलवी अंगरिज़ी",
+	"cldr-language-name-en-ca": "कनाडियन अंगरिज़ी",
+	"cldr-language-name-en-gb": "बरतानवी अंगरिज़ी",
+	"cldr-language-name-en-us": "अमरीकी अंगरिज़ी",
+	"cldr-language-name-es": "हसपानवी",
+	"cldr-language-name-es-419": "लातिनी अमरीकी हसपानवी",
+	"cldr-language-name-es-es": "यूरपी हसपानवी",
+	"cldr-language-name-es-mx": "मेकसिकी हसपानवी",
+	"cldr-language-name-fr": "फ्रांसीसी",
+	"cldr-language-name-fr-ca": "कनाडियन फ्रांसीसी",
+	"cldr-language-name-fr-ch": "स्विस फ्रांसीसी",
+	"cldr-language-name-it": "इतालवी",
+	"cldr-language-name-ja": "जापानी",
+	"cldr-language-name-ks": "कॉशुर",
+	"cldr-language-name-pt": "पुरतउगाली",
+	"cldr-language-name-pt-br": "ब्राज़िली पुरतउगाली",
+	"cldr-language-name-pt-pt": "यूरपी पुरतउगाली",
+	"cldr-language-name-ru": "रूसी",
+	"cldr-language-name-und": "नामोलुम ज़बान",
+	"cldr-language-name-zh": "चीनी (तरजुम इशार: खास तोर, मैन्डरिन चीनी।)",
+	"cldr-language-name-zh-hans": "आसान चीनी",
+	"cldr-language-name-zh-hant": "रिवायाती चीनी"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"cldr-language-name-de": "Jeman",
+	"cldr-language-name-de-at": "Austria Jeman",
+	"cldr-language-name-de-ch": "Swis Jeman",
+	"cldr-language-name-en": "Inglis",
+	"cldr-language-name-en-au": "Australian Inglis",
+	"cldr-language-name-en-ca": "Kenedien Inglis",
+	"cldr-language-name-en-gb": "Britis Inglis",
+	"cldr-language-name-en-us": "Amerikan Inglis",
+	"cldr-language-name-es": "Spenis",
+	"cldr-language-name-es-419": "Saut Amerikan Spenis",
+	"cldr-language-name-es-es": "Spenis (Spein)",
+	"cldr-language-name-es-mx": "Meksikan Spenis",
+	"cldr-language-name-fr": "Frens",
+	"cldr-language-name-fr-ca": "Kenedien Frens",
+	"cldr-language-name-fr-ch": "Swis Frens",
+	"cldr-language-name-it": "Italien",
+	"cldr-language-name-ja": "Japanis",
+	"cldr-language-name-pt": "Potigis",
+	"cldr-language-name-pt-br": "Brasilien Potigis",
+	"cldr-language-name-pt-pt": "Yurop Potigis",
+	"cldr-language-name-ru": "Rasien",
+	"cldr-language-name-tpi": "Tok Pisin",
+	"cldr-language-name-und": "Tok ples i no stap",
+	"cldr-language-name-zh": "Sainis",
+	"cldr-language-name-zh-hans": "Isipela Sainis",
+	"cldr-language-name-zh-hant": "Tredisinol Sainis"
+}

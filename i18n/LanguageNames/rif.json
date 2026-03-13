@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"cldr-language-name-ar": "taɛrabt",
+	"cldr-language-name-ar-001": "taɛrabt tamaynut",
+	"cldr-language-name-as": "asamis",
+	"cldr-language-name-bn": "tabanɣaliyt",
+	"cldr-language-name-cs": "ttcik",
+	"cldr-language-name-de": "talimant",
+	"cldr-language-name-en": "taglinzit",
+	"cldr-language-name-es": "taseppanyut",
+	"cldr-language-name-fr": "tafransist",
+	"cldr-language-name-hi-latn": "tahindawiyt",
+	"cldr-language-name-id": "tayindusiyt",
+	"cldr-language-name-it": "tatayalt",
+	"cldr-language-name-ja": "tajappuniyt",
+	"cldr-language-name-ko": "takuriyt",
+	"cldr-language-name-nl": "tahulandiyt",
+	"cldr-language-name-nl-be": "taflamant",
+	"cldr-language-name-pl": "tapulandiyt",
+	"cldr-language-name-pt": "tapurtuɣaliyt",
+	"cldr-language-name-pt-pt": "tapurtuɣaliyt (uruppa)",
+	"cldr-language-name-rif": "Tarifit",
+	"cldr-language-name-ru": "tarusiyt",
+	"cldr-language-name-th": "taṭayit",
+	"cldr-language-name-tr": "taṭurkiyt",
+	"cldr-language-name-und": "tutlayt nneɣni",
+	"cldr-language-name-zh": "tatcinwiyt",
+	"cldr-language-name-zh-hans": "tatcinwiyt tsampla",
+	"cldr-language-name-zh-hant": "tatcinwiyt taqdint"
+}
