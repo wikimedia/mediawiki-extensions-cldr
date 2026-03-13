@@ -8,7 +8,7 @@ declare( strict_types = 1 );
  */
 class LocalNamesTest extends MediaWikiIntegrationTestCase {
 
-	/** @dataProvider provideLocalNames */
+	/** @dataProvider provideLanguageCodes */
 	public function testLocalNamesExistInEnglish( string $languageCode ): void {
 		$languageNameUtils = $this->getServiceContainer()->getLanguageNameUtils();
 		$languageNames = $languageNameUtils->getLanguageNames( $languageCode, $languageNameUtils::ALL );
@@ -30,29 +30,38 @@ class LocalNamesTest extends MediaWikiIntegrationTestCase {
 		);
 	}
 
-	public static function provideLocalNames(): iterable {
-		foreach ( scandir( __DIR__ . '/../../LocalNames' ) as $entry ) {
-			$path = __DIR__ . '/../../LocalNames/' . $entry;
-			if ( !is_file( $path ) ) {
-				continue;
-			}
-			// inverse LanguageNameUtils::getFileName()
-			$languageCode = str_replace(
-				'_',
-				'-',
-				lcfirst(
-					substr(
-						$entry,
-						// strlen( 'LocalNames' )
-						10,
-						// strlen( '.php' )
-						-4,
+	public static function provideLanguageCodes(): iterable {
+		$languageCodes = [];
+		foreach ( [
+			[ __DIR__ . '/../../CldrMain/', 'CldrMain' ],
+			[ __DIR__ . '/../../LocalNames/', 'LocalNames' ],
+		] as [ $dir, $nameBase ] ) {
+			foreach ( scandir( $dir ) as $entry ) {
+				$path = $dir . $entry;
+				if ( !is_file( $path ) ) {
+					continue;
+				}
+				// inverse LanguageNameUtils::getFileName()
+				$languageCode = str_replace(
+					'_',
+					'-',
+					lcfirst(
+						substr(
+							$entry,
+							strlen( $nameBase ),
+							-strlen( '.php' ),
+						)
 					)
-				)
-			);
-			if ( $languageCode === 'en' ) {
-				continue;
+				);
+				if ( $languageCode === 'en' ) {
+					continue;
+				}
+				$languageCodes[] = $languageCode;
 			}
+		}
+		$languageCodes = array_unique( $languageCodes );
+		sort( $languageCodes );
+		foreach ( $languageCodes as $languageCode ) {
 			yield $languageCode => [ $languageCode ];
 		}
 	}

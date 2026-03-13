@@ -151,6 +151,9 @@ class LanguageNames {
 			wfDebug( __METHOD__ . ": Unable to load language names for $filename\n" );
 		}
 
+		// remove falsy language names (LocalNames can override/unset CldrMain this way)
+		self::$cache[$code] = array_filter( self::$cache[$code] );
+
 		return self::$cache[$code];
 	}
 }
