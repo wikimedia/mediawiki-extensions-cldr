@@ -450,6 +450,7 @@ $languageNames = [
 	'jdt-cyrl' => 'Judeo-Tat (Cyrillic script)',
 	# Used by translatewiki
 	'jje' => 'Jeju',
+	'juk' => 'Wapan',
 	# Add to core, T409393
 	'jv-java' => 'Javanese (Javanese script)',
 	'kag' => 'Kajaman',
