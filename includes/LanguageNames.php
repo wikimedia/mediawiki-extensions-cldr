@@ -3,6 +3,7 @@
 namespace MediaWiki\Extension\CLDR;
 
 use InvalidArgumentException;
+use MediaWiki\Json\FormatJson;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
@@ -126,29 +127,39 @@ class LanguageNames {
 			return [];
 		}
 
-		/* Load override for wrong or missing entries in cldr */
-		$override = __DIR__ . '/../LocalNames/' .
-			$langNameUtils->getFileName( 'LocalNames', $code );
-		if ( file_exists( $override ) ) {
-			$languageNames = false;
-			require $override;
-			// @phan-suppress-next-line PhanImpossibleCondition
-			if ( is_array( $languageNames ) ) {
-				self::$cache[$code] = $languageNames;
-			}
-		}
+		/*
+		 * Load messages from i18n files (they are messages for translation purposes,
+		 * allowing translators to correct missing entries in cldr or add extra ones,
+		 * but we don't load them via the message infrastructure at all).
+		 */
 
-		$filename = __DIR__ . '/../CldrMain/' .
-			$langNameUtils->getFileName( 'CldrMain', $code );
-		if ( file_exists( $filename ) ) {
-			$languageNames = false;
-			require $filename;
-			// @phan-suppress-next-line PhanImpossibleCondition
-			if ( is_array( $languageNames ) ) {
-				self::$cache[$code] += $languageNames;
+		$i18nFile = __DIR__ . '/../i18n/LanguageNames/' . $code . '.json';
+		if ( file_exists( $i18nFile ) && $code !== 'qqq' ) {
+			// phpcs:ignore Generic.PHP.NoSilencedErrors.Discouraged
+			$json = @file_get_contents( $i18nFile );
+			if ( $json === false ) {
+				wfDebug( __METHOD__ . ": Unable to load language names for $i18nFile\n" );
+				return self::$cache[$code];
 			}
-		} else {
-			wfDebug( __METHOD__ . ": Unable to load language names for $filename\n" );
+			$messages = FormatJson::decode( $json, true );
+			if ( $messages === null ) {
+				wfDebug( __METHOD__ . ": Unable to load language names for $i18nFile\n" );
+				return self::$cache[$code];
+			}
+			foreach ( $messages as $key => $message ) {
+				if ( !str_starts_with( $key, 'cldr-language-name-' ) ) {
+					continue;
+				}
+				if ( !$message || $message === '-' ) {
+					continue;
+				}
+				$code2 = substr(
+					$key,
+					// strlen( 'cldr-language-name-' )
+					19,
+				);
+				self::$cache[$code][$code2] = $message;
+			}
 		}
 
 		// remove falsy language names (LocalNames can override/unset CldrMain this way)
