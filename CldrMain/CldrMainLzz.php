@@ -32,5 +32,5 @@ $indexCharacters = [
 
 $languageNames = [
 	'en' => 'İngilizuri',
-	'laz' => 'Lazuri',
+	'lzz' => 'Lazuri',
 ];
