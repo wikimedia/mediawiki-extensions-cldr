@@ -13,6 +13,7 @@
 
 use MediaWiki\Extension\CLDR\CLDRParser;
 use MediaWiki\Extension\CLDR\PhpFileWriter;
+use MediaWiki\Json\FormatJson;
 use MediaWiki\MediaWikiServices;
 
 // Standard boilerplate to define $IP
@@ -105,16 +106,66 @@ class CLDRRebuild extends Maintenance {
 					continue;
 				}
 				$outputFileName = $langNameUtils->getFileName( 'CldrMain', $mwCode );
+				$outputLocation = "$OUTPUT/CldrMain/$outputFileName";
+				$newData = $p->parseMain( $input );
+
+				if ( $code === 'lzz' && isset( $newData['languageNames']['laz'] ) ) {
+					// hack: fix https://unicode-org.atlassian.net/browse/CLDR-19316
+					$newData['languageNames']['lzz'] = $newData['languageNames']['laz'];
+					unset( $newData['languageNames']['laz'] );
+				}
+
+				$newCldrLanguageNames = $newData['languageNames'] ?? [];
+				$oldCldrLanguageNames = [];
+
+				// also load the old data for comparison
+				if ( file_exists( $outputLocation ) ) {
+					$languageNames = false;
+					require $outputLocation;
+					if ( $languageNames !== false ) {
+						$oldCldrLanguageNames = $languageNames;
+					}
+				}
+
+				// update the messages of the language names, which may include overrides of CLDR
+				$oldJsonMessages = $this->readJsonMessages( $OUTPUT, $mwCode );
+				$newJsonMessages = $oldJsonMessages;
+				foreach ( $newCldrLanguageNames as $code2 => $newCldrLanguageName ) {
+					$oldCldrLanguageName = $oldCldrLanguageNames[$code2] ?? null;
+					$oldJsonLanguageName = $oldJsonMessages["cldr-language-name-$code2"] ?? null;
+					if (
+						// old message did not exist
+						!$oldJsonLanguageName ||
+						$oldJsonLanguageName === '-' ||
+						// or matched the old CLDR name
+						$oldJsonLanguageName === $oldCldrLanguageName
+					) {
+						// change the message to the new CLDR name
+						$newJsonMessages["cldr-language-name-$code2"] = $newCldrLanguageName;
+					} elseif (
+						$oldJsonLanguageName !== $oldCldrLanguageName &&
+						$oldCldrLanguageName !== $newCldrLanguageName &&
+						$oldJsonLanguageName !== $newCldrLanguageName
+					) {
+						// CLDR changed the language name but the messages were already overriding it differently
+						// for now, do nothing; TODO mark the message as fuzzy to inform translators
+					}
+				}
 
 				$res = $writer->savephp(
-					$p->parseMain( $input ),
-					"$OUTPUT/CldrMain/$outputFileName"
+					$newData,
+					$outputLocation
 				);
 
 				// If savephp didn't save a PHP file, we don't want to register it as an available code
 				if ( !$res ) {
 					$this->output( "File $input contained no useful data\n" );
 					continue;
+				}
+
+				if ( count( array_keys( $newJsonMessages ) ) > 1 ) {
+					// only write $newJsonMessages if it contains keys beyond the "@metadata"
+					$this->writeJsonMessages( $OUTPUT, $mwCode, $newJsonMessages );
 				}
 
 				$availableCodes[] = $mwCode;
@@ -190,6 +241,33 @@ class CLDRRebuild extends Maintenance {
 				return null;
 			default:
 				return $code;
+		}
+	}
+
+	private function readJsonMessages( string $dir, string $mwCode ): array {
+		$jsonFileName = $dir . '/i18n/LanguageNames/' . $mwCode . '.json';
+		// phpcs:ignore Generic.PHP.NoSilencedErrors.Discouraged
+		$jsonText = @file_get_contents( $jsonFileName );
+		if ( $jsonText === false ) {
+			// empty stub file
+			$jsonText = '{ "@metadata": { "authors": [] } }';
+		}
+		$jsonStatus = FormatJson::parse( $jsonText, FormatJson::FORCE_ASSOC );
+		if ( !$jsonStatus->isGood() ) {
+			$this->fatalError( $jsonStatus );
+		}
+		return $jsonStatus->getValue();
+	}
+
+	private function writeJsonMessages( string $dir, string $mwCode, array $messages ): void {
+		$jsonFileName = $dir . '/i18n/LanguageNames/' . $mwCode . '.json';
+		$jsonText = FormatJson::encode( $messages, "\t", FormatJson::ALL_OK );
+		if ( $jsonText === false ) {
+			$this->fatalError( "Unable to encode data for $jsonFileName" );
+		}
+		$success = file_put_contents( $jsonFileName, $jsonText . PHP_EOL );
+		if ( !$success ) {
+			$this->fatalError( "Unable to write data to $jsonFileName" );
 		}
 	}
 }
