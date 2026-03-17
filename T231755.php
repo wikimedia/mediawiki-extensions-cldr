@@ -134,9 +134,7 @@ foreach ( $allLocalNames as $code => $localNames ) {
 foreach ( $allMessages as $code => $messages ) {
 	foreach ( $messages as $key => $message ) {
 		$code2 = substr( $key, strlen( 'cldr-language-name-' ) );
-		$allMessages['qqq'][$key] =
-			"Language name of the [https://hub.toolforge.org/P305:$code2 '$code2'] language code.";
-		// TODO improve qqq; maybe just a template on twn? {{doc-cldr-language-name|$code2}}
+		$allMessages['qqq'][$key] = "{{doc-cldr-language-name|$code2}}";
 
 		if ( !array_key_exists( $key, $allMessages['en'] ) ) {
 			fwrite(
