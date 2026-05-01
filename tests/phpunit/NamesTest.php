@@ -347,6 +347,9 @@ class NamesTest extends MediaWikiIntegrationTestCase {
 				'be-tarask', 'be-tarask', 'беларуская (тарашкевіца)',
 				LanguageNames::FALLBACK_NATIVE, LanguageNames::LIST_MW
 			],
+			'LanguageFallback' => [
+				'bar', 'aa', 'Afar', LanguageNames::FALLBACK_NORMAL, LanguageNames::LIST_MW,
+			],
 			'LanguageFallback recovers from a missing but known language' => [
 				'kk', 'aa', 'афар тілі', LanguageNames::FALLBACK_NATIVE, LanguageNames::LIST_MW
 			],

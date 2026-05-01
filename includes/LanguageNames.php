@@ -19,7 +19,9 @@ use MediaWiki\MediaWikiServices;
 class LanguageNames {
 
 	/** @var array */
-	private static $cache = [];
+	private static $cacheWithoutFallbacks = [];
+
+	private static array $cacheWithFallbacks = [];
 
 	/**
 	 * Missing entries fall back to the language's name for itself
@@ -56,15 +58,7 @@ class LanguageNames {
 	public static function getNames( $code, $fbMethod = self::FALLBACK_NATIVE,
 		$list = self::LIST_MW
 	) {
-		$xx = self::loadLanguage( $code );
-
 		$services = MediaWikiServices::getInstance();
-		$config = $services->getMainConfig();
-		if ( !$config->get( MainConfigNames::UsePigLatinVariant ) ) {
-			// Suppress Pig Latin unless explicitly enabled.
-			unset( $xx['en-x-piglatin'] );
-		}
-
 		$native = $services->getLanguageNameUtils()
 			->getLanguageNames(
 				LanguageNameUtils::AUTONYMS,
@@ -72,19 +66,15 @@ class LanguageNames {
 			);
 
 		if ( $fbMethod === self::FALLBACK_NATIVE ) {
-			$names = array_merge( $native, $xx );
+			$names = array_merge(
+				$native,
+				self::loadLanguageWithoutFallbacks( $code )
+			);
 		} elseif ( $fbMethod === self::FALLBACK_NORMAL ) {
-			// Load missing language names from fallback languages
-			$fb = $xx;
-
-			$fallbacks = $services->getLanguageFallback()->getAll( $code );
-			foreach ( $fallbacks as $fallback ) {
-				// Overwrite the things in fallback with what we have already
-				$fb = array_merge( self::loadLanguage( $fallback ), $fb );
-			}
-
-			/* Add native names for codes that are not in cldr */
-			$names = array_merge( $native, $fb );
+			$names = array_merge(
+				$native,
+				self::loadLanguageWithFallbacks( $code )
+			);
 
 			/* As a last resort, try the native name in Names.php */
 			if ( isset( $native[$code] ) ) {
@@ -92,6 +82,12 @@ class LanguageNames {
 			}
 		} else {
 			throw new InvalidArgumentException( "Invalid value for 2:\$fallback in " . __METHOD__ );
+		}
+
+		$config = $services->getMainConfig();
+		if ( !$config->get( MainConfigNames::UsePigLatinVariant ) ) {
+			// Suppress Pig Latin unless explicitly enabled.
+			unset( $names['en-x-piglatin'] );
 		}
 
 		switch ( $list ) {
@@ -109,17 +105,18 @@ class LanguageNames {
 	}
 
 	/**
-	 * Load currency names localized for a particular language. Helper function for getNames.
+	 * Load language names localized for a particular language, without applying fallback languages.
+	 * Helper function for getNames.
 	 *
 	 * @param string $code The language to return the list in
 	 * @return array an associative array of language codes and localized language names
 	 */
-	private static function loadLanguage( $code ) {
-		if ( isset( self::$cache[$code] ) ) {
-			return self::$cache[$code];
+	private static function loadLanguageWithoutFallbacks( $code ) {
+		if ( isset( self::$cacheWithoutFallbacks[$code] ) ) {
+			return self::$cacheWithoutFallbacks[$code];
 		}
 
-		self::$cache[$code] = [];
+		self::$cacheWithoutFallbacks[$code] = [];
 
 		$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 
@@ -139,12 +136,12 @@ class LanguageNames {
 			$json = @file_get_contents( $i18nFile );
 			if ( $json === false ) {
 				wfDebug( __METHOD__ . ": Unable to load language names for $i18nFile\n" );
-				return self::$cache[$code];
+				return self::$cacheWithoutFallbacks[$code];
 			}
 			$messages = FormatJson::decode( $json, true );
 			if ( $messages === null ) {
 				wfDebug( __METHOD__ . ": Unable to load language names for $i18nFile\n" );
-				return self::$cache[$code];
+				return self::$cacheWithoutFallbacks[$code];
 			}
 			foreach ( $messages as $key => $message ) {
 				if ( !str_starts_with( $key, 'cldr-language-name-' ) ) {
@@ -159,14 +156,43 @@ class LanguageNames {
 					19,
 				);
 				// TODO do we need to handle !!FUZZY!! ?
-				self::$cache[$code][$code2] = $message;
+				self::$cacheWithoutFallbacks[$code][$code2] = $message;
 			}
 		}
 
 		// remove falsy language names (LocalNames can override/unset CldrMain this way)
-		self::$cache[$code] = array_filter( self::$cache[$code] );
+		self::$cacheWithoutFallbacks[$code] = array_filter( self::$cacheWithoutFallbacks[$code] );
 
-		return self::$cache[$code];
+		return self::$cacheWithoutFallbacks[$code];
+	}
+
+	/**
+	 * Load language names localized for a particular language, already applying language fallbacks.
+	 * Helper function for getNames.
+	 *
+	 * @param string $code The language to return the list in
+	 * @return array an associative array of language codes and localized language names
+	 */
+	private static function loadLanguageWithFallbacks( $code ) {
+		if ( isset( self::$cacheWithFallbacks[$code] ) ) {
+			return self::$cacheWithFallbacks[$code];
+		}
+
+		require __DIR__ . '/../CldrLanguagesWithNames.php';
+		/** @var string[] $languagesWithNames */
+		'@phan-var-force string[] $languagesWithNames';
+
+		self::$cacheWithFallbacks[$code] = [];
+		$localisationCache = MediaWikiServices::getInstance()->getLocalisationCache();
+		foreach ( $languagesWithNames as $code2 ) {
+			self::$cacheWithFallbacks[$code][$code2] =
+				$localisationCache->getSubitem( $code, 'messages', "cldr-language-name-$code2" );
+		}
+
+		// remove falsy language names (LocalNames can override/unset CldrMain this way)
+		self::$cacheWithFallbacks[$code] = array_filter( self::$cacheWithFallbacks[$code] );
+
+		return self::$cacheWithFallbacks[$code];
 	}
 }
 
