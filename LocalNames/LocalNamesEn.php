@@ -462,6 +462,8 @@ $languageNames = [
 	'kbp' => 'Kabiye',
 	# Used by translatewiki
 	'kck' => 'Kalanga',
+	# CLDR uses the autonym in the English name
+	'kea' => 'Cape Verdean Creole',
 	# used by Wikidata, T263946
 	'ker' => 'Kera',
 	# used by Wikidata, T368823
