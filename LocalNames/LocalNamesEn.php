@@ -562,6 +562,14 @@ $languageNames = [
 	'lld' => 'Ladin',
 	# used by Wikispecies, T397920
 	'lmn' => 'Lambadi',
+	# used by Wikidata, T425902
+	'lmn-deva' => 'Lambadi (Devanagari script)',
+	# used by Wikidata, T425902
+	'lmn-knda' => 'Lambadi (Kannada script)',
+	# used by Wikidata, T425902
+	'lmn-taml' => 'Lambadi (Tamil script)',
+	# used by Wikidata, T425902
+	'lmn-telu' => 'Lambadi (Telugu script)',
 	# used by Wikidata, T263946
 	'lns' => 'Lamnso\'',
 	'lud' => 'Ludic',
@@ -786,6 +794,8 @@ $languageNames = [
 	'rej' => 'Rejang',
 	'rhg-arab' => 'Rohingya (Arabic script)',
 	'rhg-rohg' => 'Rohingya (Hanifi Rohingya script)',
+	# used by Wikidata, T425902
+	'rji' => 'Raji',
 	# T320912
 	'rki' => 'Arakanese',
 	'rkt' => 'Rangpuri',
@@ -813,6 +823,8 @@ $languageNames = [
 	'rmw' => 'Welsh-Romani',
 	# T223524
 	'rmy' => 'Vlax Romani',
+	# used by Wikidata, T425902
+	'rnp' => 'Rangpo',
 	'roa' => 'Romance languages',
 	'roa-rup' => 'Aromanian',
 	'roa-tara' => 'Tarantino',
@@ -838,6 +850,8 @@ $languageNames = [
 	'sat-beng' => 'Santali (Bengali script)',
 	'sat-latn' => 'Santali (Latin script)',
 	'sat-orya' => 'Santali (Oriya script)',
+	# used by Wikidata, T425902
+	'sci' => 'Sri Lanka Malay',
 	'scl' => 'Shina',
 	'sd-deva' => 'Sindhi (Devanagari script)',
 	# used by Wikidata, T368822
