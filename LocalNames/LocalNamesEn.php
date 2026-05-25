@@ -378,6 +378,8 @@ $languageNames = [
 	'haz' => 'Hazaragi',
 	# used by Wikidata, T155368
 	'hbo' => 'Biblical Hebrew',
+	# used by Wikidata, T421630
+	'hea' => 'Northern Qiandong Miao',
 	'hi-kthi' => 'Hindi (Kaithi script)',
 	# Used by translatewiki
 	'hif-deva' => 'Fiji Hindi (Devanagari script)',
