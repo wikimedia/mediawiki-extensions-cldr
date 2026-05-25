@@ -1001,7 +1001,6 @@ $languageNames = [
 	'uz-cyrl' => 'Uzbek (Cyrillic script)',
 	'uz-latn' => 'Uzbek (Latin script)',
 	'vi-hani' => 'Vietnamese (Han script)',
-	'vmw' => 'Makhuwa',
 	# used by Wikidata, T263946
 	'vut' => 'Vute',
 	'wak' => 'Wakashan languages',

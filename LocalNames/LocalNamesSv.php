@@ -3,8 +3,6 @@
 /** @phpcs-require-sorted-array */
 $languageNames = [
 	'az-cyrl' => 'Azerbajdzjanska skrivet med kyrilliska bokstäver',
-	# Override CLDR name, see T341917/CLDR-16876
-	'be' => 'belarusiska',
 	'be-tarask' => 'belarusiska (tarasjkevitsa)',
 	'bfi' => 'brittiskt teckenspråk',
 	'bzs' => 'brasilianskt teckenspråk',

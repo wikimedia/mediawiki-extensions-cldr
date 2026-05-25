@@ -100,7 +100,6 @@ $languageNames = [
 	'cpx-hant' => 'Pu-Xian (traditionelle Han-Schrift)',
 	'cpx-latn' => 'Pu-Xian (lateinische Schrift)',
 	'crb' => 'Insel-Karibisch',
-	'crh' => 'Krimtatarisch',
 	'crh-cyrl' => 'Krimtatarisch (kyrillische Schrift)',
 	'crh-latn' => 'Krimtatarisch (lateinische Schrift)',
 	# Added to core, T336919
@@ -162,7 +161,6 @@ $languageNames = [
 	# used by Wikidata T217131
 	'gml' => 'Mittelniederdeutsch',
 	'gmy' => 'Mykenisches Griechisch',
-	'goh' => 'Althochdeutsch',
 	'gom-deva' => 'Goa-Konkani (Devanagari)',
 	'gom-latn' => 'Goa-Konkani (lateinische Schrift)',
 	# Error in CLDR, reported via https://unicode-org.atlassian.net/browse/CLDR-16289
@@ -184,7 +182,6 @@ $languageNames = [
 	'hak-latn' => 'Hakka (lateinische Schrift)',
 	'haz' => 'Hazaragi',
 	'hbo' => 'Biblisches Hebräisch',
-	'hif' => 'Fidschi-Hindi',
 	'hif-latn' => 'Fidschi-Hindi (lateinische Schrift)',
 	# Added to core, T332113
 	'hno' => 'Nördliches Hindko',
@@ -303,7 +300,6 @@ $languageNames = [
 	'nod' => 'Lanna',
 	# used by Wikidata T265782
 	'non-runr' => 'Altnordisch (Runen-Schrift)',
-	'nr' => 'Süd-Ndebele',
 	# used by Wikidata T165648
 	'nrf-gg' => 'Guernésiais',
 	# used by Wikidata T165648
@@ -478,7 +474,6 @@ $languageNames = [
 	'uun' => 'Pazeh',
 	'uz-cyrl' => 'Usbekisch (kyrillische Schrift)',
 	'uz-latn' => 'Usbekisch (lateinische Schrift)',
-	'vmw' => 'Makua',
 	# used by Wikidata, T263946
 	'vut' => 'Wute',
 	# used by Wikidata, T239411

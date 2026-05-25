@@ -4,7 +4,6 @@
 $languageNames = [
 	'bfi' => 'yezh ar sinoù Breizh-Veur',
 	'bzs' => 'yezh ar sinoù Brazil',
-	'enm' => 'krennsaozneg',
 	'gsg' => 'yezh ar sinoù Alamagn',
 	'mis' => 'yezh diskor',
 	'nn-hognorsk' => 'høgnorsk (norvegeg uhel)',
