@@ -476,6 +476,8 @@ $languageNames = [
 	'kge-arab' => 'Komering (Arabic script)',
 	# used by Commonswiki, T383785
 	'kgg' => 'Kusunda',
+	# used by Wikidata, T427917
+	'kha' => 'Khasi',
 	'khi' => 'Khoisan languages',
 	# Used by translatewiki
 	'kip' => 'Sheshi Kham',
