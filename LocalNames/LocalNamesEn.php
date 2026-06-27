@@ -318,6 +318,7 @@ $languageNames = [
 	# used by Wikidata, T417280
 	'fr-be' => 'Belgian French',
 	'frk' => 'Frankish',
+	'frs' => 'Eastern Frisian Low Saxon',
 	'fsl' => 'French Sign Language',
 	# used by Wikidata, T314935
 	'fud' => 'Futunan',
