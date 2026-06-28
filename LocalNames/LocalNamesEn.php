@@ -430,6 +430,8 @@ $languageNames = [
 	'ist' => 'Istriot',
 	# used by Wikidata, T263946
 	'isu' => 'Isu',
+	# Added to core, T413935
+	'isv' => 'Interslavic',
 	# Used by translatewiki
 	'isv-cyrl' => 'Interslavic (Cyrillic script)',
 	# Added to core, T367688
