@@ -24,7 +24,8 @@
 	},
 	"MessagesDirs": {
 		"CLDR": [
-			"i18n"
+			"i18n",
+			"i18n/LanguageNames"
 		]
 	},
 	"AutoloadClasses": {
