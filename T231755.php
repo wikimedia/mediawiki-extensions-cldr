@@ -22,7 +22,7 @@ declare( strict_types = 1 );
  * creating it if necessary.
  */
 function addToJson( string $code, array $messages ): void {
-	$jsonFileName = __DIR__ . '/i18n/' . $code . '.json';
+	$jsonFileName = __DIR__ . '/i18n/LanguageNames/' . $code . '.json';
 	// phpcs:ignore Generic.PHP.NoSilencedErrors.Discouraged
 	$jsonText = @file_get_contents( $jsonFileName );
 	if ( $jsonText === false ) {
@@ -145,6 +145,8 @@ foreach ( $allMessages as $code => $messages ) {
 	}
 }
 
+// phpcs:ignore Generic.PHP.NoSilencedErrors.Discouraged
+@mkdir( __DIR__ . '/i18n/LanguageNames/' );
 foreach ( $allMessages as $code => $messages ) {
 	addToJson( $code, $messages );
 }
