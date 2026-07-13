@@ -74,6 +74,8 @@ $languageNames = [
 	'ary-arab' => 'Moroccan Arabic (Arabic script)',
 	'ary-latn' => 'Moroccan Arabic (Latin script)',
 	'ath' => 'Athabaskan languages',
+	# used by Wikidata, T431774
+	'ati' => 'Attié',
 	# Used by translatewiki
 	'atv' => 'Northern Altai',
 	'aus' => 'Australian Aboriginal languages',
