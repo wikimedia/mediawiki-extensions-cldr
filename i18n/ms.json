@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Zamwan"
+			"Zamwan",
+			"Hakimi97"
 		]
 	},
-	"cldr-desc": "ambungan yang menyediakan nama-nama bahasa setempat berasaskan [http://cldr.unicode.org/index/downloads data CLDR]"
+	"cldr-desc": "Sambungan yang menyediakan nama-nama bahasa setempat berasaskan [http://cldr.unicode.org/index/downloads data CLDR]"
 }
