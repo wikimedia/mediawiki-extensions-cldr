@@ -311,6 +311,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'etu' => 'Ejagham',
 	'eya' => 'Eyak',
+	# used by Wikidata, T369286
+	'fa-034' => 'Persian (South Asia)',
 	'fab' => 'Annobonese Creole',
 	'fax' => 'Fala',
 	'fay' => 'Kuhmareyi',
