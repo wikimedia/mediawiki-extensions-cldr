@@ -19,6 +19,8 @@ $languageNames = [
 	'acm' => 'Iraqi Arabic',
 	# used by Wikidata, T382145
 	'adg' => 'Andegerebinha',
+	# used by Wikidata, T427811
+	'adj' => 'Adjukru',
 	'ady-cyrl' => 'Adyghe (Cyrillic script)',
 	'ady-latn' => 'Adyghe (Latin script)',
 	'aeb-arab' => 'Tunisian Arabic (Arabic script)',
