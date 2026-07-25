@@ -1094,6 +1094,8 @@ $languageNames = [
 	# used by Wikidata, T317354
 	'xsu' => 'Sanumá',
 	'xsy' => 'Saisiyat',
+	# used by Wikidata, T427742
+	'yag' => 'Yaghan',
 	# used by Wikidata, T402840
 	'yah-cyrl' => 'Yazghulami (Cyrillic script)',
 	# used by Wikidata, T402840
