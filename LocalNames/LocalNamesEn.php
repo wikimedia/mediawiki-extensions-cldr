@@ -865,6 +865,8 @@ $languageNames = [
 	# used by Wikidata, T425902
 	'sci' => 'Sri Lanka Malay',
 	'scl' => 'Shina',
+	# used by Wikidata, T428323
+	'scz' => 'Shetlandic',
 	'sd-deva' => 'Sindhi (Devanagari script)',
 	# used by Wikidata, T368822
 	'sd-gujr' => 'Sindhi (Gujarati script)',

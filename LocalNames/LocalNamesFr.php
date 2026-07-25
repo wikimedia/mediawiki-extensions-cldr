@@ -17,10 +17,10 @@ $languageNames = [
 	'eo-xsistemo' => 'espéranto (orthographe du système X)',
 	'fr-be' => 'français belge',
 	'gcr' => 'créole guyanais',
-		# used by Wikidata, T262922
+	# used by Wikidata, T262922
 	'gsg' => 'langue des signes allemande',
 	'gsw' => 'alémanique',
-		# T368514
+	# T368514
 	'gsw-fr' => 'alsacien',
 	'ha-arab' => 'hausa (écriture arabe)',
 	'hoc' => 'ho',
@@ -28,7 +28,7 @@ $languageNames = [
 	'ja-hira' => 'japonais (écriture hiragana)',
 	'ja-hrkt' => 'japonais (écriture kana)',
 	'ja-kana' => 'japonais (écriture katakana)',
-		# T408340
+	# T408340
 	'ko-kp' => 'coréen (Corée du Nord)',
 	'ksy-beng' => 'kharia thar (écriture bengalaise)',
 	'kyw-beng' => 'kurmali (écriture bengalaise)',
@@ -58,6 +58,8 @@ $languageNames = [
 	'sat-beng' => 'santali (écriture bengalaise)',
 	'sat-latn' => 'santali (écriture latine)',
 	'sat-orya' => 'santali (écriture oriya)',
+	# used by Wikidata, T428323
+	'scz' => 'shetlandais',
 	'sia' => 'same d’Akkala',
 	'sjk' => 'same de Kemi',
 	'sux-latn' => 'sumérien (écriture latine)',

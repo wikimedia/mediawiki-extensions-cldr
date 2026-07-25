@@ -49,6 +49,8 @@ $languageNames = [
 	'sat-beng' => 'Santali (Bengaals schrift)',
 	'sat-latn' => 'Santali (Latijns schrift)',
 	'sat-orya' => 'Santali (Oriya-schrift)',
+	# used by Wikidata, T428323
+	'scz' => 'Shetlands',
 	'sia' => 'Akkala Sami',
 	'sjk' => 'Kemi Sami',
 	'sux-latn' => 'Soemerisch (Latijns schrift)',

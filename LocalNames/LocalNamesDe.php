@@ -402,6 +402,8 @@ $languageNames = [
 	'sat-beng' => 'Santali (bengalische Schrift)',
 	'sat-latn' => 'Santali (lateinische Schrift)',
 	'sat-orya' => 'Santali (Oriya-Schrift)',
+	# used by Wikidata, T428323
+	'scz' => 'Shetländisch',
 	# used by Wikidata, T368822
 	'sd-gujr' => 'Sindhi (Gujarati-Schrift)',
 	# used by Wikidata, T368822
