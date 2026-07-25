@@ -668,6 +668,8 @@ $languageNames = [
 	'nit' => 'Southeastern Kolami',
 	# Missing en translation T256649
 	'nl-informal' => 'Dutch (informal address)',
+	# used by Wikidata, T417815
+	'nl-u-sd-bebru' => 'Brussels Dutch',
 	# used by Wikidata, T263946
 	'nla' => 'Ngombala',
 	'nmz' => 'Nawdm',
