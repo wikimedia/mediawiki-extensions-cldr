@@ -767,6 +767,10 @@ $languageNames = [
 	'paq' => 'Parya',
 	# Used by translatewiki
 	'pbb' => 'Páez',
+	# used by Wikidata, T418795
+	'pcd-be' => 'Belgian Picard',
+	# used by Wikidata, T418795
+	'pcd-fr' => 'French Picard',
 	'pgd' => 'Gāndhārī',
 	'pgd-arab' => 'Gāndhārī (Arabic script)',
 	'pgd-deva' => 'Gāndhārī (Devanagari script)',

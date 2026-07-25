@@ -978,6 +978,8 @@
 	"cldr-language-name-pau": "{{doc-cldr-language-name|pau}}",
 	"cldr-language-name-pbb": "{{doc-cldr-language-name|pbb}}",
 	"cldr-language-name-pcd": "{{doc-cldr-language-name|pcd}}",
+	"cldr-language-name-pcd-be": "{{doc-cldr-language-name|pcd-be}}",
+	"cldr-language-name-pcd-fr": "{{doc-cldr-language-name|pcd-fr}}",
 	"cldr-language-name-pcm": "{{doc-cldr-language-name|pcm}}",
 	"cldr-language-name-pdc": "{{doc-cldr-language-name|pdc}}",
 	"cldr-language-name-pdt": "{{doc-cldr-language-name|pdt}}",
