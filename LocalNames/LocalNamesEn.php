@@ -1090,6 +1090,12 @@ $languageNames = [
 	# used by Wikidata, T434343
 	'vgt' => 'Flemish Sign Language',
 	'vi-hani' => 'Vietnamese (Han script)',
+	# used by Wikidata, T418789
+	'vls-be' => 'Belgian Flemish',
+	# used by Wikidata, T418789
+	'vls-fr' => 'French Flemish',
+	# used by Wikidata, T418789
+	'vls-nl' => 'Dutch Flemish',
 	# used by Wikidata, T263946
 	'vut' => 'Vute',
 	'wak' => 'Wakashan languages',
