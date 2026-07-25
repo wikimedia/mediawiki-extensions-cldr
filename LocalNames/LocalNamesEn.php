@@ -526,6 +526,8 @@ $languageNames = [
 	# used by Wikidata, T368817
 	'ko-kore' => 'Korean (mixed script)',
 	'ko-kp' => 'Korean (North Korea)',
+	# used by Wikidata, T362305
+	'ko-kr' => 'Korean (South Korea)',
 	'koy' => 'Koyukon',
 	'kqr' => 'Kimaragang',
 	'kqt' => 'Klias River Kadazan',
