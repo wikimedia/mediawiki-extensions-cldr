@@ -600,6 +600,8 @@ $languageNames = [
 	'mis' => 'unsupported language',
 	# used by Wikidata T155419
 	'mix' => 'Mixtec',
+	# used by Wikidata, T363930
+	'mjd' => 'Northwestern Maidu',
 	'mjx-beng' => 'Mahali (Bengali script)',
 	'mkh' => 'Mon-Khmer',
 	'mn-cyrl' => 'Mongolian (Cyrillic script)',
