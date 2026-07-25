@@ -83,6 +83,8 @@ $languageNames = [
 	# Used by translatewiki
 	'atv' => 'Northern Altai',
 	'aus' => 'Australian Aboriginal languages',
+	# used by Wikidata, T427808
+	'avi' => 'Avikam',
 	# used by Wikidata, T382145
 	'axe' => 'Ayerrerenge',
 	# used by Wikidata, T382145
