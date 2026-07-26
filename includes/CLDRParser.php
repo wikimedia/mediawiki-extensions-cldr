@@ -22,11 +22,22 @@ class CLDRParser {
 	public const CURRENCY_DEFAULT = '!DEFAULT';
 
 	/**
+	 * CLDR inheritance marker (U+2191 × 3). When this value appears as the text
+	 * content of an element, it means "inherit from parent locale". For language
+	 * names this resolves to the language code itself (as defined in root.xml).
+	 */
+	private const INHERITANCE_MARKER = "\u{2191}\u{2191}\u{2191}";
+
+	/**
 	 * Read the main/<locale>.xml file from CLDR core and convert to PHP
 	 *
 	 * @param string $inputFile filename
+	 * @param array $inheritedLanguageNames Language codes whose name equals the code
+	 *   itself (from LDML inheritance). These are added to the output when not already
+	 *   present in the locale file. Since CLDR 46, such entries are no longer explicitly
+	 *   listed in locale XML files. (T414677)
 	 */
-	public function parseMain( $inputFile ): array {
+	public function parseMain( $inputFile, array $inheritedLanguageNames = [] ): array {
 		$contents = file_get_contents( $inputFile );
 		$doc = new SimpleXMLElement( $contents );
 
@@ -78,18 +89,36 @@ class CLDRParser {
 			}
 
 			$key = str_replace( '_', '-', strtolower( $elem['type'] ) );
+			$value = (string)$elem;
 
-			$data['languageNames'][$key] = (string)$elem;
+			// CLDR uses ↑↑↑ as an inheritance marker meaning "inherit from parent".
+			// For language names, this resolves to the language code itself.
+			if ( $value === self::INHERITANCE_MARKER ) {
+				$value = $key;
+			}
+
+			$data['languageNames'][$key] = $value;
+		}
+
+		// T414677: Since CLDR 46, language names that are identical to their code
+		// are no longer explicitly listed in locale files (LDML inheritance).
+		// Add them back so they remain available in MediaWiki.
+		foreach ( $inheritedLanguageNames as $code ) {
+			if ( !isset( $data['languageNames'][$code] ) ) {
+				$data['languageNames'][$code] = $code;
+			}
 		}
 
 		foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
-			if ( (string)$elem->displayName[0] === '' ) {
+			$displayName = (string)$elem->displayName[0];
+			if ( $displayName === '' || $displayName === self::INHERITANCE_MARKER ) {
 				continue;
 			}
 
-			$data['currencyNames'][(string)$elem['type']] = (string)$elem->displayName[0];
-			if ( (string)$elem->symbol[0] !== '' ) {
-				$data['currencySymbols'][(string)$elem['type']] = (string)$elem->symbol[0];
+			$data['currencyNames'][(string)$elem['type']] = $displayName;
+			$symbol = (string)$elem->symbol[0];
+			if ( $symbol !== '' && $symbol !== self::INHERITANCE_MARKER ) {
+				$data['currencySymbols'][(string)$elem['type']] = $symbol;
 			}
 		}
 
@@ -104,7 +133,15 @@ class CLDRParser {
 				continue;
 			}
 
-			$data['countryNames'][(string)$elem['type']] = (string)$elem;
+			$value = (string)$elem;
+
+			// Skip inheritance markers for territory names — unlike language names,
+			// the territory code itself is not a useful display name.
+			if ( $value === self::INHERITANCE_MARKER ) {
+				continue;
+			}
+
+			$data['countryNames'][(string)$elem['type']] = $value;
 		}
 		foreach ( $doc->xpath( '//units/unitLength' ) as $unitLength ) {
 			if ( (string)$unitLength['type'] !== 'long' ) {
@@ -117,7 +154,11 @@ class CLDRParser {
 				}
 				$type = substr( $type, strlen( 'duration-' ) );
 				foreach ( $elem->unitPattern as $pattern ) {
-					$data['timeUnits'][$type . '-' . (string)$pattern['count']] = (string)$pattern;
+					$value = (string)$pattern;
+					if ( $value === self::INHERITANCE_MARKER ) {
+						continue;
+					}
+					$data['timeUnits'][$type . '-' . (string)$pattern['count']] = $value;
 				}
 			}
 		}
@@ -127,14 +168,48 @@ class CLDRParser {
 			foreach ( $field->relativeTime as $relative ) {
 				$type = (string)$relative['type'];
 				foreach ( $relative->relativeTimePattern as $pattern ) {
+					$value = (string)$pattern;
+					if ( $value === self::INHERITANCE_MARKER ) {
+						continue;
+					}
 					$data['timeUnits'][$fieldType . '-' . $type
-					. '-' . (string)$pattern['count']] = (string)$pattern;
+					. '-' . (string)$pattern['count']] = $value;
 				}
 			}
 		}
 
 		ksort( $data['timeUnits'] );
 		return $data;
+	}
+
+	/**
+	 * Find language codes whose English name equals the code itself (case-insensitive).
+	 *
+	 * Since CLDR 46, these entries are no longer explicitly listed in non-English locale
+	 * files because LDML inheritance resolves them to the code. This method identifies
+	 * them so they can be passed to parseMain() as $inheritedLanguageNames. (T414677)
+	 *
+	 * @param string $enFile Path to en.xml from CLDR
+	 * @return string[] Language codes whose name is the code itself
+	 */
+	public function getInheritedLanguageNames( $enFile ): array {
+		$contents = file_get_contents( $enFile );
+		$doc = new SimpleXMLElement( $contents );
+
+		$inherited = [];
+		foreach ( $doc->xpath( '//languages/language' ) as $elem ) {
+			if ( (string)$elem['alt'] !== '' ) {
+				continue;
+			}
+			$type = (string)$elem['type'];
+			$name = (string)$elem;
+			$key = str_replace( '_', '-', strtolower( $type ) );
+			if ( strtolower( $name ) === $key ) {
+				$inherited[] = $key;
+			}
+		}
+
+		return $inherited;
 	}
 
 	/**
@@ -242,9 +317,10 @@ class CLDRParser {
 			}
 
 			foreach ( $doc->xpath( '//currencies/currency' ) as $elem ) {
-				if ( (string)$elem->symbol[0] !== '' ) {
+				$symbol = (string)$elem->symbol[0];
+				if ( $symbol !== '' && $symbol !== self::INHERITANCE_MARKER ) {
 					$data['currencySymbols'][(string)$elem['type']][$language][$territory] =
-						(string)$elem->symbol[0];
+						$symbol;
 				}
 			}
 		}

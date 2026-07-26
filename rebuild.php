@@ -59,6 +59,10 @@ class CLDRRebuild extends Maintenance {
 		$p = new CLDRParser();
 		$writer = new PhpFileWriter();
 
+		// T414677: Compute language codes whose English name equals the code itself.
+		// Since CLDR 46, these are no longer listed in locale files (LDML inheritance).
+		$inheritedLanguageNames = $p->getInheritedLanguageNames( "$DATA/en.xml" );
+
 		// Get an array of all MediaWiki languages ( $wgLanguageNames + $wgExtraLanguageNames )
 		$languages = $langNameUtils->getLanguageNames();
 		// hack to get Konkani, until CLDR renames it from 'kok' to 'gom-deva' (T347625)
@@ -107,7 +111,7 @@ class CLDRRebuild extends Maintenance {
 				}
 				$outputFileName = $langNameUtils->getFileName( 'CldrMain', $mwCode );
 				$outputLocation = "$OUTPUT/CldrMain/$outputFileName";
-				$newData = $p->parseMain( $input );
+				$newData = $p->parseMain( $input, $inheritedLanguageNames );
 
 				if ( $code === 'lzz' && isset( $newData['languageNames']['laz'] ) ) {
 					// hack: fix https://unicode-org.atlassian.net/browse/CLDR-19316

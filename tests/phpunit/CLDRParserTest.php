@@ -15,6 +15,8 @@ class CLDRParserTest extends MediaWikiIntegrationTestCase {
 				'aa' => 'Afar',
 				'ab' => 'Abkasies',
 				'ace' => 'Atsjenees',
+				'luo' => 'luo',
+				'vai' => 'vai',
 			],
 			'currencyNames' => [
 				'AED' => 'Verenigde Arabiese Emirate-dirham',
@@ -43,6 +45,20 @@ class CLDRParserTest extends MediaWikiIntegrationTestCase {
 			$expectedResult,
 			$p->parseMain( __DIR__ . '/../data/main.xml' )
 		);
+	}
+
+	public function testParseMainWithInheritedLanguageNames() {
+		$p = new CLDRParser();
+		$result = $p->parseMain(
+			__DIR__ . '/../data/main.xml',
+			[ 'fon', 'tiv', 'yao' ]
+		);
+		// Inherited names that are not already in the file should be added
+		$this->assertSame( 'fon', $result['languageNames']['fon'] );
+		$this->assertSame( 'tiv', $result['languageNames']['tiv'] );
+		$this->assertSame( 'yao', $result['languageNames']['yao'] );
+		// Existing entries should not be overwritten
+		$this->assertSame( 'Afar', $result['languageNames']['aa'] );
 	}
 
 	public function testParseSupplemental() {

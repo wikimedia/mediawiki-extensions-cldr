@@ -20,6 +20,10 @@
 					<displayName>Russiese roebel</displayName>
 					<symbol alt="variant">₽</symbol>
 				</currency>
+				<currency type="GBP">
+					<displayName>Britse pond</displayName>
+					<symbol>↑↑↑</symbol>
+				</currency>
 			</currencies>
 		</currencyFormats>
 	</numbers>

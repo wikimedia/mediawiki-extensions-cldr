@@ -11,11 +11,14 @@
 			<language type="aa">Afar</language>
 			<language type="ab">Abkasies</language>
 			<language type="ace">Atsjenees</language>
+			<language type="luo">↑↑↑</language>
+			<language type="vai">↑↑↑</language>
 		</languages>
 		<territories>
 			<territory type="AC">Ascensioneiland</territory>
 			<territory type="AD">Andorra</territory>
 			<territory type="AE">Verenigde Arabiese Emirate</territory>
+			<territory type="IO">↑↑↑</territory>
 		</territories>
 	</localeDisplayNames>
 	<characters>
@@ -38,6 +41,9 @@
 				<currency type="RUB">
 					<displayName>Russiese roebel</displayName>
 					<symbol alt="variant">₽</symbol>
+				</currency>
+				<currency type="XYZ">
+					<displayName>↑↑↑</displayName>
 				</currency>
 			</currencies>
 		</currencyFormats>
