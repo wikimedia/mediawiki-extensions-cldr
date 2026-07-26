@@ -91,6 +91,8 @@ $languageNames = [
 	'axl' => 'Lower Southern Aranda',
 	# Used by translatewiki, T397355
 	'ayh' => 'Hadhrami Arabic',
+	# used by Wikispecies, T367183
+	'ayz' => 'Maybrat',
 	'az-arab' => 'Azerbaijani (Arabic script)',
 	'az-cyrl' => 'Azerbaijani (Cyrillic script)',
 	'az-latn' => 'Azerbaijani (Latin script)',
@@ -265,6 +267,8 @@ $languageNames = [
 	'dga' => 'Southern Dagaare',
 	# Added to core, a12c49a598; aka Southern Zaza
 	'diq' => 'Dimli',
+	# used by Wikispecies, T367183
+	'djk' => 'Ndyuka',
 	'dkr' => 'Kuijau',
 	'dlg' => 'Dolgan',
 	'dmg' => 'Upper Kinabatangan',
@@ -290,6 +294,8 @@ $languageNames = [
 	'el-cy' => 'Cypriot Greek',
 	# Used by translatewiki
 	'elm' => 'Eleme',
+	# used by Wikispecies, T367183
+	'eme' => 'Emerillon',
 	'eml' => 'Emiliano-Romagnolo',
 	# used by Wikidata, T433778
 	'en-dsrt' => 'English (Deseret script)',
@@ -588,6 +594,8 @@ $languageNames = [
 	'lmn-telu' => 'Lambadi (Telugu script)',
 	# used by Wikidata, T263946
 	'lns' => 'Lamnso\'',
+	# used by Wikispecies, T367183
+	'lom' => 'Loma',
 	'lud' => 'Ludic',
 	'lut' => 'Lushootseed',
 	'luz' => 'Southern Luri',
@@ -745,6 +753,8 @@ $languageNames = [
 	# Used by translatewiki
 	'ovd' => 'Elfdalian',
 	'owl' => 'Old Welsh',
+	# used by Wikispecies, T367183
+	'oym' => 'Wayampi',
 	'pa-guru' => 'Punjabi (Gurmukhi script)',
 	'paa' => 'Papuan languages',
 	'pal-phli' => 'Pahlavi (Inscriptional Pahlavi script)',
@@ -779,6 +789,8 @@ $languageNames = [
 	'pkc' => 'Paekche',
 	'pko' => 'Pökoot',
 	'pks' => 'Pakistan Sign Language',
+	# used by Wikispecies, T367183
+	'plu' => 'Palikur',
 	'plv' => 'Southwest Palawano',
 	'plw' => 'Brooke\'s Point Palawano',
 	'pnb' => 'Western Punjabi',
@@ -1048,6 +1060,8 @@ $languageNames = [
 	'txo-toto' => 'Toto (Toto script)',
 	'txx' => 'Tatana',
 	'tzl' => 'Talossan',
+	# used by Wikispecies, T367183
+	'tzo' => 'Tzotzil',
 	'ug-arab' => 'Uyghur (Arabic script)',
 	'ug-cyrl' => 'Uyghur (Cyrillic script)',
 	'ug-latn' => 'Uyghur (Latin script)',
@@ -1077,6 +1091,8 @@ $languageNames = [
 	# used by Wikidata, T263946
 	'vut' => 'Vute',
 	'wak' => 'Wakashan languages',
+	# used by Wikispecies, T367183
+	'way' => 'Wayana',
 	# used by Wikidata, T402840
 	'wbl-arab' => 'Wakhi (Arabic script)',
 	# used by Wikidata, T402840
