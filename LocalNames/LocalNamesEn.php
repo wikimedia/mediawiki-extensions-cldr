@@ -806,6 +806,8 @@ $languageNames = [
 	'pwn' => 'Paiwan',
 	'pwo' => 'Western Pwo',
 	'pyu' => 'Puyuma',
+	# T387341: pzh replaces deprecated uun for Pazeh
+	'pzh' => 'Pazeh',
 	# Used by translatewiki
 	'qwh' => 'Huaylas Ancash Quechua',
 	# used by Wikidata, T396014
@@ -1058,9 +1060,11 @@ $languageNames = [
 	'unr' => 'Mundari',
 	'unr-deva' => 'Mundari (Devanagari script)',
 	'unr-nagm' => 'Mundari (Nag Mundari script)',
+	# T387341: uon split from deprecated uun
+	'uon' => 'Kulon',
 	'urk' => 'Urak Lawoiʼ',
 	'ush' => 'Ushoji',
-	# used by Wikidata, T265468
+	# used by Wikidata, T265468; deprecated since 2022, use pzh instead (T387341)
 	'uun' => 'Pazeh',
 	'uz-cyrl' => 'Uzbek (Cyrillic script)',
 	'uz-latn' => 'Uzbek (Latin script)',
