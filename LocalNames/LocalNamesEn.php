@@ -672,6 +672,8 @@ $languageNames = [
 	'nic' => 'Niger–Congo languages',
 	# Used by translatewiki
 	'nit' => 'Southeastern Kolami',
+	# T357351
+	'nl-be' => 'Belgian Dutch',
 	# Missing en translation T256649
 	'nl-informal' => 'Dutch (informal address)',
 	# used by Wikidata, T417815
