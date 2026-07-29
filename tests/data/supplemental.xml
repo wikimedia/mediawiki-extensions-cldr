@@ -19,4 +19,11 @@
             <currency iso4217="ADP" from="1936-01-01" to="2001-12-31"/>
         </region>
     </currencyData>
+    <parentLocales>
+        <parentLocale parent="root" localeRules="nonlikelyScript" locales="xx_Cyrl yy_Arab"/>
+        <parentLocale parent="xx_001" locales="xx_GB xx_IE"/>
+    </parentLocales>
+    <parentLocales component="collations">
+        <parentLocale parent="zz_Hant" locales="xx_Cyrl"/>
+    </parentLocales>
 </supplementalData>

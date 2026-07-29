@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<!-- Leaf of the chain: overrides one name, adds another, and inherits everything else -->
+<ldml>
+	<identity>
+		<version number="$Revision$"/>
+		<language type="xx"/>
+		<territory type="GB"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="zu">Zulu (GB)</language>
+			<language type="ace">Achinese (GB)</language>
+		</languages>
+	</localeDisplayNames>
+</ldml>

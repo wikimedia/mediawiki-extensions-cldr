@@ -20,6 +20,8 @@ class CLDRParser {
 	public const LOCALITY_DEFAULT = '!DEFAULT';
 	public const LANGUAGE_DEFAULT = '!root';
 	public const CURRENCY_DEFAULT = '!DEFAULT';
+	/** Top of the CLDR inheritance chain. It carries no display names, so we stop there. */
+	public const LOCALE_ROOT = 'root';
 
 	/**
 	 * Read the main/<locale>.xml file from CLDR core and convert to PHP
@@ -134,6 +136,120 @@ class CLDRParser {
 		}
 
 		ksort( $data['timeUnits'] );
+		return $data;
+	}
+
+	/**
+	 * Read the parent locale overrides from common/supplemental/supplementalData.xml
+	 *
+	 * Only the unscoped <parentLocales> block applies to us. The blocks carrying a "component"
+	 * attribute describe inheritance for collations and segmentations, which is not the data we
+	 * extract.
+	 *
+	 * @param string $inputFile filename
+	 * @return string[] Map of CLDR locale code to the locale it inherits from
+	 */
+	public function parseParentLocales( $inputFile ): array {
+		$contents = file_get_contents( $inputFile );
+		$doc = new SimpleXMLElement( $contents );
+
+		$parentLocales = [];
+		foreach ( $doc->xpath( '//parentLocales' ) as $block ) {
+			if ( (string)$block['component'] !== '' ) {
+				continue;
+			}
+
+			foreach ( $block->parentLocale as $elem ) {
+				// A locale written in a script that is not the likely one for its language
+				// inherits from root rather than from the language, since none of the language's
+				// data would be usable in the other script.
+				$parent = (string)$elem['localeRules'] === 'nonlikelyScript'
+					? self::LOCALE_ROOT
+					: (string)$elem['parent'];
+
+				foreach ( preg_split( '/\s+/', trim( (string)$elem['locales'] ) ) as $locale ) {
+					$parentLocales[$locale] = $parent;
+				}
+			}
+		}
+
+		return $parentLocales;
+	}
+
+	/**
+	 * Complete a locale's data with everything it inherits from its CLDR parent locales.
+	 *
+	 * CLDR files are diffs against the parent locale: pt_PT.xml holds only what European
+	 * Portuguese does differently from pt.xml. Resolving that here keeps the generated files
+	 * self-contained, rather than relying on MediaWiki's fallback chain to mirror CLDR's parent
+	 * chain, which it does not always do (T36760).
+	 *
+	 * @param array $data Data for $locale, as returned by parseMain
+	 * @param string $dataDir Directory holding the CLDR main files
+	 * @param string $locale CLDR locale code that $data was parsed from
+	 * @param string[] $parentLocales Parent overrides, as returned by parseParentLocales
+	 * @return array Same structure as parseMain
+	 */
+	public function inheritFromParents(
+		array $data, string $dataDir, string $locale, array $parentLocales
+	): array {
+		$seen = [ $locale => true ];
+
+		$parent = $this->getParentLocale( $locale, $parentLocales );
+		while ( $parent !== self::LOCALE_ROOT ) {
+			// Truncation always shortens the code, but an override can lengthen it (ht -> fr_HT),
+			// so the chain is not guaranteed to terminate on its own.
+			if ( isset( $seen[$parent] ) ) {
+				throw new RuntimeException( "Cyclic CLDR parent locales at '$parent'" );
+			}
+			$seen[$parent] = true;
+
+			$parentFile = "$dataDir/$parent.xml";
+			if ( file_exists( $parentFile ) ) {
+				$data = $this->mergeInherited( $data, $this->parseMain( $parentFile ) );
+			}
+
+			$parent = $this->getParentLocale( $parent, $parentLocales );
+		}
+
+		return $data;
+	}
+
+	/**
+	 * Get the locale a CLDR locale inherits from, or self::LOCALE_ROOT for the top of the chain.
+	 *
+	 * @param string $locale
+	 * @param string[] $parentLocales
+	 * @return string
+	 */
+	private function getParentLocale( string $locale, array $parentLocales ): string {
+		if ( isset( $parentLocales[$locale] ) ) {
+			return $parentLocales[$locale];
+		}
+
+		$pos = strrpos( $locale, '_' );
+		return $pos === false ? self::LOCALE_ROOT : substr( $locale, 0, $pos );
+	}
+
+	/**
+	 * Merge inherited data underneath a locale's own data, which wins.
+	 *
+	 * @param array $data
+	 * @param array $inherited
+	 * @return array
+	 */
+	private function mergeInherited( array $data, array $inherited ): array {
+		foreach ( $inherited as $section => $values ) {
+			if ( $section === 'indexCharacters' ) {
+				// An ordered sequence rather than a map: inherit the whole alphabet or none of it.
+				$data[$section] = $data[$section] ?: $values;
+				continue;
+			}
+
+			$data[$section] += $values;
+			ksort( $data[$section] );
+		}
+
 		return $data;
 	}
 

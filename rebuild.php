@@ -54,10 +54,22 @@ class CLDRRebuild extends Maintenance {
 			$this->fatalError( "CLDR data not found at $DATA\n" );
 		}
 
+		// argh! If $DATA defaulted to something slightly more general in the
+		// CLDR dump, this wouldn't have to be this way.
+		$SUPPLEMENTAL = "$DATA/../supplemental/supplementalData.xml";
+
 		$langNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 
 		$p = new CLDRParser();
 		$writer = new PhpFileWriter();
+
+		// Needed to resolve CLDR's parent locales while parsing the main files below
+		$parentLocales = [];
+		if ( file_exists( $SUPPLEMENTAL ) ) {
+			$parentLocales = $p->parseParentLocales( $SUPPLEMENTAL );
+		} else {
+			$this->output( "File $SUPPLEMENTAL not found, inherited data will be missing\n" );
+		}
 
 		// Get an array of all MediaWiki languages ( $wgLanguageNames + $wgExtraLanguageNames )
 		$languages = $langNameUtils->getLanguageNames();
@@ -108,6 +120,12 @@ class CLDRRebuild extends Maintenance {
 				$outputFileName = $langNameUtils->getFileName( 'CldrMain', $mwCode );
 				$outputLocation = "$OUTPUT/CldrMain/$outputFileName";
 				$newData = $p->parseMain( $input );
+
+				// Locales that contribute nothing of their own keep producing no file: MediaWiki's
+				// fallback chain resolves those, and inheriting here would only duplicate a parent.
+				if ( array_filter( $newData ) ) {
+					$newData = $p->inheritFromParents( $newData, $DATA, $codeCLDR, $parentLocales );
+				}
 
 				if ( $code === 'lzz' && isset( $newData['languageNames']['laz'] ) ) {
 					// hack: fix https://unicode-org.atlassian.net/browse/CLDR-19316
@@ -181,16 +199,13 @@ class CLDRRebuild extends Maintenance {
 
 		// Now parse out what we want from the supplemental file
 		$this->output( "Parsing Supplemental Data...\n" );
-		// argh! If $DATA defaulted to something slightly more general in the
-		// CLDR dump, this wouldn't have to be this way.
-		$input = "$DATA/../supplemental/supplementalData.xml";
-		if ( file_exists( $input ) ) {
+		if ( file_exists( $SUPPLEMENTAL ) ) {
 			$writer->savephp(
-				$p->parseSupplemental( $input ),
+				$p->parseSupplemental( $SUPPLEMENTAL ),
 				"$OUTPUT/CldrSupplemental/Supplemental.php"
 			);
 		} else {
-			$this->output( "File $input not found\n" );
+			$this->output( "File $SUPPLEMENTAL not found\n" );
 		}
 		$this->output( "Done parsing supplemental data.\n" );
 

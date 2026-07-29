@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<!-- Middle of the chain, reached through a parentLocales override rather than truncation -->
+<ldml>
+	<identity>
+		<version number="$Revision$"/>
+		<language type="xx"/>
+		<territory type="001"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="ab">Abkhazian (world)</language>
+		</languages>
+		<territories>
+			<territory type="AD">Andorra (world)</territory>
+		</territories>
+	</localeDisplayNames>
+	<units>
+		<unitLength type="long">
+			<unit type="duration-century">
+				<unitPattern count="one">{0} century (world)</unitPattern>
+			</unit>
+		</unitLength>
+	</units>
+</ldml>

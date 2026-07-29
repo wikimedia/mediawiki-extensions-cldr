@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<!-- Base of an invented inheritance chain: xx_GB -> xx_001 -> xx -> root -->
+<ldml>
+	<identity>
+		<version number="$Revision$"/>
+		<language type="xx"/>
+	</identity>
+	<localeDisplayNames>
+		<languages>
+			<language type="aa">Afar</language>
+			<language type="ab">Abkhazian</language>
+			<language type="ace">Achinese</language>
+		</languages>
+		<territories>
+			<territory type="AC">Ascension Island</territory>
+			<territory type="AD">Andorra</territory>
+		</territories>
+	</localeDisplayNames>
+	<characters>
+		<exemplarCharacters type="index">[C A B]</exemplarCharacters>
+	</characters>
+	<numbers>
+		<currencyFormats numberSystem="latn">
+			<currencies>
+				<currency type="AED">
+					<displayName>dirham</displayName>
+					<symbol>DH</symbol>
+				</currency>
+			</currencies>
+		</currencyFormats>
+	</numbers>
+	<units>
+		<unitLength type="long">
+			<unit type="duration-century">
+				<unitPattern count="one">{0} century</unitPattern>
+				<unitPattern count="other">{0} centuries</unitPattern>
+			</unit>
+		</unitLength>
+	</units>
+</ldml>
