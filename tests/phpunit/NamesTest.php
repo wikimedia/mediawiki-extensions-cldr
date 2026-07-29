@@ -305,6 +305,16 @@ class NamesTest extends MediaWikiIntegrationTestCase {
 	}
 
 	/**
+	 * MediaWiki's pt is CLDR's pt_PT, which lists only the country names European Portuguese
+	 * spells differently and inherits the rest from CLDR's pt (T36760).
+	 */
+	public function testCountryNamesFromParentLocale() {
+		$names = CountryNames::getNames( 'pt' );
+		$this->assertSame( 'Suécia', $names['SE'], 'Inherited from the CLDR parent locale' );
+		$this->assertSame( 'Arménia', $names['AM'], 'Overridden by the CLDR child locale' );
+	}
+
+	/**
 	 * @dataProvider providerCurrencyNamesData
 	 * @param string $langCode
 	 * @param array $expectedResult
@@ -359,6 +369,15 @@ class NamesTest extends MediaWikiIntegrationTestCase {
 			],
 			'Name for a language in CLDR but unknown to MediaWiki can be found' => [
 				'en', 'en-nz', 'New Zealand English', LanguageNames::FALLBACK_NATIVE, LanguageNames::LIST_MW_AND_CLDR
+			],
+			// MediaWiki's pt is CLDR's pt_PT, which only holds what European Portuguese does
+			// differently from CLDR's pt. Both of these need that inheritance resolved (T36760),
+			// since FALLBACK_NATIVE does not consult the fallback chain at all.
+			'Name inherited from the CLDR parent locale' => [
+				'pt', 'en', 'inglês', LanguageNames::FALLBACK_NATIVE, LanguageNames::LIST_MW
+			],
+			'Name overridden by the CLDR child locale' => [
+				'pt', 'et', 'estónio', LanguageNames::FALLBACK_NATIVE, LanguageNames::LIST_MW
 			],
 		];
 	}

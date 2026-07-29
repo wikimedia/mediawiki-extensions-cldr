@@ -123,6 +123,7 @@ $availableCodes = [
 	'lb',
 	'lg',
 	'lij',
+	'lkt',
 	'lld',
 	'lmo',
 	'ln',

@@ -159,6 +159,22 @@ class TimeUnitsTest extends MediaWikiIntegrationTestCase {
 				'21 വർഷം മുമ്പ്',
 				'Different year',
 			],
+			[
+				// pt_PT.xml overrides some patterns but defines no 'minute-past-one', so this only
+				// works if the data inherited from pt.xml is resolved at build time (T36760)
+				'pt',
+				'20121006173100',
+				'20121006173200',
+				'há 1 minuto',
+				'"1 minute ago" in European Portuguese',
+			],
+			[
+				'pt',
+				'19910130151500',
+				'20120716193700',
+				'há 21 anos',
+				'Different year in European Portuguese',
+			],
 		];
 	}
 }

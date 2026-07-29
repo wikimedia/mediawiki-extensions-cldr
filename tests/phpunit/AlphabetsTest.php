@@ -24,6 +24,11 @@ class AlphabetsTest extends MediaWikiIntegrationTestCase {
 				'و', 'ي'
 			] ],
 			'Uses index alphabet first' => [ 'en', range( 'A', 'Z' ) ],
+			// es-419 defines no alphabet of its own and has no fallback to es, so this only works
+			// if the data inherited from CLDR's es is resolved at build time (T36760)
+			'Inherits the alphabet from the CLDR parent locale' => [ 'es-419',
+				[ ...range( 'A', 'N' ), 'Ñ', ...range( 'O', 'Z' ) ]
+			],
 			'Handles multi-symbol letters' => [ 'ln', [
 				'A', 'B', 'C', 'D', 'E', 'Ɛ', 'F', 'G', 'Gb', 'H', 'I', 'K',
 				'L', 'M', 'Mb', 'Mp', 'N', 'Nd', 'Ng', 'Nk', 'Ns', 'Nt', 'Ny',
