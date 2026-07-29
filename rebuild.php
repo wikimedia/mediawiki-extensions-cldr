@@ -179,18 +179,6 @@ class CLDRRebuild extends Maintenance {
 			"$OUTPUT/CldrAvailableCodes.php"
 		);
 
-		$enJsonMessages = $this->readJsonMessages( $OUTPUT, 'en' );
-		$languagesWithNames = [];
-		foreach ( $enJsonMessages as $key => $unused ) {
-			if ( str_starts_with( $key, 'cldr-language-name-' ) ) {
-				$languagesWithNames[] = substr( $key, strlen( 'cldr-language-name-' ) );
-			}
-		}
-		$writer->savephp(
-			[ 'languagesWithNames' => $languagesWithNames ],
-			"$OUTPUT/CldrLanguagesWithNames.php"
-		);
-
 		// Now parse out what we want from the supplemental file
 		$this->output( "Parsing Supplemental Data...\n" );
 		// argh! If $DATA defaulted to something slightly more general in the
