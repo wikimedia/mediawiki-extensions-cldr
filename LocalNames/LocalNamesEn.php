@@ -293,6 +293,8 @@ $languageNames = [
 	'en-jm' => 'Jamaican English',
 	# used by Wikidata, T368683
 	'en-nz' => 'New Zealand English',
+	# used by Wikidata, T433777
+	'en-shaw' => 'English (Shavian script)',
 	'en-simple' => 'Simple English',
 	'en-uk' => 'British English',
 	# Added to core, I0c9c9fec92
