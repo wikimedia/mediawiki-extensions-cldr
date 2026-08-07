@@ -970,6 +970,7 @@ $languageNames = [
 	'tsg' => 'Tausug',
 	# T380964
 	'tsu' => 'Tsou',
+	'tsw' => 'Tsishingini',
 	'tt-cyrl' => 'Tatar (Cyrillic script)',
 	'tt-latn' => 'Tatar (Latin script)',
 	'ttj' => 'Tooro',
