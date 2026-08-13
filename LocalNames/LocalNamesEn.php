@@ -486,6 +486,7 @@ $languageNames = [
 	'khi' => 'Khoisan languages',
 	# Used by translatewiki
 	'kip' => 'Sheshi Kham',
+	'kix' => 'Khiamniungan Naga',
 	'kjh' => 'Khakas',
 	'kjp' => 'Eastern Pwo',
 	'kk-arab' => 'Kazakh (Arabic script)',
