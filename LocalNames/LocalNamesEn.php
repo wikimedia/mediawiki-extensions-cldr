@@ -442,6 +442,7 @@ $languageNames = [
 	# Added to core, T367688
 	'isv-latn' => 'Interslavic (Latin script)',
 	'ivb' => 'Ibatan',
+	'izr' => 'Izere',
 	# used by Wikidata, T195816
 	'ja-hani' => 'Japanese (Kanji script)',
 	# used by Wikidata, T195816
