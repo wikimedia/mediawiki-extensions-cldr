@@ -291,6 +291,8 @@ $languageNames = [
 	# Used by translatewiki
 	'elm' => 'Eleme',
 	'eml' => 'Emiliano-Romagnolo',
+	# used by Wikidata, T433778
+	'en-dsrt' => 'English (Deseret script)',
 	# used by Wikidata, T356543
 	'en-emodeng' => 'Early Modern English',
 	# used by Wikidata, T212313
