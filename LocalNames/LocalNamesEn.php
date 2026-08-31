@@ -676,10 +676,20 @@ $languageNames = [
 	'nic' => 'Niger–Congo languages',
 	# Used by translatewiki
 	'nit' => 'Southeastern Kolami',
+	# used by Wikidata, T433781
+	'nl-aw' => 'Aruban Dutch',
 	# T357351
 	'nl-be' => 'Belgian Dutch',
+	# used by Wikidata, T433781
+	'nl-cw' => 'Curaçaoan Dutch',
 	# Missing en translation T256649
 	'nl-informal' => 'Dutch (informal address)',
+	# used by Wikidata, T433781
+	'nl-nl' => 'Netherlands Dutch',
+	# used by Wikidata, T433781
+	'nl-sr' => 'Surinamese Dutch',
+	# used by Wikidata, T433781
+	'nl-sx' => 'Sint Maarten Dutch',
 	# used by Wikidata, T417815
 	'nl-u-sd-bebru' => 'Brussels Dutch',
 	# used by Wikidata, T263946

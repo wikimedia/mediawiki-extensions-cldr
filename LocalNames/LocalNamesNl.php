@@ -29,6 +29,16 @@ $languageNames = [
 	'mis' => 'niet-ondersteunde taal',
 	'mjx-beng' => 'Mahali (Bengaals schrift)',
 	'mvf' => 'Binnen-Mongools',
+	# used by Wikidata, T433781
+	'nl-aw' => 'Arubaans-Nederlands',
+	# used by Wikidata, T433781
+	'nl-cw' => 'Curaçaos-Nederlands',
+	# used by Wikidata, T433781
+	'nl-nl' => 'Nederlands-Nederlands',
+	# used by Wikidata, T433781
+	'nl-sr' => 'Surinaams-Nederlands',
+	# used by Wikidata, T433781
+	'nl-sx' => 'Sint-Maartens-Nederlands',
 	'nn-hognorsk' => 'Noors (Høgnorsk)',
 	'non-runr' => 'Oudnoors (runenschrift)',
 	'nrf-gg' => 'Guernésiais',
