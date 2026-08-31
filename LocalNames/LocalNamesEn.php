@@ -413,6 +413,8 @@ $languageNames = [
 	'hoc' => 'Ho',
 	# Requested for translatewiki: T391731
 	'hoc-latn' => 'Ho (Latin script)',
+	# used by Wikidata, T433779
+	'hr-glag' => 'Croatian (Glagolitic script)',
 	# Adde to core, cd62565296
 	'hrx' => 'Hunsrik',
 	'hsn' => 'Xiang',
