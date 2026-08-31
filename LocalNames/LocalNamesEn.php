@@ -890,6 +890,8 @@ $languageNames = [
 	'sem' => 'Semitic languages',
 	# used by Wikidata, T312904
 	'ser' => 'Serrano',
+	# used by Wikidata, T434343
+	'sfb' => 'French Belgian Sign Language',
 	'sgh' => 'Shughni',
 	# used by Wikidata, T402840
 	'sgh-arab' => 'Shughni (Arabic script)',
@@ -1051,6 +1053,8 @@ $languageNames = [
 	'uz-cyrl' => 'Uzbek (Cyrillic script)',
 	'uz-latn' => 'Uzbek (Latin script)',
 	'uzs' => 'Southern Uzbek',
+	# used by Wikidata, T434343
+	'vgt' => 'Flemish Sign Language',
 	'vi-hani' => 'Vietnamese (Han script)',
 	# used by Wikidata, T263946
 	'vut' => 'Vute',
