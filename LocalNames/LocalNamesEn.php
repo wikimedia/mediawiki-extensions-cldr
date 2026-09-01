@@ -998,6 +998,8 @@ $languageNames = [
 	'suz' => 'Sunwar',
 	# used by Wikidata, T407106
 	'sva' => 'Svan',
+	# used by Wikidata, T434453
+	'svm' => 'Molise Slavic',
 	# T381060
 	'sxr' => 'Saaroa',
 	'sxu' => 'Upper Saxon',
