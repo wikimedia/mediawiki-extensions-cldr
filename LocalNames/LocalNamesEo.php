@@ -4,6 +4,7 @@
 $languageNames = [
 	'bfi' => 'brita signolingvo',
 	'eo-hsistemo' => 'Esperanto (H-sistemo)',
+	'eo-shaw' => 'Esperanto (ŝava skribsistemo)',
 	'eo-xsistemo' => 'Esperanto (X-sistemo)',
 	'frm' => 'Mezfranca',
 	'fro' => 'Malnovfranca',

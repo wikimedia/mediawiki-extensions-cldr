@@ -308,6 +308,8 @@ $languageNames = [
 	# Added to core, I0c9c9fec92
 	'en-x-piglatin' => 'Pig Latin',
 	'eo-hsistemo' => 'Esperanto (h-system orthography)',
+	# used by Wikidata, T436702
+	'eo-shaw' => 'Esperanto (Shavian script)',
 	'eo-xsistemo' => 'Esperanto (x-system orthography)',
 	# Missing en translation T256649
 	'es-formal' => 'Spanish (formal address)',
