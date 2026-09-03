@@ -227,6 +227,14 @@ $languageNames = [
 	'cmc' => 'Chamic languages',
 	# used by Wikidata, T215032
 	'cmg' => 'Classical Mongolian',
+	# used by Wikidata, T436951
+	'cmn-latn-cn-pinyin' => 'Mandarin (Latin script, China, Hanyu Pinyin)',
+	# used by Wikidata, T436951
+	'cmn-latn-tw-pinyin' => 'Mandarin (Latin script, Taiwan, Hanyu Pinyin)',
+	# used by Wikidata, T436951
+	'cmn-latn-tw-tongyong' => 'Mandarin (Latin script, Taiwan, Tongyong Pinyin)',
+	# used by Wikidata, T436951
+	'cmn-latn-tw-wadegile' => 'Mandarin (Latin script, Taiwan, Wade-Giles romanization)',
 	# used by Wikidata, T278853
 	'cnh' => 'Hakha-Chin',
 	# Used by translatewiki
