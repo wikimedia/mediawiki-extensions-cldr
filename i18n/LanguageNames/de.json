@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Brettchenweber"
+		]
 	},
 	"cldr-language-name-aa": "Afar",
 	"cldr-language-name-aae": "Arbëresh",
@@ -295,7 +297,7 @@
 	"cldr-language-name-gba": "Gbaya",
 	"cldr-language-name-gbz": "Gabri",
 	"cldr-language-name-gcf": "Guadeloupe-Kreolisch",
-	"cldr-language-name-gcr": "Französisch-Guayana Kreolisch",
+	"cldr-language-name-gcr": "Französisch-Guayana-Kreolisch",
 	"cldr-language-name-gd": "Gälisch (Schottland)",
 	"cldr-language-name-gez": "Geez",
 	"cldr-language-name-gil": "Kiribatisch",

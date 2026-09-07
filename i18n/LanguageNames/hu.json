@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Tacsipacsi"
+		]
 	},
 	"cldr-language-name-aa": "afar",
 	"cldr-language-name-ab": "abház",
@@ -41,6 +43,7 @@
 	"cldr-language-name-ba": "baskír",
 	"cldr-language-name-bal": "balucsi",
 	"cldr-language-name-ban": "balinéz",
+	"cldr-language-name-bar": "bajor",
 	"cldr-language-name-bas": "basza",
 	"cldr-language-name-bax": "bamun",
 	"cldr-language-name-bbj": "gomala",

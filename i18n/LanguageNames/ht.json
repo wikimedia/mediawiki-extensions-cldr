@@ -2,7 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"cldr-language-name-ht": "Kreyòl Ayisyen",
 	"cldr-language-name-aa": "afar",
 	"cldr-language-name-ab": "abkhaze",
 	"cldr-language-name-ace": "aceh",
@@ -238,6 +237,7 @@
 	"cldr-language-name-hr": "croate",
 	"cldr-language-name-hsb": "haut-sorabe",
 	"cldr-language-name-hsn": "xiang",
+	"cldr-language-name-ht": "Kreyòl Ayisyen",
 	"cldr-language-name-hu": "hongrois",
 	"cldr-language-name-hup": "hupa",
 	"cldr-language-name-hur": "halkomelem",

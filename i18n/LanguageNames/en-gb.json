@@ -2,7 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"cldr-language-name-ff": "Fulah",
 	"cldr-language-name-aa": "Afar",
 	"cldr-language-name-ab": "Abkhazian",
 	"cldr-language-name-ace": "Acehnese",
@@ -180,6 +179,7 @@
 	"cldr-language-name-fa-af": "Dari",
 	"cldr-language-name-fan": "Fang",
 	"cldr-language-name-fat": "Fanti",
+	"cldr-language-name-ff": "Fulah",
 	"cldr-language-name-fi": "Finnish",
 	"cldr-language-name-fil": "Filipino",
 	"cldr-language-name-fit": "Tornedalen Finnish",

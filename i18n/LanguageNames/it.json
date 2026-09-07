@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Beta16"
+		]
 	},
 	"cldr-language-name-aa": "afar",
 	"cldr-language-name-ab": "abcaso",
@@ -590,6 +592,9 @@
 	"cldr-language-name-sv": "svedese",
 	"cldr-language-name-sw": "swahili",
 	"cldr-language-name-sw-cd": "swahili del Congo",
+	"cldr-language-name-sw-arab": "Swahili (scrittura araba)",
+	"cldr-language-name-sw-arab-cd": "Swahili (scrittura araba, Congo)",
+	"cldr-language-name-sw-arab-mz": "Swahili (scrittura araba, Mozambico)",
 	"cldr-language-name-swb": "comoriano",
 	"cldr-language-name-syc": "siriaco classico",
 	"cldr-language-name-syl-beng": "Sylheti (scrittura bengalese)",

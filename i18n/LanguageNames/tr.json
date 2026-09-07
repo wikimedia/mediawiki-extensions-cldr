@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Hedda"
+		]
 	},
 	"cldr-language-name-aa": "Afar",
 	"cldr-language-name-ab": "Abhazca",
@@ -34,8 +36,11 @@
 	"cldr-language-name-arp": "Arapaho dili",
 	"cldr-language-name-arq": "Cezayir Arapçası",
 	"cldr-language-name-ars": "Necd Arapçası",
+	"cldr-language-name-art": "yapay diller",
 	"cldr-language-name-arw": "Arawak Dili",
 	"cldr-language-name-ary": "Fas Arapçası",
+	"cldr-language-name-ary-arab": "Fas Arapçası (Arap alfabesi)",
+	"cldr-language-name-ary-latn": "Fas Arapçası (Latin alfabesi)",
 	"cldr-language-name-arz": "Mısır Arapçası",
 	"cldr-language-name-as": "Assamca",
 	"cldr-language-name-asa": "Asu",

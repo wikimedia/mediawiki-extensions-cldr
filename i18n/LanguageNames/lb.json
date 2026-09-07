@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Volvox"
+		]
 	},
 	"cldr-language-name-aa": "Afar",
 	"cldr-language-name-ab": "Abchasesch",
@@ -49,6 +51,7 @@
 	"cldr-language-name-ban": "Balinesesch",
 	"cldr-language-name-bar": "Bairesch",
 	"cldr-language-name-bas": "Basaa-Sprooch",
+	"cldr-language-name-bat": "Baltesch Sproochen",
 	"cldr-language-name-bax": "Bamun",
 	"cldr-language-name-bbc": "Batak Toba",
 	"cldr-language-name-bbj": "Ghomálá’",
@@ -93,6 +96,7 @@
 	"cldr-language-name-cdz-beng": "Koda (bengalesch Schrëft)",
 	"cldr-language-name-ce": "Tschetschenesch",
 	"cldr-language-name-ceb": "Cebuano",
+	"cldr-language-name-cel": "Keltesch Sproochen",
 	"cldr-language-name-cgg": "Kiga",
 	"cldr-language-name-ch": "Chamorro-Sprooch",
 	"cldr-language-name-chb": "Chibcha-Sprooch",
@@ -245,6 +249,7 @@
 	"cldr-language-name-ilo": "Ilokano-Sprooch",
 	"cldr-language-name-inh": "Inguschesch",
 	"cldr-language-name-io": "Ido-Sprooch",
+	"cldr-language-name-ira": "Iranesch Sproochen",
 	"cldr-language-name-is": "Islännesch",
 	"cldr-language-name-it": "Italienesch",
 	"cldr-language-name-iu": "Inukitut",
@@ -512,6 +517,7 @@
 	"cldr-language-name-sid": "Sidamo",
 	"cldr-language-name-sk": "Slowakesch",
 	"cldr-language-name-sl": "Slowenesch",
+	"cldr-language-name-sla": "Slawesch Sproochen",
 	"cldr-language-name-sli": "Nidderschlesesch",
 	"cldr-language-name-sly": "Selayar",
 	"cldr-language-name-sm": "Samoanesch",
