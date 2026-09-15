@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Amire80"
+		]
 	},
 	"cldr-language-name-aa": "אפארית",
 	"cldr-language-name-aae": "ארברשית",
@@ -26,7 +28,7 @@
 	"cldr-language-name-ak": "שפות אקאניות",
 	"cldr-language-name-akk": "אכדית",
 	"cldr-language-name-akz": "אלבמית",
-	"cldr-language-name-ale": "אלאוט",
+	"cldr-language-name-ale": "אלאוטית",
 	"cldr-language-name-ale-cyrl": "אלאוטית בכתב קירילי",
 	"cldr-language-name-aln": "גגית",
 	"cldr-language-name-alt": "אלטאית דרומית",
@@ -212,7 +214,7 @@
 	"cldr-language-name-ext": "אקסטרמדורית",
 	"cldr-language-name-fa": "פרסית",
 	"cldr-language-name-fa-af": "דארי",
-	"cldr-language-name-fan": "פנג",
+	"cldr-language-name-fan": "פאנג",
 	"cldr-language-name-fat": "פאנטי",
 	"cldr-language-name-ff": "פולה",
 	"cldr-language-name-fi": "פינית",
@@ -227,7 +229,7 @@
 	"cldr-language-name-fro": "צרפתית עתיקה",
 	"cldr-language-name-frp": "ארפיטנית",
 	"cldr-language-name-frr": "פריזית צפונית",
-	"cldr-language-name-frs": "פריזית מזרחית",
+	"cldr-language-name-frs": "סקסונית תחתונה פריזית מזרחית",
 	"cldr-language-name-fur": "פריולית",
 	"cldr-language-name-fvr": "פורית",
 	"cldr-language-name-fy": "פריזית מערבית",
@@ -356,7 +358,7 @@
 	"cldr-language-name-ko": "קוריאנית",
 	"cldr-language-name-koi": "קומי-פרמיאקית",
 	"cldr-language-name-kok": "קונקאני",
-	"cldr-language-name-kos": "קוסראיאן",
+	"cldr-language-name-kos": "קוסראית",
 	"cldr-language-name-kpe": "קפלה",
 	"cldr-language-name-kr": "קאנורי",
 	"cldr-language-name-krc": "קרצ׳אי בלקרית",
@@ -736,7 +738,7 @@
 	"cldr-language-name-vro": "וירו",
 	"cldr-language-name-vun": "וונג׳ו",
 	"cldr-language-name-wa": "ולונית",
-	"cldr-language-name-wae": "וואלסר",
+	"cldr-language-name-wae": "ואלסרית",
 	"cldr-language-name-wal": "ווליאטה",
 	"cldr-language-name-war": "וראית",
 	"cldr-language-name-was": "וואשו",
