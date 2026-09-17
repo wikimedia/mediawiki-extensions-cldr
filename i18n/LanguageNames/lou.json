@@ -8,5 +8,11 @@
 	"cldr-language-name-ach": "acoli",
 	"cldr-language-name-asa": "asu",
 	"cldr-language-name-bkc": "baka",
-	"cldr-language-name-en-us": "merikin"
+	"cldr-language-name-en-us": "merikin",
+	"cldr-language-name-jbo": "lojban",
+	"cldr-language-name-knq": "kintaq",
+	"cldr-language-name-pi": "pali",
+	"cldr-language-name-prs": "dari",
+	"cldr-language-name-rug": "roviana",
+	"cldr-language-name-slr": "salar"
 }
