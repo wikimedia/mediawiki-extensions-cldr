@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"GuoPC"
+			"GuoPC",
+			"Pawsdt"
 		]
 	},
 	"cldr-language-name-aa": "阿法尔语",
 	"cldr-language-name-ab": "阿布哈西亚语",
+	"cldr-language-name-abq": "阿巴扎语",
+	"cldr-language-name-abq-latn": "阿巴扎语",
 	"cldr-language-name-ace": "亚齐语",
 	"cldr-language-name-ach": "阿乔利语",
 	"cldr-language-name-acm": "伊拉克阿拉伯语",

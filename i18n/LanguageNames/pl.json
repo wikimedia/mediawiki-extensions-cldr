@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"PanWor"
+		]
 	},
 	"cldr-language-name-aa": "afar",
 	"cldr-language-name-ab": "abchaski",
@@ -483,7 +485,7 @@
 	"cldr-language-name-rm": "retoromański",
 	"cldr-language-name-rn": "rundi",
 	"cldr-language-name-ro": "rumuński",
-	"cldr-language-name-ro-md": "mołdawski",
+	"cldr-language-name-ro-md": "mołdawski rumuński",
 	"cldr-language-name-rof": "rombo",
 	"cldr-language-name-rom": "cygański",
 	"cldr-language-name-rtm": "rotumański",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"LowensteinYang",
 			"SupaplexTW"
 		]
 	},
@@ -124,6 +125,14 @@
 	"cldr-language-name-chr": "柴羅基文",
 	"cldr-language-name-chy": "沙伊安文",
 	"cldr-language-name-cic": "契卡索文",
+	"cldr-language-name-cja": "西占語",
+	"cldr-language-name-cja-arab": "西占語 (阿拉伯文)",
+	"cldr-language-name-cja-cham": "西占語 (占語字母)",
+	"cldr-language-name-cja-latn": "西占語 (拉丁字母)",
+	"cldr-language-name-cjm": "東占語",
+	"cldr-language-name-cjm-arab": "東占語 (阿拉伯文)",
+	"cldr-language-name-cjm-cham": "東占語 (占語字母)",
+	"cldr-language-name-cjm-latn": "東占語(拉丁字母)",
 	"cldr-language-name-cjy": "晉語",
 	"cldr-language-name-cjy-hans": "晉語 (簡體漢字)",
 	"cldr-language-name-cjy-hant": "晉語 (繁體漢字)",
@@ -131,6 +140,7 @@
 	"cldr-language-name-ckb-arab": "中庫德文 (阿拉伯文)",
 	"cldr-language-name-ckb-latn": "中庫德文 (拉丁字母)",
 	"cldr-language-name-clc": "齊爾柯廷語",
+	"cldr-language-name-cmc": "占語群",
 	"cldr-language-name-cmn-latn-cn-pinyin": "華語（拉丁文字，中國大陸，漢語拼音）",
 	"cldr-language-name-cmn-latn-tw-pinyin": "華語（拉丁文字，臺灣，漢語拼音）",
 	"cldr-language-name-cmn-latn-tw-tongyong": "華語（拉丁文字，臺灣，通用拼音）",
@@ -438,6 +448,7 @@
 	"cldr-language-name-mwv": "明打威文",
 	"cldr-language-name-my": "緬甸文",
 	"cldr-language-name-mye": "姆耶內文",
+	"cldr-language-name-myn": "馬雅語系",
 	"cldr-language-name-myv": "厄爾茲亞文",
 	"cldr-language-name-mzn": "馬贊德蘭文",
 	"cldr-language-name-na": "諾魯文",
@@ -545,7 +556,8 @@
 	"cldr-language-name-rm-vallader": "Vallader 方言",
 	"cldr-language-name-rn": "隆迪文",
 	"cldr-language-name-ro": "羅馬尼亞文",
-	"cldr-language-name-ro-md": "摩爾多瓦文",
+	"cldr-language-name-ro-md": "摩爾多瓦羅馬尼亞文",
+	"cldr-language-name-roa": "羅曼語族",
 	"cldr-language-name-rof": "蘭博文",
 	"cldr-language-name-rom": "吉普賽文",
 	"cldr-language-name-rtm": "羅圖馬島文",
@@ -740,6 +752,8 @@
 	"cldr-language-name-zh-sg": "中文 (新加坡)",
 	"cldr-language-name-zh-tw": "中文 (臺灣)",
 	"cldr-language-name-zh-yue": "粵語",
+	"cldr-language-name-zmi": "森美蘭馬來語",
+	"cldr-language-name-znd": "贊德語支",
 	"cldr-language-name-zu": "祖魯文",
 	"cldr-language-name-zun": "祖尼文",
 	"cldr-language-name-zxx": "無語言內容",
