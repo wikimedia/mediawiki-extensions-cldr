@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Matroz"
 		]
 	},
 	"cldr-language-name-aa": "afar",
@@ -79,6 +80,7 @@
 	"cldr-language-name-blo": "anii",
 	"cldr-language-name-bm": "bambara",
 	"cldr-language-name-bn": "bengalese",
+	"cldr-language-name-bn-sylo": "Bengalese (scrittura Sylheti Nagri)",
 	"cldr-language-name-bo": "tibetano",
 	"cldr-language-name-bpy": "bishnupriya",
 	"cldr-language-name-bqi": "bakhtiari",
