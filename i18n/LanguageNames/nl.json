@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -1088,7 +1089,7 @@
 	"cldr-language-name-rn": "Kirundi",
 	"cldr-language-name-rnp": "Rangpo",
 	"cldr-language-name-ro": "Roemeens",
-	"cldr-language-name-ro-md": "Moldavisch",
+	"cldr-language-name-ro-md": "Moldavisch-Roemeens",
 	"cldr-language-name-roa": "Romaanse talen",
 	"cldr-language-name-roa-rup": "Aroemeens",
 	"cldr-language-name-roa-tara": "Tarantijns",
