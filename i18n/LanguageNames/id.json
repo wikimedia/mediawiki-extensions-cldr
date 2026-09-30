@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Veracious"
+		]
 	},
 	"cldr-language-name-aa": "Afar",
 	"cldr-language-name-ab": "Abkhaz",
@@ -70,6 +72,7 @@
 	"cldr-language-name-blo": "Anii",
 	"cldr-language-name-bm": "Bambara",
 	"cldr-language-name-bn": "Bengali",
+	"cldr-language-name-bn-sylo": "Bahasa Bengali (aksara Sylheti Nagri)",
 	"cldr-language-name-bo": "Tibet",
 	"cldr-language-name-br": "Breton",
 	"cldr-language-name-bra": "Braj",
