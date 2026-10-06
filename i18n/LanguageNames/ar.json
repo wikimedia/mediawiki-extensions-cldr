@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Meno25"
+		]
 	},
 	"cldr-language-name-aa": "الأفارية",
 	"cldr-language-name-ab": "الأبخازية",
@@ -460,7 +462,7 @@
 	"cldr-language-name-rm-vallader": "فالدر",
 	"cldr-language-name-rn": "الرندي",
 	"cldr-language-name-ro": "الرومانية",
-	"cldr-language-name-ro-md": "المولدوفية",
+	"cldr-language-name-ro-md": "مولدوفان رومانية",
 	"cldr-language-name-rof": "الرومبو",
 	"cldr-language-name-rom": "الغجرية",
 	"cldr-language-name-ru": "الروسية",

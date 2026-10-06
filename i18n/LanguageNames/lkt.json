@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Tuwewanzi"
+		]
 	},
 	"cldr-language-name-ab": "Abkhaz Iyápi",
 	"cldr-language-name-ady": "Adyghe Iyápi",
@@ -90,7 +92,7 @@
 	"cldr-language-name-lb": "Luxembourg Iyápi",
 	"cldr-language-name-lkt": "Lakȟólʼiyapi",
 	"cldr-language-name-lo": "Lao Iyápi",
-	"cldr-language-name-lt": "Lithuania Iyápilt",
+	"cldr-language-name-lt": "Lithuania Iyápi",
 	"cldr-language-name-lus": "Mizo Iyápi",
 	"cldr-language-name-lv": "Latvia Iyápi",
 	"cldr-language-name-mg": "Malagasy Iyápi",
