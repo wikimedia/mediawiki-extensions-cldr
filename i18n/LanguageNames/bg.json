@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"StanProg"
+		]
 	},
 	"cldr-language-name-aa": "афарски",
 	"cldr-language-name-ab": "абхазки",
@@ -403,7 +405,7 @@
 	"cldr-language-name-rm": "реторомански",
 	"cldr-language-name-rn": "рунди",
 	"cldr-language-name-ro": "румънски",
-	"cldr-language-name-ro-md": "молдовски",
+	"cldr-language-name-ro-md": "молдовски румънски",
 	"cldr-language-name-rof": "ромбо",
 	"cldr-language-name-rom": "ромски",
 	"cldr-language-name-ru": "руски",
