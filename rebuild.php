@@ -182,6 +182,7 @@ class CLDRRebuild extends Maintenance {
 				}
 
 				if ( count( array_keys( $newJsonMessages ) ) > 1 ) {
+					ksort( $newJsonMessages );
 					// only write $newJsonMessages if it contains keys beyond the "@metadata"
 					$this->writeJsonMessages( $OUTPUT, $mwCode, $newJsonMessages );
 				}
