@@ -889,6 +889,8 @@
 	"cldr-language-name-nds-nl": "{{doc-cldr-language-name|nds-nl}}",
 	"cldr-language-name-ne": "{{doc-cldr-language-name|ne}}",
 	"cldr-language-name-new": "{{doc-cldr-language-name|new}}",
+	"cldr-language-name-new-deva": "{{doc-cldr-language-name|new-deva}}",
+	"cldr-language-name-new-newa": "{{doc-cldr-language-name|new-newa}}",
 	"cldr-language-name-ng": "{{doc-cldr-language-name|ng}}",
 	"cldr-language-name-nge": "{{doc-cldr-language-name|nge}}",
 	"cldr-language-name-nia": "{{doc-cldr-language-name|nia}}",
