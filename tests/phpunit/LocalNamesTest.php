@@ -25,7 +25,7 @@ class LocalNamesTest extends MediaWikiIntegrationTestCase {
 		}
 		$this->fail(
 			"There are more language names for '$languageCode' than for 'en'; " .
-			"most likely, the following language code(s) should be added to LocalNamesEn.php:\n" .
+			"most likely, the following language code(s) should be added to i18n/LanguageNames/en.json:\n" .
 			var_export( $extraLanguageCodes, true )
 		);
 	}

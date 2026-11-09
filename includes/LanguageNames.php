@@ -162,7 +162,7 @@ class LanguageNames {
 			}
 		}
 
-		// remove falsy language names (LocalNames can override/unset CldrMain this way)
+		// remove falsy language names (LanguageNames can override/unset CldrMain this way)
 		self::$cache[$code] = array_filter( self::$cache[$code] );
 
 		return self::$cache[$code];
