@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Eleassar"
+		]
 	},
 	"cldr-language-name-aa": "afarščina",
 	"cldr-language-name-ab": "abhaščina",
@@ -153,6 +155,10 @@
 	"cldr-language-name-es-mx": "mehiška španščina",
 	"cldr-language-name-et": "estonščina",
 	"cldr-language-name-eu": "baskovščina",
+	"cldr-language-name-evn": "evenščina",
+	"cldr-language-name-evn-cyrl": "evenščina (cirilica)",
+	"cldr-language-name-evn-latn": "evenki (latinica)",
+	"cldr-language-name-evn-mong": "evenščina (mongolska pisava)",
 	"cldr-language-name-ewo": "evondovščina",
 	"cldr-language-name-fa": "perzijščina",
 	"cldr-language-name-fa-af": "darijščina",
@@ -397,6 +403,11 @@
 	"cldr-language-name-nzi": "nzima",
 	"cldr-language-name-obt": "stara bretonščina",
 	"cldr-language-name-oc": "okcitanščina",
+	"cldr-language-name-oc-auvern": "auvergnatščina",
+	"cldr-language-name-oc-gascon": "gaskonjščina",
+	"cldr-language-name-oc-lemosin": "limuzinščina",
+	"cldr-language-name-oc-lengadoc": "languedoščina",
+	"cldr-language-name-oc-provenc": "provansalščina",
 	"cldr-language-name-oj": "anašinabščina",
 	"cldr-language-name-ojb": "severozahodna očipvejščina",
 	"cldr-language-name-ojc": "osrednja očipvejščina",
@@ -409,6 +420,7 @@
 	"cldr-language-name-osa": "osage",
 	"cldr-language-name-ota": "otomanska turščina",
 	"cldr-language-name-pa": "pandžabščina",
+	"cldr-language-name-pa-mahj": "pandžabščina (mahajanska pisava)",
 	"cldr-language-name-pag": "pangasinanščina",
 	"cldr-language-name-pam": "pampanščina",
 	"cldr-language-name-pap": "papiamentu",
@@ -421,6 +433,7 @@
 	"cldr-language-name-pks": "Pakistanski znakovni jezik",
 	"cldr-language-name-pl": "poljščina",
 	"cldr-language-name-pon": "ponpejščina",
+	"cldr-language-name-pox": "polabščina",
 	"cldr-language-name-pqm": "maliseet-passamaquoddščina",
 	"cldr-language-name-prg": "stara pruščina",
 	"cldr-language-name-pro": "stara provansalščina",
