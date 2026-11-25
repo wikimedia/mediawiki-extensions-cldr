@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Repakr"
+		]
 	},
 	"cldr-language-name-aa": "афарська",
 	"cldr-language-name-ab": "абхазька",
@@ -280,6 +282,10 @@
 	"cldr-language-name-kmb": "кімбунду",
 	"cldr-language-name-kn": "каннада",
 	"cldr-language-name-ko": "корейська",
+	"cldr-language-name-ko-cn": "Корейська (Китай)",
+	"cldr-language-name-ko-kore": "Корейська (змішана писемність)",
+	"cldr-language-name-ko-kp": "Корейська (Північна Корея)",
+	"cldr-language-name-ko-kr": "Корейська (Південна Корея)",
 	"cldr-language-name-koi": "комі-перм’яцька",
 	"cldr-language-name-kok": "конкані",
 	"cldr-language-name-kos": "косрае",
