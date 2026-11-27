@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ucukor"
+		]
 	},
 	"cldr-language-name-aa": "афарская",
 	"cldr-language-name-ab": "абхаская",
@@ -371,6 +373,7 @@
 	"cldr-language-name-ro-md": "малдоўская",
 	"cldr-language-name-rof": "ромбская",
 	"cldr-language-name-ru": "расейская",
+	"cldr-language-name-ru-petr1708": "Расейская (Пятроўскі правапіс)",
 	"cldr-language-name-rup": "арумунская",
 	"cldr-language-name-rw": "руандыйская",
 	"cldr-language-name-rwk": "руаская",
